@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector] public GameObject player;
     [HideInInspector] public Rigidbody rb;
     public Transform cam;
+    public Transform lookPosition;
     public int speed;
     public int maxVelocity;
     public Animator animator;
@@ -59,9 +60,12 @@ public class PlayerMovement : MonoBehaviour
 
     public void PlayerRotation()
     {
-        player.transform.rotation = Quaternion.Euler(new Vector3(player.transform.rotation.x, cam.rotation.normalized.y * 180, player.transform.rotation.z));
+        //player.transform.rotation = Quaternion.Euler(new Vector3(player.transform.rotation.x, cam.rotation.normalized.y * 180, player.transform.rotation.z));
         //Vector3 lookDirection = player.transform.forward * Input.GetAxis("Vertical") + player.transform.right * Input.GetAxis("Horizontal");
         //player.transform.forward = Vector3.Slerp(player.transform.forward, lookDirection, Time.deltaTime * 7);
+        //player.transform.LookAt(new Vector3(cam.transform.position.x,0, cam.transform.position.z));
+        player.transform.LookAt(new Vector3(lookPosition.position.x,0, lookPosition.position.z));
+
     }
 
 
