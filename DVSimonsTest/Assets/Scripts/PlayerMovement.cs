@@ -28,6 +28,9 @@ public class PlayerMovement : MonoBehaviour
         player.transform.position += vec * Time.deltaTime * speed;
         animator.SetFloat("SpeedX", Input.GetAxis("Horizontal"));
         animator.SetFloat("SpeedZ", Input.GetAxis("Vertical"));
+        /*animator.SetFloat("InputHorizontal", Input.GetAxis("Horizontal"));
+        animator.SetFloat("InputVertical", Input.GetAxis("Vertical"));
+        animator.SetFloat("RotationMagnitude", player.transform.rotation.normalized.y);*/
     }
 
     public void CameraFollowPosition()
