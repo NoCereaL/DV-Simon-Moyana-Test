@@ -60,6 +60,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
 		myPlayer = (GameObject)PhotonNetwork.Instantiate("Player", spawnpoints[Random.Range(0, spawnpoints.Capacity)].position, Quaternion.identity);
 		myPlayer.GetComponent<PlayerMovement>().enabled = true;
 		myPlayer.GetComponent<PlayerMovement>().cam.GetComponent<CinemachineFreeLook>().enabled = true;
-
+		myPlayer.GetComponent<PlayerMovement>().serverName.enabled = true;
+		myPlayer.GetComponent<PlayerMovement>().playerName = PhotonNetwork.LocalPlayer.NickName;
 	}
 }

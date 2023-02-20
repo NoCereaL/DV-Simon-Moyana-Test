@@ -2,25 +2,31 @@
  * Author: Simon K Moyana
  */
 
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviourPun
 {
     [HideInInspector] public GameObject player;
     [HideInInspector] public Rigidbody rb;
+    public string playerName;
     public Transform cam;
     public Transform lookPosition;
     public int speed;
     public int maxVelocity;
-    public Animator animator;
+    private Animator animator;
+    public PlayerServerName serverName;
     // Start is called before the first frame update
     void Start()
     {
         player = this.gameObject;
         rb = this.gameObject.GetComponent<Rigidbody>();
         animator = this.gameObject.GetComponent<Animator>();
+        MSKGameManager.Instance.clientPhotonView = this.gameObject.GetComponent<PhotonView>();
+        this.photonView.RPC("SetPlayerName", RpcTarget.AllBufferedViaServer, PhotonNetwork.LocalPlayer.NickName);
+        this.photonView.RPC("SetName", RpcTarget.AllBufferedViaServer, playerName);
     }
 
     // Update is called once per frame
@@ -73,4 +79,17 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
+    //Network Remote Procedure Calls
+    [PunRPC]
+    void SetName(string name)
+    {
+        name = PhotonNetwork.LocalPlayer.NickName;
+        if (serverName != null) { serverName.text.text = name; }
+    }
+
+    [PunRPC]
+    void SetPlayerName(string name)
+    {
+        playerName = name;
+    }
 }
