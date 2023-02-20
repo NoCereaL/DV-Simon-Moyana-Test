@@ -4,12 +4,13 @@ using UnityEngine;
 using TMPro;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.UI;
 
 public class PlayerButtonListing : MonoBehaviourPunCallbacks
 {
     public TextMeshProUGUI text;
     Player player;
-    string thisName;
+    public Slider slider;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,6 @@ public class PlayerButtonListing : MonoBehaviourPunCallbacks
     {
         player = _player;
         text.text = _player.NickName;
-        thisName = text.text;
         //text.text = MSKGameManager.Instance.players[_player.ActorNumber].GetComponent<PlayerMovement>().playerName;
     }
 
@@ -62,6 +62,18 @@ public class PlayerButtonListing : MonoBehaviourPunCallbacks
             if (player.GetComponent<PlayerMovement>().playerName == text.text)
             {
                 player.GetComponentInChildren<AudioSource>().volume = 100;
+
+            }
+        }
+    }
+
+    public void ChangePlayerVolume()
+    {
+        foreach (GameObject player in MSKGameManager.Instance.players)
+        {
+            if (player.GetComponent<PlayerMovement>().playerName == text.text)
+            {
+                player.GetComponentInChildren<AudioSource>().volume = slider.value;
             }
         }
     }
