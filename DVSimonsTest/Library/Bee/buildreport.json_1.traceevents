@@ -1,0 +1,470 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676854895125707, "dur": 329894, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676854895126029, "dur": 3492, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676854895129524, "dur": 312319, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676854895441845, "dur": 13755, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676854895456259, "dur": 7, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676854895157796, "dur":1366, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895159175, "dur":206, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676854895159450, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676854895159472, "dur":512, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676854895160010, "dur":998, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895161008, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429394, "dur":441, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429835, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429850, "dur":26, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429876, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429884, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429886, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429891, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429893, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429901, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429903, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429909, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429910, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429918, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429919, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429928, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429929, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429936, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429937, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429945, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429947, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429955, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429957, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429963, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429964, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429971, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895429986, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895430010, "dur":2075, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676854895159982, "dur":1036, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895161019, "dur":6526, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895167558, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676854895167560, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895167785, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676854895167787, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895167823, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676854895167866, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895167896, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676854895167964, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168000, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168039, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168073, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168120, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168209, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168264, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168353, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168393, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168431, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168465, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168567, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168607, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895168637, "dur":13516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1676854895182153, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895182194, "dur":4536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1676854895186730, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895186765, "dur":5289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1676854895192055, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895192098, "dur":869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676854895192967, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895193006, "dur":10321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1676854895203328, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895203380, "dur":46501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676854895249882, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895249931, "dur":124029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676854895373961, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676854895374042, "dur":55369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676854895160017, "dur":1011, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676854895161028, "dur":6719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676854895167749, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676854895167786, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676854895167814, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676854895167865, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676854895167902, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676854895167968, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676854895168110, "dur":151357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676854895319468, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676854895319520, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676854895319557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676854895319565, "dur":3617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676854895323214, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1676854895323249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676854895323253, "dur":10928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1676854895334368, "dur":95019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895160475, "dur":614, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895161089, "dur":6687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895167780, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1676854895167819, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895167854, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest.exe" }}
+,{ "pid":12345, "tid":3, "ts":1676854895167961, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895167992, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168024, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168053, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168098, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168127, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168160, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168194, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168228, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168272, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168309, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168346, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168380, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168410, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168439, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168467, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168557, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895168596, "dur":3879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676854895172477, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895172824, "dur":256457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676854895429281, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676854895429338, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1676854895429339, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895160075, "dur":962, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895161038, "dur":6700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895167743, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1676854895167837, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895167874, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676854895167907, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895168042, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676854895168074, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895168102, "dur":6620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1676854895174722, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895174770, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676854895175411, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895175452, "dur":36357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1676854895211811, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895211866, "dur":12868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1676854895224735, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895224780, "dur":60483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676854895285263, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895285311, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1676854895285403, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895285438, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1676854895285488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895286179, "dur":3348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1676854895289567, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676854895289609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895289617, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676854895290340, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676854895290380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676854895290385, "dur":65570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676854895355987, "dur":73421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895160112, "dur":930, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895161042, "dur":6510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895167642, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1676854895167706, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895167752, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676854895167874, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895167951, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676854895167991, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895168021, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676854895168174, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895168213, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676854895168251, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895168285, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676854895168317, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895168356, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676854895168387, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895168646, "dur":84750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253397, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253457, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253495, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253524, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253551, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253576, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253604, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253629, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253655, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253679, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253709, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253735, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253762, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253788, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253829, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895253858, "dur":51345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1676854895305204, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895305255, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676854895305319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895305328, "dur":9227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676854895314594, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1676854895314739, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895314786, "dur":2092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1676854895316879, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895316924, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676854895316964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895316972, "dur":2981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676854895319991, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1676854895320033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895320038, "dur":10805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1676854895330891, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676854895330942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895330954, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676854895332340, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1676854895332381, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895332398, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1676854895333601, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1676854895333701, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676854895333738, "dur":95661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895160166, "dur":880, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895161046, "dur":6655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895167704, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676854895167760, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895167792, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1676854895167827, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895167867, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1676854895167903, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895167964, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168001, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168029, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168061, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168087, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168116, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168145, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168175, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168206, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168240, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168271, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168310, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168352, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168384, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168412, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168442, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168475, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168584, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168626, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168663, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895168697, "dur":11604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1676854895180302, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895180345, "dur":37717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895218062, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895218105, "dur":6634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895224740, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895224785, "dur":6582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1676854895231367, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895231457, "dur":4640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895236097, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895236238, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895236276, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895236576, "dur":6253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1676854895242830, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895242872, "dur":109501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676854895352374, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676854895352436, "dur":76957, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676854895160199, "dur":854, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676854895161053, "dur":6630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676854895167687, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1676854895167750, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676854895167792, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1676854895167823, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676854895167853, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1676854895167959, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676854895167994, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676854895168117, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676854895168153, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676854895168592, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676854895168631, "dur":60562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676854895229194, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676854895229246, "dur":52322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676854895281569, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676854895281606, "dur":145725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676854895427364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676854895427384, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676854895428497, "dur":891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895160237, "dur":825, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895161062, "dur":6630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895167696, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676854895167752, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895167828, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676854895167872, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895167955, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676854895167998, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168031, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168065, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168166, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168205, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168250, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168289, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168335, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168417, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168450, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168485, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168585, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168634, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895168659, "dur":73901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676854895242561, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895242615, "dur":8971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1676854895251587, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895251668, "dur":68280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676854895319949, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895319990, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1676854895320031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676854895320036, "dur":22902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1676854895342977, "dur":86417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895160345, "dur":721, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895161066, "dur":6606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895167676, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1676854895167747, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895167791, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1676854895167903, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895167989, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168024, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168053, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168082, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168113, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168145, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168173, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168204, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168233, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168266, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168299, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168332, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168360, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168389, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168416, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168445, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168474, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168569, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168600, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168629, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895168658, "dur":13061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1676854895181720, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895181762, "dur":23862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895205625, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895205668, "dur":24487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1676854895230155, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895230196, "dur":7584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1676854895237781, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895237819, "dur":182937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676854895420757, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676854895420830, "dur":8556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895160381, "dur":688, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895161069, "dur":6594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895167667, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1676854895167711, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168014, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168054, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168310, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168354, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168384, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168425, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168460, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168489, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168610, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168644, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168679, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676854895168713, "dur":752, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895169466, "dur":66869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676854895236335, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895236377, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676854895236410, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895236439, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676854895236471, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895236500, "dur":137452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676854895373954, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676854895374044, "dur":55373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895160417, "dur":654, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895161072, "dur":6582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895167657, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1676854895167729, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895167763, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1676854895167803, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895167835, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676854895167947, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895167985, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168018, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168050, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168214, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168285, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168322, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168354, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168385, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168422, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168453, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168481, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168583, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895168627, "dur":5691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1676854895174318, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895174367, "dur":7289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1676854895181656, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895181701, "dur":4548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1676854895186250, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895186309, "dur":30770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676854895217080, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895217141, "dur":1423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676854895218564, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895218612, "dur":35386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676854895253998, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895254036, "dur":161861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676854895415899, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676854895415980, "dur":13440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895160444, "dur":637, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895161081, "dur":6563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895167648, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1676854895167689, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895167736, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1676854895167772, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895167802, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1676854895167962, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895168084, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895168123, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895168151, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895168180, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895168234, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895168268, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895168591, "dur":946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895169537, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895169603, "dur":16885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1676854895186488, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895186538, "dur":37337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1676854895223877, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895224044, "dur":9006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1676854895233051, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895233118, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895233153, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895233182, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895233217, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895233258, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895233294, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895233328, "dur":1415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895234744, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895234957, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895235032, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895235362, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895235552, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895235647, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895235691, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895235721, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895235751, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236006, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236043, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236074, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236108, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236137, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236165, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236193, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236223, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236251, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236284, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236315, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236369, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236401, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236430, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895236460, "dur":7192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1676854895243652, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895243693, "dur":6386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1676854895250079, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895250114, "dur":31132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1676854895281247, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895281299, "dur":38398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1676854895319702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895319762, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1676854895320846, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1676854895320889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676854895320893, "dur":23534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smoya/Documents/Unity Builds 2023/DVTestSKM/DVSimonsTest_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1676854895344457, "dur":84953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676854895433703, "dur":1566, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676854895456342, "dur": 393, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676854895456245, "dur": 504, "ph": "X", "name": "Write chrome-trace events", "args": {} },

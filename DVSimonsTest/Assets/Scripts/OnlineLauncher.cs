@@ -114,6 +114,7 @@ public class OnlineLauncher : MonoBehaviourPunCallbacks
 		}
 
 		startGameButton.SetActive(PhotonNetwork.IsMasterClient);
+		//StartGame();
 	}
 
 	public override void OnMasterClientSwitched(Player newMasterClient)

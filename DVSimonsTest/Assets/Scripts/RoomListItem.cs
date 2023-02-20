@@ -1,4 +1,8 @@
-﻿using Photon.Realtime;
+﻿/*
+ * Author: Simon K Moyana
+ */
+
+using Photon.Realtime;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;

@@ -1,0 +1,350 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56918
+Successfully changed project path to: C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest
+C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 94.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.2698
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005694 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 93.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Domain Reload Profiling:
+	ReloadAssembly (641ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006552 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3810 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (183.2 KB). Loaded Objects now: 4272.
+Memory consumption went from 141.1 MB to 140.9 MB.
+Total: 3.240600 ms (FindLiveObjects: 0.313700 ms CreateObjectMapping: 0.097300 ms MarkObjects: 2.688200 ms  DeleteObjects: 0.140300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 427505.921787 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(dbc2f04f0b45a644287af43af9c94e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(dbc2f04f0b45a644287af43af9c94e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b718b5db84c35ad5418fb9e67a9f37') in 0.011997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.837109 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(dbc2f04f0b45a644287af43af9c94e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(dbc2f04f0b45a644287af43af9c94e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f10657420174675eba740f13c82b044') in 0.005721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 249.799999 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f285c3538f47d9ba22aedde531f2d82') in 0.193299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.668931 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(a994ca0011800a34da68574d29ae48b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(a994ca0011800a34da68574d29ae48b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ed3e67165dbeb5e82cc624c84770cb') in 0.002057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.551777 seconds.
+  path: Assets/Fonts/stormfaze
+  artifactKey: Guid(4393d3bef7e4be049a00e66880fa2285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/stormfaze using Guid(4393d3bef7e4be049a00e66880fa2285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4046c19523b994d537e9920914bed3') in 0.006059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048304 seconds.
+  path: Assets/Fonts/stormfaze/stormfaze.ttf
+  artifactKey: Guid(7fb7c5a0d42a2476aa94b7513adcca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/stormfaze/stormfaze.ttf using Guid(7fb7c5a0d42a2476aa94b7513adcca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7a8fde7dcf18e196e5f833ecb4f9d5') in 0.017112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.936633 seconds.
+  path: Assets/Fonts/stormfaze/stormfaze SDF.asset
+  artifactKey: Guid(3adc73c1a4af77a46868217ad15e5176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/stormfaze/stormfaze SDF.asset using Guid(3adc73c1a4af77a46868217ad15e5176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'ec60ac9885958672c7539a3ef57a2bfc') in 0.052936 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005319 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (830ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (634ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (0.7 MB). Loaded Objects now: 4350.
+Memory consumption went from 147.5 MB to 146.8 MB.
+Total: 3.040500 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.097400 ms MarkObjects: 2.320500 ms  DeleteObjects: 0.326700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 217.341073 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White X.png
+  artifactKey: Guid(f1b2565520fde4893a9047ef83d215dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White X.png using Guid(f1b2565520fde4893a9047ef83d215dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f42585d82455c41ccca8f1787a4d575') in 0.080922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.456357 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Rounded Switch On.png
+  artifactKey: Guid(73f86462d8ca748bfa6ce29a228ceb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Rounded Switch On.png using Guid(73f86462d8ca748bfa6ce29a228ceb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808206ff22da29e489f49b38b7a1d4a1') in 0.023798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Square Switch Off.png
+  artifactKey: Guid(db83a0473cb7d4d2583440567e3d0ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Square Switch Off.png using Guid(db83a0473cb7d4d2583440567e3d0ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32fbce34e49d88167c73b4c14d1f019') in 0.019276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Sound.png
+  artifactKey: Guid(e7ff8ffb2f30c4a898a73e447e53cc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Sound.png using Guid(e7ff8ffb2f30c4a898a73e447e53cc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3115e70a21dbc37afeca0badf9f87e') in 0.024698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Backgrounds/White Stripes.png
+  artifactKey: Guid(338de845e320441e787608e5eb54ce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Backgrounds/White Stripes.png using Guid(338de845e320441e787608e5eb54ce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbb6b842ecf506fbc1370c7de31fb08') in 0.057314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Square Switch On.png
+  artifactKey: Guid(081153d58139441329eddabc600e068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Toggles/White Square Switch On.png using Guid(081153d58139441329eddabc600e068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635662e7277e68405713129bdedd67e5') in 0.022159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Square Outline Button.png
+  artifactKey: Guid(e5343799bfa9e4e4c9edf6b3b99c0eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Square Outline Button.png using Guid(e5343799bfa9e4e4c9edf6b3b99c0eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd899e0d77e89f13f9226275b6b682c40') in 0.021755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.689589 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Rounded Button Big.png
+  artifactKey: Guid(59657e48a7cc20a41862369c19d22404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Rounded Button Big.png using Guid(59657e48a7cc20a41862369c19d22404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7156d7adf8c13f3ba1dac164ec7da7d9') in 0.023368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Tabs/White Round Inactive Tab.png
+  artifactKey: Guid(291f7479bbc4e49769a1fad29d9dab9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Tabs/White Round Inactive Tab.png using Guid(291f7479bbc4e49769a1fad29d9dab9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152618f32ef7811eca26dfdb00c882f0') in 0.025699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Round Outline Button.png
+  artifactKey: Guid(361685eeac9f141b09b365c40e020b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Round Outline Button.png using Guid(361685eeac9f141b09b365c40e020b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3121e19b4d58cdf9c6a5cf85810710e0') in 0.023666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Rounded Outline Button Big.png
+  artifactKey: Guid(b0f85583aac1af542b4c5e8001a42054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Rounded Outline Button Big.png using Guid(b0f85583aac1af542b4c5e8001a42054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7db9d2eb5288812b6b8d0b1899e194') in 0.025250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.292280 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Question.png
+  artifactKey: Guid(8878f6aeee8f5456ba946015221cdc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Question.png using Guid(8878f6aeee8f5456ba946015221cdc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16cc970f057d95b46dabc48e1aca14f') in 0.023176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Round Button.png
+  artifactKey: Guid(f2d1db67f26a74f13bb10147155953dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Buttons/White Round Button.png using Guid(f2d1db67f26a74f13bb10147155953dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4768d521ec2b801b501960a777fb87') in 0.019465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.558527 seconds.
+  path: Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Mute.png
+  artifactKey: Guid(bc560b3b0ac724b68ad7810f7dcaad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quantum Tek/Quantum UI/Sprites/Icons/White Mute.png using Guid(bc560b3b0ac724b68ad7810f7dcaad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015d3f1eed9eec8a0e868d8fccb6227f') in 0.026620 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

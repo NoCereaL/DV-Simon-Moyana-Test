@@ -1,9 +1,14 @@
-﻿using System.Collections;
+﻿/*
+ * Author: Simon K Moyana
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using UnityEngine.SceneManagement;
 using System.IO;
+using Cinemachine;
 
 public class RoomManager : MonoBehaviourPunCallbacks
 {
@@ -43,14 +48,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
 			//PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerManager"), Vector3.zero, Quaternion.identity);
 		}
 
-		if (PhotonNetwork.LocalPlayer.ActorNumber == 1)
-		{
-			SpawnPlayer();
-		}
-		if (PhotonNetwork.LocalPlayer.ActorNumber == 2)
-		{
-			SpawnPlayer2();
-		}
+		SpawnPlayer();
 
 	}
 
@@ -58,15 +56,8 @@ public class RoomManager : MonoBehaviourPunCallbacks
 	public void SpawnPlayer()
 	{
 		myPlayer = (GameObject)PhotonNetwork.Instantiate("Player", new Vector2(Random.Range(-35f, -10f), transform.position.y), Quaternion.identity);
-	}
+		myPlayer.GetComponent<PlayerMovement>().enabled = true;
+		myPlayer.GetComponent<PlayerMovement>().cam.GetComponent<CinemachineFreeLook>().enabled = true;
 
-	public void SpawnPlayer2()
-	{
-		myPlayer2 = (GameObject)PhotonNetwork.Instantiate("Player2", new Vector2(Random.Range(10f, 35f), transform.position.y), Quaternion.identity);
-	}
-
-	public void SpawnPlayer3()
-	{
-		myPlayer3 = (GameObject)PhotonNetwork.Instantiate("Player3", new Vector2(Random.Range(10f, 35f), transform.position.y), Quaternion.identity);
 	}
 }
