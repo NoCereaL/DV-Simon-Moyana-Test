@@ -2281,6 +2281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m048F91FBCD3E8F2C6909
 IL_0007:
 	{
 		RuntimeObject* L_1 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_1);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Hash128,System.Object>>::get_Count() */, il2cpp_rgctx_data(method->klass->rgctx_data, 5), (RuntimeObject*)L_1);
 		G_B3_0 = L_2;
@@ -2304,6 +2305,7 @@ IL_000d:
 IL_001c:
 	{
 		RuntimeObject* L_5 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_5);
 		Type_t* L_6;
 		L_6 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)L_5, NULL);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 7)) };
@@ -2320,8 +2322,10 @@ IL_001c:
 	{
 		RuntimeObject* L_10 = ___dictionary0;
 		Dictionary_2_t84C395D6616E2C30128BA4396899757AAA7B89D7* L_11 = ((Dictionary_2_t84C395D6616E2C30128BA4396899757AAA7B89D7*)CastclassClass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 8)));
+		NullCheck(L_11);
 		int32_t L_12 = (int32_t)L_11->____count_2;
 		V_0 = L_12;
+		NullCheck(L_11);
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_13 = (EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B*)L_11->____entries_1;
 		V_1 = L_13;
 		V_2 = 0;
@@ -2332,7 +2336,8 @@ IL_004a:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
 		if ((((int32_t)L_16) < ((int32_t)0)))
 		{
 			goto IL_0077;
@@ -2341,10 +2346,12 @@ IL_004a:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_17 = V_1;
 		int32_t L_18 = V_2;
-		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_19 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
+		NullCheck(L_17);
+		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_19 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_20 = V_1;
 		int32_t L_21 = V_2;
-		RuntimeObject* L_22 = (RuntimeObject*)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
+		NullCheck(L_20);
+		RuntimeObject* L_22 = (RuntimeObject*)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
 		((  void (*) (Dictionary_2_t84C395D6616E2C30128BA4396899757AAA7B89D7*, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_19, L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 	}
 
@@ -2370,6 +2377,7 @@ IL_007b:
 IL_0080:
 	{
 		RuntimeObject* L_26 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_26);
 		RuntimeObject* L_27;
 		L_27 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Hash128,System.Object>>::GetEnumerator() */, il2cpp_rgctx_data(method->klass->rgctx_data, 10), (RuntimeObject*)L_26);
 		V_3 = L_27;
@@ -2389,6 +2397,7 @@ FINALLY_00af:
 				}
 				{
 					RuntimeObject* L_29 = V_3;
+					NullCheck((RuntimeObject*)L_29);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, (RuntimeObject*)L_29);
 				}
 
@@ -2407,6 +2416,7 @@ IL_00b8:
 IL_0089_1:
 			{
 				RuntimeObject* L_30 = V_3;
+				NullCheck(L_30);
 				KeyValuePair_2_t1F845C75952D49E12CC3AA3713F4701056F14BC1 L_31;
 				L_31 = InterfaceFuncInvoker0< KeyValuePair_2_t1F845C75952D49E12CC3AA3713F4701056F14BC1 >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Hash128,System.Object>>::get_Current() */, il2cpp_rgctx_data(method->klass->rgctx_data, 12), L_30);
 				V_4 = L_31;
@@ -2420,6 +2430,7 @@ IL_0089_1:
 IL_00a5_1:
 			{
 				RuntimeObject* L_34 = V_3;
+				NullCheck((RuntimeObject*)L_34);
 				bool L_35;
 				L_35 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, (RuntimeObject*)L_34);
 				if (L_35)
@@ -2458,6 +2469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m49C39558F335051AA7DC
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
+		NullCheck(L_0);
 		ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7(L_0, (RuntimeObject*)__this, L_1, ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7_RuntimeMethod_var);
 		return;
 	}
@@ -2483,6 +2495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyCollection_t338F85E0CF3F539B80B920F34C9B88
 	}
 	{
 		KeyCollection_t338F85E0CF3F539B80B920F34C9B884DA5D93F5C* L_1 = (KeyCollection_t338F85E0CF3F539B80B920F34C9B884DA5D93F5C*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t338F85E0CF3F539B80B920F34C9B884DA5D93F5C*, Dictionary_2_t84C395D6616E2C30128BA4396899757AAA7B89D7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -2506,6 +2519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		KeyCollection_t338F85E0CF3F539B80B920F34C9B884DA5D93F5C* L_1 = (KeyCollection_t338F85E0CF3F539B80B920F34C9B884DA5D93F5C*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t338F85E0CF3F539B80B920F34C9B884DA5D93F5C*, Dictionary_2_t84C395D6616E2C30128BA4396899757AAA7B89D7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -2529,6 +2543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_t8F8831314BB779802FE114E23804
 	}
 	{
 		ValueCollection_t8F8831314BB779802FE114E238043766DD8A87E6* L_1 = (ValueCollection_t8F8831314BB779802FE114E238043766DD8A87E6*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_t8F8831314BB779802FE114E238043766DD8A87E6*, Dictionary_2_t84C395D6616E2C30128BA4396899757AAA7B89D7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -2552,6 +2567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		ValueCollection_t8F8831314BB779802FE114E238043766DD8A87E6* L_1 = (ValueCollection_t8F8831314BB779802FE114E238043766DD8A87E6*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_t8F8831314BB779802FE114E238043766DD8A87E6*, Dictionary_2_t84C395D6616E2C30128BA4396899757AAA7B89D7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -2582,7 +2598,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_mBE61B2E
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_3 = (EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B*)__this->____entries_1;
 		int32_t L_4 = V_0;
-		RuntimeObject* L_5 = (RuntimeObject*)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
+		NullCheck(L_3);
+		RuntimeObject* L_5 = (RuntimeObject*)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
 		return L_5;
 	}
 
@@ -2652,9 +2669,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_4 = (EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		RuntimeObject* L_6 = (RuntimeObject*)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		RuntimeObject* L_6 = (RuntimeObject*)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		RuntimeObject* L_7;
 		L_7 = KeyValuePair_2_get_Value_m6E1027D324F89029781AEF752836AA546C9D9D04_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, RuntimeObject*, RuntimeObject* >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Object>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -2692,9 +2711,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_4 = (EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		RuntimeObject* L_6 = (RuntimeObject*)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		RuntimeObject* L_6 = (RuntimeObject*)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		RuntimeObject* L_7;
 		L_7 = KeyValuePair_2_get_Value_m6E1027D324F89029781AEF752836AA546C9D9D04_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, RuntimeObject*, RuntimeObject* >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Object>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -2731,6 +2752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_mFA357D13986A882E6AF6
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_3);
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_2, 0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
 		__this->____count_2 = 0;
 		__this->____freeList_3 = (-1);
@@ -2784,7 +2806,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_2 = V_0;
 		int32_t L_3 = V_1;
-		int32_t L_4 = (int32_t)((L_2)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
+		NullCheck(L_2);
+		int32_t L_4 = (int32_t)((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
 		if ((((int32_t)L_4) < ((int32_t)0)))
 		{
 			goto IL_0037;
@@ -2793,7 +2816,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_5 = V_0;
 		int32_t L_6 = V_1;
-		RuntimeObject* L_7 = (RuntimeObject*)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		RuntimeObject* L_7 = (RuntimeObject*)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		if (L_7)
 		{
 			goto IL_0037;
@@ -2840,7 +2864,8 @@ IL_005d:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_12 = V_0;
 		int32_t L_13 = V_3;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0087;
@@ -2851,8 +2876,10 @@ IL_005d:
 		L_15 = ((  EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_16 = V_0;
 		int32_t L_17 = V_3;
-		RuntimeObject* L_18 = (RuntimeObject*)((L_16)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
+		NullCheck(L_16);
+		RuntimeObject* L_18 = (RuntimeObject*)((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
 		RuntimeObject* L_19 = ___value0;
+		NullCheck(L_15);
 		bool L_20;
 		L_20 = VirtualFuncInvoker2< bool, RuntimeObject*, RuntimeObject* >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Object>::Equals(T,T) */, L_15, L_18, L_19);
 		if (!L_20)
@@ -2896,7 +2923,8 @@ IL_00a2:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
 		if ((((int32_t)L_27) < ((int32_t)0)))
 		{
 			goto IL_00cb;
@@ -2906,8 +2934,10 @@ IL_00a2:
 		EqualityComparer_1_t92563A67F1C1ECDC3FE387C46498E2E56B59F3C2* L_28 = V_4;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_29 = V_0;
 		int32_t L_30 = V_5;
-		RuntimeObject* L_31 = (RuntimeObject*)((L_29)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
+		NullCheck(L_29);
+		RuntimeObject* L_31 = (RuntimeObject*)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
 		RuntimeObject* L_32 = ___value0;
+		NullCheck(L_28);
 		bool L_33;
 		L_33 = VirtualFuncInvoker2< bool, RuntimeObject*, RuntimeObject* >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Object>::Equals(T,T) */, L_28, L_31, L_32);
 		if (!L_33)
@@ -2961,6 +2991,7 @@ IL_0009:
 	{
 		int32_t L_1 = ___index1;
 		KeyValuePair_2U5BU5D_t626BABC2124A36CCE5AC227FE6C96C89979528E5* L_2 = ___array0;
+		NullCheck(L_2);
 		if ((!(((uint32_t)L_1) > ((uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))))))
 		{
 			goto IL_0014;
@@ -2973,6 +3004,7 @@ IL_0009:
 IL_0014:
 	{
 		KeyValuePair_2U5BU5D_t626BABC2124A36CCE5AC227FE6C96C89979528E5* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4 = ___index1;
 		int32_t L_5;
 		L_5 = ((  int32_t (*) (Dictionary_2_t84C395D6616E2C30128BA4396899757AAA7B89D7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 29)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 29));
@@ -2999,7 +3031,8 @@ IL_0039:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_8 = V_1;
 		int32_t L_9 = V_2;
-		int32_t L_10 = (int32_t)((L_8)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
+		NullCheck(L_8);
+		int32_t L_10 = (int32_t)((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
 		if ((((int32_t)L_10) < ((int32_t)0)))
 		{
 			goto IL_0071;
@@ -3012,14 +3045,17 @@ IL_0039:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_14 = V_1;
 		int32_t L_15 = V_2;
-		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_16 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
+		NullCheck(L_14);
+		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_16 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_17 = V_1;
 		int32_t L_18 = V_2;
-		RuntimeObject* L_19 = (RuntimeObject*)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
+		NullCheck(L_17);
+		RuntimeObject* L_19 = (RuntimeObject*)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
 		KeyValuePair_2_t1F845C75952D49E12CC3AA3713F4701056F14BC1 L_20;
 		memset((&L_20), 0, sizeof(L_20));
 		KeyValuePair_2__ctor_mE6D2A2FB52255A6C8FBC9D1F2FDB8CB67AEA59B5((&L_20), L_16, L_19, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_t1F845C75952D49E12CC3AA3713F4701056F14BC1)L_20);
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_t1F845C75952D49E12CC3AA3713F4701056F14BC1)L_20);
 	}
 
 IL_0071:
@@ -3105,6 +3141,7 @@ IL_0009:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
 		int32_t L_2 = (int32_t)__this->____version_5;
+		NullCheck(L_1);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(L_1, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, L_2, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = ___info0;
 		RuntimeObject* L_4 = (RuntimeObject*)__this->____comparer_6;
@@ -3134,6 +3171,7 @@ IL_002f:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_8;
 		L_8 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_7, NULL);
+		NullCheck(G_B4_2);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(G_B4_2, G_B4_1, (RuntimeObject*)G_B4_0, L_8, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_9 = ___info0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
@@ -3148,6 +3186,7 @@ IL_002f:
 	}
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_11);
 		G_B7_0 = ((int32_t)(((RuntimeArray*)L_11)->max_length));
 		G_B7_1 = G_B5_0;
 		G_B7_2 = G_B5_1;
@@ -3163,6 +3202,7 @@ IL_0056:
 
 IL_0057:
 	{
+		NullCheck(G_B7_2);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(G_B7_2, G_B7_1, G_B7_0, NULL);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		if (!L_12)
@@ -3183,6 +3223,7 @@ IL_0057:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_19;
 		L_19 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_18, NULL);
+		NullCheck(L_16);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(L_16, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, (RuntimeObject*)L_17, L_19, NULL);
 	}
 
@@ -3241,8 +3282,10 @@ IL_000e:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = V_1;
 		int32_t L_8 = V_5;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = V_1;
+		NullCheck(L_9);
+		NullCheck(L_7);
 		int32_t L_10 = ((int32_t)(L_8%((int32_t)(((RuntimeArray*)L_9)->max_length))));
-		int32_t L_11 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		int32_t L_11 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
 		il2cpp_codegen_initobj((&V_6), sizeof(Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40));
 	}
@@ -3251,6 +3294,7 @@ IL_0066:
 	{
 		int32_t L_13 = V_0;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_14 = V_2;
+		NullCheck(L_14);
 		if ((!(((uint32_t)L_13) < ((uint32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))))))
 		{
 			goto IL_0175;
@@ -3259,7 +3303,8 @@ IL_0066:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_15 = V_2;
 		int32_t L_16 = V_0;
-		int32_t L_17 = (int32_t)((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
+		NullCheck(L_15);
+		int32_t L_17 = (int32_t)((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
 		int32_t L_18 = V_5;
 		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
 		{
@@ -3271,8 +3316,10 @@ IL_0066:
 		L_19 = ((  EqualityComparer_1_tCB03DC8C1BB93EAB2482241B58B079A44036C839* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_20 = V_2;
 		int32_t L_21 = V_0;
-		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_22 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
+		NullCheck(L_20);
+		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_22 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_23 = ___key0;
+		NullCheck(L_19);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.Hash128>::Equals(T,T) */, L_19, L_22, L_23);
 		if (L_24)
@@ -3285,10 +3332,12 @@ IL_009b:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_25 = V_2;
 		int32_t L_26 = V_0;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
 		V_0 = L_27;
 		int32_t L_28 = V_3;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_29 = V_2;
+		NullCheck(L_29);
 		if ((((int32_t)L_28) < ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length)))))
 		{
 			goto IL_00b3;
@@ -3316,6 +3365,7 @@ IL_00c0:
 	{
 		int32_t L_32 = V_0;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_33 = V_2;
+		NullCheck(L_33);
 		if ((!(((uint32_t)L_32) < ((uint32_t)((int32_t)(((RuntimeArray*)L_33)->max_length))))))
 		{
 			goto IL_0175;
@@ -3324,7 +3374,8 @@ IL_00c0:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_34 = V_2;
 		int32_t L_35 = V_0;
-		int32_t L_36 = (int32_t)((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
+		NullCheck(L_34);
+		int32_t L_36 = (int32_t)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
 		int32_t L_37 = V_5;
 		if ((!(((uint32_t)L_36) == ((uint32_t)L_37))))
 		{
@@ -3335,8 +3386,10 @@ IL_00c0:
 		EqualityComparer_1_tCB03DC8C1BB93EAB2482241B58B079A44036C839* L_38 = V_7;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_39 = V_2;
 		int32_t L_40 = V_0;
-		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_41 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_39)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
+		NullCheck(L_39);
+		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_41 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_42 = ___key0;
+		NullCheck(L_38);
 		bool L_43;
 		L_43 = VirtualFuncInvoker2< bool, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.Hash128>::Equals(T,T) */, L_38, L_41, L_42);
 		if (L_43)
@@ -3349,10 +3402,12 @@ IL_00f2:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_44 = V_2;
 		int32_t L_45 = V_0;
-		int32_t L_46 = (int32_t)((L_44)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
+		NullCheck(L_44);
+		int32_t L_46 = (int32_t)((L_44)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
 		V_0 = L_46;
 		int32_t L_47 = V_3;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_48 = V_2;
+		NullCheck(L_48);
 		if ((((int32_t)L_47) < ((int32_t)((int32_t)(((RuntimeArray*)L_48)->max_length)))))
 		{
 			goto IL_010a;
@@ -3373,14 +3428,17 @@ IL_0110:
 	{
 		RuntimeObject* L_50 = V_4;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_51 = ___key0;
+		NullCheck(L_50);
 		int32_t L_52;
 		L_52 = InterfaceFuncInvoker1< int32_t, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<UnityEngine.Hash128>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_50, L_51);
 		V_8 = ((int32_t)(L_52&((int32_t)2147483647LL)));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = V_1;
 		int32_t L_54 = V_8;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_55 = V_1;
+		NullCheck(L_55);
+		NullCheck(L_53);
 		int32_t L_56 = ((int32_t)(L_54%((int32_t)(((RuntimeArray*)L_55)->max_length))));
-		int32_t L_57 = (L_53)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_56));
+		int32_t L_57 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_57, 1));
 	}
 
@@ -3388,6 +3446,7 @@ IL_012b:
 	{
 		int32_t L_58 = V_0;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_59 = V_2;
+		NullCheck(L_59);
 		if ((!(((uint32_t)L_58) < ((uint32_t)((int32_t)(((RuntimeArray*)L_59)->max_length))))))
 		{
 			goto IL_0175;
@@ -3396,7 +3455,8 @@ IL_012b:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_60 = V_2;
 		int32_t L_61 = V_0;
-		int32_t L_62 = (int32_t)((L_60)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
+		NullCheck(L_60);
+		int32_t L_62 = (int32_t)((L_60)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
 		int32_t L_63 = V_8;
 		if ((!(((uint32_t)L_62) == ((uint32_t)L_63))))
 		{
@@ -3407,8 +3467,10 @@ IL_012b:
 		RuntimeObject* L_64 = V_4;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_65 = V_2;
 		int32_t L_66 = V_0;
-		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_67 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
+		NullCheck(L_65);
+		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_67 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_68 = ___key0;
+		NullCheck(L_64);
 		bool L_69;
 		L_69 = InterfaceFuncInvoker2< bool, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<UnityEngine.Hash128>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_64, L_67, L_68);
 		if (L_69)
@@ -3421,10 +3483,12 @@ IL_0157:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_70 = V_2;
 		int32_t L_71 = V_0;
-		int32_t L_72 = (int32_t)((L_70)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
+		NullCheck(L_70);
+		int32_t L_72 = (int32_t)((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
 		V_0 = L_72;
 		int32_t L_73 = V_3;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_74 = V_2;
+		NullCheck(L_74);
 		if ((((int32_t)L_73) < ((int32_t)((int32_t)(((RuntimeArray*)L_74)->max_length)))))
 		{
 			goto IL_016f;
@@ -3534,6 +3598,7 @@ IL_002c:
 	{
 		RuntimeObject* L_7 = V_1;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_8 = ___key0;
+		NullCheck(L_7);
 		int32_t L_9;
 		L_9 = InterfaceFuncInvoker1< int32_t, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<UnityEngine.Hash128>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_7, L_8);
 		G_B7_0 = L_9;
@@ -3554,7 +3619,9 @@ IL_0053:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_12 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		V_4 = ((L_11)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
+		NullCheck(L_13);
+		NullCheck(L_11);
+		V_4 = ((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
 		int32_t* L_14 = V_4;
 		int32_t L_15 = *((int32_t*)L_14);
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_15, 1));
@@ -3572,6 +3639,7 @@ IL_0091:
 	{
 		int32_t L_18 = V_5;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_19 = V_0;
+		NullCheck(L_19);
 		if ((!(((uint32_t)L_18) < ((uint32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))))))
 		{
 			goto IL_01f9;
@@ -3580,7 +3648,8 @@ IL_0091:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_20 = V_0;
 		int32_t L_21 = V_5;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
 		int32_t L_23 = V_2;
 		if ((!(((uint32_t)L_22) == ((uint32_t)L_23))))
 		{
@@ -3592,8 +3661,10 @@ IL_0091:
 		L_24 = ((  EqualityComparer_1_tCB03DC8C1BB93EAB2482241B58B079A44036C839* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_25 = V_0;
 		int32_t L_26 = V_5;
-		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_27 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_27 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_28 = ___key0;
+		NullCheck(L_24);
 		bool L_29;
 		L_29 = VirtualFuncInvoker2< bool, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.Hash128>::Equals(T,T) */, L_24, L_27, L_28);
 		if (!L_29)
@@ -3611,9 +3682,10 @@ IL_0091:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_31 = V_0;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		RuntimeObject* L_33 = ___value1;
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
-		Il2CppCodeGenWriteBarrier((void**)(&((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___value_3), (void*)L_33);
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
+		Il2CppCodeGenWriteBarrier((void**)(&((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___value_3), (void*)L_33);
 		return (bool)1;
 	}
 
@@ -3641,10 +3713,12 @@ IL_00ea:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_38 = V_0;
 		int32_t L_39 = V_5;
-		int32_t L_40 = (int32_t)((L_38)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
+		NullCheck(L_38);
+		int32_t L_40 = (int32_t)((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
 		V_5 = L_40;
 		int32_t L_41 = V_3;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_42 = V_0;
+		NullCheck(L_42);
 		if ((((int32_t)L_41) < ((int32_t)((int32_t)(((RuntimeArray*)L_42)->max_length)))))
 		{
 			goto IL_0104;
@@ -3672,6 +3746,7 @@ IL_0111:
 	{
 		int32_t L_45 = V_5;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_46 = V_0;
+		NullCheck(L_46);
 		if ((!(((uint32_t)L_45) < ((uint32_t)((int32_t)(((RuntimeArray*)L_46)->max_length))))))
 		{
 			goto IL_01f9;
@@ -3680,7 +3755,8 @@ IL_0111:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_47 = V_0;
 		int32_t L_48 = V_5;
-		int32_t L_49 = (int32_t)((L_47)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
+		NullCheck(L_47);
+		int32_t L_49 = (int32_t)((L_47)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
 		int32_t L_50 = V_2;
 		if ((!(((uint32_t)L_49) == ((uint32_t)L_50))))
 		{
@@ -3691,8 +3767,10 @@ IL_0111:
 		EqualityComparer_1_tCB03DC8C1BB93EAB2482241B58B079A44036C839* L_51 = V_12;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_52 = V_0;
 		int32_t L_53 = V_5;
-		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_54 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
+		NullCheck(L_52);
+		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_54 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_55 = ___key0;
+		NullCheck(L_51);
 		bool L_56;
 		L_56 = VirtualFuncInvoker2< bool, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.Hash128>::Equals(T,T) */, L_51, L_54, L_55);
 		if (!L_56)
@@ -3710,9 +3788,10 @@ IL_0111:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_58 = V_0;
 		int32_t L_59 = V_5;
+		NullCheck(L_58);
 		RuntimeObject* L_60 = ___value1;
-		((L_58)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
-		Il2CppCodeGenWriteBarrier((void**)(&((L_58)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_59)))->___value_3), (void*)L_60);
+		((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
+		Il2CppCodeGenWriteBarrier((void**)(&((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59)))->___value_3), (void*)L_60);
 		return (bool)1;
 	}
 
@@ -3740,10 +3819,12 @@ IL_0167:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_65 = V_0;
 		int32_t L_66 = V_5;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
 		V_5 = L_67;
 		int32_t L_68 = V_3;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_69 = V_0;
+		NullCheck(L_69);
 		if ((((int32_t)L_68) < ((int32_t)((int32_t)(((RuntimeArray*)L_69)->max_length)))))
 		{
 			goto IL_0181;
@@ -3764,6 +3845,7 @@ IL_0187:
 	{
 		int32_t L_71 = V_5;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_72 = V_0;
+		NullCheck(L_72);
 		if ((!(((uint32_t)L_71) < ((uint32_t)((int32_t)(((RuntimeArray*)L_72)->max_length))))))
 		{
 			goto IL_01f9;
@@ -3772,7 +3854,8 @@ IL_0187:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_73 = V_0;
 		int32_t L_74 = V_5;
-		int32_t L_75 = (int32_t)((L_73)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
+		NullCheck(L_73);
+		int32_t L_75 = (int32_t)((L_73)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
 		int32_t L_76 = V_2;
 		if ((!(((uint32_t)L_75) == ((uint32_t)L_76))))
 		{
@@ -3783,8 +3866,10 @@ IL_0187:
 		RuntimeObject* L_77 = V_1;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_78 = V_0;
 		int32_t L_79 = V_5;
-		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_80 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_78)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
+		NullCheck(L_78);
+		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_80 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_78)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_81 = ___key0;
+		NullCheck(L_77);
 		bool L_82;
 		L_82 = InterfaceFuncInvoker2< bool, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<UnityEngine.Hash128>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_77, L_80, L_81);
 		if (!L_82)
@@ -3802,9 +3887,10 @@ IL_0187:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_84 = V_0;
 		int32_t L_85 = V_5;
+		NullCheck(L_84);
 		RuntimeObject* L_86 = ___value1;
-		((L_84)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
-		Il2CppCodeGenWriteBarrier((void**)(&((L_84)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_85)))->___value_3), (void*)L_86);
+		((L_84)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
+		Il2CppCodeGenWriteBarrier((void**)(&((L_84)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_85)))->___value_3), (void*)L_86);
 		return (bool)1;
 	}
 
@@ -3832,10 +3918,12 @@ IL_01d9:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_91 = V_0;
 		int32_t L_92 = V_5;
-		int32_t L_93 = (int32_t)((L_91)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
+		NullCheck(L_91);
+		int32_t L_93 = (int32_t)((L_91)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
 		V_5 = L_93;
 		int32_t L_94 = V_3;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_95 = V_0;
+		NullCheck(L_95);
 		if ((((int32_t)L_94) < ((int32_t)((int32_t)(((RuntimeArray*)L_95)->max_length)))))
 		{
 			goto IL_01f3;
@@ -3877,6 +3965,7 @@ IL_0223:
 		V_13 = L_100;
 		int32_t L_101 = V_13;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_102 = V_0;
+		NullCheck(L_102);
 		if ((!(((uint32_t)L_101) == ((uint32_t)((int32_t)(((RuntimeArray*)L_102)->max_length))))))
 		{
 			goto IL_023b;
@@ -3916,7 +4005,9 @@ IL_0258:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_108 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_109 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_110 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		G_B51_0 = ((L_108)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
+		NullCheck(L_110);
+		NullCheck(L_108);
+		G_B51_0 = ((L_108)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
 	}
 
 IL_026d:
@@ -3924,7 +4015,8 @@ IL_026d:
 		V_9 = G_B51_0;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_111 = V_0;
 		int32_t L_112 = V_8;
-		V_10 = ((L_111)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_112)));
+		NullCheck(L_111);
+		V_10 = ((L_111)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_112)));
 		bool L_113 = V_7;
 		if (!L_113)
 		{
@@ -3984,6 +4076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_mB33329B8
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_0);
 		bool L_1;
 		L_1 = ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F(L_0, (RuntimeObject*)__this, (&V_0), ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F_RuntimeMethod_var);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_2 = V_0;
@@ -3999,10 +4092,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_mB33329B8
 IL_0012:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = V_0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_3, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, NULL);
 		V_1 = L_4;
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_5 = V_0;
+		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_5, _stringLiteral1275D52763CF050C5A4C759818D60119CC35BD69, NULL);
 		V_2 = L_6;
@@ -4011,6 +4106,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_9;
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
+		NullCheck(L_7);
 		RuntimeObject* L_10;
 		L_10 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_7, _stringLiteralC5F173ABE7214E8ED04EE91D0D5626EEDF0007E9, L_9, NULL);
 		__this->____comparer_6 = ((RuntimeObject*)Castclass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 41)));
@@ -4030,6 +4126,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_16;
 		L_16 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_15, NULL);
+		NullCheck(L_14);
 		RuntimeObject* L_17;
 		L_17 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_14, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, L_16, NULL);
 		V_3 = ((KeyValuePair_2U5BU5D_t626BABC2124A36CCE5AC227FE6C96C89979528E5*)Castclass((RuntimeObject*)L_17, il2cpp_rgctx_data(method->klass->rgctx_data, 46)));
@@ -4053,8 +4150,9 @@ IL_007f:
 	{
 		KeyValuePair_2U5BU5D_t626BABC2124A36CCE5AC227FE6C96C89979528E5* L_19 = V_3;
 		int32_t L_20 = V_4;
+		NullCheck(L_19);
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_21;
-		L_21 = KeyValuePair_2_get_Key_m599FE46A1A01DEB51647BF80EC30F4766BC5FF48_inline(((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_21 = KeyValuePair_2_get_Key_m599FE46A1A01DEB51647BF80EC30F4766BC5FF48_inline(((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		goto IL_009a;
 	}
 	{
@@ -4065,12 +4163,14 @@ IL_009a:
 	{
 		KeyValuePair_2U5BU5D_t626BABC2124A36CCE5AC227FE6C96C89979528E5* L_22 = V_3;
 		int32_t L_23 = V_4;
+		NullCheck(L_22);
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_24;
-		L_24 = KeyValuePair_2_get_Key_m599FE46A1A01DEB51647BF80EC30F4766BC5FF48_inline(((L_22)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_24 = KeyValuePair_2_get_Key_m599FE46A1A01DEB51647BF80EC30F4766BC5FF48_inline(((L_22)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		KeyValuePair_2U5BU5D_t626BABC2124A36CCE5AC227FE6C96C89979528E5* L_25 = V_3;
 		int32_t L_26 = V_4;
+		NullCheck(L_25);
 		RuntimeObject* L_27;
-		L_27 = KeyValuePair_2_get_Value_m6E1027D324F89029781AEF752836AA546C9D9D04_inline(((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		L_27 = KeyValuePair_2_get_Value_m6E1027D324F89029781AEF752836AA546C9D9D04_inline(((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
 		((  void (*) (Dictionary_2_t84C395D6616E2C30128BA4396899757AAA7B89D7*, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_24, L_27, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		int32_t L_28 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_28, 1));
@@ -4080,6 +4180,7 @@ IL_00c0:
 	{
 		int32_t L_29 = V_4;
 		KeyValuePair_2U5BU5D_t626BABC2124A36CCE5AC227FE6C96C89979528E5* L_30 = V_3;
+		NullCheck(L_30);
 		if ((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))
 		{
 			goto IL_007f;
@@ -4102,6 +4203,7 @@ IL_00d0:
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_32;
 		L_32 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_32);
 		bool L_33;
 		L_33 = ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E(L_32, (RuntimeObject*)__this, ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E_RuntimeMethod_var);
 		return;
@@ -4174,7 +4276,8 @@ IL_003e:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_12 = V_1;
 		int32_t L_13 = V_4;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0079;
@@ -4183,12 +4286,14 @@ IL_003e:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_15 = V_1;
 		int32_t L_16 = V_4;
+		NullCheck(L_15);
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_17 = V_1;
 		int32_t L_18 = V_4;
-		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40* L_19 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40*)(&((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
+		NullCheck(L_17);
+		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40* L_19 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40*)(&((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
 		int32_t L_20;
 		L_20 = Hash128_GetHashCode_m22816EE33CD973D11CD1917DEF7A0E0EC229E1D8(L_19, il2cpp_rgctx_method(method->klass->rgctx_data, 38));
-		((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
+		((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
 	}
 
 IL_0079:
@@ -4217,7 +4322,8 @@ IL_0089:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_24 = V_1;
 		int32_t L_25 = V_5;
-		int32_t L_26 = (int32_t)((L_24)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
+		NullCheck(L_24);
+		int32_t L_26 = (int32_t)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
 		if ((((int32_t)L_26) < ((int32_t)0)))
 		{
 			goto IL_00c5;
@@ -4226,20 +4332,24 @@ IL_0089:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_27 = V_1;
 		int32_t L_28 = V_5;
-		int32_t L_29 = (int32_t)((L_27)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
+		NullCheck(L_27);
+		int32_t L_29 = (int32_t)((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
 		int32_t L_30 = ___newSize0;
 		V_6 = ((int32_t)(L_29%L_30));
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_31 = V_1;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_33 = V_0;
 		int32_t L_34 = V_6;
+		NullCheck(L_33);
 		int32_t L_35 = L_34;
-		int32_t L_36 = (L_33)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_35));
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
+		int32_t L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = V_0;
 		int32_t L_38 = V_6;
 		int32_t L_39 = V_5;
-		(L_37)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
 	}
 
 IL_00c5:
@@ -4316,6 +4426,7 @@ IL_000e:
 IL_0032:
 	{
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_5 = ___key0;
+		NullCheck(G_B5_0);
 		int32_t L_6;
 		L_6 = InterfaceFuncInvoker1< int32_t, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<UnityEngine.Hash128>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B5_0, L_5);
 		G_B6_0 = L_6;
@@ -4326,12 +4437,14 @@ IL_0038:
 		V_0 = ((int32_t)(G_B6_0&((int32_t)2147483647LL)));
 		int32_t L_7 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_8);
 		V_1 = ((int32_t)(L_7%((int32_t)(((RuntimeArray*)L_8)->max_length))));
 		V_2 = (-1);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_10 = V_1;
+		NullCheck(L_9);
 		int32_t L_11 = L_10;
-		int32_t L_12 = (L_9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
+		int32_t L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
 		goto IL_0142;
 	}
@@ -4340,7 +4453,8 @@ IL_005c:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_13 = (EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B*)__this->____entries_1;
 		int32_t L_14 = V_3;
-		V_4 = ((L_13)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_14)));
+		NullCheck(L_13);
+		V_4 = ((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14)));
 		Entry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB10F* L_15 = V_4;
 		int32_t L_16 = (int32_t)L_15->___hashCode_0;
 		int32_t L_17 = V_0;
@@ -4365,6 +4479,7 @@ IL_005c:
 		Entry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB10F* L_21 = V_4;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_22 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)L_21->___key_2;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_23 = ___key0;
+		NullCheck(L_20);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.Hash128>::Equals(T,T) */, L_20, L_22, L_23);
 		G_B11_0 = L_24;
@@ -4376,6 +4491,7 @@ IL_0095:
 		Entry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB10F* L_25 = V_4;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_26 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)L_25->___key_2;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_27 = ___key0;
+		NullCheck(G_B10_0);
 		bool L_28;
 		L_28 = InterfaceFuncInvoker2< bool, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40, Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<UnityEngine.Hash128>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B10_0, L_26, L_27);
 		G_B11_0 = L_28;
@@ -4400,7 +4516,8 @@ IL_00a2:
 		int32_t L_31 = V_1;
 		Entry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB10F* L_32 = V_4;
 		int32_t L_33 = (int32_t)L_32->___next_1;
-		(L_30)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
 		goto IL_00d6;
 	}
 
@@ -4408,9 +4525,10 @@ IL_00be:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_34 = (EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B*)__this->____entries_1;
 		int32_t L_35 = V_2;
+		NullCheck(L_34);
 		Entry_t343716AA7796A6C22FFA9AEBC18EF142FCBDB10F* L_36 = V_4;
 		int32_t L_37 = (int32_t)L_36->___next_1;
-		((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
+		((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
 	}
 
 IL_00d6:
@@ -4497,7 +4615,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m35B69AF4AA1A8C
 		RuntimeObject** L_3 = ___value1;
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_4 = (EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		RuntimeObject* L_6 = (RuntimeObject*)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		RuntimeObject* L_6 = (RuntimeObject*)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		*(RuntimeObject**)L_3 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_3, (void*)L_6);
 		return (bool)1;
@@ -4571,6 +4690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_System_Collections_ICollect
 IL_0009:
 	{
 		RuntimeArray* L_1 = ___array0;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(L_1, NULL);
 		if ((((int32_t)L_2) == ((int32_t)1)))
@@ -4585,6 +4705,7 @@ IL_0009:
 IL_0018:
 	{
 		RuntimeArray* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(L_3, 0, NULL);
 		if (!L_4)
@@ -4600,6 +4721,7 @@ IL_0027:
 	{
 		int32_t L_5 = ___index1;
 		RuntimeArray* L_6 = ___array0;
+		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_6, NULL);
 		if ((!(((uint32_t)L_5) > ((uint32_t)L_7))))
@@ -4614,6 +4736,7 @@ IL_0027:
 IL_0035:
 	{
 		RuntimeArray* L_8 = ___array0;
+		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_8, NULL);
 		int32_t L_10 = ___index1;
@@ -4666,7 +4789,8 @@ IL_0073:
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_19 = V_2;
 		int32_t L_20 = V_3;
-		int32_t L_21 = (int32_t)((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
+		NullCheck(L_19);
+		int32_t L_21 = (int32_t)((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
 		if ((((int32_t)L_21) < ((int32_t)0)))
 		{
 			goto IL_00b5;
@@ -4679,16 +4803,19 @@ IL_0073:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_25 = V_2;
 		int32_t L_26 = V_3;
-		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_27 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_27 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_28 = L_27;
 		RuntimeObject* L_29 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 21), &L_28);
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_30 = V_2;
 		int32_t L_31 = V_3;
-		RuntimeObject* L_32 = (RuntimeObject*)((L_30)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
+		NullCheck(L_30);
+		RuntimeObject* L_32 = (RuntimeObject*)((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
 		DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB L_33;
 		memset((&L_33), 0, sizeof(L_33));
 		DictionaryEntry__ctor_m2768353E53A75C4860E34B37DAF1342120C5D1EA((&L_33), L_29, L_32, /*hidden argument*/NULL);
-		(L_22)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_33);
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_33);
 	}
 
 IL_00b5:
@@ -4742,7 +4869,8 @@ IL_00ea_1:
 		{
 			EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_41 = V_6;
 			int32_t L_42 = V_7;
-			int32_t L_43 = (int32_t)((L_41)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_42)))->___hashCode_0;
+			NullCheck(L_41);
+			int32_t L_43 = (int32_t)((L_41)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_42)))->___hashCode_0;
 			if ((((int32_t)L_43) < ((int32_t)0)))
 			{
 				goto IL_012a_1;
@@ -4755,17 +4883,20 @@ IL_00ea_1:
 			___index1 = ((int32_t)il2cpp_codegen_add(L_46, 1));
 			EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_47 = V_6;
 			int32_t L_48 = V_7;
-			Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_49 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_47)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_48)))->___key_2;
+			NullCheck(L_47);
+			Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 L_49 = (Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)((L_47)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48)))->___key_2;
 			EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_50 = V_6;
 			int32_t L_51 = V_7;
-			RuntimeObject* L_52 = (RuntimeObject*)((L_50)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_51)))->___value_3;
+			NullCheck(L_50);
+			RuntimeObject* L_52 = (RuntimeObject*)((L_50)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_51)))->___value_3;
 			KeyValuePair_2_t1F845C75952D49E12CC3AA3713F4701056F14BC1 L_53;
 			memset((&L_53), 0, sizeof(L_53));
 			KeyValuePair_2__ctor_mE6D2A2FB52255A6C8FBC9D1F2FDB8CB67AEA59B5((&L_53), L_49, L_52, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
 			KeyValuePair_2_t1F845C75952D49E12CC3AA3713F4701056F14BC1 L_54 = L_53;
 			RuntimeObject* L_55 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 30), &L_54);
+			NullCheck(L_44);
 			ArrayElementTypeCheck (L_44, L_55);
-			(L_44)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_46), (RuntimeObject*)L_55);
+			(L_44)->SetAt(static_cast<il2cpp_array_size_t>(L_46), (RuntimeObject*)L_55);
 		}
 
 IL_012a_1:
@@ -4847,6 +4978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		RuntimeObject** L_1 = (RuntimeObject**)(&__this->____syncRoot_9);
 		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
 		RuntimeObject* L_3;
 		L_3 = InterlockedCompareExchangeImpl<RuntimeObject*>(L_1, L_2, NULL);
@@ -4917,7 +5049,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B* L_5 = (EntryU5BU5D_t874585406A5F73423DDF3E20012F8E91733F502B*)__this->____entries_1;
 		int32_t L_6 = V_0;
-		RuntimeObject* L_7 = (RuntimeObject*)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		RuntimeObject* L_7 = (RuntimeObject*)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		return L_7;
 	}
 
@@ -5315,6 +5448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mEBCAC9EF723DB12D6480
 IL_0007:
 	{
 		RuntimeObject* L_1 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_1);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>>::get_Count() */, il2cpp_rgctx_data(method->klass->rgctx_data, 5), (RuntimeObject*)L_1);
 		G_B3_0 = L_2;
@@ -5338,6 +5472,7 @@ IL_000d:
 IL_001c:
 	{
 		RuntimeObject* L_5 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_5);
 		Type_t* L_6;
 		L_6 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)L_5, NULL);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 7)) };
@@ -5354,8 +5489,10 @@ IL_001c:
 	{
 		RuntimeObject* L_10 = ___dictionary0;
 		Dictionary_2_tBE995FA87CE27220FD97BCC009668BA7930F425B* L_11 = ((Dictionary_2_tBE995FA87CE27220FD97BCC009668BA7930F425B*)CastclassClass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 8)));
+		NullCheck(L_11);
 		int32_t L_12 = (int32_t)L_11->____count_2;
 		V_0 = L_12;
+		NullCheck(L_11);
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_13 = (EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14*)L_11->____entries_1;
 		V_1 = L_13;
 		V_2 = 0;
@@ -5366,7 +5503,8 @@ IL_004a:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
 		if ((((int32_t)L_16) < ((int32_t)0)))
 		{
 			goto IL_0077;
@@ -5375,10 +5513,12 @@ IL_004a:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_17 = V_1;
 		int32_t L_18 = V_2;
-		int32_t L_19 = (int32_t)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
+		NullCheck(L_17);
+		int32_t L_19 = (int32_t)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_20 = V_1;
 		int32_t L_21 = V_2;
-		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_22 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
+		NullCheck(L_20);
+		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_22 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
 		((  void (*) (Dictionary_2_tBE995FA87CE27220FD97BCC009668BA7930F425B*, int32_t, ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_19, L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 	}
 
@@ -5404,6 +5544,7 @@ IL_007b:
 IL_0080:
 	{
 		RuntimeObject* L_26 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_26);
 		RuntimeObject* L_27;
 		L_27 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>>::GetEnumerator() */, il2cpp_rgctx_data(method->klass->rgctx_data, 10), (RuntimeObject*)L_26);
 		V_3 = L_27;
@@ -5423,6 +5564,7 @@ FINALLY_00af:
 				}
 				{
 					RuntimeObject* L_29 = V_3;
+					NullCheck((RuntimeObject*)L_29);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, (RuntimeObject*)L_29);
 				}
 
@@ -5441,6 +5583,7 @@ IL_00b8:
 IL_0089_1:
 			{
 				RuntimeObject* L_30 = V_3;
+				NullCheck(L_30);
 				KeyValuePair_2_tB999B4329040B950BC24C49C2E5CAD7574557D0B L_31;
 				L_31 = InterfaceFuncInvoker0< KeyValuePair_2_tB999B4329040B950BC24C49C2E5CAD7574557D0B >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>>::get_Current() */, il2cpp_rgctx_data(method->klass->rgctx_data, 12), L_30);
 				V_4 = L_31;
@@ -5454,6 +5597,7 @@ IL_0089_1:
 IL_00a5_1:
 			{
 				RuntimeObject* L_34 = V_3;
+				NullCheck((RuntimeObject*)L_34);
 				bool L_35;
 				L_35 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, (RuntimeObject*)L_34);
 				if (L_35)
@@ -5492,6 +5636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m45B53D13E33AB7173EF8
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
+		NullCheck(L_0);
 		ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7(L_0, (RuntimeObject*)__this, L_1, ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7_RuntimeMethod_var);
 		return;
 	}
@@ -5517,6 +5662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyCollection_t1DD9DA01E8F917158E0E796B8B9237
 	}
 	{
 		KeyCollection_t1DD9DA01E8F917158E0E796B8B9237D890B32700* L_1 = (KeyCollection_t1DD9DA01E8F917158E0E796B8B9237D890B32700*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t1DD9DA01E8F917158E0E796B8B9237D890B32700*, Dictionary_2_tBE995FA87CE27220FD97BCC009668BA7930F425B*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -5540,6 +5686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		KeyCollection_t1DD9DA01E8F917158E0E796B8B9237D890B32700* L_1 = (KeyCollection_t1DD9DA01E8F917158E0E796B8B9237D890B32700*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t1DD9DA01E8F917158E0E796B8B9237D890B32700*, Dictionary_2_tBE995FA87CE27220FD97BCC009668BA7930F425B*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -5563,6 +5710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_t2458D1DC649FD3CF095F724C3EC9
 	}
 	{
 		ValueCollection_t2458D1DC649FD3CF095F724C3EC92E16FA46982B* L_1 = (ValueCollection_t2458D1DC649FD3CF095F724C3EC92E16FA46982B*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_t2458D1DC649FD3CF095F724C3EC92E16FA46982B*, Dictionary_2_tBE995FA87CE27220FD97BCC009668BA7930F425B*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -5586,6 +5734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		ValueCollection_t2458D1DC649FD3CF095F724C3EC92E16FA46982B* L_1 = (ValueCollection_t2458D1DC649FD3CF095F724C3EC92E16FA46982B*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_t2458D1DC649FD3CF095F724C3EC92E16FA46982B*, Dictionary_2_tBE995FA87CE27220FD97BCC009668BA7930F425B*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -5617,7 +5766,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_3 = (EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14*)__this->____entries_1;
 		int32_t L_4 = V_0;
-		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_5 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
+		NullCheck(L_3);
+		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_5 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
 		return L_5;
 	}
 
@@ -5687,9 +5837,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_t0E57F603EDC516B3BA22C565B64AF8EF6BCF4E9C* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_4 = (EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_6 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_6 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_7;
 		L_7 = KeyValuePair_2_get_Value_m369E3E9E956EF2A9984B393E60819944216D9C3B_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26, ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -5727,9 +5879,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_t0E57F603EDC516B3BA22C565B64AF8EF6BCF4E9C* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_4 = (EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_6 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_6 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_7;
 		L_7 = KeyValuePair_2_get_Value_m369E3E9E956EF2A9984B393E60819944216D9C3B_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26, ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -5766,6 +5920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_mA6D8FBFFDC846F64D707
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_3);
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_2, 0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
 		__this->____count_2 = 0;
 		__this->____freeList_3 = (-1);
@@ -5816,7 +5971,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_2 = V_0;
 		int32_t L_3 = V_1;
-		int32_t L_4 = (int32_t)((L_2)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
+		NullCheck(L_2);
+		int32_t L_4 = (int32_t)((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
 		if ((((int32_t)L_4) < ((int32_t)0)))
 		{
 			goto IL_0037;
@@ -5825,7 +5981,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_5 = V_0;
 		int32_t L_6 = V_1;
-		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_7 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_7 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		goto IL_0037;
 	}
 	{
@@ -5864,7 +6021,8 @@ IL_005d:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_12 = V_0;
 		int32_t L_13 = V_3;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0087;
@@ -5875,8 +6033,10 @@ IL_005d:
 		L_15 = ((  EqualityComparer_1_t0E57F603EDC516B3BA22C565B64AF8EF6BCF4E9C* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_16 = V_0;
 		int32_t L_17 = V_3;
-		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_18 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_16)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
+		NullCheck(L_16);
+		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_18 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
 		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_19 = ___value0;
+		NullCheck(L_15);
 		bool L_20;
 		L_20 = VirtualFuncInvoker2< bool, ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26, ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>::Equals(T,T) */, L_15, L_18, L_19);
 		if (!L_20)
@@ -5920,7 +6080,8 @@ IL_00a2:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
 		if ((((int32_t)L_27) < ((int32_t)0)))
 		{
 			goto IL_00cb;
@@ -5930,8 +6091,10 @@ IL_00a2:
 		EqualityComparer_1_t0E57F603EDC516B3BA22C565B64AF8EF6BCF4E9C* L_28 = V_4;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_29 = V_0;
 		int32_t L_30 = V_5;
-		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_31 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_29)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
+		NullCheck(L_29);
+		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_31 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
 		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_32 = ___value0;
+		NullCheck(L_28);
 		bool L_33;
 		L_33 = VirtualFuncInvoker2< bool, ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26, ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.ValueTuple`2<UnityEngine.Vector4,UnityEngine.Vector2Int>>::Equals(T,T) */, L_28, L_31, L_32);
 		if (!L_33)
@@ -5985,6 +6148,7 @@ IL_0009:
 	{
 		int32_t L_1 = ___index1;
 		KeyValuePair_2U5BU5D_tDF16CFF57580819CD4D0454C2F6CDF876FEDBBC4* L_2 = ___array0;
+		NullCheck(L_2);
 		if ((!(((uint32_t)L_1) > ((uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))))))
 		{
 			goto IL_0014;
@@ -5997,6 +6161,7 @@ IL_0009:
 IL_0014:
 	{
 		KeyValuePair_2U5BU5D_tDF16CFF57580819CD4D0454C2F6CDF876FEDBBC4* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4 = ___index1;
 		int32_t L_5;
 		L_5 = ((  int32_t (*) (Dictionary_2_tBE995FA87CE27220FD97BCC009668BA7930F425B*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 29)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 29));
@@ -6023,7 +6188,8 @@ IL_0039:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_8 = V_1;
 		int32_t L_9 = V_2;
-		int32_t L_10 = (int32_t)((L_8)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
+		NullCheck(L_8);
+		int32_t L_10 = (int32_t)((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
 		if ((((int32_t)L_10) < ((int32_t)0)))
 		{
 			goto IL_0071;
@@ -6036,14 +6202,17 @@ IL_0039:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_17 = V_1;
 		int32_t L_18 = V_2;
-		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_19 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
+		NullCheck(L_17);
+		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_19 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
 		KeyValuePair_2_tB999B4329040B950BC24C49C2E5CAD7574557D0B L_20;
 		memset((&L_20), 0, sizeof(L_20));
 		KeyValuePair_2__ctor_mAF5F3E2495F085FD6C7D1CF12CB0EE2393A3FFE2((&L_20), L_16, L_19, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_tB999B4329040B950BC24C49C2E5CAD7574557D0B)L_20);
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_tB999B4329040B950BC24C49C2E5CAD7574557D0B)L_20);
 	}
 
 IL_0071:
@@ -6129,6 +6298,7 @@ IL_0009:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
 		int32_t L_2 = (int32_t)__this->____version_5;
+		NullCheck(L_1);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(L_1, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, L_2, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = ___info0;
 		RuntimeObject* L_4 = (RuntimeObject*)__this->____comparer_6;
@@ -6158,6 +6328,7 @@ IL_002f:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_8;
 		L_8 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_7, NULL);
+		NullCheck(G_B4_2);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(G_B4_2, G_B4_1, (RuntimeObject*)G_B4_0, L_8, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_9 = ___info0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
@@ -6172,6 +6343,7 @@ IL_002f:
 	}
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_11);
 		G_B7_0 = ((int32_t)(((RuntimeArray*)L_11)->max_length));
 		G_B7_1 = G_B5_0;
 		G_B7_2 = G_B5_1;
@@ -6187,6 +6359,7 @@ IL_0056:
 
 IL_0057:
 	{
+		NullCheck(G_B7_2);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(G_B7_2, G_B7_1, G_B7_0, NULL);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		if (!L_12)
@@ -6207,6 +6380,7 @@ IL_0057:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_19;
 		L_19 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_18, NULL);
+		NullCheck(L_16);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(L_16, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, (RuntimeObject*)L_17, L_19, NULL);
 	}
 
@@ -6264,8 +6438,10 @@ IL_000e:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = V_1;
 		int32_t L_8 = V_5;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = V_1;
+		NullCheck(L_9);
+		NullCheck(L_7);
 		int32_t L_10 = ((int32_t)(L_8%((int32_t)(((RuntimeArray*)L_9)->max_length))));
-		int32_t L_11 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		int32_t L_11 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
 		il2cpp_codegen_initobj((&V_6), sizeof(int32_t));
 	}
@@ -6274,6 +6450,7 @@ IL_0066:
 	{
 		int32_t L_13 = V_0;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_14 = V_2;
+		NullCheck(L_14);
 		if ((!(((uint32_t)L_13) < ((uint32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))))))
 		{
 			goto IL_0175;
@@ -6282,7 +6459,8 @@ IL_0066:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_15 = V_2;
 		int32_t L_16 = V_0;
-		int32_t L_17 = (int32_t)((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
+		NullCheck(L_15);
+		int32_t L_17 = (int32_t)((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
 		int32_t L_18 = V_5;
 		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
 		{
@@ -6294,8 +6472,10 @@ IL_0066:
 		L_19 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_20 = V_2;
 		int32_t L_21 = V_0;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_19);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_19, L_22, L_23);
 		if (L_24)
@@ -6308,10 +6488,12 @@ IL_009b:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_25 = V_2;
 		int32_t L_26 = V_0;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
 		V_0 = L_27;
 		int32_t L_28 = V_3;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_29 = V_2;
+		NullCheck(L_29);
 		if ((((int32_t)L_28) < ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length)))))
 		{
 			goto IL_00b3;
@@ -6339,6 +6521,7 @@ IL_00c0:
 	{
 		int32_t L_32 = V_0;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_33 = V_2;
+		NullCheck(L_33);
 		if ((!(((uint32_t)L_32) < ((uint32_t)((int32_t)(((RuntimeArray*)L_33)->max_length))))))
 		{
 			goto IL_0175;
@@ -6347,7 +6530,8 @@ IL_00c0:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_34 = V_2;
 		int32_t L_35 = V_0;
-		int32_t L_36 = (int32_t)((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
+		NullCheck(L_34);
+		int32_t L_36 = (int32_t)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
 		int32_t L_37 = V_5;
 		if ((!(((uint32_t)L_36) == ((uint32_t)L_37))))
 		{
@@ -6358,8 +6542,10 @@ IL_00c0:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_38 = V_7;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_39 = V_2;
 		int32_t L_40 = V_0;
-		int32_t L_41 = (int32_t)((L_39)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
+		NullCheck(L_39);
+		int32_t L_41 = (int32_t)((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
 		int32_t L_42 = ___key0;
+		NullCheck(L_38);
 		bool L_43;
 		L_43 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_38, L_41, L_42);
 		if (L_43)
@@ -6372,10 +6558,12 @@ IL_00f2:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_44 = V_2;
 		int32_t L_45 = V_0;
-		int32_t L_46 = (int32_t)((L_44)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
+		NullCheck(L_44);
+		int32_t L_46 = (int32_t)((L_44)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
 		V_0 = L_46;
 		int32_t L_47 = V_3;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_48 = V_2;
+		NullCheck(L_48);
 		if ((((int32_t)L_47) < ((int32_t)((int32_t)(((RuntimeArray*)L_48)->max_length)))))
 		{
 			goto IL_010a;
@@ -6396,14 +6584,17 @@ IL_0110:
 	{
 		RuntimeObject* L_50 = V_4;
 		int32_t L_51 = ___key0;
+		NullCheck(L_50);
 		int32_t L_52;
 		L_52 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_50, L_51);
 		V_8 = ((int32_t)(L_52&((int32_t)2147483647LL)));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = V_1;
 		int32_t L_54 = V_8;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_55 = V_1;
+		NullCheck(L_55);
+		NullCheck(L_53);
 		int32_t L_56 = ((int32_t)(L_54%((int32_t)(((RuntimeArray*)L_55)->max_length))));
-		int32_t L_57 = (L_53)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_56));
+		int32_t L_57 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_57, 1));
 	}
 
@@ -6411,6 +6602,7 @@ IL_012b:
 	{
 		int32_t L_58 = V_0;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_59 = V_2;
+		NullCheck(L_59);
 		if ((!(((uint32_t)L_58) < ((uint32_t)((int32_t)(((RuntimeArray*)L_59)->max_length))))))
 		{
 			goto IL_0175;
@@ -6419,7 +6611,8 @@ IL_012b:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_60 = V_2;
 		int32_t L_61 = V_0;
-		int32_t L_62 = (int32_t)((L_60)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
+		NullCheck(L_60);
+		int32_t L_62 = (int32_t)((L_60)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
 		int32_t L_63 = V_8;
 		if ((!(((uint32_t)L_62) == ((uint32_t)L_63))))
 		{
@@ -6430,8 +6623,10 @@ IL_012b:
 		RuntimeObject* L_64 = V_4;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_65 = V_2;
 		int32_t L_66 = V_0;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
 		int32_t L_68 = ___key0;
+		NullCheck(L_64);
 		bool L_69;
 		L_69 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_64, L_67, L_68);
 		if (L_69)
@@ -6444,10 +6639,12 @@ IL_0157:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_70 = V_2;
 		int32_t L_71 = V_0;
-		int32_t L_72 = (int32_t)((L_70)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
+		NullCheck(L_70);
+		int32_t L_72 = (int32_t)((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
 		V_0 = L_72;
 		int32_t L_73 = V_3;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_74 = V_2;
+		NullCheck(L_74);
 		if ((((int32_t)L_73) < ((int32_t)((int32_t)(((RuntimeArray*)L_74)->max_length)))))
 		{
 			goto IL_016f;
@@ -6556,6 +6753,7 @@ IL_002c:
 	{
 		RuntimeObject* L_7 = V_1;
 		int32_t L_8 = ___key0;
+		NullCheck(L_7);
 		int32_t L_9;
 		L_9 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_7, L_8);
 		G_B7_0 = L_9;
@@ -6576,7 +6774,9 @@ IL_0053:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_12 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		V_4 = ((L_11)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
+		NullCheck(L_13);
+		NullCheck(L_11);
+		V_4 = ((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
 		int32_t* L_14 = V_4;
 		int32_t L_15 = *((int32_t*)L_14);
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_15, 1));
@@ -6594,6 +6794,7 @@ IL_0091:
 	{
 		int32_t L_18 = V_5;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_19 = V_0;
+		NullCheck(L_19);
 		if ((!(((uint32_t)L_18) < ((uint32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))))))
 		{
 			goto IL_01f9;
@@ -6602,7 +6803,8 @@ IL_0091:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_20 = V_0;
 		int32_t L_21 = V_5;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
 		int32_t L_23 = V_2;
 		if ((!(((uint32_t)L_22) == ((uint32_t)L_23))))
 		{
@@ -6614,8 +6816,10 @@ IL_0091:
 		L_24 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = ___key0;
+		NullCheck(L_24);
 		bool L_29;
 		L_29 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_24, L_27, L_28);
 		if (!L_29)
@@ -6633,8 +6837,9 @@ IL_0091:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_31 = V_0;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_33 = ___value1;
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
 		return (bool)1;
 	}
 
@@ -6662,10 +6867,12 @@ IL_00ea:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_38 = V_0;
 		int32_t L_39 = V_5;
-		int32_t L_40 = (int32_t)((L_38)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
+		NullCheck(L_38);
+		int32_t L_40 = (int32_t)((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
 		V_5 = L_40;
 		int32_t L_41 = V_3;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_42 = V_0;
+		NullCheck(L_42);
 		if ((((int32_t)L_41) < ((int32_t)((int32_t)(((RuntimeArray*)L_42)->max_length)))))
 		{
 			goto IL_0104;
@@ -6693,6 +6900,7 @@ IL_0111:
 	{
 		int32_t L_45 = V_5;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_46 = V_0;
+		NullCheck(L_46);
 		if ((!(((uint32_t)L_45) < ((uint32_t)((int32_t)(((RuntimeArray*)L_46)->max_length))))))
 		{
 			goto IL_01f9;
@@ -6701,7 +6909,8 @@ IL_0111:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_47 = V_0;
 		int32_t L_48 = V_5;
-		int32_t L_49 = (int32_t)((L_47)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
+		NullCheck(L_47);
+		int32_t L_49 = (int32_t)((L_47)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
 		int32_t L_50 = V_2;
 		if ((!(((uint32_t)L_49) == ((uint32_t)L_50))))
 		{
@@ -6712,8 +6921,10 @@ IL_0111:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_51 = V_12;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_52 = V_0;
 		int32_t L_53 = V_5;
-		int32_t L_54 = (int32_t)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
+		NullCheck(L_52);
+		int32_t L_54 = (int32_t)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
 		int32_t L_55 = ___key0;
+		NullCheck(L_51);
 		bool L_56;
 		L_56 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_51, L_54, L_55);
 		if (!L_56)
@@ -6731,8 +6942,9 @@ IL_0111:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_58 = V_0;
 		int32_t L_59 = V_5;
+		NullCheck(L_58);
 		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_60 = ___value1;
-		((L_58)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
+		((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
 		return (bool)1;
 	}
 
@@ -6760,10 +6972,12 @@ IL_0167:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_65 = V_0;
 		int32_t L_66 = V_5;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
 		V_5 = L_67;
 		int32_t L_68 = V_3;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_69 = V_0;
+		NullCheck(L_69);
 		if ((((int32_t)L_68) < ((int32_t)((int32_t)(((RuntimeArray*)L_69)->max_length)))))
 		{
 			goto IL_0181;
@@ -6784,6 +6998,7 @@ IL_0187:
 	{
 		int32_t L_71 = V_5;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_72 = V_0;
+		NullCheck(L_72);
 		if ((!(((uint32_t)L_71) < ((uint32_t)((int32_t)(((RuntimeArray*)L_72)->max_length))))))
 		{
 			goto IL_01f9;
@@ -6792,7 +7007,8 @@ IL_0187:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_73 = V_0;
 		int32_t L_74 = V_5;
-		int32_t L_75 = (int32_t)((L_73)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
+		NullCheck(L_73);
+		int32_t L_75 = (int32_t)((L_73)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
 		int32_t L_76 = V_2;
 		if ((!(((uint32_t)L_75) == ((uint32_t)L_76))))
 		{
@@ -6803,8 +7019,10 @@ IL_0187:
 		RuntimeObject* L_77 = V_1;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_78 = V_0;
 		int32_t L_79 = V_5;
-		int32_t L_80 = (int32_t)((L_78)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
+		NullCheck(L_78);
+		int32_t L_80 = (int32_t)((L_78)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
 		int32_t L_81 = ___key0;
+		NullCheck(L_77);
 		bool L_82;
 		L_82 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_77, L_80, L_81);
 		if (!L_82)
@@ -6822,8 +7040,9 @@ IL_0187:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_84 = V_0;
 		int32_t L_85 = V_5;
+		NullCheck(L_84);
 		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_86 = ___value1;
-		((L_84)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
+		((L_84)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
 		return (bool)1;
 	}
 
@@ -6851,10 +7070,12 @@ IL_01d9:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_91 = V_0;
 		int32_t L_92 = V_5;
-		int32_t L_93 = (int32_t)((L_91)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
+		NullCheck(L_91);
+		int32_t L_93 = (int32_t)((L_91)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
 		V_5 = L_93;
 		int32_t L_94 = V_3;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_95 = V_0;
+		NullCheck(L_95);
 		if ((((int32_t)L_94) < ((int32_t)((int32_t)(((RuntimeArray*)L_95)->max_length)))))
 		{
 			goto IL_01f3;
@@ -6896,6 +7117,7 @@ IL_0223:
 		V_13 = L_100;
 		int32_t L_101 = V_13;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_102 = V_0;
+		NullCheck(L_102);
 		if ((!(((uint32_t)L_101) == ((uint32_t)((int32_t)(((RuntimeArray*)L_102)->max_length))))))
 		{
 			goto IL_023b;
@@ -6935,7 +7157,9 @@ IL_0258:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_108 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_109 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_110 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		G_B51_0 = ((L_108)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
+		NullCheck(L_110);
+		NullCheck(L_108);
+		G_B51_0 = ((L_108)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
 	}
 
 IL_026d:
@@ -6943,7 +7167,8 @@ IL_026d:
 		V_9 = G_B51_0;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_111 = V_0;
 		int32_t L_112 = V_8;
-		V_10 = ((L_111)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_112)));
+		NullCheck(L_111);
+		V_10 = ((L_111)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_112)));
 		bool L_113 = V_7;
 		if (!L_113)
 		{
@@ -7002,6 +7227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_m3E9536C3
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_0);
 		bool L_1;
 		L_1 = ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F(L_0, (RuntimeObject*)__this, (&V_0), ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F_RuntimeMethod_var);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_2 = V_0;
@@ -7017,10 +7243,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_m3E9536C3
 IL_0012:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = V_0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_3, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, NULL);
 		V_1 = L_4;
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_5 = V_0;
+		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_5, _stringLiteral1275D52763CF050C5A4C759818D60119CC35BD69, NULL);
 		V_2 = L_6;
@@ -7029,6 +7257,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_9;
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
+		NullCheck(L_7);
 		RuntimeObject* L_10;
 		L_10 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_7, _stringLiteralC5F173ABE7214E8ED04EE91D0D5626EEDF0007E9, L_9, NULL);
 		__this->____comparer_6 = ((RuntimeObject*)Castclass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 41)));
@@ -7048,6 +7277,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_16;
 		L_16 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_15, NULL);
+		NullCheck(L_14);
 		RuntimeObject* L_17;
 		L_17 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_14, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, L_16, NULL);
 		V_3 = ((KeyValuePair_2U5BU5D_tDF16CFF57580819CD4D0454C2F6CDF876FEDBBC4*)Castclass((RuntimeObject*)L_17, il2cpp_rgctx_data(method->klass->rgctx_data, 46)));
@@ -7071,8 +7301,9 @@ IL_007f:
 	{
 		KeyValuePair_2U5BU5D_tDF16CFF57580819CD4D0454C2F6CDF876FEDBBC4* L_19 = V_3;
 		int32_t L_20 = V_4;
+		NullCheck(L_19);
 		int32_t L_21;
-		L_21 = KeyValuePair_2_get_Key_m60EAF9F6BAB0ACF6E06D709BED194E5065E6FFBB_inline(((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_21 = KeyValuePair_2_get_Key_m60EAF9F6BAB0ACF6E06D709BED194E5065E6FFBB_inline(((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		goto IL_009a;
 	}
 	{
@@ -7083,12 +7314,14 @@ IL_009a:
 	{
 		KeyValuePair_2U5BU5D_tDF16CFF57580819CD4D0454C2F6CDF876FEDBBC4* L_22 = V_3;
 		int32_t L_23 = V_4;
+		NullCheck(L_22);
 		int32_t L_24;
-		L_24 = KeyValuePair_2_get_Key_m60EAF9F6BAB0ACF6E06D709BED194E5065E6FFBB_inline(((L_22)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_24 = KeyValuePair_2_get_Key_m60EAF9F6BAB0ACF6E06D709BED194E5065E6FFBB_inline(((L_22)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		KeyValuePair_2U5BU5D_tDF16CFF57580819CD4D0454C2F6CDF876FEDBBC4* L_25 = V_3;
 		int32_t L_26 = V_4;
+		NullCheck(L_25);
 		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_27;
-		L_27 = KeyValuePair_2_get_Value_m369E3E9E956EF2A9984B393E60819944216D9C3B_inline(((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		L_27 = KeyValuePair_2_get_Value_m369E3E9E956EF2A9984B393E60819944216D9C3B_inline(((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
 		((  void (*) (Dictionary_2_tBE995FA87CE27220FD97BCC009668BA7930F425B*, int32_t, ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_24, L_27, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		int32_t L_28 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_28, 1));
@@ -7098,6 +7331,7 @@ IL_00c0:
 	{
 		int32_t L_29 = V_4;
 		KeyValuePair_2U5BU5D_tDF16CFF57580819CD4D0454C2F6CDF876FEDBBC4* L_30 = V_3;
+		NullCheck(L_30);
 		if ((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))
 		{
 			goto IL_007f;
@@ -7120,6 +7354,7 @@ IL_00d0:
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_32;
 		L_32 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_32);
 		bool L_33;
 		L_33 = ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E(L_32, (RuntimeObject*)__this, ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E_RuntimeMethod_var);
 		return;
@@ -7191,7 +7426,8 @@ IL_003e:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_12 = V_1;
 		int32_t L_13 = V_4;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0079;
@@ -7200,12 +7436,14 @@ IL_003e:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_15 = V_1;
 		int32_t L_16 = V_4;
+		NullCheck(L_15);
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_17 = V_1;
 		int32_t L_18 = V_4;
-		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
+		NullCheck(L_17);
+		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
 		int32_t L_20;
 		L_20 = Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295(L_19, il2cpp_rgctx_method(method->klass->rgctx_data, 38));
-		((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
+		((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
 	}
 
 IL_0079:
@@ -7234,7 +7472,8 @@ IL_0089:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_24 = V_1;
 		int32_t L_25 = V_5;
-		int32_t L_26 = (int32_t)((L_24)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
+		NullCheck(L_24);
+		int32_t L_26 = (int32_t)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
 		if ((((int32_t)L_26) < ((int32_t)0)))
 		{
 			goto IL_00c5;
@@ -7243,20 +7482,24 @@ IL_0089:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_27 = V_1;
 		int32_t L_28 = V_5;
-		int32_t L_29 = (int32_t)((L_27)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
+		NullCheck(L_27);
+		int32_t L_29 = (int32_t)((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
 		int32_t L_30 = ___newSize0;
 		V_6 = ((int32_t)(L_29%L_30));
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_31 = V_1;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_33 = V_0;
 		int32_t L_34 = V_6;
+		NullCheck(L_33);
 		int32_t L_35 = L_34;
-		int32_t L_36 = (L_33)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_35));
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
+		int32_t L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = V_0;
 		int32_t L_38 = V_6;
 		int32_t L_39 = V_5;
-		(L_37)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
 	}
 
 IL_00c5:
@@ -7333,6 +7576,7 @@ IL_000e:
 IL_0032:
 	{
 		int32_t L_5 = ___key0;
+		NullCheck(G_B5_0);
 		int32_t L_6;
 		L_6 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B5_0, L_5);
 		G_B6_0 = L_6;
@@ -7343,12 +7587,14 @@ IL_0038:
 		V_0 = ((int32_t)(G_B6_0&((int32_t)2147483647LL)));
 		int32_t L_7 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_8);
 		V_1 = ((int32_t)(L_7%((int32_t)(((RuntimeArray*)L_8)->max_length))));
 		V_2 = (-1);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_10 = V_1;
+		NullCheck(L_9);
 		int32_t L_11 = L_10;
-		int32_t L_12 = (L_9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
+		int32_t L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
 		goto IL_0142;
 	}
@@ -7357,7 +7603,8 @@ IL_005c:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_13 = (EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14*)__this->____entries_1;
 		int32_t L_14 = V_3;
-		V_4 = ((L_13)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_14)));
+		NullCheck(L_13);
+		V_4 = ((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14)));
 		Entry_t008CACF55D7F47352355FB69BA62E34489CF2116* L_15 = V_4;
 		int32_t L_16 = (int32_t)L_15->___hashCode_0;
 		int32_t L_17 = V_0;
@@ -7382,6 +7629,7 @@ IL_005c:
 		Entry_t008CACF55D7F47352355FB69BA62E34489CF2116* L_21 = V_4;
 		int32_t L_22 = (int32_t)L_21->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_20);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_20, L_22, L_23);
 		G_B11_0 = L_24;
@@ -7393,6 +7641,7 @@ IL_0095:
 		Entry_t008CACF55D7F47352355FB69BA62E34489CF2116* L_25 = V_4;
 		int32_t L_26 = (int32_t)L_25->___key_2;
 		int32_t L_27 = ___key0;
+		NullCheck(G_B10_0);
 		bool L_28;
 		L_28 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B10_0, L_26, L_27);
 		G_B11_0 = L_28;
@@ -7417,7 +7666,8 @@ IL_00a2:
 		int32_t L_31 = V_1;
 		Entry_t008CACF55D7F47352355FB69BA62E34489CF2116* L_32 = V_4;
 		int32_t L_33 = (int32_t)L_32->___next_1;
-		(L_30)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
 		goto IL_00d6;
 	}
 
@@ -7425,9 +7675,10 @@ IL_00be:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_34 = (EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14*)__this->____entries_1;
 		int32_t L_35 = V_2;
+		NullCheck(L_34);
 		Entry_t008CACF55D7F47352355FB69BA62E34489CF2116* L_36 = V_4;
 		int32_t L_37 = (int32_t)L_36->___next_1;
-		((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
+		((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
 	}
 
 IL_00d6:
@@ -7514,7 +7765,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m1EEB5E9C854007
 		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26* L_3 = ___value1;
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_4 = (EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_6 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_6 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		*(ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26*)L_3 = L_6;
 		return (bool)1;
 	}
@@ -7587,6 +7839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_System_Collections_ICollect
 IL_0009:
 	{
 		RuntimeArray* L_1 = ___array0;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(L_1, NULL);
 		if ((((int32_t)L_2) == ((int32_t)1)))
@@ -7601,6 +7854,7 @@ IL_0009:
 IL_0018:
 	{
 		RuntimeArray* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(L_3, 0, NULL);
 		if (!L_4)
@@ -7616,6 +7870,7 @@ IL_0027:
 	{
 		int32_t L_5 = ___index1;
 		RuntimeArray* L_6 = ___array0;
+		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_6, NULL);
 		if ((!(((uint32_t)L_5) > ((uint32_t)L_7))))
@@ -7630,6 +7885,7 @@ IL_0027:
 IL_0035:
 	{
 		RuntimeArray* L_8 = ___array0;
+		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_8, NULL);
 		int32_t L_10 = ___index1;
@@ -7682,7 +7938,8 @@ IL_0073:
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_19 = V_2;
 		int32_t L_20 = V_3;
-		int32_t L_21 = (int32_t)((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
+		NullCheck(L_19);
+		int32_t L_21 = (int32_t)((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
 		if ((((int32_t)L_21) < ((int32_t)0)))
 		{
 			goto IL_00b5;
@@ -7695,18 +7952,21 @@ IL_0073:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_25 = V_2;
 		int32_t L_26 = V_3;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = L_27;
 		RuntimeObject* L_29 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 21), &L_28);
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_30 = V_2;
 		int32_t L_31 = V_3;
-		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_32 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_30)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
+		NullCheck(L_30);
+		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_32 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
 		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_33 = L_32;
 		RuntimeObject* L_34 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_33);
 		DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB L_35;
 		memset((&L_35), 0, sizeof(L_35));
 		DictionaryEntry__ctor_m2768353E53A75C4860E34B37DAF1342120C5D1EA((&L_35), L_29, L_34, /*hidden argument*/NULL);
-		(L_22)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
 	}
 
 IL_00b5:
@@ -7760,7 +8020,8 @@ IL_00ea_1:
 		{
 			EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_43 = V_6;
 			int32_t L_44 = V_7;
-			int32_t L_45 = (int32_t)((L_43)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
+			NullCheck(L_43);
+			int32_t L_45 = (int32_t)((L_43)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
 			if ((((int32_t)L_45) < ((int32_t)0)))
 			{
 				goto IL_012a_1;
@@ -7773,17 +8034,20 @@ IL_00ea_1:
 			___index1 = ((int32_t)il2cpp_codegen_add(L_48, 1));
 			EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_49 = V_6;
 			int32_t L_50 = V_7;
-			int32_t L_51 = (int32_t)((L_49)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
+			NullCheck(L_49);
+			int32_t L_51 = (int32_t)((L_49)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
 			EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_52 = V_6;
 			int32_t L_53 = V_7;
-			ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_54 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
+			NullCheck(L_52);
+			ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_54 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
 			KeyValuePair_2_tB999B4329040B950BC24C49C2E5CAD7574557D0B L_55;
 			memset((&L_55), 0, sizeof(L_55));
 			KeyValuePair_2__ctor_mAF5F3E2495F085FD6C7D1CF12CB0EE2393A3FFE2((&L_55), L_51, L_54, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
 			KeyValuePair_2_tB999B4329040B950BC24C49C2E5CAD7574557D0B L_56 = L_55;
 			RuntimeObject* L_57 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 30), &L_56);
+			NullCheck(L_46);
 			ArrayElementTypeCheck (L_46, L_57);
-			(L_46)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
+			(L_46)->SetAt(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
 		}
 
 IL_012a_1:
@@ -7865,6 +8129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		RuntimeObject** L_1 = (RuntimeObject**)(&__this->____syncRoot_9);
 		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
 		RuntimeObject* L_3;
 		L_3 = InterlockedCompareExchangeImpl<RuntimeObject*>(L_1, L_2, NULL);
@@ -7935,7 +8200,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14* L_5 = (EntryU5BU5D_t1D278BBD8CED6790AF7799AA4CFD47335ABAEF14*)__this->____entries_1;
 		int32_t L_6 = V_0;
-		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_7 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_7 = (ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		ValueTuple_2_t05010CA1EDA09F02C7ADFC1E8C90141D6388EF26 L_8 = L_7;
 		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_8);
 		return L_9;
@@ -8333,6 +8599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mC11BF75E2F3DCB9A0411
 IL_0007:
 	{
 		RuntimeObject* L_1 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_1);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Boolean>>::get_Count() */, il2cpp_rgctx_data(method->klass->rgctx_data, 5), (RuntimeObject*)L_1);
 		G_B3_0 = L_2;
@@ -8356,6 +8623,7 @@ IL_000d:
 IL_001c:
 	{
 		RuntimeObject* L_5 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_5);
 		Type_t* L_6;
 		L_6 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)L_5, NULL);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 7)) };
@@ -8372,8 +8640,10 @@ IL_001c:
 	{
 		RuntimeObject* L_10 = ___dictionary0;
 		Dictionary_2_t01224C8DBCCFE276E97D2BF52F4D7B10D3642682* L_11 = ((Dictionary_2_t01224C8DBCCFE276E97D2BF52F4D7B10D3642682*)CastclassClass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 8)));
+		NullCheck(L_11);
 		int32_t L_12 = (int32_t)L_11->____count_2;
 		V_0 = L_12;
+		NullCheck(L_11);
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_13 = (EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500*)L_11->____entries_1;
 		V_1 = L_13;
 		V_2 = 0;
@@ -8384,7 +8654,8 @@ IL_004a:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
 		if ((((int32_t)L_16) < ((int32_t)0)))
 		{
 			goto IL_0077;
@@ -8393,10 +8664,12 @@ IL_004a:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_17 = V_1;
 		int32_t L_18 = V_2;
-		int32_t L_19 = (int32_t)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
+		NullCheck(L_17);
+		int32_t L_19 = (int32_t)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_20 = V_1;
 		int32_t L_21 = V_2;
-		bool L_22 = (bool)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
+		NullCheck(L_20);
+		bool L_22 = (bool)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
 		((  void (*) (Dictionary_2_t01224C8DBCCFE276E97D2BF52F4D7B10D3642682*, int32_t, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_19, L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 	}
 
@@ -8422,6 +8695,7 @@ IL_007b:
 IL_0080:
 	{
 		RuntimeObject* L_26 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_26);
 		RuntimeObject* L_27;
 		L_27 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Boolean>>::GetEnumerator() */, il2cpp_rgctx_data(method->klass->rgctx_data, 10), (RuntimeObject*)L_26);
 		V_3 = L_27;
@@ -8441,6 +8715,7 @@ FINALLY_00af:
 				}
 				{
 					RuntimeObject* L_29 = V_3;
+					NullCheck((RuntimeObject*)L_29);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, (RuntimeObject*)L_29);
 				}
 
@@ -8459,6 +8734,7 @@ IL_00b8:
 IL_0089_1:
 			{
 				RuntimeObject* L_30 = V_3;
+				NullCheck(L_30);
 				KeyValuePair_2_t0EAC8DA2D95957AFA60DD198D013622384C0D213 L_31;
 				L_31 = InterfaceFuncInvoker0< KeyValuePair_2_t0EAC8DA2D95957AFA60DD198D013622384C0D213 >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Boolean>>::get_Current() */, il2cpp_rgctx_data(method->klass->rgctx_data, 12), L_30);
 				V_4 = L_31;
@@ -8472,6 +8748,7 @@ IL_0089_1:
 IL_00a5_1:
 			{
 				RuntimeObject* L_34 = V_3;
+				NullCheck((RuntimeObject*)L_34);
 				bool L_35;
 				L_35 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, (RuntimeObject*)L_34);
 				if (L_35)
@@ -8510,6 +8787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m2D9BC134A4251C2BCCD1
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
+		NullCheck(L_0);
 		ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7(L_0, (RuntimeObject*)__this, L_1, ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7_RuntimeMethod_var);
 		return;
 	}
@@ -8535,6 +8813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyCollection_t66E188B36DF8E1A23EBDA7253CDCE9
 	}
 	{
 		KeyCollection_t66E188B36DF8E1A23EBDA7253CDCE978CD3EF298* L_1 = (KeyCollection_t66E188B36DF8E1A23EBDA7253CDCE978CD3EF298*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t66E188B36DF8E1A23EBDA7253CDCE978CD3EF298*, Dictionary_2_t01224C8DBCCFE276E97D2BF52F4D7B10D3642682*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -8558,6 +8837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		KeyCollection_t66E188B36DF8E1A23EBDA7253CDCE978CD3EF298* L_1 = (KeyCollection_t66E188B36DF8E1A23EBDA7253CDCE978CD3EF298*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t66E188B36DF8E1A23EBDA7253CDCE978CD3EF298*, Dictionary_2_t01224C8DBCCFE276E97D2BF52F4D7B10D3642682*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -8581,6 +8861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_t95D69F17F87935E5166EE0E3C174
 	}
 	{
 		ValueCollection_t95D69F17F87935E5166EE0E3C174BB8A8F051F5B* L_1 = (ValueCollection_t95D69F17F87935E5166EE0E3C174BB8A8F051F5B*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_t95D69F17F87935E5166EE0E3C174BB8A8F051F5B*, Dictionary_2_t01224C8DBCCFE276E97D2BF52F4D7B10D3642682*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -8604,6 +8885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		ValueCollection_t95D69F17F87935E5166EE0E3C174BB8A8F051F5B* L_1 = (ValueCollection_t95D69F17F87935E5166EE0E3C174BB8A8F051F5B*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_t95D69F17F87935E5166EE0E3C174BB8A8F051F5B*, Dictionary_2_t01224C8DBCCFE276E97D2BF52F4D7B10D3642682*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -8634,7 +8916,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_get_Item_mFEABB1F5BA99558C7
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_3 = (EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500*)__this->____entries_1;
 		int32_t L_4 = V_0;
-		bool L_5 = (bool)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
+		NullCheck(L_3);
+		bool L_5 = (bool)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
 		return L_5;
 	}
 
@@ -8704,9 +8987,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_t97160852989689D9543E2E1EA7D7196DBEA5AEE4* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_4 = (EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		bool L_6 = (bool)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		bool L_6 = (bool)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		bool L_7;
 		L_7 = KeyValuePair_2_get_Value_m00849F341D41ABD55D72D0701342145724AC3A9F_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, bool, bool >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Boolean>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -8744,9 +9029,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_t97160852989689D9543E2E1EA7D7196DBEA5AEE4* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_4 = (EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		bool L_6 = (bool)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		bool L_6 = (bool)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		bool L_7;
 		L_7 = KeyValuePair_2_get_Value_m00849F341D41ABD55D72D0701342145724AC3A9F_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, bool, bool >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Boolean>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -8783,6 +9070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_mE2925B42DE92CB95771A
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_3);
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_2, 0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
 		__this->____count_2 = 0;
 		__this->____freeList_3 = (-1);
@@ -8832,7 +9120,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_2 = V_0;
 		int32_t L_3 = V_1;
-		int32_t L_4 = (int32_t)((L_2)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
+		NullCheck(L_2);
+		int32_t L_4 = (int32_t)((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
 		if ((((int32_t)L_4) < ((int32_t)0)))
 		{
 			goto IL_0037;
@@ -8841,7 +9130,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_5 = V_0;
 		int32_t L_6 = V_1;
-		bool L_7 = (bool)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		bool L_7 = (bool)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		goto IL_0037;
 	}
 	{
@@ -8880,7 +9170,8 @@ IL_005d:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_12 = V_0;
 		int32_t L_13 = V_3;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0087;
@@ -8891,8 +9182,10 @@ IL_005d:
 		L_15 = ((  EqualityComparer_1_t97160852989689D9543E2E1EA7D7196DBEA5AEE4* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_16 = V_0;
 		int32_t L_17 = V_3;
-		bool L_18 = (bool)((L_16)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
+		NullCheck(L_16);
+		bool L_18 = (bool)((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
 		bool L_19 = ___value0;
+		NullCheck(L_15);
 		bool L_20;
 		L_20 = VirtualFuncInvoker2< bool, bool, bool >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Boolean>::Equals(T,T) */, L_15, L_18, L_19);
 		if (!L_20)
@@ -8936,7 +9229,8 @@ IL_00a2:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
 		if ((((int32_t)L_27) < ((int32_t)0)))
 		{
 			goto IL_00cb;
@@ -8946,8 +9240,10 @@ IL_00a2:
 		EqualityComparer_1_t97160852989689D9543E2E1EA7D7196DBEA5AEE4* L_28 = V_4;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_29 = V_0;
 		int32_t L_30 = V_5;
-		bool L_31 = (bool)((L_29)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
+		NullCheck(L_29);
+		bool L_31 = (bool)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
 		bool L_32 = ___value0;
+		NullCheck(L_28);
 		bool L_33;
 		L_33 = VirtualFuncInvoker2< bool, bool, bool >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Boolean>::Equals(T,T) */, L_28, L_31, L_32);
 		if (!L_33)
@@ -9001,6 +9297,7 @@ IL_0009:
 	{
 		int32_t L_1 = ___index1;
 		KeyValuePair_2U5BU5D_t00F1189D6659F8334E1D51B328A743FBD809CFB6* L_2 = ___array0;
+		NullCheck(L_2);
 		if ((!(((uint32_t)L_1) > ((uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))))))
 		{
 			goto IL_0014;
@@ -9013,6 +9310,7 @@ IL_0009:
 IL_0014:
 	{
 		KeyValuePair_2U5BU5D_t00F1189D6659F8334E1D51B328A743FBD809CFB6* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4 = ___index1;
 		int32_t L_5;
 		L_5 = ((  int32_t (*) (Dictionary_2_t01224C8DBCCFE276E97D2BF52F4D7B10D3642682*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 29)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 29));
@@ -9039,7 +9337,8 @@ IL_0039:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_8 = V_1;
 		int32_t L_9 = V_2;
-		int32_t L_10 = (int32_t)((L_8)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
+		NullCheck(L_8);
+		int32_t L_10 = (int32_t)((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
 		if ((((int32_t)L_10) < ((int32_t)0)))
 		{
 			goto IL_0071;
@@ -9052,14 +9351,17 @@ IL_0039:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_17 = V_1;
 		int32_t L_18 = V_2;
-		bool L_19 = (bool)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
+		NullCheck(L_17);
+		bool L_19 = (bool)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
 		KeyValuePair_2_t0EAC8DA2D95957AFA60DD198D013622384C0D213 L_20;
 		memset((&L_20), 0, sizeof(L_20));
 		KeyValuePair_2__ctor_m593E407EEF9038F9C3E26BBE93DD316684F8BC7E((&L_20), L_16, L_19, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_t0EAC8DA2D95957AFA60DD198D013622384C0D213)L_20);
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_t0EAC8DA2D95957AFA60DD198D013622384C0D213)L_20);
 	}
 
 IL_0071:
@@ -9145,6 +9447,7 @@ IL_0009:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
 		int32_t L_2 = (int32_t)__this->____version_5;
+		NullCheck(L_1);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(L_1, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, L_2, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = ___info0;
 		RuntimeObject* L_4 = (RuntimeObject*)__this->____comparer_6;
@@ -9174,6 +9477,7 @@ IL_002f:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_8;
 		L_8 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_7, NULL);
+		NullCheck(G_B4_2);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(G_B4_2, G_B4_1, (RuntimeObject*)G_B4_0, L_8, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_9 = ___info0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
@@ -9188,6 +9492,7 @@ IL_002f:
 	}
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_11);
 		G_B7_0 = ((int32_t)(((RuntimeArray*)L_11)->max_length));
 		G_B7_1 = G_B5_0;
 		G_B7_2 = G_B5_1;
@@ -9203,6 +9508,7 @@ IL_0056:
 
 IL_0057:
 	{
+		NullCheck(G_B7_2);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(G_B7_2, G_B7_1, G_B7_0, NULL);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		if (!L_12)
@@ -9223,6 +9529,7 @@ IL_0057:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_19;
 		L_19 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_18, NULL);
+		NullCheck(L_16);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(L_16, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, (RuntimeObject*)L_17, L_19, NULL);
 	}
 
@@ -9280,8 +9587,10 @@ IL_000e:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = V_1;
 		int32_t L_8 = V_5;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = V_1;
+		NullCheck(L_9);
+		NullCheck(L_7);
 		int32_t L_10 = ((int32_t)(L_8%((int32_t)(((RuntimeArray*)L_9)->max_length))));
-		int32_t L_11 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		int32_t L_11 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
 		il2cpp_codegen_initobj((&V_6), sizeof(int32_t));
 	}
@@ -9290,6 +9599,7 @@ IL_0066:
 	{
 		int32_t L_13 = V_0;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_14 = V_2;
+		NullCheck(L_14);
 		if ((!(((uint32_t)L_13) < ((uint32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))))))
 		{
 			goto IL_0175;
@@ -9298,7 +9608,8 @@ IL_0066:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_15 = V_2;
 		int32_t L_16 = V_0;
-		int32_t L_17 = (int32_t)((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
+		NullCheck(L_15);
+		int32_t L_17 = (int32_t)((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
 		int32_t L_18 = V_5;
 		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
 		{
@@ -9310,8 +9621,10 @@ IL_0066:
 		L_19 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_20 = V_2;
 		int32_t L_21 = V_0;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_19);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_19, L_22, L_23);
 		if (L_24)
@@ -9324,10 +9637,12 @@ IL_009b:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_25 = V_2;
 		int32_t L_26 = V_0;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
 		V_0 = L_27;
 		int32_t L_28 = V_3;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_29 = V_2;
+		NullCheck(L_29);
 		if ((((int32_t)L_28) < ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length)))))
 		{
 			goto IL_00b3;
@@ -9355,6 +9670,7 @@ IL_00c0:
 	{
 		int32_t L_32 = V_0;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_33 = V_2;
+		NullCheck(L_33);
 		if ((!(((uint32_t)L_32) < ((uint32_t)((int32_t)(((RuntimeArray*)L_33)->max_length))))))
 		{
 			goto IL_0175;
@@ -9363,7 +9679,8 @@ IL_00c0:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_34 = V_2;
 		int32_t L_35 = V_0;
-		int32_t L_36 = (int32_t)((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
+		NullCheck(L_34);
+		int32_t L_36 = (int32_t)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
 		int32_t L_37 = V_5;
 		if ((!(((uint32_t)L_36) == ((uint32_t)L_37))))
 		{
@@ -9374,8 +9691,10 @@ IL_00c0:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_38 = V_7;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_39 = V_2;
 		int32_t L_40 = V_0;
-		int32_t L_41 = (int32_t)((L_39)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
+		NullCheck(L_39);
+		int32_t L_41 = (int32_t)((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
 		int32_t L_42 = ___key0;
+		NullCheck(L_38);
 		bool L_43;
 		L_43 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_38, L_41, L_42);
 		if (L_43)
@@ -9388,10 +9707,12 @@ IL_00f2:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_44 = V_2;
 		int32_t L_45 = V_0;
-		int32_t L_46 = (int32_t)((L_44)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
+		NullCheck(L_44);
+		int32_t L_46 = (int32_t)((L_44)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
 		V_0 = L_46;
 		int32_t L_47 = V_3;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_48 = V_2;
+		NullCheck(L_48);
 		if ((((int32_t)L_47) < ((int32_t)((int32_t)(((RuntimeArray*)L_48)->max_length)))))
 		{
 			goto IL_010a;
@@ -9412,14 +9733,17 @@ IL_0110:
 	{
 		RuntimeObject* L_50 = V_4;
 		int32_t L_51 = ___key0;
+		NullCheck(L_50);
 		int32_t L_52;
 		L_52 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_50, L_51);
 		V_8 = ((int32_t)(L_52&((int32_t)2147483647LL)));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = V_1;
 		int32_t L_54 = V_8;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_55 = V_1;
+		NullCheck(L_55);
+		NullCheck(L_53);
 		int32_t L_56 = ((int32_t)(L_54%((int32_t)(((RuntimeArray*)L_55)->max_length))));
-		int32_t L_57 = (L_53)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_56));
+		int32_t L_57 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_57, 1));
 	}
 
@@ -9427,6 +9751,7 @@ IL_012b:
 	{
 		int32_t L_58 = V_0;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_59 = V_2;
+		NullCheck(L_59);
 		if ((!(((uint32_t)L_58) < ((uint32_t)((int32_t)(((RuntimeArray*)L_59)->max_length))))))
 		{
 			goto IL_0175;
@@ -9435,7 +9760,8 @@ IL_012b:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_60 = V_2;
 		int32_t L_61 = V_0;
-		int32_t L_62 = (int32_t)((L_60)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
+		NullCheck(L_60);
+		int32_t L_62 = (int32_t)((L_60)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
 		int32_t L_63 = V_8;
 		if ((!(((uint32_t)L_62) == ((uint32_t)L_63))))
 		{
@@ -9446,8 +9772,10 @@ IL_012b:
 		RuntimeObject* L_64 = V_4;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_65 = V_2;
 		int32_t L_66 = V_0;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
 		int32_t L_68 = ___key0;
+		NullCheck(L_64);
 		bool L_69;
 		L_69 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_64, L_67, L_68);
 		if (L_69)
@@ -9460,10 +9788,12 @@ IL_0157:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_70 = V_2;
 		int32_t L_71 = V_0;
-		int32_t L_72 = (int32_t)((L_70)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
+		NullCheck(L_70);
+		int32_t L_72 = (int32_t)((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
 		V_0 = L_72;
 		int32_t L_73 = V_3;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_74 = V_2;
+		NullCheck(L_74);
 		if ((((int32_t)L_73) < ((int32_t)((int32_t)(((RuntimeArray*)L_74)->max_length)))))
 		{
 			goto IL_016f;
@@ -9572,6 +9902,7 @@ IL_002c:
 	{
 		RuntimeObject* L_7 = V_1;
 		int32_t L_8 = ___key0;
+		NullCheck(L_7);
 		int32_t L_9;
 		L_9 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_7, L_8);
 		G_B7_0 = L_9;
@@ -9592,7 +9923,9 @@ IL_0053:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_12 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		V_4 = ((L_11)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
+		NullCheck(L_13);
+		NullCheck(L_11);
+		V_4 = ((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
 		int32_t* L_14 = V_4;
 		int32_t L_15 = *((int32_t*)L_14);
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_15, 1));
@@ -9610,6 +9943,7 @@ IL_0091:
 	{
 		int32_t L_18 = V_5;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_19 = V_0;
+		NullCheck(L_19);
 		if ((!(((uint32_t)L_18) < ((uint32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))))))
 		{
 			goto IL_01f9;
@@ -9618,7 +9952,8 @@ IL_0091:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_20 = V_0;
 		int32_t L_21 = V_5;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
 		int32_t L_23 = V_2;
 		if ((!(((uint32_t)L_22) == ((uint32_t)L_23))))
 		{
@@ -9630,8 +9965,10 @@ IL_0091:
 		L_24 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = ___key0;
+		NullCheck(L_24);
 		bool L_29;
 		L_29 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_24, L_27, L_28);
 		if (!L_29)
@@ -9649,8 +9986,9 @@ IL_0091:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_31 = V_0;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		bool L_33 = ___value1;
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
 		return (bool)1;
 	}
 
@@ -9678,10 +10016,12 @@ IL_00ea:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_38 = V_0;
 		int32_t L_39 = V_5;
-		int32_t L_40 = (int32_t)((L_38)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
+		NullCheck(L_38);
+		int32_t L_40 = (int32_t)((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
 		V_5 = L_40;
 		int32_t L_41 = V_3;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_42 = V_0;
+		NullCheck(L_42);
 		if ((((int32_t)L_41) < ((int32_t)((int32_t)(((RuntimeArray*)L_42)->max_length)))))
 		{
 			goto IL_0104;
@@ -9709,6 +10049,7 @@ IL_0111:
 	{
 		int32_t L_45 = V_5;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_46 = V_0;
+		NullCheck(L_46);
 		if ((!(((uint32_t)L_45) < ((uint32_t)((int32_t)(((RuntimeArray*)L_46)->max_length))))))
 		{
 			goto IL_01f9;
@@ -9717,7 +10058,8 @@ IL_0111:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_47 = V_0;
 		int32_t L_48 = V_5;
-		int32_t L_49 = (int32_t)((L_47)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
+		NullCheck(L_47);
+		int32_t L_49 = (int32_t)((L_47)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
 		int32_t L_50 = V_2;
 		if ((!(((uint32_t)L_49) == ((uint32_t)L_50))))
 		{
@@ -9728,8 +10070,10 @@ IL_0111:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_51 = V_12;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_52 = V_0;
 		int32_t L_53 = V_5;
-		int32_t L_54 = (int32_t)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
+		NullCheck(L_52);
+		int32_t L_54 = (int32_t)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
 		int32_t L_55 = ___key0;
+		NullCheck(L_51);
 		bool L_56;
 		L_56 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_51, L_54, L_55);
 		if (!L_56)
@@ -9747,8 +10091,9 @@ IL_0111:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_58 = V_0;
 		int32_t L_59 = V_5;
+		NullCheck(L_58);
 		bool L_60 = ___value1;
-		((L_58)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
+		((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
 		return (bool)1;
 	}
 
@@ -9776,10 +10121,12 @@ IL_0167:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_65 = V_0;
 		int32_t L_66 = V_5;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
 		V_5 = L_67;
 		int32_t L_68 = V_3;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_69 = V_0;
+		NullCheck(L_69);
 		if ((((int32_t)L_68) < ((int32_t)((int32_t)(((RuntimeArray*)L_69)->max_length)))))
 		{
 			goto IL_0181;
@@ -9800,6 +10147,7 @@ IL_0187:
 	{
 		int32_t L_71 = V_5;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_72 = V_0;
+		NullCheck(L_72);
 		if ((!(((uint32_t)L_71) < ((uint32_t)((int32_t)(((RuntimeArray*)L_72)->max_length))))))
 		{
 			goto IL_01f9;
@@ -9808,7 +10156,8 @@ IL_0187:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_73 = V_0;
 		int32_t L_74 = V_5;
-		int32_t L_75 = (int32_t)((L_73)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
+		NullCheck(L_73);
+		int32_t L_75 = (int32_t)((L_73)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
 		int32_t L_76 = V_2;
 		if ((!(((uint32_t)L_75) == ((uint32_t)L_76))))
 		{
@@ -9819,8 +10168,10 @@ IL_0187:
 		RuntimeObject* L_77 = V_1;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_78 = V_0;
 		int32_t L_79 = V_5;
-		int32_t L_80 = (int32_t)((L_78)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
+		NullCheck(L_78);
+		int32_t L_80 = (int32_t)((L_78)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
 		int32_t L_81 = ___key0;
+		NullCheck(L_77);
 		bool L_82;
 		L_82 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_77, L_80, L_81);
 		if (!L_82)
@@ -9838,8 +10189,9 @@ IL_0187:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_84 = V_0;
 		int32_t L_85 = V_5;
+		NullCheck(L_84);
 		bool L_86 = ___value1;
-		((L_84)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
+		((L_84)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
 		return (bool)1;
 	}
 
@@ -9867,10 +10219,12 @@ IL_01d9:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_91 = V_0;
 		int32_t L_92 = V_5;
-		int32_t L_93 = (int32_t)((L_91)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
+		NullCheck(L_91);
+		int32_t L_93 = (int32_t)((L_91)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
 		V_5 = L_93;
 		int32_t L_94 = V_3;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_95 = V_0;
+		NullCheck(L_95);
 		if ((((int32_t)L_94) < ((int32_t)((int32_t)(((RuntimeArray*)L_95)->max_length)))))
 		{
 			goto IL_01f3;
@@ -9912,6 +10266,7 @@ IL_0223:
 		V_13 = L_100;
 		int32_t L_101 = V_13;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_102 = V_0;
+		NullCheck(L_102);
 		if ((!(((uint32_t)L_101) == ((uint32_t)((int32_t)(((RuntimeArray*)L_102)->max_length))))))
 		{
 			goto IL_023b;
@@ -9951,7 +10306,9 @@ IL_0258:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_108 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_109 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_110 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		G_B51_0 = ((L_108)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
+		NullCheck(L_110);
+		NullCheck(L_108);
+		G_B51_0 = ((L_108)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
 	}
 
 IL_026d:
@@ -9959,7 +10316,8 @@ IL_026d:
 		V_9 = G_B51_0;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_111 = V_0;
 		int32_t L_112 = V_8;
-		V_10 = ((L_111)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_112)));
+		NullCheck(L_111);
+		V_10 = ((L_111)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_112)));
 		bool L_113 = V_7;
 		if (!L_113)
 		{
@@ -10018,6 +10376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_m1838CBCE
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_0);
 		bool L_1;
 		L_1 = ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F(L_0, (RuntimeObject*)__this, (&V_0), ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F_RuntimeMethod_var);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_2 = V_0;
@@ -10033,10 +10392,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_m1838CBCE
 IL_0012:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = V_0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_3, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, NULL);
 		V_1 = L_4;
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_5 = V_0;
+		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_5, _stringLiteral1275D52763CF050C5A4C759818D60119CC35BD69, NULL);
 		V_2 = L_6;
@@ -10045,6 +10406,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_9;
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
+		NullCheck(L_7);
 		RuntimeObject* L_10;
 		L_10 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_7, _stringLiteralC5F173ABE7214E8ED04EE91D0D5626EEDF0007E9, L_9, NULL);
 		__this->____comparer_6 = ((RuntimeObject*)Castclass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 41)));
@@ -10064,6 +10426,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_16;
 		L_16 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_15, NULL);
+		NullCheck(L_14);
 		RuntimeObject* L_17;
 		L_17 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_14, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, L_16, NULL);
 		V_3 = ((KeyValuePair_2U5BU5D_t00F1189D6659F8334E1D51B328A743FBD809CFB6*)Castclass((RuntimeObject*)L_17, il2cpp_rgctx_data(method->klass->rgctx_data, 46)));
@@ -10087,8 +10450,9 @@ IL_007f:
 	{
 		KeyValuePair_2U5BU5D_t00F1189D6659F8334E1D51B328A743FBD809CFB6* L_19 = V_3;
 		int32_t L_20 = V_4;
+		NullCheck(L_19);
 		int32_t L_21;
-		L_21 = KeyValuePair_2_get_Key_m671CD723515F42017EA4D2DB01691D13288970A9_inline(((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_21 = KeyValuePair_2_get_Key_m671CD723515F42017EA4D2DB01691D13288970A9_inline(((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		goto IL_009a;
 	}
 	{
@@ -10099,12 +10463,14 @@ IL_009a:
 	{
 		KeyValuePair_2U5BU5D_t00F1189D6659F8334E1D51B328A743FBD809CFB6* L_22 = V_3;
 		int32_t L_23 = V_4;
+		NullCheck(L_22);
 		int32_t L_24;
-		L_24 = KeyValuePair_2_get_Key_m671CD723515F42017EA4D2DB01691D13288970A9_inline(((L_22)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_24 = KeyValuePair_2_get_Key_m671CD723515F42017EA4D2DB01691D13288970A9_inline(((L_22)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		KeyValuePair_2U5BU5D_t00F1189D6659F8334E1D51B328A743FBD809CFB6* L_25 = V_3;
 		int32_t L_26 = V_4;
+		NullCheck(L_25);
 		bool L_27;
-		L_27 = KeyValuePair_2_get_Value_m00849F341D41ABD55D72D0701342145724AC3A9F_inline(((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		L_27 = KeyValuePair_2_get_Value_m00849F341D41ABD55D72D0701342145724AC3A9F_inline(((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
 		((  void (*) (Dictionary_2_t01224C8DBCCFE276E97D2BF52F4D7B10D3642682*, int32_t, bool, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_24, L_27, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		int32_t L_28 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_28, 1));
@@ -10114,6 +10480,7 @@ IL_00c0:
 	{
 		int32_t L_29 = V_4;
 		KeyValuePair_2U5BU5D_t00F1189D6659F8334E1D51B328A743FBD809CFB6* L_30 = V_3;
+		NullCheck(L_30);
 		if ((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))
 		{
 			goto IL_007f;
@@ -10136,6 +10503,7 @@ IL_00d0:
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_32;
 		L_32 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_32);
 		bool L_33;
 		L_33 = ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E(L_32, (RuntimeObject*)__this, ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E_RuntimeMethod_var);
 		return;
@@ -10207,7 +10575,8 @@ IL_003e:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_12 = V_1;
 		int32_t L_13 = V_4;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0079;
@@ -10216,12 +10585,14 @@ IL_003e:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_15 = V_1;
 		int32_t L_16 = V_4;
+		NullCheck(L_15);
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_17 = V_1;
 		int32_t L_18 = V_4;
-		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
+		NullCheck(L_17);
+		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
 		int32_t L_20;
 		L_20 = Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295(L_19, il2cpp_rgctx_method(method->klass->rgctx_data, 38));
-		((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
+		((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
 	}
 
 IL_0079:
@@ -10250,7 +10621,8 @@ IL_0089:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_24 = V_1;
 		int32_t L_25 = V_5;
-		int32_t L_26 = (int32_t)((L_24)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
+		NullCheck(L_24);
+		int32_t L_26 = (int32_t)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
 		if ((((int32_t)L_26) < ((int32_t)0)))
 		{
 			goto IL_00c5;
@@ -10259,20 +10631,24 @@ IL_0089:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_27 = V_1;
 		int32_t L_28 = V_5;
-		int32_t L_29 = (int32_t)((L_27)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
+		NullCheck(L_27);
+		int32_t L_29 = (int32_t)((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
 		int32_t L_30 = ___newSize0;
 		V_6 = ((int32_t)(L_29%L_30));
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_31 = V_1;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_33 = V_0;
 		int32_t L_34 = V_6;
+		NullCheck(L_33);
 		int32_t L_35 = L_34;
-		int32_t L_36 = (L_33)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_35));
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
+		int32_t L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = V_0;
 		int32_t L_38 = V_6;
 		int32_t L_39 = V_5;
-		(L_37)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
 	}
 
 IL_00c5:
@@ -10349,6 +10725,7 @@ IL_000e:
 IL_0032:
 	{
 		int32_t L_5 = ___key0;
+		NullCheck(G_B5_0);
 		int32_t L_6;
 		L_6 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B5_0, L_5);
 		G_B6_0 = L_6;
@@ -10359,12 +10736,14 @@ IL_0038:
 		V_0 = ((int32_t)(G_B6_0&((int32_t)2147483647LL)));
 		int32_t L_7 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_8);
 		V_1 = ((int32_t)(L_7%((int32_t)(((RuntimeArray*)L_8)->max_length))));
 		V_2 = (-1);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_10 = V_1;
+		NullCheck(L_9);
 		int32_t L_11 = L_10;
-		int32_t L_12 = (L_9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
+		int32_t L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
 		goto IL_0142;
 	}
@@ -10373,7 +10752,8 @@ IL_005c:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_13 = (EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500*)__this->____entries_1;
 		int32_t L_14 = V_3;
-		V_4 = ((L_13)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_14)));
+		NullCheck(L_13);
+		V_4 = ((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14)));
 		Entry_t740F919D5BA6D1FE201C58777E6EB966B35EE2EE* L_15 = V_4;
 		int32_t L_16 = (int32_t)L_15->___hashCode_0;
 		int32_t L_17 = V_0;
@@ -10398,6 +10778,7 @@ IL_005c:
 		Entry_t740F919D5BA6D1FE201C58777E6EB966B35EE2EE* L_21 = V_4;
 		int32_t L_22 = (int32_t)L_21->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_20);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_20, L_22, L_23);
 		G_B11_0 = L_24;
@@ -10409,6 +10790,7 @@ IL_0095:
 		Entry_t740F919D5BA6D1FE201C58777E6EB966B35EE2EE* L_25 = V_4;
 		int32_t L_26 = (int32_t)L_25->___key_2;
 		int32_t L_27 = ___key0;
+		NullCheck(G_B10_0);
 		bool L_28;
 		L_28 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B10_0, L_26, L_27);
 		G_B11_0 = L_28;
@@ -10433,7 +10815,8 @@ IL_00a2:
 		int32_t L_31 = V_1;
 		Entry_t740F919D5BA6D1FE201C58777E6EB966B35EE2EE* L_32 = V_4;
 		int32_t L_33 = (int32_t)L_32->___next_1;
-		(L_30)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
 		goto IL_00d6;
 	}
 
@@ -10441,9 +10824,10 @@ IL_00be:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_34 = (EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500*)__this->____entries_1;
 		int32_t L_35 = V_2;
+		NullCheck(L_34);
 		Entry_t740F919D5BA6D1FE201C58777E6EB966B35EE2EE* L_36 = V_4;
 		int32_t L_37 = (int32_t)L_36->___next_1;
-		((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
+		((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
 	}
 
 IL_00d6:
@@ -10530,7 +10914,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mB76129E352C910
 		bool* L_3 = ___value1;
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_4 = (EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		bool L_6 = (bool)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		bool L_6 = (bool)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		*(bool*)L_3 = L_6;
 		return (bool)1;
 	}
@@ -10603,6 +10988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_System_Collections_ICollect
 IL_0009:
 	{
 		RuntimeArray* L_1 = ___array0;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(L_1, NULL);
 		if ((((int32_t)L_2) == ((int32_t)1)))
@@ -10617,6 +11003,7 @@ IL_0009:
 IL_0018:
 	{
 		RuntimeArray* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(L_3, 0, NULL);
 		if (!L_4)
@@ -10632,6 +11019,7 @@ IL_0027:
 	{
 		int32_t L_5 = ___index1;
 		RuntimeArray* L_6 = ___array0;
+		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_6, NULL);
 		if ((!(((uint32_t)L_5) > ((uint32_t)L_7))))
@@ -10646,6 +11034,7 @@ IL_0027:
 IL_0035:
 	{
 		RuntimeArray* L_8 = ___array0;
+		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_8, NULL);
 		int32_t L_10 = ___index1;
@@ -10698,7 +11087,8 @@ IL_0073:
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_19 = V_2;
 		int32_t L_20 = V_3;
-		int32_t L_21 = (int32_t)((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
+		NullCheck(L_19);
+		int32_t L_21 = (int32_t)((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
 		if ((((int32_t)L_21) < ((int32_t)0)))
 		{
 			goto IL_00b5;
@@ -10711,18 +11101,21 @@ IL_0073:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_25 = V_2;
 		int32_t L_26 = V_3;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = L_27;
 		RuntimeObject* L_29 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 21), &L_28);
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_30 = V_2;
 		int32_t L_31 = V_3;
-		bool L_32 = (bool)((L_30)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
+		NullCheck(L_30);
+		bool L_32 = (bool)((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
 		bool L_33 = L_32;
 		RuntimeObject* L_34 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_33);
 		DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB L_35;
 		memset((&L_35), 0, sizeof(L_35));
 		DictionaryEntry__ctor_m2768353E53A75C4860E34B37DAF1342120C5D1EA((&L_35), L_29, L_34, /*hidden argument*/NULL);
-		(L_22)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
 	}
 
 IL_00b5:
@@ -10776,7 +11169,8 @@ IL_00ea_1:
 		{
 			EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_43 = V_6;
 			int32_t L_44 = V_7;
-			int32_t L_45 = (int32_t)((L_43)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
+			NullCheck(L_43);
+			int32_t L_45 = (int32_t)((L_43)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
 			if ((((int32_t)L_45) < ((int32_t)0)))
 			{
 				goto IL_012a_1;
@@ -10789,17 +11183,20 @@ IL_00ea_1:
 			___index1 = ((int32_t)il2cpp_codegen_add(L_48, 1));
 			EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_49 = V_6;
 			int32_t L_50 = V_7;
-			int32_t L_51 = (int32_t)((L_49)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
+			NullCheck(L_49);
+			int32_t L_51 = (int32_t)((L_49)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
 			EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_52 = V_6;
 			int32_t L_53 = V_7;
-			bool L_54 = (bool)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
+			NullCheck(L_52);
+			bool L_54 = (bool)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
 			KeyValuePair_2_t0EAC8DA2D95957AFA60DD198D013622384C0D213 L_55;
 			memset((&L_55), 0, sizeof(L_55));
 			KeyValuePair_2__ctor_m593E407EEF9038F9C3E26BBE93DD316684F8BC7E((&L_55), L_51, L_54, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
 			KeyValuePair_2_t0EAC8DA2D95957AFA60DD198D013622384C0D213 L_56 = L_55;
 			RuntimeObject* L_57 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 30), &L_56);
+			NullCheck(L_46);
 			ArrayElementTypeCheck (L_46, L_57);
-			(L_46)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
+			(L_46)->SetAt(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
 		}
 
 IL_012a_1:
@@ -10881,6 +11278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		RuntimeObject** L_1 = (RuntimeObject**)(&__this->____syncRoot_9);
 		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
 		RuntimeObject* L_3;
 		L_3 = InterlockedCompareExchangeImpl<RuntimeObject*>(L_1, L_2, NULL);
@@ -10951,7 +11349,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500* L_5 = (EntryU5BU5D_t6E8F51999B5C2D1A5E09B1963CF042E7B5CAA500*)__this->____entries_1;
 		int32_t L_6 = V_0;
-		bool L_7 = (bool)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		bool L_7 = (bool)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		bool L_8 = L_7;
 		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_8);
 		return L_9;
@@ -11349,6 +11748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m7C35EF79E0954577297E
 IL_0007:
 	{
 		RuntimeObject* L_1 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_1);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.ByteEnum>>::get_Count() */, il2cpp_rgctx_data(method->klass->rgctx_data, 5), (RuntimeObject*)L_1);
 		G_B3_0 = L_2;
@@ -11372,6 +11772,7 @@ IL_000d:
 IL_001c:
 	{
 		RuntimeObject* L_5 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_5);
 		Type_t* L_6;
 		L_6 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)L_5, NULL);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 7)) };
@@ -11388,8 +11789,10 @@ IL_001c:
 	{
 		RuntimeObject* L_10 = ___dictionary0;
 		Dictionary_2_t4878CC9FF62AE29C882F2E787384F2E6D06C08FE* L_11 = ((Dictionary_2_t4878CC9FF62AE29C882F2E787384F2E6D06C08FE*)CastclassClass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 8)));
+		NullCheck(L_11);
 		int32_t L_12 = (int32_t)L_11->____count_2;
 		V_0 = L_12;
+		NullCheck(L_11);
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_13 = (EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8*)L_11->____entries_1;
 		V_1 = L_13;
 		V_2 = 0;
@@ -11400,7 +11803,8 @@ IL_004a:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
 		if ((((int32_t)L_16) < ((int32_t)0)))
 		{
 			goto IL_0077;
@@ -11409,10 +11813,12 @@ IL_004a:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_17 = V_1;
 		int32_t L_18 = V_2;
-		int32_t L_19 = (int32_t)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
+		NullCheck(L_17);
+		int32_t L_19 = (int32_t)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_20 = V_1;
 		int32_t L_21 = V_2;
-		uint8_t L_22 = (uint8_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
+		NullCheck(L_20);
+		uint8_t L_22 = (uint8_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
 		((  void (*) (Dictionary_2_t4878CC9FF62AE29C882F2E787384F2E6D06C08FE*, int32_t, uint8_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_19, L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 	}
 
@@ -11438,6 +11844,7 @@ IL_007b:
 IL_0080:
 	{
 		RuntimeObject* L_26 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_26);
 		RuntimeObject* L_27;
 		L_27 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.ByteEnum>>::GetEnumerator() */, il2cpp_rgctx_data(method->klass->rgctx_data, 10), (RuntimeObject*)L_26);
 		V_3 = L_27;
@@ -11457,6 +11864,7 @@ FINALLY_00af:
 				}
 				{
 					RuntimeObject* L_29 = V_3;
+					NullCheck((RuntimeObject*)L_29);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, (RuntimeObject*)L_29);
 				}
 
@@ -11475,6 +11883,7 @@ IL_00b8:
 IL_0089_1:
 			{
 				RuntimeObject* L_30 = V_3;
+				NullCheck(L_30);
 				KeyValuePair_2_tE9D30A991F93C5CC802881BEB1E7D7627F086D79 L_31;
 				L_31 = InterfaceFuncInvoker0< KeyValuePair_2_tE9D30A991F93C5CC802881BEB1E7D7627F086D79 >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.ByteEnum>>::get_Current() */, il2cpp_rgctx_data(method->klass->rgctx_data, 12), L_30);
 				V_4 = L_31;
@@ -11488,6 +11897,7 @@ IL_0089_1:
 IL_00a5_1:
 			{
 				RuntimeObject* L_34 = V_3;
+				NullCheck((RuntimeObject*)L_34);
 				bool L_35;
 				L_35 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, (RuntimeObject*)L_34);
 				if (L_35)
@@ -11526,6 +11936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m0D4EF7149D8E6C2392E4
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
+		NullCheck(L_0);
 		ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7(L_0, (RuntimeObject*)__this, L_1, ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7_RuntimeMethod_var);
 		return;
 	}
@@ -11551,6 +11962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyCollection_t0A44D4443C2C39A1A74731AF0F0786
 	}
 	{
 		KeyCollection_t0A44D4443C2C39A1A74731AF0F0786E9D134845D* L_1 = (KeyCollection_t0A44D4443C2C39A1A74731AF0F0786E9D134845D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t0A44D4443C2C39A1A74731AF0F0786E9D134845D*, Dictionary_2_t4878CC9FF62AE29C882F2E787384F2E6D06C08FE*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -11574,6 +11986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		KeyCollection_t0A44D4443C2C39A1A74731AF0F0786E9D134845D* L_1 = (KeyCollection_t0A44D4443C2C39A1A74731AF0F0786E9D134845D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t0A44D4443C2C39A1A74731AF0F0786E9D134845D*, Dictionary_2_t4878CC9FF62AE29C882F2E787384F2E6D06C08FE*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -11597,6 +12010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_tD8F998215E92F6A861A62F0F0850
 	}
 	{
 		ValueCollection_tD8F998215E92F6A861A62F0F0850115ABA4E2212* L_1 = (ValueCollection_tD8F998215E92F6A861A62F0F0850115ABA4E2212*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_tD8F998215E92F6A861A62F0F0850115ABA4E2212*, Dictionary_2_t4878CC9FF62AE29C882F2E787384F2E6D06C08FE*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -11620,6 +12034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		ValueCollection_tD8F998215E92F6A861A62F0F0850115ABA4E2212* L_1 = (ValueCollection_tD8F998215E92F6A861A62F0F0850115ABA4E2212*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_tD8F998215E92F6A861A62F0F0850115ABA4E2212*, Dictionary_2_t4878CC9FF62AE29C882F2E787384F2E6D06C08FE*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -11650,7 +12065,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Dictionary_2_get_Item_m9EFBAA360A3328
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_3 = (EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8*)__this->____entries_1;
 		int32_t L_4 = V_0;
-		uint8_t L_5 = (uint8_t)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
+		NullCheck(L_3);
+		uint8_t L_5 = (uint8_t)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
 		return L_5;
 	}
 
@@ -11720,9 +12136,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_t6EE75987105C748480E13CC8F72341ED65D096DD* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_4 = (EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		uint8_t L_6 = (uint8_t)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		uint8_t L_6 = (uint8_t)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		uint8_t L_7;
 		L_7 = KeyValuePair_2_get_Value_mEC0BEFA7423A96B1C59D2696B8A9659516A0DBE5_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, uint8_t, uint8_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.ByteEnum>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -11760,9 +12178,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_t6EE75987105C748480E13CC8F72341ED65D096DD* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_4 = (EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		uint8_t L_6 = (uint8_t)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		uint8_t L_6 = (uint8_t)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		uint8_t L_7;
 		L_7 = KeyValuePair_2_get_Value_mEC0BEFA7423A96B1C59D2696B8A9659516A0DBE5_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, uint8_t, uint8_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.ByteEnum>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -11799,6 +12219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_mE4E977729ACB53AB98B5
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_3);
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_2, 0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
 		__this->____count_2 = 0;
 		__this->____freeList_3 = (-1);
@@ -11848,7 +12269,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_2 = V_0;
 		int32_t L_3 = V_1;
-		int32_t L_4 = (int32_t)((L_2)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
+		NullCheck(L_2);
+		int32_t L_4 = (int32_t)((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
 		if ((((int32_t)L_4) < ((int32_t)0)))
 		{
 			goto IL_0037;
@@ -11857,7 +12279,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_5 = V_0;
 		int32_t L_6 = V_1;
-		uint8_t L_7 = (uint8_t)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		uint8_t L_7 = (uint8_t)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		goto IL_0037;
 	}
 	{
@@ -11896,7 +12319,8 @@ IL_005d:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_12 = V_0;
 		int32_t L_13 = V_3;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0087;
@@ -11907,8 +12331,10 @@ IL_005d:
 		L_15 = ((  EqualityComparer_1_t6EE75987105C748480E13CC8F72341ED65D096DD* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_16 = V_0;
 		int32_t L_17 = V_3;
-		uint8_t L_18 = (uint8_t)((L_16)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
+		NullCheck(L_16);
+		uint8_t L_18 = (uint8_t)((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
 		uint8_t L_19 = ___value0;
+		NullCheck(L_15);
 		bool L_20;
 		L_20 = VirtualFuncInvoker2< bool, uint8_t, uint8_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.ByteEnum>::Equals(T,T) */, L_15, L_18, L_19);
 		if (!L_20)
@@ -11952,7 +12378,8 @@ IL_00a2:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
 		if ((((int32_t)L_27) < ((int32_t)0)))
 		{
 			goto IL_00cb;
@@ -11962,8 +12389,10 @@ IL_00a2:
 		EqualityComparer_1_t6EE75987105C748480E13CC8F72341ED65D096DD* L_28 = V_4;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_29 = V_0;
 		int32_t L_30 = V_5;
-		uint8_t L_31 = (uint8_t)((L_29)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
+		NullCheck(L_29);
+		uint8_t L_31 = (uint8_t)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
 		uint8_t L_32 = ___value0;
+		NullCheck(L_28);
 		bool L_33;
 		L_33 = VirtualFuncInvoker2< bool, uint8_t, uint8_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.ByteEnum>::Equals(T,T) */, L_28, L_31, L_32);
 		if (!L_33)
@@ -12017,6 +12446,7 @@ IL_0009:
 	{
 		int32_t L_1 = ___index1;
 		KeyValuePair_2U5BU5D_t40C436802101EEF6B7FFFCA8EEFD383F8851F7D2* L_2 = ___array0;
+		NullCheck(L_2);
 		if ((!(((uint32_t)L_1) > ((uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))))))
 		{
 			goto IL_0014;
@@ -12029,6 +12459,7 @@ IL_0009:
 IL_0014:
 	{
 		KeyValuePair_2U5BU5D_t40C436802101EEF6B7FFFCA8EEFD383F8851F7D2* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4 = ___index1;
 		int32_t L_5;
 		L_5 = ((  int32_t (*) (Dictionary_2_t4878CC9FF62AE29C882F2E787384F2E6D06C08FE*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 29)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 29));
@@ -12055,7 +12486,8 @@ IL_0039:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_8 = V_1;
 		int32_t L_9 = V_2;
-		int32_t L_10 = (int32_t)((L_8)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
+		NullCheck(L_8);
+		int32_t L_10 = (int32_t)((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
 		if ((((int32_t)L_10) < ((int32_t)0)))
 		{
 			goto IL_0071;
@@ -12068,14 +12500,17 @@ IL_0039:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_17 = V_1;
 		int32_t L_18 = V_2;
-		uint8_t L_19 = (uint8_t)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
+		NullCheck(L_17);
+		uint8_t L_19 = (uint8_t)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
 		KeyValuePair_2_tE9D30A991F93C5CC802881BEB1E7D7627F086D79 L_20;
 		memset((&L_20), 0, sizeof(L_20));
 		KeyValuePair_2__ctor_m082763282DC9463FFD41DA524EDAEBBC3BB806AD((&L_20), L_16, L_19, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_tE9D30A991F93C5CC802881BEB1E7D7627F086D79)L_20);
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_tE9D30A991F93C5CC802881BEB1E7D7627F086D79)L_20);
 	}
 
 IL_0071:
@@ -12161,6 +12596,7 @@ IL_0009:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
 		int32_t L_2 = (int32_t)__this->____version_5;
+		NullCheck(L_1);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(L_1, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, L_2, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = ___info0;
 		RuntimeObject* L_4 = (RuntimeObject*)__this->____comparer_6;
@@ -12190,6 +12626,7 @@ IL_002f:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_8;
 		L_8 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_7, NULL);
+		NullCheck(G_B4_2);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(G_B4_2, G_B4_1, (RuntimeObject*)G_B4_0, L_8, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_9 = ___info0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
@@ -12204,6 +12641,7 @@ IL_002f:
 	}
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_11);
 		G_B7_0 = ((int32_t)(((RuntimeArray*)L_11)->max_length));
 		G_B7_1 = G_B5_0;
 		G_B7_2 = G_B5_1;
@@ -12219,6 +12657,7 @@ IL_0056:
 
 IL_0057:
 	{
+		NullCheck(G_B7_2);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(G_B7_2, G_B7_1, G_B7_0, NULL);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		if (!L_12)
@@ -12239,6 +12678,7 @@ IL_0057:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_19;
 		L_19 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_18, NULL);
+		NullCheck(L_16);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(L_16, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, (RuntimeObject*)L_17, L_19, NULL);
 	}
 
@@ -12296,8 +12736,10 @@ IL_000e:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = V_1;
 		int32_t L_8 = V_5;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = V_1;
+		NullCheck(L_9);
+		NullCheck(L_7);
 		int32_t L_10 = ((int32_t)(L_8%((int32_t)(((RuntimeArray*)L_9)->max_length))));
-		int32_t L_11 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		int32_t L_11 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
 		il2cpp_codegen_initobj((&V_6), sizeof(int32_t));
 	}
@@ -12306,6 +12748,7 @@ IL_0066:
 	{
 		int32_t L_13 = V_0;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_14 = V_2;
+		NullCheck(L_14);
 		if ((!(((uint32_t)L_13) < ((uint32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))))))
 		{
 			goto IL_0175;
@@ -12314,7 +12757,8 @@ IL_0066:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_15 = V_2;
 		int32_t L_16 = V_0;
-		int32_t L_17 = (int32_t)((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
+		NullCheck(L_15);
+		int32_t L_17 = (int32_t)((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
 		int32_t L_18 = V_5;
 		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
 		{
@@ -12326,8 +12770,10 @@ IL_0066:
 		L_19 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_20 = V_2;
 		int32_t L_21 = V_0;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_19);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_19, L_22, L_23);
 		if (L_24)
@@ -12340,10 +12786,12 @@ IL_009b:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_25 = V_2;
 		int32_t L_26 = V_0;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
 		V_0 = L_27;
 		int32_t L_28 = V_3;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_29 = V_2;
+		NullCheck(L_29);
 		if ((((int32_t)L_28) < ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length)))))
 		{
 			goto IL_00b3;
@@ -12371,6 +12819,7 @@ IL_00c0:
 	{
 		int32_t L_32 = V_0;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_33 = V_2;
+		NullCheck(L_33);
 		if ((!(((uint32_t)L_32) < ((uint32_t)((int32_t)(((RuntimeArray*)L_33)->max_length))))))
 		{
 			goto IL_0175;
@@ -12379,7 +12828,8 @@ IL_00c0:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_34 = V_2;
 		int32_t L_35 = V_0;
-		int32_t L_36 = (int32_t)((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
+		NullCheck(L_34);
+		int32_t L_36 = (int32_t)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
 		int32_t L_37 = V_5;
 		if ((!(((uint32_t)L_36) == ((uint32_t)L_37))))
 		{
@@ -12390,8 +12840,10 @@ IL_00c0:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_38 = V_7;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_39 = V_2;
 		int32_t L_40 = V_0;
-		int32_t L_41 = (int32_t)((L_39)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
+		NullCheck(L_39);
+		int32_t L_41 = (int32_t)((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
 		int32_t L_42 = ___key0;
+		NullCheck(L_38);
 		bool L_43;
 		L_43 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_38, L_41, L_42);
 		if (L_43)
@@ -12404,10 +12856,12 @@ IL_00f2:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_44 = V_2;
 		int32_t L_45 = V_0;
-		int32_t L_46 = (int32_t)((L_44)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
+		NullCheck(L_44);
+		int32_t L_46 = (int32_t)((L_44)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
 		V_0 = L_46;
 		int32_t L_47 = V_3;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_48 = V_2;
+		NullCheck(L_48);
 		if ((((int32_t)L_47) < ((int32_t)((int32_t)(((RuntimeArray*)L_48)->max_length)))))
 		{
 			goto IL_010a;
@@ -12428,14 +12882,17 @@ IL_0110:
 	{
 		RuntimeObject* L_50 = V_4;
 		int32_t L_51 = ___key0;
+		NullCheck(L_50);
 		int32_t L_52;
 		L_52 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_50, L_51);
 		V_8 = ((int32_t)(L_52&((int32_t)2147483647LL)));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = V_1;
 		int32_t L_54 = V_8;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_55 = V_1;
+		NullCheck(L_55);
+		NullCheck(L_53);
 		int32_t L_56 = ((int32_t)(L_54%((int32_t)(((RuntimeArray*)L_55)->max_length))));
-		int32_t L_57 = (L_53)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_56));
+		int32_t L_57 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_57, 1));
 	}
 
@@ -12443,6 +12900,7 @@ IL_012b:
 	{
 		int32_t L_58 = V_0;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_59 = V_2;
+		NullCheck(L_59);
 		if ((!(((uint32_t)L_58) < ((uint32_t)((int32_t)(((RuntimeArray*)L_59)->max_length))))))
 		{
 			goto IL_0175;
@@ -12451,7 +12909,8 @@ IL_012b:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_60 = V_2;
 		int32_t L_61 = V_0;
-		int32_t L_62 = (int32_t)((L_60)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
+		NullCheck(L_60);
+		int32_t L_62 = (int32_t)((L_60)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
 		int32_t L_63 = V_8;
 		if ((!(((uint32_t)L_62) == ((uint32_t)L_63))))
 		{
@@ -12462,8 +12921,10 @@ IL_012b:
 		RuntimeObject* L_64 = V_4;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_65 = V_2;
 		int32_t L_66 = V_0;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
 		int32_t L_68 = ___key0;
+		NullCheck(L_64);
 		bool L_69;
 		L_69 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_64, L_67, L_68);
 		if (L_69)
@@ -12476,10 +12937,12 @@ IL_0157:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_70 = V_2;
 		int32_t L_71 = V_0;
-		int32_t L_72 = (int32_t)((L_70)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
+		NullCheck(L_70);
+		int32_t L_72 = (int32_t)((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
 		V_0 = L_72;
 		int32_t L_73 = V_3;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_74 = V_2;
+		NullCheck(L_74);
 		if ((((int32_t)L_73) < ((int32_t)((int32_t)(((RuntimeArray*)L_74)->max_length)))))
 		{
 			goto IL_016f;
@@ -12588,6 +13051,7 @@ IL_002c:
 	{
 		RuntimeObject* L_7 = V_1;
 		int32_t L_8 = ___key0;
+		NullCheck(L_7);
 		int32_t L_9;
 		L_9 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_7, L_8);
 		G_B7_0 = L_9;
@@ -12608,7 +13072,9 @@ IL_0053:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_12 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		V_4 = ((L_11)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
+		NullCheck(L_13);
+		NullCheck(L_11);
+		V_4 = ((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
 		int32_t* L_14 = V_4;
 		int32_t L_15 = *((int32_t*)L_14);
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_15, 1));
@@ -12626,6 +13092,7 @@ IL_0091:
 	{
 		int32_t L_18 = V_5;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_19 = V_0;
+		NullCheck(L_19);
 		if ((!(((uint32_t)L_18) < ((uint32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))))))
 		{
 			goto IL_01f9;
@@ -12634,7 +13101,8 @@ IL_0091:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_20 = V_0;
 		int32_t L_21 = V_5;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
 		int32_t L_23 = V_2;
 		if ((!(((uint32_t)L_22) == ((uint32_t)L_23))))
 		{
@@ -12646,8 +13114,10 @@ IL_0091:
 		L_24 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = ___key0;
+		NullCheck(L_24);
 		bool L_29;
 		L_29 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_24, L_27, L_28);
 		if (!L_29)
@@ -12665,8 +13135,9 @@ IL_0091:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_31 = V_0;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		uint8_t L_33 = ___value1;
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
 		return (bool)1;
 	}
 
@@ -12694,10 +13165,12 @@ IL_00ea:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_38 = V_0;
 		int32_t L_39 = V_5;
-		int32_t L_40 = (int32_t)((L_38)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
+		NullCheck(L_38);
+		int32_t L_40 = (int32_t)((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
 		V_5 = L_40;
 		int32_t L_41 = V_3;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_42 = V_0;
+		NullCheck(L_42);
 		if ((((int32_t)L_41) < ((int32_t)((int32_t)(((RuntimeArray*)L_42)->max_length)))))
 		{
 			goto IL_0104;
@@ -12725,6 +13198,7 @@ IL_0111:
 	{
 		int32_t L_45 = V_5;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_46 = V_0;
+		NullCheck(L_46);
 		if ((!(((uint32_t)L_45) < ((uint32_t)((int32_t)(((RuntimeArray*)L_46)->max_length))))))
 		{
 			goto IL_01f9;
@@ -12733,7 +13207,8 @@ IL_0111:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_47 = V_0;
 		int32_t L_48 = V_5;
-		int32_t L_49 = (int32_t)((L_47)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
+		NullCheck(L_47);
+		int32_t L_49 = (int32_t)((L_47)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
 		int32_t L_50 = V_2;
 		if ((!(((uint32_t)L_49) == ((uint32_t)L_50))))
 		{
@@ -12744,8 +13219,10 @@ IL_0111:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_51 = V_12;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_52 = V_0;
 		int32_t L_53 = V_5;
-		int32_t L_54 = (int32_t)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
+		NullCheck(L_52);
+		int32_t L_54 = (int32_t)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
 		int32_t L_55 = ___key0;
+		NullCheck(L_51);
 		bool L_56;
 		L_56 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_51, L_54, L_55);
 		if (!L_56)
@@ -12763,8 +13240,9 @@ IL_0111:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_58 = V_0;
 		int32_t L_59 = V_5;
+		NullCheck(L_58);
 		uint8_t L_60 = ___value1;
-		((L_58)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
+		((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
 		return (bool)1;
 	}
 
@@ -12792,10 +13270,12 @@ IL_0167:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_65 = V_0;
 		int32_t L_66 = V_5;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
 		V_5 = L_67;
 		int32_t L_68 = V_3;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_69 = V_0;
+		NullCheck(L_69);
 		if ((((int32_t)L_68) < ((int32_t)((int32_t)(((RuntimeArray*)L_69)->max_length)))))
 		{
 			goto IL_0181;
@@ -12816,6 +13296,7 @@ IL_0187:
 	{
 		int32_t L_71 = V_5;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_72 = V_0;
+		NullCheck(L_72);
 		if ((!(((uint32_t)L_71) < ((uint32_t)((int32_t)(((RuntimeArray*)L_72)->max_length))))))
 		{
 			goto IL_01f9;
@@ -12824,7 +13305,8 @@ IL_0187:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_73 = V_0;
 		int32_t L_74 = V_5;
-		int32_t L_75 = (int32_t)((L_73)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
+		NullCheck(L_73);
+		int32_t L_75 = (int32_t)((L_73)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
 		int32_t L_76 = V_2;
 		if ((!(((uint32_t)L_75) == ((uint32_t)L_76))))
 		{
@@ -12835,8 +13317,10 @@ IL_0187:
 		RuntimeObject* L_77 = V_1;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_78 = V_0;
 		int32_t L_79 = V_5;
-		int32_t L_80 = (int32_t)((L_78)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
+		NullCheck(L_78);
+		int32_t L_80 = (int32_t)((L_78)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
 		int32_t L_81 = ___key0;
+		NullCheck(L_77);
 		bool L_82;
 		L_82 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_77, L_80, L_81);
 		if (!L_82)
@@ -12854,8 +13338,9 @@ IL_0187:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_84 = V_0;
 		int32_t L_85 = V_5;
+		NullCheck(L_84);
 		uint8_t L_86 = ___value1;
-		((L_84)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
+		((L_84)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
 		return (bool)1;
 	}
 
@@ -12883,10 +13368,12 @@ IL_01d9:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_91 = V_0;
 		int32_t L_92 = V_5;
-		int32_t L_93 = (int32_t)((L_91)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
+		NullCheck(L_91);
+		int32_t L_93 = (int32_t)((L_91)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
 		V_5 = L_93;
 		int32_t L_94 = V_3;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_95 = V_0;
+		NullCheck(L_95);
 		if ((((int32_t)L_94) < ((int32_t)((int32_t)(((RuntimeArray*)L_95)->max_length)))))
 		{
 			goto IL_01f3;
@@ -12928,6 +13415,7 @@ IL_0223:
 		V_13 = L_100;
 		int32_t L_101 = V_13;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_102 = V_0;
+		NullCheck(L_102);
 		if ((!(((uint32_t)L_101) == ((uint32_t)((int32_t)(((RuntimeArray*)L_102)->max_length))))))
 		{
 			goto IL_023b;
@@ -12967,7 +13455,9 @@ IL_0258:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_108 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_109 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_110 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		G_B51_0 = ((L_108)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
+		NullCheck(L_110);
+		NullCheck(L_108);
+		G_B51_0 = ((L_108)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
 	}
 
 IL_026d:
@@ -12975,7 +13465,8 @@ IL_026d:
 		V_9 = G_B51_0;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_111 = V_0;
 		int32_t L_112 = V_8;
-		V_10 = ((L_111)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_112)));
+		NullCheck(L_111);
+		V_10 = ((L_111)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_112)));
 		bool L_113 = V_7;
 		if (!L_113)
 		{
@@ -13034,6 +13525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_mE9AE9BE9
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_0);
 		bool L_1;
 		L_1 = ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F(L_0, (RuntimeObject*)__this, (&V_0), ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F_RuntimeMethod_var);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_2 = V_0;
@@ -13049,10 +13541,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_mE9AE9BE9
 IL_0012:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = V_0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_3, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, NULL);
 		V_1 = L_4;
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_5 = V_0;
+		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_5, _stringLiteral1275D52763CF050C5A4C759818D60119CC35BD69, NULL);
 		V_2 = L_6;
@@ -13061,6 +13555,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_9;
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
+		NullCheck(L_7);
 		RuntimeObject* L_10;
 		L_10 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_7, _stringLiteralC5F173ABE7214E8ED04EE91D0D5626EEDF0007E9, L_9, NULL);
 		__this->____comparer_6 = ((RuntimeObject*)Castclass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 41)));
@@ -13080,6 +13575,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_16;
 		L_16 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_15, NULL);
+		NullCheck(L_14);
 		RuntimeObject* L_17;
 		L_17 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_14, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, L_16, NULL);
 		V_3 = ((KeyValuePair_2U5BU5D_t40C436802101EEF6B7FFFCA8EEFD383F8851F7D2*)Castclass((RuntimeObject*)L_17, il2cpp_rgctx_data(method->klass->rgctx_data, 46)));
@@ -13103,8 +13599,9 @@ IL_007f:
 	{
 		KeyValuePair_2U5BU5D_t40C436802101EEF6B7FFFCA8EEFD383F8851F7D2* L_19 = V_3;
 		int32_t L_20 = V_4;
+		NullCheck(L_19);
 		int32_t L_21;
-		L_21 = KeyValuePair_2_get_Key_mB68A4B59E268562EA4043EC12BC65C80BB5F8FF5_inline(((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_21 = KeyValuePair_2_get_Key_mB68A4B59E268562EA4043EC12BC65C80BB5F8FF5_inline(((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		goto IL_009a;
 	}
 	{
@@ -13115,12 +13612,14 @@ IL_009a:
 	{
 		KeyValuePair_2U5BU5D_t40C436802101EEF6B7FFFCA8EEFD383F8851F7D2* L_22 = V_3;
 		int32_t L_23 = V_4;
+		NullCheck(L_22);
 		int32_t L_24;
-		L_24 = KeyValuePair_2_get_Key_mB68A4B59E268562EA4043EC12BC65C80BB5F8FF5_inline(((L_22)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_24 = KeyValuePair_2_get_Key_mB68A4B59E268562EA4043EC12BC65C80BB5F8FF5_inline(((L_22)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		KeyValuePair_2U5BU5D_t40C436802101EEF6B7FFFCA8EEFD383F8851F7D2* L_25 = V_3;
 		int32_t L_26 = V_4;
+		NullCheck(L_25);
 		uint8_t L_27;
-		L_27 = KeyValuePair_2_get_Value_mEC0BEFA7423A96B1C59D2696B8A9659516A0DBE5_inline(((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		L_27 = KeyValuePair_2_get_Value_mEC0BEFA7423A96B1C59D2696B8A9659516A0DBE5_inline(((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
 		((  void (*) (Dictionary_2_t4878CC9FF62AE29C882F2E787384F2E6D06C08FE*, int32_t, uint8_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_24, L_27, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		int32_t L_28 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_28, 1));
@@ -13130,6 +13629,7 @@ IL_00c0:
 	{
 		int32_t L_29 = V_4;
 		KeyValuePair_2U5BU5D_t40C436802101EEF6B7FFFCA8EEFD383F8851F7D2* L_30 = V_3;
+		NullCheck(L_30);
 		if ((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))
 		{
 			goto IL_007f;
@@ -13152,6 +13652,7 @@ IL_00d0:
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_32;
 		L_32 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_32);
 		bool L_33;
 		L_33 = ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E(L_32, (RuntimeObject*)__this, ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E_RuntimeMethod_var);
 		return;
@@ -13223,7 +13724,8 @@ IL_003e:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_12 = V_1;
 		int32_t L_13 = V_4;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0079;
@@ -13232,12 +13734,14 @@ IL_003e:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_15 = V_1;
 		int32_t L_16 = V_4;
+		NullCheck(L_15);
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_17 = V_1;
 		int32_t L_18 = V_4;
-		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
+		NullCheck(L_17);
+		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
 		int32_t L_20;
 		L_20 = Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295(L_19, il2cpp_rgctx_method(method->klass->rgctx_data, 38));
-		((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
+		((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
 	}
 
 IL_0079:
@@ -13266,7 +13770,8 @@ IL_0089:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_24 = V_1;
 		int32_t L_25 = V_5;
-		int32_t L_26 = (int32_t)((L_24)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
+		NullCheck(L_24);
+		int32_t L_26 = (int32_t)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
 		if ((((int32_t)L_26) < ((int32_t)0)))
 		{
 			goto IL_00c5;
@@ -13275,20 +13780,24 @@ IL_0089:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_27 = V_1;
 		int32_t L_28 = V_5;
-		int32_t L_29 = (int32_t)((L_27)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
+		NullCheck(L_27);
+		int32_t L_29 = (int32_t)((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
 		int32_t L_30 = ___newSize0;
 		V_6 = ((int32_t)(L_29%L_30));
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_31 = V_1;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_33 = V_0;
 		int32_t L_34 = V_6;
+		NullCheck(L_33);
 		int32_t L_35 = L_34;
-		int32_t L_36 = (L_33)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_35));
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
+		int32_t L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = V_0;
 		int32_t L_38 = V_6;
 		int32_t L_39 = V_5;
-		(L_37)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
 	}
 
 IL_00c5:
@@ -13365,6 +13874,7 @@ IL_000e:
 IL_0032:
 	{
 		int32_t L_5 = ___key0;
+		NullCheck(G_B5_0);
 		int32_t L_6;
 		L_6 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B5_0, L_5);
 		G_B6_0 = L_6;
@@ -13375,12 +13885,14 @@ IL_0038:
 		V_0 = ((int32_t)(G_B6_0&((int32_t)2147483647LL)));
 		int32_t L_7 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_8);
 		V_1 = ((int32_t)(L_7%((int32_t)(((RuntimeArray*)L_8)->max_length))));
 		V_2 = (-1);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_10 = V_1;
+		NullCheck(L_9);
 		int32_t L_11 = L_10;
-		int32_t L_12 = (L_9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
+		int32_t L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
 		goto IL_0142;
 	}
@@ -13389,7 +13901,8 @@ IL_005c:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_13 = (EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8*)__this->____entries_1;
 		int32_t L_14 = V_3;
-		V_4 = ((L_13)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_14)));
+		NullCheck(L_13);
+		V_4 = ((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14)));
 		Entry_tD522C09559070EF861CE8629AC53D945627CD974* L_15 = V_4;
 		int32_t L_16 = (int32_t)L_15->___hashCode_0;
 		int32_t L_17 = V_0;
@@ -13414,6 +13927,7 @@ IL_005c:
 		Entry_tD522C09559070EF861CE8629AC53D945627CD974* L_21 = V_4;
 		int32_t L_22 = (int32_t)L_21->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_20);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_20, L_22, L_23);
 		G_B11_0 = L_24;
@@ -13425,6 +13939,7 @@ IL_0095:
 		Entry_tD522C09559070EF861CE8629AC53D945627CD974* L_25 = V_4;
 		int32_t L_26 = (int32_t)L_25->___key_2;
 		int32_t L_27 = ___key0;
+		NullCheck(G_B10_0);
 		bool L_28;
 		L_28 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B10_0, L_26, L_27);
 		G_B11_0 = L_28;
@@ -13449,7 +13964,8 @@ IL_00a2:
 		int32_t L_31 = V_1;
 		Entry_tD522C09559070EF861CE8629AC53D945627CD974* L_32 = V_4;
 		int32_t L_33 = (int32_t)L_32->___next_1;
-		(L_30)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
 		goto IL_00d6;
 	}
 
@@ -13457,9 +13973,10 @@ IL_00be:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_34 = (EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8*)__this->____entries_1;
 		int32_t L_35 = V_2;
+		NullCheck(L_34);
 		Entry_tD522C09559070EF861CE8629AC53D945627CD974* L_36 = V_4;
 		int32_t L_37 = (int32_t)L_36->___next_1;
-		((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
+		((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
 	}
 
 IL_00d6:
@@ -13546,7 +14063,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mAB397FB724C449
 		uint8_t* L_3 = ___value1;
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_4 = (EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		uint8_t L_6 = (uint8_t)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		uint8_t L_6 = (uint8_t)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		*(uint8_t*)L_3 = L_6;
 		return (bool)1;
 	}
@@ -13619,6 +14137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_System_Collections_ICollect
 IL_0009:
 	{
 		RuntimeArray* L_1 = ___array0;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(L_1, NULL);
 		if ((((int32_t)L_2) == ((int32_t)1)))
@@ -13633,6 +14152,7 @@ IL_0009:
 IL_0018:
 	{
 		RuntimeArray* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(L_3, 0, NULL);
 		if (!L_4)
@@ -13648,6 +14168,7 @@ IL_0027:
 	{
 		int32_t L_5 = ___index1;
 		RuntimeArray* L_6 = ___array0;
+		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_6, NULL);
 		if ((!(((uint32_t)L_5) > ((uint32_t)L_7))))
@@ -13662,6 +14183,7 @@ IL_0027:
 IL_0035:
 	{
 		RuntimeArray* L_8 = ___array0;
+		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_8, NULL);
 		int32_t L_10 = ___index1;
@@ -13714,7 +14236,8 @@ IL_0073:
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_19 = V_2;
 		int32_t L_20 = V_3;
-		int32_t L_21 = (int32_t)((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
+		NullCheck(L_19);
+		int32_t L_21 = (int32_t)((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
 		if ((((int32_t)L_21) < ((int32_t)0)))
 		{
 			goto IL_00b5;
@@ -13727,18 +14250,21 @@ IL_0073:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_25 = V_2;
 		int32_t L_26 = V_3;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = L_27;
 		RuntimeObject* L_29 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 21), &L_28);
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_30 = V_2;
 		int32_t L_31 = V_3;
-		uint8_t L_32 = (uint8_t)((L_30)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
+		NullCheck(L_30);
+		uint8_t L_32 = (uint8_t)((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
 		uint8_t L_33 = L_32;
 		RuntimeObject* L_34 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_33);
 		DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB L_35;
 		memset((&L_35), 0, sizeof(L_35));
 		DictionaryEntry__ctor_m2768353E53A75C4860E34B37DAF1342120C5D1EA((&L_35), L_29, L_34, /*hidden argument*/NULL);
-		(L_22)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
 	}
 
 IL_00b5:
@@ -13792,7 +14318,8 @@ IL_00ea_1:
 		{
 			EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_43 = V_6;
 			int32_t L_44 = V_7;
-			int32_t L_45 = (int32_t)((L_43)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
+			NullCheck(L_43);
+			int32_t L_45 = (int32_t)((L_43)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
 			if ((((int32_t)L_45) < ((int32_t)0)))
 			{
 				goto IL_012a_1;
@@ -13805,17 +14332,20 @@ IL_00ea_1:
 			___index1 = ((int32_t)il2cpp_codegen_add(L_48, 1));
 			EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_49 = V_6;
 			int32_t L_50 = V_7;
-			int32_t L_51 = (int32_t)((L_49)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
+			NullCheck(L_49);
+			int32_t L_51 = (int32_t)((L_49)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
 			EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_52 = V_6;
 			int32_t L_53 = V_7;
-			uint8_t L_54 = (uint8_t)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
+			NullCheck(L_52);
+			uint8_t L_54 = (uint8_t)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
 			KeyValuePair_2_tE9D30A991F93C5CC802881BEB1E7D7627F086D79 L_55;
 			memset((&L_55), 0, sizeof(L_55));
 			KeyValuePair_2__ctor_m082763282DC9463FFD41DA524EDAEBBC3BB806AD((&L_55), L_51, L_54, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
 			KeyValuePair_2_tE9D30A991F93C5CC802881BEB1E7D7627F086D79 L_56 = L_55;
 			RuntimeObject* L_57 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 30), &L_56);
+			NullCheck(L_46);
 			ArrayElementTypeCheck (L_46, L_57);
-			(L_46)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
+			(L_46)->SetAt(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
 		}
 
 IL_012a_1:
@@ -13897,6 +14427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		RuntimeObject** L_1 = (RuntimeObject**)(&__this->____syncRoot_9);
 		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
 		RuntimeObject* L_3;
 		L_3 = InterlockedCompareExchangeImpl<RuntimeObject*>(L_1, L_2, NULL);
@@ -13967,7 +14498,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8* L_5 = (EntryU5BU5D_t8A94E49E55312D8C8F52CF29BABC46D492937FE8*)__this->____entries_1;
 		int32_t L_6 = V_0;
-		uint8_t L_7 = (uint8_t)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		uint8_t L_7 = (uint8_t)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		uint8_t L_8 = L_7;
 		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_8);
 		return L_9;
@@ -14365,6 +14897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m2FBD8737309023A68D2E
 IL_0007:
 	{
 		RuntimeObject* L_1 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_1);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Char>>::get_Count() */, il2cpp_rgctx_data(method->klass->rgctx_data, 5), (RuntimeObject*)L_1);
 		G_B3_0 = L_2;
@@ -14388,6 +14921,7 @@ IL_000d:
 IL_001c:
 	{
 		RuntimeObject* L_5 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_5);
 		Type_t* L_6;
 		L_6 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)L_5, NULL);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 7)) };
@@ -14404,8 +14938,10 @@ IL_001c:
 	{
 		RuntimeObject* L_10 = ___dictionary0;
 		Dictionary_2_t760E9A9490B53715AE11CA76450386C19A39A0C8* L_11 = ((Dictionary_2_t760E9A9490B53715AE11CA76450386C19A39A0C8*)CastclassClass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 8)));
+		NullCheck(L_11);
 		int32_t L_12 = (int32_t)L_11->____count_2;
 		V_0 = L_12;
+		NullCheck(L_11);
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_13 = (EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7*)L_11->____entries_1;
 		V_1 = L_13;
 		V_2 = 0;
@@ -14416,7 +14952,8 @@ IL_004a:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
 		if ((((int32_t)L_16) < ((int32_t)0)))
 		{
 			goto IL_0077;
@@ -14425,10 +14962,12 @@ IL_004a:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_17 = V_1;
 		int32_t L_18 = V_2;
-		int32_t L_19 = (int32_t)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
+		NullCheck(L_17);
+		int32_t L_19 = (int32_t)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_20 = V_1;
 		int32_t L_21 = V_2;
-		Il2CppChar L_22 = (Il2CppChar)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
+		NullCheck(L_20);
+		Il2CppChar L_22 = (Il2CppChar)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
 		((  void (*) (Dictionary_2_t760E9A9490B53715AE11CA76450386C19A39A0C8*, int32_t, Il2CppChar, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_19, L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 	}
 
@@ -14454,6 +14993,7 @@ IL_007b:
 IL_0080:
 	{
 		RuntimeObject* L_26 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_26);
 		RuntimeObject* L_27;
 		L_27 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Char>>::GetEnumerator() */, il2cpp_rgctx_data(method->klass->rgctx_data, 10), (RuntimeObject*)L_26);
 		V_3 = L_27;
@@ -14473,6 +15013,7 @@ FINALLY_00af:
 				}
 				{
 					RuntimeObject* L_29 = V_3;
+					NullCheck((RuntimeObject*)L_29);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, (RuntimeObject*)L_29);
 				}
 
@@ -14491,6 +15032,7 @@ IL_00b8:
 IL_0089_1:
 			{
 				RuntimeObject* L_30 = V_3;
+				NullCheck(L_30);
 				KeyValuePair_2_t25871D01DA51BBB8CEF1F27E727B5D3A545FD4EF L_31;
 				L_31 = InterfaceFuncInvoker0< KeyValuePair_2_t25871D01DA51BBB8CEF1F27E727B5D3A545FD4EF >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Char>>::get_Current() */, il2cpp_rgctx_data(method->klass->rgctx_data, 12), L_30);
 				V_4 = L_31;
@@ -14504,6 +15046,7 @@ IL_0089_1:
 IL_00a5_1:
 			{
 				RuntimeObject* L_34 = V_3;
+				NullCheck((RuntimeObject*)L_34);
 				bool L_35;
 				L_35 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, (RuntimeObject*)L_34);
 				if (L_35)
@@ -14542,6 +15085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m9E8599FAC86967646C84
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
+		NullCheck(L_0);
 		ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7(L_0, (RuntimeObject*)__this, L_1, ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7_RuntimeMethod_var);
 		return;
 	}
@@ -14567,6 +15111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyCollection_t3E33C2EB31F1F1EF4ADE3FFFBB7D11
 	}
 	{
 		KeyCollection_t3E33C2EB31F1F1EF4ADE3FFFBB7D11E563134D04* L_1 = (KeyCollection_t3E33C2EB31F1F1EF4ADE3FFFBB7D11E563134D04*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t3E33C2EB31F1F1EF4ADE3FFFBB7D11E563134D04*, Dictionary_2_t760E9A9490B53715AE11CA76450386C19A39A0C8*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -14590,6 +15135,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		KeyCollection_t3E33C2EB31F1F1EF4ADE3FFFBB7D11E563134D04* L_1 = (KeyCollection_t3E33C2EB31F1F1EF4ADE3FFFBB7D11E563134D04*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t3E33C2EB31F1F1EF4ADE3FFFBB7D11E563134D04*, Dictionary_2_t760E9A9490B53715AE11CA76450386C19A39A0C8*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -14613,6 +15159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_tDBED056C1C402E2288827E2C0299
 	}
 	{
 		ValueCollection_tDBED056C1C402E2288827E2C0299F425713D8171* L_1 = (ValueCollection_tDBED056C1C402E2288827E2C0299F425713D8171*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_tDBED056C1C402E2288827E2C0299F425713D8171*, Dictionary_2_t760E9A9490B53715AE11CA76450386C19A39A0C8*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -14636,6 +15183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		ValueCollection_tDBED056C1C402E2288827E2C0299F425713D8171* L_1 = (ValueCollection_tDBED056C1C402E2288827E2C0299F425713D8171*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_tDBED056C1C402E2288827E2C0299F425713D8171*, Dictionary_2_t760E9A9490B53715AE11CA76450386C19A39A0C8*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -14666,7 +15214,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar Dictionary_2_get_Item_m49A20DF302F
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_3 = (EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7*)__this->____entries_1;
 		int32_t L_4 = V_0;
-		Il2CppChar L_5 = (Il2CppChar)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
+		NullCheck(L_3);
+		Il2CppChar L_5 = (Il2CppChar)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
 		return L_5;
 	}
 
@@ -14736,9 +15285,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_tCAA8B21BC7E1029BB1288DEAE6D8ACB730BC5D4B* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_4 = (EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		Il2CppChar L_6 = (Il2CppChar)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		Il2CppChar L_6 = (Il2CppChar)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		Il2CppChar L_7;
 		L_7 = KeyValuePair_2_get_Value_m6E082F30B5B753C3131FCA1A488A0963333AFD04_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, Il2CppChar, Il2CppChar >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Char>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -14776,9 +15327,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_tCAA8B21BC7E1029BB1288DEAE6D8ACB730BC5D4B* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_4 = (EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		Il2CppChar L_6 = (Il2CppChar)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		Il2CppChar L_6 = (Il2CppChar)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		Il2CppChar L_7;
 		L_7 = KeyValuePair_2_get_Value_m6E082F30B5B753C3131FCA1A488A0963333AFD04_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, Il2CppChar, Il2CppChar >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Char>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -14815,6 +15368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_m6BDE066E698E26ADC176
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_3);
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_2, 0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
 		__this->____count_2 = 0;
 		__this->____freeList_3 = (-1);
@@ -14864,7 +15418,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_2 = V_0;
 		int32_t L_3 = V_1;
-		int32_t L_4 = (int32_t)((L_2)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
+		NullCheck(L_2);
+		int32_t L_4 = (int32_t)((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
 		if ((((int32_t)L_4) < ((int32_t)0)))
 		{
 			goto IL_0037;
@@ -14873,7 +15428,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_5 = V_0;
 		int32_t L_6 = V_1;
-		Il2CppChar L_7 = (Il2CppChar)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		Il2CppChar L_7 = (Il2CppChar)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		goto IL_0037;
 	}
 	{
@@ -14912,7 +15468,8 @@ IL_005d:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_12 = V_0;
 		int32_t L_13 = V_3;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0087;
@@ -14923,8 +15480,10 @@ IL_005d:
 		L_15 = ((  EqualityComparer_1_tCAA8B21BC7E1029BB1288DEAE6D8ACB730BC5D4B* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_16 = V_0;
 		int32_t L_17 = V_3;
-		Il2CppChar L_18 = (Il2CppChar)((L_16)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
+		NullCheck(L_16);
+		Il2CppChar L_18 = (Il2CppChar)((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
 		Il2CppChar L_19 = ___value0;
+		NullCheck(L_15);
 		bool L_20;
 		L_20 = VirtualFuncInvoker2< bool, Il2CppChar, Il2CppChar >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Char>::Equals(T,T) */, L_15, L_18, L_19);
 		if (!L_20)
@@ -14968,7 +15527,8 @@ IL_00a2:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
 		if ((((int32_t)L_27) < ((int32_t)0)))
 		{
 			goto IL_00cb;
@@ -14978,8 +15538,10 @@ IL_00a2:
 		EqualityComparer_1_tCAA8B21BC7E1029BB1288DEAE6D8ACB730BC5D4B* L_28 = V_4;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_29 = V_0;
 		int32_t L_30 = V_5;
-		Il2CppChar L_31 = (Il2CppChar)((L_29)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
+		NullCheck(L_29);
+		Il2CppChar L_31 = (Il2CppChar)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
 		Il2CppChar L_32 = ___value0;
+		NullCheck(L_28);
 		bool L_33;
 		L_33 = VirtualFuncInvoker2< bool, Il2CppChar, Il2CppChar >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Char>::Equals(T,T) */, L_28, L_31, L_32);
 		if (!L_33)
@@ -15033,6 +15595,7 @@ IL_0009:
 	{
 		int32_t L_1 = ___index1;
 		KeyValuePair_2U5BU5D_t185EF1C22979145FBA3233EFBDF557ECDC08113C* L_2 = ___array0;
+		NullCheck(L_2);
 		if ((!(((uint32_t)L_1) > ((uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))))))
 		{
 			goto IL_0014;
@@ -15045,6 +15608,7 @@ IL_0009:
 IL_0014:
 	{
 		KeyValuePair_2U5BU5D_t185EF1C22979145FBA3233EFBDF557ECDC08113C* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4 = ___index1;
 		int32_t L_5;
 		L_5 = ((  int32_t (*) (Dictionary_2_t760E9A9490B53715AE11CA76450386C19A39A0C8*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 29)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 29));
@@ -15071,7 +15635,8 @@ IL_0039:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_8 = V_1;
 		int32_t L_9 = V_2;
-		int32_t L_10 = (int32_t)((L_8)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
+		NullCheck(L_8);
+		int32_t L_10 = (int32_t)((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
 		if ((((int32_t)L_10) < ((int32_t)0)))
 		{
 			goto IL_0071;
@@ -15084,14 +15649,17 @@ IL_0039:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_17 = V_1;
 		int32_t L_18 = V_2;
-		Il2CppChar L_19 = (Il2CppChar)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
+		NullCheck(L_17);
+		Il2CppChar L_19 = (Il2CppChar)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
 		KeyValuePair_2_t25871D01DA51BBB8CEF1F27E727B5D3A545FD4EF L_20;
 		memset((&L_20), 0, sizeof(L_20));
 		KeyValuePair_2__ctor_mF66F658CB0111305E284C4FD64B6FC4AD62EB5E3((&L_20), L_16, L_19, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_t25871D01DA51BBB8CEF1F27E727B5D3A545FD4EF)L_20);
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_t25871D01DA51BBB8CEF1F27E727B5D3A545FD4EF)L_20);
 	}
 
 IL_0071:
@@ -15177,6 +15745,7 @@ IL_0009:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
 		int32_t L_2 = (int32_t)__this->____version_5;
+		NullCheck(L_1);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(L_1, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, L_2, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = ___info0;
 		RuntimeObject* L_4 = (RuntimeObject*)__this->____comparer_6;
@@ -15206,6 +15775,7 @@ IL_002f:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_8;
 		L_8 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_7, NULL);
+		NullCheck(G_B4_2);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(G_B4_2, G_B4_1, (RuntimeObject*)G_B4_0, L_8, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_9 = ___info0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
@@ -15220,6 +15790,7 @@ IL_002f:
 	}
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_11);
 		G_B7_0 = ((int32_t)(((RuntimeArray*)L_11)->max_length));
 		G_B7_1 = G_B5_0;
 		G_B7_2 = G_B5_1;
@@ -15235,6 +15806,7 @@ IL_0056:
 
 IL_0057:
 	{
+		NullCheck(G_B7_2);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(G_B7_2, G_B7_1, G_B7_0, NULL);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		if (!L_12)
@@ -15255,6 +15827,7 @@ IL_0057:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_19;
 		L_19 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_18, NULL);
+		NullCheck(L_16);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(L_16, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, (RuntimeObject*)L_17, L_19, NULL);
 	}
 
@@ -15312,8 +15885,10 @@ IL_000e:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = V_1;
 		int32_t L_8 = V_5;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = V_1;
+		NullCheck(L_9);
+		NullCheck(L_7);
 		int32_t L_10 = ((int32_t)(L_8%((int32_t)(((RuntimeArray*)L_9)->max_length))));
-		int32_t L_11 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		int32_t L_11 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
 		il2cpp_codegen_initobj((&V_6), sizeof(int32_t));
 	}
@@ -15322,6 +15897,7 @@ IL_0066:
 	{
 		int32_t L_13 = V_0;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_14 = V_2;
+		NullCheck(L_14);
 		if ((!(((uint32_t)L_13) < ((uint32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))))))
 		{
 			goto IL_0175;
@@ -15330,7 +15906,8 @@ IL_0066:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_15 = V_2;
 		int32_t L_16 = V_0;
-		int32_t L_17 = (int32_t)((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
+		NullCheck(L_15);
+		int32_t L_17 = (int32_t)((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
 		int32_t L_18 = V_5;
 		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
 		{
@@ -15342,8 +15919,10 @@ IL_0066:
 		L_19 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_20 = V_2;
 		int32_t L_21 = V_0;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_19);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_19, L_22, L_23);
 		if (L_24)
@@ -15356,10 +15935,12 @@ IL_009b:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_25 = V_2;
 		int32_t L_26 = V_0;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
 		V_0 = L_27;
 		int32_t L_28 = V_3;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_29 = V_2;
+		NullCheck(L_29);
 		if ((((int32_t)L_28) < ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length)))))
 		{
 			goto IL_00b3;
@@ -15387,6 +15968,7 @@ IL_00c0:
 	{
 		int32_t L_32 = V_0;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_33 = V_2;
+		NullCheck(L_33);
 		if ((!(((uint32_t)L_32) < ((uint32_t)((int32_t)(((RuntimeArray*)L_33)->max_length))))))
 		{
 			goto IL_0175;
@@ -15395,7 +15977,8 @@ IL_00c0:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_34 = V_2;
 		int32_t L_35 = V_0;
-		int32_t L_36 = (int32_t)((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
+		NullCheck(L_34);
+		int32_t L_36 = (int32_t)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
 		int32_t L_37 = V_5;
 		if ((!(((uint32_t)L_36) == ((uint32_t)L_37))))
 		{
@@ -15406,8 +15989,10 @@ IL_00c0:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_38 = V_7;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_39 = V_2;
 		int32_t L_40 = V_0;
-		int32_t L_41 = (int32_t)((L_39)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
+		NullCheck(L_39);
+		int32_t L_41 = (int32_t)((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
 		int32_t L_42 = ___key0;
+		NullCheck(L_38);
 		bool L_43;
 		L_43 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_38, L_41, L_42);
 		if (L_43)
@@ -15420,10 +16005,12 @@ IL_00f2:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_44 = V_2;
 		int32_t L_45 = V_0;
-		int32_t L_46 = (int32_t)((L_44)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
+		NullCheck(L_44);
+		int32_t L_46 = (int32_t)((L_44)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
 		V_0 = L_46;
 		int32_t L_47 = V_3;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_48 = V_2;
+		NullCheck(L_48);
 		if ((((int32_t)L_47) < ((int32_t)((int32_t)(((RuntimeArray*)L_48)->max_length)))))
 		{
 			goto IL_010a;
@@ -15444,14 +16031,17 @@ IL_0110:
 	{
 		RuntimeObject* L_50 = V_4;
 		int32_t L_51 = ___key0;
+		NullCheck(L_50);
 		int32_t L_52;
 		L_52 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_50, L_51);
 		V_8 = ((int32_t)(L_52&((int32_t)2147483647LL)));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = V_1;
 		int32_t L_54 = V_8;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_55 = V_1;
+		NullCheck(L_55);
+		NullCheck(L_53);
 		int32_t L_56 = ((int32_t)(L_54%((int32_t)(((RuntimeArray*)L_55)->max_length))));
-		int32_t L_57 = (L_53)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_56));
+		int32_t L_57 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_57, 1));
 	}
 
@@ -15459,6 +16049,7 @@ IL_012b:
 	{
 		int32_t L_58 = V_0;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_59 = V_2;
+		NullCheck(L_59);
 		if ((!(((uint32_t)L_58) < ((uint32_t)((int32_t)(((RuntimeArray*)L_59)->max_length))))))
 		{
 			goto IL_0175;
@@ -15467,7 +16058,8 @@ IL_012b:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_60 = V_2;
 		int32_t L_61 = V_0;
-		int32_t L_62 = (int32_t)((L_60)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
+		NullCheck(L_60);
+		int32_t L_62 = (int32_t)((L_60)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
 		int32_t L_63 = V_8;
 		if ((!(((uint32_t)L_62) == ((uint32_t)L_63))))
 		{
@@ -15478,8 +16070,10 @@ IL_012b:
 		RuntimeObject* L_64 = V_4;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_65 = V_2;
 		int32_t L_66 = V_0;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
 		int32_t L_68 = ___key0;
+		NullCheck(L_64);
 		bool L_69;
 		L_69 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_64, L_67, L_68);
 		if (L_69)
@@ -15492,10 +16086,12 @@ IL_0157:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_70 = V_2;
 		int32_t L_71 = V_0;
-		int32_t L_72 = (int32_t)((L_70)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
+		NullCheck(L_70);
+		int32_t L_72 = (int32_t)((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
 		V_0 = L_72;
 		int32_t L_73 = V_3;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_74 = V_2;
+		NullCheck(L_74);
 		if ((((int32_t)L_73) < ((int32_t)((int32_t)(((RuntimeArray*)L_74)->max_length)))))
 		{
 			goto IL_016f;
@@ -15604,6 +16200,7 @@ IL_002c:
 	{
 		RuntimeObject* L_7 = V_1;
 		int32_t L_8 = ___key0;
+		NullCheck(L_7);
 		int32_t L_9;
 		L_9 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_7, L_8);
 		G_B7_0 = L_9;
@@ -15624,7 +16221,9 @@ IL_0053:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_12 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		V_4 = ((L_11)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
+		NullCheck(L_13);
+		NullCheck(L_11);
+		V_4 = ((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
 		int32_t* L_14 = V_4;
 		int32_t L_15 = *((int32_t*)L_14);
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_15, 1));
@@ -15642,6 +16241,7 @@ IL_0091:
 	{
 		int32_t L_18 = V_5;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_19 = V_0;
+		NullCheck(L_19);
 		if ((!(((uint32_t)L_18) < ((uint32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))))))
 		{
 			goto IL_01f9;
@@ -15650,7 +16250,8 @@ IL_0091:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_20 = V_0;
 		int32_t L_21 = V_5;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
 		int32_t L_23 = V_2;
 		if ((!(((uint32_t)L_22) == ((uint32_t)L_23))))
 		{
@@ -15662,8 +16263,10 @@ IL_0091:
 		L_24 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = ___key0;
+		NullCheck(L_24);
 		bool L_29;
 		L_29 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_24, L_27, L_28);
 		if (!L_29)
@@ -15681,8 +16284,9 @@ IL_0091:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_31 = V_0;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		Il2CppChar L_33 = ___value1;
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
 		return (bool)1;
 	}
 
@@ -15710,10 +16314,12 @@ IL_00ea:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_38 = V_0;
 		int32_t L_39 = V_5;
-		int32_t L_40 = (int32_t)((L_38)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
+		NullCheck(L_38);
+		int32_t L_40 = (int32_t)((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
 		V_5 = L_40;
 		int32_t L_41 = V_3;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_42 = V_0;
+		NullCheck(L_42);
 		if ((((int32_t)L_41) < ((int32_t)((int32_t)(((RuntimeArray*)L_42)->max_length)))))
 		{
 			goto IL_0104;
@@ -15741,6 +16347,7 @@ IL_0111:
 	{
 		int32_t L_45 = V_5;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_46 = V_0;
+		NullCheck(L_46);
 		if ((!(((uint32_t)L_45) < ((uint32_t)((int32_t)(((RuntimeArray*)L_46)->max_length))))))
 		{
 			goto IL_01f9;
@@ -15749,7 +16356,8 @@ IL_0111:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_47 = V_0;
 		int32_t L_48 = V_5;
-		int32_t L_49 = (int32_t)((L_47)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
+		NullCheck(L_47);
+		int32_t L_49 = (int32_t)((L_47)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
 		int32_t L_50 = V_2;
 		if ((!(((uint32_t)L_49) == ((uint32_t)L_50))))
 		{
@@ -15760,8 +16368,10 @@ IL_0111:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_51 = V_12;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_52 = V_0;
 		int32_t L_53 = V_5;
-		int32_t L_54 = (int32_t)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
+		NullCheck(L_52);
+		int32_t L_54 = (int32_t)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
 		int32_t L_55 = ___key0;
+		NullCheck(L_51);
 		bool L_56;
 		L_56 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_51, L_54, L_55);
 		if (!L_56)
@@ -15779,8 +16389,9 @@ IL_0111:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_58 = V_0;
 		int32_t L_59 = V_5;
+		NullCheck(L_58);
 		Il2CppChar L_60 = ___value1;
-		((L_58)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
+		((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
 		return (bool)1;
 	}
 
@@ -15808,10 +16419,12 @@ IL_0167:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_65 = V_0;
 		int32_t L_66 = V_5;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
 		V_5 = L_67;
 		int32_t L_68 = V_3;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_69 = V_0;
+		NullCheck(L_69);
 		if ((((int32_t)L_68) < ((int32_t)((int32_t)(((RuntimeArray*)L_69)->max_length)))))
 		{
 			goto IL_0181;
@@ -15832,6 +16445,7 @@ IL_0187:
 	{
 		int32_t L_71 = V_5;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_72 = V_0;
+		NullCheck(L_72);
 		if ((!(((uint32_t)L_71) < ((uint32_t)((int32_t)(((RuntimeArray*)L_72)->max_length))))))
 		{
 			goto IL_01f9;
@@ -15840,7 +16454,8 @@ IL_0187:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_73 = V_0;
 		int32_t L_74 = V_5;
-		int32_t L_75 = (int32_t)((L_73)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
+		NullCheck(L_73);
+		int32_t L_75 = (int32_t)((L_73)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
 		int32_t L_76 = V_2;
 		if ((!(((uint32_t)L_75) == ((uint32_t)L_76))))
 		{
@@ -15851,8 +16466,10 @@ IL_0187:
 		RuntimeObject* L_77 = V_1;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_78 = V_0;
 		int32_t L_79 = V_5;
-		int32_t L_80 = (int32_t)((L_78)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
+		NullCheck(L_78);
+		int32_t L_80 = (int32_t)((L_78)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
 		int32_t L_81 = ___key0;
+		NullCheck(L_77);
 		bool L_82;
 		L_82 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_77, L_80, L_81);
 		if (!L_82)
@@ -15870,8 +16487,9 @@ IL_0187:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_84 = V_0;
 		int32_t L_85 = V_5;
+		NullCheck(L_84);
 		Il2CppChar L_86 = ___value1;
-		((L_84)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
+		((L_84)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
 		return (bool)1;
 	}
 
@@ -15899,10 +16517,12 @@ IL_01d9:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_91 = V_0;
 		int32_t L_92 = V_5;
-		int32_t L_93 = (int32_t)((L_91)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
+		NullCheck(L_91);
+		int32_t L_93 = (int32_t)((L_91)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
 		V_5 = L_93;
 		int32_t L_94 = V_3;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_95 = V_0;
+		NullCheck(L_95);
 		if ((((int32_t)L_94) < ((int32_t)((int32_t)(((RuntimeArray*)L_95)->max_length)))))
 		{
 			goto IL_01f3;
@@ -15944,6 +16564,7 @@ IL_0223:
 		V_13 = L_100;
 		int32_t L_101 = V_13;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_102 = V_0;
+		NullCheck(L_102);
 		if ((!(((uint32_t)L_101) == ((uint32_t)((int32_t)(((RuntimeArray*)L_102)->max_length))))))
 		{
 			goto IL_023b;
@@ -15983,7 +16604,9 @@ IL_0258:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_108 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_109 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_110 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		G_B51_0 = ((L_108)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
+		NullCheck(L_110);
+		NullCheck(L_108);
+		G_B51_0 = ((L_108)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
 	}
 
 IL_026d:
@@ -15991,7 +16614,8 @@ IL_026d:
 		V_9 = G_B51_0;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_111 = V_0;
 		int32_t L_112 = V_8;
-		V_10 = ((L_111)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_112)));
+		NullCheck(L_111);
+		V_10 = ((L_111)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_112)));
 		bool L_113 = V_7;
 		if (!L_113)
 		{
@@ -16050,6 +16674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_mEF8ECAF5
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_0);
 		bool L_1;
 		L_1 = ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F(L_0, (RuntimeObject*)__this, (&V_0), ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F_RuntimeMethod_var);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_2 = V_0;
@@ -16065,10 +16690,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_mEF8ECAF5
 IL_0012:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = V_0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_3, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, NULL);
 		V_1 = L_4;
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_5 = V_0;
+		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_5, _stringLiteral1275D52763CF050C5A4C759818D60119CC35BD69, NULL);
 		V_2 = L_6;
@@ -16077,6 +16704,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_9;
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
+		NullCheck(L_7);
 		RuntimeObject* L_10;
 		L_10 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_7, _stringLiteralC5F173ABE7214E8ED04EE91D0D5626EEDF0007E9, L_9, NULL);
 		__this->____comparer_6 = ((RuntimeObject*)Castclass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 41)));
@@ -16096,6 +16724,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_16;
 		L_16 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_15, NULL);
+		NullCheck(L_14);
 		RuntimeObject* L_17;
 		L_17 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_14, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, L_16, NULL);
 		V_3 = ((KeyValuePair_2U5BU5D_t185EF1C22979145FBA3233EFBDF557ECDC08113C*)Castclass((RuntimeObject*)L_17, il2cpp_rgctx_data(method->klass->rgctx_data, 46)));
@@ -16119,8 +16748,9 @@ IL_007f:
 	{
 		KeyValuePair_2U5BU5D_t185EF1C22979145FBA3233EFBDF557ECDC08113C* L_19 = V_3;
 		int32_t L_20 = V_4;
+		NullCheck(L_19);
 		int32_t L_21;
-		L_21 = KeyValuePair_2_get_Key_m8862066C052557662F7CFB385CBA6E42C8C92454_inline(((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_21 = KeyValuePair_2_get_Key_m8862066C052557662F7CFB385CBA6E42C8C92454_inline(((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		goto IL_009a;
 	}
 	{
@@ -16131,12 +16761,14 @@ IL_009a:
 	{
 		KeyValuePair_2U5BU5D_t185EF1C22979145FBA3233EFBDF557ECDC08113C* L_22 = V_3;
 		int32_t L_23 = V_4;
+		NullCheck(L_22);
 		int32_t L_24;
-		L_24 = KeyValuePair_2_get_Key_m8862066C052557662F7CFB385CBA6E42C8C92454_inline(((L_22)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_24 = KeyValuePair_2_get_Key_m8862066C052557662F7CFB385CBA6E42C8C92454_inline(((L_22)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		KeyValuePair_2U5BU5D_t185EF1C22979145FBA3233EFBDF557ECDC08113C* L_25 = V_3;
 		int32_t L_26 = V_4;
+		NullCheck(L_25);
 		Il2CppChar L_27;
-		L_27 = KeyValuePair_2_get_Value_m6E082F30B5B753C3131FCA1A488A0963333AFD04_inline(((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		L_27 = KeyValuePair_2_get_Value_m6E082F30B5B753C3131FCA1A488A0963333AFD04_inline(((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
 		((  void (*) (Dictionary_2_t760E9A9490B53715AE11CA76450386C19A39A0C8*, int32_t, Il2CppChar, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_24, L_27, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		int32_t L_28 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_28, 1));
@@ -16146,6 +16778,7 @@ IL_00c0:
 	{
 		int32_t L_29 = V_4;
 		KeyValuePair_2U5BU5D_t185EF1C22979145FBA3233EFBDF557ECDC08113C* L_30 = V_3;
+		NullCheck(L_30);
 		if ((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))
 		{
 			goto IL_007f;
@@ -16168,6 +16801,7 @@ IL_00d0:
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_32;
 		L_32 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_32);
 		bool L_33;
 		L_33 = ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E(L_32, (RuntimeObject*)__this, ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E_RuntimeMethod_var);
 		return;
@@ -16239,7 +16873,8 @@ IL_003e:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_12 = V_1;
 		int32_t L_13 = V_4;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0079;
@@ -16248,12 +16883,14 @@ IL_003e:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_15 = V_1;
 		int32_t L_16 = V_4;
+		NullCheck(L_15);
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_17 = V_1;
 		int32_t L_18 = V_4;
-		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
+		NullCheck(L_17);
+		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
 		int32_t L_20;
 		L_20 = Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295(L_19, il2cpp_rgctx_method(method->klass->rgctx_data, 38));
-		((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
+		((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
 	}
 
 IL_0079:
@@ -16282,7 +16919,8 @@ IL_0089:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_24 = V_1;
 		int32_t L_25 = V_5;
-		int32_t L_26 = (int32_t)((L_24)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
+		NullCheck(L_24);
+		int32_t L_26 = (int32_t)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
 		if ((((int32_t)L_26) < ((int32_t)0)))
 		{
 			goto IL_00c5;
@@ -16291,20 +16929,24 @@ IL_0089:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_27 = V_1;
 		int32_t L_28 = V_5;
-		int32_t L_29 = (int32_t)((L_27)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
+		NullCheck(L_27);
+		int32_t L_29 = (int32_t)((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
 		int32_t L_30 = ___newSize0;
 		V_6 = ((int32_t)(L_29%L_30));
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_31 = V_1;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_33 = V_0;
 		int32_t L_34 = V_6;
+		NullCheck(L_33);
 		int32_t L_35 = L_34;
-		int32_t L_36 = (L_33)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_35));
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
+		int32_t L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = V_0;
 		int32_t L_38 = V_6;
 		int32_t L_39 = V_5;
-		(L_37)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
 	}
 
 IL_00c5:
@@ -16381,6 +17023,7 @@ IL_000e:
 IL_0032:
 	{
 		int32_t L_5 = ___key0;
+		NullCheck(G_B5_0);
 		int32_t L_6;
 		L_6 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B5_0, L_5);
 		G_B6_0 = L_6;
@@ -16391,12 +17034,14 @@ IL_0038:
 		V_0 = ((int32_t)(G_B6_0&((int32_t)2147483647LL)));
 		int32_t L_7 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_8);
 		V_1 = ((int32_t)(L_7%((int32_t)(((RuntimeArray*)L_8)->max_length))));
 		V_2 = (-1);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_10 = V_1;
+		NullCheck(L_9);
 		int32_t L_11 = L_10;
-		int32_t L_12 = (L_9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
+		int32_t L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
 		goto IL_0142;
 	}
@@ -16405,7 +17050,8 @@ IL_005c:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_13 = (EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7*)__this->____entries_1;
 		int32_t L_14 = V_3;
-		V_4 = ((L_13)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_14)));
+		NullCheck(L_13);
+		V_4 = ((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14)));
 		Entry_t5A1DD43C826878A3853C7DF32E971C3D19805227* L_15 = V_4;
 		int32_t L_16 = (int32_t)L_15->___hashCode_0;
 		int32_t L_17 = V_0;
@@ -16430,6 +17076,7 @@ IL_005c:
 		Entry_t5A1DD43C826878A3853C7DF32E971C3D19805227* L_21 = V_4;
 		int32_t L_22 = (int32_t)L_21->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_20);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_20, L_22, L_23);
 		G_B11_0 = L_24;
@@ -16441,6 +17088,7 @@ IL_0095:
 		Entry_t5A1DD43C826878A3853C7DF32E971C3D19805227* L_25 = V_4;
 		int32_t L_26 = (int32_t)L_25->___key_2;
 		int32_t L_27 = ___key0;
+		NullCheck(G_B10_0);
 		bool L_28;
 		L_28 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B10_0, L_26, L_27);
 		G_B11_0 = L_28;
@@ -16465,7 +17113,8 @@ IL_00a2:
 		int32_t L_31 = V_1;
 		Entry_t5A1DD43C826878A3853C7DF32E971C3D19805227* L_32 = V_4;
 		int32_t L_33 = (int32_t)L_32->___next_1;
-		(L_30)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
 		goto IL_00d6;
 	}
 
@@ -16473,9 +17122,10 @@ IL_00be:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_34 = (EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7*)__this->____entries_1;
 		int32_t L_35 = V_2;
+		NullCheck(L_34);
 		Entry_t5A1DD43C826878A3853C7DF32E971C3D19805227* L_36 = V_4;
 		int32_t L_37 = (int32_t)L_36->___next_1;
-		((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
+		((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
 	}
 
 IL_00d6:
@@ -16562,7 +17212,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mD7A8027D160399
 		Il2CppChar* L_3 = ___value1;
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_4 = (EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		Il2CppChar L_6 = (Il2CppChar)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		Il2CppChar L_6 = (Il2CppChar)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		*(Il2CppChar*)L_3 = L_6;
 		return (bool)1;
 	}
@@ -16635,6 +17286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_System_Collections_ICollect
 IL_0009:
 	{
 		RuntimeArray* L_1 = ___array0;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(L_1, NULL);
 		if ((((int32_t)L_2) == ((int32_t)1)))
@@ -16649,6 +17301,7 @@ IL_0009:
 IL_0018:
 	{
 		RuntimeArray* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(L_3, 0, NULL);
 		if (!L_4)
@@ -16664,6 +17317,7 @@ IL_0027:
 	{
 		int32_t L_5 = ___index1;
 		RuntimeArray* L_6 = ___array0;
+		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_6, NULL);
 		if ((!(((uint32_t)L_5) > ((uint32_t)L_7))))
@@ -16678,6 +17332,7 @@ IL_0027:
 IL_0035:
 	{
 		RuntimeArray* L_8 = ___array0;
+		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_8, NULL);
 		int32_t L_10 = ___index1;
@@ -16730,7 +17385,8 @@ IL_0073:
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_19 = V_2;
 		int32_t L_20 = V_3;
-		int32_t L_21 = (int32_t)((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
+		NullCheck(L_19);
+		int32_t L_21 = (int32_t)((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
 		if ((((int32_t)L_21) < ((int32_t)0)))
 		{
 			goto IL_00b5;
@@ -16743,18 +17399,21 @@ IL_0073:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_25 = V_2;
 		int32_t L_26 = V_3;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = L_27;
 		RuntimeObject* L_29 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 21), &L_28);
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_30 = V_2;
 		int32_t L_31 = V_3;
-		Il2CppChar L_32 = (Il2CppChar)((L_30)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
+		NullCheck(L_30);
+		Il2CppChar L_32 = (Il2CppChar)((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
 		Il2CppChar L_33 = L_32;
 		RuntimeObject* L_34 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_33);
 		DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB L_35;
 		memset((&L_35), 0, sizeof(L_35));
 		DictionaryEntry__ctor_m2768353E53A75C4860E34B37DAF1342120C5D1EA((&L_35), L_29, L_34, /*hidden argument*/NULL);
-		(L_22)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
 	}
 
 IL_00b5:
@@ -16808,7 +17467,8 @@ IL_00ea_1:
 		{
 			EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_43 = V_6;
 			int32_t L_44 = V_7;
-			int32_t L_45 = (int32_t)((L_43)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
+			NullCheck(L_43);
+			int32_t L_45 = (int32_t)((L_43)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
 			if ((((int32_t)L_45) < ((int32_t)0)))
 			{
 				goto IL_012a_1;
@@ -16821,17 +17481,20 @@ IL_00ea_1:
 			___index1 = ((int32_t)il2cpp_codegen_add(L_48, 1));
 			EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_49 = V_6;
 			int32_t L_50 = V_7;
-			int32_t L_51 = (int32_t)((L_49)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
+			NullCheck(L_49);
+			int32_t L_51 = (int32_t)((L_49)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
 			EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_52 = V_6;
 			int32_t L_53 = V_7;
-			Il2CppChar L_54 = (Il2CppChar)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
+			NullCheck(L_52);
+			Il2CppChar L_54 = (Il2CppChar)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
 			KeyValuePair_2_t25871D01DA51BBB8CEF1F27E727B5D3A545FD4EF L_55;
 			memset((&L_55), 0, sizeof(L_55));
 			KeyValuePair_2__ctor_mF66F658CB0111305E284C4FD64B6FC4AD62EB5E3((&L_55), L_51, L_54, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
 			KeyValuePair_2_t25871D01DA51BBB8CEF1F27E727B5D3A545FD4EF L_56 = L_55;
 			RuntimeObject* L_57 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 30), &L_56);
+			NullCheck(L_46);
 			ArrayElementTypeCheck (L_46, L_57);
-			(L_46)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
+			(L_46)->SetAt(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
 		}
 
 IL_012a_1:
@@ -16913,6 +17576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		RuntimeObject** L_1 = (RuntimeObject**)(&__this->____syncRoot_9);
 		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
 		RuntimeObject* L_3;
 		L_3 = InterlockedCompareExchangeImpl<RuntimeObject*>(L_1, L_2, NULL);
@@ -16983,7 +17647,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7* L_5 = (EntryU5BU5D_t74939D41FA6DAF2CD4F7462D8AD016D48B99B8B7*)__this->____entries_1;
 		int32_t L_6 = V_0;
-		Il2CppChar L_7 = (Il2CppChar)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		Il2CppChar L_7 = (Il2CppChar)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		Il2CppChar L_8 = L_7;
 		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_8);
 		return L_9;
@@ -17381,6 +18046,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m80BA85C4BD9131E46021
 IL_0007:
 	{
 		RuntimeObject* L_1 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_1);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int16>>::get_Count() */, il2cpp_rgctx_data(method->klass->rgctx_data, 5), (RuntimeObject*)L_1);
 		G_B3_0 = L_2;
@@ -17404,6 +18070,7 @@ IL_000d:
 IL_001c:
 	{
 		RuntimeObject* L_5 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_5);
 		Type_t* L_6;
 		L_6 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)L_5, NULL);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 7)) };
@@ -17420,8 +18087,10 @@ IL_001c:
 	{
 		RuntimeObject* L_10 = ___dictionary0;
 		Dictionary_2_t91C6CE9606BDA85C77443D05E3B9D8CAB951172E* L_11 = ((Dictionary_2_t91C6CE9606BDA85C77443D05E3B9D8CAB951172E*)CastclassClass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 8)));
+		NullCheck(L_11);
 		int32_t L_12 = (int32_t)L_11->____count_2;
 		V_0 = L_12;
+		NullCheck(L_11);
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_13 = (EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A*)L_11->____entries_1;
 		V_1 = L_13;
 		V_2 = 0;
@@ -17432,7 +18101,8 @@ IL_004a:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
 		if ((((int32_t)L_16) < ((int32_t)0)))
 		{
 			goto IL_0077;
@@ -17441,10 +18111,12 @@ IL_004a:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_17 = V_1;
 		int32_t L_18 = V_2;
-		int32_t L_19 = (int32_t)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
+		NullCheck(L_17);
+		int32_t L_19 = (int32_t)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_20 = V_1;
 		int32_t L_21 = V_2;
-		int16_t L_22 = (int16_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
+		NullCheck(L_20);
+		int16_t L_22 = (int16_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
 		((  void (*) (Dictionary_2_t91C6CE9606BDA85C77443D05E3B9D8CAB951172E*, int32_t, int16_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_19, L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 	}
 
@@ -17470,6 +18142,7 @@ IL_007b:
 IL_0080:
 	{
 		RuntimeObject* L_26 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_26);
 		RuntimeObject* L_27;
 		L_27 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int16>>::GetEnumerator() */, il2cpp_rgctx_data(method->klass->rgctx_data, 10), (RuntimeObject*)L_26);
 		V_3 = L_27;
@@ -17489,6 +18162,7 @@ FINALLY_00af:
 				}
 				{
 					RuntimeObject* L_29 = V_3;
+					NullCheck((RuntimeObject*)L_29);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, (RuntimeObject*)L_29);
 				}
 
@@ -17507,6 +18181,7 @@ IL_00b8:
 IL_0089_1:
 			{
 				RuntimeObject* L_30 = V_3;
+				NullCheck(L_30);
 				KeyValuePair_2_t2132409A44BC7FAE80FD412954A8D3FAA78C5AD7 L_31;
 				L_31 = InterfaceFuncInvoker0< KeyValuePair_2_t2132409A44BC7FAE80FD412954A8D3FAA78C5AD7 >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int16>>::get_Current() */, il2cpp_rgctx_data(method->klass->rgctx_data, 12), L_30);
 				V_4 = L_31;
@@ -17520,6 +18195,7 @@ IL_0089_1:
 IL_00a5_1:
 			{
 				RuntimeObject* L_34 = V_3;
+				NullCheck((RuntimeObject*)L_34);
 				bool L_35;
 				L_35 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, (RuntimeObject*)L_34);
 				if (L_35)
@@ -17558,6 +18234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mEE78FE535C1423847026
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
+		NullCheck(L_0);
 		ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7(L_0, (RuntimeObject*)__this, L_1, ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7_RuntimeMethod_var);
 		return;
 	}
@@ -17583,6 +18260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyCollection_tF86D4BF066D2918DC115471F95C704
 	}
 	{
 		KeyCollection_tF86D4BF066D2918DC115471F95C704CCFE31A4BC* L_1 = (KeyCollection_tF86D4BF066D2918DC115471F95C704CCFE31A4BC*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_tF86D4BF066D2918DC115471F95C704CCFE31A4BC*, Dictionary_2_t91C6CE9606BDA85C77443D05E3B9D8CAB951172E*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -17606,6 +18284,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		KeyCollection_tF86D4BF066D2918DC115471F95C704CCFE31A4BC* L_1 = (KeyCollection_tF86D4BF066D2918DC115471F95C704CCFE31A4BC*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_tF86D4BF066D2918DC115471F95C704CCFE31A4BC*, Dictionary_2_t91C6CE9606BDA85C77443D05E3B9D8CAB951172E*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -17629,6 +18308,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_tA47FB4D68690FF7BE3BE1C596C5E
 	}
 	{
 		ValueCollection_tA47FB4D68690FF7BE3BE1C596C5E08768A9B9AA9* L_1 = (ValueCollection_tA47FB4D68690FF7BE3BE1C596C5E08768A9B9AA9*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_tA47FB4D68690FF7BE3BE1C596C5E08768A9B9AA9*, Dictionary_2_t91C6CE9606BDA85C77443D05E3B9D8CAB951172E*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -17652,6 +18332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		ValueCollection_tA47FB4D68690FF7BE3BE1C596C5E08768A9B9AA9* L_1 = (ValueCollection_tA47FB4D68690FF7BE3BE1C596C5E08768A9B9AA9*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_tA47FB4D68690FF7BE3BE1C596C5E08768A9B9AA9*, Dictionary_2_t91C6CE9606BDA85C77443D05E3B9D8CAB951172E*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -17682,7 +18363,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t Dictionary_2_get_Item_m42254F005DEA20
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_3 = (EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A*)__this->____entries_1;
 		int32_t L_4 = V_0;
-		int16_t L_5 = (int16_t)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
+		NullCheck(L_3);
+		int16_t L_5 = (int16_t)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
 		return L_5;
 	}
 
@@ -17752,9 +18434,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_tD96337BB993FF6246388ED223A24A3E752058F7B* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_4 = (EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		int16_t L_6 = (int16_t)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		int16_t L_6 = (int16_t)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		int16_t L_7;
 		L_7 = KeyValuePair_2_get_Value_mCB447E4FF59EFDEC3D3E9B8AB142CC7D586BA75B_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, int16_t, int16_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int16>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -17792,9 +18476,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_tD96337BB993FF6246388ED223A24A3E752058F7B* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_4 = (EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		int16_t L_6 = (int16_t)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		int16_t L_6 = (int16_t)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		int16_t L_7;
 		L_7 = KeyValuePair_2_get_Value_mCB447E4FF59EFDEC3D3E9B8AB142CC7D586BA75B_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, int16_t, int16_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int16>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -17831,6 +18517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_mB76E51EAB1D0DAA739EF
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_3);
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_2, 0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
 		__this->____count_2 = 0;
 		__this->____freeList_3 = (-1);
@@ -17880,7 +18567,8 @@ IL_0013:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_2 = V_0;
 		int32_t L_3 = V_1;
-		int32_t L_4 = (int32_t)((L_2)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
+		NullCheck(L_2);
+		int32_t L_4 = (int32_t)((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
 		if ((((int32_t)L_4) < ((int32_t)0)))
 		{
 			goto IL_0037;
@@ -17889,7 +18577,8 @@ IL_0013:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_5 = V_0;
 		int32_t L_6 = V_1;
-		int16_t L_7 = (int16_t)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		int16_t L_7 = (int16_t)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		goto IL_0037;
 	}
 	{
@@ -17928,7 +18617,8 @@ IL_005d:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_12 = V_0;
 		int32_t L_13 = V_3;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0087;
@@ -17939,8 +18629,10 @@ IL_005d:
 		L_15 = ((  EqualityComparer_1_tD96337BB993FF6246388ED223A24A3E752058F7B* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_16 = V_0;
 		int32_t L_17 = V_3;
-		int16_t L_18 = (int16_t)((L_16)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
+		NullCheck(L_16);
+		int16_t L_18 = (int16_t)((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
 		int16_t L_19 = ___value0;
+		NullCheck(L_15);
 		bool L_20;
 		L_20 = VirtualFuncInvoker2< bool, int16_t, int16_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int16>::Equals(T,T) */, L_15, L_18, L_19);
 		if (!L_20)
@@ -17984,7 +18676,8 @@ IL_00a2:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
 		if ((((int32_t)L_27) < ((int32_t)0)))
 		{
 			goto IL_00cb;
@@ -17994,8 +18687,10 @@ IL_00a2:
 		EqualityComparer_1_tD96337BB993FF6246388ED223A24A3E752058F7B* L_28 = V_4;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_29 = V_0;
 		int32_t L_30 = V_5;
-		int16_t L_31 = (int16_t)((L_29)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
+		NullCheck(L_29);
+		int16_t L_31 = (int16_t)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
 		int16_t L_32 = ___value0;
+		NullCheck(L_28);
 		bool L_33;
 		L_33 = VirtualFuncInvoker2< bool, int16_t, int16_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int16>::Equals(T,T) */, L_28, L_31, L_32);
 		if (!L_33)
@@ -18049,6 +18744,7 @@ IL_0009:
 	{
 		int32_t L_1 = ___index1;
 		KeyValuePair_2U5BU5D_t7B77187A0BD57CE486C3E599563B11226D2A884A* L_2 = ___array0;
+		NullCheck(L_2);
 		if ((!(((uint32_t)L_1) > ((uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))))))
 		{
 			goto IL_0014;
@@ -18061,6 +18757,7 @@ IL_0009:
 IL_0014:
 	{
 		KeyValuePair_2U5BU5D_t7B77187A0BD57CE486C3E599563B11226D2A884A* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4 = ___index1;
 		int32_t L_5;
 		L_5 = ((  int32_t (*) (Dictionary_2_t91C6CE9606BDA85C77443D05E3B9D8CAB951172E*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 29)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 29));
@@ -18087,7 +18784,8 @@ IL_0039:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_8 = V_1;
 		int32_t L_9 = V_2;
-		int32_t L_10 = (int32_t)((L_8)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
+		NullCheck(L_8);
+		int32_t L_10 = (int32_t)((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
 		if ((((int32_t)L_10) < ((int32_t)0)))
 		{
 			goto IL_0071;
@@ -18100,14 +18798,17 @@ IL_0039:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_17 = V_1;
 		int32_t L_18 = V_2;
-		int16_t L_19 = (int16_t)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
+		NullCheck(L_17);
+		int16_t L_19 = (int16_t)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
 		KeyValuePair_2_t2132409A44BC7FAE80FD412954A8D3FAA78C5AD7 L_20;
 		memset((&L_20), 0, sizeof(L_20));
 		KeyValuePair_2__ctor_mBFBC54E960F4427A76B74141EDD54C3530818679((&L_20), L_16, L_19, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_t2132409A44BC7FAE80FD412954A8D3FAA78C5AD7)L_20);
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_t2132409A44BC7FAE80FD412954A8D3FAA78C5AD7)L_20);
 	}
 
 IL_0071:
@@ -18193,6 +18894,7 @@ IL_0009:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
 		int32_t L_2 = (int32_t)__this->____version_5;
+		NullCheck(L_1);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(L_1, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, L_2, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = ___info0;
 		RuntimeObject* L_4 = (RuntimeObject*)__this->____comparer_6;
@@ -18222,6 +18924,7 @@ IL_002f:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_8;
 		L_8 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_7, NULL);
+		NullCheck(G_B4_2);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(G_B4_2, G_B4_1, (RuntimeObject*)G_B4_0, L_8, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_9 = ___info0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
@@ -18236,6 +18939,7 @@ IL_002f:
 	}
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_11);
 		G_B7_0 = ((int32_t)(((RuntimeArray*)L_11)->max_length));
 		G_B7_1 = G_B5_0;
 		G_B7_2 = G_B5_1;
@@ -18251,6 +18955,7 @@ IL_0056:
 
 IL_0057:
 	{
+		NullCheck(G_B7_2);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(G_B7_2, G_B7_1, G_B7_0, NULL);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		if (!L_12)
@@ -18271,6 +18976,7 @@ IL_0057:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_19;
 		L_19 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_18, NULL);
+		NullCheck(L_16);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(L_16, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, (RuntimeObject*)L_17, L_19, NULL);
 	}
 
@@ -18328,8 +19034,10 @@ IL_000e:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = V_1;
 		int32_t L_8 = V_5;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = V_1;
+		NullCheck(L_9);
+		NullCheck(L_7);
 		int32_t L_10 = ((int32_t)(L_8%((int32_t)(((RuntimeArray*)L_9)->max_length))));
-		int32_t L_11 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		int32_t L_11 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
 		il2cpp_codegen_initobj((&V_6), sizeof(int32_t));
 	}
@@ -18338,6 +19046,7 @@ IL_0066:
 	{
 		int32_t L_13 = V_0;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_14 = V_2;
+		NullCheck(L_14);
 		if ((!(((uint32_t)L_13) < ((uint32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))))))
 		{
 			goto IL_0175;
@@ -18346,7 +19055,8 @@ IL_0066:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_15 = V_2;
 		int32_t L_16 = V_0;
-		int32_t L_17 = (int32_t)((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
+		NullCheck(L_15);
+		int32_t L_17 = (int32_t)((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
 		int32_t L_18 = V_5;
 		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
 		{
@@ -18358,8 +19068,10 @@ IL_0066:
 		L_19 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_20 = V_2;
 		int32_t L_21 = V_0;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_19);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_19, L_22, L_23);
 		if (L_24)
@@ -18372,10 +19084,12 @@ IL_009b:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_25 = V_2;
 		int32_t L_26 = V_0;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
 		V_0 = L_27;
 		int32_t L_28 = V_3;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_29 = V_2;
+		NullCheck(L_29);
 		if ((((int32_t)L_28) < ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length)))))
 		{
 			goto IL_00b3;
@@ -18403,6 +19117,7 @@ IL_00c0:
 	{
 		int32_t L_32 = V_0;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_33 = V_2;
+		NullCheck(L_33);
 		if ((!(((uint32_t)L_32) < ((uint32_t)((int32_t)(((RuntimeArray*)L_33)->max_length))))))
 		{
 			goto IL_0175;
@@ -18411,7 +19126,8 @@ IL_00c0:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_34 = V_2;
 		int32_t L_35 = V_0;
-		int32_t L_36 = (int32_t)((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
+		NullCheck(L_34);
+		int32_t L_36 = (int32_t)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
 		int32_t L_37 = V_5;
 		if ((!(((uint32_t)L_36) == ((uint32_t)L_37))))
 		{
@@ -18422,8 +19138,10 @@ IL_00c0:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_38 = V_7;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_39 = V_2;
 		int32_t L_40 = V_0;
-		int32_t L_41 = (int32_t)((L_39)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
+		NullCheck(L_39);
+		int32_t L_41 = (int32_t)((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
 		int32_t L_42 = ___key0;
+		NullCheck(L_38);
 		bool L_43;
 		L_43 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_38, L_41, L_42);
 		if (L_43)
@@ -18436,10 +19154,12 @@ IL_00f2:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_44 = V_2;
 		int32_t L_45 = V_0;
-		int32_t L_46 = (int32_t)((L_44)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
+		NullCheck(L_44);
+		int32_t L_46 = (int32_t)((L_44)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
 		V_0 = L_46;
 		int32_t L_47 = V_3;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_48 = V_2;
+		NullCheck(L_48);
 		if ((((int32_t)L_47) < ((int32_t)((int32_t)(((RuntimeArray*)L_48)->max_length)))))
 		{
 			goto IL_010a;
@@ -18460,14 +19180,17 @@ IL_0110:
 	{
 		RuntimeObject* L_50 = V_4;
 		int32_t L_51 = ___key0;
+		NullCheck(L_50);
 		int32_t L_52;
 		L_52 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_50, L_51);
 		V_8 = ((int32_t)(L_52&((int32_t)2147483647LL)));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = V_1;
 		int32_t L_54 = V_8;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_55 = V_1;
+		NullCheck(L_55);
+		NullCheck(L_53);
 		int32_t L_56 = ((int32_t)(L_54%((int32_t)(((RuntimeArray*)L_55)->max_length))));
-		int32_t L_57 = (L_53)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_56));
+		int32_t L_57 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_57, 1));
 	}
 
@@ -18475,6 +19198,7 @@ IL_012b:
 	{
 		int32_t L_58 = V_0;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_59 = V_2;
+		NullCheck(L_59);
 		if ((!(((uint32_t)L_58) < ((uint32_t)((int32_t)(((RuntimeArray*)L_59)->max_length))))))
 		{
 			goto IL_0175;
@@ -18483,7 +19207,8 @@ IL_012b:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_60 = V_2;
 		int32_t L_61 = V_0;
-		int32_t L_62 = (int32_t)((L_60)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
+		NullCheck(L_60);
+		int32_t L_62 = (int32_t)((L_60)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
 		int32_t L_63 = V_8;
 		if ((!(((uint32_t)L_62) == ((uint32_t)L_63))))
 		{
@@ -18494,8 +19219,10 @@ IL_012b:
 		RuntimeObject* L_64 = V_4;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_65 = V_2;
 		int32_t L_66 = V_0;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
 		int32_t L_68 = ___key0;
+		NullCheck(L_64);
 		bool L_69;
 		L_69 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_64, L_67, L_68);
 		if (L_69)
@@ -18508,10 +19235,12 @@ IL_0157:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_70 = V_2;
 		int32_t L_71 = V_0;
-		int32_t L_72 = (int32_t)((L_70)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
+		NullCheck(L_70);
+		int32_t L_72 = (int32_t)((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
 		V_0 = L_72;
 		int32_t L_73 = V_3;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_74 = V_2;
+		NullCheck(L_74);
 		if ((((int32_t)L_73) < ((int32_t)((int32_t)(((RuntimeArray*)L_74)->max_length)))))
 		{
 			goto IL_016f;
@@ -18620,6 +19349,7 @@ IL_002c:
 	{
 		RuntimeObject* L_7 = V_1;
 		int32_t L_8 = ___key0;
+		NullCheck(L_7);
 		int32_t L_9;
 		L_9 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_7, L_8);
 		G_B7_0 = L_9;
@@ -18640,7 +19370,9 @@ IL_0053:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_12 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		V_4 = ((L_11)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
+		NullCheck(L_13);
+		NullCheck(L_11);
+		V_4 = ((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
 		int32_t* L_14 = V_4;
 		int32_t L_15 = *((int32_t*)L_14);
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_15, 1));
@@ -18658,6 +19390,7 @@ IL_0091:
 	{
 		int32_t L_18 = V_5;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_19 = V_0;
+		NullCheck(L_19);
 		if ((!(((uint32_t)L_18) < ((uint32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))))))
 		{
 			goto IL_01f9;
@@ -18666,7 +19399,8 @@ IL_0091:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_20 = V_0;
 		int32_t L_21 = V_5;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
 		int32_t L_23 = V_2;
 		if ((!(((uint32_t)L_22) == ((uint32_t)L_23))))
 		{
@@ -18678,8 +19412,10 @@ IL_0091:
 		L_24 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = ___key0;
+		NullCheck(L_24);
 		bool L_29;
 		L_29 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_24, L_27, L_28);
 		if (!L_29)
@@ -18697,8 +19433,9 @@ IL_0091:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_31 = V_0;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		int16_t L_33 = ___value1;
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
 		return (bool)1;
 	}
 
@@ -18726,10 +19463,12 @@ IL_00ea:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_38 = V_0;
 		int32_t L_39 = V_5;
-		int32_t L_40 = (int32_t)((L_38)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
+		NullCheck(L_38);
+		int32_t L_40 = (int32_t)((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
 		V_5 = L_40;
 		int32_t L_41 = V_3;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_42 = V_0;
+		NullCheck(L_42);
 		if ((((int32_t)L_41) < ((int32_t)((int32_t)(((RuntimeArray*)L_42)->max_length)))))
 		{
 			goto IL_0104;
@@ -18757,6 +19496,7 @@ IL_0111:
 	{
 		int32_t L_45 = V_5;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_46 = V_0;
+		NullCheck(L_46);
 		if ((!(((uint32_t)L_45) < ((uint32_t)((int32_t)(((RuntimeArray*)L_46)->max_length))))))
 		{
 			goto IL_01f9;
@@ -18765,7 +19505,8 @@ IL_0111:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_47 = V_0;
 		int32_t L_48 = V_5;
-		int32_t L_49 = (int32_t)((L_47)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
+		NullCheck(L_47);
+		int32_t L_49 = (int32_t)((L_47)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
 		int32_t L_50 = V_2;
 		if ((!(((uint32_t)L_49) == ((uint32_t)L_50))))
 		{
@@ -18776,8 +19517,10 @@ IL_0111:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_51 = V_12;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_52 = V_0;
 		int32_t L_53 = V_5;
-		int32_t L_54 = (int32_t)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
+		NullCheck(L_52);
+		int32_t L_54 = (int32_t)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
 		int32_t L_55 = ___key0;
+		NullCheck(L_51);
 		bool L_56;
 		L_56 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_51, L_54, L_55);
 		if (!L_56)
@@ -18795,8 +19538,9 @@ IL_0111:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_58 = V_0;
 		int32_t L_59 = V_5;
+		NullCheck(L_58);
 		int16_t L_60 = ___value1;
-		((L_58)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
+		((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
 		return (bool)1;
 	}
 
@@ -18824,10 +19568,12 @@ IL_0167:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_65 = V_0;
 		int32_t L_66 = V_5;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
 		V_5 = L_67;
 		int32_t L_68 = V_3;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_69 = V_0;
+		NullCheck(L_69);
 		if ((((int32_t)L_68) < ((int32_t)((int32_t)(((RuntimeArray*)L_69)->max_length)))))
 		{
 			goto IL_0181;
@@ -18848,6 +19594,7 @@ IL_0187:
 	{
 		int32_t L_71 = V_5;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_72 = V_0;
+		NullCheck(L_72);
 		if ((!(((uint32_t)L_71) < ((uint32_t)((int32_t)(((RuntimeArray*)L_72)->max_length))))))
 		{
 			goto IL_01f9;
@@ -18856,7 +19603,8 @@ IL_0187:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_73 = V_0;
 		int32_t L_74 = V_5;
-		int32_t L_75 = (int32_t)((L_73)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
+		NullCheck(L_73);
+		int32_t L_75 = (int32_t)((L_73)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
 		int32_t L_76 = V_2;
 		if ((!(((uint32_t)L_75) == ((uint32_t)L_76))))
 		{
@@ -18867,8 +19615,10 @@ IL_0187:
 		RuntimeObject* L_77 = V_1;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_78 = V_0;
 		int32_t L_79 = V_5;
-		int32_t L_80 = (int32_t)((L_78)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
+		NullCheck(L_78);
+		int32_t L_80 = (int32_t)((L_78)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
 		int32_t L_81 = ___key0;
+		NullCheck(L_77);
 		bool L_82;
 		L_82 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_77, L_80, L_81);
 		if (!L_82)
@@ -18886,8 +19636,9 @@ IL_0187:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_84 = V_0;
 		int32_t L_85 = V_5;
+		NullCheck(L_84);
 		int16_t L_86 = ___value1;
-		((L_84)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
+		((L_84)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
 		return (bool)1;
 	}
 
@@ -18915,10 +19666,12 @@ IL_01d9:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_91 = V_0;
 		int32_t L_92 = V_5;
-		int32_t L_93 = (int32_t)((L_91)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
+		NullCheck(L_91);
+		int32_t L_93 = (int32_t)((L_91)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
 		V_5 = L_93;
 		int32_t L_94 = V_3;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_95 = V_0;
+		NullCheck(L_95);
 		if ((((int32_t)L_94) < ((int32_t)((int32_t)(((RuntimeArray*)L_95)->max_length)))))
 		{
 			goto IL_01f3;
@@ -18960,6 +19713,7 @@ IL_0223:
 		V_13 = L_100;
 		int32_t L_101 = V_13;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_102 = V_0;
+		NullCheck(L_102);
 		if ((!(((uint32_t)L_101) == ((uint32_t)((int32_t)(((RuntimeArray*)L_102)->max_length))))))
 		{
 			goto IL_023b;
@@ -18999,7 +19753,9 @@ IL_0258:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_108 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_109 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_110 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		G_B51_0 = ((L_108)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
+		NullCheck(L_110);
+		NullCheck(L_108);
+		G_B51_0 = ((L_108)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
 	}
 
 IL_026d:
@@ -19007,7 +19763,8 @@ IL_026d:
 		V_9 = G_B51_0;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_111 = V_0;
 		int32_t L_112 = V_8;
-		V_10 = ((L_111)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_112)));
+		NullCheck(L_111);
+		V_10 = ((L_111)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_112)));
 		bool L_113 = V_7;
 		if (!L_113)
 		{
@@ -19066,6 +19823,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_m89FB3B07
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_0);
 		bool L_1;
 		L_1 = ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F(L_0, (RuntimeObject*)__this, (&V_0), ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F_RuntimeMethod_var);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_2 = V_0;
@@ -19081,10 +19839,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_m89FB3B07
 IL_0012:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = V_0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_3, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, NULL);
 		V_1 = L_4;
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_5 = V_0;
+		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_5, _stringLiteral1275D52763CF050C5A4C759818D60119CC35BD69, NULL);
 		V_2 = L_6;
@@ -19093,6 +19853,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_9;
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
+		NullCheck(L_7);
 		RuntimeObject* L_10;
 		L_10 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_7, _stringLiteralC5F173ABE7214E8ED04EE91D0D5626EEDF0007E9, L_9, NULL);
 		__this->____comparer_6 = ((RuntimeObject*)Castclass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 41)));
@@ -19112,6 +19873,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_16;
 		L_16 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_15, NULL);
+		NullCheck(L_14);
 		RuntimeObject* L_17;
 		L_17 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_14, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, L_16, NULL);
 		V_3 = ((KeyValuePair_2U5BU5D_t7B77187A0BD57CE486C3E599563B11226D2A884A*)Castclass((RuntimeObject*)L_17, il2cpp_rgctx_data(method->klass->rgctx_data, 46)));
@@ -19135,8 +19897,9 @@ IL_007f:
 	{
 		KeyValuePair_2U5BU5D_t7B77187A0BD57CE486C3E599563B11226D2A884A* L_19 = V_3;
 		int32_t L_20 = V_4;
+		NullCheck(L_19);
 		int32_t L_21;
-		L_21 = KeyValuePair_2_get_Key_m2A78BEC6D1C0928859E81B0B6EBC8B72021F0AEA_inline(((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_21 = KeyValuePair_2_get_Key_m2A78BEC6D1C0928859E81B0B6EBC8B72021F0AEA_inline(((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		goto IL_009a;
 	}
 	{
@@ -19147,12 +19910,14 @@ IL_009a:
 	{
 		KeyValuePair_2U5BU5D_t7B77187A0BD57CE486C3E599563B11226D2A884A* L_22 = V_3;
 		int32_t L_23 = V_4;
+		NullCheck(L_22);
 		int32_t L_24;
-		L_24 = KeyValuePair_2_get_Key_m2A78BEC6D1C0928859E81B0B6EBC8B72021F0AEA_inline(((L_22)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_24 = KeyValuePair_2_get_Key_m2A78BEC6D1C0928859E81B0B6EBC8B72021F0AEA_inline(((L_22)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		KeyValuePair_2U5BU5D_t7B77187A0BD57CE486C3E599563B11226D2A884A* L_25 = V_3;
 		int32_t L_26 = V_4;
+		NullCheck(L_25);
 		int16_t L_27;
-		L_27 = KeyValuePair_2_get_Value_mCB447E4FF59EFDEC3D3E9B8AB142CC7D586BA75B_inline(((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		L_27 = KeyValuePair_2_get_Value_mCB447E4FF59EFDEC3D3E9B8AB142CC7D586BA75B_inline(((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
 		((  void (*) (Dictionary_2_t91C6CE9606BDA85C77443D05E3B9D8CAB951172E*, int32_t, int16_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_24, L_27, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		int32_t L_28 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_28, 1));
@@ -19162,6 +19927,7 @@ IL_00c0:
 	{
 		int32_t L_29 = V_4;
 		KeyValuePair_2U5BU5D_t7B77187A0BD57CE486C3E599563B11226D2A884A* L_30 = V_3;
+		NullCheck(L_30);
 		if ((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))
 		{
 			goto IL_007f;
@@ -19184,6 +19950,7 @@ IL_00d0:
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_32;
 		L_32 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_32);
 		bool L_33;
 		L_33 = ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E(L_32, (RuntimeObject*)__this, ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E_RuntimeMethod_var);
 		return;
@@ -19255,7 +20022,8 @@ IL_003e:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_12 = V_1;
 		int32_t L_13 = V_4;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0079;
@@ -19264,12 +20032,14 @@ IL_003e:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_15 = V_1;
 		int32_t L_16 = V_4;
+		NullCheck(L_15);
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_17 = V_1;
 		int32_t L_18 = V_4;
-		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
+		NullCheck(L_17);
+		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
 		int32_t L_20;
 		L_20 = Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295(L_19, il2cpp_rgctx_method(method->klass->rgctx_data, 38));
-		((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
+		((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
 	}
 
 IL_0079:
@@ -19298,7 +20068,8 @@ IL_0089:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_24 = V_1;
 		int32_t L_25 = V_5;
-		int32_t L_26 = (int32_t)((L_24)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
+		NullCheck(L_24);
+		int32_t L_26 = (int32_t)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
 		if ((((int32_t)L_26) < ((int32_t)0)))
 		{
 			goto IL_00c5;
@@ -19307,20 +20078,24 @@ IL_0089:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_27 = V_1;
 		int32_t L_28 = V_5;
-		int32_t L_29 = (int32_t)((L_27)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
+		NullCheck(L_27);
+		int32_t L_29 = (int32_t)((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
 		int32_t L_30 = ___newSize0;
 		V_6 = ((int32_t)(L_29%L_30));
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_31 = V_1;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_33 = V_0;
 		int32_t L_34 = V_6;
+		NullCheck(L_33);
 		int32_t L_35 = L_34;
-		int32_t L_36 = (L_33)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_35));
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
+		int32_t L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = V_0;
 		int32_t L_38 = V_6;
 		int32_t L_39 = V_5;
-		(L_37)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
 	}
 
 IL_00c5:
@@ -19397,6 +20172,7 @@ IL_000e:
 IL_0032:
 	{
 		int32_t L_5 = ___key0;
+		NullCheck(G_B5_0);
 		int32_t L_6;
 		L_6 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B5_0, L_5);
 		G_B6_0 = L_6;
@@ -19407,12 +20183,14 @@ IL_0038:
 		V_0 = ((int32_t)(G_B6_0&((int32_t)2147483647LL)));
 		int32_t L_7 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_8);
 		V_1 = ((int32_t)(L_7%((int32_t)(((RuntimeArray*)L_8)->max_length))));
 		V_2 = (-1);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_10 = V_1;
+		NullCheck(L_9);
 		int32_t L_11 = L_10;
-		int32_t L_12 = (L_9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
+		int32_t L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
 		goto IL_0142;
 	}
@@ -19421,7 +20199,8 @@ IL_005c:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_13 = (EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A*)__this->____entries_1;
 		int32_t L_14 = V_3;
-		V_4 = ((L_13)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_14)));
+		NullCheck(L_13);
+		V_4 = ((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14)));
 		Entry_t7D024B3A4DD33F9564AB9F99900543A39F8D6C1F* L_15 = V_4;
 		int32_t L_16 = (int32_t)L_15->___hashCode_0;
 		int32_t L_17 = V_0;
@@ -19446,6 +20225,7 @@ IL_005c:
 		Entry_t7D024B3A4DD33F9564AB9F99900543A39F8D6C1F* L_21 = V_4;
 		int32_t L_22 = (int32_t)L_21->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_20);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_20, L_22, L_23);
 		G_B11_0 = L_24;
@@ -19457,6 +20237,7 @@ IL_0095:
 		Entry_t7D024B3A4DD33F9564AB9F99900543A39F8D6C1F* L_25 = V_4;
 		int32_t L_26 = (int32_t)L_25->___key_2;
 		int32_t L_27 = ___key0;
+		NullCheck(G_B10_0);
 		bool L_28;
 		L_28 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B10_0, L_26, L_27);
 		G_B11_0 = L_28;
@@ -19481,7 +20262,8 @@ IL_00a2:
 		int32_t L_31 = V_1;
 		Entry_t7D024B3A4DD33F9564AB9F99900543A39F8D6C1F* L_32 = V_4;
 		int32_t L_33 = (int32_t)L_32->___next_1;
-		(L_30)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
 		goto IL_00d6;
 	}
 
@@ -19489,9 +20271,10 @@ IL_00be:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_34 = (EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A*)__this->____entries_1;
 		int32_t L_35 = V_2;
+		NullCheck(L_34);
 		Entry_t7D024B3A4DD33F9564AB9F99900543A39F8D6C1F* L_36 = V_4;
 		int32_t L_37 = (int32_t)L_36->___next_1;
-		((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
+		((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
 	}
 
 IL_00d6:
@@ -19578,7 +20361,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m2D1EA6829700F6
 		int16_t* L_3 = ___value1;
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_4 = (EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		int16_t L_6 = (int16_t)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		int16_t L_6 = (int16_t)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		*(int16_t*)L_3 = L_6;
 		return (bool)1;
 	}
@@ -19651,6 +20435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_System_Collections_ICollect
 IL_0009:
 	{
 		RuntimeArray* L_1 = ___array0;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(L_1, NULL);
 		if ((((int32_t)L_2) == ((int32_t)1)))
@@ -19665,6 +20450,7 @@ IL_0009:
 IL_0018:
 	{
 		RuntimeArray* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(L_3, 0, NULL);
 		if (!L_4)
@@ -19680,6 +20466,7 @@ IL_0027:
 	{
 		int32_t L_5 = ___index1;
 		RuntimeArray* L_6 = ___array0;
+		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_6, NULL);
 		if ((!(((uint32_t)L_5) > ((uint32_t)L_7))))
@@ -19694,6 +20481,7 @@ IL_0027:
 IL_0035:
 	{
 		RuntimeArray* L_8 = ___array0;
+		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_8, NULL);
 		int32_t L_10 = ___index1;
@@ -19746,7 +20534,8 @@ IL_0073:
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_19 = V_2;
 		int32_t L_20 = V_3;
-		int32_t L_21 = (int32_t)((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
+		NullCheck(L_19);
+		int32_t L_21 = (int32_t)((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
 		if ((((int32_t)L_21) < ((int32_t)0)))
 		{
 			goto IL_00b5;
@@ -19759,18 +20548,21 @@ IL_0073:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_25 = V_2;
 		int32_t L_26 = V_3;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = L_27;
 		RuntimeObject* L_29 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 21), &L_28);
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_30 = V_2;
 		int32_t L_31 = V_3;
-		int16_t L_32 = (int16_t)((L_30)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
+		NullCheck(L_30);
+		int16_t L_32 = (int16_t)((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
 		int16_t L_33 = L_32;
 		RuntimeObject* L_34 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_33);
 		DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB L_35;
 		memset((&L_35), 0, sizeof(L_35));
 		DictionaryEntry__ctor_m2768353E53A75C4860E34B37DAF1342120C5D1EA((&L_35), L_29, L_34, /*hidden argument*/NULL);
-		(L_22)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
 	}
 
 IL_00b5:
@@ -19824,7 +20616,8 @@ IL_00ea_1:
 		{
 			EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_43 = V_6;
 			int32_t L_44 = V_7;
-			int32_t L_45 = (int32_t)((L_43)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
+			NullCheck(L_43);
+			int32_t L_45 = (int32_t)((L_43)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
 			if ((((int32_t)L_45) < ((int32_t)0)))
 			{
 				goto IL_012a_1;
@@ -19837,17 +20630,20 @@ IL_00ea_1:
 			___index1 = ((int32_t)il2cpp_codegen_add(L_48, 1));
 			EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_49 = V_6;
 			int32_t L_50 = V_7;
-			int32_t L_51 = (int32_t)((L_49)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
+			NullCheck(L_49);
+			int32_t L_51 = (int32_t)((L_49)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
 			EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_52 = V_6;
 			int32_t L_53 = V_7;
-			int16_t L_54 = (int16_t)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
+			NullCheck(L_52);
+			int16_t L_54 = (int16_t)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
 			KeyValuePair_2_t2132409A44BC7FAE80FD412954A8D3FAA78C5AD7 L_55;
 			memset((&L_55), 0, sizeof(L_55));
 			KeyValuePair_2__ctor_mBFBC54E960F4427A76B74141EDD54C3530818679((&L_55), L_51, L_54, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
 			KeyValuePair_2_t2132409A44BC7FAE80FD412954A8D3FAA78C5AD7 L_56 = L_55;
 			RuntimeObject* L_57 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 30), &L_56);
+			NullCheck(L_46);
 			ArrayElementTypeCheck (L_46, L_57);
-			(L_46)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
+			(L_46)->SetAt(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
 		}
 
 IL_012a_1:
@@ -19929,6 +20725,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		RuntimeObject** L_1 = (RuntimeObject**)(&__this->____syncRoot_9);
 		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
 		RuntimeObject* L_3;
 		L_3 = InterlockedCompareExchangeImpl<RuntimeObject*>(L_1, L_2, NULL);
@@ -19999,7 +20796,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A* L_5 = (EntryU5BU5D_tD38255F15A144A13BD574D956F88D9BDF9B44C1A*)__this->____entries_1;
 		int32_t L_6 = V_0;
-		int16_t L_7 = (int16_t)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		int16_t L_7 = (int16_t)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		int16_t L_8 = L_7;
 		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_8);
 		return L_9;
@@ -20397,6 +21195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mEC51CAA9548801E2895D
 IL_0007:
 	{
 		RuntimeObject* L_1 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_1);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>::get_Count() */, il2cpp_rgctx_data(method->klass->rgctx_data, 5), (RuntimeObject*)L_1);
 		G_B3_0 = L_2;
@@ -20420,6 +21219,7 @@ IL_000d:
 IL_001c:
 	{
 		RuntimeObject* L_5 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_5);
 		Type_t* L_6;
 		L_6 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3((RuntimeObject*)L_5, NULL);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_7 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 7)) };
@@ -20436,8 +21236,10 @@ IL_001c:
 	{
 		RuntimeObject* L_10 = ___dictionary0;
 		Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* L_11 = ((Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180*)CastclassClass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 8)));
+		NullCheck(L_11);
 		int32_t L_12 = (int32_t)L_11->____count_2;
 		V_0 = L_12;
+		NullCheck(L_11);
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_13 = (EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA*)L_11->____entries_1;
 		V_1 = L_13;
 		V_2 = 0;
@@ -20448,7 +21250,8 @@ IL_004a:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___hashCode_0;
 		if ((((int32_t)L_16) < ((int32_t)0)))
 		{
 			goto IL_0077;
@@ -20457,10 +21260,12 @@ IL_004a:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_17 = V_1;
 		int32_t L_18 = V_2;
-		int32_t L_19 = (int32_t)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
+		NullCheck(L_17);
+		int32_t L_19 = (int32_t)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_20 = V_1;
 		int32_t L_21 = V_2;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___value_3;
 		((  void (*) (Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180*, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_19, L_22, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 	}
 
@@ -20486,6 +21291,7 @@ IL_007b:
 IL_0080:
 	{
 		RuntimeObject* L_26 = ___dictionary0;
+		NullCheck((RuntimeObject*)L_26);
 		RuntimeObject* L_27;
 		L_27 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>::GetEnumerator() */, il2cpp_rgctx_data(method->klass->rgctx_data, 10), (RuntimeObject*)L_26);
 		V_3 = L_27;
@@ -20505,6 +21311,7 @@ FINALLY_00af:
 				}
 				{
 					RuntimeObject* L_29 = V_3;
+					NullCheck((RuntimeObject*)L_29);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, (RuntimeObject*)L_29);
 				}
 
@@ -20523,6 +21330,7 @@ IL_00b8:
 IL_0089_1:
 			{
 				RuntimeObject* L_30 = V_3;
+				NullCheck(L_30);
 				KeyValuePair_2_tA6BE5EEAC56CB97CB7383FCC3CC6C84FAF129189 L_31;
 				L_31 = InterfaceFuncInvoker0< KeyValuePair_2_tA6BE5EEAC56CB97CB7383FCC3CC6C84FAF129189 >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>::get_Current() */, il2cpp_rgctx_data(method->klass->rgctx_data, 12), L_30);
 				V_4 = L_31;
@@ -20536,6 +21344,7 @@ IL_0089_1:
 IL_00a5_1:
 			{
 				RuntimeObject* L_34 = V_3;
+				NullCheck((RuntimeObject*)L_34);
 				bool L_35;
 				L_35 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, (RuntimeObject*)L_34);
 				if (L_35)
@@ -20574,6 +21383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mE78B97A95ADF0BF964CF
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
+		NullCheck(L_0);
 		ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7(L_0, (RuntimeObject*)__this, L_1, ConditionalWeakTable_2_Add_mF98A2811734A37D856C622E7783FD7502AA7F0B7_RuntimeMethod_var);
 		return;
 	}
@@ -20599,6 +21409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyCollection_t67E8423B5AEB30C254013AD88AB68D
 	}
 	{
 		KeyCollection_t67E8423B5AEB30C254013AD88AB68D2A36F1F436* L_1 = (KeyCollection_t67E8423B5AEB30C254013AD88AB68D2A36F1F436*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t67E8423B5AEB30C254013AD88AB68D2A36F1F436*, Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -20622,6 +21433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		KeyCollection_t67E8423B5AEB30C254013AD88AB68D2A36F1F436* L_1 = (KeyCollection_t67E8423B5AEB30C254013AD88AB68D2A36F1F436*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 16));
+		NullCheck(L_1);
 		((  void (*) (KeyCollection_t67E8423B5AEB30C254013AD88AB68D2A36F1F436*, Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 17)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 17));
 		__this->____keys_7 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____keys_7), (void*)L_1);
@@ -20645,6 +21457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_t74AF7C1BAE06C66E984668F663D5
 	}
 	{
 		ValueCollection_t74AF7C1BAE06C66E984668F663D574ED6A596D28* L_1 = (ValueCollection_t74AF7C1BAE06C66E984668F663D574ED6A596D28*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_t74AF7C1BAE06C66E984668F663D574ED6A596D28*, Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -20668,6 +21481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	}
 	{
 		ValueCollection_t74AF7C1BAE06C66E984668F663D574ED6A596D28* L_1 = (ValueCollection_t74AF7C1BAE06C66E984668F663D574ED6A596D28*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 18));
+		NullCheck(L_1);
 		((  void (*) (ValueCollection_t74AF7C1BAE06C66E984668F663D574ED6A596D28*, Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 19)))(L_1, __this, il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 		__this->____values_8 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____values_8), (void*)L_1);
@@ -20698,7 +21512,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Dictionary_2_get_Item_m8B87B804DF06D6
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_3 = (EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA*)__this->____entries_1;
 		int32_t L_4 = V_0;
-		int32_t L_5 = (int32_t)((L_3)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
+		NullCheck(L_3);
+		int32_t L_5 = (int32_t)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))->___value_3;
 		return L_5;
 	}
 
@@ -20768,9 +21583,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_4 = (EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		int32_t L_6 = (int32_t)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		int32_t L_6 = (int32_t)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		int32_t L_7;
 		L_7 = KeyValuePair_2_get_Value_m83DA000FF3605DAD9160D02FB36863DF77DB468A_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -20808,9 +21625,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_System_Collections_Generic_
 		L_3 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_4 = (EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		int32_t L_6 = (int32_t)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		int32_t L_6 = (int32_t)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		int32_t L_7;
 		L_7 = KeyValuePair_2_get_Value_m83DA000FF3605DAD9160D02FB36863DF77DB468A_inline((&___keyValuePair0), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		NullCheck(L_3);
 		bool L_8;
 		L_8 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_3, L_6, L_7);
 		if (!L_8)
@@ -20847,6 +21666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_m9821889E928BB7EAEE9A
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_3);
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_2, 0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
 		__this->____count_2 = 0;
 		__this->____freeList_3 = (-1);
@@ -20896,7 +21716,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_2 = V_0;
 		int32_t L_3 = V_1;
-		int32_t L_4 = (int32_t)((L_2)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
+		NullCheck(L_2);
+		int32_t L_4 = (int32_t)((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)))->___hashCode_0;
 		if ((((int32_t)L_4) < ((int32_t)0)))
 		{
 			goto IL_0037;
@@ -20905,7 +21726,8 @@ IL_0013:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_5 = V_0;
 		int32_t L_6 = V_1;
-		int32_t L_7 = (int32_t)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		int32_t L_7 = (int32_t)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		goto IL_0037;
 	}
 	{
@@ -20944,7 +21766,8 @@ IL_005d:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_12 = V_0;
 		int32_t L_13 = V_3;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0087;
@@ -20955,8 +21778,10 @@ IL_005d:
 		L_15 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 23)))(il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_16 = V_0;
 		int32_t L_17 = V_3;
-		int32_t L_18 = (int32_t)((L_16)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
+		NullCheck(L_16);
+		int32_t L_18 = (int32_t)((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->___value_3;
 		int32_t L_19 = ___value0;
+		NullCheck(L_15);
 		bool L_20;
 		L_20 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_15, L_18, L_19);
 		if (!L_20)
@@ -21000,7 +21825,8 @@ IL_00a2:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___hashCode_0;
 		if ((((int32_t)L_27) < ((int32_t)0)))
 		{
 			goto IL_00cb;
@@ -21010,8 +21836,10 @@ IL_00a2:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_28 = V_4;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_29 = V_0;
 		int32_t L_30 = V_5;
-		int32_t L_31 = (int32_t)((L_29)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
+		NullCheck(L_29);
+		int32_t L_31 = (int32_t)((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30)))->___value_3;
 		int32_t L_32 = ___value0;
+		NullCheck(L_28);
 		bool L_33;
 		L_33 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_28, L_31, L_32);
 		if (!L_33)
@@ -21065,6 +21893,7 @@ IL_0009:
 	{
 		int32_t L_1 = ___index1;
 		KeyValuePair_2U5BU5D_t45BAFB41C049BDC49B00275E5A255BB6DEB1396C* L_2 = ___array0;
+		NullCheck(L_2);
 		if ((!(((uint32_t)L_1) > ((uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))))))
 		{
 			goto IL_0014;
@@ -21077,6 +21906,7 @@ IL_0009:
 IL_0014:
 	{
 		KeyValuePair_2U5BU5D_t45BAFB41C049BDC49B00275E5A255BB6DEB1396C* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4 = ___index1;
 		int32_t L_5;
 		L_5 = ((  int32_t (*) (Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 29)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 29));
@@ -21103,7 +21933,8 @@ IL_0039:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_8 = V_1;
 		int32_t L_9 = V_2;
-		int32_t L_10 = (int32_t)((L_8)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
+		NullCheck(L_8);
+		int32_t L_10 = (int32_t)((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->___hashCode_0;
 		if ((((int32_t)L_10) < ((int32_t)0)))
 		{
 			goto IL_0071;
@@ -21116,14 +21947,17 @@ IL_0039:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (int32_t)((L_14)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
+		NullCheck(L_14);
+		int32_t L_16 = (int32_t)((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->___key_2;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_17 = V_1;
 		int32_t L_18 = V_2;
-		int32_t L_19 = (int32_t)((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
+		NullCheck(L_17);
+		int32_t L_19 = (int32_t)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___value_3;
 		KeyValuePair_2_tA6BE5EEAC56CB97CB7383FCC3CC6C84FAF129189 L_20;
 		memset((&L_20), 0, sizeof(L_20));
 		KeyValuePair_2__ctor_m3C86D5D8BB0D1118068E83ED43D64F4E64E7C221((&L_20), L_16, L_19, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_tA6BE5EEAC56CB97CB7383FCC3CC6C84FAF129189)L_20);
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (KeyValuePair_2_tA6BE5EEAC56CB97CB7383FCC3CC6C84FAF129189)L_20);
 	}
 
 IL_0071:
@@ -21209,6 +22043,7 @@ IL_0009:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_1 = ___info0;
 		int32_t L_2 = (int32_t)__this->____version_5;
+		NullCheck(L_1);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(L_1, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, L_2, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = ___info0;
 		RuntimeObject* L_4 = (RuntimeObject*)__this->____comparer_6;
@@ -21238,6 +22073,7 @@ IL_002f:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_8;
 		L_8 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_7, NULL);
+		NullCheck(G_B4_2);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(G_B4_2, G_B4_1, (RuntimeObject*)G_B4_0, L_8, NULL);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_9 = ___info0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
@@ -21252,6 +22088,7 @@ IL_002f:
 	}
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_11);
 		G_B7_0 = ((int32_t)(((RuntimeArray*)L_11)->max_length));
 		G_B7_1 = G_B5_0;
 		G_B7_2 = G_B5_1;
@@ -21267,6 +22104,7 @@ IL_0056:
 
 IL_0057:
 	{
+		NullCheck(G_B7_2);
 		SerializationInfo_AddValue_m9D6ADD10966D1FE8D19050F3A269747C23FE9FC4(G_B7_2, G_B7_1, G_B7_0, NULL);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		if (!L_12)
@@ -21287,6 +22125,7 @@ IL_0057:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_19;
 		L_19 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_18, NULL);
+		NullCheck(L_16);
 		SerializationInfo_AddValue_m1AD59BBF8C3129142943D3F298ADF09FF123C199(L_16, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, (RuntimeObject*)L_17, L_19, NULL);
 	}
 
@@ -21344,8 +22183,10 @@ IL_000e:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = V_1;
 		int32_t L_8 = V_5;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = V_1;
+		NullCheck(L_9);
+		NullCheck(L_7);
 		int32_t L_10 = ((int32_t)(L_8%((int32_t)(((RuntimeArray*)L_9)->max_length))));
-		int32_t L_11 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		int32_t L_11 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
 		il2cpp_codegen_initobj((&V_6), sizeof(int32_t));
 	}
@@ -21354,6 +22195,7 @@ IL_0066:
 	{
 		int32_t L_13 = V_0;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_14 = V_2;
+		NullCheck(L_14);
 		if ((!(((uint32_t)L_13) < ((uint32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))))))
 		{
 			goto IL_0175;
@@ -21362,7 +22204,8 @@ IL_0066:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_15 = V_2;
 		int32_t L_16 = V_0;
-		int32_t L_17 = (int32_t)((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
+		NullCheck(L_15);
+		int32_t L_17 = (int32_t)((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0;
 		int32_t L_18 = V_5;
 		if ((!(((uint32_t)L_17) == ((uint32_t)L_18))))
 		{
@@ -21374,8 +22217,10 @@ IL_0066:
 		L_19 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_20 = V_2;
 		int32_t L_21 = V_0;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_19);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_19, L_22, L_23);
 		if (L_24)
@@ -21388,10 +22233,12 @@ IL_009b:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_25 = V_2;
 		int32_t L_26 = V_0;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___next_1;
 		V_0 = L_27;
 		int32_t L_28 = V_3;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_29 = V_2;
+		NullCheck(L_29);
 		if ((((int32_t)L_28) < ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length)))))
 		{
 			goto IL_00b3;
@@ -21419,6 +22266,7 @@ IL_00c0:
 	{
 		int32_t L_32 = V_0;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_33 = V_2;
+		NullCheck(L_33);
 		if ((!(((uint32_t)L_32) < ((uint32_t)((int32_t)(((RuntimeArray*)L_33)->max_length))))))
 		{
 			goto IL_0175;
@@ -21427,7 +22275,8 @@ IL_00c0:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_34 = V_2;
 		int32_t L_35 = V_0;
-		int32_t L_36 = (int32_t)((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
+		NullCheck(L_34);
+		int32_t L_36 = (int32_t)((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___hashCode_0;
 		int32_t L_37 = V_5;
 		if ((!(((uint32_t)L_36) == ((uint32_t)L_37))))
 		{
@@ -21438,8 +22287,10 @@ IL_00c0:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_38 = V_7;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_39 = V_2;
 		int32_t L_40 = V_0;
-		int32_t L_41 = (int32_t)((L_39)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
+		NullCheck(L_39);
+		int32_t L_41 = (int32_t)((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_40)))->___key_2;
 		int32_t L_42 = ___key0;
+		NullCheck(L_38);
 		bool L_43;
 		L_43 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_38, L_41, L_42);
 		if (L_43)
@@ -21452,10 +22303,12 @@ IL_00f2:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_44 = V_2;
 		int32_t L_45 = V_0;
-		int32_t L_46 = (int32_t)((L_44)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
+		NullCheck(L_44);
+		int32_t L_46 = (int32_t)((L_44)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_45)))->___next_1;
 		V_0 = L_46;
 		int32_t L_47 = V_3;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_48 = V_2;
+		NullCheck(L_48);
 		if ((((int32_t)L_47) < ((int32_t)((int32_t)(((RuntimeArray*)L_48)->max_length)))))
 		{
 			goto IL_010a;
@@ -21476,14 +22329,17 @@ IL_0110:
 	{
 		RuntimeObject* L_50 = V_4;
 		int32_t L_51 = ___key0;
+		NullCheck(L_50);
 		int32_t L_52;
 		L_52 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_50, L_51);
 		V_8 = ((int32_t)(L_52&((int32_t)2147483647LL)));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = V_1;
 		int32_t L_54 = V_8;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_55 = V_1;
+		NullCheck(L_55);
+		NullCheck(L_53);
 		int32_t L_56 = ((int32_t)(L_54%((int32_t)(((RuntimeArray*)L_55)->max_length))));
-		int32_t L_57 = (L_53)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_56));
+		int32_t L_57 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_57, 1));
 	}
 
@@ -21491,6 +22347,7 @@ IL_012b:
 	{
 		int32_t L_58 = V_0;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_59 = V_2;
+		NullCheck(L_59);
 		if ((!(((uint32_t)L_58) < ((uint32_t)((int32_t)(((RuntimeArray*)L_59)->max_length))))))
 		{
 			goto IL_0175;
@@ -21499,7 +22356,8 @@ IL_012b:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_60 = V_2;
 		int32_t L_61 = V_0;
-		int32_t L_62 = (int32_t)((L_60)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
+		NullCheck(L_60);
+		int32_t L_62 = (int32_t)((L_60)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_61)))->___hashCode_0;
 		int32_t L_63 = V_8;
 		if ((!(((uint32_t)L_62) == ((uint32_t)L_63))))
 		{
@@ -21510,8 +22368,10 @@ IL_012b:
 		RuntimeObject* L_64 = V_4;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_65 = V_2;
 		int32_t L_66 = V_0;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___key_2;
 		int32_t L_68 = ___key0;
+		NullCheck(L_64);
 		bool L_69;
 		L_69 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_64, L_67, L_68);
 		if (L_69)
@@ -21524,10 +22384,12 @@ IL_0157:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_70 = V_2;
 		int32_t L_71 = V_0;
-		int32_t L_72 = (int32_t)((L_70)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
+		NullCheck(L_70);
+		int32_t L_72 = (int32_t)((L_70)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_71)))->___next_1;
 		V_0 = L_72;
 		int32_t L_73 = V_3;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_74 = V_2;
+		NullCheck(L_74);
 		if ((((int32_t)L_73) < ((int32_t)((int32_t)(((RuntimeArray*)L_74)->max_length)))))
 		{
 			goto IL_016f;
@@ -21636,6 +22498,7 @@ IL_002c:
 	{
 		RuntimeObject* L_7 = V_1;
 		int32_t L_8 = ___key0;
+		NullCheck(L_7);
 		int32_t L_9;
 		L_9 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_7, L_8);
 		G_B7_0 = L_9;
@@ -21656,7 +22519,9 @@ IL_0053:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_12 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		V_4 = ((L_11)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
+		NullCheck(L_13);
+		NullCheck(L_11);
+		V_4 = ((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_12%((int32_t)(((RuntimeArray*)L_13)->max_length)))))));
 		int32_t* L_14 = V_4;
 		int32_t L_15 = *((int32_t*)L_14);
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_15, 1));
@@ -21674,6 +22539,7 @@ IL_0091:
 	{
 		int32_t L_18 = V_5;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_19 = V_0;
+		NullCheck(L_19);
 		if ((!(((uint32_t)L_18) < ((uint32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))))))
 		{
 			goto IL_01f9;
@@ -21682,7 +22548,8 @@ IL_0091:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_20 = V_0;
 		int32_t L_21 = V_5;
-		int32_t L_22 = (int32_t)((L_20)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
+		NullCheck(L_20);
+		int32_t L_22 = (int32_t)((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___hashCode_0;
 		int32_t L_23 = V_2;
 		if ((!(((uint32_t)L_22) == ((uint32_t)L_23))))
 		{
@@ -21694,8 +22561,10 @@ IL_0091:
 		L_24 = ((  EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_25 = V_0;
 		int32_t L_26 = V_5;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = ___key0;
+		NullCheck(L_24);
 		bool L_29;
 		L_29 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_24, L_27, L_28);
 		if (!L_29)
@@ -21713,8 +22582,9 @@ IL_0091:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_31 = V_0;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		int32_t L_33 = ___value1;
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___value_3 = L_33;
 		return (bool)1;
 	}
 
@@ -21742,10 +22612,12 @@ IL_00ea:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_38 = V_0;
 		int32_t L_39 = V_5;
-		int32_t L_40 = (int32_t)((L_38)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
+		NullCheck(L_38);
+		int32_t L_40 = (int32_t)((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->___next_1;
 		V_5 = L_40;
 		int32_t L_41 = V_3;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_42 = V_0;
+		NullCheck(L_42);
 		if ((((int32_t)L_41) < ((int32_t)((int32_t)(((RuntimeArray*)L_42)->max_length)))))
 		{
 			goto IL_0104;
@@ -21773,6 +22645,7 @@ IL_0111:
 	{
 		int32_t L_45 = V_5;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_46 = V_0;
+		NullCheck(L_46);
 		if ((!(((uint32_t)L_45) < ((uint32_t)((int32_t)(((RuntimeArray*)L_46)->max_length))))))
 		{
 			goto IL_01f9;
@@ -21781,7 +22654,8 @@ IL_0111:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_47 = V_0;
 		int32_t L_48 = V_5;
-		int32_t L_49 = (int32_t)((L_47)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
+		NullCheck(L_47);
+		int32_t L_49 = (int32_t)((L_47)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48)))->___hashCode_0;
 		int32_t L_50 = V_2;
 		if ((!(((uint32_t)L_49) == ((uint32_t)L_50))))
 		{
@@ -21792,8 +22666,10 @@ IL_0111:
 		EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* L_51 = V_12;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_52 = V_0;
 		int32_t L_53 = V_5;
-		int32_t L_54 = (int32_t)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
+		NullCheck(L_52);
+		int32_t L_54 = (int32_t)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___key_2;
 		int32_t L_55 = ___key0;
+		NullCheck(L_51);
 		bool L_56;
 		L_56 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_51, L_54, L_55);
 		if (!L_56)
@@ -21811,8 +22687,9 @@ IL_0111:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_58 = V_0;
 		int32_t L_59 = V_5;
+		NullCheck(L_58);
 		int32_t L_60 = ___value1;
-		((L_58)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
+		((L_58)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_59)))->___value_3 = L_60;
 		return (bool)1;
 	}
 
@@ -21840,10 +22717,12 @@ IL_0167:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_65 = V_0;
 		int32_t L_66 = V_5;
-		int32_t L_67 = (int32_t)((L_65)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
+		NullCheck(L_65);
+		int32_t L_67 = (int32_t)((L_65)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_66)))->___next_1;
 		V_5 = L_67;
 		int32_t L_68 = V_3;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_69 = V_0;
+		NullCheck(L_69);
 		if ((((int32_t)L_68) < ((int32_t)((int32_t)(((RuntimeArray*)L_69)->max_length)))))
 		{
 			goto IL_0181;
@@ -21864,6 +22743,7 @@ IL_0187:
 	{
 		int32_t L_71 = V_5;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_72 = V_0;
+		NullCheck(L_72);
 		if ((!(((uint32_t)L_71) < ((uint32_t)((int32_t)(((RuntimeArray*)L_72)->max_length))))))
 		{
 			goto IL_01f9;
@@ -21872,7 +22752,8 @@ IL_0187:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_73 = V_0;
 		int32_t L_74 = V_5;
-		int32_t L_75 = (int32_t)((L_73)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
+		NullCheck(L_73);
+		int32_t L_75 = (int32_t)((L_73)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_74)))->___hashCode_0;
 		int32_t L_76 = V_2;
 		if ((!(((uint32_t)L_75) == ((uint32_t)L_76))))
 		{
@@ -21883,8 +22764,10 @@ IL_0187:
 		RuntimeObject* L_77 = V_1;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_78 = V_0;
 		int32_t L_79 = V_5;
-		int32_t L_80 = (int32_t)((L_78)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
+		NullCheck(L_78);
+		int32_t L_80 = (int32_t)((L_78)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_79)))->___key_2;
 		int32_t L_81 = ___key0;
+		NullCheck(L_77);
 		bool L_82;
 		L_82 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), L_77, L_80, L_81);
 		if (!L_82)
@@ -21902,8 +22785,9 @@ IL_0187:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_84 = V_0;
 		int32_t L_85 = V_5;
+		NullCheck(L_84);
 		int32_t L_86 = ___value1;
-		((L_84)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
+		((L_84)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_85)))->___value_3 = L_86;
 		return (bool)1;
 	}
 
@@ -21931,10 +22815,12 @@ IL_01d9:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_91 = V_0;
 		int32_t L_92 = V_5;
-		int32_t L_93 = (int32_t)((L_91)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
+		NullCheck(L_91);
+		int32_t L_93 = (int32_t)((L_91)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_92)))->___next_1;
 		V_5 = L_93;
 		int32_t L_94 = V_3;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_95 = V_0;
+		NullCheck(L_95);
 		if ((((int32_t)L_94) < ((int32_t)((int32_t)(((RuntimeArray*)L_95)->max_length)))))
 		{
 			goto IL_01f3;
@@ -21976,6 +22862,7 @@ IL_0223:
 		V_13 = L_100;
 		int32_t L_101 = V_13;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_102 = V_0;
+		NullCheck(L_102);
 		if ((!(((uint32_t)L_101) == ((uint32_t)((int32_t)(((RuntimeArray*)L_102)->max_length))))))
 		{
 			goto IL_023b;
@@ -22015,7 +22902,9 @@ IL_0258:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_108 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_109 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_110 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
-		G_B51_0 = ((L_108)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
+		NullCheck(L_110);
+		NullCheck(L_108);
+		G_B51_0 = ((L_108)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_109%((int32_t)(((RuntimeArray*)L_110)->max_length)))))));
 	}
 
 IL_026d:
@@ -22023,7 +22912,8 @@ IL_026d:
 		V_9 = G_B51_0;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_111 = V_0;
 		int32_t L_112 = V_8;
-		V_10 = ((L_111)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_112)));
+		NullCheck(L_111);
+		V_10 = ((L_111)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_112)));
 		bool L_113 = V_7;
 		if (!L_113)
 		{
@@ -22082,6 +22972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_mEB601086
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_0;
 		L_0 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_0);
 		bool L_1;
 		L_1 = ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F(L_0, (RuntimeObject*)__this, (&V_0), ConditionalWeakTable_2_TryGetValue_m8AB467BA44D1FF9EBDB9735CED88B0D67AC6403F_RuntimeMethod_var);
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_2 = V_0;
@@ -22097,10 +22988,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_OnDeserialization_mEB601086
 IL_0012:
 	{
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_3 = V_0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_3, _stringLiteralE200AC1425952F4F5CEAAA9C773B6D17B90E47C1, NULL);
 		V_1 = L_4;
 		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_5 = V_0;
+		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = SerializationInfo_GetInt32_m7731402825C7FC8D0673F7610D555615F95E4FB5(L_5, _stringLiteral1275D52763CF050C5A4C759818D60119CC35BD69, NULL);
 		V_2 = L_6;
@@ -22109,6 +23002,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_9;
 		L_9 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_8, NULL);
+		NullCheck(L_7);
 		RuntimeObject* L_10;
 		L_10 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_7, _stringLiteralC5F173ABE7214E8ED04EE91D0D5626EEDF0007E9, L_9, NULL);
 		__this->____comparer_6 = ((RuntimeObject*)Castclass((RuntimeObject*)L_10, il2cpp_rgctx_data(method->klass->rgctx_data, 41)));
@@ -22128,6 +23022,7 @@ IL_0012:
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_16;
 		L_16 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_15, NULL);
+		NullCheck(L_14);
 		RuntimeObject* L_17;
 		L_17 = SerializationInfo_GetValue_mE6091C2E906E113455D05E734C86F43B8E1D1034(L_14, _stringLiteralCECF2650D3F261EAEF98CF86BF0563F906B4EB7A, L_16, NULL);
 		V_3 = ((KeyValuePair_2U5BU5D_t45BAFB41C049BDC49B00275E5A255BB6DEB1396C*)Castclass((RuntimeObject*)L_17, il2cpp_rgctx_data(method->klass->rgctx_data, 46)));
@@ -22151,8 +23046,9 @@ IL_007f:
 	{
 		KeyValuePair_2U5BU5D_t45BAFB41C049BDC49B00275E5A255BB6DEB1396C* L_19 = V_3;
 		int32_t L_20 = V_4;
+		NullCheck(L_19);
 		int32_t L_21;
-		L_21 = KeyValuePair_2_get_Key_m5A886C4B3E54DEA04D456E49D7FB92A4545FCD8F_inline(((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_21 = KeyValuePair_2_get_Key_m5A886C4B3E54DEA04D456E49D7FB92A4545FCD8F_inline(((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		goto IL_009a;
 	}
 	{
@@ -22163,12 +23059,14 @@ IL_009a:
 	{
 		KeyValuePair_2U5BU5D_t45BAFB41C049BDC49B00275E5A255BB6DEB1396C* L_22 = V_3;
 		int32_t L_23 = V_4;
+		NullCheck(L_22);
 		int32_t L_24;
-		L_24 = KeyValuePair_2_get_Key_m5A886C4B3E54DEA04D456E49D7FB92A4545FCD8F_inline(((L_22)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		L_24 = KeyValuePair_2_get_Key_m5A886C4B3E54DEA04D456E49D7FB92A4545FCD8F_inline(((L_22)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_23))), il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		KeyValuePair_2U5BU5D_t45BAFB41C049BDC49B00275E5A255BB6DEB1396C* L_25 = V_3;
 		int32_t L_26 = V_4;
+		NullCheck(L_25);
 		int32_t L_27;
-		L_27 = KeyValuePair_2_get_Value_m83DA000FF3605DAD9160D02FB36863DF77DB468A_inline(((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
+		L_27 = KeyValuePair_2_get_Value_m83DA000FF3605DAD9160D02FB36863DF77DB468A_inline(((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26))), il2cpp_rgctx_method(method->klass->rgctx_data, 15));
 		((  void (*) (Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180*, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(__this, L_24, L_27, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		int32_t L_28 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_28, 1));
@@ -22178,6 +23076,7 @@ IL_00c0:
 	{
 		int32_t L_29 = V_4;
 		KeyValuePair_2U5BU5D_t45BAFB41C049BDC49B00275E5A255BB6DEB1396C* L_30 = V_3;
+		NullCheck(L_30);
 		if ((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))
 		{
 			goto IL_007f;
@@ -22200,6 +23099,7 @@ IL_00d0:
 		il2cpp_codegen_runtime_class_init_inline(HashHelpers_t75606750E152DB8C7289EB4163D3A728ED1A601A_il2cpp_TypeInfo_var);
 		ConditionalWeakTable_2_t381B9D0186C0FCC3F83C0696C28C5001468A7858* L_32;
 		L_32 = HashHelpers_get_SerializationInfoTable_m8C17D5483B39B68897AEFFD14A9E139AF858222F(NULL);
+		NullCheck(L_32);
 		bool L_33;
 		L_33 = ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E(L_32, (RuntimeObject*)__this, ConditionalWeakTable_2_Remove_mEA61545EA43662F3718895F4E435A1F3EFB9756E_RuntimeMethod_var);
 		return;
@@ -22271,7 +23171,8 @@ IL_003e:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_12 = V_1;
 		int32_t L_13 = V_4;
-		int32_t L_14 = (int32_t)((L_12)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
+		NullCheck(L_12);
+		int32_t L_14 = (int32_t)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___hashCode_0;
 		if ((((int32_t)L_14) < ((int32_t)0)))
 		{
 			goto IL_0079;
@@ -22280,12 +23181,14 @@ IL_003e:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_15 = V_1;
 		int32_t L_16 = V_4;
+		NullCheck(L_15);
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_17 = V_1;
 		int32_t L_18 = V_4;
-		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
+		NullCheck(L_17);
+		int32_t* L_19 = (int32_t*)(&((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___key_2);
 		int32_t L_20;
 		L_20 = Int32_GetHashCode_m253D60FF7527A483E91004B7A2366F13E225E295(L_19, il2cpp_rgctx_method(method->klass->rgctx_data, 38));
-		((L_15)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
+		((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16)))->___hashCode_0 = ((int32_t)(L_20&((int32_t)2147483647LL)));
 	}
 
 IL_0079:
@@ -22314,7 +23217,8 @@ IL_0089:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_24 = V_1;
 		int32_t L_25 = V_5;
-		int32_t L_26 = (int32_t)((L_24)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
+		NullCheck(L_24);
+		int32_t L_26 = (int32_t)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25)))->___hashCode_0;
 		if ((((int32_t)L_26) < ((int32_t)0)))
 		{
 			goto IL_00c5;
@@ -22323,20 +23227,24 @@ IL_0089:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_27 = V_1;
 		int32_t L_28 = V_5;
-		int32_t L_29 = (int32_t)((L_27)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
+		NullCheck(L_27);
+		int32_t L_29 = (int32_t)((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28)))->___hashCode_0;
 		int32_t L_30 = ___newSize0;
 		V_6 = ((int32_t)(L_29%L_30));
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_31 = V_1;
 		int32_t L_32 = V_5;
+		NullCheck(L_31);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_33 = V_0;
 		int32_t L_34 = V_6;
+		NullCheck(L_33);
 		int32_t L_35 = L_34;
-		int32_t L_36 = (L_33)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_35));
-		((L_31)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
+		int32_t L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___next_1 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = V_0;
 		int32_t L_38 = V_6;
 		int32_t L_39 = V_5;
-		(L_37)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(L_38), (int32_t)((int32_t)il2cpp_codegen_add(L_39, 1)));
 	}
 
 IL_00c5:
@@ -22413,6 +23321,7 @@ IL_000e:
 IL_0032:
 	{
 		int32_t L_5 = ___key0;
+		NullCheck(G_B5_0);
 		int32_t L_6;
 		L_6 = InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Int32>::GetHashCode(T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B5_0, L_5);
 		G_B6_0 = L_6;
@@ -22423,12 +23332,14 @@ IL_0038:
 		V_0 = ((int32_t)(G_B6_0&((int32_t)2147483647LL)));
 		int32_t L_7 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
+		NullCheck(L_8);
 		V_1 = ((int32_t)(L_7%((int32_t)(((RuntimeArray*)L_8)->max_length))));
 		V_2 = (-1);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____buckets_0;
 		int32_t L_10 = V_1;
+		NullCheck(L_9);
 		int32_t L_11 = L_10;
-		int32_t L_12 = (L_9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
+		int32_t L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
 		goto IL_0142;
 	}
@@ -22437,7 +23348,8 @@ IL_005c:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_13 = (EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA*)__this->____entries_1;
 		int32_t L_14 = V_3;
-		V_4 = ((L_13)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_14)));
+		NullCheck(L_13);
+		V_4 = ((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14)));
 		Entry_tA212E7034D981AC2F7E219C600769EE485919684* L_15 = V_4;
 		int32_t L_16 = (int32_t)L_15->___hashCode_0;
 		int32_t L_17 = V_0;
@@ -22462,6 +23374,7 @@ IL_005c:
 		Entry_tA212E7034D981AC2F7E219C600769EE485919684* L_21 = V_4;
 		int32_t L_22 = (int32_t)L_21->___key_2;
 		int32_t L_23 = ___key0;
+		NullCheck(L_20);
 		bool L_24;
 		L_24 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(8 /* System.Boolean System.Collections.Generic.EqualityComparer`1<System.Int32>::Equals(T,T) */, L_20, L_22, L_23);
 		G_B11_0 = L_24;
@@ -22473,6 +23386,7 @@ IL_0095:
 		Entry_tA212E7034D981AC2F7E219C600769EE485919684* L_25 = V_4;
 		int32_t L_26 = (int32_t)L_25->___key_2;
 		int32_t L_27 = ___key0;
+		NullCheck(G_B10_0);
 		bool L_28;
 		L_28 = InterfaceFuncInvoker2< bool, int32_t, int32_t >::Invoke(0 /* System.Boolean System.Collections.Generic.IEqualityComparer`1<System.Int32>::Equals(T,T) */, il2cpp_rgctx_data(method->klass->rgctx_data, 41), G_B10_0, L_26, L_27);
 		G_B11_0 = L_28;
@@ -22497,7 +23411,8 @@ IL_00a2:
 		int32_t L_31 = V_1;
 		Entry_tA212E7034D981AC2F7E219C600769EE485919684* L_32 = V_4;
 		int32_t L_33 = (int32_t)L_32->___next_1;
-		(L_30)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)il2cpp_codegen_add(L_33, 1)));
 		goto IL_00d6;
 	}
 
@@ -22505,9 +23420,10 @@ IL_00be:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_34 = (EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA*)__this->____entries_1;
 		int32_t L_35 = V_2;
+		NullCheck(L_34);
 		Entry_tA212E7034D981AC2F7E219C600769EE485919684* L_36 = V_4;
 		int32_t L_37 = (int32_t)L_36->___next_1;
-		((L_34)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
+		((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___next_1 = L_37;
 	}
 
 IL_00d6:
@@ -22594,7 +23510,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mAAEB730BB484D3
 		int32_t* L_3 = ___value1;
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_4 = (EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA*)__this->____entries_1;
 		int32_t L_5 = V_0;
-		int32_t L_6 = (int32_t)((L_4)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
+		NullCheck(L_4);
+		int32_t L_6 = (int32_t)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_5)))->___value_3;
 		*(int32_t*)L_3 = L_6;
 		return (bool)1;
 	}
@@ -22667,6 +23584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_System_Collections_ICollect
 IL_0009:
 	{
 		RuntimeArray* L_1 = ___array0;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(L_1, NULL);
 		if ((((int32_t)L_2) == ((int32_t)1)))
@@ -22681,6 +23599,7 @@ IL_0009:
 IL_0018:
 	{
 		RuntimeArray* L_3 = ___array0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(L_3, 0, NULL);
 		if (!L_4)
@@ -22696,6 +23615,7 @@ IL_0027:
 	{
 		int32_t L_5 = ___index1;
 		RuntimeArray* L_6 = ___array0;
+		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_6, NULL);
 		if ((!(((uint32_t)L_5) > ((uint32_t)L_7))))
@@ -22710,6 +23630,7 @@ IL_0027:
 IL_0035:
 	{
 		RuntimeArray* L_8 = ___array0;
+		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_8, NULL);
 		int32_t L_10 = ___index1;
@@ -22762,7 +23683,8 @@ IL_0073:
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_19 = V_2;
 		int32_t L_20 = V_3;
-		int32_t L_21 = (int32_t)((L_19)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
+		NullCheck(L_19);
+		int32_t L_21 = (int32_t)((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->___hashCode_0;
 		if ((((int32_t)L_21) < ((int32_t)0)))
 		{
 			goto IL_00b5;
@@ -22775,18 +23697,21 @@ IL_0073:
 		___index1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_25 = V_2;
 		int32_t L_26 = V_3;
-		int32_t L_27 = (int32_t)((L_25)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
+		NullCheck(L_25);
+		int32_t L_27 = (int32_t)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->___key_2;
 		int32_t L_28 = L_27;
 		RuntimeObject* L_29 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 21), &L_28);
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_30 = V_2;
 		int32_t L_31 = V_3;
-		int32_t L_32 = (int32_t)((L_30)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
+		NullCheck(L_30);
+		int32_t L_32 = (int32_t)((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)))->___value_3;
 		int32_t L_33 = L_32;
 		RuntimeObject* L_34 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_33);
 		DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB L_35;
 		memset((&L_35), 0, sizeof(L_35));
 		DictionaryEntry__ctor_m2768353E53A75C4860E34B37DAF1342120C5D1EA((&L_35), L_29, L_34, /*hidden argument*/NULL);
-		(L_22)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_24), (DictionaryEntry_t171080F37B311C25AA9E75888F9C9D703FA721BB)L_35);
 	}
 
 IL_00b5:
@@ -22840,7 +23765,8 @@ IL_00ea_1:
 		{
 			EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_43 = V_6;
 			int32_t L_44 = V_7;
-			int32_t L_45 = (int32_t)((L_43)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
+			NullCheck(L_43);
+			int32_t L_45 = (int32_t)((L_43)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_44)))->___hashCode_0;
 			if ((((int32_t)L_45) < ((int32_t)0)))
 			{
 				goto IL_012a_1;
@@ -22853,17 +23779,20 @@ IL_00ea_1:
 			___index1 = ((int32_t)il2cpp_codegen_add(L_48, 1));
 			EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_49 = V_6;
 			int32_t L_50 = V_7;
-			int32_t L_51 = (int32_t)((L_49)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
+			NullCheck(L_49);
+			int32_t L_51 = (int32_t)((L_49)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_50)))->___key_2;
 			EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_52 = V_6;
 			int32_t L_53 = V_7;
-			int32_t L_54 = (int32_t)((L_52)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
+			NullCheck(L_52);
+			int32_t L_54 = (int32_t)((L_52)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_53)))->___value_3;
 			KeyValuePair_2_tA6BE5EEAC56CB97CB7383FCC3CC6C84FAF129189 L_55;
 			memset((&L_55), 0, sizeof(L_55));
 			KeyValuePair_2__ctor_m3C86D5D8BB0D1118068E83ED43D64F4E64E7C221((&L_55), L_51, L_54, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 31));
 			KeyValuePair_2_tA6BE5EEAC56CB97CB7383FCC3CC6C84FAF129189 L_56 = L_55;
 			RuntimeObject* L_57 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 30), &L_56);
+			NullCheck(L_46);
 			ArrayElementTypeCheck (L_46, L_57);
-			(L_46)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
+			(L_46)->SetAt(static_cast<il2cpp_array_size_t>(L_48), (RuntimeObject*)L_57);
 		}
 
 IL_012a_1:
@@ -22945,6 +23874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		RuntimeObject** L_1 = (RuntimeObject**)(&__this->____syncRoot_9);
 		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
 		RuntimeObject* L_3;
 		L_3 = InterlockedCompareExchangeImpl<RuntimeObject*>(L_1, L_2, NULL);
@@ -23015,7 +23945,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 	{
 		EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA* L_5 = (EntryU5BU5D_t197C691F43F1694B771BF83C278D12BBFEEB86FA*)__this->____entries_1;
 		int32_t L_6 = V_0;
-		int32_t L_7 = (int32_t)((L_5)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
+		NullCheck(L_5);
+		int32_t L_7 = (int32_t)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___value_3;
 		int32_t L_8 = L_7;
 		RuntimeObject* L_9 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 28), &L_8);
 		return L_9;

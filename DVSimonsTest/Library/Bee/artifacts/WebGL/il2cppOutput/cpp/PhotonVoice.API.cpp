@@ -7990,6 +7990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpusEncoder__ctor_m32A64140184D7DD002BDC
 		String_t* L_9;
 		L_9 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral303E97568DEDBF4112629BE3D4BA169266F38AD2)), L_8, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D)), NULL);
 		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_10 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_10);
 		ArgumentOutOfRangeException__ctor_mE5B2755F0BEA043CACF915D5CE140859EE58FA66(L_10, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBC00EA9ABBC70BB489B2667A40761B9FDF4609C5)), L_9, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OpusEncoder__ctor_m32A64140184D7DD002BDC6D8F508A50D732CE413_RuntimeMethod_var)));
 	}
@@ -8014,6 +8015,7 @@ IL_0095:
 	{
 		// throw new ArgumentOutOfRangeException("numChannels", "Must be Mono or Stereo");
 		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_13 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_13);
 		ArgumentOutOfRangeException__ctor_mE5B2755F0BEA043CACF915D5CE140859EE58FA66(L_13, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8AEEEA8FE18630A9CE43319D56785857386EB2DF)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4CC5DBACC4DB6989A688E9A9764B74A8485B7625)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OpusEncoder__ctor_m32A64140184D7DD002BDC6D8F508A50D732CE413_RuntimeMethod_var)));
 	}
@@ -8051,6 +8053,7 @@ IL_00ad:
 		String_t* L_19;
 		L_19 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9C4B6CF9505B1614F0163E5FB5FBE4002A73D39E)), L_18, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D)), NULL);
 		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_20 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_20);
 		ArgumentOutOfRangeException__ctor_mE5B2755F0BEA043CACF915D5CE140859EE58FA66(L_20, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral88315F3856666008F71288E0DBA0246F3A3C826A)), L_19, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OpusEncoder__ctor_m32A64140184D7DD002BDC6D8F508A50D732CE413_RuntimeMethod_var)));
 	}
@@ -8112,6 +8115,7 @@ IL_00ef:
 		String_t* L_29;
 		L_29 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5636CDFA0E732A3D411AF19E3C4D771F9BF805D6)), L_28, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D)), NULL);
 		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_30 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_30);
 		ArgumentOutOfRangeException__ctor_mE5B2755F0BEA043CACF915D5CE140859EE58FA66(L_30, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAE02D8FA085B0C43209BBBC484A846BE6A9ED74F)), L_29, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_30, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OpusEncoder__ctor_m32A64140184D7DD002BDC6D8F508A50D732CE413_RuntimeMethod_var)));
 	}
@@ -8135,6 +8139,7 @@ IL_0139:
 		il2cpp_codegen_runtime_class_init_inline(OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_il2cpp_TypeInfo_var);
 		Dictionary_2_t528CDC155BC96AB91D63F390B521BEC4AC272175* L_37 = ((OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_StaticFields*)il2cpp_codegen_static_fields_for(OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_il2cpp_TypeInfo_var))->___handles_9;
 		intptr_t L_38 = __this->___handle_1;
+		NullCheck(L_37);
 		Dictionary_2_set_Item_m37DF359C9217B0D75A1A3FBBDFDE8EE295A78BB9(L_37, L_38, __this, Dictionary_2_set_Item_m37DF359C9217B0D75A1A3FBBDFDE8EE295A78BB9_RuntimeMethod_var);
 		// if (handle == IntPtr.Zero)
 		intptr_t L_39 = __this->___handle_1;
@@ -8149,6 +8154,7 @@ IL_0139:
 	{
 		// throw new OpusException(OpusStatusCode.AllocFail, "Memory was not allocated for the encoder");
 		OpusException_t1F86CD8C217117425BD39C8269840A7019C62666* L_42 = (OpusException_t1F86CD8C217117425BD39C8269840A7019C62666*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OpusException_t1F86CD8C217117425BD39C8269840A7019C62666_il2cpp_TypeInfo_var)));
+		NullCheck(L_42);
 		OpusException__ctor_m1705E7FFAEB6F8EF41F212F5B568B24E5F8F6D1B(L_42, ((int32_t)-7), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA9AE6F31544DEA213F27D6597413323661D785F7)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_42, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OpusEncoder__ctor_m32A64140184D7DD002BDC6D8F508A50D732CE413_RuntimeMethod_var)));
 	}
@@ -8185,6 +8191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpusEncoder_DataCallbackStatic_mA804EC4D
 		il2cpp_codegen_runtime_class_init_inline(OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_il2cpp_TypeInfo_var);
 		Dictionary_2_t528CDC155BC96AB91D63F390B521BEC4AC272175* L_0 = ((OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_StaticFields*)il2cpp_codegen_static_fields_for(OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_il2cpp_TypeInfo_var))->___handles_9;
 		intptr_t L_1 = ___handle0;
+		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_TryGetValue_mF37C8D6EFDBC2A7A25FFF81F8F1503B4F232E847(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_mF37C8D6EFDBC2A7A25FFF81F8F1503B4F232E847_RuntimeMethod_var);
 		if (!L_2)
@@ -8197,6 +8204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpusEncoder_DataCallbackStatic_mA804EC4D
 		OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8* L_3 = V_0;
 		intptr_t L_4 = ___p1;
 		int32_t L_5 = ___count2;
+		NullCheck(L_3);
 		OpusEncoder_dataCallback_m85F0B7FB9E3040F7307DA961FD53EA5B3E20289A(L_3, L_4, L_5, NULL);
 	}
 
@@ -8235,6 +8243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpusEncoder_dataCallback_m85F0B7FB9E3040
 	}
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = __this->___bufOut_10;
+		NullCheck(L_2);
 		int32_t L_3 = ___count1;
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))) >= ((int32_t)L_3)))
 		{
@@ -8266,6 +8275,7 @@ IL_0027:
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20((&L_12), L_10, 0, L_11, /*hidden argument*/ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20_RuntimeMethod_var);
+		NullCheck(L_9);
 		Action_2_Invoke_mE867EE4738B4151221C4D3C24261932A1F80CA5E_inline(L_9, L_12, 0, NULL);
 	}
 
@@ -8315,6 +8325,7 @@ IL_001e:
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20((&L_9), L_7, 0, L_8, /*hidden argument*/ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20_RuntimeMethod_var);
+		NullCheck(L_6);
 		Action_2_Invoke_mE867EE4738B4151221C4D3C24261932A1F80CA5E_inline(L_6, L_9, 0, NULL);
 		// }
 		return;
@@ -8360,6 +8371,7 @@ IL_001e:
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20((&L_9), L_7, 0, L_8, /*hidden argument*/ArraySegment_1__ctor_m664EA6AD314FAA6BCA4F6D0586AEF01559537F20_RuntimeMethod_var);
+		NullCheck(L_6);
 		Action_2_Invoke_mE867EE4738B4151221C4D3C24261932A1F80CA5E_inline(L_6, L_9, 0, NULL);
 		// }
 		return;
@@ -8392,6 +8404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpusEncoder_Dispose_m7F077E1955C9CFA62CA
 		il2cpp_codegen_runtime_class_init_inline(OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_il2cpp_TypeInfo_var);
 		Dictionary_2_t528CDC155BC96AB91D63F390B521BEC4AC272175* L_3 = ((OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_StaticFields*)il2cpp_codegen_static_fields_for(OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_il2cpp_TypeInfo_var))->___handles_9;
 		intptr_t L_4 = __this->___handle_1;
+		NullCheck(L_3);
 		bool L_5;
 		L_5 = Dictionary_2_Remove_m439E18948F8A8DDF6A4E18E79364DA195FC7F340(L_3, L_4, Dictionary_2_Remove_m439E18948F8A8DDF6A4E18E79364DA195FC7F340_RuntimeMethod_var);
 		// Wrapper.opus_encoder_destroy(handle);
@@ -8431,6 +8444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpusEncoder__cctor_m88A202EB024BB9C556D4
 		Il2CppCodeGenWriteBarrier((void**)&(((&((OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_StaticFields*)il2cpp_codegen_static_fields_for(OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_il2cpp_TypeInfo_var))->___EmptyBuffer_7))->____array_1), (void*)NULL);
 		// static public Dictionary<IntPtr, OpusEncoder> handles = new Dictionary<IntPtr, OpusEncoder>();
 		Dictionary_2_t528CDC155BC96AB91D63F390B521BEC4AC272175* L_2 = (Dictionary_2_t528CDC155BC96AB91D63F390B521BEC4AC272175*)il2cpp_codegen_object_new(Dictionary_2_t528CDC155BC96AB91D63F390B521BEC4AC272175_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Dictionary_2__ctor_m4FAEC89883F1AF5389D466CBD502F78CCA4418BD(L_2, Dictionary_2__ctor_m4FAEC89883F1AF5389D466CBD502F78CCA4418BD_RuntimeMethod_var);
 		((OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_StaticFields*)il2cpp_codegen_static_fields_for(OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_il2cpp_TypeInfo_var))->___handles_9 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&((OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_StaticFields*)il2cpp_codegen_static_fields_for(OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8_il2cpp_TypeInfo_var))->___handles_9), (void*)L_2);
@@ -8797,26 +8811,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Wrapper_opus_encoder_create_m9F07A86
 		int32_t L_8 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10 = L_9;
+		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, _stringLiteral652644FEF0564E9346EB8F5F964757CF774FA1E4);
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral652644FEF0564E9346EB8F5F964757CF774FA1E4);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral652644FEF0564E9346EB8F5F964757CF774FA1E4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = L_10;
 		int32_t L_12 = ___Fs0;
 		int32_t L_13 = L_12;
 		RuntimeObject* L_14 = Box(SamplingRate_t6F0A45CA2592F821B1D6A27E68189B3B26AE3D99_il2cpp_TypeInfo_var, &L_13);
+		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_14);
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_14);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_14);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15 = L_11;
 		int32_t L_16 = ___channels1;
 		int32_t L_17 = L_16;
 		RuntimeObject* L_18 = Box(Channels_tB2F3AB5770D606ED0AED1B09BB3559159F59A1E5_il2cpp_TypeInfo_var, &L_17);
+		NullCheck(L_15);
 		ArrayElementTypeCheck (L_15, L_18);
-		(L_15)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_18);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_18);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_19 = L_15;
 		int32_t L_20 = ___application2;
 		int32_t L_21 = L_20;
 		RuntimeObject* L_22 = Box(OpusApplicationType_t6C46E66534F976D841C9D52B4D51238F9BA259F5_il2cpp_TypeInfo_var, &L_21);
+		NullCheck(L_19);
 		ArrayElementTypeCheck (L_19, L_22);
-		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_22);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_22);
 		Wrapper_HandleStatusCode_m964F712B99C491B455876E787822FE2C8EFAE7E4(L_8, L_19, NULL);
 		// }
 		goto IL_0061;
@@ -8897,6 +8915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Wrapper_opus_encode_m7C4F9B92756053CD
 	{
 		// throw new ObjectDisposedException("OpusEncoder");
 		ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_3 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
+		NullCheck(L_3);
 		ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE8F7BF4BDF48B06DD1CFBC52575BE0CD918C4973)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Wrapper_opus_encode_m7C4F9B92756053CD3FE12880C3C990DDE723651A_RuntimeMethod_var)));
 	}
@@ -8909,6 +8928,7 @@ IL_0018:
 		int32_t L_6 = ___frame_size2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = ___data3;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = ___data3;
+		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Wrapper_opus_encode_m9278B43E3093634686166CD9864FBCDB9866BAD1(L_4, L_5, L_6, L_7, ((int32_t)(((RuntimeArray*)L_8)->max_length)), NULL);
 		V_0 = L_9;
@@ -8924,20 +8944,24 @@ IL_0018:
 		int32_t L_11 = V_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = L_12;
+		NullCheck(L_13);
 		ArrayElementTypeCheck (L_13, _stringLiteralF58FD0E9D30863F8E935535EF48D09579499A0A1);
-		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteralF58FD0E9D30863F8E935535EF48D09579499A0A1);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteralF58FD0E9D30863F8E935535EF48D09579499A0A1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_13;
 		int32_t L_15 = ___frame_size2;
 		int32_t L_16 = L_15;
 		RuntimeObject* L_17 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_16);
+		NullCheck(L_14);
 		ArrayElementTypeCheck (L_14, L_17);
-		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_17);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_17);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18 = L_14;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19 = ___data3;
+		NullCheck(L_19);
 		int32_t L_20 = ((int32_t)(((RuntimeArray*)L_19)->max_length));
 		RuntimeObject* L_21 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_20);
+		NullCheck(L_18);
 		ArrayElementTypeCheck (L_18, L_21);
-		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_21);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_21);
 		Wrapper_HandleStatusCode_m964F712B99C491B455876E787822FE2C8EFAE7E4(L_11, L_18, NULL);
 	}
 
@@ -8975,6 +8999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Wrapper_opus_encode_m9835EFDE2D18F5AE
 	{
 		// throw new ObjectDisposedException("OpusEncoder");
 		ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_3 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
+		NullCheck(L_3);
 		ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE8F7BF4BDF48B06DD1CFBC52575BE0CD918C4973)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Wrapper_opus_encode_m9835EFDE2D18F5AEECA65B99A7DFE8430A342576_RuntimeMethod_var)));
 	}
@@ -8987,6 +9012,7 @@ IL_0018:
 		int32_t L_6 = ___frame_size2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = ___data3;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = ___data3;
+		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Wrapper_opus_encode_float_m7E0A1A5FA82E813C8E5EB74D555E0FFB50EA5D1D(L_4, L_5, L_6, L_7, ((int32_t)(((RuntimeArray*)L_8)->max_length)), NULL);
 		V_0 = L_9;
@@ -9002,20 +9028,24 @@ IL_0018:
 		int32_t L_11 = V_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = L_12;
+		NullCheck(L_13);
 		ArrayElementTypeCheck (L_13, _stringLiteralAD9FE087CEC5F90162F1D5E08A0D73EE7993C85E);
-		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteralAD9FE087CEC5F90162F1D5E08A0D73EE7993C85E);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteralAD9FE087CEC5F90162F1D5E08A0D73EE7993C85E);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_13;
 		int32_t L_15 = ___frame_size2;
 		int32_t L_16 = L_15;
 		RuntimeObject* L_17 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_16);
+		NullCheck(L_14);
 		ArrayElementTypeCheck (L_14, L_17);
-		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_17);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_17);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18 = L_14;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19 = ___data3;
+		NullCheck(L_19);
 		int32_t L_20 = ((int32_t)(((RuntimeArray*)L_19)->max_length));
 		RuntimeObject* L_21 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_20);
+		NullCheck(L_18);
 		ArrayElementTypeCheck (L_18, L_21);
-		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_21);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_21);
 		Wrapper_HandleStatusCode_m964F712B99C491B455876E787822FE2C8EFAE7E4(L_11, L_18, NULL);
 	}
 
@@ -9053,6 +9083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Wrapper_get_opus_encoder_ctl_mBAEC138
 	{
 		// throw new ObjectDisposedException("OpusEncoder");
 		ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_3 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
+		NullCheck(L_3);
 		ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE8F7BF4BDF48B06DD1CFBC52575BE0CD918C4973)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Wrapper_get_opus_encoder_ctl_mBAEC1384A74E7A0F3872D6FA6C5FC417EB949DDC_RuntimeMethod_var)));
 	}
@@ -9069,14 +9100,16 @@ IL_0018:
 		// HandleStatusCode(statusCode, "opus_encoder_ctl_get", request);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_7;
+		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, _stringLiteralB077F824E674FA6BF9233CCAE7339D3ACFA9BB46);
-		(L_8)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteralB077F824E674FA6BF9233CCAE7339D3ACFA9BB46);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteralB077F824E674FA6BF9233CCAE7339D3ACFA9BB46);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_8;
 		int32_t L_10 = ___request1;
 		int32_t L_11 = L_10;
 		RuntimeObject* L_12 = Box(OpusCtlGetRequest_tF8B6C692B51B7B86314CCC5456F682E67B9E1CF3_il2cpp_TypeInfo_var, &L_11);
+		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_12);
-		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_12);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_12);
 		Wrapper_HandleStatusCode_m964F712B99C491B455876E787822FE2C8EFAE7E4(L_6, L_9, NULL);
 		// return value;
 		int32_t L_13 = V_0;
@@ -9110,6 +9143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Wrapper_set_opus_encoder_ctl_m9C67EDA0D9
 	{
 		// throw new ObjectDisposedException("OpusEncoder");
 		ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_3 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
+		NullCheck(L_3);
 		ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE8F7BF4BDF48B06DD1CFBC52575BE0CD918C4973)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Wrapper_set_opus_encoder_ctl_m9C67EDA0D9F8282490CCC4586BEBA36C3749DDFE_RuntimeMethod_var)));
 	}
@@ -9125,20 +9159,23 @@ IL_0018:
 		// HandleStatusCode(statusCode, "opus_encoder_ctl_set", request, value);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_8;
+		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, _stringLiteral2D290331D940C3D6D42EC70B1322FCCB67FDD0F2);
-		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral2D290331D940C3D6D42EC70B1322FCCB67FDD0F2);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral2D290331D940C3D6D42EC70B1322FCCB67FDD0F2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10 = L_9;
 		int32_t L_11 = ___request1;
 		int32_t L_12 = L_11;
 		RuntimeObject* L_13 = Box(OpusCtlSetRequest_tD087A1C41F518C801CE6F7663853B30AB9709F5F_il2cpp_TypeInfo_var, &L_12);
+		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, L_13);
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_13);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_13);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_10;
 		int32_t L_15 = ___value2;
 		int32_t L_16 = L_15;
 		RuntimeObject* L_17 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_16);
+		NullCheck(L_14);
 		ArrayElementTypeCheck (L_14, L_17);
-		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_17);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_17);
 		Wrapper_HandleStatusCode_m964F712B99C491B455876E787822FE2C8EFAE7E4(L_7, L_14, NULL);
 		// }
 		return;
@@ -9172,6 +9209,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Wrapper_get_opus_decoder_ctl_mE1C13C9
 	{
 		// throw new ObjectDisposedException("OpusDcoder");
 		ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_3 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
+		NullCheck(L_3);
 		ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2A7607A8D9CB052F456827F55F9736275BC685BC)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Wrapper_get_opus_decoder_ctl_mE1C13C9966AB46E40A85EA6442A12276F81FD978_RuntimeMethod_var)));
 	}
@@ -9188,20 +9226,23 @@ IL_0018:
 		// HandleStatusCode(statusCode, "get_opus_decoder_ctl", request, value);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_7;
+		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, _stringLiteralF3F831EAD0E0AAAF7E07EC75A7133B72CB231F06);
-		(L_8)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteralF3F831EAD0E0AAAF7E07EC75A7133B72CB231F06);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteralF3F831EAD0E0AAAF7E07EC75A7133B72CB231F06);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_8;
 		int32_t L_10 = ___request1;
 		int32_t L_11 = L_10;
 		RuntimeObject* L_12 = Box(OpusCtlGetRequest_tF8B6C692B51B7B86314CCC5456F682E67B9E1CF3_il2cpp_TypeInfo_var, &L_11);
+		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_12);
-		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_12);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_12);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = L_9;
 		int32_t L_14 = V_0;
 		int32_t L_15 = L_14;
 		RuntimeObject* L_16 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_15);
+		NullCheck(L_13);
 		ArrayElementTypeCheck (L_13, L_16);
-		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_16);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_16);
 		Wrapper_HandleStatusCode_m964F712B99C491B455876E787822FE2C8EFAE7E4(L_6, L_13, NULL);
 		// return value;
 		int32_t L_17 = V_0;
@@ -9235,6 +9276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Wrapper_set_opus_decoder_ctl_m94C34FE1BD
 	{
 		// throw new ObjectDisposedException("OpusDecoder");
 		ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_3 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
+		NullCheck(L_3);
 		ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral91D12B2C38786B38DCDEB6D286A11596AC34E92C)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Wrapper_set_opus_decoder_ctl_m94C34FE1BD762ABB533ABAD9A2F93D3AFE72E03F_RuntimeMethod_var)));
 	}
@@ -9250,20 +9292,23 @@ IL_0018:
 		// HandleStatusCode(statusCode, "set_opus_decoder_ctl", request, value);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_8;
+		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, _stringLiteral27B7E8210FDB3F4A5E56C36B25D3777E07E4552C);
-		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral27B7E8210FDB3F4A5E56C36B25D3777E07E4552C);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral27B7E8210FDB3F4A5E56C36B25D3777E07E4552C);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10 = L_9;
 		int32_t L_11 = ___request1;
 		int32_t L_12 = L_11;
 		RuntimeObject* L_13 = Box(OpusCtlSetRequest_tD087A1C41F518C801CE6F7663853B30AB9709F5F_il2cpp_TypeInfo_var, &L_12);
+		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, L_13);
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_13);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_13);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_10;
 		int32_t L_15 = ___value2;
 		int32_t L_16 = L_15;
 		RuntimeObject* L_17 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_16);
+		NullCheck(L_14);
 		ArrayElementTypeCheck (L_14, L_17);
-		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_17);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_17);
 		Wrapper_HandleStatusCode_m964F712B99C491B455876E787822FE2C8EFAE7E4(L_7, L_14, NULL);
 		// }
 		return;
@@ -9312,20 +9357,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Wrapper_opus_decoder_create_m32E7047
 		int32_t L_7 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_8;
+		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, _stringLiteral4F7A190FCA5324777736687124641EB66C78C888);
-		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral4F7A190FCA5324777736687124641EB66C78C888);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral4F7A190FCA5324777736687124641EB66C78C888);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10 = L_9;
 		int32_t L_11 = ___Fs0;
 		int32_t L_12 = L_11;
 		RuntimeObject* L_13 = Box(SamplingRate_t6F0A45CA2592F821B1D6A27E68189B3B26AE3D99_il2cpp_TypeInfo_var, &L_12);
+		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, L_13);
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_13);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_13);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_10;
 		int32_t L_15 = ___channels1;
 		int32_t L_16 = L_15;
 		RuntimeObject* L_17 = Box(Channels_tB2F3AB5770D606ED0AED1B09BB3559159F59A1E5_il2cpp_TypeInfo_var, &L_16);
+		NullCheck(L_14);
 		ArrayElementTypeCheck (L_14, L_17);
-		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_17);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_17);
 		Wrapper_HandleStatusCode_m964F712B99C491B455876E787822FE2C8EFAE7E4(L_7, L_14, NULL);
 		// }
 		goto IL_0057;
@@ -9406,6 +9454,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Wrapper_opus_decode_mFC6B90330C5DFEE5
 	{
 		// throw new ObjectDisposedException("OpusDecoder");
 		ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_3 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
+		NullCheck(L_3);
 		ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral91D12B2C38786B38DCDEB6D286A11596AC34E92C)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Wrapper_opus_decode_mFC6B90330C5DFEE5D375D0361A7F1A6C26C8FD9F_RuntimeMethod_var)));
 	}
@@ -9450,33 +9499,39 @@ IL_0038:
 		int32_t L_13 = V_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15 = L_14;
+		NullCheck(L_15);
 		ArrayElementTypeCheck (L_15, _stringLiteral7FECD1E35EAF7DA64DCE5DBA132AEE7E7CAC39C8);
-		(L_15)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral7FECD1E35EAF7DA64DCE5DBA132AEE7E7CAC39C8);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral7FECD1E35EAF7DA64DCE5DBA132AEE7E7CAC39C8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = L_15;
 		int32_t L_17;
 		L_17 = FrameBuffer_get_Length_m99F73FA338DDB97D9228FD206D131E3DB1349201_inline((&___data1), NULL);
 		int32_t L_18 = L_17;
 		RuntimeObject* L_19 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_18);
+		NullCheck(L_16);
 		ArrayElementTypeCheck (L_16, L_19);
-		(L_16)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_19);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_19);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = L_16;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_21 = ___pcm2;
+		NullCheck(L_21);
 		int32_t L_22 = ((int32_t)(((RuntimeArray*)L_21)->max_length));
 		RuntimeObject* L_23 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_22);
+		NullCheck(L_20);
 		ArrayElementTypeCheck (L_20, L_23);
-		(L_20)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_23);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_23);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = L_20;
 		int32_t L_25 = ___frame_size3;
 		int32_t L_26 = L_25;
 		RuntimeObject* L_27 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_26);
+		NullCheck(L_24);
 		ArrayElementTypeCheck (L_24, L_27);
-		(L_24)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_27);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_27);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_28 = L_24;
 		int32_t L_29 = ___decode_fec4;
 		int32_t L_30 = L_29;
 		RuntimeObject* L_31 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_30);
+		NullCheck(L_28);
 		ArrayElementTypeCheck (L_28, L_31);
-		(L_28)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_31);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_31);
 		Wrapper_HandleStatusCode_m964F712B99C491B455876E787822FE2C8EFAE7E4(L_13, L_28, NULL);
 	}
 
@@ -9514,6 +9569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Wrapper_opus_decode_m875FCB70DD0EFD56
 	{
 		// throw new ObjectDisposedException("OpusDecoder");
 		ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_3 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
+		NullCheck(L_3);
 		ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral91D12B2C38786B38DCDEB6D286A11596AC34E92C)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Wrapper_opus_decode_m875FCB70DD0EFD5669E8C404DB2BA265E58EFB4E_RuntimeMethod_var)));
 	}
@@ -9558,33 +9614,39 @@ IL_0038:
 		int32_t L_13 = V_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15 = L_14;
+		NullCheck(L_15);
 		ArrayElementTypeCheck (L_15, _stringLiteral335EBC24DB6EF912D16346AAD6E280C88C65D66A);
-		(L_15)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral335EBC24DB6EF912D16346AAD6E280C88C65D66A);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral335EBC24DB6EF912D16346AAD6E280C88C65D66A);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = L_15;
 		int32_t L_17;
 		L_17 = FrameBuffer_get_Length_m99F73FA338DDB97D9228FD206D131E3DB1349201_inline((&___data1), NULL);
 		int32_t L_18 = L_17;
 		RuntimeObject* L_19 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_18);
+		NullCheck(L_16);
 		ArrayElementTypeCheck (L_16, L_19);
-		(L_16)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_19);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_19);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = L_16;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_21 = ___pcm2;
+		NullCheck(L_21);
 		int32_t L_22 = ((int32_t)(((RuntimeArray*)L_21)->max_length));
 		RuntimeObject* L_23 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_22);
+		NullCheck(L_20);
 		ArrayElementTypeCheck (L_20, L_23);
-		(L_20)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_23);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_23);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = L_20;
 		int32_t L_25 = ___frame_size3;
 		int32_t L_26 = L_25;
 		RuntimeObject* L_27 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_26);
+		NullCheck(L_24);
 		ArrayElementTypeCheck (L_24, L_27);
-		(L_24)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_27);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_27);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_28 = L_24;
 		int32_t L_29 = ___decode_fec4;
 		int32_t L_30 = L_29;
 		RuntimeObject* L_31 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_30);
+		NullCheck(L_28);
 		ArrayElementTypeCheck (L_28, L_31);
-		(L_28)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_31);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_31);
 		Wrapper_HandleStatusCode_m964F712B99C491B455876E787822FE2C8EFAE7E4(L_13, L_28, NULL);
 	}
 
@@ -9632,12 +9694,14 @@ IL_000f:
 		// foreach (var i in info) infoMsg += i.ToString() + ":";
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = V_1;
 		int32_t L_3 = V_2;
+		NullCheck(L_2);
 		int32_t L_4 = L_3;
-		RuntimeObject* L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
+		RuntimeObject* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_3 = L_5;
 		// foreach (var i in info) infoMsg += i.ToString() + ":";
 		String_t* L_6 = V_0;
 		RuntimeObject* L_7 = V_3;
+		NullCheck(L_7);
 		String_t* L_8;
 		L_8 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_7);
 		String_t* L_9;
@@ -9652,6 +9716,7 @@ IL_0029:
 		// foreach (var i in info) infoMsg += i.ToString() + ":";
 		int32_t L_11 = V_2;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = V_1;
+		NullCheck(L_12);
 		if ((((int32_t)L_11) < ((int32_t)((int32_t)(((RuntimeArray*)L_12)->max_length)))))
 		{
 			goto IL_000f;
@@ -9670,6 +9735,7 @@ IL_0029:
 		String_t* L_18;
 		L_18 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_14, L_17, NULL);
 		OpusException_t1F86CD8C217117425BD39C8269840A7019C62666* L_19 = (OpusException_t1F86CD8C217117425BD39C8269840A7019C62666*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OpusException_t1F86CD8C217117425BD39C8269840A7019C62666_il2cpp_TypeInfo_var)));
+		NullCheck(L_19);
 		OpusException__ctor_m1705E7FFAEB6F8EF41F212F5B568B24E5F8F6D1B(L_19, L_13, L_18, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Wrapper_HandleStatusCode_m964F712B99C491B455876E787822FE2C8EFAE7E4_RuntimeMethod_var)));
 	}
@@ -9729,10 +9795,13 @@ IL_0008:
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_3 = ___src0;
 		int32_t L_4 = V_0;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_5 = ___src0;
+		NullCheck(L_5);
 		int32_t L_6 = ___dstCount2;
+		NullCheck(L_3);
 		int32_t L_7 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_4, ((int32_t)(((RuntimeArray*)L_5)->max_length))))/L_6));
-		int16_t L_8 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7));
-		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_2), (float)((float)(((float)L_8)/(32767.0f))));
+		int16_t L_8 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(L_2), (float)((float)(((float)L_8)/(32767.0f))));
 		// for (int i = 0; i < dstCount; i++)
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
@@ -9772,6 +9841,7 @@ IL_002c:
 		// var srcI = i * src.Length / dstCount;
 		int32_t L_13 = V_1;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_14 = ___src0;
+		NullCheck(L_14);
 		int32_t L_15 = ___dstCount2;
 		// var dstCh0I = i * 2;
 		int32_t L_16 = V_1;
@@ -9787,17 +9857,21 @@ IL_002c:
 		int32_t L_21 = V_3;
 		int32_t L_22 = L_21;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_22, 1));
+		NullCheck(L_20);
 		int32_t L_23 = L_22;
-		int16_t L_24 = (L_20)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_23));
-		(L_17)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_19), (float)((float)(((float)L_24)/(32767.0f))));
+		int16_t L_24 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (float)((float)(((float)L_24)/(32767.0f))));
 		// dst[dstCh0I] = src[srcCh0I] / (float)short.MaxValue;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_25 = ___dst1;
 		int32_t L_26 = V_2;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_27 = ___src0;
 		int32_t L_28 = V_3;
+		NullCheck(L_27);
 		int32_t L_29 = L_28;
-		int16_t L_30 = (L_27)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_29));
-		(L_25)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_26), (float)((float)(((float)L_30)/(32767.0f))));
+		int16_t L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (float)((float)(((float)L_30)/(32767.0f))));
 		// for (int i = 0; i < dstCount / 2; i++)
 		int32_t L_31 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_31, 1));
@@ -9829,6 +9903,7 @@ IL_006c:
 		// var srcI = i * src.Length / dstCount;
 		int32_t L_34 = V_4;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_35 = ___src0;
+		NullCheck(L_35);
 		int32_t L_36 = ___dstCount2;
 		// var dstCh0I = i * channels;
 		int32_t L_37 = V_4;
@@ -9853,9 +9928,11 @@ IL_0083:
 		int32_t L_44 = V_6;
 		int32_t L_45 = L_44;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_45, 1));
+		NullCheck(L_43);
 		int32_t L_46 = L_45;
-		int16_t L_47 = (L_43)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_46));
-		(L_40)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_42), (float)((float)(((float)L_47)/(32767.0f))));
+		int16_t L_47 = (L_43)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		NullCheck(L_40);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(L_42), (float)((float)(((float)L_47)/(32767.0f))));
 		// for (int ch = 0; ch < channels; ch++)
 		int32_t L_48 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_48, 1));
@@ -9926,10 +10003,13 @@ IL_0008:
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = ___src0;
 		int32_t L_4 = V_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = ___src0;
+		NullCheck(L_5);
 		int32_t L_6 = ___dstCount2;
+		NullCheck(L_3);
 		int32_t L_7 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_4, ((int32_t)(((RuntimeArray*)L_5)->max_length))))/L_6));
-		float L_8 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7));
-		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_2), (int16_t)il2cpp_codegen_cast_double_to_int<int16_t>(((float)il2cpp_codegen_multiply(L_8, (32767.0f)))));
+		float L_8 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(L_2), (int16_t)il2cpp_codegen_cast_double_to_int<int16_t>(((float)il2cpp_codegen_multiply(L_8, (32767.0f)))));
 		// for (int i = 0; i < dstCount; i++)
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
@@ -9969,6 +10049,7 @@ IL_002c:
 		// var srcI = i * src.Length / dstCount;
 		int32_t L_13 = V_1;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_14 = ___src0;
+		NullCheck(L_14);
 		int32_t L_15 = ___dstCount2;
 		// var dstCh0I = i * 2;
 		int32_t L_16 = V_1;
@@ -9984,17 +10065,21 @@ IL_002c:
 		int32_t L_21 = V_3;
 		int32_t L_22 = L_21;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_22, 1));
+		NullCheck(L_20);
 		int32_t L_23 = L_22;
-		float L_24 = (L_20)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_23));
-		(L_17)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_19), (int16_t)il2cpp_codegen_cast_double_to_int<int16_t>(((float)il2cpp_codegen_multiply(L_24, (32767.0f)))));
+		float L_24 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (int16_t)il2cpp_codegen_cast_double_to_int<int16_t>(((float)il2cpp_codegen_multiply(L_24, (32767.0f)))));
 		// dst[dstCh0I] = (short)(src[srcCh0I] * (float)short.MaxValue);
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_25 = ___dst1;
 		int32_t L_26 = V_2;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_27 = ___src0;
 		int32_t L_28 = V_3;
+		NullCheck(L_27);
 		int32_t L_29 = L_28;
-		float L_30 = (L_27)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_29));
-		(L_25)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_26), (int16_t)il2cpp_codegen_cast_double_to_int<int16_t>(((float)il2cpp_codegen_multiply(L_30, (32767.0f)))));
+		float L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (int16_t)il2cpp_codegen_cast_double_to_int<int16_t>(((float)il2cpp_codegen_multiply(L_30, (32767.0f)))));
 		// for (int i = 0; i < dstCount / 2; i++)
 		int32_t L_31 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_31, 1));
@@ -10026,6 +10111,7 @@ IL_006c:
 		// var srcI = i * src.Length / dstCount;
 		int32_t L_34 = V_4;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_35 = ___src0;
+		NullCheck(L_35);
 		int32_t L_36 = ___dstCount2;
 		// var dstCh0I = i * channels;
 		int32_t L_37 = V_4;
@@ -10050,9 +10136,11 @@ IL_0083:
 		int32_t L_44 = V_6;
 		int32_t L_45 = L_44;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_45, 1));
+		NullCheck(L_43);
 		int32_t L_46 = L_45;
-		float L_47 = (L_43)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_46));
-		(L_40)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_42), (int16_t)il2cpp_codegen_cast_double_to_int<int16_t>(((float)il2cpp_codegen_multiply(L_47, (32767.0f)))));
+		float L_47 = (L_43)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		NullCheck(L_40);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(L_42), (int16_t)il2cpp_codegen_cast_double_to_int<int16_t>(((float)il2cpp_codegen_multiply(L_47, (32767.0f)))));
 		// for (int ch = 0; ch < channels; ch++)
 		int32_t L_48 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_48, 1));
@@ -10107,9 +10195,11 @@ IL_0004:
 		int32_t L_1 = V_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = ___src0;
 		int32_t L_3 = V_0;
+		NullCheck(L_2);
 		int32_t L_4 = L_3;
-		float L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
-		(L_0)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1), (int16_t)il2cpp_codegen_cast_double_to_int<int16_t>(((float)il2cpp_codegen_multiply(L_5, (32767.0f)))));
+		float L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		NullCheck(L_0);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(L_1), (int16_t)il2cpp_codegen_cast_double_to_int<int16_t>(((float)il2cpp_codegen_multiply(L_5, (32767.0f)))));
 		// for (int i = 0; i < dstCount; i++)
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
@@ -10147,9 +10237,11 @@ IL_0004:
 		int32_t L_1 = V_0;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_2 = ___src0;
 		int32_t L_3 = V_0;
+		NullCheck(L_2);
 		int32_t L_4 = L_3;
-		int16_t L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
-		(L_0)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1), (float)((float)(((float)L_5)/(32767.0f))));
+		int16_t L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		NullCheck(L_0);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(L_1), (float)((float)(((float)L_5)/(32767.0f))));
 		// for (int i = 0; i < dstCount; i++)
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
@@ -10265,8 +10357,9 @@ IL_0009:
 		// foreach (var v in buf)
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = V_0;
 		int32_t L_2 = V_1;
+		NullCheck(L_1);
 		int32_t L_3 = L_2;
-		float L_4 = (L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		float L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		// var a = v;
 		V_2 = L_4;
 		// if (a < 0)
@@ -10289,14 +10382,16 @@ IL_0018:
 		float L_8 = V_2;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = ((LevelMeter_1_t7E2F5A99073FF94E3A16E448C1ADB40C2E7D30BD*)__this)->___prevValues_3;
 		int32_t L_10 = ((LevelMeter_1_t7E2F5A99073FF94E3A16E448C1ADB40C2E7D30BD*)__this)->___prevValuesHead_4;
+		NullCheck(L_9);
 		int32_t L_11 = L_10;
-		float L_12 = (L_9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
+		float L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		((LevelMeter_1_t7E2F5A99073FF94E3A16E448C1ADB40C2E7D30BD*)__this)->___ampSum_0 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_7, L_8)), L_12));
 		// this.prevValues[this.prevValuesHead] = a;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = ((LevelMeter_1_t7E2F5A99073FF94E3A16E448C1ADB40C2E7D30BD*)__this)->___prevValues_3;
 		int32_t L_14 = ((LevelMeter_1_t7E2F5A99073FF94E3A16E448C1ADB40C2E7D30BD*)__this)->___prevValuesHead_4;
 		float L_15 = V_2;
-		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_14), (float)L_15);
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_14), (float)L_15);
 		// if (ampPeak < a)
 		float L_16 = ((LevelMeter_1_t7E2F5A99073FF94E3A16E448C1ADB40C2E7D30BD*)__this)->___ampPeak_1;
 		float L_17 = V_2;
@@ -10350,6 +10445,7 @@ IL_00ab:
 		// foreach (var v in buf)
 		int32_t L_27 = V_1;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_28 = V_0;
+		NullCheck(L_28);
 		if ((((int32_t)L_27) < ((int32_t)((int32_t)(((RuntimeArray*)L_28)->max_length)))))
 		{
 			goto IL_0009;
@@ -10408,8 +10504,9 @@ IL_0009:
 		// foreach (var v in buf)
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_1 = V_0;
 		int32_t L_2 = V_1;
+		NullCheck(L_1);
 		int32_t L_3 = L_2;
-		int16_t L_4 = (L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		int16_t L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		// var a = v;
 		V_2 = L_4;
 		// if (a < 0)
@@ -10432,14 +10529,16 @@ IL_0015:
 		int16_t L_8 = V_2;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = ((LevelMeter_1_t559A7216FC269315AE65ED3047BB7C8EF6F6D6BE*)__this)->___prevValues_3;
 		int32_t L_10 = ((LevelMeter_1_t559A7216FC269315AE65ED3047BB7C8EF6F6D6BE*)__this)->___prevValuesHead_4;
+		NullCheck(L_9);
 		int32_t L_11 = L_10;
-		float L_12 = (L_9)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11));
+		float L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		((LevelMeter_1_t559A7216FC269315AE65ED3047BB7C8EF6F6D6BE*)__this)->___ampSum_0 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_7, ((float)L_8))), L_12));
 		// this.prevValues[this.prevValuesHead] = a;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = ((LevelMeter_1_t559A7216FC269315AE65ED3047BB7C8EF6F6D6BE*)__this)->___prevValues_3;
 		int32_t L_14 = ((LevelMeter_1_t559A7216FC269315AE65ED3047BB7C8EF6F6D6BE*)__this)->___prevValuesHead_4;
 		int16_t L_15 = V_2;
-		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_14), (float)((float)L_15));
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_14), (float)((float)L_15));
 		// if (ampPeak < a)
 		float L_16 = ((LevelMeter_1_t559A7216FC269315AE65ED3047BB7C8EF6F6D6BE*)__this)->___ampPeak_1;
 		int16_t L_17 = V_2;
@@ -10493,6 +10592,7 @@ IL_00ac:
 		// foreach (var v in buf)
 		int32_t L_27 = V_1;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_28 = V_0;
+		NullCheck(L_28);
 		if ((((int32_t)L_27) < ((int32_t)((int32_t)(((RuntimeArray*)L_28)->max_length)))))
 		{
 			goto IL_0009;
@@ -10674,8 +10774,9 @@ IL_000e:
 		// foreach (var s in buffer)
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = V_0;
 		int32_t L_3 = V_1;
+		NullCheck(L_2);
 		int32_t L_4 = L_3;
-		float L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
+		float L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		// if (s > this.threshold)
 		float L_6 = ((VoiceDetector_1_t30CE0AE84EA0D6D904546C4C28DEA3561850FB6B*)__this)->___threshold_2;
 		if ((!(((float)L_5) > ((float)L_6))))
@@ -10709,6 +10810,7 @@ IL_003b:
 		// foreach (var s in buffer)
 		int32_t L_9 = V_1;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_10 = V_0;
+		NullCheck(L_10);
 		if ((((int32_t)L_9) < ((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)))))
 		{
 			goto IL_000e;
@@ -10818,8 +10920,9 @@ IL_000e:
 		// foreach (var s in buffer)
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_2 = V_0;
 		int32_t L_3 = V_1;
+		NullCheck(L_2);
 		int32_t L_4 = L_3;
-		int16_t L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
+		int16_t L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		// if (s > this.threshold)
 		float L_6 = ((VoiceDetector_1_t7BDAD9540189437AC15AA78B81E91DBEE49FBC1E*)__this)->___threshold_2;
 		if ((!(((float)((float)L_5)) > ((float)L_6))))
@@ -10853,6 +10956,7 @@ IL_003c:
 		// foreach (var s in buffer)
 		int32_t L_9 = V_1;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_10 = V_0;
+		NullCheck(L_10);
 		if ((((int32_t)L_9) < ((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)))))
 		{
 			goto IL_000e;
@@ -11017,6 +11121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeviceFeatures__cctor_mA176180C24023C449
 	{
 		// static internal DeviceFeatures Default = new DeviceFeatures();
 		DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03* L_0 = (DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03*)il2cpp_codegen_object_new(DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		DeviceFeatures__ctor_mEFCC86A7121141D661254BDCE761F90EC43CDC98(L_0, NULL);
 		((DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03_StaticFields*)il2cpp_codegen_static_fields_for(DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03_il2cpp_TypeInfo_var))->___Default_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03_StaticFields*)il2cpp_codegen_static_fields_for(DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03_il2cpp_TypeInfo_var))->___Default_1), (void*)L_0);
@@ -11547,11 +11652,13 @@ IL_001d:
 		L_7 = DeviceInfo_get_IDString_mCEA67E532D1957B1EE0E4528A30C0FB130752E6D_inline(__this, NULL);
 		String_t* L_8;
 		L_8 = DeviceInfo_get_IDString_mCEA67E532D1957B1EE0E4528A30C0FB130752E6D_inline(__this, NULL);
+		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_10;
 		L_10 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(((int32_t)10), L_9, NULL);
+		NullCheck(L_7);
 		String_t* L_11;
 		L_11 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_7, 0, L_10, NULL);
 		String_t* L_12;
@@ -11645,6 +11752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeviceEnumeratorBase__ctor_mB199669E30C7
 	{
 		// protected List<DeviceInfo> devices = new List<DeviceInfo>();
 		List_1_t77900A23BF65F1E318159DF69366A9281EA47E72* L_0 = (List_1_t77900A23BF65F1E318159DF69366A9281EA47E72*)il2cpp_codegen_object_new(List_1_t77900A23BF65F1E318159DF69366A9281EA47E72_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		List_1__ctor_mD0ADD3C9B4444CE1A68731119715485F47C95CD1(L_0, List_1__ctor_mD0ADD3C9B4444CE1A68731119715485F47C95CD1_RuntimeMethod_var);
 		__this->___devices_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___devices_0), (void*)L_0);
@@ -11699,6 +11807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DeviceEnumeratorBase_GetEnumer
 	{
 		// return devices.GetEnumerator();
 		List_1_t77900A23BF65F1E318159DF69366A9281EA47E72* L_0 = __this->___devices_0;
+		NullCheck(L_0);
 		Enumerator_t8F63EB5AACDE7415A019ABB43CC0CA5B83722E35 L_1;
 		L_1 = List_1_GetEnumerator_m97F97A70C611680B3A2A17F5C3402019D83E4E63(L_0, List_1_GetEnumerator_m97F97A70C611680B3A2A17F5C3402019D83E4E63_RuntimeMethod_var);
 		Enumerator_t8F63EB5AACDE7415A019ABB43CC0CA5B83722E35 L_2 = L_1;
@@ -12006,6 +12115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameBuffer__ctor_m9082AB45997EE91BF42B6
 	}
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___array0;
+		NullCheck(L_2);
 		G_B3_0 = ((int32_t)(((RuntimeArray*)L_2)->max_length));
 		G_B3_1 = G_B1_0;
 		goto IL_0018;
@@ -12216,6 +12326,7 @@ IL_0025:
 	{
 		// disposer.Dispose();
 		RuntimeObject* L_5 = __this->___disposer_3;
+		NullCheck(L_5);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_5);
 		// disposed = true;
 		__this->___disposed_4 = (bool)1;
@@ -12378,6 +12489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncoderFloat_encodeTyped_m44CA4C4EF58DCF
 		// encoder.Encode(buf);
 		OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8* L_0 = ((Encoder_1_t46069E40DA962B35E5C8B5F6DAA6864D1A649EB8*)__this)->___encoder_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ___buf0;
+		NullCheck(L_0);
 		OpusEncoder_Encode_mA154F84CCCD3A09DACC1D5FCF19DB6A28120A86D(L_0, L_1, NULL);
 		// }
 		return;
@@ -12418,6 +12530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EncoderShort_encodeTyped_m474777BC689AF8
 		// encoder.Encode(buf);
 		OpusEncoder_t185F1B5A0522F6EC47DB0F685DFE7A9D7E0CC6A8* L_0 = ((Encoder_1_t2842F88FA239B8D1A704F222556A99B53E77F796*)__this)->___encoder_0;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_1 = ___buf0;
+		NullCheck(L_0);
 		OpusEncoder_Encode_mAF216FBFCC92E8BEC1A8D89F43EBC130C94CFF03(L_0, L_1, NULL);
 		// }
 		return;
@@ -12465,6 +12578,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Util_bestEncoderSampleRate_mD6075086F
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeArray* L_2;
 		L_2 = Enum_GetValues_m803B9D68C367FAABC5AFB6B5B52775C8A573CEF9(L_1, NULL);
+		NullCheck(L_2);
 		RuntimeObject* L_3;
 		L_3 = Array_GetEnumerator_mDB7E2AF23F2BDC715D429C71CA3B8D0151F0DC1E(L_2, NULL);
 		V_2 = L_3;
@@ -12486,6 +12600,7 @@ FINALLY_0052:
 				}
 				{
 					RuntimeObject* L_6 = V_5;
+					NullCheck(L_6);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_6);
 				}
 
@@ -12505,6 +12620,7 @@ IL_0023_1:
 			{
 				// foreach (var x in Enum.GetValues(typeof(SamplingRate)))
 				RuntimeObject* L_7 = V_2;
+				NullCheck(L_7);
 				RuntimeObject* L_8;
 				L_8 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_7);
 				V_3 = L_8;
@@ -12536,6 +12652,7 @@ IL_0048_1:
 			{
 				// foreach (var x in Enum.GetValues(typeof(SamplingRate)))
 				RuntimeObject* L_16 = V_2;
+				NullCheck(L_16);
 				bool L_17;
 				L_17 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_16);
 				if (L_17)
@@ -12589,6 +12706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Platform_CreateAudioInEnumerat
 		// return new AudioInEnumeratorNotSupported(logger);
 		RuntimeObject* L_0 = ___logger0;
 		AudioInEnumeratorNotSupported_t60E2D991E5B1D60628F8F7B6AA1A3701E715F110* L_1 = (AudioInEnumeratorNotSupported_t60E2D991E5B1D60628F8F7B6AA1A3701E715F110*)il2cpp_codegen_object_new(AudioInEnumeratorNotSupported_t60E2D991E5B1D60628F8F7B6AA1A3701E715F110_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
 		AudioInEnumeratorNotSupported__ctor_m5F849A0A30419000B1D5838CA7E64519411DB996(L_1, L_0, NULL);
 		return L_1;
 	}
@@ -12607,6 +12725,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Platform_CreateAudioInChangeNo
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___callback0;
 		RuntimeObject* L_1 = ___logger1;
 		AudioInChangeNotifierNotSupported_t61C0E275A30C7A8A32D1B5F70E12D1543FC2A336* L_2 = (AudioInChangeNotifierNotSupported_t61C0E275A30C7A8A32D1B5F70E12D1543FC2A336*)il2cpp_codegen_object_new(AudioInChangeNotifierNotSupported_t61C0E275A30C7A8A32D1B5F70E12D1543FC2A336_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		AudioInChangeNotifierNotSupported__ctor_mC97E12C9FA96BF2886E5CDAE3A2B42DBDB519BCA(L_2, L_0, L_1, NULL);
 		return L_2;
 	}
@@ -12626,6 +12745,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Platform_CreateDefaultAudioSou
 		int32_t L_1 = ___channels3;
 		RuntimeObject* L_2 = ___logger0;
 		WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11* L_3 = (WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11*)il2cpp_codegen_object_new(WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
 		WebAudioMicIn__ctor_m39CD25144071BC91CA41A6D926D7BD00D75438E3(L_3, L_0, L_1, L_2, NULL);
 		return L_3;
 	}
@@ -12693,9 +12813,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortToFloat_Output_mE31A61C49193E08F7B1
 	{
 		// if (buf.Length < shortBuf.Buf.Length)
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = __this->___buf_1;
+		NullCheck(L_0);
 		FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* L_1 = ___shortBuf0;
+		NullCheck(L_1);
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_2;
 		L_2 = FrameOut_1_get_Buf_mDB991716E1B1FF7D97580867E561CD0C42582FD0_inline(L_1, FrameOut_1_get_Buf_mDB991716E1B1FF7D97580867E561CD0C42582FD0_RuntimeMethod_var);
+		NullCheck(L_2);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_0)->max_length))) >= ((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)))))
 		{
 			goto IL_0025;
@@ -12704,8 +12827,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortToFloat_Output_mE31A61C49193E08F7B1
 	{
 		// buf = new float[shortBuf.Buf.Length];
 		FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* L_3 = ___shortBuf0;
+		NullCheck(L_3);
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_4;
 		L_4 = FrameOut_1_get_Buf_mDB991716E1B1FF7D97580867E561CD0C42582FD0_inline(L_3, FrameOut_1_get_Buf_mDB991716E1B1FF7D97580867E561CD0C42582FD0_RuntimeMethod_var);
+		NullCheck(L_4);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)));
 		__this->___buf_1 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___buf_1), (void*)L_5);
@@ -12715,18 +12840,23 @@ IL_0025:
 	{
 		// AudioUtil.Convert(shortBuf.Buf, buf, shortBuf.Buf.Length);
 		FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* L_6 = ___shortBuf0;
+		NullCheck(L_6);
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_7;
 		L_7 = FrameOut_1_get_Buf_mDB991716E1B1FF7D97580867E561CD0C42582FD0_inline(L_6, FrameOut_1_get_Buf_mDB991716E1B1FF7D97580867E561CD0C42582FD0_RuntimeMethod_var);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = __this->___buf_1;
 		FrameOut_1_t9F53F5F4F3D4B6BD23F1436404BC46C6F8E0DD15* L_9 = ___shortBuf0;
+		NullCheck(L_9);
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_10;
 		L_10 = FrameOut_1_get_Buf_mDB991716E1B1FF7D97580867E561CD0C42582FD0_inline(L_9, FrameOut_1_get_Buf_mDB991716E1B1FF7D97580867E561CD0C42582FD0_RuntimeMethod_var);
+		NullCheck(L_10);
 		AudioUtil_Convert_mD75A46A4751D793107EFC13EB5A310899A9E18DE(L_7, L_8, ((int32_t)(((RuntimeArray*)L_10)->max_length)), NULL);
 		// output(new FrameOut<float>((float[])(object)buf, false));
 		Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84* L_11 = __this->___output_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_12 = __this->___buf_1;
 		FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D* L_13 = (FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D*)il2cpp_codegen_object_new(FrameOut_1_tE1D253183799A33EB68D1E188B90F1E04064CE5D_il2cpp_TypeInfo_var);
+		NullCheck(L_13);
 		FrameOut_1__ctor_m200C78F3220397862A3E89C5CD92E39A7D474F0E(L_13, ((SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)Castclass((RuntimeObject*)L_12, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var)), (bool)0, FrameOut_1__ctor_m200C78F3220397862A3E89C5CD92E39A7D474F0E_RuntimeMethod_var);
+		NullCheck(L_11);
 		Action_1_Invoke_m7E44B5D44325CD17B903897A8358D10A8AFE5ECF_inline(L_11, L_13, NULL);
 		// }
 		return;
@@ -12826,6 +12956,7 @@ IL_0009:
 	{
 		// watchLast = watch.ElapsedMilliseconds;
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_2 = __this->___watch_4;
+		NullCheck(L_2);
 		int64_t L_3;
 		L_3 = Stopwatch_get_ElapsedMilliseconds_m8D8E60ADEB47D008C06D8E57D28D41EAE07AECBF(L_2, NULL);
 		__this->___watchLast_5 = L_3;
@@ -12835,6 +12966,7 @@ IL_0022:
 	{
 		// var t = watch.ElapsedMilliseconds;
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_4 = __this->___watch_4;
+		NullCheck(L_4);
 		int64_t L_5;
 		L_5 = Stopwatch_get_ElapsedMilliseconds_m8D8E60ADEB47D008C06D8E57D28D41EAE07AECBF(L_4, NULL);
 		V_0 = L_5;
@@ -12843,12 +12975,14 @@ IL_0022:
 		int32_t L_7 = __this->___ptr_3;
 		int64_t L_8 = V_0;
 		int64_t L_9 = __this->___watchLast_5;
-		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7), (int16_t)((int16_t)((int64_t)il2cpp_codegen_subtract(L_8, L_9))));
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (int16_t)((int16_t)((int64_t)il2cpp_codegen_subtract(L_8, L_9))));
 		// info[ptr] = lost;
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_10 = __this->___info_1;
 		int32_t L_11 = __this->___ptr_3;
 		bool L_12 = ___lost0;
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_11), (bool)L_12);
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (bool)L_12);
 		// watchLast = t;
 		int64_t L_13 = V_0;
 		__this->___watchLast_5 = L_13;
@@ -12858,6 +12992,7 @@ IL_0022:
 		// if (ptr == buf.Length)
 		int32_t L_15 = __this->___ptr_3;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_16 = __this->___buf_0;
+		NullCheck(L_16);
 		if ((!(((uint32_t)L_15) == ((uint32_t)((int32_t)(((RuntimeArray*)L_16)->max_length))))))
 		{
 			goto IL_007e;
@@ -12915,6 +13050,7 @@ IL_000e:
 		// var buf2 = buf.Select((v, i) => (info[i] ? "-" : "") + v.ToString()).ToArray();
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_1 = __this->___buf_0;
 		Func_3_t49DEF5EE71DA66215D4365B5D360731714257EA2* L_2 = (Func_3_t49DEF5EE71DA66215D4365B5D360731714257EA2*)il2cpp_codegen_object_new(Func_3_t49DEF5EE71DA66215D4365B5D360731714257EA2_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Func_3__ctor_mCA10CD41038D3C0958C468000763AB2F8A5BEFEC(L_2, __this, (intptr_t)((void*)SpacingProfile_U3Cget_DumpU3Eb__11_0_m74527BA23A55748F7A03FB829600F4E70390131A_RuntimeMethod_var), NULL);
 		RuntimeObject* L_3;
 		L_3 = Enumerable_Select_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_TisString_t_m7E85B4DF998B1EF855F6D3E4F3E5F03FE44A148F((RuntimeObject*)L_1, L_2, Enumerable_Select_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_TisString_t_m7E85B4DF998B1EF855F6D3E4F3E5F03FE44A148F_RuntimeMethod_var);
@@ -12924,38 +13060,45 @@ IL_000e:
 		// return "max=" + Max + " " + string.Join(",", buf2, ptr, buf.Length - ptr) + ", " + string.Join(",", buf2, 0, ptr);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_5;
+		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, _stringLiteralAA801232F4FDA62892D04EAFB30A4F0952047F28);
-		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralAA801232F4FDA62892D04EAFB30A4F0952047F28);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralAA801232F4FDA62892D04EAFB30A4F0952047F28);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6;
 		int32_t L_8;
 		L_8 = SpacingProfile_get_Max_m5A5CF5083CA8F2D19FC9DDF3CECBC7424A48CC6D(__this, NULL);
 		V_1 = L_8;
 		String_t* L_9;
 		L_9 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_9);
-		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_9);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_9);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_7;
+		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = V_0;
 		int32_t L_13 = __this->___ptr_3;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_14 = __this->___buf_0;
+		NullCheck(L_14);
 		int32_t L_15 = __this->___ptr_3;
 		String_t* L_16;
 		L_16 = String_Join_mF400595F57ED22F733823C1007043EA1D546F3AC(_stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB, L_12, L_13, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_14)->max_length)), L_15)), NULL);
+		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_16);
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_16);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_16);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_11;
+		NullCheck(L_17);
 		ArrayElementTypeCheck (L_17, _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D);
-		(L_17)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = L_17;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = V_0;
 		int32_t L_20 = __this->___ptr_3;
 		String_t* L_21;
 		L_21 = String_Join_mF400595F57ED22F733823C1007043EA1D546F3AC(_stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB, L_19, 0, L_20, NULL);
+		NullCheck(L_18);
 		ArrayElementTypeCheck (L_18, L_21);
-		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_21);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_21);
 		String_t* L_22;
 		L_22 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_18, NULL);
 		return L_22;
@@ -12997,6 +13140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpacingProfile_get_Max_m5A5CF5083CA8F
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238_il2cpp_TypeInfo_var);
 		U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238* L_3 = ((U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238_il2cpp_TypeInfo_var))->___U3CU3E9_0;
 		Func_2_tBE343607A30B4C96540347DF716CBEE90F3E514C* L_4 = (Func_2_tBE343607A30B4C96540347DF716CBEE90F3E514C*)il2cpp_codegen_object_new(Func_2_tBE343607A30B4C96540347DF716CBEE90F3E514C_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
 		Func_2__ctor_m430A0B61F6507EC520A69B58A4C9F8ADAC9B3D6E(L_4, L_3, (intptr_t)((void*)U3CU3Ec_U3Cget_MaxU3Eb__13_0_m204C1D8F4415E7E93A05F76836312E4A163A6355_RuntimeMethod_var), NULL);
 		Func_2_tBE343607A30B4C96540347DF716CBEE90F3E514C* L_5 = L_4;
 		((U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238_il2cpp_TypeInfo_var))->___U3CU3E9__13_0_1 = L_5;
@@ -13029,8 +13173,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpacingProfile_U3Cget_DumpU3Eb__11_
 		// var buf2 = buf.Select((v, i) => (info[i] ? "-" : "") + v.ToString()).ToArray();
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = __this->___info_1;
 		int32_t L_1 = ___i1;
+		NullCheck(L_0);
 		int32_t L_2 = L_1;
-		uint8_t L_3 = (uint8_t)(L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_2));
+		uint8_t L_3 = (uint8_t)(L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
 		if (L_3)
 		{
 			goto IL_0011;
@@ -13074,6 +13219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m6848DD5063D64C340D74E6EC
 	}
 	{
 		U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238* L_0 = (U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238*)il2cpp_codegen_object_new(U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		U3CU3Ec__ctor_m0DD394665A950A06179BA221EF953B05E3A39A16(L_0, NULL);
 		((U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD56CF834EFFA8D81E1C722E4EF68E6244BCA2238_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
@@ -13120,6 +13266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Util_SetThreadName_mACD08B4DA0DD63FEFFB3
 	{
 		// if (name.Length > MAX)
 		String_t* L_0 = ___name1;
+		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
 		if ((((int32_t)L_1) <= ((int32_t)((int32_t)25))))
@@ -13130,6 +13277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Util_SetThreadName_mACD08B4DA0DD63FEFFB3
 	{
 		// name = name.Substring(0, MAX);
 		String_t* L_2 = ___name1;
+		NullCheck(L_2);
 		String_t* L_3;
 		L_3 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_2, 0, ((int32_t)25), NULL);
 		___name1 = L_3;
@@ -13140,6 +13288,7 @@ IL_0015:
 		// t.Name = name;
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_4 = ___t0;
 		String_t* L_5 = ___name1;
+		NullCheck(L_4);
 		Thread_set_Name_m53E2BA6E84C04A6393EA5E470E516703CB892E4A(L_4, L_5, NULL);
 		// }
 		return;
@@ -13248,8 +13397,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice_set_TransmitEnabled_m4C90109A
 	}
 	{
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_4 = __this->___voiceClient_14;
+		NullCheck(L_4);
 		RuntimeObject* L_5 = L_4->___transport_0;
 		int32_t L_6 = __this->___channelId_12;
+		NullCheck(L_5);
 		bool L_7;
 		L_7 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(0 /* System.Boolean Photon.Voice.IVoiceTransport::IsChannelJoined(System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_5, L_6);
 		if (!L_7)
@@ -13260,6 +13411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice_set_TransmitEnabled_m4C90109A
 	{
 		// encoder.EndOfStream();
 		RuntimeObject* L_8 = __this->___encoder_10;
+		NullCheck(L_8);
 		InterfaceActionInvoker0::Invoke(3 /* System.Void Photon.Voice.IEncoder::EndOfStream() */, IEncoder_t4EBB18A3C5DE954C3B6FD1BA0B88EB415C28CABE_il2cpp_TypeInfo_var, L_8);
 	}
 
@@ -13426,6 +13578,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice_set_DebugEchoMode_m49C88569ED
 	}
 	{
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_4 = __this->___voiceClient_14;
+		NullCheck(L_4);
 		RuntimeObject* L_5 = L_4->___transport_0;
 		if (!L_5)
 		{
@@ -13435,8 +13588,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice_set_DebugEchoMode_m49C88569ED
 	{
 		// if (voiceClient.transport.IsChannelJoined(this.channelId))
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_6 = __this->___voiceClient_14;
+		NullCheck(L_6);
 		RuntimeObject* L_7 = L_6->___transport_0;
 		int32_t L_8 = __this->___channelId_12;
+		NullCheck(L_7);
 		bool L_9;
 		L_9 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(0 /* System.Boolean Photon.Voice.IVoiceTransport::IsChannelJoined(System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_7, L_8);
 		if (!L_9)
@@ -13456,10 +13611,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice_set_DebugEchoMode_m49C88569ED
 		// voiceClient.sendVoicesInfoAndConfigFrame(new List<LocalVoice>() { this }, channelId, -1);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_11 = __this->___voiceClient_14;
 		List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF* L_12 = (List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF*)il2cpp_codegen_object_new(List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF_il2cpp_TypeInfo_var);
+		NullCheck(L_12);
 		List_1__ctor_m2BC2562243DA04AD63E188E6BB85C0B4A9284358(L_12, List_1__ctor_m2BC2562243DA04AD63E188E6BB85C0B4A9284358_RuntimeMethod_var);
 		List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF* L_13 = L_12;
+		NullCheck(L_13);
 		List_1_Add_m413F9B4862F57A63557765D4259691AD450EFAA3_inline(L_13, __this, List_1_Add_m413F9B4862F57A63557765D4259691AD450EFAA3_RuntimeMethod_var);
 		int32_t L_14 = __this->___channelId_12;
+		NullCheck(L_11);
 		VoiceClient_sendVoicesInfoAndConfigFrame_m968FE64B468BC81287115D4B571631241FFCC8AD(L_11, L_13, L_14, (-1), NULL);
 		return;
 	}
@@ -13468,8 +13626,10 @@ IL_0064:
 	{
 		// voiceClient.transport.SendVoiceRemove(this, channelId, -1);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_15 = __this->___voiceClient_14;
+		NullCheck(L_15);
 		RuntimeObject* L_16 = L_15->___transport_0;
 		int32_t L_17 = __this->___channelId_12;
+		NullCheck(L_16);
 		InterfaceActionInvoker3< LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5*, int32_t, int32_t >::Invoke(2 /* System.Void Photon.Voice.IVoiceTransport::SendVoiceRemove(Photon.Voice.LocalVoice,System.Int32,System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_16, __this, L_17, (-1));
 	}
 
@@ -13485,6 +13645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice_SendSpacingProfileStart_m4494
 	{
 		// sendSpacingProfile.Start();
 		SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* L_0 = __this->___sendSpacingProfile_22;
+		NullCheck(L_0);
 		SpacingProfile_Start_mE185AE834A6CCFDC465FDF1CAABA15BDED569FE3(L_0, NULL);
 		// }
 		return;
@@ -13496,6 +13657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LocalVoice_get_SendSpacingProfileDu
 	{
 		// public string SendSpacingProfileDump { get { return sendSpacingProfile.Dump; } }
 		SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* L_0 = __this->___sendSpacingProfile_22;
+		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = SpacingProfile_get_Dump_m4EF64094ECC41A470EE08F5534506B888AD7E599(L_0, NULL);
 		return L_1;
@@ -13507,6 +13669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LocalVoice_get_SendSpacingProfileMax_
 	{
 		// public int SendSpacingProfileMax { get { return sendSpacingProfile.Max; } }
 		SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* L_0 = __this->___sendSpacingProfile_22;
+		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = SpacingProfile_get_Max_m5A5CF5083CA8F2D19FC9DDF3CECBC7424A48CC6D(L_0, NULL);
 		return L_1;
@@ -13547,6 +13710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice__ctor_m5D3248AE19E830581367E9
 		__this->___transmitEnabled_2 = (bool)1;
 		// protected object disposeLock = new object();
 		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
 		__this->___disposeLock_18 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___disposeLock_18), (void*)L_0);
@@ -13556,11 +13720,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice__ctor_m5D3248AE19E830581367E9
 		__this->___lastTransmitTime_20 = ((int32_t)il2cpp_codegen_subtract(L_1, ((int32_t)100)));
 		// internal Dictionary<byte, int> eventTimestamps = new Dictionary<byte, int>();
 		Dictionary_2_tC5EFC8C0218B7680694715DA3F5E01A6F20D84A5* L_2 = (Dictionary_2_tC5EFC8C0218B7680694715DA3F5E01A6F20D84A5*)il2cpp_codegen_object_new(Dictionary_2_tC5EFC8C0218B7680694715DA3F5E01A6F20D84A5_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Dictionary_2__ctor_m27443D0212ED0FDFA4A3601EA34095CCA9FA4E57(L_2, Dictionary_2__ctor_m27443D0212ED0FDFA4A3601EA34095CCA9FA4E57_RuntimeMethod_var);
 		__this->___eventTimestamps_21 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___eventTimestamps_21), (void*)L_2);
 		// SpacingProfile sendSpacingProfile = new SpacingProfile(1000);
 		SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* L_3 = (SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F*)il2cpp_codegen_object_new(SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
 		SpacingProfile__ctor_m1208F1AACB921DD63D631D7C6C0325625AA2E431(L_3, ((int32_t)1000), NULL);
 		__this->___sendSpacingProfile_22 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___sendSpacingProfile_22), (void*)L_3);
@@ -13591,6 +13757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice__ctor_m2758C28A05887B045CA471
 		__this->___transmitEnabled_2 = (bool)1;
 		// protected object disposeLock = new object();
 		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
 		__this->___disposeLock_18 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___disposeLock_18), (void*)L_0);
@@ -13600,11 +13767,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice__ctor_m2758C28A05887B045CA471
 		__this->___lastTransmitTime_20 = ((int32_t)il2cpp_codegen_subtract(L_1, ((int32_t)100)));
 		// internal Dictionary<byte, int> eventTimestamps = new Dictionary<byte, int>();
 		Dictionary_2_tC5EFC8C0218B7680694715DA3F5E01A6F20D84A5* L_2 = (Dictionary_2_tC5EFC8C0218B7680694715DA3F5E01A6F20D84A5*)il2cpp_codegen_object_new(Dictionary_2_tC5EFC8C0218B7680694715DA3F5E01A6F20D84A5_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Dictionary_2__ctor_m27443D0212ED0FDFA4A3601EA34095CCA9FA4E57(L_2, Dictionary_2__ctor_m27443D0212ED0FDFA4A3601EA34095CCA9FA4E57_RuntimeMethod_var);
 		__this->___eventTimestamps_21 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___eventTimestamps_21), (void*)L_2);
 		// SpacingProfile sendSpacingProfile = new SpacingProfile(1000);
 		SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* L_3 = (SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F*)il2cpp_codegen_object_new(SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
 		SpacingProfile__ctor_m1208F1AACB921DD63D631D7C6C0325625AA2E431(L_3, ((int32_t)1000), NULL);
 		__this->___sendSpacingProfile_22 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___sendSpacingProfile_22), (void*)L_3);
@@ -13623,6 +13792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice__ctor_m2758C28A05887B045CA471
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___voiceClient_14), (void*)L_6);
 		// this.threadingEnabled = voiceClient.ThreadingEnabled;
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_7 = ___voiceClient0;
+		NullCheck(L_7);
 		bool L_8;
 		L_8 = VoiceClient_get_ThreadingEnabled_mB8CEEC7ABBCE27F34D7BF5F01BC8F3F5DA6C77E9_inline(L_7, NULL);
 		__this->___threadingEnabled_15 = L_8;
@@ -13645,13 +13815,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice__ctor_m2758C28A05887B045CA471
 		V_0 = L_12;
 		// voiceClient.logger.LogError(m);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_13 = ___voiceClient0;
+		NullCheck(L_13);
 		RuntimeObject* L_14 = L_13->___logger_1;
 		String_t* L_15 = V_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16;
 		L_16 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var)));
+		NullCheck(L_14);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), L_14, L_15, L_16);
 		// throw new ArgumentNullException("encoder");
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_17 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		NullCheck(L_17);
 		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_17, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8ECE837BA7230B14B050EF37843797187D4C7113)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_17, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&LocalVoice__ctor_m2758C28A05887B045CA471BB6B985924DD107D15_RuntimeMethod_var)));
 	}
@@ -13665,7 +13838,9 @@ IL_009b:
 		// this.encoder.Output = sendFrame;
 		RuntimeObject* L_19 = __this->___encoder_10;
 		Action_2_t200A26AA6AFF8C50FAAC2D6D43B25E7718E3A18A* L_20 = (Action_2_t200A26AA6AFF8C50FAAC2D6D43B25E7718E3A18A*)il2cpp_codegen_object_new(Action_2_t200A26AA6AFF8C50FAAC2D6D43B25E7718E3A18A_il2cpp_TypeInfo_var);
+		NullCheck(L_20);
 		Action_2__ctor_m565388939ABCB1E64AC84F61B39DF3AF1501819D(L_20, __this, (intptr_t)((void*)LocalVoice_sendFrame_mD8E709F204634A5A1E8AB4FB0654A40FE08B6730_RuntimeMethod_var), NULL);
+		NullCheck(L_19);
 		InterfaceActionInvoker1< Action_2_t200A26AA6AFF8C50FAAC2D6D43B25E7718E3A18A* >::Invoke(1 /* System.Void Photon.Voice.IEncoder::set_Output(System.Action`2<System.ArraySegment`1<System.Byte>,Photon.Voice.FrameFlags>) */, IEncoder_t4EBB18A3C5DE954C3B6FD1BA0B88EB415C28CABE_il2cpp_TypeInfo_var, L_19, L_20);
 		// }
 		return;
@@ -13688,6 +13863,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LocalVoice_get_shortName_mB1CA8CC83
 		L_1 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4(L_0, NULL);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_2 = __this->___voiceClient_14;
 		int32_t L_3 = __this->___channelId_12;
+		NullCheck(L_2);
 		String_t* L_4;
 		L_4 = VoiceClient_channelStr_m21FBE4504EF3EC4E80F892F92F2D919A626D36A8(L_2, L_3, NULL);
 		String_t* L_5;
@@ -13713,8 +13889,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LocalVoice_get_Name_m0C73447EC9348D
 		// public string Name { get { return "Local " + info.Codec + " v#" + id + " ch#" + voiceClient.channelStr(channelId); } }
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
+		NullCheck(L_1);
 		ArrayElementTypeCheck (L_1, _stringLiteral2EB1C3F829AC14EA7CFBD14FCCFE804FDF2D9ECC);
-		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2EB1C3F829AC14EA7CFBD14FCCFE804FDF2D9ECC);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2EB1C3F829AC14EA7CFBD14FCCFE804FDF2D9ECC);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404* L_3 = (&__this->___info_9);
 		int32_t L_4;
@@ -13723,27 +13900,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LocalVoice_get_Name_m0C73447EC9348D
 		Il2CppFakeBox<int32_t> L_5(Codec_t7B215C0B276BF5BE13C5803ADC8928B5E31EF525_il2cpp_TypeInfo_var, (&V_0));
 		String_t* L_6;
 		L_6 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_5), NULL);
+		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_6);
-		(L_2)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_6);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_2;
+		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, _stringLiteral3BD9234BFC6B6C4E6DAF7D9B3F7013CB2A782980);
-		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral3BD9234BFC6B6C4E6DAF7D9B3F7013CB2A782980);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral3BD9234BFC6B6C4E6DAF7D9B3F7013CB2A782980);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_7;
 		uint8_t* L_9 = (&__this->___id_11);
 		String_t* L_10;
 		L_10 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4(L_9, NULL);
+		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, L_10);
-		(L_8)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_10);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_10);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_8;
+		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, _stringLiteralAAFCBF405EAFA3DCB72EA3350FC8E7F5985F9AB9);
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralAAFCBF405EAFA3DCB72EA3350FC8E7F5985F9AB9);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralAAFCBF405EAFA3DCB72EA3350FC8E7F5985F9AB9);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_11;
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_13 = __this->___voiceClient_14;
 		int32_t L_14 = __this->___channelId_12;
+		NullCheck(L_13);
 		String_t* L_15;
 		L_15 = VoiceClient_channelStr_m21FBE4504EF3EC4E80F892F92F2D919A626D36A8(L_13, L_14, NULL);
+		NullCheck(L_12);
 		ArrayElementTypeCheck (L_12, L_15);
-		(L_12)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_15);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_15);
 		String_t* L_16;
 		L_16 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_12, NULL);
 		return L_16;
@@ -13786,6 +13969,7 @@ IL_0000:
 	{
 		// var x = encoder.DequeueOutput(out f);
 		RuntimeObject* L_0 = __this->___encoder_10;
+		NullCheck(L_0);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_1;
 		L_1 = InterfaceFuncInvoker1< ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093, uint8_t* >::Invoke(2 /* System.ArraySegment`1<System.Byte> Photon.Voice.IEncoder::DequeueOutput(Photon.Voice.FrameFlags&) */, IEncoder_t4EBB18A3C5DE954C3B6FD1BA0B88EB415C28CABE_il2cpp_TypeInfo_var, L_0, (&V_0));
 		V_1 = L_1;
@@ -13820,6 +14004,7 @@ IL_0021:
 		// LocalUserServiceable.Service(this);
 		RuntimeObject* L_6;
 		L_6 = LocalVoice_get_LocalUserServiceable_m480CA4148204285CD0566B8ED7F53F338D51BFAA_inline(__this, NULL);
+		NullCheck(L_6);
 		InterfaceActionInvoker1< LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* >::Invoke(0 /* System.Void Photon.Voice.IServiceable::Service(Photon.Voice.LocalVoice) */, IServiceable_t717325017517B6117BB2D4085FD3DBB06F6B56CA_il2cpp_TypeInfo_var, L_6, __this);
 	}
 
@@ -13854,6 +14039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice_sendConfigFrame_m9F6E232E4ECC
 	{
 		// this.voiceClient.logger.LogInfo(LogPrefix + " Sending config frame to pl " + targetPlayerId);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_2 = __this->___voiceClient_14;
+		NullCheck(L_2);
 		RuntimeObject* L_3 = L_2->___logger_1;
 		String_t* L_4;
 		L_4 = LocalVoice_get_LogPrefix_mBD379944D1F0172B0B6A29C02D115E0B07F8F0C8(__this, NULL);
@@ -13863,6 +14049,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice_sendConfigFrame_m9F6E232E4ECC
 		L_6 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_4, _stringLiteral509D67D13F699BD1FC3E1A0D50D923FA6BD096E9, L_5, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7;
 		L_7 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_3);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_3, L_6, L_7);
 		// sendFrame0(configFrame, FrameFlags.Config, targetPlayerId, true);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_8 = __this->___configFrame_16;
@@ -13919,6 +14106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice_sendFrame_mD8E709F204634A5A1E
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093* L_3 = (&__this->___configFrame_16);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
 		L_4 = ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_inline(L_3, ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_RuntimeMethod_var);
+		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&___compressed0), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))) >= ((int32_t)L_5)))
@@ -13967,6 +14155,7 @@ IL_0044:
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___configFrame_16))->____array_1), (void*)NULL);
 		// this.voiceClient.logger.LogInfo(LogPrefix + " Got config frame " + configFrame.Count + " bytes");
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_17 = __this->___voiceClient_14;
+		NullCheck(L_17);
 		RuntimeObject* L_18 = L_17->___logger_1;
 		String_t* L_19;
 		L_19 = LocalVoice_get_LogPrefix_mBD379944D1F0172B0B6A29C02D115E0B07F8F0C8(__this, NULL);
@@ -13980,6 +14169,7 @@ IL_0044:
 		L_23 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_19, _stringLiteral336E3B1C29906CF7635D8FB9932E08C701B6B114, L_22, _stringLiteral9F954BE9FD9E999DA1677DADC6D2CAB27412A282, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24;
 		L_24 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_18);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_18, L_23, L_24);
 	}
 
@@ -13987,8 +14177,10 @@ IL_00b2:
 	{
 		// if (this.voiceClient.transport.IsChannelJoined(this.channelId) && this.TransmitEnabled)
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_25 = __this->___voiceClient_14;
+		NullCheck(L_25);
 		RuntimeObject* L_26 = L_25->___transport_0;
 		int32_t L_27 = __this->___channelId_12;
+		NullCheck(L_26);
 		bool L_28;
 		L_28 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(0 /* System.Boolean Photon.Voice.IVoiceTransport::IsChannelJoined(System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_26, L_27);
 		if (!L_28)
@@ -14076,6 +14268,7 @@ IL_0010:
 		LocalVoice_set_FramesSentBytes_m263BFEADD6AD997392D3F82A30AD02D3899F52AC_inline(__this, ((int32_t)il2cpp_codegen_add(L_5, L_6)), NULL);
 		// this.voiceClient.transport.SendFrame(compressed, flags, evNumber, id, this.channelId, targetPlayerId, reliable, this);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_7 = __this->___voiceClient_14;
+		NullCheck(L_7);
 		RuntimeObject* L_8 = L_7->___transport_0;
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_9 = ___compressed0;
 		uint8_t L_10 = ___flags1;
@@ -14084,9 +14277,11 @@ IL_0010:
 		int32_t L_13 = __this->___channelId_12;
 		int32_t L_14 = ___targetPlayerId2;
 		bool L_15 = ___reliable3;
+		NullCheck(L_8);
 		InterfaceActionInvoker8< ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093, uint8_t, uint8_t, uint8_t, int32_t, int32_t, bool, LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* >::Invoke(3 /* System.Void Photon.Voice.IVoiceTransport::SendFrame(System.ArraySegment`1<System.Byte>,Photon.Voice.FrameFlags,System.Byte,System.Byte,System.Int32,System.Int32,System.Boolean,Photon.Voice.LocalVoice) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_8, L_9, L_10, L_11, L_12, L_13, L_14, L_15, __this);
 		// this.sendSpacingProfile.Update(false, false);
 		SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* L_16 = __this->___sendSpacingProfile_22;
+		NullCheck(L_16);
 		SpacingProfile_Update_mEA18EC854FA12B439AEC4C8A35760FC4D9F3E8BB(L_16, (bool)0, (bool)0, NULL);
 		// if (this.DebugEchoMode)
 		bool L_17;
@@ -14102,6 +14297,7 @@ IL_0010:
 		uint8_t L_19 = __this->___evNumber_13;
 		int32_t L_20;
 		L_20 = Environment_get_TickCount_m183BFCF001E12849E3D898957F0B81FD88BA183C(NULL);
+		NullCheck(L_18);
 		Dictionary_2_set_Item_m6CBCFE0F9F0A7D394596C78B0E9995527E3A6217(L_18, L_19, L_20, Dictionary_2_set_Item_m6CBCFE0F9F0A7D394596C78B0E9995527E3A6217_RuntimeMethod_var);
 	}
 
@@ -14152,6 +14348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice_RemoveSelf_m1A612ACE8DBA1D5A9
 	{
 		// this.voiceClient.RemoveLocalVoice(this);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_1 = __this->___voiceClient_14;
+		NullCheck(L_1);
 		VoiceClient_RemoveLocalVoice_mB0E112274E868E8BAB3387773A03315BC62D3C16(L_1, __this, NULL);
 	}
 
@@ -14190,6 +14387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoice_Dispose_m6A147BF4D5D6C89D16BC
 	{
 		// this.encoder.Dispose();
 		RuntimeObject* L_2 = __this->___encoder_10;
+		NullCheck(L_2);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_2);
 	}
 
@@ -14307,10 +14505,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteVoiceOptions_SetOutput_m1D8335B78D
 		// this.Decoder = new RawCodec.Decoder<short>(new RawCodec.ShortToFloat(output as Action<FrameOut<float>>).Output);
 		Action_1_t4B5244A7D75171D94BEAE3074BB3625987C5AE84* L_2 = ___output0;
 		ShortToFloat_tEE15D54524E2D706141B7DBFC46859A384200864* L_3 = (ShortToFloat_tEE15D54524E2D706141B7DBFC46859A384200864*)il2cpp_codegen_object_new(ShortToFloat_tEE15D54524E2D706141B7DBFC46859A384200864_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
 		ShortToFloat__ctor_mFE98B54DB331ABD0287ABADFC7F0B9644C9674E6(L_3, L_2, NULL);
 		Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F* L_4 = (Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F*)il2cpp_codegen_object_new(Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
 		Action_1__ctor_m365880177D0AE8F9F96B8AC4F6BD3BBA77988983(L_4, L_3, (intptr_t)((void*)ShortToFloat_Output_mE31A61C49193E08F7B13B692729CD74EE0FF9730_RuntimeMethod_var), NULL);
 		Decoder_1_tEADF2E4D65A98FAD53916D27063AE9EE6997661F* L_5 = (Decoder_1_tEADF2E4D65A98FAD53916D27063AE9EE6997661F*)il2cpp_codegen_object_new(Decoder_1_tEADF2E4D65A98FAD53916D27063AE9EE6997661F_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
 		Decoder_1__ctor_m6634F02869CEE1E2F94F4655F9B238C3D1F18E34(L_5, L_4, Decoder_1__ctor_m6634F02869CEE1E2F94F4655F9B238C3D1F18E34_RuntimeMethod_var);
 		RemoteVoiceOptions_set_Decoder_m98CCC56B380ACB5A803DCE6971F73A6B19FB078E_inline(__this, L_5, NULL);
 		// return;
@@ -14358,6 +14559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteVoiceOptions_SetOutput_m2AAC568CDA
 		// this.Decoder = new RawCodec.Decoder<short>(output);
 		Action_1_t1535FA1EEC0208AC94BB6B3D53AE56A52908CF9F* L_2 = ___output0;
 		Decoder_1_tEADF2E4D65A98FAD53916D27063AE9EE6997661F* L_3 = (Decoder_1_tEADF2E4D65A98FAD53916D27063AE9EE6997661F*)il2cpp_codegen_object_new(Decoder_1_tEADF2E4D65A98FAD53916D27063AE9EE6997661F_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
 		Decoder_1__ctor_m6634F02869CEE1E2F94F4655F9B238C3D1F18E34(L_3, L_2, Decoder_1__ctor_m6634F02869CEE1E2F94F4655F9B238C3D1F18E34_RuntimeMethod_var);
 		RemoteVoiceOptions_set_Decoder_m98CCC56B380ACB5A803DCE6971F73A6B19FB078E_inline(__this, L_3, NULL);
 		// return;
@@ -14543,21 +14745,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteVoice__ctor_m5EA5852C7899034F239F0
 	{
 		// object disposeLock = new object();
 		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
 		__this->___disposeLock_8 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___disposeLock_8), (void*)L_0);
 		// SpacingProfile receiveSpacingProfile = new SpacingProfile(1000);
 		SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* L_1 = (SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F*)il2cpp_codegen_object_new(SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
 		SpacingProfile__ctor_m1208F1AACB921DD63D631D7C6C0325625AA2E431(L_1, ((int32_t)1000), NULL);
 		__this->___receiveSpacingProfile_10 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___receiveSpacingProfile_10), (void*)L_1);
 		// Queue<FrameBuffer> frameQueue = new Queue<FrameBuffer>();
 		Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403* L_2 = (Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403*)il2cpp_codegen_object_new(Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Queue_1__ctor_m2E744775979A0393C1BB9DDE5AD0E1BB1E620A62(L_2, Queue_1__ctor_m2E744775979A0393C1BB9DDE5AD0E1BB1E620A62_RuntimeMethod_var);
 		__this->___frameQueue_13 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___frameQueue_13), (void*)L_2);
 		// AutoResetEvent frameQueueReady = new AutoResetEvent(false);
 		AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_3 = (AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0*)il2cpp_codegen_object_new(AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
 		AutoResetEvent__ctor_mB7C8CD30C5BE11A2C8DB79B27593CF0C5FE82ADE(L_3, (bool)0, NULL);
 		__this->___frameQueueReady_14 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___frameQueueReady_14), (void*)L_3);
@@ -14591,6 +14797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteVoice__ctor_m5EA5852C7899034F239F0
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___voiceClient_12), (void*)L_6);
 		// this.threadingEnabled = voiceClient.ThreadingEnabled;
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_7 = __this->___voiceClient_12;
+		NullCheck(L_7);
 		bool L_8;
 		L_8 = VoiceClient_get_ThreadingEnabled_mB8CEEC7ABBCE27F34D7BF5F01BC8F3F5DA6C77E9_inline(L_7, NULL);
 		__this->___threadingEnabled_6 = L_8;
@@ -14627,10 +14834,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteVoice__ctor_m5EA5852C7899034F239F0
 		V_0 = L_17;
 		// voiceClient.logger.LogError(m);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_18 = __this->___voiceClient_12;
+		NullCheck(L_18);
 		RuntimeObject* L_19 = L_18->___logger_1;
 		String_t* L_20 = V_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_21;
 		L_21 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_19);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_19, L_20, L_21);
 		// disposed = true;
 		il2cpp_codegen_memory_barrier();
@@ -14651,6 +14860,7 @@ IL_00d0:
 	{
 		// voiceClient.logger.LogInfo(LogPrefix + ": Starting decode singlethreaded");
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_23 = __this->___voiceClient_12;
+		NullCheck(L_23);
 		RuntimeObject* L_24 = L_23->___logger_1;
 		String_t* L_25;
 		L_25 = RemoteVoice_get_LogPrefix_m78E27CBF8DA4824928C83FDC7A839C7B06FCE299_inline(__this, NULL);
@@ -14658,12 +14868,14 @@ IL_00d0:
 		L_26 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_25, _stringLiteralCB16D768473CEDB78E98441558F78F8D420B3230, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_27;
 		L_27 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_24);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_24, L_26, L_27);
 		// options.Decoder.Open(Info);
 		RuntimeObject* L_28;
 		L_28 = RemoteVoiceOptions_get_Decoder_mF10176ACC4A1599DD83BFC7F413B17FBA135F073_inline((&___options1), NULL);
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_29;
 		L_29 = RemoteVoice_get_Info_mDA764DF4B45A49F2B3B4EA47FCC2DC85FC51B4B8_inline(__this, NULL);
+		NullCheck(L_28);
 		InterfaceActionInvoker1< VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 >::Invoke(0 /* System.Void Photon.Voice.IDecoder::Open(Photon.Voice.VoiceInfo) */, IDecoder_tCC034CA8092CE47D7F630263F85089AEAC7568B8_il2cpp_TypeInfo_var, L_28, L_29);
 		return;
 	}
@@ -14672,8 +14884,10 @@ IL_0110:
 	{
 		// var t = new Thread(() => decodeThread());
 		ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_30 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+		NullCheck(L_30);
 		ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_30, __this, (intptr_t)((void*)RemoteVoice_U3C_ctorU3Eb__15_0_m3478F2AFF9C2CA4490818F013A8EBB0C1D1B1BCD_RuntimeMethod_var), NULL);
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_31 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+		NullCheck(L_31);
 		Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_31, L_30, NULL);
 		// Util.SetThreadName(t, "[PV] Dec" + shortName);
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_32 = L_31;
@@ -14683,6 +14897,7 @@ IL_0110:
 		L_34 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral7A3304D5EC7AE8CB922EB085A27115A82B68A06C, L_33, NULL);
 		Util_SetThreadName_mACD08B4DA0DD63FEFFB3B06BADAF9DA7435BEA34(L_32, L_34, NULL);
 		// t.Start();
+		NullCheck(L_32);
 		Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_32, NULL);
 		// }
 		return;
@@ -14704,33 +14919,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RemoteVoice_get_shortName_mEA08218B
 		// private string shortName { get { return "v#" + voiceId + "ch#" + voiceClient.channelStr(channelId) + "p#" + playerId; } }
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
+		NullCheck(L_1);
 		ArrayElementTypeCheck (L_1, _stringLiteral2F6E33E5ABF0EAEC66452478A7B58E9CEF605961);
-		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2F6E33E5ABF0EAEC66452478A7B58E9CEF605961);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2F6E33E5ABF0EAEC66452478A7B58E9CEF605961);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
 		uint8_t* L_3 = (&__this->___voiceId_5);
 		String_t* L_4;
 		L_4 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4(L_3, NULL);
+		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_4);
-		(L_2)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_4);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_2;
+		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, _stringLiteral4CD1A0EB6043912C11863597D34FD06F56DD06A1);
-		(L_5)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral4CD1A0EB6043912C11863597D34FD06F56DD06A1);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral4CD1A0EB6043912C11863597D34FD06F56DD06A1);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_5;
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_7 = __this->___voiceClient_12;
 		int32_t L_8 = __this->___channelId_2;
+		NullCheck(L_7);
 		String_t* L_9;
 		L_9 = VoiceClient_channelStr_m21FBE4504EF3EC4E80F892F92F2D919A626D36A8(L_7, L_8, NULL);
+		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, L_9);
-		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_9);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_9);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_6;
+		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, _stringLiteral958BC3C4A2654F05E5506400E477300F54ECCF79);
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral958BC3C4A2654F05E5506400E477300F54ECCF79);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral958BC3C4A2654F05E5506400E477300F54ECCF79);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
 		int32_t* L_12 = (&__this->___playerId_4);
 		String_t* L_13;
 		L_13 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_12, NULL);
+		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_13);
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_13);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_13);
 		String_t* L_14;
 		L_14 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_11, NULL);
 		return L_14;
@@ -14762,6 +14984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteVoice_ReceiveSpacingProfileStart_m
 	{
 		// receiveSpacingProfile.Start();
 		SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* L_0 = __this->___receiveSpacingProfile_10;
+		NullCheck(L_0);
 		SpacingProfile_Start_mE185AE834A6CCFDC465FDF1CAABA15BDED569FE3(L_0, NULL);
 		// }
 		return;
@@ -14773,6 +14996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RemoteVoice_get_ReceiveSpacingProfi
 	{
 		// public string ReceiveSpacingProfileDump { get { return receiveSpacingProfile.Dump; } }
 		SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* L_0 = __this->___receiveSpacingProfile_10;
+		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = SpacingProfile_get_Dump_m4EF64094ECC41A470EE08F5534506B888AD7E599(L_0, NULL);
 		return L_1;
@@ -14784,6 +15008,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RemoteVoice_get_ReceiveSpacingProfile
 	{
 		// public int ReceiveSpacingProfileMax { get { return receiveSpacingProfile.Max; } }
 		SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* L_0 = __this->___receiveSpacingProfile_10;
+		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = SpacingProfile_get_Max_m5A5CF5083CA8F2D19FC9DDF3CECBC7424A48CC6D(L_0, NULL);
 		return L_1;
@@ -14859,41 +15084,50 @@ IL_0028:
 	{
 		// this.voiceClient.logger.LogDebug(LogPrefix + " evNumer: " + evNumber + " playerVoice.lastEvNumber: " + this.lastEvNumber + " missing: " + missing + " r/b " + receivedBytes.Length);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_8 = __this->___voiceClient_12;
+		NullCheck(L_8);
 		RuntimeObject* L_9 = L_8->___logger_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
 		String_t* L_12;
 		L_12 = RemoteVoice_get_LogPrefix_m78E27CBF8DA4824928C83FDC7A839C7B06FCE299_inline(__this, NULL);
+		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_12);
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)L_12);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_12);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_11;
+		NullCheck(L_13);
 		ArrayElementTypeCheck (L_13, _stringLiteral19BFA7841FB0D7D7540BB32AD43AC4438CC0192C);
-		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral19BFA7841FB0D7D7540BB32AD43AC4438CC0192C);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral19BFA7841FB0D7D7540BB32AD43AC4438CC0192C);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = L_13;
 		String_t* L_15;
 		L_15 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&___evNumber1), NULL);
+		NullCheck(L_14);
 		ArrayElementTypeCheck (L_14, L_15);
-		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)L_15);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)L_15);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_14;
+		NullCheck(L_16);
 		ArrayElementTypeCheck (L_16, _stringLiteral839EC6CCA3B9941F7F56857D1BD28FF9CCBCB1E0);
-		(L_16)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral839EC6CCA3B9941F7F56857D1BD28FF9CCBCB1E0);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral839EC6CCA3B9941F7F56857D1BD28FF9CCBCB1E0);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16;
 		uint8_t* L_18 = (&__this->___lastEvNumber_11);
 		String_t* L_19;
 		L_19 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4(L_18, NULL);
+		NullCheck(L_17);
 		ArrayElementTypeCheck (L_17, L_19);
-		(L_17)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)L_19);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)L_19);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = L_17;
+		NullCheck(L_20);
 		ArrayElementTypeCheck (L_20, _stringLiteral55F8CC67C42893ED65826054BEEE68A31450E15B);
-		(L_20)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)_stringLiteral55F8CC67C42893ED65826054BEEE68A31450E15B);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)_stringLiteral55F8CC67C42893ED65826054BEEE68A31450E15B);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_21 = L_20;
 		String_t* L_22;
 		L_22 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
+		NullCheck(L_21);
 		ArrayElementTypeCheck (L_21, L_22);
-		(L_21)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(6), (String_t*)L_22);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)L_22);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = L_21;
+		NullCheck(L_23);
 		ArrayElementTypeCheck (L_23, _stringLiteral434BFD89D0C915DAEAAC772F3A03323EA88659E4);
-		(L_23)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(7), (String_t*)_stringLiteral434BFD89D0C915DAEAAC772F3A03323EA88659E4);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)_stringLiteral434BFD89D0C915DAEAAC772F3A03323EA88659E4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = L_23;
 		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_25 = ___receivedBytes0;
 		int32_t L_26;
@@ -14901,19 +15135,23 @@ IL_0028:
 		V_1 = L_26;
 		String_t* L_27;
 		L_27 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_24);
 		ArrayElementTypeCheck (L_24, L_27);
-		(L_24)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(8), (String_t*)L_27);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(8), (String_t*)L_27);
 		String_t* L_28;
 		L_28 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_24, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_29;
 		L_29 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_9);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(3 /* System.Void Photon.Voice.ILogger::LogDebug(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_9, L_28, L_29);
 		// this.voiceClient.FramesLost += missing;
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_30 = __this->___voiceClient_12;
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_31 = L_30;
+		NullCheck(L_31);
 		int32_t L_32;
 		L_32 = VoiceClient_get_FramesLost_m98466CCB14660851F20F985C1074A16BD49CBFDA_inline(L_31, NULL);
 		int32_t L_33 = V_0;
+		NullCheck(L_31);
 		VoiceClient_set_FramesLost_m119D64A228A6C8F31EE323A154B9E0ECA06C84F3_inline(L_31, ((int32_t)il2cpp_codegen_add(L_32, L_33)), NULL);
 		// this.lastEvNumber = evNumber;
 		uint8_t L_34 = ___evNumber1;
@@ -14928,43 +15166,52 @@ IL_00d3:
 	{
 		// this.voiceClient.logger.LogDebug(LogPrefix + " evNumer: " + evNumber + " playerVoice.lastEvNumber: " + this.lastEvNumber + " late: " + (255 - missing) + " r/b " + receivedBytes.Length);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_36 = __this->___voiceClient_12;
+		NullCheck(L_36);
 		RuntimeObject* L_37 = L_36->___logger_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_38 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_39 = L_38;
 		String_t* L_40;
 		L_40 = RemoteVoice_get_LogPrefix_m78E27CBF8DA4824928C83FDC7A839C7B06FCE299_inline(__this, NULL);
+		NullCheck(L_39);
 		ArrayElementTypeCheck (L_39, L_40);
-		(L_39)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)L_40);
+		(L_39)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_40);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_41 = L_39;
+		NullCheck(L_41);
 		ArrayElementTypeCheck (L_41, _stringLiteral19BFA7841FB0D7D7540BB32AD43AC4438CC0192C);
-		(L_41)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral19BFA7841FB0D7D7540BB32AD43AC4438CC0192C);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral19BFA7841FB0D7D7540BB32AD43AC4438CC0192C);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_42 = L_41;
 		String_t* L_43;
 		L_43 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&___evNumber1), NULL);
+		NullCheck(L_42);
 		ArrayElementTypeCheck (L_42, L_43);
-		(L_42)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)L_43);
+		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)L_43);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_44 = L_42;
+		NullCheck(L_44);
 		ArrayElementTypeCheck (L_44, _stringLiteral839EC6CCA3B9941F7F56857D1BD28FF9CCBCB1E0);
-		(L_44)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral839EC6CCA3B9941F7F56857D1BD28FF9CCBCB1E0);
+		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral839EC6CCA3B9941F7F56857D1BD28FF9CCBCB1E0);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_45 = L_44;
 		uint8_t* L_46 = (&__this->___lastEvNumber_11);
 		String_t* L_47;
 		L_47 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4(L_46, NULL);
+		NullCheck(L_45);
 		ArrayElementTypeCheck (L_45, L_47);
-		(L_45)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)L_47);
+		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)L_47);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_48 = L_45;
+		NullCheck(L_48);
 		ArrayElementTypeCheck (L_48, _stringLiteralF29F69921CE24AA8E4DCB78BC552A5E39DAE7AF2);
-		(L_48)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)_stringLiteralF29F69921CE24AA8E4DCB78BC552A5E39DAE7AF2);
+		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)_stringLiteralF29F69921CE24AA8E4DCB78BC552A5E39DAE7AF2);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_49 = L_48;
 		int32_t L_50 = V_0;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)255), L_50));
 		String_t* L_51;
 		L_51 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_49);
 		ArrayElementTypeCheck (L_49, L_51);
-		(L_49)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(6), (String_t*)L_51);
+		(L_49)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)L_51);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_52 = L_49;
+		NullCheck(L_52);
 		ArrayElementTypeCheck (L_52, _stringLiteral434BFD89D0C915DAEAAC772F3A03323EA88659E4);
-		(L_52)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(7), (String_t*)_stringLiteral434BFD89D0C915DAEAAC772F3A03323EA88659E4);
+		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)_stringLiteral434BFD89D0C915DAEAAC772F3A03323EA88659E4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_53 = L_52;
 		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_54 = ___receivedBytes0;
 		int32_t L_55;
@@ -14972,12 +15219,14 @@ IL_00d3:
 		V_1 = L_55;
 		String_t* L_56;
 		L_56 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_53);
 		ArrayElementTypeCheck (L_53, L_56);
-		(L_53)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(8), (String_t*)L_56);
+		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(8), (String_t*)L_56);
 		String_t* L_57;
 		L_57 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_53, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_58;
 		L_58 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_37);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(3 /* System.Void Photon.Voice.ILogger::LogDebug(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_37, L_57, L_58);
 	}
 
@@ -15034,6 +15283,7 @@ IL_0013:
 		RuntimeObject* L_3;
 		L_3 = RemoteVoiceOptions_get_Decoder_mF10176ACC4A1599DD83BFC7F413B17FBA135F073_inline(L_2, NULL);
 		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_4 = ___frame0;
+		NullCheck(L_3);
 		InterfaceActionInvoker1< FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* >::Invoke(2 /* System.Void Photon.Voice.IDecoder::Input(Photon.Voice.FrameBuffer&) */, IDecoder_tCC034CA8092CE47D7F630263F85089AEAC7568B8_il2cpp_TypeInfo_var, L_3, L_4);
 		return;
 	}
@@ -15094,6 +15344,7 @@ IL_0045_1:
 				FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_11 = ___frame0;
 				uint8_t L_12;
 				L_12 = FrameBuffer_get_Flags_mC466B9947228B6EC6A14AF461E2F35E14D8492D4_inline(L_11, NULL);
+				NullCheck(L_10);
 				SpacingProfile_Update_mEA18EC854FA12B439AEC4C8A35760FC4D9F3E8BB(L_10, (bool)0, (bool)((!(((uint32_t)((int32_t)((int32_t)L_12&8))) <= ((uint32_t)0)))? 1 : 0), NULL);
 				// lock (frameQueue)
 				Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403* L_13 = __this->___frameQueue_13;
@@ -15133,6 +15384,7 @@ IL_00ac_1:
 						Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403* L_17 = __this->___frameQueue_13;
 						FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_18 = ___frame0;
 						FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986 L_19 = (*(FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986*)L_18);
+						NullCheck(L_17);
 						Queue_1_Enqueue_m2DCDBA0DAB7AD6C03C2DD3CB083077DFC315380F(L_17, L_19, Queue_1_Enqueue_m2DCDBA0DAB7AD6C03C2DD3CB083077DFC315380F_RuntimeMethod_var);
 						// frame.Retain();
 						FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_20 = ___frame0;
@@ -15149,6 +15401,7 @@ IL_00ac_1:
 					{
 						// flushingFramePosInQueue = frameQueue.Count - 1;
 						Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403* L_23 = __this->___frameQueue_13;
+						NullCheck(L_23);
 						int32_t L_24;
 						L_24 = Queue_1_get_Count_m33CC4375B46FDD1C976652DABB70E82E17E87FD8_inline(L_23, Queue_1_get_Count_m33CC4375B46FDD1C976652DABB70E82E17E87FD8_RuntimeMethod_var);
 						__this->___flushingFramePosInQueue_15 = ((int32_t)il2cpp_codegen_subtract(L_24, 1));
@@ -15170,6 +15423,7 @@ IL_00ad_1:
 			{
 				// frameQueueReady.Set();
 				AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_25 = __this->___frameQueueReady_14;
+				NullCheck(L_25);
 				bool L_26;
 				L_26 = EventWaitHandle_Set_mDF98D67F214714A9590DF82A1C51D3D851281E4D(L_25, NULL);
 				// }
@@ -15261,6 +15515,7 @@ IL_0021_1:
 			{
 				// receiveSpacingProfile.Update(true, false);
 				SpacingProfile_t0483DDC2A366FC7433811227ED441A9A9A7DDB8F* L_5 = __this->___receiveSpacingProfile_10;
+				NullCheck(L_5);
 				SpacingProfile_Update_mEA18EC854FA12B439AEC4C8A35760FC4D9F3E8BB(L_5, (bool)1, (bool)0, NULL);
 				// lock (frameQueue)
 				Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403* L_6 = __this->___frameQueue_13;
@@ -15298,6 +15553,7 @@ IL_005d_1:
 					// frameQueue.Enqueue(nullFrame);
 					Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403* L_10 = __this->___frameQueue_13;
 					FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986 L_11 = __this->___nullFrame_16;
+					NullCheck(L_10);
 					Queue_1_Enqueue_m2DCDBA0DAB7AD6C03C2DD3CB083077DFC315380F(L_10, L_11, Queue_1_Enqueue_m2DCDBA0DAB7AD6C03C2DD3CB083077DFC315380F_RuntimeMethod_var);
 					// }
 					goto IL_005e_1;
@@ -15328,6 +15584,7 @@ IL_0062_1:
 			{
 				// frameQueueReady.Set();
 				AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_15 = __this->___frameQueueReady_14;
+				NullCheck(L_15);
 				bool L_16;
 				L_16 = EventWaitHandle_Set_mDF98D67F214714A9590DF82A1C51D3D851281E4D(L_15, NULL);
 				// }
@@ -15389,6 +15646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteVoice_decodeThread_m78EB2CEA3AF98B
 	{
 		// voiceClient.logger.LogInfo(LogPrefix + ": Starting decode thread");
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_0 = __this->___voiceClient_12;
+		NullCheck(L_0);
 		RuntimeObject* L_1 = L_0->___logger_1;
 		String_t* L_2;
 		L_2 = RemoteVoice_get_LogPrefix_m78E27CBF8DA4824928C83FDC7A839C7B06FCE299_inline(__this, NULL);
@@ -15396,6 +15654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteVoice_decodeThread_m78EB2CEA3AF98B
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_2, _stringLiteral01E0AF2E872CBB09CC50661D013DEBE94A52F5A2, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4;
 		L_4 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_1);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_1, L_3, L_4);
 		// var decoder = this.options.Decoder;
 		RemoteVoiceOptions_t480D399F5C1ECAFCFCA8A6EF906617D9F6B8F604* L_5 = (&__this->___options_1);
@@ -15459,6 +15718,7 @@ IL_0178:
 				{
 					// frameQueueReady.Close();
 					AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_11 = __this->___frameQueueReady_14;
+					NullCheck(L_11);
 					VirtualActionInvoker0::Invoke(11 /* System.Void System.Threading.WaitHandle::Close() */, L_11);
 					// lock (frameQueue)
 					Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403* L_12 = __this->___frameQueue_13;
@@ -15501,6 +15761,7 @@ IL_0197_1:
 						{
 							// frameQueue.Dequeue().Release();
 							Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403* L_16 = __this->___frameQueue_13;
+							NullCheck(L_16);
 							FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986 L_17;
 							L_17 = Queue_1_Dequeue_mA82DA56C9B2F509314BD0B33B1428AFDD51AB309(L_16, Queue_1_Dequeue_mA82DA56C9B2F509314BD0B33B1428AFDD51AB309_RuntimeMethod_var);
 							V_8 = L_17;
@@ -15511,6 +15772,7 @@ IL_01ab_1:
 						{
 							// while (frameQueue.Count > 0)
 							Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403* L_18 = __this->___frameQueue_13;
+							NullCheck(L_18);
 							int32_t L_19;
 							L_19 = Queue_1_get_Count_m33CC4375B46FDD1C976652DABB70E82E17E87FD8_inline(L_18, Queue_1_get_Count_m33CC4375B46FDD1C976652DABB70E82E17E87FD8_RuntimeMethod_var);
 							if ((((int32_t)L_19) > ((int32_t)0)))
@@ -15533,9 +15795,11 @@ IL_01c6:
 				{
 					// decoder.Dispose();
 					RuntimeObject* L_20 = V_0;
+					NullCheck(L_20);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_20);
 					// voiceClient.logger.LogInfo(LogPrefix + ": Exiting decode thread");
 					VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_21 = __this->___voiceClient_12;
+					NullCheck(L_21);
 					RuntimeObject* L_22 = L_21->___logger_1;
 					String_t* L_23;
 					L_23 = RemoteVoice_get_LogPrefix_m78E27CBF8DA4824928C83FDC7A839C7B06FCE299_inline(__this, NULL);
@@ -15543,6 +15807,7 @@ IL_01c6:
 					L_24 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_23, _stringLiteral342AA1DA2D947F82E3D36F878C9FA8CC8AE4206D, NULL);
 					ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_25;
 					L_25 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+					NullCheck(L_22);
 					InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_22, L_24, L_25);
 					// }
 					return;
@@ -15558,6 +15823,7 @@ IL_01c6:
 					RuntimeObject* L_26 = V_0;
 					VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_27;
 					L_27 = RemoteVoice_get_Info_mDA764DF4B45A49F2B3B4EA47FCC2DC85FC51B4B8_inline(__this, NULL);
+					NullCheck(L_26);
 					InterfaceActionInvoker1< VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 >::Invoke(0 /* System.Void Photon.Voice.IDecoder::Open(Photon.Voice.VoiceInfo) */, IDecoder_tCC034CA8092CE47D7F630263F85089AEAC7568B8_il2cpp_TypeInfo_var, L_26, L_27);
 					goto IL_0103_2;
 				}
@@ -15566,6 +15832,7 @@ IL_0042_2:
 				{
 					// frameQueueReady.WaitOne(); // Wait until data is pushed to the queue or Dispose signals.
 					AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_28 = __this->___frameQueueReady_14;
+					NullCheck(L_28);
 					bool L_29;
 					L_29 = VirtualFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.Threading.WaitHandle::WaitOne() */, L_28);
 				}
@@ -15653,6 +15920,7 @@ IL_0099_3:
 						{
 							// if (frameQueue.Count > df)
 							Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403* L_39 = __this->___frameQueue_13;
+							NullCheck(L_39);
 							int32_t L_40;
 							L_40 = Queue_1_get_Count_m33CC4375B46FDD1C976652DABB70E82E17E87FD8_inline(L_39, Queue_1_get_Count_m33CC4375B46FDD1C976652DABB70E82E17E87FD8_RuntimeMethod_var);
 							int32_t L_41 = V_5;
@@ -15664,6 +15932,7 @@ IL_0099_3:
 						{
 							// f = frameQueue.Dequeue();
 							Queue_1_t3AC3CDD26849ACC62B00D6A062FBF8E4C3682403* L_42 = __this->___frameQueue_13;
+							NullCheck(L_42);
 							FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986 L_43;
 							L_43 = Queue_1_Dequeue_mA82DA56C9B2F509314BD0B33B1428AFDD51AB309(L_42, Queue_1_Dequeue_mA82DA56C9B2F509314BD0B33B1428AFDD51AB309_RuntimeMethod_var);
 							V_1 = L_43;
@@ -15719,6 +15988,7 @@ IL_00e9_2:
 				{
 					// decoder.Input(ref f);
 					RuntimeObject* L_47 = V_0;
+					NullCheck(L_47);
 					InterfaceActionInvoker1< FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* >::Invoke(2 /* System.Void Photon.Voice.IDecoder::Input(Photon.Voice.FrameBuffer&) */, IDecoder_tCC034CA8092CE47D7F630263F85089AEAC7568B8_il2cpp_TypeInfo_var, L_47, (&V_1));
 					// f.Release();
 					FrameBuffer_Release_m8EEF2FAF12E3ACFAE456CC3CA5C04C3B968BBFD2((&V_1), NULL);
@@ -15758,6 +16028,7 @@ CATCH_0115_1:
 					V_6 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 					// voiceClient.logger.LogError(LogPrefix + ": Exception in decode thread: " + e);
 					VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_49 = __this->___voiceClient_12;
+					NullCheck(L_49);
 					RuntimeObject* L_50 = L_49->___logger_1;
 					String_t* L_51;
 					L_51 = RemoteVoice_get_LogPrefix_m78E27CBF8DA4824928C83FDC7A839C7B06FCE299_inline(__this, NULL);
@@ -15786,6 +16057,7 @@ CATCH_0115_1:
 
 IL_0136_1:
 				{
+					NullCheck(G_B24_0);
 					String_t* L_54;
 					L_54 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B24_0);
 					G_B25_0 = L_54;
@@ -15800,6 +16072,7 @@ IL_013b_1:
 					L_55 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(G_B25_2, G_B25_1, G_B25_0, NULL);
 					ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_56;
 					L_56 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var)));
+					NullCheck(G_B25_3);
 					InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), G_B25_3, L_55, L_56);
 					// throw e;
 					Exception_t* L_57 = V_6;
@@ -15837,6 +16110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteVoice_removeAndDispose_mFA5904757A
 		RemoteVoiceOptions_t480D399F5C1ECAFCFCA8A6EF906617D9F6B8F604* L_2 = (&__this->___options_1);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3;
 		L_3 = RemoteVoiceOptions_get_OnRemoteVoiceRemoveAction_m019D282B2C9C1A5A5A0DE0E03C586AF58A571610_inline(L_2, NULL);
+		NullCheck(L_3);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_3, NULL);
 	}
 
@@ -15885,6 +16159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteVoice_Dispose_mD1F4C4199B6ADE655B1
 		RemoteVoiceOptions_t480D399F5C1ECAFCFCA8A6EF906617D9F6B8F604* L_3 = (&__this->___options_1);
 		RuntimeObject* L_4;
 		L_4 = RemoteVoiceOptions_get_Decoder_mF10176ACC4A1599DD83BFC7F413B17FBA135F073_inline(L_3, NULL);
+		NullCheck(L_4);
 		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_4);
 		return;
 	}
@@ -15939,6 +16214,7 @@ IL_006a:
 				__this->___disposed_7 = (bool)1;
 				// frameQueueReady.Set(); // let decodeThread dispose resporces and exit
 				AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_10 = __this->___frameQueueReady_14;
+				NullCheck(L_10);
 				bool L_11;
 				L_11 = EventWaitHandle_Set_mDF98D67F214714A9590DF82A1C51D3D851281E4D(L_10, NULL);
 			}
@@ -16120,11 +16396,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoiceAudioDummy__ctor_m500E2EBCA673
 		LocalVoice__ctor_m5D3248AE19E830581367E9B72A83E0DA47E5D337(__this, NULL);
 		// voiceDetector = new AudioUtil.VoiceDetectorDummy();
 		VoiceDetectorDummy_t72558A435F4B35E5D0B025A3232BEDCEE4C5697D* L_0 = (VoiceDetectorDummy_t72558A435F4B35E5D0B025A3232BEDCEE4C5697D*)il2cpp_codegen_object_new(VoiceDetectorDummy_t72558A435F4B35E5D0B025A3232BEDCEE4C5697D_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		VoiceDetectorDummy__ctor_m5A39825C35A674D8A1FD8386619730554FE20D6F(L_0, NULL);
 		__this->___voiceDetector_23 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___voiceDetector_23), (void*)L_0);
 		// levelMeter = new AudioUtil.LevelMeterDummy();
 		LevelMeterDummy_tDEBB93FD178AAD93CE2660E6EEE74CCA0C8BDD0A* L_1 = (LevelMeterDummy_tDEBB93FD178AAD93CE2660E6EEE74CCA0C8BDD0A*)il2cpp_codegen_object_new(LevelMeterDummy_tDEBB93FD178AAD93CE2660E6EEE74CCA0C8BDD0A_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
 		LevelMeterDummy__ctor_m558F4620D936B6FBBA1C3D7E8FFFD769C070E02D(L_1, NULL);
 		__this->___levelMeter_24 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___levelMeter_24), (void*)L_1);
@@ -16144,6 +16422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoiceAudioDummy__cctor_mB4475DA8906
 	{
 		// public static LocalVoiceAudioDummy Dummy = new LocalVoiceAudioDummy();
 		LocalVoiceAudioDummy_tC7EF79384B22A912904ACCB8453D670A35FB2C3F* L_0 = (LocalVoiceAudioDummy_tC7EF79384B22A912904ACCB8453D670A35FB2C3F*)il2cpp_codegen_object_new(LocalVoiceAudioDummy_tC7EF79384B22A912904ACCB8453D670A35FB2C3F_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		LocalVoiceAudioDummy__ctor_m500E2EBCA673CEAACFE892CDC110651BFB93AC70(L_0, NULL);
 		((LocalVoiceAudioDummy_tC7EF79384B22A912904ACCB8453D670A35FB2C3F_StaticFields*)il2cpp_codegen_static_fields_for(LocalVoiceAudioDummy_tC7EF79384B22A912904ACCB8453D670A35FB2C3F_il2cpp_TypeInfo_var))->___Dummy_25 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalVoiceAudioDummy_tC7EF79384B22A912904ACCB8453D670A35FB2C3F_StaticFields*)il2cpp_codegen_static_fields_for(LocalVoiceAudioDummy_tC7EF79384B22A912904ACCB8453D670A35FB2C3F_il2cpp_TypeInfo_var))->___Dummy_25), (void*)L_0);
@@ -16187,6 +16466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoiceAudioFloat__ctor_m8B8904660D01
 		int32_t L_9;
 		L_9 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline(L_8, NULL);
 		LevelMeterFloat_tE1F79A7DFBAC652FE68C4D9A338C2F4FEC594E5C* L_10 = (LevelMeterFloat_tE1F79A7DFBAC652FE68C4D9A338C2F4FEC594E5C*)il2cpp_codegen_object_new(LevelMeterFloat_tE1F79A7DFBAC652FE68C4D9A338C2F4FEC594E5C_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
 		LevelMeterFloat__ctor_mE0A584CF788DCB5BD4713D50EE9923F52D8B9409(L_10, L_7, L_9, NULL);
 		((LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14*)__this)->___levelMeter_37 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14*)__this)->___levelMeter_37), (void*)L_10);
@@ -16198,6 +16478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoiceAudioFloat__ctor_m8B8904660D01
 		int32_t L_14;
 		L_14 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline(L_13, NULL);
 		VoiceDetectorFloat_t99E860089B0D9426501C25E081F9695BB91E416D* L_15 = (VoiceDetectorFloat_t99E860089B0D9426501C25E081F9695BB91E416D*)il2cpp_codegen_object_new(VoiceDetectorFloat_t99E860089B0D9426501C25E081F9695BB91E416D_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
 		VoiceDetectorFloat__ctor_m001D2033EEC8BF5CE55619A8A2195498F1D3E9E6(L_15, L_12, L_14, NULL);
 		((LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14*)__this)->___voiceDetector_35 = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14*)__this)->___voiceDetector_35), (void*)L_15);
@@ -16244,6 +16525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoiceAudioShort__ctor_m7FB64A82FC79
 		int32_t L_9;
 		L_9 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline(L_8, NULL);
 		LevelMeterShort_tFA332E4DBBDF0F04F21058B0B1C2093FB8A77FD0* L_10 = (LevelMeterShort_tFA332E4DBBDF0F04F21058B0B1C2093FB8A77FD0*)il2cpp_codegen_object_new(LevelMeterShort_tFA332E4DBBDF0F04F21058B0B1C2093FB8A77FD0_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
 		LevelMeterShort__ctor_m052D37BD55E12C250D8B996312CD0F93F4622976(L_10, L_7, L_9, NULL);
 		((LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E*)__this)->___levelMeter_37 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E*)__this)->___levelMeter_37), (void*)L_10);
@@ -16255,6 +16537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocalVoiceAudioShort__ctor_m7FB64A82FC79
 		int32_t L_14;
 		L_14 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline(L_13, NULL);
 		VoiceDetectorShort_tAAE03BACDFA607C9642B245289A8EE9878F27C2E* L_15 = (VoiceDetectorShort_tAAE03BACDFA607C9642B245289A8EE9878F27C2E*)il2cpp_codegen_object_new(VoiceDetectorShort_tAAE03BACDFA607C9642B245289A8EE9878F27C2E_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
 		VoiceDetectorShort__ctor_m56318C396C1C50EEBAA08946E31FCCC7D2F3B9E2(L_15, L_12, L_14, NULL);
 		((LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E*)__this)->___voiceDetector_35 = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&((LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E*)__this)->___voiceDetector_35), (void*)L_15);
@@ -16352,6 +16635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VoiceClient_get_FramesSent_m1BA324125
 		V_0 = 0;
 		// public int FramesSent { get { int x = 0; foreach (var v in this.localVoices) { x += v.Value.FramesSent; } return x; } }
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_0 = __this->___localVoices_16;
+		NullCheck(L_0);
 		Enumerator_t99305A01FF4186C63881B2D82569A94E2C2C7508 L_1;
 		L_1 = Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F(L_0, Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F_RuntimeMethod_var);
 		V_1 = L_1;
@@ -16382,6 +16666,7 @@ IL_0010_1:
 				int32_t L_3 = V_0;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_4;
 				L_4 = KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_inline((&V_2), KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_RuntimeMethod_var);
+				NullCheck(L_4);
 				int32_t L_5;
 				L_5 = LocalVoice_get_FramesSent_m31EC890BD57564C918D0288CBF59888D70650DD5_inline(L_4, NULL);
 				V_0 = ((int32_t)il2cpp_codegen_add(L_3, L_5));
@@ -16437,6 +16722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VoiceClient_get_FramesSentBytes_mAE27
 		V_0 = 0;
 		// public int FramesSentBytes { get { int x = 0; foreach (var v in this.localVoices) { x += v.Value.FramesSentBytes; } return x; } }
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_0 = __this->___localVoices_16;
+		NullCheck(L_0);
 		Enumerator_t99305A01FF4186C63881B2D82569A94E2C2C7508 L_1;
 		L_1 = Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F(L_0, Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F_RuntimeMethod_var);
 		V_1 = L_1;
@@ -16467,6 +16753,7 @@ IL_0010_1:
 				int32_t L_3 = V_0;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_4;
 				L_4 = KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_inline((&V_2), KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_RuntimeMethod_var);
+				NullCheck(L_4);
 				int32_t L_5;
 				L_5 = LocalVoice_get_FramesSentBytes_m303B8432949389B845AE78B7D0A470F0ACF347A4_inline(L_4, NULL);
 				V_0 = ((int32_t)il2cpp_codegen_add(L_3, L_5));
@@ -16611,15 +16898,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VoiceClient_get_LocalVoices_mB
 	{
 		// var res = new LocalVoice[this.localVoices.Count];
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_0 = __this->___localVoices_16;
+		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Dictionary_2_get_Count_m2206D49E3F526E6B86DA67AC514CC463058932B4(L_0, Dictionary_2_get_Count_m2206D49E3F526E6B86DA67AC514CC463058932B4_RuntimeMethod_var);
 		LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA* L_2 = (LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA*)(LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA*)SZArrayNew(LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA_il2cpp_TypeInfo_var, (uint32_t)L_1);
 		V_0 = L_2;
 		// this.localVoices.Values.CopyTo(res, 0);
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_3 = __this->___localVoices_16;
+		NullCheck(L_3);
 		ValueCollection_t6E42A2E5E0F6194E8C090240E943C8984864B88A* L_4;
 		L_4 = Dictionary_2_get_Values_m89AE66F94ABC4D80ABEE76B2A7E57065532C82F5(L_3, Dictionary_2_get_Values_m89AE66F94ABC4D80ABEE76B2A7E57065532C82F5_RuntimeMethod_var);
 		LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA* L_5 = V_0;
+		NullCheck(L_4);
 		ValueCollection_CopyTo_mFB48F34A602C5CBB6ED3C59575C54B9D5674CCB7(L_4, L_5, 0, ValueCollection_CopyTo_mFB48F34A602C5CBB6ED3C59575C54B9D5674CCB7_RuntimeMethod_var);
 		// return res;
 		LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA* L_6 = V_0;
@@ -16644,6 +16934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VoiceClient_LocalVoicesInChann
 		// if (this.localVoicesPerChannel.TryGetValue(channelId, out channelVoices))
 		Dictionary_2_t773C42CA748B22AFB473FAB0E78E4607520F48A6* L_0 = __this->___localVoicesPerChannel_17;
 		int32_t L_1 = ___channelId0;
+		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_TryGetValue_m9387DB5F8E6D2D41E2698F484A3AE67574BB7BB0(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_m9387DB5F8E6D2D41E2698F484A3AE67574BB7BB0_RuntimeMethod_var);
 		if (!L_2)
@@ -16654,6 +16945,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VoiceClient_LocalVoicesInChann
 	{
 		// var res = new LocalVoice[channelVoices.Count];
 		List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF* L_3 = V_0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = List_1_get_Count_m14182FAFAC5B5402F127B964854658FB84824FE2_inline(L_3, List_1_get_Count_m14182FAFAC5B5402F127B964854658FB84824FE2_RuntimeMethod_var);
 		LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA* L_5 = (LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA*)(LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA*)SZArrayNew(LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA_il2cpp_TypeInfo_var, (uint32_t)L_4);
@@ -16661,6 +16953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VoiceClient_LocalVoicesInChann
 		// channelVoices.CopyTo(res, 0);
 		List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF* L_6 = V_0;
 		LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA* L_7 = V_1;
+		NullCheck(L_6);
 		List_1_CopyTo_mF1A6671F8E03BD44CC2D20AE73342E36570DF488(L_6, L_7, 0, List_1_CopyTo_mF1A6671F8E03BD44CC2D20AE73342E36570DF488_RuntimeMethod_var);
 		// return res;
 		LocalVoiceU5BU5D_tF1C57A01D6762AA94A764099108757F34E244DDA* L_8 = V_1;
@@ -16685,8 +16978,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VoiceClient_get_RemoteVoiceInf
 	}
 	{
 		U3Cget_RemoteVoiceInfosU3Ed__44_tA32C854C7DA15F56C64458D8DE4B6DA74EA83378* L_0 = (U3Cget_RemoteVoiceInfosU3Ed__44_tA32C854C7DA15F56C64458D8DE4B6DA74EA83378*)il2cpp_codegen_object_new(U3Cget_RemoteVoiceInfosU3Ed__44_tA32C854C7DA15F56C64458D8DE4B6DA74EA83378_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		U3Cget_RemoteVoiceInfosU3Ed__44__ctor_mC1849C8208E85F0137467EEF1068C0A4D9425E7B(L_0, ((int32_t)-2), NULL);
 		U3Cget_RemoteVoiceInfosU3Ed__44_tA32C854C7DA15F56C64458D8DE4B6DA74EA83378* L_1 = L_0;
+		NullCheck(L_1);
 		L_1->___U3CU3E4__this_3 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
 		return L_1;
@@ -16733,6 +17028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_LogSpacingProfiles_m919F0E64
 	{
 		// foreach (var voice in this.localVoices)
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_0 = __this->___localVoices_16;
+		NullCheck(L_0);
 		Enumerator_t99305A01FF4186C63881B2D82569A94E2C2C7508 L_1;
 		L_1 = Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F(L_0, Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F_RuntimeMethod_var);
 		V_0 = L_1;
@@ -16762,21 +17058,25 @@ IL_000e_1:
 				// voice.Value.SendSpacingProfileStart(); // in case it's not started yet
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_3;
 				L_3 = KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_inline((&V_1), KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_RuntimeMethod_var);
+				NullCheck(L_3);
 				LocalVoice_SendSpacingProfileStart_m44940882FC9626FBD6142BAE63CE3E38FD4EFD35(L_3, NULL);
 				// this.logger.LogInfo(voice.Value.LogPrefix + " ev. prof.: " + voice.Value.SendSpacingProfileDump);
 				RuntimeObject* L_4 = __this->___logger_1;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_5;
 				L_5 = KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_inline((&V_1), KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_RuntimeMethod_var);
+				NullCheck(L_5);
 				String_t* L_6;
 				L_6 = LocalVoice_get_LogPrefix_mBD379944D1F0172B0B6A29C02D115E0B07F8F0C8(L_5, NULL);
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_7;
 				L_7 = KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_inline((&V_1), KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_RuntimeMethod_var);
+				NullCheck(L_7);
 				String_t* L_8;
 				L_8 = LocalVoice_get_SendSpacingProfileDump_m2DE1CAF5D945A21D877A073908D05E3983800F2E(L_7, NULL);
 				String_t* L_9;
 				L_9 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_6, _stringLiteralF43F5954CF21AE7D42DAE7FDBE921936809F33DB, L_8, NULL);
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10;
 				L_10 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+				NullCheck(L_4);
 				InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_4, L_9, L_10);
 			}
 
@@ -16804,6 +17104,7 @@ IL_006d:
 	{
 		// foreach (var playerVoices in this.remoteVoices)
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_12 = __this->___remoteVoices_18;
+		NullCheck(L_12);
 		Enumerator_tEEBB6101232F5C5A4FDD92AD5E7B3470740C6B00 L_13;
 		L_13 = Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06(L_12, Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06_RuntimeMethod_var);
 		V_2 = L_13;
@@ -16833,6 +17134,7 @@ IL_007b_1:
 				// foreach (var voice in playerVoices.Value)
 				Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_15;
 				L_15 = KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_inline((&V_3), KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_RuntimeMethod_var);
+				NullCheck(L_15);
 				Enumerator_tB4FBF449AB6F9379B1A1BF012AF33E406E1E2DD6 L_16;
 				L_16 = Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75(L_15, Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75_RuntimeMethod_var);
 				V_4 = L_16;
@@ -16862,21 +17164,25 @@ IL_0093_2:
 						// voice.Value.ReceiveSpacingProfileStart(); // in case it's not started yet
 						RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_18;
 						L_18 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_5), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+						NullCheck(L_18);
 						RemoteVoice_ReceiveSpacingProfileStart_mFA30A515FA8F9C8B858076FC4574845DEC0D9571(L_18, NULL);
 						// this.logger.LogInfo(voice.Value.LogPrefix + " ev. prof.: " + voice.Value.ReceiveSpacingProfileDump);
 						RuntimeObject* L_19 = __this->___logger_1;
 						RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_20;
 						L_20 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_5), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+						NullCheck(L_20);
 						String_t* L_21;
 						L_21 = RemoteVoice_get_LogPrefix_m78E27CBF8DA4824928C83FDC7A839C7B06FCE299_inline(L_20, NULL);
 						RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_22;
 						L_22 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_5), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+						NullCheck(L_22);
 						String_t* L_23;
 						L_23 = RemoteVoice_get_ReceiveSpacingProfileDump_m4123E6FA8B9733A04B94D95BDC8A5AA311659322(L_22, NULL);
 						String_t* L_24;
 						L_24 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_21, _stringLiteralF43F5954CF21AE7D42DAE7FDBE921936809F33DB, L_23, NULL);
 						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_25;
 						L_25 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+						NullCheck(L_19);
 						InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_19, L_24, L_25);
 					}
 
@@ -16964,71 +17270,85 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_LogStats_m71ACAD85BD89385BB1
 		RuntimeObject* L_4 = __this->___logger_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_5;
+		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, _stringLiteral18FD1B8FDFD7C7C3B27245771E8F8D55CB954653);
-		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral18FD1B8FDFD7C7C3B27245771E8F8D55CB954653);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral18FD1B8FDFD7C7C3B27245771E8F8D55CB954653);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6;
 		String_t* L_8;
 		L_8 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
+		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
-		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_8);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_8);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_7;
+		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, _stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62);
-		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_9;
 		String_t* L_11;
 		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, L_11);
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_11);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_11);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_10;
+		NullCheck(L_12);
 		ArrayElementTypeCheck (L_12, _stringLiteral746515BB60DB24A53499870A86D28FF7244B3B64);
-		(L_12)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral746515BB60DB24A53499870A86D28FF7244B3B64);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral746515BB60DB24A53499870A86D28FF7244B3B64);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_12;
 		int32_t L_14 = V_0;
 		int32_t L_15 = V_1;
 		V_4 = ((int32_t)il2cpp_codegen_subtract(L_14, L_15));
 		String_t* L_16;
 		L_16 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
+		NullCheck(L_13);
 		ArrayElementTypeCheck (L_13, L_16);
-		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_16);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_16);
 		String_t* L_17;
 		L_17 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_13, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18;
 		L_18 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_4);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_4, L_17, L_18);
 		// this.logger.LogInfo("[PV] FrameBuffer stats Pinned: " + pp + " - " + pu + " = " + (pp - pu));
 		RuntimeObject* L_19 = __this->___logger_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_21 = L_20;
+		NullCheck(L_21);
 		ArrayElementTypeCheck (L_21, _stringLiteral92EF5393CCE3455EA5B0497DAA69A91DCC6D65B4);
-		(L_21)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral92EF5393CCE3455EA5B0497DAA69A91DCC6D65B4);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral92EF5393CCE3455EA5B0497DAA69A91DCC6D65B4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = L_21;
 		String_t* L_23;
 		L_23 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		NullCheck(L_22);
 		ArrayElementTypeCheck (L_22, L_23);
-		(L_22)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_23);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_23);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = L_22;
+		NullCheck(L_24);
 		ArrayElementTypeCheck (L_24, _stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62);
-		(L_24)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25 = L_24;
 		String_t* L_26;
 		L_26 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
+		NullCheck(L_25);
 		ArrayElementTypeCheck (L_25, L_26);
-		(L_25)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_26);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_26);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_27 = L_25;
+		NullCheck(L_27);
 		ArrayElementTypeCheck (L_27, _stringLiteral746515BB60DB24A53499870A86D28FF7244B3B64);
-		(L_27)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral746515BB60DB24A53499870A86D28FF7244B3B64);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral746515BB60DB24A53499870A86D28FF7244B3B64);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = L_27;
 		int32_t L_29 = V_2;
 		int32_t L_30 = V_3;
 		V_4 = ((int32_t)il2cpp_codegen_subtract(L_29, L_30));
 		String_t* L_31;
 		L_31 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
+		NullCheck(L_28);
 		ArrayElementTypeCheck (L_28, L_31);
-		(L_28)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_31);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_31);
 		String_t* L_32;
 		L_32 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_28, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_33;
 		L_33 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_19);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_19, L_32, L_33);
 		// }
 		return;
@@ -17068,9 +17388,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_SetRemoteVoiceDelayFrames_m4
 		Dictionary_2_t1D92928E7113014048919339CEDEDE36D840D433* L_0 = __this->___remoteVoiceDelayFrames_11;
 		int32_t L_1 = ___codec0;
 		int32_t L_2 = ___delayFrames1;
+		NullCheck(L_0);
 		Dictionary_2_set_Item_mF4DB8CBACA1A51BDA166F235774E1A87BB67187F(L_0, L_1, L_2, Dictionary_2_set_Item_mF4DB8CBACA1A51BDA166F235774E1A87BB67187F_RuntimeMethod_var);
 		// foreach (var playerVoices in this.remoteVoices)
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_3 = __this->___remoteVoices_18;
+		NullCheck(L_3);
 		Enumerator_tEEBB6101232F5C5A4FDD92AD5E7B3470740C6B00 L_4;
 		L_4 = Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06(L_3, Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06_RuntimeMethod_var);
 		V_0 = L_4;
@@ -17100,6 +17422,7 @@ IL_001b_1:
 				// foreach (var voice in playerVoices.Value)
 				Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_6;
 				L_6 = KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_inline((&V_1), KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_RuntimeMethod_var);
+				NullCheck(L_6);
 				Enumerator_tB4FBF449AB6F9379B1A1BF012AF33E406E1E2DD6 L_7;
 				L_7 = Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75(L_6, Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75_RuntimeMethod_var);
 				V_2 = L_7;
@@ -17130,6 +17453,7 @@ IL_0032_2:
 						int32_t L_9 = ___codec0;
 						RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_10;
 						L_10 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_3), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+						NullCheck(L_10);
 						VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_11;
 						L_11 = RemoteVoice_get_Info_mDA764DF4B45A49F2B3B4EA47FCC2DC85FC51B4B8_inline(L_10, NULL);
 						V_4 = L_11;
@@ -17145,6 +17469,7 @@ IL_0032_2:
 						RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_13;
 						L_13 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_3), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
 						int32_t L_14 = ___delayFrames1;
+						NullCheck(L_13);
 						RemoteVoice_set_DelayFrames_mF3A78B86EF30BA5660B5F7C5A380DE99CB9B68D0_inline(L_13, L_14, NULL);
 					}
 
@@ -17219,26 +17544,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient__ctor_m9D83DED9D14E2A2B0145E
 		__this->___U3CThreadingEnabledU3Ek__BackingField_2 = (bool)1;
 		// private Dictionary<Codec, int> remoteVoiceDelayFrames = new Dictionary<Codec, int>();
 		Dictionary_2_t1D92928E7113014048919339CEDEDE36D840D433* L_0 = (Dictionary_2_t1D92928E7113014048919339CEDEDE36D840D433*)il2cpp_codegen_object_new(Dictionary_2_t1D92928E7113014048919339CEDEDE36D840D433_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		Dictionary_2__ctor_m5053E55AB989BABAFD7EA38895D5759C2AAA83A4(L_0, Dictionary_2__ctor_m5053E55AB989BABAFD7EA38895D5759C2AAA83A4_RuntimeMethod_var);
 		__this->___remoteVoiceDelayFrames_11 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___remoteVoiceDelayFrames_11), (void*)L_0);
 		// private Dictionary<byte, LocalVoice> localVoices = new Dictionary<byte, LocalVoice>();
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_1 = (Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6*)il2cpp_codegen_object_new(Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
 		Dictionary_2__ctor_m74312B451107DE95EC8FE1F802A0F08660957183(L_1, Dictionary_2__ctor_m74312B451107DE95EC8FE1F802A0F08660957183_RuntimeMethod_var);
 		__this->___localVoices_16 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___localVoices_16), (void*)L_1);
 		// private Dictionary<int, List<LocalVoice>> localVoicesPerChannel = new Dictionary<int, List<LocalVoice>>();
 		Dictionary_2_t773C42CA748B22AFB473FAB0E78E4607520F48A6* L_2 = (Dictionary_2_t773C42CA748B22AFB473FAB0E78E4607520F48A6*)il2cpp_codegen_object_new(Dictionary_2_t773C42CA748B22AFB473FAB0E78E4607520F48A6_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Dictionary_2__ctor_mF57221490FB421330074CBB059D8D3A67343CD7B(L_2, Dictionary_2__ctor_mF57221490FB421330074CBB059D8D3A67343CD7B_RuntimeMethod_var);
 		__this->___localVoicesPerChannel_17 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___localVoicesPerChannel_17), (void*)L_2);
 		// private Dictionary<int, Dictionary<byte, RemoteVoice>> remoteVoices = new Dictionary<int, Dictionary<byte, RemoteVoice>>();
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_3 = (Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A*)il2cpp_codegen_object_new(Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
 		Dictionary_2__ctor_m094A594AD785024301725EDBB9FFEA362EDAF045(L_3, Dictionary_2__ctor_m094A594AD785024301725EDBB9FFEA362EDAF045_RuntimeMethod_var);
 		__this->___remoteVoices_18 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___remoteVoices_18), (void*)L_3);
 		// Random rnd = new Random();
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_4 = (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8*)il2cpp_codegen_object_new(Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
 		Random__ctor_m151183BD4F021499A98B9DE8502DAD4B12DD16AC(L_4, NULL);
 		__this->___rnd_19 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___rnd_19), (void*)L_4);
@@ -17309,6 +17639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_Service_m315563438957990A651
 	{
 		// foreach (var v in localVoices)
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_0 = __this->___localVoices_16;
+		NullCheck(L_0);
 		Enumerator_t99305A01FF4186C63881B2D82569A94E2C2C7508 L_1;
 		L_1 = Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F(L_0, Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F_RuntimeMethod_var);
 		V_0 = L_1;
@@ -17338,6 +17669,7 @@ IL_000e_1:
 				// v.Value.service();
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_3;
 				L_3 = KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_inline((&V_1), KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_RuntimeMethod_var);
+				NullCheck(L_3);
 				VirtualActionInvoker0::Invoke(5 /* System.Void Photon.Voice.LocalVoice::service() */, L_3);
 			}
 
@@ -17399,6 +17731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A8
 		Func_3_t5F6FA9AD9B8961AB03DA94B6316304FC26319622* L_2 = ___voiceFactory1;
 		uint8_t L_3 = V_0;
 		int32_t L_4 = ___channelId0;
+		NullCheck(L_2);
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_5;
 		L_5 = Func_3_Invoke_mDD1D56425FB59D1D4114BA002A8DC1F5B344F863_inline(L_2, L_3, L_4, NULL);
 		V_1 = L_5;
@@ -17418,9 +17751,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A8
 		// this.logger.LogInfo(v.LogPrefix + " added enc: " + v.Info.ToString());
 		RuntimeObject* L_10 = __this->___logger_1;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_11 = V_1;
+		NullCheck(L_11);
 		String_t* L_12;
 		L_12 = LocalVoice_get_LogPrefix_mBD379944D1F0172B0B6A29C02D115E0B07F8F0C8(L_11, NULL);
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_13 = V_1;
+		NullCheck(L_13);
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_14;
 		L_14 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_13, NULL);
 		V_2 = L_14;
@@ -17430,6 +17765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A8
 		L_16 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_12, _stringLiteralAE599289195E08712C5C92764B657B5C0628CB9E, L_15, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_17;
 		L_17 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_10);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_10, L_16, L_17);
 		// return v;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_18 = V_1;
@@ -17456,23 +17792,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A8
 	U3CU3Ec__DisplayClass53_0_t4A72AEB0EF77C3288BA9E5B3C62DB59FC4F634A8* V_0 = NULL;
 	{
 		U3CU3Ec__DisplayClass53_0_t4A72AEB0EF77C3288BA9E5B3C62DB59FC4F634A8* L_0 = (U3CU3Ec__DisplayClass53_0_t4A72AEB0EF77C3288BA9E5B3C62DB59FC4F634A8*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass53_0_t4A72AEB0EF77C3288BA9E5B3C62DB59FC4F634A8_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		U3CU3Ec__DisplayClass53_0__ctor_mE04AFF9E5AA6917B1E116CFCA7F07D91CE51BDCD(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass53_0_t4A72AEB0EF77C3288BA9E5B3C62DB59FC4F634A8* L_1 = V_0;
+		NullCheck(L_1);
 		L_1->___U3CU3E4__this_0 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_0), (void*)__this);
 		U3CU3Ec__DisplayClass53_0_t4A72AEB0EF77C3288BA9E5B3C62DB59FC4F634A8* L_2 = V_0;
 		RuntimeObject* L_3 = ___encoder2;
+		NullCheck(L_2);
 		L_2->___encoder_1 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___encoder_1), (void*)L_3);
 		U3CU3Ec__DisplayClass53_0_t4A72AEB0EF77C3288BA9E5B3C62DB59FC4F634A8* L_4 = V_0;
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_5 = ___voiceInfo0;
+		NullCheck(L_4);
 		L_4->___voiceInfo_2 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)&(((&L_4->___voiceInfo_2))->___U3CUserDataU3Ek__BackingField_9), (void*)NULL);
 		// return (LocalVoice)createLocalVoice(channelId, (vId, chId) => new LocalVoice(this, encoder, vId, voiceInfo, chId));
 		int32_t L_6 = ___channelId1;
 		U3CU3Ec__DisplayClass53_0_t4A72AEB0EF77C3288BA9E5B3C62DB59FC4F634A8* L_7 = V_0;
 		Func_3_t5F6FA9AD9B8961AB03DA94B6316304FC26319622* L_8 = (Func_3_t5F6FA9AD9B8961AB03DA94B6316304FC26319622*)il2cpp_codegen_object_new(Func_3_t5F6FA9AD9B8961AB03DA94B6316304FC26319622_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
 		Func_3__ctor_m8D407AAD82D7ECD513E495E93FB77E2CDD555D1B(L_8, L_7, (intptr_t)((void*)U3CU3Ec__DisplayClass53_0_U3CCreateLocalVoiceU3Eb__0_m0C4E3B86CCB589213C7863480D0647A302F10697_RuntimeMethod_var), NULL);
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_9;
 		L_9 = VoiceClient_createLocalVoice_m68F991380E45D58F523C81903B7B8E74F02A925C(__this, L_6, L_8, NULL);
@@ -17649,12 +17990,14 @@ IL_0055:
 	}
 	{
 		U3CU3Ec__DisplayClass56_0_t2553726EEEF2AF25562CF38BD3209B238A9C8C53* L_16 = (U3CU3Ec__DisplayClass56_0_t2553726EEEF2AF25562CF38BD3209B238A9C8C53*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass56_0_t2553726EEEF2AF25562CF38BD3209B238A9C8C53_il2cpp_TypeInfo_var);
+		NullCheck(L_16);
 		U3CU3Ec__DisplayClass56_0__ctor_mFE407FA16ED8CE1E95B15CFE1994FDC3468218B1(L_16, NULL);
 		V_0 = L_16;
 		// logger.LogInfo("[PV] Creating local voice with source samples type conversion from IAudioPusher float to short.");
 		RuntimeObject* L_17 = __this->___logger_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18;
 		L_18 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_17);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_17, _stringLiteral867B3BDD3683FBF0D554ACD715B3E34293E39C2A, L_18);
 		// var localVoice = CreateLocalVoiceAudio<short>(voiceInfo, source, encoder, channelId);
 		U3CU3Ec__DisplayClass56_0_t2553726EEEF2AF25562CF38BD3209B238A9C8C53* L_19 = V_0;
@@ -17664,10 +18007,12 @@ IL_0055:
 		int32_t L_23 = ___channelId4;
 		LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E* L_24;
 		L_24 = VoiceClient_CreateLocalVoiceAudio_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mFD7389F2D9B705F93600D8718D2ECE42B646BE07(__this, L_20, L_21, L_22, L_23, VoiceClient_CreateLocalVoiceAudio_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mFD7389F2D9B705F93600D8718D2ECE42B646BE07_RuntimeMethod_var);
+		NullCheck(L_19);
 		L_19->___localVoice_0 = L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&L_19->___localVoice_0), (void*)L_24);
 		// var bufferFactory = new FactoryReusableArray<float>(0);
 		FactoryReusableArray_1_t28CD14F897F84C1F65A4989975EA0B2152577E89* L_25 = (FactoryReusableArray_1_t28CD14F897F84C1F65A4989975EA0B2152577E89*)il2cpp_codegen_object_new(FactoryReusableArray_1_t28CD14F897F84C1F65A4989975EA0B2152577E89_il2cpp_TypeInfo_var);
+		NullCheck(L_25);
 		FactoryReusableArray_1__ctor_mF1A1AE4FB8ECDA17C6688C37989AEFFEA588A3F9(L_25, 0, FactoryReusableArray_1__ctor_mF1A1AE4FB8ECDA17C6688C37989AEFFEA588A3F9_RuntimeMethod_var);
 		V_1 = L_25;
 		// ((IAudioPusher<float>)source).SetCallback(buf =>
@@ -17679,11 +18024,14 @@ IL_0055:
 		RuntimeObject* L_26 = ___source1;
 		U3CU3Ec__DisplayClass56_0_t2553726EEEF2AF25562CF38BD3209B238A9C8C53* L_27 = V_0;
 		Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3* L_28 = (Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3*)il2cpp_codegen_object_new(Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3_il2cpp_TypeInfo_var);
+		NullCheck(L_28);
 		Action_1__ctor_m7120346688C18407FB878E541FC58DC27377537F(L_28, L_27, (intptr_t)((void*)U3CU3Ec__DisplayClass56_0_U3CCreateLocalVoiceAudioFromSourceU3Eb__0_m47B68BEA384047B56276BD9DBE726785A19353D5_RuntimeMethod_var), NULL);
 		FactoryReusableArray_1_t28CD14F897F84C1F65A4989975EA0B2152577E89* L_29 = V_1;
+		NullCheck(((RuntimeObject*)Castclass((RuntimeObject*)L_26, IAudioPusher_1_tA532E944FB725EC3B8E7159135286F68443F1B77_il2cpp_TypeInfo_var)));
 		InterfaceActionInvoker2< Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3*, RuntimeObject* >::Invoke(0 /* System.Void Photon.Voice.IAudioPusher`1<System.Single>::SetCallback(System.Action`1<T[]>,Photon.Voice.ObjectFactory`2<T[],System.Int32>) */, IAudioPusher_1_tA532E944FB725EC3B8E7159135286F68443F1B77_il2cpp_TypeInfo_var, ((RuntimeObject*)Castclass((RuntimeObject*)L_26, IAudioPusher_1_tA532E944FB725EC3B8E7159135286F68443F1B77_il2cpp_TypeInfo_var)), L_28, L_29);
 		// return localVoice;
 		U3CU3Ec__DisplayClass56_0_t2553726EEEF2AF25562CF38BD3209B238A9C8C53* L_30 = V_0;
+		NullCheck(L_30);
 		LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E* L_31 = L_30->___localVoice_0;
 		return L_31;
 	}
@@ -17691,6 +18039,7 @@ IL_0055:
 IL_00b7:
 	{
 		U3CU3Ec__DisplayClass56_1_t2B146623F09E2AEBEAEC598C7D6D8DE35E526763* L_32 = (U3CU3Ec__DisplayClass56_1_t2B146623F09E2AEBEAEC598C7D6D8DE35E526763*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass56_1_t2B146623F09E2AEBEAEC598C7D6D8DE35E526763_il2cpp_TypeInfo_var);
+		NullCheck(L_32);
 		U3CU3Ec__DisplayClass56_1__ctor_m559CE81DF3275FE2B70C6E350AA6529938F6946E(L_32, NULL);
 		V_2 = L_32;
 		// var localVoice = CreateLocalVoiceAudio<float>(voiceInfo, source, encoder, channelId);
@@ -17701,20 +18050,26 @@ IL_00b7:
 		int32_t L_37 = ___channelId4;
 		LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14* L_38;
 		L_38 = VoiceClient_CreateLocalVoiceAudio_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mD9D16E957A2931DF7B8B98204FA0BA7E4BCF7C8D(__this, L_34, L_35, L_36, L_37, VoiceClient_CreateLocalVoiceAudio_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mD9D16E957A2931DF7B8B98204FA0BA7E4BCF7C8D_RuntimeMethod_var);
+		NullCheck(L_33);
 		L_33->___localVoice_0 = L_38;
 		Il2CppCodeGenWriteBarrier((void**)(&L_33->___localVoice_0), (void*)L_38);
 		// ((IAudioPusher<float>)source).SetCallback(buf => localVoice.PushDataAsync(buf), localVoice.BufferFactory);
 		RuntimeObject* L_39 = ___source1;
 		U3CU3Ec__DisplayClass56_1_t2B146623F09E2AEBEAEC598C7D6D8DE35E526763* L_40 = V_2;
 		Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3* L_41 = (Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3*)il2cpp_codegen_object_new(Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3_il2cpp_TypeInfo_var);
+		NullCheck(L_41);
 		Action_1__ctor_m7120346688C18407FB878E541FC58DC27377537F(L_41, L_40, (intptr_t)((void*)U3CU3Ec__DisplayClass56_1_U3CCreateLocalVoiceAudioFromSourceU3Eb__1_m434905510743C65AE3E3B0F26DE500F6616395D7_RuntimeMethod_var), NULL);
 		U3CU3Ec__DisplayClass56_1_t2B146623F09E2AEBEAEC598C7D6D8DE35E526763* L_42 = V_2;
+		NullCheck(L_42);
 		LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14* L_43 = L_42->___localVoice_0;
+		NullCheck(L_43);
 		FactoryPrimitiveArrayPool_1_tA8D0BF61C8C68AE9A7CB48A34477EE922C3DE819* L_44;
 		L_44 = LocalVoiceFramed_1_get_BufferFactory_m61B43DE34DEC3BB8B7AD1D9CCE4BCF2FBEB4B37F_inline(L_43, LocalVoiceFramed_1_get_BufferFactory_m61B43DE34DEC3BB8B7AD1D9CCE4BCF2FBEB4B37F_RuntimeMethod_var);
+		NullCheck(((RuntimeObject*)Castclass((RuntimeObject*)L_39, IAudioPusher_1_tA532E944FB725EC3B8E7159135286F68443F1B77_il2cpp_TypeInfo_var)));
 		InterfaceActionInvoker2< Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3*, RuntimeObject* >::Invoke(0 /* System.Void Photon.Voice.IAudioPusher`1<System.Single>::SetCallback(System.Action`1<T[]>,Photon.Voice.ObjectFactory`2<T[],System.Int32>) */, IAudioPusher_1_tA532E944FB725EC3B8E7159135286F68443F1B77_il2cpp_TypeInfo_var, ((RuntimeObject*)Castclass((RuntimeObject*)L_39, IAudioPusher_1_tA532E944FB725EC3B8E7159135286F68443F1B77_il2cpp_TypeInfo_var)), L_41, L_44);
 		// return localVoice;
 		U3CU3Ec__DisplayClass56_1_t2B146623F09E2AEBEAEC598C7D6D8DE35E526763* L_45 = V_2;
+		NullCheck(L_45);
 		LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14* L_46 = L_45->___localVoice_0;
 		return L_46;
 	}
@@ -17738,12 +18093,14 @@ IL_00f8:
 	}
 	{
 		U3CU3Ec__DisplayClass56_2_t835F1BAF182265BE6948A930462DD987FA20AC24* L_49 = (U3CU3Ec__DisplayClass56_2_t835F1BAF182265BE6948A930462DD987FA20AC24*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass56_2_t835F1BAF182265BE6948A930462DD987FA20AC24_il2cpp_TypeInfo_var);
+		NullCheck(L_49);
 		U3CU3Ec__DisplayClass56_2__ctor_m259F202B6770DBCDF167039D2DCF6EA86B1139B3(L_49, NULL);
 		V_3 = L_49;
 		// logger.LogInfo("[PV] Creating local voice with source samples type conversion from IAudioPusher short to float.");
 		RuntimeObject* L_50 = __this->___logger_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_51;
 		L_51 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_50);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_50, _stringLiteral76FD133B6412449743E943C095CB86CBF00E1E65, L_51);
 		// var localVoice = CreateLocalVoiceAudio<float>(voiceInfo, source, encoder, channelId);
 		U3CU3Ec__DisplayClass56_2_t835F1BAF182265BE6948A930462DD987FA20AC24* L_52 = V_3;
@@ -17753,10 +18110,12 @@ IL_00f8:
 		int32_t L_56 = ___channelId4;
 		LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14* L_57;
 		L_57 = VoiceClient_CreateLocalVoiceAudio_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mD9D16E957A2931DF7B8B98204FA0BA7E4BCF7C8D(__this, L_53, L_54, L_55, L_56, VoiceClient_CreateLocalVoiceAudio_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mD9D16E957A2931DF7B8B98204FA0BA7E4BCF7C8D_RuntimeMethod_var);
+		NullCheck(L_52);
 		L_52->___localVoice_0 = L_57;
 		Il2CppCodeGenWriteBarrier((void**)(&L_52->___localVoice_0), (void*)L_57);
 		// var bufferFactory = new FactoryReusableArray<short>(0);
 		FactoryReusableArray_1_t9F8F71E1F2DE4A1CF16B817EA5E61344B0CE0A47* L_58 = (FactoryReusableArray_1_t9F8F71E1F2DE4A1CF16B817EA5E61344B0CE0A47*)il2cpp_codegen_object_new(FactoryReusableArray_1_t9F8F71E1F2DE4A1CF16B817EA5E61344B0CE0A47_il2cpp_TypeInfo_var);
+		NullCheck(L_58);
 		FactoryReusableArray_1__ctor_mCB03715B972279E3DE3F0390125044404F98408A(L_58, 0, FactoryReusableArray_1__ctor_mCB03715B972279E3DE3F0390125044404F98408A_RuntimeMethod_var);
 		V_4 = L_58;
 		// ((IAudioPusher<short>)source).SetCallback(buf =>
@@ -17768,11 +18127,14 @@ IL_00f8:
 		RuntimeObject* L_59 = ___source1;
 		U3CU3Ec__DisplayClass56_2_t835F1BAF182265BE6948A930462DD987FA20AC24* L_60 = V_3;
 		Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85* L_61 = (Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85*)il2cpp_codegen_object_new(Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85_il2cpp_TypeInfo_var);
+		NullCheck(L_61);
 		Action_1__ctor_mD8443D2CF648C945AC640F8E038D6C58A2B27902(L_61, L_60, (intptr_t)((void*)U3CU3Ec__DisplayClass56_2_U3CCreateLocalVoiceAudioFromSourceU3Eb__2_mC17142AE5A1ECA34F8A3A50AAFD42532C17B7997_RuntimeMethod_var), NULL);
 		FactoryReusableArray_1_t9F8F71E1F2DE4A1CF16B817EA5E61344B0CE0A47* L_62 = V_4;
+		NullCheck(((RuntimeObject*)Castclass((RuntimeObject*)L_59, IAudioPusher_1_t7CE88BD0A7106D9F73CB5AFE9FB1476A035B4847_il2cpp_TypeInfo_var)));
 		InterfaceActionInvoker2< Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85*, RuntimeObject* >::Invoke(0 /* System.Void Photon.Voice.IAudioPusher`1<System.Int16>::SetCallback(System.Action`1<T[]>,Photon.Voice.ObjectFactory`2<T[],System.Int32>) */, IAudioPusher_1_t7CE88BD0A7106D9F73CB5AFE9FB1476A035B4847_il2cpp_TypeInfo_var, ((RuntimeObject*)Castclass((RuntimeObject*)L_59, IAudioPusher_1_t7CE88BD0A7106D9F73CB5AFE9FB1476A035B4847_il2cpp_TypeInfo_var)), L_61, L_62);
 		// return localVoice;
 		U3CU3Ec__DisplayClass56_2_t835F1BAF182265BE6948A930462DD987FA20AC24* L_63 = V_3;
+		NullCheck(L_63);
 		LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14* L_64 = L_63->___localVoice_0;
 		return L_64;
 	}
@@ -17780,6 +18142,7 @@ IL_00f8:
 IL_015c:
 	{
 		U3CU3Ec__DisplayClass56_3_t565CCC53C034E93783C10506121122C7A5481A91* L_65 = (U3CU3Ec__DisplayClass56_3_t565CCC53C034E93783C10506121122C7A5481A91*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass56_3_t565CCC53C034E93783C10506121122C7A5481A91_il2cpp_TypeInfo_var);
+		NullCheck(L_65);
 		U3CU3Ec__DisplayClass56_3__ctor_mC5AF4DC27EAE4509B2BE71349F05DF12260027EB(L_65, NULL);
 		V_5 = L_65;
 		// var localVoice = CreateLocalVoiceAudio<short>(voiceInfo, source, encoder, channelId);
@@ -17790,20 +18153,26 @@ IL_015c:
 		int32_t L_70 = ___channelId4;
 		LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E* L_71;
 		L_71 = VoiceClient_CreateLocalVoiceAudio_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mFD7389F2D9B705F93600D8718D2ECE42B646BE07(__this, L_67, L_68, L_69, L_70, VoiceClient_CreateLocalVoiceAudio_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mFD7389F2D9B705F93600D8718D2ECE42B646BE07_RuntimeMethod_var);
+		NullCheck(L_66);
 		L_66->___localVoice_0 = L_71;
 		Il2CppCodeGenWriteBarrier((void**)(&L_66->___localVoice_0), (void*)L_71);
 		// ((IAudioPusher<short>)source).SetCallback(buf => localVoice.PushDataAsync(buf), localVoice.BufferFactory);
 		RuntimeObject* L_72 = ___source1;
 		U3CU3Ec__DisplayClass56_3_t565CCC53C034E93783C10506121122C7A5481A91* L_73 = V_5;
 		Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85* L_74 = (Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85*)il2cpp_codegen_object_new(Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85_il2cpp_TypeInfo_var);
+		NullCheck(L_74);
 		Action_1__ctor_mD8443D2CF648C945AC640F8E038D6C58A2B27902(L_74, L_73, (intptr_t)((void*)U3CU3Ec__DisplayClass56_3_U3CCreateLocalVoiceAudioFromSourceU3Eb__3_m411578A19A37B3D3A6DBE6890BAEFF29BA9949B8_RuntimeMethod_var), NULL);
 		U3CU3Ec__DisplayClass56_3_t565CCC53C034E93783C10506121122C7A5481A91* L_75 = V_5;
+		NullCheck(L_75);
 		LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E* L_76 = L_75->___localVoice_0;
+		NullCheck(L_76);
 		FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC* L_77;
 		L_77 = LocalVoiceFramed_1_get_BufferFactory_m9C309881181A1E491709968688CA77CB86748B5F_inline(L_76, LocalVoiceFramed_1_get_BufferFactory_m9C309881181A1E491709968688CA77CB86748B5F_RuntimeMethod_var);
+		NullCheck(((RuntimeObject*)Castclass((RuntimeObject*)L_72, IAudioPusher_1_t7CE88BD0A7106D9F73CB5AFE9FB1476A035B4847_il2cpp_TypeInfo_var)));
 		InterfaceActionInvoker2< Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85*, RuntimeObject* >::Invoke(0 /* System.Void Photon.Voice.IAudioPusher`1<System.Int16>::SetCallback(System.Action`1<T[]>,Photon.Voice.ObjectFactory`2<T[],System.Int32>) */, IAudioPusher_1_t7CE88BD0A7106D9F73CB5AFE9FB1476A035B4847_il2cpp_TypeInfo_var, ((RuntimeObject*)Castclass((RuntimeObject*)L_72, IAudioPusher_1_t7CE88BD0A7106D9F73CB5AFE9FB1476A035B4847_il2cpp_TypeInfo_var)), L_74, L_77);
 		// return localVoice;
 		U3CU3Ec__DisplayClass56_3_t565CCC53C034E93783C10506121122C7A5481A91* L_78 = V_5;
+		NullCheck(L_78);
 		LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E* L_79 = L_78->___localVoice_0;
 		return L_79;
 	}
@@ -17830,6 +18199,7 @@ IL_01a2:
 		RuntimeObject* L_82 = __this->___logger_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_83;
 		L_83 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_82);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_82, _stringLiteral38F0420FDDD839DA84720E2DD8BB0FC6A70A79A5, L_83);
 		// var localVoice = CreateLocalVoiceAudio<short>(voiceInfo, source, encoder, channelId);
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_84 = ___voiceInfo0;
@@ -17843,7 +18213,9 @@ IL_01a2:
 		LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E* L_90 = L_89;
 		RuntimeObject* L_91 = ___source1;
 		BufferReaderPushAdapterAsyncPoolFloatToShort_tBAFDFC9DD3D8286830ABA25346995792DFFF5487* L_92 = (BufferReaderPushAdapterAsyncPoolFloatToShort_tBAFDFC9DD3D8286830ABA25346995792DFFF5487*)il2cpp_codegen_object_new(BufferReaderPushAdapterAsyncPoolFloatToShort_tBAFDFC9DD3D8286830ABA25346995792DFFF5487_il2cpp_TypeInfo_var);
+		NullCheck(L_92);
 		BufferReaderPushAdapterAsyncPoolFloatToShort__ctor_m91261B14FBDF187DBF6AEE71F238BFABF7F6C26F(L_92, L_90, ((RuntimeObject*)IsInst((RuntimeObject*)L_91, IAudioReader_1_tB0E43B161D3B7848103B573136DC11187E2545CD_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_90);
 		LocalVoice_set_LocalUserServiceable_mC9C701DFB55842054DA635B5D75B77780E9A12C7_inline(L_90, L_92, NULL);
 		// return localVoice;
 		return L_89;
@@ -17863,7 +18235,9 @@ IL_01e2:
 		LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14* L_99 = L_98;
 		RuntimeObject* L_100 = ___source1;
 		BufferReaderPushAdapterAsyncPool_1_t5855FB4DA76559533E5D668AF3B8AF10743481A6* L_101 = (BufferReaderPushAdapterAsyncPool_1_t5855FB4DA76559533E5D668AF3B8AF10743481A6*)il2cpp_codegen_object_new(BufferReaderPushAdapterAsyncPool_1_t5855FB4DA76559533E5D668AF3B8AF10743481A6_il2cpp_TypeInfo_var);
+		NullCheck(L_101);
 		BufferReaderPushAdapterAsyncPool_1__ctor_m5206C206F7D3BA2FC0DF2A605B22004B5A075DBD(L_101, L_99, ((RuntimeObject*)IsInst((RuntimeObject*)L_100, IAudioReader_1_tB0E43B161D3B7848103B573136DC11187E2545CD_il2cpp_TypeInfo_var)), BufferReaderPushAdapterAsyncPool_1__ctor_m5206C206F7D3BA2FC0DF2A605B22004B5A075DBD_RuntimeMethod_var);
+		NullCheck(L_99);
 		LocalVoice_set_LocalUserServiceable_mC9C701DFB55842054DA635B5D75B77780E9A12C7_inline(L_99, L_101, NULL);
 		// return localVoice;
 		return L_98;
@@ -17891,6 +18265,7 @@ IL_0201:
 		RuntimeObject* L_104 = __this->___logger_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_105;
 		L_105 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_104);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_104, _stringLiteralCE6C24075C4F6F93068758E0F1FFE873EC7278F1, L_105);
 		// var localVoice = CreateLocalVoiceAudio<float>(voiceInfo, source, encoder, channelId);
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_106 = ___voiceInfo0;
@@ -17904,7 +18279,9 @@ IL_0201:
 		LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14* L_112 = L_111;
 		RuntimeObject* L_113 = ___source1;
 		BufferReaderPushAdapterAsyncPoolShortToFloat_t0D35F0470489D38353E25D035A3AA62561C7FD6E* L_114 = (BufferReaderPushAdapterAsyncPoolShortToFloat_t0D35F0470489D38353E25D035A3AA62561C7FD6E*)il2cpp_codegen_object_new(BufferReaderPushAdapterAsyncPoolShortToFloat_t0D35F0470489D38353E25D035A3AA62561C7FD6E_il2cpp_TypeInfo_var);
+		NullCheck(L_114);
 		BufferReaderPushAdapterAsyncPoolShortToFloat__ctor_mCFED781C1135E273ECA4374A6E591743AF11C337(L_114, L_112, ((RuntimeObject*)IsInst((RuntimeObject*)L_113, IAudioReader_1_t696E46AF91D32D21549528550E78971F0756FD16_il2cpp_TypeInfo_var)), NULL);
+		NullCheck(L_112);
 		LocalVoice_set_LocalUserServiceable_mC9C701DFB55842054DA635B5D75B77780E9A12C7_inline(L_112, L_114, NULL);
 		// return localVoice;
 		return L_111;
@@ -17924,7 +18301,9 @@ IL_0241:
 		LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E* L_121 = L_120;
 		RuntimeObject* L_122 = ___source1;
 		BufferReaderPushAdapterAsyncPool_1_tB72BD43297F3ABA1DADD29937C29A6573190FC60* L_123 = (BufferReaderPushAdapterAsyncPool_1_tB72BD43297F3ABA1DADD29937C29A6573190FC60*)il2cpp_codegen_object_new(BufferReaderPushAdapterAsyncPool_1_tB72BD43297F3ABA1DADD29937C29A6573190FC60_il2cpp_TypeInfo_var);
+		NullCheck(L_123);
 		BufferReaderPushAdapterAsyncPool_1__ctor_m148BCE1CF0D20AB58C23FFD2E77483E3B169C734(L_123, L_121, ((RuntimeObject*)IsInst((RuntimeObject*)L_122, IAudioReader_1_t696E46AF91D32D21549528550E78971F0756FD16_il2cpp_TypeInfo_var)), BufferReaderPushAdapterAsyncPool_1__ctor_m148BCE1CF0D20AB58C23FFD2E77483E3B169C734_RuntimeMethod_var);
+		NullCheck(L_121);
 		LocalVoice_set_LocalUserServiceable_mC9C701DFB55842054DA635B5D75B77780E9A12C7_inline(L_121, L_123, NULL);
 		// return localVoice;
 		return L_120;
@@ -17937,10 +18316,13 @@ IL_0260:
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_125 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_126 = L_125;
 		RuntimeObject* L_127 = ___source1;
+		NullCheck(L_127);
 		Type_t* L_128;
 		L_128 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_127, NULL);
+		NullCheck(L_126);
 		ArrayElementTypeCheck (L_126, L_128);
-		(L_126)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_128);
+		(L_126)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_128);
+		NullCheck(L_124);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_124, _stringLiteralB684BD5745C71D83470EF22CE3C2C4A64FE75DFD, L_126);
 		// return LocalVoiceAudioDummy.Dummy;
 		il2cpp_codegen_runtime_class_init_inline(LocalVoiceAudioDummy_tC7EF79384B22A912904ACCB8453D670A35FB2C3F_il2cpp_TypeInfo_var);
@@ -17997,6 +18379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t VoiceClient_getNewVoiceId_m700ADAA6D5
 		V_0 = L_0;
 		// foreach (var v in localVoices)
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_1 = __this->___localVoices_16;
+		NullCheck(L_1);
 		Enumerator_t99305A01FF4186C63881B2D82569A94E2C2C7508 L_2;
 		L_2 = Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F(L_1, Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F_RuntimeMethod_var);
 		V_1 = L_2;
@@ -18027,8 +18410,10 @@ IL_0019_1:
 				BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = V_0;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_5;
 				L_5 = KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_inline((&V_2), KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_RuntimeMethod_var);
+				NullCheck(L_5);
 				uint8_t L_6 = L_5->___id_11;
-				(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_6), (bool)1);
+				NullCheck(L_4);
+				(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (bool)1);
 			}
 
 IL_0030_1:
@@ -18066,8 +18451,9 @@ IL_0058:
 		// if (!used[id])
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_10 = V_0;
 		uint8_t L_11 = V_3;
+		NullCheck(L_10);
 		uint8_t L_12 = L_11;
-		uint8_t L_13 = (uint8_t)(L_10)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_12));
+		uint8_t L_13 = (uint8_t)(L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
 		if (L_13)
 		{
 			goto IL_0066;
@@ -18127,10 +18513,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_addVoice_mC356CFE6062C54F867
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_0 = __this->___localVoices_16;
 		uint8_t L_1 = ___newId0;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_2 = ___v2;
+		NullCheck(L_0);
 		Dictionary_2_set_Item_m3BE72D2A7278788B9D696B8095F0B84B5614A8D5(L_0, L_1, L_2, Dictionary_2_set_Item_m3BE72D2A7278788B9D696B8095F0B84B5614A8D5_RuntimeMethod_var);
 		// if (!localVoicesPerChannel.TryGetValue(channelId, out voiceList))
 		Dictionary_2_t773C42CA748B22AFB473FAB0E78E4607520F48A6* L_3 = __this->___localVoicesPerChannel_17;
 		int32_t L_4 = ___channelId1;
+		NullCheck(L_3);
 		bool L_5;
 		L_5 = Dictionary_2_TryGetValue_m9387DB5F8E6D2D41E2698F484A3AE67574BB7BB0(L_3, L_4, (&V_0), Dictionary_2_TryGetValue_m9387DB5F8E6D2D41E2698F484A3AE67574BB7BB0_RuntimeMethod_var);
 		if (L_5)
@@ -18141,12 +18529,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_addVoice_mC356CFE6062C54F867
 	{
 		// voiceList = new List<LocalVoice>();
 		List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF* L_6 = (List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF*)il2cpp_codegen_object_new(List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
 		List_1__ctor_m2BC2562243DA04AD63E188E6BB85C0B4A9284358(L_6, List_1__ctor_m2BC2562243DA04AD63E188E6BB85C0B4A9284358_RuntimeMethod_var);
 		V_0 = L_6;
 		// localVoicesPerChannel[channelId] = voiceList;
 		Dictionary_2_t773C42CA748B22AFB473FAB0E78E4607520F48A6* L_7 = __this->___localVoicesPerChannel_17;
 		int32_t L_8 = ___channelId1;
 		List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF* L_9 = V_0;
+		NullCheck(L_7);
 		Dictionary_2_set_Item_mFD920FE5AD193459442370F7515CD38DD6F4AB2B(L_7, L_8, L_9, Dictionary_2_set_Item_mFD920FE5AD193459442370F7515CD38DD6F4AB2B_RuntimeMethod_var);
 	}
 
@@ -18155,10 +18545,12 @@ IL_0030:
 		// voiceList.Add(v);
 		List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF* L_10 = V_0;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_11 = ___v2;
+		NullCheck(L_10);
 		List_1_Add_m413F9B4862F57A63557765D4259691AD450EFAA3_inline(L_10, L_11, List_1_Add_m413F9B4862F57A63557765D4259691AD450EFAA3_RuntimeMethod_var);
 		// if (this.transport.IsChannelJoined(channelId))
 		RuntimeObject* L_12 = __this->___transport_0;
 		int32_t L_13 = ___channelId1;
+		NullCheck(L_12);
 		bool L_14;
 		L_14 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(0 /* System.Boolean Photon.Voice.IVoiceTransport::IsChannelJoined(System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_12, L_13);
 		if (!L_14)
@@ -18169,9 +18561,11 @@ IL_0030:
 	{
 		// sendVoicesInfoAndConfigFrame(new List<LocalVoice>() { v }, channelId, 0); // broadcast if joined
 		List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF* L_15 = (List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF*)il2cpp_codegen_object_new(List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF_il2cpp_TypeInfo_var);
+		NullCheck(L_15);
 		List_1__ctor_m2BC2562243DA04AD63E188E6BB85C0B4A9284358(L_15, List_1__ctor_m2BC2562243DA04AD63E188E6BB85C0B4A9284358_RuntimeMethod_var);
 		List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF* L_16 = L_15;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_17 = ___v2;
+		NullCheck(L_16);
 		List_1_Add_m413F9B4862F57A63557765D4259691AD450EFAA3_inline(L_16, L_17, List_1_Add_m413F9B4862F57A63557765D4259691AD450EFAA3_RuntimeMethod_var);
 		int32_t L_18 = ___channelId1;
 		VoiceClient_sendVoicesInfoAndConfigFrame_m968FE64B468BC81287115D4B571631241FFCC8AD(__this, L_16, L_18, 0, NULL);
@@ -18183,6 +18577,7 @@ IL_0059:
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_19 = ___v2;
 		uint8_t L_20;
 		L_20 = VoiceClient_get_GlobalInterestGroup_m735EBFECB6DC4B5875BA98A52B0E9E419368F006_inline(__this, NULL);
+		NullCheck(L_19);
 		LocalVoice_set_InterestGroup_m2D571F8844CF752601904CC3C7D3B3EAA32C5D7B_inline(L_19, L_20, NULL);
 		// }
 		return;
@@ -18207,22 +18602,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_RemoveLocalVoice_mB0E112274E
 		// this.localVoices.Remove(voice.id);
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_0 = __this->___localVoices_16;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_1 = ___voice0;
+		NullCheck(L_1);
 		uint8_t L_2 = L_1->___id_11;
+		NullCheck(L_0);
 		bool L_3;
 		L_3 = Dictionary_2_Remove_m79EDD2B406F9A4504F978F050C8A2CF6B5411C21(L_0, L_2, Dictionary_2_Remove_m79EDD2B406F9A4504F978F050C8A2CF6B5411C21_RuntimeMethod_var);
 		// this.localVoicesPerChannel[voice.channelId].Remove(voice);
 		Dictionary_2_t773C42CA748B22AFB473FAB0E78E4607520F48A6* L_4 = __this->___localVoicesPerChannel_17;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_5 = ___voice0;
+		NullCheck(L_5);
 		int32_t L_6 = L_5->___channelId_12;
+		NullCheck(L_4);
 		List_1_t12D30E004DFFCF443C40B913EA13F411E50E83DF* L_7;
 		L_7 = Dictionary_2_get_Item_mCCB1BE75654DD143DBB6DDAE00EA607CABC76A54(L_4, L_6, Dictionary_2_get_Item_mCCB1BE75654DD143DBB6DDAE00EA607CABC76A54_RuntimeMethod_var);
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_8 = ___voice0;
+		NullCheck(L_7);
 		bool L_9;
 		L_9 = List_1_Remove_mA8021373D6ED6391ECF20D198EC4DA63316A7AA4(L_7, L_8, List_1_Remove_mA8021373D6ED6391ECF20D198EC4DA63316A7AA4_RuntimeMethod_var);
 		// if (this.transport.IsChannelJoined(voice.channelId))
 		RuntimeObject* L_10 = __this->___transport_0;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_11 = ___voice0;
+		NullCheck(L_11);
 		int32_t L_12 = L_11->___channelId_12;
+		NullCheck(L_10);
 		bool L_13;
 		L_13 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(0 /* System.Boolean Photon.Voice.IVoiceTransport::IsChannelJoined(System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_10, L_12);
 		if (!L_13)
@@ -18235,7 +18637,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_RemoveLocalVoice_mB0E112274E
 		RuntimeObject* L_14 = __this->___transport_0;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_15 = ___voice0;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_16 = ___voice0;
+		NullCheck(L_16);
 		int32_t L_17 = L_16->___channelId_12;
+		NullCheck(L_14);
 		InterfaceActionInvoker3< LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5*, int32_t, int32_t >::Invoke(2 /* System.Void Photon.Voice.IVoiceTransport::SendVoiceRemove(Photon.Voice.LocalVoice,System.Int32,System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_14, L_15, L_17, 0);
 	}
 
@@ -18243,16 +18647,19 @@ IL_0050:
 	{
 		// voice.Dispose();
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_18 = ___voice0;
+		NullCheck(L_18);
 		VirtualActionInvoker0::Invoke(6 /* System.Void Photon.Voice.LocalVoice::Dispose() */, L_18);
 		// this.logger.LogInfo(voice.LogPrefix + " removed");
 		RuntimeObject* L_19 = __this->___logger_1;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_20 = ___voice0;
+		NullCheck(L_20);
 		String_t* L_21;
 		L_21 = LocalVoice_get_LogPrefix_mBD379944D1F0172B0B6A29C02D115E0B07F8F0C8(L_20, NULL);
 		String_t* L_22;
 		L_22 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_21, _stringLiteral5E52A489BC85D2E22CEF2F77AE92817141331EDF, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23;
 		L_23 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_19);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_19, L_22, L_23);
 		// }
 		return;
@@ -18273,6 +18680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_sendChannelVoicesInfo_m66CFA
 		// if (this.transport.IsChannelJoined(channelId))
 		RuntimeObject* L_0 = __this->___transport_0;
 		int32_t L_1 = ___channelId0;
+		NullCheck(L_0);
 		bool L_2;
 		L_2 = InterfaceFuncInvoker1< bool, int32_t >::Invoke(0 /* System.Boolean Photon.Voice.IVoiceTransport::IsChannelJoined(System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_0, L_1);
 		if (!L_2)
@@ -18284,6 +18692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_sendChannelVoicesInfo_m66CFA
 		// if (this.localVoicesPerChannel.TryGetValue(channelId, out voiceList))
 		Dictionary_2_t773C42CA748B22AFB473FAB0E78E4607520F48A6* L_3 = __this->___localVoicesPerChannel_17;
 		int32_t L_4 = ___channelId0;
+		NullCheck(L_3);
 		bool L_5;
 		L_5 = Dictionary_2_TryGetValue_m9387DB5F8E6D2D41E2698F484A3AE67574BB7BB0(L_3, L_4, (&V_0), Dictionary_2_TryGetValue_m9387DB5F8E6D2D41E2698F484A3AE67574BB7BB0_RuntimeMethod_var);
 		if (!L_5)
@@ -18336,9 +18745,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_sendVoicesInfoAndConfigFrame
 		RuntimeObject* L_1 = ___voiceList0;
 		int32_t L_2 = ___channelId1;
 		int32_t L_3 = ___targetPlayerId2;
+		NullCheck(L_0);
 		InterfaceActionInvoker3< RuntimeObject*, int32_t, int32_t >::Invoke(1 /* System.Void Photon.Voice.IVoiceTransport::SendVoicesInfo(System.Collections.Generic.IEnumerable`1<Photon.Voice.LocalVoice>,System.Int32,System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3);
 		// foreach (var v in voiceList)
 		RuntimeObject* L_4 = ___voiceList0;
+		NullCheck(L_4);
 		RuntimeObject* L_5;
 		L_5 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<Photon.Voice.LocalVoice>::GetEnumerator() */, IEnumerable_1_t9551D261C0B4FDA29EF3A2D807BF9000DC5B2BEB_il2cpp_TypeInfo_var, L_4);
 		V_0 = L_5;
@@ -18358,6 +18769,7 @@ FINALLY_002d:
 				}
 				{
 					RuntimeObject* L_7 = V_0;
+					NullCheck(L_7);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_7);
 				}
 
@@ -18377,10 +18789,12 @@ IL_0017_1:
 			{
 				// foreach (var v in voiceList)
 				RuntimeObject* L_8 = V_0;
+				NullCheck(L_8);
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_9;
 				L_9 = InterfaceFuncInvoker0< LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<Photon.Voice.LocalVoice>::get_Current() */, IEnumerator_1_t24B797D62C792DE231A7FB62B30DDE5F76F0297E_il2cpp_TypeInfo_var, L_8);
 				// v.sendConfigFrame(targetPlayerId);
 				int32_t L_10 = ___targetPlayerId2;
+				NullCheck(L_9);
 				LocalVoice_sendConfigFrame_m9F6E232E4ECCBE7D97812A3E0E50920772668ED0(L_9, L_10, NULL);
 			}
 
@@ -18388,6 +18802,7 @@ IL_0023_1:
 			{
 				// foreach (var v in voiceList)
 				RuntimeObject* L_11 = V_0;
+				NullCheck(L_11);
 				bool L_12;
 				L_12 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_11);
 				if (L_12)
@@ -18417,6 +18832,7 @@ IL_0037:
 	{
 		// var debugEchoVoices = localVoices.Values.Where(x => x.DebugEchoMode);
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_14 = __this->___localVoices_16;
+		NullCheck(L_14);
 		ValueCollection_t6E42A2E5E0F6194E8C090240E943C8984864B88A* L_15;
 		L_15 = Dictionary_2_get_Values_m89AE66F94ABC4D80ABEE76B2A7E57065532C82F5(L_14, Dictionary_2_get_Values_m89AE66F94ABC4D80ABEE76B2A7E57065532C82F5_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305_il2cpp_TypeInfo_var);
@@ -18435,6 +18851,7 @@ IL_0037:
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305_il2cpp_TypeInfo_var);
 		U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305* L_18 = ((U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305_il2cpp_TypeInfo_var))->___U3CU3E9_0;
 		Func_2_tEFC007368FD019799C35EA7A98D86FB4CD62417E* L_19 = (Func_2_tEFC007368FD019799C35EA7A98D86FB4CD62417E*)il2cpp_codegen_object_new(Func_2_tEFC007368FD019799C35EA7A98D86FB4CD62417E_il2cpp_TypeInfo_var);
+		NullCheck(L_19);
 		Func_2__ctor_m5B007555AEF6AF6889430996DF52EFB04EEB274C(L_19, L_18, (intptr_t)((void*)U3CU3Ec_U3CsendVoicesInfoAndConfigFrameU3Eb__65_0_m8F3B801087228BB1289D2ADD831CA5DDFB171B86_RuntimeMethod_var), NULL);
 		Func_2_tEFC007368FD019799C35EA7A98D86FB4CD62417E* L_20 = L_19;
 		((U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305_il2cpp_TypeInfo_var))->___U3CU3E9__65_0_1 = L_20;
@@ -18462,6 +18879,7 @@ IL_0064:
 		RuntimeObject* L_24 = __this->___transport_0;
 		RuntimeObject* L_25 = V_1;
 		int32_t L_26 = ___channelId1;
+		NullCheck(L_24);
 		InterfaceActionInvoker3< RuntimeObject*, int32_t, int32_t >::Invoke(1 /* System.Void Photon.Voice.IVoiceTransport::SendVoicesInfo(System.Collections.Generic.IEnumerable`1<Photon.Voice.LocalVoice>,System.Int32,System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_24, L_25, L_26, (-1));
 	}
 
@@ -18503,6 +18921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_set_GlobalInterestGroup_mDA5
 		__this->___globalInterestGroup_15 = L_0;
 		// foreach (var v in this.localVoices)
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_1 = __this->___localVoices_16;
+		NullCheck(L_1);
 		Enumerator_t99305A01FF4186C63881B2D82569A94E2C2C7508 L_2;
 		L_2 = Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F(L_1, Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F_RuntimeMethod_var);
 		V_0 = L_2;
@@ -18533,6 +18952,7 @@ IL_0015_1:
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_4;
 				L_4 = KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_inline((&V_1), KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_RuntimeMethod_var);
 				uint8_t L_5 = __this->___globalInterestGroup_15;
+				NullCheck(L_4);
 				LocalVoice_set_InterestGroup_m2D571F8844CF752601904CC3C7D3B3EAA32C5D7B_inline(L_4, L_5, NULL);
 			}
 
@@ -18595,6 +19015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_clearRemoteVoices_m85A94D9D4
 	{
 		// foreach (var playerVoices in remoteVoices)
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_0 = __this->___remoteVoices_18;
+		NullCheck(L_0);
 		Enumerator_tEEBB6101232F5C5A4FDD92AD5E7B3470740C6B00 L_1;
 		L_1 = Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06(L_0, Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06_RuntimeMethod_var);
 		V_0 = L_1;
@@ -18624,6 +19045,7 @@ IL_000e_1:
 				// foreach (var voice in playerVoices.Value)
 				Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_3;
 				L_3 = KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_inline((&V_1), KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_RuntimeMethod_var);
+				NullCheck(L_3);
 				Enumerator_tB4FBF449AB6F9379B1A1BF012AF33E406E1E2DD6 L_4;
 				L_4 = Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75(L_3, Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75_RuntimeMethod_var);
 				V_2 = L_4;
@@ -18653,6 +19075,7 @@ IL_0025_2:
 						// voice.Value.removeAndDispose();
 						RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_6;
 						L_6 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_3), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+						NullCheck(L_6);
 						RemoteVoice_removeAndDispose_mFA5904757A601BF76EAA473B1B17E5E47D6B297D(L_6, NULL);
 					}
 
@@ -18700,11 +19123,13 @@ IL_006b:
 	{
 		// remoteVoices.Clear();
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_9 = __this->___remoteVoices_18;
+		NullCheck(L_9);
 		Dictionary_2_Clear_mB3BE929B56C726EB5CC25809ED57D7A8E8E66E81(L_9, Dictionary_2_Clear_mB3BE929B56C726EB5CC25809ED57D7A8E8E66E81_RuntimeMethod_var);
 		// this.logger.LogInfo("[PV] Remote voices cleared");
 		RuntimeObject* L_10 = __this->___logger_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11;
 		L_11 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_10);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_10, _stringLiteral8322D941D5DF2DDD6BE635A5715ADB91EB15E0FC, L_11);
 		// }
 		return;
@@ -18756,6 +19181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_clearRemoteVoicesInChannel_m
 	{
 		// foreach (var playerVoices in remoteVoices)
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_0 = __this->___remoteVoices_18;
+		NullCheck(L_0);
 		Enumerator_tEEBB6101232F5C5A4FDD92AD5E7B3470740C6B00 L_1;
 		L_1 = Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06(L_0, Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06_RuntimeMethod_var);
 		V_0 = L_1;
@@ -18784,11 +19210,13 @@ IL_0011_1:
 				V_1 = L_2;
 				// List<byte> toRemove = new List<byte>();
 				List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B* L_3 = (List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B*)il2cpp_codegen_object_new(List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B_il2cpp_TypeInfo_var);
+				NullCheck(L_3);
 				List_1__ctor_mC411581553467A7DB76C06E5E5FCA34E4EC621B9(L_3, List_1__ctor_mC411581553467A7DB76C06E5E5FCA34E4EC621B9_RuntimeMethod_var);
 				V_2 = L_3;
 				// foreach (var voice in playerVoices.Value)
 				Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_4;
 				L_4 = KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_inline((&V_1), KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_RuntimeMethod_var);
+				NullCheck(L_4);
 				Enumerator_tB4FBF449AB6F9379B1A1BF012AF33E406E1E2DD6 L_5;
 				L_5 = Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75(L_4, Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75_RuntimeMethod_var);
 				V_3 = L_5;
@@ -18818,6 +19246,7 @@ IL_002e_2:
 						// if (voice.Value.channelId == channelId)
 						RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_7;
 						L_7 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_4), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+						NullCheck(L_7);
 						int32_t L_8 = L_7->___channelId_2;
 						int32_t L_9 = ___channelId0;
 						if ((!(((uint32_t)L_8) == ((uint32_t)L_9))))
@@ -18829,11 +19258,13 @@ IL_002e_2:
 						// voice.Value.removeAndDispose();
 						RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_10;
 						L_10 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_4), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+						NullCheck(L_10);
 						RemoteVoice_removeAndDispose_mFA5904757A601BF76EAA473B1B17E5E47D6B297D(L_10, NULL);
 						// toRemove.Add(voice.Key);
 						List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B* L_11 = V_2;
 						uint8_t L_12;
 						L_12 = KeyValuePair_2_get_Key_m114BEA8BDA632403531182ABAE85528D6D7EB263_inline((&V_4), KeyValuePair_2_get_Key_m114BEA8BDA632403531182ABAE85528D6D7EB263_RuntimeMethod_var);
+						NullCheck(L_11);
 						List_1_Add_mCF9C36A7DE08AFB2D2EEC76139677E086A6CAD73_inline(L_11, L_12, List_1_Add_mCF9C36A7DE08AFB2D2EEC76139677E086A6CAD73_RuntimeMethod_var);
 					}
 
@@ -18861,6 +19292,7 @@ IL_0078_1:
 			{
 				// foreach (var id in toRemove)
 				List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B* L_14 = V_2;
+				NullCheck(L_14);
 				Enumerator_tC5339EB6E9A23E34DEEF2F0B458F1F376762DDBA L_15;
 				L_15 = List_1_GetEnumerator_mB49AC1E6081266034C22194188C90AE90BD804C1(L_14, List_1_GetEnumerator_mB49AC1E6081266034C22194188C90AE90BD804C1_RuntimeMethod_var);
 				V_5 = L_15;
@@ -18891,6 +19323,7 @@ IL_0082_2:
 						Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_17;
 						L_17 = KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_inline((&V_1), KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_RuntimeMethod_var);
 						uint8_t L_18 = V_6;
+						NullCheck(L_17);
 						bool L_19;
 						L_19 = Dictionary_2_Remove_mB5B5E62BB45B698D52A77869E23C12878C877B2B(L_17, L_18, Dictionary_2_Remove_mB5B5E62BB45B698D52A77869E23C12878C877B2B_RuntimeMethod_var);
 					}
@@ -18946,6 +19379,7 @@ IL_00cf:
 		L_25 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral50186F27399D787C0E07475E947A960D76838879, L_24, _stringLiteral2865EB1915452F2950D41BFFE1118FC55D94B6AA, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26;
 		L_26 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_22);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_22, L_25, L_26);
 		// }
 		return;
@@ -18989,6 +19423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_clearRemoteVoicesInChannelFo
 		// if (remoteVoices.TryGetValue(playerId, out playerVoices))
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_0 = __this->___remoteVoices_18;
 		int32_t L_1 = ___playerId1;
+		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_TryGetValue_m023B1C7E7F77C3BD7A89B52D54021AAE80515DFF(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_m023B1C7E7F77C3BD7A89B52D54021AAE80515DFF_RuntimeMethod_var);
 		if (!L_2)
@@ -18999,10 +19434,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_clearRemoteVoicesInChannelFo
 	{
 		// List<byte> toRemove = new List<byte>();
 		List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B* L_3 = (List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B*)il2cpp_codegen_object_new(List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
 		List_1__ctor_mC411581553467A7DB76C06E5E5FCA34E4EC621B9(L_3, List_1__ctor_mC411581553467A7DB76C06E5E5FCA34E4EC621B9_RuntimeMethod_var);
 		V_1 = L_3;
 		// foreach (var v in playerVoices)
 		Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_4 = V_0;
+		NullCheck(L_4);
 		Enumerator_tB4FBF449AB6F9379B1A1BF012AF33E406E1E2DD6 L_5;
 		L_5 = Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75(L_4, Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75_RuntimeMethod_var);
 		V_2 = L_5;
@@ -19032,6 +19469,7 @@ IL_0024_1:
 				// if (v.Value.channelId == channelId)
 				RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_7;
 				L_7 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_3), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+				NullCheck(L_7);
 				int32_t L_8 = L_7->___channelId_2;
 				int32_t L_9 = ___channelId0;
 				if ((!(((uint32_t)L_8) == ((uint32_t)L_9))))
@@ -19043,11 +19481,13 @@ IL_0024_1:
 				// v.Value.removeAndDispose();
 				RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_10;
 				L_10 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_3), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+				NullCheck(L_10);
 				RemoteVoice_removeAndDispose_mFA5904757A601BF76EAA473B1B17E5E47D6B297D(L_10, NULL);
 				// toRemove.Add(v.Key);
 				List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B* L_11 = V_1;
 				uint8_t L_12;
 				L_12 = KeyValuePair_2_get_Key_m114BEA8BDA632403531182ABAE85528D6D7EB263_inline((&V_3), KeyValuePair_2_get_Key_m114BEA8BDA632403531182ABAE85528D6D7EB263_RuntimeMethod_var);
+				NullCheck(L_11);
 				List_1_Add_mCF9C36A7DE08AFB2D2EEC76139677E086A6CAD73_inline(L_11, L_12, List_1_Add_mCF9C36A7DE08AFB2D2EEC76139677E086A6CAD73_RuntimeMethod_var);
 			}
 
@@ -19075,6 +19515,7 @@ IL_006d:
 	{
 		// foreach (var id in toRemove)
 		List_1_t7D15BE3246500BBF1A24C24DBF963B89A876255B* L_14 = V_1;
+		NullCheck(L_14);
 		Enumerator_tC5339EB6E9A23E34DEEF2F0B458F1F376762DDBA L_15;
 		L_15 = List_1_GetEnumerator_mB49AC1E6081266034C22194188C90AE90BD804C1(L_14, List_1_GetEnumerator_mB49AC1E6081266034C22194188C90AE90BD804C1_RuntimeMethod_var);
 		V_4 = L_15;
@@ -19104,6 +19545,7 @@ IL_0077_1:
 				// playerVoices.Remove(id);
 				Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_17 = V_0;
 				uint8_t L_18 = V_5;
+				NullCheck(L_17);
 				bool L_19;
 				L_19 = Dictionary_2_Remove_mB5B5E62BB45B698D52A77869E23C12878C877B2B(L_17, L_18, Dictionary_2_Remove_mB5B5E62BB45B698D52A77869E23C12878C877B2B_RuntimeMethod_var);
 			}
@@ -19234,6 +19676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_onVoiceInfo_m3C5AD959AFB2E7C
 		// if (!remoteVoices.TryGetValue(playerId, out playerVoices))
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_0 = __this->___remoteVoices_18;
 		int32_t L_1 = ___playerId1;
+		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_TryGetValue_m023B1C7E7F77C3BD7A89B52D54021AAE80515DFF(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_m023B1C7E7F77C3BD7A89B52D54021AAE80515DFF_RuntimeMethod_var);
 		if (L_2)
@@ -19244,12 +19687,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_onVoiceInfo_m3C5AD959AFB2E7C
 	{
 		// playerVoices = new Dictionary<byte, RemoteVoice>();
 		Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_3 = (Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F*)il2cpp_codegen_object_new(Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
 		Dictionary_2__ctor_m222FF1A4AB1EB5085AC98D5DC249B11142091B8C(L_3, Dictionary_2__ctor_m222FF1A4AB1EB5085AC98D5DC249B11142091B8C_RuntimeMethod_var);
 		V_0 = L_3;
 		// remoteVoices[playerId] = playerVoices;
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_4 = __this->___remoteVoices_18;
 		int32_t L_5 = ___playerId1;
 		Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_6 = V_0;
+		NullCheck(L_4);
 		Dictionary_2_set_Item_mA63FCD5411649873635584D98F3A8761B4E18965(L_4, L_5, L_6, Dictionary_2_set_Item_mA63FCD5411649873635584D98F3A8761B4E18965_RuntimeMethod_var);
 	}
 
@@ -19258,6 +19703,7 @@ IL_0025:
 		// if (!playerVoices.ContainsKey(voiceId))
 		Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_7 = V_0;
 		uint8_t L_8 = ___voiceId2;
+		NullCheck(L_7);
 		bool L_9;
 		L_9 = Dictionary_2_ContainsKey_mA73A2C499CA3E65CCC7ABD39F8E0CA53F362B4F2(L_7, L_8, Dictionary_2_ContainsKey_mA73A2C499CA3E65CCC7ABD39F8E0CA53F362B4F2_RuntimeMethod_var);
 		if (L_9)
@@ -19269,31 +19715,37 @@ IL_0025:
 		// var voiceStr = " p#" + this.playerStr(playerId) + " v#" + voiceId + " ch#" + channelStr(channelId);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
+		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, _stringLiteral4C0484B2ADE91419DD07B8742158B1C689BAF556);
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral4C0484B2ADE91419DD07B8742158B1C689BAF556);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral4C0484B2ADE91419DD07B8742158B1C689BAF556);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_11;
 		int32_t L_13 = ___playerId1;
 		String_t* L_14;
 		L_14 = VoiceClient_playerStr_mC2B75E9974E5F7505DA4C6366A1F5307BC89512F(__this, L_13, NULL);
+		NullCheck(L_12);
 		ArrayElementTypeCheck (L_12, L_14);
-		(L_12)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_14);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_14);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = L_12;
+		NullCheck(L_15);
 		ArrayElementTypeCheck (L_15, _stringLiteral3BD9234BFC6B6C4E6DAF7D9B3F7013CB2A782980);
-		(L_15)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral3BD9234BFC6B6C4E6DAF7D9B3F7013CB2A782980);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral3BD9234BFC6B6C4E6DAF7D9B3F7013CB2A782980);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15;
 		String_t* L_17;
 		L_17 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&___voiceId2), NULL);
+		NullCheck(L_16);
 		ArrayElementTypeCheck (L_16, L_17);
-		(L_16)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_17);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_17);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = L_16;
+		NullCheck(L_18);
 		ArrayElementTypeCheck (L_18, _stringLiteralAAFCBF405EAFA3DCB72EA3350FC8E7F5985F9AB9);
-		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralAAFCBF405EAFA3DCB72EA3350FC8E7F5985F9AB9);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralAAFCBF405EAFA3DCB72EA3350FC8E7F5985F9AB9);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = L_18;
 		int32_t L_20 = ___channelId0;
 		String_t* L_21;
 		L_21 = VoiceClient_channelStr_m21FBE4504EF3EC4E80F892F92F2D919A626D36A8(__this, L_20, NULL);
+		NullCheck(L_19);
 		ArrayElementTypeCheck (L_19, L_21);
-		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_21);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_21);
 		String_t* L_22;
 		L_22 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_19, NULL);
 		V_1 = L_22;
@@ -19301,32 +19753,39 @@ IL_0025:
 		RuntimeObject* L_23 = __this->___logger_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25 = L_24;
+		NullCheck(L_25);
 		ArrayElementTypeCheck (L_25, _stringLiteral2870283C084CEF55A9A67E0C08DFE0774FB728FE);
-		(L_25)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2870283C084CEF55A9A67E0C08DFE0774FB728FE);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2870283C084CEF55A9A67E0C08DFE0774FB728FE);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_26 = L_25;
 		String_t* L_27 = V_1;
+		NullCheck(L_26);
 		ArrayElementTypeCheck (L_26, L_27);
-		(L_26)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_27);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_27);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = L_26;
+		NullCheck(L_28);
 		ArrayElementTypeCheck (L_28, _stringLiteral403354B40DFC836B1A5484443A55E44AF1F50C23);
-		(L_28)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral403354B40DFC836B1A5484443A55E44AF1F50C23);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral403354B40DFC836B1A5484443A55E44AF1F50C23);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_29 = L_28;
 		String_t* L_30;
 		L_30 = VoiceInfo_ToString_m31F4E929FD426EC3DFDB94C4FE45D3ECEB904FFF((&___info4), NULL);
+		NullCheck(L_29);
 		ArrayElementTypeCheck (L_29, L_30);
-		(L_29)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_30);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_30);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31 = L_29;
+		NullCheck(L_31);
 		ArrayElementTypeCheck (L_31, _stringLiteralDD910EF1441AFF10313A0CE391F06D8B2646A3CD);
-		(L_31)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralDD910EF1441AFF10313A0CE391F06D8B2646A3CD);
+		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralDD910EF1441AFF10313A0CE391F06D8B2646A3CD);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = L_31;
 		String_t* L_33;
 		L_33 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&___eventNumber3), NULL);
+		NullCheck(L_32);
 		ArrayElementTypeCheck (L_32, L_33);
-		(L_32)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_33);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_33);
 		String_t* L_34;
 		L_34 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_32, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_35;
 		L_35 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_23);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_23, L_34, L_35);
 		// var logPrefix = "[PV] Remote " + info.Codec + voiceStr;
 		int32_t L_36;
@@ -19360,6 +19819,7 @@ IL_0025:
 		int32_t L_47 = ___playerId1;
 		uint8_t L_48 = ___voiceId2;
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_49 = ___info4;
+		NullCheck(L_45);
 		RemoteVoiceInfoDelegate_Invoke_m33C6C0AD7BCE050DCB377C0208C70FA3757B7BCE_inline(L_45, L_46, L_47, L_48, L_49, (&V_3), NULL);
 	}
 
@@ -19373,17 +19833,20 @@ IL_0110:
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_54 = ___info4;
 		uint8_t L_55 = ___eventNumber3;
 		RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_56 = (RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C*)il2cpp_codegen_object_new(RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C_il2cpp_TypeInfo_var);
+		NullCheck(L_56);
 		RemoteVoice__ctor_m5EA5852C7899034F239F056A8F365F7F62CD4BE2(L_56, __this, L_50, L_51, L_52, L_53, L_54, L_55, NULL);
 		V_4 = L_56;
 		// playerVoices[voiceId] = rv;
 		Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_57 = V_0;
 		uint8_t L_58 = ___voiceId2;
 		RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_59 = V_4;
+		NullCheck(L_57);
 		Dictionary_2_set_Item_mD2462D413FE5DB11A24C4BF7E3B4A360996AD9B3(L_57, L_58, L_59, Dictionary_2_set_Item_mD2462D413FE5DB11A24C4BF7E3B4A360996AD9B3_RuntimeMethod_var);
 		// if (remoteVoiceDelayFrames.TryGetValue(info.Codec, out delayFrames))
 		Dictionary_2_t1D92928E7113014048919339CEDEDE36D840D433* L_60 = __this->___remoteVoiceDelayFrames_11;
 		int32_t L_61;
 		L_61 = VoiceInfo_get_Codec_m163BADA5CCA44EF0C9E48346ED20E7CC33B24BE2_inline((&___info4), NULL);
+		NullCheck(L_60);
 		bool L_62;
 		L_62 = Dictionary_2_TryGetValue_m3F3488A384838D2A257FEBA37480A8257267F30D(L_60, L_61, (&V_5), Dictionary_2_TryGetValue_m3F3488A384838D2A257FEBA37480A8257267F30D_RuntimeMethod_var);
 		if (!L_62)
@@ -19395,6 +19858,7 @@ IL_0110:
 		// rv.DelayFrames = delayFrames;
 		RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_63 = V_4;
 		int32_t L_64 = V_5;
+		NullCheck(L_63);
 		RemoteVoice_set_DelayFrames_mF3A78B86EF30BA5660B5F7C5A380DE99CB9B68D0_inline(L_63, L_64, NULL);
 		return;
 	}
@@ -19414,35 +19878,42 @@ IL_0149:
 		RuntimeObject* L_66 = __this->___logger_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_67 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_68 = L_67;
+		NullCheck(L_68);
 		ArrayElementTypeCheck (L_68, _stringLiteralAE1C943660C04DB15002D80FBF084A2DF09FF575);
-		(L_68)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralAE1C943660C04DB15002D80FBF084A2DF09FF575);
+		(L_68)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralAE1C943660C04DB15002D80FBF084A2DF09FF575);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_69 = L_68;
 		String_t* L_70;
 		L_70 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&___voiceId2), NULL);
+		NullCheck(L_69);
 		ArrayElementTypeCheck (L_69, L_70);
-		(L_69)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_70);
+		(L_69)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_70);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_71 = L_69;
+		NullCheck(L_71);
 		ArrayElementTypeCheck (L_71, _stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
-		(L_71)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
+		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_72 = L_71;
 		int32_t L_73 = ___playerId1;
 		String_t* L_74;
 		L_74 = VoiceClient_playerStr_mC2B75E9974E5F7505DA4C6366A1F5307BC89512F(__this, L_73, NULL);
+		NullCheck(L_72);
 		ArrayElementTypeCheck (L_72, L_74);
-		(L_72)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_74);
+		(L_72)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_74);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_75 = L_72;
+		NullCheck(L_75);
 		ArrayElementTypeCheck (L_75, _stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
-		(L_75)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
+		(L_75)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_76 = L_75;
 		int32_t L_77 = ___channelId0;
 		String_t* L_78;
 		L_78 = VoiceClient_channelStr_m21FBE4504EF3EC4E80F892F92F2D919A626D36A8(__this, L_77, NULL);
+		NullCheck(L_76);
 		ArrayElementTypeCheck (L_76, L_78);
-		(L_76)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_78);
+		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_78);
 		String_t* L_79;
 		L_79 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_76, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_80;
 		L_80 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_66);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1 /* System.Void Photon.Voice.ILogger::LogWarning(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_66, L_79, L_80);
 	}
 
@@ -19484,6 +19955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_onVoiceRemove_mD2C7AD7A9A377
 		// if (remoteVoices.TryGetValue(playerId, out playerVoices))
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_0 = __this->___remoteVoices_18;
 		int32_t L_1 = ___playerId1;
+		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_TryGetValue_m023B1C7E7F77C3BD7A89B52D54021AAE80515DFF(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_m023B1C7E7F77C3BD7A89B52D54021AAE80515DFF_RuntimeMethod_var);
 		if (!L_2)
@@ -19504,12 +19976,14 @@ IL_001e:
 		// foreach (var voiceId in voiceIds)
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_1;
 		int32_t L_5 = V_2;
+		NullCheck(L_4);
 		int32_t L_6 = L_5;
-		uint8_t L_7 = (L_4)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_6));
+		uint8_t L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		V_3 = L_7;
 		// if (playerVoices.TryGetValue(voiceId, out voice))
 		Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_8 = V_0;
 		uint8_t L_9 = V_3;
+		NullCheck(L_8);
 		bool L_10;
 		L_10 = Dictionary_2_TryGetValue_mF9E4581337A336AD14787496410E724EE896950F(L_8, L_9, (&V_4), Dictionary_2_TryGetValue_mF9E4581337A336AD14787496410E724EE896950F_RuntimeMethod_var);
 		if (!L_10)
@@ -19521,47 +19995,57 @@ IL_001e:
 		// playerVoices.Remove(voiceId);
 		Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_11 = V_0;
 		uint8_t L_12 = V_3;
+		NullCheck(L_11);
 		bool L_13;
 		L_13 = Dictionary_2_Remove_mB5B5E62BB45B698D52A77869E23C12878C877B2B(L_11, L_12, Dictionary_2_Remove_mB5B5E62BB45B698D52A77869E23C12878C877B2B_RuntimeMethod_var);
 		// this.logger.LogInfo("[PV] Remote voice #" + voiceId + " of player " + this.playerStr(playerId) + " at channel " + this.channelStr(channelId) + " removed");
 		RuntimeObject* L_14 = __this->___logger_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)7);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15;
+		NullCheck(L_16);
 		ArrayElementTypeCheck (L_16, _stringLiteral78678987C6009E71EE5BD15FDFE4CA72D1129827);
-		(L_16)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral78678987C6009E71EE5BD15FDFE4CA72D1129827);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral78678987C6009E71EE5BD15FDFE4CA72D1129827);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16;
 		String_t* L_18;
 		L_18 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&V_3), NULL);
+		NullCheck(L_17);
 		ArrayElementTypeCheck (L_17, L_18);
-		(L_17)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_18);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_18);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = L_17;
+		NullCheck(L_19);
 		ArrayElementTypeCheck (L_19, _stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
-		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = L_19;
 		int32_t L_21 = ___playerId1;
 		String_t* L_22;
 		L_22 = VoiceClient_playerStr_mC2B75E9974E5F7505DA4C6366A1F5307BC89512F(__this, L_21, NULL);
+		NullCheck(L_20);
 		ArrayElementTypeCheck (L_20, L_22);
-		(L_20)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_22);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_22);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = L_20;
+		NullCheck(L_23);
 		ArrayElementTypeCheck (L_23, _stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
-		(L_23)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = L_23;
 		int32_t L_25 = ___channelId0;
 		String_t* L_26;
 		L_26 = VoiceClient_channelStr_m21FBE4504EF3EC4E80F892F92F2D919A626D36A8(__this, L_25, NULL);
+		NullCheck(L_24);
 		ArrayElementTypeCheck (L_24, L_26);
-		(L_24)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_26);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_26);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_27 = L_24;
+		NullCheck(L_27);
 		ArrayElementTypeCheck (L_27, _stringLiteral5E52A489BC85D2E22CEF2F77AE92817141331EDF);
-		(L_27)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral5E52A489BC85D2E22CEF2F77AE92817141331EDF);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral5E52A489BC85D2E22CEF2F77AE92817141331EDF);
 		String_t* L_28;
 		L_28 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_27, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_29;
 		L_29 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_14);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_14, L_28, L_29);
 		// voice.removeAndDispose();
 		RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_30 = V_4;
+		NullCheck(L_30);
 		RemoteVoice_removeAndDispose_mFA5904757A601BF76EAA473B1B17E5E47D6B297D(L_30, NULL);
 		goto IL_00f0;
 	}
@@ -19572,38 +20056,46 @@ IL_0097:
 		RuntimeObject* L_31 = __this->___logger_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)7);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_33 = L_32;
+		NullCheck(L_33);
 		ArrayElementTypeCheck (L_33, _stringLiteral78678987C6009E71EE5BD15FDFE4CA72D1129827);
-		(L_33)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral78678987C6009E71EE5BD15FDFE4CA72D1129827);
+		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral78678987C6009E71EE5BD15FDFE4CA72D1129827);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = L_33;
 		String_t* L_35;
 		L_35 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&V_3), NULL);
+		NullCheck(L_34);
 		ArrayElementTypeCheck (L_34, L_35);
-		(L_34)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_35);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_35);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_36 = L_34;
+		NullCheck(L_36);
 		ArrayElementTypeCheck (L_36, _stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
-		(L_36)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
+		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_37 = L_36;
 		int32_t L_38 = ___playerId1;
 		String_t* L_39;
 		L_39 = VoiceClient_playerStr_mC2B75E9974E5F7505DA4C6366A1F5307BC89512F(__this, L_38, NULL);
+		NullCheck(L_37);
 		ArrayElementTypeCheck (L_37, L_39);
-		(L_37)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_39);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_39);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_40 = L_37;
+		NullCheck(L_40);
 		ArrayElementTypeCheck (L_40, _stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
-		(L_40)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_41 = L_40;
 		int32_t L_42 = ___channelId0;
 		String_t* L_43;
 		L_43 = VoiceClient_channelStr_m21FBE4504EF3EC4E80F892F92F2D919A626D36A8(__this, L_42, NULL);
+		NullCheck(L_41);
 		ArrayElementTypeCheck (L_41, L_43);
-		(L_41)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_43);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_43);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_44 = L_41;
+		NullCheck(L_44);
 		ArrayElementTypeCheck (L_44, _stringLiteral98D197C26960EAA55F6AE2BDE6A148B15FD9A2B6);
-		(L_44)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral98D197C26960EAA55F6AE2BDE6A148B15FD9A2B6);
+		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral98D197C26960EAA55F6AE2BDE6A148B15FD9A2B6);
 		String_t* L_45;
 		L_45 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_44, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_46;
 		L_46 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_31);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1 /* System.Void Photon.Voice.ILogger::LogWarning(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_31, L_45, L_46);
 	}
 
@@ -19618,6 +20110,7 @@ IL_00f4:
 		// foreach (var voiceId in voiceIds)
 		int32_t L_48 = V_2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_49 = V_1;
+		NullCheck(L_49);
 		if ((((int32_t)L_48) < ((int32_t)((int32_t)(((RuntimeArray*)L_49)->max_length)))))
 		{
 			goto IL_001e;
@@ -19633,30 +20126,36 @@ IL_00fe:
 		RuntimeObject* L_50 = __this->___logger_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_51 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_52 = L_51;
+		NullCheck(L_52);
 		ArrayElementTypeCheck (L_52, _stringLiteral70377A29ED3AC8C2BBBB97BC9FF97750C219007A);
-		(L_52)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral70377A29ED3AC8C2BBBB97BC9FF97750C219007A);
+		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral70377A29ED3AC8C2BBBB97BC9FF97750C219007A);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_53 = L_52;
 		int32_t L_54 = ___playerId1;
 		String_t* L_55;
 		L_55 = VoiceClient_playerStr_mC2B75E9974E5F7505DA4C6366A1F5307BC89512F(__this, L_54, NULL);
+		NullCheck(L_53);
 		ArrayElementTypeCheck (L_53, L_55);
-		(L_53)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_55);
+		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_55);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_56 = L_53;
+		NullCheck(L_56);
 		ArrayElementTypeCheck (L_56, _stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
-		(L_56)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
+		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_57 = L_56;
 		int32_t L_58 = ___channelId0;
 		String_t* L_59;
 		L_59 = VoiceClient_channelStr_m21FBE4504EF3EC4E80F892F92F2D919A626D36A8(__this, L_58, NULL);
+		NullCheck(L_57);
 		ArrayElementTypeCheck (L_57, L_59);
-		(L_57)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_59);
+		(L_57)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_59);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_60 = L_57;
+		NullCheck(L_60);
 		ArrayElementTypeCheck (L_60, _stringLiteral238A240C2A989ACA3362A270D43941A22941570D);
-		(L_60)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral238A240C2A989ACA3362A270D43941A22941570D);
+		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral238A240C2A989ACA3362A270D43941A22941570D);
 		String_t* L_61;
 		L_61 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_60, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_62;
 		L_62 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_50);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1 /* System.Void Photon.Voice.ILogger::LogWarning(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_50, L_61, L_62);
 		// }
 		return;
@@ -19702,6 +20201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_onFrame_m9D4A3B236F96891AEAA
 		// if (this.localVoices.TryGetValue(voiceId, out voice))
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_1 = __this->___localVoices_16;
 		uint8_t L_2 = ___voiceId2;
+		NullCheck(L_1);
 		bool L_3;
 		L_3 = Dictionary_2_TryGetValue_m04F387C4287BF6B331DC357AE54C41A4C08FE74E(L_1, L_2, (&V_1), Dictionary_2_TryGetValue_m04F387C4287BF6B331DC357AE54C41A4C08FE74E_RuntimeMethod_var);
 		if (!L_3)
@@ -19712,8 +20212,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_onFrame_m9D4A3B236F96891AEAA
 	{
 		// if (voice.eventTimestamps.TryGetValue(evNumber, out sendTime))
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_4 = V_1;
+		NullCheck(L_4);
 		Dictionary_2_tC5EFC8C0218B7680694715DA3F5E01A6F20D84A5* L_5 = L_4->___eventTimestamps_21;
 		uint8_t L_6 = ___evNumber3;
+		NullCheck(L_5);
 		bool L_7;
 		L_7 = Dictionary_2_TryGetValue_m300FA985BE9622F13D217FB3B75C7139038512C0(L_5, L_6, (&V_2), Dictionary_2_TryGetValue_m300FA985BE9622F13D217FB3B75C7139038512C0_RuntimeMethod_var);
 		if (!L_7)
@@ -19773,6 +20275,7 @@ IL_0071:
 	}
 	{
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_20 = __this->___rnd_19;
+		NullCheck(L_20);
 		int32_t L_21;
 		L_21 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(7 /* System.Int32 System.Random::Next(System.Int32) */, L_20, ((int32_t)100));
 		int32_t L_22;
@@ -19787,6 +20290,7 @@ IL_0071:
 		RuntimeObject* L_23 = __this->___logger_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24;
 		L_24 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_23);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1 /* System.Void Photon.Voice.ILogger::LogWarning(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_23, _stringLiteralFCF118D3A42BA712666FACC89867CEFA22BA058F, L_24);
 		// return;
 		return;
@@ -19805,6 +20309,7 @@ IL_00a5:
 		// if (remoteVoices.TryGetValue(playerId, out playerVoices))
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_27 = __this->___remoteVoices_18;
 		int32_t L_28 = ___playerId1;
+		NullCheck(L_27);
 		bool L_29;
 		L_29 = Dictionary_2_TryGetValue_m023B1C7E7F77C3BD7A89B52D54021AAE80515DFF(L_27, L_28, (&V_0), Dictionary_2_TryGetValue_m023B1C7E7F77C3BD7A89B52D54021AAE80515DFF_RuntimeMethod_var);
 		if (!L_29)
@@ -19818,6 +20323,7 @@ IL_00a5:
 		// if (playerVoices.TryGetValue(voiceId, out voice))
 		Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_30 = V_0;
 		uint8_t L_31 = ___voiceId2;
+		NullCheck(L_30);
 		bool L_32;
 		L_32 = Dictionary_2_TryGetValue_mF9E4581337A336AD14787496410E724EE896950F(L_30, L_31, (&V_6), Dictionary_2_TryGetValue_mF9E4581337A336AD14787496410E724EE896950F_RuntimeMethod_var);
 		if (!L_32)
@@ -19830,6 +20336,7 @@ IL_00a5:
 		RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_33 = V_6;
 		FrameBuffer_tAA0106B1B6523246C94E9D62064CB1191E0D9986* L_34 = ___receivedBytes4;
 		uint8_t L_35 = ___evNumber3;
+		NullCheck(L_33);
 		RemoteVoice_receiveBytes_mBDB797AA14B9B569ABCFCDA2F6B3A9148970E0D3(L_33, L_34, L_35, NULL);
 		return;
 	}
@@ -19840,35 +20347,42 @@ IL_00e3:
 		RuntimeObject* L_36 = __this->___logger_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_37 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_38 = L_37;
+		NullCheck(L_38);
 		ArrayElementTypeCheck (L_38, _stringLiteralD3D22C68A5A9634F72ED57FD28F34AC26D324C08);
-		(L_38)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralD3D22C68A5A9634F72ED57FD28F34AC26D324C08);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralD3D22C68A5A9634F72ED57FD28F34AC26D324C08);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_39 = L_38;
 		String_t* L_40;
 		L_40 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&___voiceId2), NULL);
+		NullCheck(L_39);
 		ArrayElementTypeCheck (L_39, L_40);
-		(L_39)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_40);
+		(L_39)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_40);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_41 = L_39;
+		NullCheck(L_41);
 		ArrayElementTypeCheck (L_41, _stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
-		(L_41)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral7917D00EF7A9265FBADEBEA0E19933DC33F1F274);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_42 = L_41;
 		int32_t L_43 = ___playerId1;
 		String_t* L_44;
 		L_44 = VoiceClient_playerStr_mC2B75E9974E5F7505DA4C6366A1F5307BC89512F(__this, L_43, NULL);
+		NullCheck(L_42);
 		ArrayElementTypeCheck (L_42, L_44);
-		(L_42)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_44);
+		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_44);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_45 = L_42;
+		NullCheck(L_45);
 		ArrayElementTypeCheck (L_45, _stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
-		(L_45)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
+		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_46 = L_45;
 		int32_t L_47 = ___channelId0;
 		String_t* L_48;
 		L_48 = VoiceClient_channelStr_m21FBE4504EF3EC4E80F892F92F2D919A626D36A8(__this, L_47, NULL);
+		NullCheck(L_46);
 		ArrayElementTypeCheck (L_46, L_48);
-		(L_46)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_48);
+		(L_46)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_48);
 		String_t* L_49;
 		L_49 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_46, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_50;
 		L_50 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_36);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1 /* System.Void Photon.Voice.ILogger::LogWarning(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_36, L_49, L_50);
 		return;
 	}
@@ -19879,35 +20393,42 @@ IL_0135:
 		RuntimeObject* L_51 = __this->___logger_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_52 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_53 = L_52;
+		NullCheck(L_53);
 		ArrayElementTypeCheck (L_53, _stringLiteral87A59B7661062CC047E3CA347146AEC096129706);
-		(L_53)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral87A59B7661062CC047E3CA347146AEC096129706);
+		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral87A59B7661062CC047E3CA347146AEC096129706);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_54 = L_53;
 		String_t* L_55;
 		L_55 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&___voiceId2), NULL);
+		NullCheck(L_54);
 		ArrayElementTypeCheck (L_54, L_55);
-		(L_54)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_55);
+		(L_54)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_55);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_56 = L_54;
+		NullCheck(L_56);
 		ArrayElementTypeCheck (L_56, _stringLiteralCA202F6C54E1DBB98E2F06CB296700B55BF03576);
-		(L_56)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralCA202F6C54E1DBB98E2F06CB296700B55BF03576);
+		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralCA202F6C54E1DBB98E2F06CB296700B55BF03576);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_57 = L_56;
 		int32_t L_58 = ___playerId1;
 		String_t* L_59;
 		L_59 = VoiceClient_playerStr_mC2B75E9974E5F7505DA4C6366A1F5307BC89512F(__this, L_58, NULL);
+		NullCheck(L_57);
 		ArrayElementTypeCheck (L_57, L_59);
-		(L_57)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_59);
+		(L_57)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_59);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_60 = L_57;
+		NullCheck(L_60);
 		ArrayElementTypeCheck (L_60, _stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
-		(L_60)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
+		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralC6C26D5BAE4661DB1137511EBC6592599331253A);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_61 = L_60;
 		int32_t L_62 = ___channelId0;
 		String_t* L_63;
 		L_63 = VoiceClient_channelStr_m21FBE4504EF3EC4E80F892F92F2D919A626D36A8(__this, L_62, NULL);
+		NullCheck(L_61);
 		ArrayElementTypeCheck (L_61, L_63);
-		(L_61)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_63);
+		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_63);
 		String_t* L_64;
 		L_64 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_61, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_65;
 		L_65 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_51);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1 /* System.Void Photon.Voice.ILogger::LogWarning(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_51, L_64, L_65);
 		// }
 		return;
@@ -19929,6 +20450,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VoiceClient_channelStr_m21FBE4504EF
 		// var str = this.transport.ChannelIdStr(channelId);
 		RuntimeObject* L_0 = __this->___transport_0;
 		int32_t L_1 = ___channelId0;
+		NullCheck(L_0);
 		String_t* L_2;
 		L_2 = InterfaceFuncInvoker1< String_t*, int32_t >::Invoke(4 /* System.String Photon.Voice.IVoiceTransport::ChannelIdStr(System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_0, L_1);
 		V_0 = L_2;
@@ -19973,6 +20495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VoiceClient_playerStr_mC2B75E9974E5
 		// var str = this.transport.PlayerIdStr(playerId);
 		RuntimeObject* L_0 = __this->___transport_0;
 		int32_t L_1 = ___playerId0;
+		NullCheck(L_0);
 		String_t* L_2;
 		L_2 = InterfaceFuncInvoker1< String_t*, int32_t >::Invoke(5 /* System.String Photon.Voice.IVoiceTransport::PlayerIdStr(System.Int32) */, IVoiceTransport_t8AB8CE7B17DD68C5ED96760062FC9FF152FCEB4C_il2cpp_TypeInfo_var, L_0, L_1);
 		V_0 = L_2;
@@ -20039,6 +20562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceClient_Dispose_m8653A119E3612FE0256
 	{
 		// foreach (var v in this.localVoices)
 		Dictionary_2_t9BCB1EF5FB3243318BCCD0B9F1205D8982078DB6* L_0 = __this->___localVoices_16;
+		NullCheck(L_0);
 		Enumerator_t99305A01FF4186C63881B2D82569A94E2C2C7508 L_1;
 		L_1 = Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F(L_0, Dictionary_2_GetEnumerator_m27356DB96E9500D601CCE69A1B16C156EDB08D8F_RuntimeMethod_var);
 		V_0 = L_1;
@@ -20068,6 +20592,7 @@ IL_000e_1:
 				// v.Value.Dispose();
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_3;
 				L_3 = KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_inline((&V_1), KeyValuePair_2_get_Value_m8E32DA0FF5757C9059F3D902B1BC25E6EB4B5BED_RuntimeMethod_var);
+				NullCheck(L_3);
 				VirtualActionInvoker0::Invoke(6 /* System.Void Photon.Voice.LocalVoice::Dispose() */, L_3);
 			}
 
@@ -20095,6 +20620,7 @@ IL_003b:
 	{
 		// foreach (var playerVoices in remoteVoices)
 		Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_5 = __this->___remoteVoices_18;
+		NullCheck(L_5);
 		Enumerator_tEEBB6101232F5C5A4FDD92AD5E7B3470740C6B00 L_6;
 		L_6 = Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06(L_5, Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06_RuntimeMethod_var);
 		V_2 = L_6;
@@ -20124,6 +20650,7 @@ IL_0049_1:
 				// foreach (var voice in playerVoices.Value)
 				Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_8;
 				L_8 = KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_inline((&V_3), KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_RuntimeMethod_var);
+				NullCheck(L_8);
 				Enumerator_tB4FBF449AB6F9379B1A1BF012AF33E406E1E2DD6 L_9;
 				L_9 = Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75(L_8, Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75_RuntimeMethod_var);
 				V_4 = L_9;
@@ -20153,6 +20680,7 @@ IL_0061_2:
 						// voice.Value.Dispose();
 						RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_11;
 						L_11 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_5), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+						NullCheck(L_11);
 						RemoteVoice_Dispose_mD1F4C4199B6ADE655B14764208D7EA14AE4BCC91(L_11, NULL);
 					}
 
@@ -20514,7 +21042,9 @@ IL_001f_1:
 				__this->___U3CU3E1__state_0 = (-1);
 				// foreach (var playerVoices in this.remoteVoices)
 				VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_4 = V_2;
+				NullCheck(L_4);
 				Dictionary_2_t4D6C72EB38C86FF1A6F195CBF4C5F9490574834A* L_5 = L_4->___remoteVoices_18;
+				NullCheck(L_5);
 				Enumerator_tEEBB6101232F5C5A4FDD92AD5E7B3470740C6B00 L_6;
 				L_6 = Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06(L_5, Dictionary_2_GetEnumerator_m384AF7B251933A71F64E7BB15C17D3958C8FAB06_RuntimeMethod_var);
 				__this->___U3CU3E7__wrap1_4 = L_6;
@@ -20538,6 +21068,7 @@ IL_0044_1:
 				KeyValuePair_2_t9AC73289587422CA0227A3FBBB5BAE711066520E* L_9 = (&__this->___U3CplayerVoicesU3E5__3_5);
 				Dictionary_2_t49BDD688BADBD484BFF4314A2C92002AB34FFC0F* L_10;
 				L_10 = KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_inline(L_9, KeyValuePair_2_get_Value_mA482893E7436D8F0BF1310CE3C3BEFCAD72B7258_RuntimeMethod_var);
+				NullCheck(L_10);
 				Enumerator_tB4FBF449AB6F9379B1A1BF012AF33E406E1E2DD6 L_11;
 				L_11 = Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75(L_10, Dictionary_2_GetEnumerator_m6943F2EBBFEDBDB08454D55860ADAABE2FDFBA75_RuntimeMethod_var);
 				__this->___U3CU3E7__wrap3_6 = L_11;
@@ -20559,6 +21090,7 @@ IL_0075_1:
 				// yield return new RemoteVoiceInfo(voice.Value.channelId, playerVoices.Key, voice.Key, voice.Value.Info);
 				RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_14;
 				L_14 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_3), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+				NullCheck(L_14);
 				int32_t L_15 = L_14->___channelId_2;
 				KeyValuePair_2_t9AC73289587422CA0227A3FBBB5BAE711066520E* L_16 = (&__this->___U3CplayerVoicesU3E5__3_5);
 				int32_t L_17;
@@ -20567,9 +21099,11 @@ IL_0075_1:
 				L_18 = KeyValuePair_2_get_Key_m114BEA8BDA632403531182ABAE85528D6D7EB263_inline((&V_3), KeyValuePair_2_get_Key_m114BEA8BDA632403531182ABAE85528D6D7EB263_RuntimeMethod_var);
 				RemoteVoice_tF56E1CC1737734E7DA411F332E1230B4340AA88C* L_19;
 				L_19 = KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_inline((&V_3), KeyValuePair_2_get_Value_mEC2604AB8DFF4EC28B223C2309DEC878E0541595_RuntimeMethod_var);
+				NullCheck(L_19);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_20;
 				L_20 = RemoteVoice_get_Info_mDA764DF4B45A49F2B3B4EA47FCC2DC85FC51B4B8_inline(L_19, NULL);
 				RemoteVoiceInfo_tE5D3ACF658892A994249E416C2305DFFB910A394* L_21 = (RemoteVoiceInfo_tE5D3ACF658892A994249E416C2305DFFB910A394*)il2cpp_codegen_object_new(RemoteVoiceInfo_tE5D3ACF658892A994249E416C2305DFFB910A394_il2cpp_TypeInfo_var);
+				NullCheck(L_21);
 				RemoteVoiceInfo__ctor_m0A40A657B2EDB13FE9043434DD244FFDC715F88B(L_21, L_15, L_17, L_18, L_20, NULL);
 				__this->___U3CU3E2__current_1 = L_21;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_21);
@@ -20680,6 +21214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3Cget_RemoteVoiceInfosU3Ed__44_System_C
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3Cget_RemoteVoiceInfosU3Ed__44_System_Collections_IEnumerator_Reset_m8142C137B17CE80AFDBE698964A2721E0DD69096_RuntimeMethod_var)));
 	}
@@ -20727,10 +21262,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3Cget_RemoteVoiceInfosU3Ed__4
 IL_0022:
 	{
 		U3Cget_RemoteVoiceInfosU3Ed__44_tA32C854C7DA15F56C64458D8DE4B6DA74EA83378* L_3 = (U3Cget_RemoteVoiceInfosU3Ed__44_tA32C854C7DA15F56C64458D8DE4B6DA74EA83378*)il2cpp_codegen_object_new(U3Cget_RemoteVoiceInfosU3Ed__44_tA32C854C7DA15F56C64458D8DE4B6DA74EA83378_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
 		U3Cget_RemoteVoiceInfosU3Ed__44__ctor_mC1849C8208E85F0137467EEF1068C0A4D9425E7B(L_3, 0, NULL);
 		V_0 = L_3;
 		U3Cget_RemoteVoiceInfosU3Ed__44_tA32C854C7DA15F56C64458D8DE4B6DA74EA83378* L_4 = V_0;
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_5 = __this->___U3CU3E4__this_3;
+		NullCheck(L_4);
 		L_4->___U3CU3E4__this_3 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___U3CU3E4__this_3), (void*)L_5);
 	}
@@ -20783,6 +21320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A8
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_3 = __this->___voiceInfo_2;
 		int32_t L_4 = ___chId1;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_5 = (LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5*)il2cpp_codegen_object_new(LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
 		LocalVoice__ctor_m2758C28A05887B045CA471BB6B985924DD107D15(L_5, L_0, L_1, L_2, L_3, L_4, NULL);
 		return L_5;
 	}
@@ -20818,9 +21356,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass56_0_U3CCreateLocal
 	{
 		// var shortBuf = localVoice.BufferFactory.New(buf.Length);
 		LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E* L_0 = __this->___localVoice_0;
+		NullCheck(L_0);
 		FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC* L_1;
 		L_1 = LocalVoiceFramed_1_get_BufferFactory_m9C309881181A1E491709968688CA77CB86748B5F_inline(L_0, LocalVoiceFramed_1_get_BufferFactory_m9C309881181A1E491709968688CA77CB86748B5F_RuntimeMethod_var);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = ___buf0;
+		NullCheck(L_2);
+		NullCheck(L_1);
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_3;
 		L_3 = FactoryPrimitiveArrayPool_1_New_m00237303622401DADCE5386D06EC6840ADC33C30(L_1, ((int32_t)(((RuntimeArray*)L_2)->max_length)), FactoryPrimitiveArrayPool_1_New_m00237303622401DADCE5386D06EC6840ADC33C30_RuntimeMethod_var);
 		V_0 = L_3;
@@ -20828,10 +21369,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass56_0_U3CCreateLocal
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = ___buf0;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_5 = V_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = ___buf0;
+		NullCheck(L_6);
 		AudioUtil_Convert_mFD94A7276A0D0AF96A0BB7A94327668E738CF1CC(L_4, L_5, ((int32_t)(((RuntimeArray*)L_6)->max_length)), NULL);
 		// localVoice.PushDataAsync(shortBuf);
 		LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E* L_7 = __this->___localVoice_0;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_8 = V_0;
+		NullCheck(L_7);
 		LocalVoiceFramed_1_PushDataAsync_mFE842BFF5FB99D5AC5480AF13CED7A2928C70B03(L_7, L_8, LocalVoiceFramed_1_PushDataAsync_mFE842BFF5FB99D5AC5480AF13CED7A2928C70B03_RuntimeMethod_var);
 		// }, bufferFactory);
 		return;
@@ -20866,6 +21409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass56_1_U3CCreateLocal
 		// ((IAudioPusher<float>)source).SetCallback(buf => localVoice.PushDataAsync(buf), localVoice.BufferFactory);
 		LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14* L_0 = __this->___localVoice_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ___buf0;
+		NullCheck(L_0);
 		LocalVoiceFramed_1_PushDataAsync_m215DCA2344148DD159091BF377E269B5D7271729(L_0, L_1, LocalVoiceFramed_1_PushDataAsync_m215DCA2344148DD159091BF377E269B5D7271729_RuntimeMethod_var);
 		return;
 	}
@@ -20901,9 +21445,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass56_2_U3CCreateLocal
 	{
 		// var floatBuf = localVoice.BufferFactory.New(buf.Length);
 		LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14* L_0 = __this->___localVoice_0;
+		NullCheck(L_0);
 		FactoryPrimitiveArrayPool_1_tA8D0BF61C8C68AE9A7CB48A34477EE922C3DE819* L_1;
 		L_1 = LocalVoiceFramed_1_get_BufferFactory_m61B43DE34DEC3BB8B7AD1D9CCE4BCF2FBEB4B37F_inline(L_0, LocalVoiceFramed_1_get_BufferFactory_m61B43DE34DEC3BB8B7AD1D9CCE4BCF2FBEB4B37F_RuntimeMethod_var);
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_2 = ___buf0;
+		NullCheck(L_2);
+		NullCheck(L_1);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3;
 		L_3 = FactoryPrimitiveArrayPool_1_New_m8FCEA0641A7DFAA5741C43B5D069FCFF3CC2B508(L_1, ((int32_t)(((RuntimeArray*)L_2)->max_length)), FactoryPrimitiveArrayPool_1_New_m8FCEA0641A7DFAA5741C43B5D069FCFF3CC2B508_RuntimeMethod_var);
 		V_0 = L_3;
@@ -20911,10 +21458,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass56_2_U3CCreateLocal
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_4 = ___buf0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = V_0;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_6 = ___buf0;
+		NullCheck(L_6);
 		AudioUtil_Convert_mD75A46A4751D793107EFC13EB5A310899A9E18DE(L_4, L_5, ((int32_t)(((RuntimeArray*)L_6)->max_length)), NULL);
 		// localVoice.PushDataAsync(floatBuf);
 		LocalVoiceAudio_1_t6BD9B22B1E26EE56F5CB5B8E5018880195D19A14* L_7 = __this->___localVoice_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = V_0;
+		NullCheck(L_7);
 		LocalVoiceFramed_1_PushDataAsync_m215DCA2344148DD159091BF377E269B5D7271729(L_7, L_8, LocalVoiceFramed_1_PushDataAsync_m215DCA2344148DD159091BF377E269B5D7271729_RuntimeMethod_var);
 		// }, bufferFactory);
 		return;
@@ -20949,6 +21498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass56_3_U3CCreateLocal
 		// ((IAudioPusher<short>)source).SetCallback(buf => localVoice.PushDataAsync(buf), localVoice.BufferFactory);
 		LocalVoiceAudio_1_t79793DEA4E6913264A149098BA68EC7B5EB77D0E* L_0 = __this->___localVoice_0;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_1 = ___buf0;
+		NullCheck(L_0);
 		LocalVoiceFramed_1_PushDataAsync_mFE842BFF5FB99D5AC5480AF13CED7A2928C70B03(L_0, L_1, LocalVoiceFramed_1_PushDataAsync_mFE842BFF5FB99D5AC5480AF13CED7A2928C70B03_RuntimeMethod_var);
 		return;
 	}
@@ -20972,6 +21522,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m403BA324CB52C4FAFAD0E37A
 	}
 	{
 		U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305* L_0 = (U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305*)il2cpp_codegen_object_new(U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		U3CU3Ec__ctor_m22941987F316D4E04C5D4A0BD657B7C9DC17A5D0(L_0, NULL);
 		((U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t19E0D8D90C3F006F33130FAAF9DB01B765813305_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
@@ -20992,6 +21543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CsendVoicesInfoAndConfigFrameU
 	{
 		// var debugEchoVoices = localVoices.Values.Where(x => x.DebugEchoMode);
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_0 = ___x0;
+		NullCheck(L_0);
 		bool L_1;
 		L_1 = LocalVoice_get_DebugEchoMode_mBB5814D60DDFE293CAE3D2FAEFF871B1A6A08381_inline(L_0, NULL);
 		return L_1;
@@ -21048,6 +21600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsupportedSampleTypeException__ctor_m46
 
 IL_000e:
 	{
+		NullCheck(G_B2_0);
 		String_t* L_2;
 		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B2_0);
 		G_B3_0 = L_2;
@@ -21138,15 +21691,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsupportedPlatformException__ctor_m4A13
 		// public UnsupportedPlatformException(string subject, string platform = null) : base("[PV] " + subject + " does not support " + (platform == null ? "current" : platform) + " platform") { }
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
+		NullCheck(L_1);
 		ArrayElementTypeCheck (L_1, _stringLiteral2870283C084CEF55A9A67E0C08DFE0774FB728FE);
-		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2870283C084CEF55A9A67E0C08DFE0774FB728FE);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral2870283C084CEF55A9A67E0C08DFE0774FB728FE);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
 		String_t* L_3 = ___subject0;
+		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
-		(L_2)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_2;
+		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, _stringLiteral700F40277D4FA9C1E62BB933C0693CB9FE5AA266);
-		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral700F40277D4FA9C1E62BB933C0693CB9FE5AA266);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral700F40277D4FA9C1E62BB933C0693CB9FE5AA266);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
 		String_t* L_6 = ___platform1;
 		G_B1_0 = 3;
@@ -21183,11 +21739,13 @@ IL_0023:
 
 IL_0028:
 	{
+		NullCheck(G_B3_2);
 		ArrayElementTypeCheck (G_B3_2, G_B3_0);
-		(G_B3_2)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(G_B3_1), (String_t*)G_B3_0);
+		(G_B3_2)->SetAt(static_cast<il2cpp_array_size_t>(G_B3_1), (String_t*)G_B3_0);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = G_B3_3;
+		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, _stringLiteral9AEF2E868568D1FBBE5EA563316DCB47A4E12F62);
-		(L_8)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral9AEF2E868568D1FBBE5EA563316DCB47A4E12F62);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral9AEF2E868568D1FBBE5EA563316DCB47A4E12F62);
 		String_t* L_9;
 		L_9 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
@@ -22355,6 +22913,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageBufferNativeAlloc_Release_mFE3429CA
 	{
 		// pool.Release(this);
 		ImageBufferNativePool_1_t0F2F80B1E84E48A5674C3C4BDE5A8E6C2C1213DB* L_1 = __this->___pool_2;
+		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker1< bool, ImageBufferNativeAlloc_t07FCDE3872C864A0F72D0B48037199ADC2660827* >::Invoke(9 /* System.Boolean Photon.Voice.ObjectPool`2<Photon.Voice.ImageBufferNativeAlloc,Photon.Voice.ImageBufferInfo>::Release(TType) */, L_1, __this);
 	}
@@ -22459,6 +23018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageBufferNativeGCHandleSinglePlane__ct
 		String_t* L_6;
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9A6896250946864C45ECBD63F665C1CBCAD38A6D)), L_5, NULL);
 		Exception_t* L_7 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
+		NullCheck(L_7);
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_7, L_6, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ImageBufferNativeGCHandleSinglePlane__ctor_m5A24B8527F06B8E6E6B9E462BF92BC5DF10F2F94_RuntimeMethod_var)));
 	}
@@ -22509,6 +23069,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageBufferNativeGCHandleSinglePlane_Rel
 	{
 		// pool.Release(this);
 		ImageBufferNativePool_1_t7906BA103BFDD370A8F174361E5564B2310C86A1* L_2 = __this->___pool_2;
+		NullCheck(L_2);
 		bool L_3;
 		L_3 = VirtualFuncInvoker1< bool, ImageBufferNativeGCHandleSinglePlane_tE59ABC8465292BF4EFB0A93AF6F63DBC09092B78* >::Invoke(9 /* System.Boolean Photon.Voice.ObjectPool`2<Photon.Voice.ImageBufferNativeGCHandleSinglePlane,Photon.Voice.ImageBufferInfo>::Release(TType) */, L_2, __this);
 	}
@@ -22857,8 +23418,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VoiceInfo_ToString_m31F4E929FD426EC
 		// return "c=" + Codec + " f=" + SamplingRate + " ch=" + Channels + " d=" + FrameDurationUs + " s=" + FrameSize + " b=" + Bitrate + " w=" + Width + " h=" + Height + " fps=" + FPS + " kfi=" + KeyFrameInt + " ud=" + UserData;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)22));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
+		NullCheck(L_1);
 		ArrayElementTypeCheck (L_1, _stringLiteral7289518792BDCB67DFFB3A0C1F0EA23B87ABEE37);
-		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral7289518792BDCB67DFFB3A0C1F0EA23B87ABEE37);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral7289518792BDCB67DFFB3A0C1F0EA23B87ABEE37);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
 		int32_t L_3;
 		L_3 = VoiceInfo_get_Codec_m163BADA5CCA44EF0C9E48346ED20E7CC33B24BE2_inline(__this, NULL);
@@ -22866,110 +23428,130 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VoiceInfo_ToString_m31F4E929FD426EC
 		Il2CppFakeBox<int32_t> L_4(Codec_t7B215C0B276BF5BE13C5803ADC8928B5E31EF525_il2cpp_TypeInfo_var, (&V_0));
 		String_t* L_5;
 		L_5 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_4), NULL);
+		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_5);
-		(L_2)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)L_5);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_2;
+		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, _stringLiteral100323A6169CFA7F674D7CC67BE42D330639595B);
-		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral100323A6169CFA7F674D7CC67BE42D330639595B);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral100323A6169CFA7F674D7CC67BE42D330639595B);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6;
 		int32_t L_8;
 		L_8 = VoiceInfo_get_SamplingRate_mB35BF119B634916F78FF136465AD6E3FDFE834C8_inline(__this, NULL);
 		V_1 = L_8;
 		String_t* L_9;
 		L_9 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_9);
-		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)L_9);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_9);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_7;
+		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, _stringLiteralB14566A3FA40508B81AB1B32AF09E1F3EF94DCB9);
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralB14566A3FA40508B81AB1B32AF09E1F3EF94DCB9);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralB14566A3FA40508B81AB1B32AF09E1F3EF94DCB9);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
 		int32_t L_12;
 		L_12 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline(__this, NULL);
 		V_1 = L_12;
 		String_t* L_13;
 		L_13 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_13);
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (String_t*)L_13);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_13);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = L_11;
+		NullCheck(L_14);
 		ArrayElementTypeCheck (L_14, _stringLiteral6273D0F87780C99EDBAF7CE6F7A940CB128EF503);
-		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral6273D0F87780C99EDBAF7CE6F7A940CB128EF503);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral6273D0F87780C99EDBAF7CE6F7A940CB128EF503);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = L_14;
 		int32_t L_16;
 		L_16 = VoiceInfo_get_FrameDurationUs_m848EC5AF872DBB64AACA968CF1718C04759A12BB_inline(__this, NULL);
 		V_1 = L_16;
 		String_t* L_17;
 		L_17 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_15);
 		ArrayElementTypeCheck (L_15, L_17);
-		(L_15)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(7), (String_t*)L_17);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_17);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = L_15;
+		NullCheck(L_18);
 		ArrayElementTypeCheck (L_18, _stringLiteralD84E21B7A0796DDFE0FF695A49A6B6DC27FA0563);
-		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(8), (String_t*)_stringLiteralD84E21B7A0796DDFE0FF695A49A6B6DC27FA0563);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(8), (String_t*)_stringLiteralD84E21B7A0796DDFE0FF695A49A6B6DC27FA0563);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = L_18;
 		int32_t L_20;
 		L_20 = VoiceInfo_get_FrameSize_m0A5674D88D5A900A63367074B63AD06141EB23D1(__this, NULL);
 		V_1 = L_20;
 		String_t* L_21;
 		L_21 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_19);
 		ArrayElementTypeCheck (L_19, L_21);
-		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)9)), (String_t*)L_21);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (String_t*)L_21);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = L_19;
+		NullCheck(L_22);
 		ArrayElementTypeCheck (L_22, _stringLiteral87C1349EA0C61261CCBBE88F011F465AB2B82673);
-		(L_22)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)10)), (String_t*)_stringLiteral87C1349EA0C61261CCBBE88F011F465AB2B82673);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (String_t*)_stringLiteral87C1349EA0C61261CCBBE88F011F465AB2B82673);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = L_22;
 		int32_t L_24;
 		L_24 = VoiceInfo_get_Bitrate_mE0CECCEA88721AD631108C61993A45383423B064_inline(__this, NULL);
 		V_1 = L_24;
 		String_t* L_25;
 		L_25 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_23);
 		ArrayElementTypeCheck (L_23, L_25);
-		(L_23)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)11)), (String_t*)L_25);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (String_t*)L_25);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_26 = L_23;
+		NullCheck(L_26);
 		ArrayElementTypeCheck (L_26, _stringLiteral8589D36A97F2BC91B3C912D7F0744F596C7DA7B3);
-		(L_26)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)12)), (String_t*)_stringLiteral8589D36A97F2BC91B3C912D7F0744F596C7DA7B3);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (String_t*)_stringLiteral8589D36A97F2BC91B3C912D7F0744F596C7DA7B3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_27 = L_26;
 		int32_t L_28;
 		L_28 = VoiceInfo_get_Width_mD5716DBF45F4DAEA9F721D24FABDB1AE179858BD_inline(__this, NULL);
 		V_1 = L_28;
 		String_t* L_29;
 		L_29 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_27);
 		ArrayElementTypeCheck (L_27, L_29);
-		(L_27)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)13)), (String_t*)L_29);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (String_t*)L_29);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_30 = L_27;
+		NullCheck(L_30);
 		ArrayElementTypeCheck (L_30, _stringLiteral23BEEAEF852C062D81CD6ED45B57FA51CC0154B1);
-		(L_30)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)14)), (String_t*)_stringLiteral23BEEAEF852C062D81CD6ED45B57FA51CC0154B1);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (String_t*)_stringLiteral23BEEAEF852C062D81CD6ED45B57FA51CC0154B1);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31 = L_30;
 		int32_t L_32;
 		L_32 = VoiceInfo_get_Height_m656FAE7A882329D0DF0138D9D47C5EAE07168D5A_inline(__this, NULL);
 		V_1 = L_32;
 		String_t* L_33;
 		L_33 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_31);
 		ArrayElementTypeCheck (L_31, L_33);
-		(L_31)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)15)), (String_t*)L_33);
+		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (String_t*)L_33);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = L_31;
+		NullCheck(L_34);
 		ArrayElementTypeCheck (L_34, _stringLiteralFED76882EC05B6C66548BF4DAF7961EFBB85E7FF);
-		(L_34)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)16)), (String_t*)_stringLiteralFED76882EC05B6C66548BF4DAF7961EFBB85E7FF);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)16)), (String_t*)_stringLiteralFED76882EC05B6C66548BF4DAF7961EFBB85E7FF);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_35 = L_34;
 		int32_t L_36;
 		L_36 = VoiceInfo_get_FPS_m4BB8CC7FAD24454C1DC27828F98B4D0880B94471_inline(__this, NULL);
 		V_1 = L_36;
 		String_t* L_37;
 		L_37 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_35);
 		ArrayElementTypeCheck (L_35, L_37);
-		(L_35)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)17)), (String_t*)L_37);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (String_t*)L_37);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_38 = L_35;
+		NullCheck(L_38);
 		ArrayElementTypeCheck (L_38, _stringLiteral8052799BB9F711A78A60184D37A120CC22F200A7);
-		(L_38)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)18)), (String_t*)_stringLiteral8052799BB9F711A78A60184D37A120CC22F200A7);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)18)), (String_t*)_stringLiteral8052799BB9F711A78A60184D37A120CC22F200A7);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_39 = L_38;
 		int32_t L_40;
 		L_40 = VoiceInfo_get_KeyFrameInt_mCEAD182130EDDA06B30110ACCC0ABC23D5281961_inline(__this, NULL);
 		V_1 = L_40;
 		String_t* L_41;
 		L_41 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		NullCheck(L_39);
 		ArrayElementTypeCheck (L_39, L_41);
-		(L_39)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)19)), (String_t*)L_41);
+		(L_39)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)19)), (String_t*)L_41);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_42 = L_39;
+		NullCheck(L_42);
 		ArrayElementTypeCheck (L_42, _stringLiteral647C1E8EC17511425D51FD27F0B574C15A1C733D);
-		(L_42)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(((int32_t)20)), (String_t*)_stringLiteral647C1E8EC17511425D51FD27F0B574C15A1C733D);
+		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)20)), (String_t*)_stringLiteral647C1E8EC17511425D51FD27F0B574C15A1C733D);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_43 = L_42;
 		RuntimeObject* L_44;
 		L_44 = VoiceInfo_get_UserData_mE49DA945FA1476FF3AD239DB23B02E84F8533B1A_inline(__this, NULL);
@@ -22997,6 +23579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VoiceInfo_ToString_m31F4E929FD426EC
 
 IL_012b:
 	{
+		NullCheck(G_B2_0);
 		String_t* L_46;
 		L_46 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B2_0);
 		G_B3_0 = L_46;
@@ -23007,8 +23590,9 @@ IL_012b:
 
 IL_0130:
 	{
+		NullCheck(G_B3_2);
 		ArrayElementTypeCheck (G_B3_2, G_B3_0);
-		(G_B3_2)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(G_B3_1), (String_t*)G_B3_0);
+		(G_B3_2)->SetAt(static_cast<il2cpp_array_size_t>(G_B3_1), (String_t*)G_B3_0);
 		String_t* L_47;
 		L_47 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(G_B3_3, NULL);
 		return L_47;
@@ -23548,6 +24132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferReaderPushAdapterAsyncPoolFloatToS
 		BufferReaderPushAdapterBase_1__ctor_m0EC7E873D3675191E13A6AB6C1C37C07FD8116FC(__this, L_0, BufferReaderPushAdapterBase_1__ctor_m0EC7E873D3675191E13A6AB6C1C37C07FD8116FC_RuntimeMethod_var);
 		// buffer = new float[((LocalVoiceFramed<short>)localVoice).FrameSize];
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_1 = ___localVoice0;
+		NullCheck(((LocalVoiceFramed_1_tFA780290F30CCA1685CC3DD270208285A1BDE685*)CastclassClass((RuntimeObject*)L_1, LocalVoiceFramed_1_tFA780290F30CCA1685CC3DD270208285A1BDE685_il2cpp_TypeInfo_var)));
 		int32_t L_2;
 		L_2 = LocalVoiceFramedBase_get_FrameSize_m233AE1B2D668E4D27C91796A2C42C9823E8D3C92_inline(((LocalVoiceFramed_1_tFA780290F30CCA1685CC3DD270208285A1BDE685*)CastclassClass((RuntimeObject*)L_1, LocalVoiceFramed_1_tFA780290F30CCA1685CC3DD270208285A1BDE685_il2cpp_TypeInfo_var)), NULL);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_2);
@@ -23579,8 +24164,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferReaderPushAdapterAsyncPoolFloatToS
 		V_0 = ((LocalVoiceFramed_1_tFA780290F30CCA1685CC3DD270208285A1BDE685*)CastclassClass((RuntimeObject*)L_0, LocalVoiceFramed_1_tFA780290F30CCA1685CC3DD270208285A1BDE685_il2cpp_TypeInfo_var));
 		// short[] buf = v.BufferFactory.New();
 		LocalVoiceFramed_1_tFA780290F30CCA1685CC3DD270208285A1BDE685* L_1 = V_0;
+		NullCheck(L_1);
 		FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC* L_2;
 		L_2 = LocalVoiceFramed_1_get_BufferFactory_m9C309881181A1E491709968688CA77CB86748B5F_inline(L_1, LocalVoiceFramed_1_get_BufferFactory_m9C309881181A1E491709968688CA77CB86748B5F_RuntimeMethod_var);
+		NullCheck(L_2);
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_3;
 		L_3 = FactoryPrimitiveArrayPool_1_New_mF155CAD618E2700710E1307143312266F959DA4C(L_2, FactoryPrimitiveArrayPool_1_New_mF155CAD618E2700710E1307143312266F959DA4C_RuntimeMethod_var);
 		V_1 = L_3;
@@ -23593,15 +24180,19 @@ IL_0015:
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = __this->___buffer_1;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_5 = V_1;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_6 = V_1;
+		NullCheck(L_6);
 		AudioUtil_Convert_mFD94A7276A0D0AF96A0BB7A94327668E738CF1CC(L_4, L_5, ((int32_t)(((RuntimeArray*)L_6)->max_length)), NULL);
 		// v.PushDataAsync(buf);
 		LocalVoiceFramed_1_tFA780290F30CCA1685CC3DD270208285A1BDE685* L_7 = V_0;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_8 = V_1;
+		NullCheck(L_7);
 		LocalVoiceFramed_1_PushDataAsync_mFE842BFF5FB99D5AC5480AF13CED7A2928C70B03(L_7, L_8, LocalVoiceFramed_1_PushDataAsync_mFE842BFF5FB99D5AC5480AF13CED7A2928C70B03_RuntimeMethod_var);
 		// buf = v.BufferFactory.New();
 		LocalVoiceFramed_1_tFA780290F30CCA1685CC3DD270208285A1BDE685* L_9 = V_0;
+		NullCheck(L_9);
 		FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC* L_10;
 		L_10 = LocalVoiceFramed_1_get_BufferFactory_m9C309881181A1E491709968688CA77CB86748B5F_inline(L_9, LocalVoiceFramed_1_get_BufferFactory_m9C309881181A1E491709968688CA77CB86748B5F_RuntimeMethod_var);
+		NullCheck(L_10);
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_11;
 		L_11 = FactoryPrimitiveArrayPool_1_New_mF155CAD618E2700710E1307143312266F959DA4C(L_10, FactoryPrimitiveArrayPool_1_New_mF155CAD618E2700710E1307143312266F959DA4C_RuntimeMethod_var);
 		V_1 = L_11;
@@ -23612,6 +24203,7 @@ IL_0037:
 		// while (this.reader.Read(buffer))
 		RuntimeObject* L_12 = ((BufferReaderPushAdapterBase_1_t2EA7897230983FF52087490D770D5AA11790FDB5*)__this)->___reader_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = __this->___buffer_1;
+		NullCheck(L_12);
 		bool L_14;
 		L_14 = InterfaceFuncInvoker1< bool, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* >::Invoke(0 /* System.Boolean Photon.Voice.IDataReader`1<System.Single>::Read(T[]) */, IDataReader_1_t5E4E32014520E50D3A91CB15D243FD18DF86A97F_il2cpp_TypeInfo_var, L_12, L_13);
 		if (L_14)
@@ -23622,10 +24214,13 @@ IL_0037:
 	{
 		// v.BufferFactory.Free(buf, buf.Length);
 		LocalVoiceFramed_1_tFA780290F30CCA1685CC3DD270208285A1BDE685* L_15 = V_0;
+		NullCheck(L_15);
 		FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC* L_16;
 		L_16 = LocalVoiceFramed_1_get_BufferFactory_m9C309881181A1E491709968688CA77CB86748B5F_inline(L_15, LocalVoiceFramed_1_get_BufferFactory_m9C309881181A1E491709968688CA77CB86748B5F_RuntimeMethod_var);
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_17 = V_1;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_18 = V_1;
+		NullCheck(L_18);
+		NullCheck(L_16);
 		FactoryPrimitiveArrayPool_1_Free_m2119C6E85277B07DB1C354587FC53F099536BD2B(L_16, L_17, ((int32_t)(((RuntimeArray*)L_18)->max_length)), FactoryPrimitiveArrayPool_1_Free_m2119C6E85277B07DB1C354587FC53F099536BD2B_RuntimeMethod_var);
 		// }
 		return;
@@ -23656,6 +24251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferReaderPushAdapterAsyncPoolShortToF
 		BufferReaderPushAdapterBase_1__ctor_mA03578F7421C369C9F05DBD15D92F82C873621E0(__this, L_0, BufferReaderPushAdapterBase_1__ctor_mA03578F7421C369C9F05DBD15D92F82C873621E0_RuntimeMethod_var);
 		// buffer = new short[((LocalVoiceFramed<float>)localVoice).FrameSize];
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_1 = ___localVoice0;
+		NullCheck(((LocalVoiceFramed_1_t413190758F8F973F0B050AB3B41D39DB9D3EA903*)CastclassClass((RuntimeObject*)L_1, LocalVoiceFramed_1_t413190758F8F973F0B050AB3B41D39DB9D3EA903_il2cpp_TypeInfo_var)));
 		int32_t L_2;
 		L_2 = LocalVoiceFramedBase_get_FrameSize_m233AE1B2D668E4D27C91796A2C42C9823E8D3C92_inline(((LocalVoiceFramed_1_t413190758F8F973F0B050AB3B41D39DB9D3EA903*)CastclassClass((RuntimeObject*)L_1, LocalVoiceFramed_1_t413190758F8F973F0B050AB3B41D39DB9D3EA903_il2cpp_TypeInfo_var)), NULL);
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_3 = (Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*)(Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*)SZArrayNew(Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB_il2cpp_TypeInfo_var, (uint32_t)L_2);
@@ -23687,8 +24283,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BufferReaderPushAdapterAsyncPoolShortToF
 		V_0 = ((LocalVoiceFramed_1_t413190758F8F973F0B050AB3B41D39DB9D3EA903*)CastclassClass((RuntimeObject*)L_0, LocalVoiceFramed_1_t413190758F8F973F0B050AB3B41D39DB9D3EA903_il2cpp_TypeInfo_var));
 		// float[] buf = v.BufferFactory.New();
 		LocalVoiceFramed_1_t413190758F8F973F0B050AB3B41D39DB9D3EA903* L_1 = V_0;
+		NullCheck(L_1);
 		FactoryPrimitiveArrayPool_1_tA8D0BF61C8C68AE9A7CB48A34477EE922C3DE819* L_2;
 		L_2 = LocalVoiceFramed_1_get_BufferFactory_m61B43DE34DEC3BB8B7AD1D9CCE4BCF2FBEB4B37F_inline(L_1, LocalVoiceFramed_1_get_BufferFactory_m61B43DE34DEC3BB8B7AD1D9CCE4BCF2FBEB4B37F_RuntimeMethod_var);
+		NullCheck(L_2);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3;
 		L_3 = FactoryPrimitiveArrayPool_1_New_m568BBC2EF4815ACD9E944244E633DCEEDC78B677(L_2, FactoryPrimitiveArrayPool_1_New_m568BBC2EF4815ACD9E944244E633DCEEDC78B677_RuntimeMethod_var);
 		V_1 = L_3;
@@ -23701,15 +24299,19 @@ IL_0015:
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_4 = __this->___buffer_1;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = V_1;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = V_1;
+		NullCheck(L_6);
 		AudioUtil_Convert_mD75A46A4751D793107EFC13EB5A310899A9E18DE(L_4, L_5, ((int32_t)(((RuntimeArray*)L_6)->max_length)), NULL);
 		// v.PushDataAsync(buf);
 		LocalVoiceFramed_1_t413190758F8F973F0B050AB3B41D39DB9D3EA903* L_7 = V_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = V_1;
+		NullCheck(L_7);
 		LocalVoiceFramed_1_PushDataAsync_m215DCA2344148DD159091BF377E269B5D7271729(L_7, L_8, LocalVoiceFramed_1_PushDataAsync_m215DCA2344148DD159091BF377E269B5D7271729_RuntimeMethod_var);
 		// buf = v.BufferFactory.New();
 		LocalVoiceFramed_1_t413190758F8F973F0B050AB3B41D39DB9D3EA903* L_9 = V_0;
+		NullCheck(L_9);
 		FactoryPrimitiveArrayPool_1_tA8D0BF61C8C68AE9A7CB48A34477EE922C3DE819* L_10;
 		L_10 = LocalVoiceFramed_1_get_BufferFactory_m61B43DE34DEC3BB8B7AD1D9CCE4BCF2FBEB4B37F_inline(L_9, LocalVoiceFramed_1_get_BufferFactory_m61B43DE34DEC3BB8B7AD1D9CCE4BCF2FBEB4B37F_RuntimeMethod_var);
+		NullCheck(L_10);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_11;
 		L_11 = FactoryPrimitiveArrayPool_1_New_m568BBC2EF4815ACD9E944244E633DCEEDC78B677(L_10, FactoryPrimitiveArrayPool_1_New_m568BBC2EF4815ACD9E944244E633DCEEDC78B677_RuntimeMethod_var);
 		V_1 = L_11;
@@ -23720,6 +24322,7 @@ IL_0037:
 		// while (this.reader.Read(buffer))
 		RuntimeObject* L_12 = ((BufferReaderPushAdapterBase_1_tCD27D8BABD29B9F0586EF78566E96DE33E8C81E9*)__this)->___reader_0;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_13 = __this->___buffer_1;
+		NullCheck(L_12);
 		bool L_14;
 		L_14 = InterfaceFuncInvoker1< bool, Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* >::Invoke(0 /* System.Boolean Photon.Voice.IDataReader`1<System.Int16>::Read(T[]) */, IDataReader_1_t83D359DB4EE07838CCAC09A533FB13A9B5B3F1A9_il2cpp_TypeInfo_var, L_12, L_13);
 		if (L_14)
@@ -23730,10 +24333,13 @@ IL_0037:
 	{
 		// v.BufferFactory.Free(buf, buf.Length);
 		LocalVoiceFramed_1_t413190758F8F973F0B050AB3B41D39DB9D3EA903* L_15 = V_0;
+		NullCheck(L_15);
 		FactoryPrimitiveArrayPool_1_tA8D0BF61C8C68AE9A7CB48A34477EE922C3DE819* L_16;
 		L_16 = LocalVoiceFramed_1_get_BufferFactory_m61B43DE34DEC3BB8B7AD1D9CCE4BCF2FBEB4B37F_inline(L_15, LocalVoiceFramed_1_get_BufferFactory_m61B43DE34DEC3BB8B7AD1D9CCE4BCF2FBEB4B37F_RuntimeMethod_var);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = V_1;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_18 = V_1;
+		NullCheck(L_18);
+		NullCheck(L_16);
 		FactoryPrimitiveArrayPool_1_Free_m88D85F66D23F994A365F6E4B4FBA29EF0288CAE5(L_16, L_17, ((int32_t)(((RuntimeArray*)L_18)->max_length)), FactoryPrimitiveArrayPool_1_Free_m88D85F66D23F994A365F6E4B4FBA29EF0288CAE5_RuntimeMethod_var);
 		// }
 		return;
@@ -23865,6 +24471,7 @@ IL_0036:
 
 IL_0037:
 	{
+		NullCheck(G_B5_2);
 		int32_t L_7;
 		L_7 = WebRTCAudioProcessor_setParam_mAC191A8A5FEE2A8633BD44C4896E2B61244ED603(G_B5_2, G_B5_1, G_B5_0, NULL);
 	}
@@ -23895,6 +24502,7 @@ IL_004e:
 
 IL_004f:
 	{
+		NullCheck(G_B9_1);
 		G_B9_1->___aecm_5 = (bool)G_B9_0;
 	}
 
@@ -23971,6 +24579,7 @@ IL_002b:
 
 IL_002c:
 	{
+		NullCheck(G_B5_2);
 		int32_t L_7;
 		L_7 = WebRTCAudioProcessor_setParam_mAC191A8A5FEE2A8633BD44C4896E2B61244ED603(G_B5_2, G_B5_1, G_B5_0, NULL);
 	}
@@ -24054,6 +24663,7 @@ IL_0036:
 
 IL_0037:
 	{
+		NullCheck(G_B5_2);
 		int32_t L_7;
 		L_7 = WebRTCAudioProcessor_setParam_mAC191A8A5FEE2A8633BD44C4896E2B61244ED603(G_B5_2, G_B5_1, G_B5_0, NULL);
 	}
@@ -24084,6 +24694,7 @@ IL_004e:
 
 IL_004f:
 	{
+		NullCheck(G_B9_1);
 		G_B9_1->___aec_3 = (bool)G_B9_0;
 	}
 
@@ -24160,6 +24771,7 @@ IL_002b:
 
 IL_002c:
 	{
+		NullCheck(G_B5_2);
 		int32_t L_7;
 		L_7 = WebRTCAudioProcessor_setParam_mAC191A8A5FEE2A8633BD44C4896E2B61244ED603(G_B5_2, G_B5_1, G_B5_0, NULL);
 	}
@@ -24237,6 +24849,7 @@ IL_002b:
 
 IL_002c:
 	{
+		NullCheck(G_B5_2);
 		int32_t L_7;
 		L_7 = WebRTCAudioProcessor_setParam_mAC191A8A5FEE2A8633BD44C4896E2B61244ED603(G_B5_2, G_B5_1, G_B5_0, NULL);
 	}
@@ -24314,6 +24927,7 @@ IL_002b:
 
 IL_002c:
 	{
+		NullCheck(G_B5_2);
 		int32_t L_7;
 		L_7 = WebRTCAudioProcessor_setParam_mAC191A8A5FEE2A8633BD44C4896E2B61244ED603(G_B5_2, G_B5_1, G_B5_0, NULL);
 	}
@@ -24371,8 +24985,10 @@ IL_0012:
 		int32_t L_7 = ___value0;
 		int32_t L_8 = L_7;
 		RuntimeObject* L_9 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_8);
+		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, L_9);
-		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_9);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_9);
+		NullCheck(L_4);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_4, _stringLiteralAEA3B2472FAC2849C7FCD28002E85795F92E08C0, L_6);
 		return;
 	}
@@ -24452,8 +25068,10 @@ IL_0012:
 		int32_t L_7 = ___value0;
 		int32_t L_8 = L_7;
 		RuntimeObject* L_9 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_8);
+		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, L_9);
-		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_9);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_9);
+		NullCheck(L_4);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_4, _stringLiteralC86F466114F54E4671419659FEF80B9344D33C19, L_6);
 		return;
 	}
@@ -24553,6 +25171,7 @@ IL_002b:
 
 IL_002c:
 	{
+		NullCheck(G_B5_2);
 		int32_t L_7;
 		L_7 = WebRTCAudioProcessor_setParam_mAC191A8A5FEE2A8633BD44C4896E2B61244ED603(G_B5_2, G_B5_1, G_B5_0, NULL);
 	}
@@ -24630,6 +25249,7 @@ IL_002b:
 
 IL_002c:
 	{
+		NullCheck(G_B5_2);
 		int32_t L_7;
 		L_7 = WebRTCAudioProcessor_setParam_mAC191A8A5FEE2A8633BD44C4896E2B61244ED603(G_B5_2, G_B5_1, G_B5_0, NULL);
 	}
@@ -24669,6 +25289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebRTCAudioProcessor_set_Bypass_m2779AA8
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralC7009F5DAD9E8667F9F3334BCC2045803629E741, L_3, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5;
 		L_5 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_2);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_2, L_4, L_5);
 	}
 
@@ -24724,11 +25345,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebRTCAudioProcessor__ctor_m64EB2A018F5A
 		__this->___agcTargetLevel_10 = 3;
 		// Queue<short[]> reverseStreamQueue = new Queue<short[]>();
 		Queue_1_t14EF0606E13D5B3F00CC8BB3D1A884D4EBC902F1* L_0 = (Queue_1_t14EF0606E13D5B3F00CC8BB3D1A884D4EBC902F1*)il2cpp_codegen_object_new(Queue_1_t14EF0606E13D5B3F00CC8BB3D1A884D4EBC902F1_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		Queue_1__ctor_m58D2D0CEA50C5118C6027B94ECE81CC0D83F5B4B(L_0, Queue_1__ctor_m58D2D0CEA50C5118C6027B94ECE81CC0D83F5B4B_RuntimeMethod_var);
 		__this->___reverseStreamQueue_14 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___reverseStreamQueue_14), (void*)L_0);
 		// AutoResetEvent reverseStreamQueueReady = new AutoResetEvent(false);
 		AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_1 = (AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0*)il2cpp_codegen_object_new(AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
 		AutoResetEvent__ctor_mB7C8CD30C5BE11A2C8DB79B27593CF0C5FE82ADE(L_1, (bool)0, NULL);
 		__this->___reverseStreamQueueReady_15 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___reverseStreamQueueReady_15), (void*)L_1);
@@ -24749,8 +25372,9 @@ IL_0046:
 		// foreach (var s in SupportedSamplingRates)
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = V_1;
 		int32_t L_4 = V_2;
+		NullCheck(L_3);
 		int32_t L_5 = L_4;
-		int32_t L_6 = (L_3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		int32_t L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		V_3 = L_6;
 		// if (samplingRate == s)
 		int32_t L_7 = ___samplingRate2;
@@ -24778,6 +25402,7 @@ IL_0056:
 		// foreach (var s in SupportedSamplingRates)
 		int32_t L_10 = V_2;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = V_1;
+		NullCheck(L_11);
 		if ((((int32_t)L_10) < ((int32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)))))
 		{
 			goto IL_0046;
@@ -24801,8 +25426,10 @@ IL_005c:
 		int32_t L_16 = ___samplingRate2;
 		int32_t L_17 = L_16;
 		RuntimeObject* L_18 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_17);
+		NullCheck(L_15);
 		ArrayElementTypeCheck (L_15, L_18);
-		(L_15)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_18);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_18);
+		NullCheck(L_13);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_13, _stringLiteralA66DA2006CE558F079981E366F2CDE0517D2A703, L_15);
 		// disposed = true;
 		__this->___disposed_23 = (bool)1;
@@ -24840,21 +25467,25 @@ IL_0081:
 		int32_t L_29 = __this->___inFrameSize_18;
 		int32_t L_30 = L_29;
 		RuntimeObject* L_31 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_30);
+		NullCheck(L_28);
 		ArrayElementTypeCheck (L_28, L_31);
-		(L_28)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_31);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_31);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_32 = L_28;
 		int32_t L_33 = __this->___inFrameSize_18;
 		int32_t L_34 = ___samplingRate2;
 		float L_35 = ((float)(((float)il2cpp_codegen_multiply((1000.0f), ((float)L_33)))/((float)L_34)));
 		RuntimeObject* L_36 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_35);
+		NullCheck(L_32);
 		ArrayElementTypeCheck (L_32, L_36);
-		(L_32)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_36);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_36);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_37 = L_32;
 		int32_t L_38 = __this->___processFrameSize_19;
 		int32_t L_39 = L_38;
 		RuntimeObject* L_40 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_39);
+		NullCheck(L_37);
 		ArrayElementTypeCheck (L_37, L_40);
-		(L_37)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_40);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_40);
+		NullCheck(L_26);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_26, _stringLiteral0744DAFCD0C6071FE17432817D530A182C497EC9, L_37);
 		// disposed = true;
 		__this->___disposed_23 = (bool)1;
@@ -24896,33 +25527,39 @@ IL_0108:
 		int32_t L_56 = ___samplingRate2;
 		int32_t L_57 = L_56;
 		RuntimeObject* L_58 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_57);
+		NullCheck(L_55);
 		ArrayElementTypeCheck (L_55, L_58);
-		(L_55)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_58);
+		(L_55)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_58);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_59 = L_55;
 		int32_t L_60 = ___channels3;
 		int32_t L_61 = L_60;
 		RuntimeObject* L_62 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_61);
+		NullCheck(L_59);
 		ArrayElementTypeCheck (L_59, L_62);
-		(L_59)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_62);
+		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_62);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_63 = L_59;
 		int32_t L_64 = __this->___processFrameSize_19;
 		int32_t L_65 = L_64;
 		RuntimeObject* L_66 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_65);
+		NullCheck(L_63);
 		ArrayElementTypeCheck (L_63, L_66);
-		(L_63)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_66);
+		(L_63)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_66);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_67 = L_63;
 		int32_t L_68 = __this->___inFrameSize_18;
 		int32_t L_69 = __this->___channels_21;
 		int32_t L_70 = ((int32_t)(L_68/L_69));
 		RuntimeObject* L_71 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_70);
+		NullCheck(L_67);
 		ArrayElementTypeCheck (L_67, L_71);
-		(L_67)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_71);
+		(L_67)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_71);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_72 = L_67;
 		int32_t L_73 = __this->___reverseChannels_26;
 		int32_t L_74 = L_73;
 		RuntimeObject* L_75 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_74);
+		NullCheck(L_72);
 		ArrayElementTypeCheck (L_72, L_75);
-		(L_72)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_75);
+		(L_72)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_75);
+		NullCheck(L_53);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_53, _stringLiteral8C166B81FB5851668BA90CDACED6E55BF435513F, L_72);
 		// }
 		return;
@@ -25018,12 +25655,14 @@ IL_0024_1:
 				// reverseFramer = new Framer<float>(size);
 				int32_t L_9 = V_2;
 				Framer_1_t16E279F64AC5E7960C414BC32A949C3201DE3D3F* L_10 = (Framer_1_t16E279F64AC5E7960C414BC32A949C3201DE3D3F*)il2cpp_codegen_object_new(Framer_1_t16E279F64AC5E7960C414BC32A949C3201DE3D3F_il2cpp_TypeInfo_var);
+				NullCheck(L_10);
 				Framer_1__ctor_mC3A9B40C56ADA5D20578E5708637B36FA0F227FF(L_10, L_9, Framer_1__ctor_mC3A9B40C56ADA5D20578E5708637B36FA0F227FF_RuntimeMethod_var);
 				__this->___reverseFramer_24 = L_10;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___reverseFramer_24), (void*)L_10);
 				// reverseBufferFactory = new FactoryPrimitiveArrayPool<short>(REVERSE_BUFFER_POOL_CAPACITY, "WebRTCAudioProcessor Reverse Buffers", this.inFrameSize);
 				int32_t L_11 = __this->___inFrameSize_18;
 				FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC* L_12 = (FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC*)il2cpp_codegen_object_new(FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC_il2cpp_TypeInfo_var);
+				NullCheck(L_12);
 				FactoryPrimitiveArrayPool_1__ctor_m9330450A9A6B824B88908F60C55B754123514B85(L_12, ((int32_t)50), _stringLiteral4DF57786A80C917476C41D2A0444BCF09E82D62E, L_11, FactoryPrimitiveArrayPool_1__ctor_m9330450A9A6B824B88908F60C55B754123514B85_RuntimeMethod_var);
 				__this->___reverseBufferFactory_16 = L_12;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___reverseBufferFactory_16), (void*)L_12);
@@ -25034,20 +25673,24 @@ IL_0024_1:
 				int32_t L_16 = V_2;
 				int32_t L_17 = L_16;
 				RuntimeObject* L_18 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_17);
+				NullCheck(L_15);
 				ArrayElementTypeCheck (L_15, L_18);
-				(L_15)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_18);
+				(L_15)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_18);
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_19 = L_15;
 				int32_t L_20 = __this->___reverseSamplingRate_25;
 				int32_t L_21 = L_20;
 				RuntimeObject* L_22 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_21);
+				NullCheck(L_19);
 				ArrayElementTypeCheck (L_19, L_22);
-				(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_22);
+				(L_19)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_22);
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = L_19;
 				int32_t L_24 = __this->___reverseChannels_26;
 				int32_t L_25 = L_24;
 				RuntimeObject* L_26 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_25);
+				NullCheck(L_23);
 				ArrayElementTypeCheck (L_23, L_26);
-				(L_23)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_26);
+				(L_23)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_26);
+				NullCheck(L_13);
 				InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_13, _stringLiteralFA35A8D0007AEAADAB0B4F2315123AF6B830A6CC, L_23);
 				// if (!reverseStreamThreadRunning)
 				bool L_27 = __this->___reverseStreamThreadRunning_13;
@@ -25059,11 +25702,14 @@ IL_0024_1:
 			{
 				// var t = new Thread(ReverseStreamThread);
 				ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_28 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
+				NullCheck(L_28);
 				ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_28, __this, (intptr_t)((void*)WebRTCAudioProcessor_ReverseStreamThread_m4FA1BB07906B21CBB7C4B580CBE7DEF7718D0534_RuntimeMethod_var), NULL);
 				Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_29 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
+				NullCheck(L_29);
 				Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_29, L_28, NULL);
 				// t.Start();
 				Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_30 = L_29;
+				NullCheck(L_30);
 				Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_30, NULL);
 				// Util.SetThreadName(t, "[PV] WebRTCProcRevStream");
 				Util_SetThreadName_mACD08B4DA0DD63FEFFB3B06BADAF9DA7435BEA34(L_30, _stringLiteral3EC111E3DB0F11EAE0A22DFEB8379B1F6B27A382, NULL);
@@ -25087,14 +25733,17 @@ IL_00c8_1:
 				int32_t L_36 = __this->___reverseSamplingRate_25;
 				int32_t L_37 = L_36;
 				RuntimeObject* L_38 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_37);
+				NullCheck(L_35);
 				ArrayElementTypeCheck (L_35, L_38);
-				(L_35)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_38);
+				(L_35)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_38);
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_39 = L_35;
 				int32_t L_40 = __this->___samplingRate_20;
 				int32_t L_41 = L_40;
 				RuntimeObject* L_42 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_41);
+				NullCheck(L_39);
 				ArrayElementTypeCheck (L_39, L_42);
-				(L_39)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_42);
+				(L_39)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_42);
+				NullCheck(L_33);
 				InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1 /* System.Void Photon.Voice.ILogger::LogWarning(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_33, _stringLiteral6F45DE58D868A02758B8723CB536E6D284C3E9E6, L_39);
 			}
 
@@ -25192,6 +25841,7 @@ IL_0028:
 	{
 		// if (buf.Length != this.inFrameSize)
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_8 = ___buf0;
+		NullCheck(L_8);
 		int32_t L_9 = __this->___inFrameSize_18;
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length))) == ((int32_t)L_9)))
 		{
@@ -25206,12 +25856,15 @@ IL_0028:
 		int32_t L_13 = __this->___inFrameSize_18;
 		int32_t L_14 = L_13;
 		RuntimeObject* L_15 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_14);
+		NullCheck(L_12);
 		ArrayElementTypeCheck (L_12, L_15);
-		(L_12)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_15);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_15);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = L_12;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_17 = ___buf0;
+		NullCheck(L_16);
 		ArrayElementTypeCheck (L_16, L_17);
-		(L_16)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_17);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_17);
+		NullCheck(L_10);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_10, _stringLiteral7317C8BEFA7C0ED607CD1951831BD67E72662259, L_16);
 		// return buf;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_18 = ___buf0;
@@ -25271,8 +25924,10 @@ IL_007a:
 		int32_t L_30 = V_3;
 		int32_t L_31 = L_30;
 		RuntimeObject* L_32 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_31);
+		NullCheck(L_29);
 		ArrayElementTypeCheck (L_29, L_32);
-		(L_29)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_32);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_32);
+		NullCheck(L_27);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_27, _stringLiteral33F44691DD0C224DE493ED68E551E7BAD3670178, L_29);
 		// return buf;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_33 = ___buf0;
@@ -25399,8 +26054,10 @@ IL_0025:
 		// foreach (var reverseBufFloat in reverseFramer.Frame(data))
 		Framer_1_t16E279F64AC5E7960C414BC32A949C3201DE3D3F* L_5 = __this->___reverseFramer_24;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = ___data0;
+		NullCheck(L_5);
 		RuntimeObject* L_7;
 		L_7 = Framer_1_Frame_m962089CB2FE12463EEECA166D6EB59014876BC8C(L_5, L_6, Framer_1_Frame_m962089CB2FE12463EEECA166D6EB59014876BC8C_RuntimeMethod_var);
+		NullCheck(L_7);
 		RuntimeObject* L_8;
 		L_8 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Single[]>::GetEnumerator() */, IEnumerable_1_t37B675D9068BACE78A9F02AC1C0B6F1738559483_il2cpp_TypeInfo_var, L_7);
 		V_0 = L_8;
@@ -25420,6 +26077,7 @@ FINALLY_00e9:
 				}
 				{
 					RuntimeObject* L_10 = V_0;
+					NullCheck(L_10);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_10);
 				}
 
@@ -25439,17 +26097,21 @@ IL_003c_1:
 			{
 				// foreach (var reverseBufFloat in reverseFramer.Frame(data))
 				RuntimeObject* L_11 = V_0;
+				NullCheck(L_11);
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_12;
 				L_12 = InterfaceFuncInvoker0< SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Single[]>::get_Current() */, IEnumerator_1_tAD3156F2BD813D3E2297CF3AEE0D08E7EF74C213_il2cpp_TypeInfo_var, L_11);
 				V_1 = L_12;
 				// var reverseBuf = reverseBufferFactory.New();
 				FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC* L_13 = __this->___reverseBufferFactory_16;
+				NullCheck(L_13);
 				Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_14;
 				L_14 = FactoryPrimitiveArrayPool_1_New_mF155CAD618E2700710E1307143312266F959DA4C(L_13, FactoryPrimitiveArrayPool_1_New_mF155CAD618E2700710E1307143312266F959DA4C_RuntimeMethod_var);
 				V_2 = L_14;
 				// if (reverseBufFloat.Length != reverseBuf.Length)
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_15 = V_1;
+				NullCheck(L_15);
 				Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_16 = V_2;
+				NullCheck(L_16);
 				if ((((int32_t)((int32_t)(((RuntimeArray*)L_15)->max_length))) == ((int32_t)((int32_t)(((RuntimeArray*)L_16)->max_length)))))
 				{
 					goto IL_0069_1;
@@ -25460,6 +26122,7 @@ IL_003c_1:
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = V_1;
 				Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_18 = V_2;
 				Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_19 = V_2;
+				NullCheck(L_19);
 				int32_t L_20 = __this->___reverseChannels_26;
 				AudioUtil_ResampleAndConvert_m49ED11F3FF92BE094E5013FD27D43588299B7A92(L_17, L_18, ((int32_t)(((RuntimeArray*)L_19)->max_length)), L_20, NULL);
 				goto IL_0073_1;
@@ -25471,6 +26134,7 @@ IL_0069_1:
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_21 = V_1;
 				Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_22 = V_2;
 				Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_23 = V_2;
+				NullCheck(L_23);
 				AudioUtil_Convert_mFD94A7276A0D0AF96A0BB7A94327668E738CF1CC(L_21, L_22, ((int32_t)(((RuntimeArray*)L_23)->max_length)), NULL);
 			}
 
@@ -25512,6 +26176,7 @@ IL_00db_1:
 						Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_27, (&V_4), NULL);
 						// if (reverseStreamQueue.Count < REVERSE_BUFFER_POOL_CAPACITY - 1)
 						Queue_1_t14EF0606E13D5B3F00CC8BB3D1A884D4EBC902F1* L_28 = __this->___reverseStreamQueue_14;
+						NullCheck(L_28);
 						int32_t L_29;
 						L_29 = Queue_1_get_Count_mA31BA0DC0FBEB59B539480D213158D3D68F7263F_inline(L_28, Queue_1_get_Count_mA31BA0DC0FBEB59B539480D213158D3D68F7263F_RuntimeMethod_var);
 						if ((((int32_t)L_29) >= ((int32_t)((int32_t)49))))
@@ -25523,9 +26188,11 @@ IL_00db_1:
 						// reverseStreamQueue.Enqueue(reverseBuf);
 						Queue_1_t14EF0606E13D5B3F00CC8BB3D1A884D4EBC902F1* L_30 = __this->___reverseStreamQueue_14;
 						Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_31 = V_2;
+						NullCheck(L_30);
 						Queue_1_Enqueue_mD58D87C301F261A2846F9394701C65AF467D1D54(L_30, L_31, Queue_1_Enqueue_mD58D87C301F261A2846F9394701C65AF467D1D54_RuntimeMethod_var);
 						// reverseStreamQueueReady.Set();
 						AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_32 = __this->___reverseStreamQueueReady_15;
+						NullCheck(L_32);
 						bool L_33;
 						L_33 = EventWaitHandle_Set_mDF98D67F214714A9590DF82A1C51D3D851281E4D(L_32, NULL);
 						goto IL_00dc_1;
@@ -25537,10 +26204,12 @@ IL_00ae_2:
 						RuntimeObject* L_34 = __this->___logger_27;
 						ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_35;
 						L_35 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+						NullCheck(L_34);
 						InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_34, _stringLiteral09254A1BBB1290E22287D531E196F1EC58A7085A, L_35);
 						// this.reverseBufferFactory.Free(reverseBuf);
 						FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC* L_36 = __this->___reverseBufferFactory_16;
 						Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_37 = V_2;
+						NullCheck(L_36);
 						FactoryPrimitiveArrayPool_1_Free_m58C502FBAF6F5085FD009F3009EF111FF536B61A(L_36, L_37, FactoryPrimitiveArrayPool_1_Free_m58C502FBAF6F5085FD009F3009EF111FF536B61A_RuntimeMethod_var);
 						// }
 						goto IL_00dc_1;
@@ -25556,6 +26225,7 @@ IL_00dc_1:
 			{
 				// foreach (var reverseBufFloat in reverseFramer.Frame(data))
 				RuntimeObject* L_38 = V_0;
+				NullCheck(L_38);
 				bool L_39;
 				L_39 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_38);
 				if (L_39)
@@ -25617,6 +26287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebRTCAudioProcessor_ReverseStreamThread
 		RuntimeObject* L_0 = __this->___logger_27;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_0, _stringLiteral54EE26D4A1897D06F60A49BBB98F0417FCC359E8, L_1);
 		// reverseStreamThreadRunning = true;
 		__this->___reverseStreamThreadRunning_13 = (bool)1;
@@ -25631,6 +26302,7 @@ FINALLY_00f2:
 				RuntimeObject* L_2 = __this->___logger_27;
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
 				L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+				NullCheck(L_2);
 				InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_2, _stringLiteral90CF5BC5CBA9AB3B59B5A141BC462FB814D0E167, L_3);
 				// reverseStreamThreadRunning = false;
 				__this->___reverseStreamThreadRunning_13 = (bool)0;
@@ -25650,6 +26322,7 @@ IL_0021_2:
 				{
 					// reverseStreamQueueReady.WaitOne(); // Wait until data is pushed to the queue or Dispose signals.
 					AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_4 = __this->___reverseStreamQueueReady_15;
+					NullCheck(L_4);
 					bool L_5;
 					L_5 = VirtualFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.Threading.WaitHandle::WaitOne() */, L_4);
 				}
@@ -25694,6 +26367,7 @@ IL_0065_2:
 							Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_9, (&V_2), NULL);
 							// if (reverseStreamQueue.Count > 0)
 							Queue_1_t14EF0606E13D5B3F00CC8BB3D1A884D4EBC902F1* L_10 = __this->___reverseStreamQueue_14;
+							NullCheck(L_10);
 							int32_t L_11;
 							L_11 = Queue_1_get_Count_mA31BA0DC0FBEB59B539480D213158D3D68F7263F_inline(L_10, Queue_1_get_Count_mA31BA0DC0FBEB59B539480D213158D3D68F7263F_RuntimeMethod_var);
 							if ((((int32_t)L_11) <= ((int32_t)0)))
@@ -25704,6 +26378,7 @@ IL_0065_2:
 						{
 							// reverseBuf = reverseStreamQueue.Dequeue();
 							Queue_1_t14EF0606E13D5B3F00CC8BB3D1A884D4EBC902F1* L_12 = __this->___reverseStreamQueue_14;
+							NullCheck(L_12);
 							Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_13;
 							L_13 = Queue_1_Dequeue_m5BF5CC131BD023E3DF75834462D22431A1DA21EA(L_12, Queue_1_Dequeue_m5BF5CC131BD023E3DF75834462D22431A1DA21EA_RuntimeMethod_var);
 							V_0 = L_13;
@@ -25735,12 +26410,14 @@ IL_0066_2:
 					intptr_t L_15 = __this->___proc_22;
 					Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_16 = V_0;
 					Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_17 = V_0;
+					NullCheck(L_17);
 					int32_t L_18;
 					L_18 = WebRTCAudioLib_webrtc_audio_processor_process_reverse_mFB03E13167BD2D036011E33359161F482F1455B9(L_15, L_16, ((int32_t)(((RuntimeArray*)L_17)->max_length)), NULL);
 					V_3 = L_18;
 					// this.reverseBufferFactory.Free(reverseBuf);
 					FactoryPrimitiveArrayPool_1_tB055A6ACC068A4C7F8EFC1044FC41318895C11DC* L_19 = __this->___reverseBufferFactory_16;
 					Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_20 = V_0;
+					NullCheck(L_19);
 					FactoryPrimitiveArrayPool_1_Free_m58C502FBAF6F5085FD009F3009EF111FF536B61A(L_19, L_20, FactoryPrimitiveArrayPool_1_Free_m58C502FBAF6F5085FD009F3009EF111FF536B61A_RuntimeMethod_var);
 					// if (lastProcessReverseErr != err)
 					int32_t L_21 = __this->___lastProcessReverseErr_32;
@@ -25761,8 +26438,10 @@ IL_0066_2:
 					int32_t L_27 = V_3;
 					int32_t L_28 = L_27;
 					RuntimeObject* L_29 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_28);
+					NullCheck(L_26);
 					ArrayElementTypeCheck (L_26, L_29);
-					(L_26)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_29);
+					(L_26)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_29);
+					NullCheck(L_24);
 					InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_24, _stringLiteral7DD21945354DDEC465DC5AA57FD34C6C2E2F36DE, L_26);
 					goto IL_002d_2;
 				}
@@ -25820,6 +26499,7 @@ CATCH_00c6_1:
 
 IL_00dc_1:
 				{
+					NullCheck(G_B17_0);
 					String_t* L_34;
 					L_34 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B17_0);
 					G_B18_0 = L_34;
@@ -25833,6 +26513,7 @@ IL_00e1_1:
 					L_35 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B18_1, G_B18_0, NULL);
 					ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_36;
 					L_36 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var)));
+					NullCheck(G_B18_2);
 					InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), G_B18_2, L_35, L_36);
 					// }
 					IL2CPP_POP_ACTIVE_EXCEPTION();
@@ -25891,6 +26572,7 @@ IL_000a:
 		L_5 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral2D1B3A90F5EC079C660D31E8FD89F7E559C50F4D, L_3, _stringLiteral1FA13CA565DC9B5105D70A528D26A6FC7A57049E, L_4, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_1);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_1, L_5, L_6);
 		// return webrtc_audio_processor_set_param(proc, (int)param, v);
 		intptr_t L_7 = __this->___proc_22;
@@ -25964,9 +26646,11 @@ IL_0089:
 				RuntimeObject* L_4 = __this->___logger_27;
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5;
 				L_5 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+				NullCheck(L_4);
 				InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_4, _stringLiteralEB88762706274398BFE1C0B51057339C9166702C, L_5);
 				// reverseStreamQueueReady.Set();
 				AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_6 = __this->___reverseStreamQueueReady_15;
+				NullCheck(L_6);
 				bool L_7;
 				L_7 = EventWaitHandle_Set_mDF98D67F214714A9590DF82A1C51D3D851281E4D(L_6, NULL);
 				// if (proc != IntPtr.Zero)
@@ -26006,6 +26690,7 @@ IL_0056_1:
 				RuntimeObject* L_13 = __this->___logger_27;
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14;
 				L_14 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+				NullCheck(L_13);
 				InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_13, _stringLiteral74A4784339F678A86DA54B6DE52EF516301B2DC3, L_14);
 			}
 
@@ -26395,11 +27080,13 @@ IL_0022:
 	{
 		// base.EventReceived += onEventActionVoiceClient;
 		Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295* L_5 = (Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295*)il2cpp_codegen_object_new(Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
 		Action_1__ctor_m0DBBF25185685D744E57EF9C27559699160C3C77(L_5, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 32)), NULL);
 		il2cpp_codegen_runtime_class_init_inline(LoadBalancingClient_tC710D2A97D5ACB31FCA10E3D3A3266DBE89373A4_il2cpp_TypeInfo_var);
 		LoadBalancingClient_add_EventReceived_mD61167C623A0E74C42620CFE32BED563CE7C65E1(__this, L_5, NULL);
 		// base.StateChanged += onStateChangeVoiceClient;
 		Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490* L_6 = (Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490*)il2cpp_codegen_object_new(Action_2_t3EC2669A751FDF2FFFA36356EC41244433164490_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
 		Action_2__ctor_m914229254E2DD1066D0E81418D2410B78F40DEBB(L_6, __this, (intptr_t)((void*)LoadBalancingTransport_onStateChangeVoiceClient_m52402B7084E5C0CC29927D94BBE8097A9C01E183_RuntimeMethod_var), NULL);
 		LoadBalancingClient_add_StateChanged_mA6384FF2BBFAD74989F27734C0A2251F6F470EB9(__this, L_6, NULL);
 		// this.voiceClient = new VoiceClient(this, logger);
@@ -26407,6 +27094,7 @@ IL_0022:
 		il2cpp_codegen_initobj((&V_1), sizeof(CreateOptions_t139B12EC45937A3FC277C5DE0E5E047D8DB8CFCF));
 		CreateOptions_t139B12EC45937A3FC277C5DE0E5E047D8DB8CFCF L_8 = V_1;
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_9 = (VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E*)il2cpp_codegen_object_new(VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
 		VoiceClient__ctor_m9D83DED9D14E2A2B0145E902E63C73276E2D29C8(L_9, __this, L_7, L_8, NULL);
 		__this->___voiceClient_53 = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___voiceClient_53), (void*)L_9);
@@ -26418,12 +27106,14 @@ IL_0022:
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		RuntimeArray* L_12;
 		L_12 = Enum_GetValues_m803B9D68C367FAABC5AFB6B5B52775C8A573CEF9(L_11, NULL);
+		NullCheck(L_12);
 		int32_t L_13;
 		L_13 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_12, NULL);
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 		// if (LoadBalancingPeer.ChannelCount < voiceChannelsCount)
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_14;
 		L_14 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
+		NullCheck(L_14);
 		uint8_t L_15 = ((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)L_14)->___ChannelCount_32;
 		int32_t L_16 = V_0;
 		if ((((int32_t)L_15) >= ((int32_t)L_16)))
@@ -26437,6 +27127,7 @@ IL_0022:
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_17;
 		L_17 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
 		int32_t L_18 = V_0;
+		NullCheck(L_17);
 		((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)L_17)->___ChannelCount_32 = (uint8_t)((int32_t)(uint8_t)L_18);
 	}
 
@@ -26446,6 +27137,7 @@ IL_008f:
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_19 = __this->___voiceClient_53;
 		RuntimeObject* L_20 = ___logger0;
 		PhotonTransportProtocol_tDBD08C0E3F1F28676B0573F86D9BC19564FCA700* L_21 = (PhotonTransportProtocol_tDBD08C0E3F1F28676B0573F86D9BC19564FCA700*)il2cpp_codegen_object_new(PhotonTransportProtocol_tDBD08C0E3F1F28676B0573F86D9BC19564FCA700_il2cpp_TypeInfo_var);
+		NullCheck(L_21);
 		PhotonTransportProtocol__ctor_mED40829E0BF224C317EFC71CAD3B243DBA72C70D(L_21, L_19, L_20, NULL);
 		__this->___protocol_54 = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___protocol_54), (void*)L_21);
@@ -26461,6 +27153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_Service_m7B6888A2
 		LoadBalancingClient_Service_m0208D4872E63ABA1E7367E1D8FB89421E3050920(__this, NULL);
 		// this.voiceClient.Service();
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_0 = __this->___voiceClient_53;
+		NullCheck(L_0);
 		VoiceClient_Service_m315563438957990A651FEAE936702794FCA3B783(L_0, NULL);
 		// }
 		return;
@@ -26475,6 +27168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LoadBalancingTransport_ChangeAudioGroups
 		L_0 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___groupsToRemove0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___groupsToAdd1;
+		NullCheck(L_0);
 		bool L_3;
 		L_3 = VirtualFuncInvoker2< bool, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(29 /* System.Boolean Photon.Realtime.LoadBalancingPeer::OpChangeGroups(System.Byte[],System.Byte[]) */, L_0, L_1, L_2);
 		return L_3;
@@ -26507,6 +27201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t LoadBalancingTransport_get_GlobalInte
 	{
 		// get { return this.voiceClient.GlobalInterestGroup; }
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_0 = __this->___voiceClient_53;
+		NullCheck(L_0);
 		uint8_t L_1;
 		L_1 = VoiceClient_get_GlobalInterestGroup_m735EBFECB6DC4B5875BA98A52B0E9E419368F006_inline(L_0, NULL);
 		return L_1;
@@ -26525,6 +27220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_set_GlobalInteres
 		// this.voiceClient.GlobalInterestGroup = value;
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_0 = __this->___voiceClient_53;
 		uint8_t L_1 = ___value0;
+		NullCheck(L_0);
 		VoiceClient_set_GlobalInterestGroup_mDA5FA55C118EC31F7C53CFC014E3EB180ECF6188(L_0, L_1, NULL);
 		// if (this.State == ClientState.Joined)
 		int32_t L_2;
@@ -26537,6 +27233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_set_GlobalInteres
 	{
 		// if (this.voiceClient.GlobalInterestGroup != 0)
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_3 = __this->___voiceClient_53;
+		NullCheck(L_3);
 		uint8_t L_4;
 		L_4 = VoiceClient_get_GlobalInterestGroup_m735EBFECB6DC4B5875BA98A52B0E9E419368F006_inline(L_3, NULL);
 		if (!L_4)
@@ -26552,9 +27249,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_set_GlobalInteres
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = L_7;
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_9 = __this->___voiceClient_53;
+		NullCheck(L_9);
 		uint8_t L_10;
 		L_10 = VoiceClient_get_GlobalInterestGroup_m735EBFECB6DC4B5875BA98A52B0E9E419368F006_inline(L_9, NULL);
-		(L_8)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (uint8_t)L_10);
+		NullCheck(L_8);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (uint8_t)L_10);
+		NullCheck(L_5);
 		bool L_11;
 		L_11 = VirtualFuncInvoker2< bool, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(29 /* System.Boolean Photon.Realtime.LoadBalancingPeer::OpChangeGroups(System.Byte[],System.Byte[]) */, L_5, L_6, L_8);
 		return;
@@ -26566,6 +27266,7 @@ IL_004a:
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_12;
 		L_12 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)0);
+		NullCheck(L_12);
 		bool L_14;
 		L_14 = VirtualFuncInvoker2< bool, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(29 /* System.Boolean Photon.Realtime.LoadBalancingPeer::OpChangeGroups(System.Byte[],System.Byte[]) */, L_12, L_13, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL);
 	}
@@ -26626,6 +27327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_SendVoicesInfo_m9
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D_il2cpp_TypeInfo_var);
 		U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D* L_3 = ((U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D_il2cpp_TypeInfo_var))->___U3CU3E9_0;
 		Func_2_tE01B6183CE0B03B0A2762C9F39AFA7ABAC9BFA08* L_4 = (Func_2_tE01B6183CE0B03B0A2762C9F39AFA7ABAC9BFA08*)il2cpp_codegen_object_new(Func_2_tE01B6183CE0B03B0A2762C9F39AFA7ABAC9BFA08_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
 		Func_2__ctor_mAFD640382313267F5E4A66D604E1A096F778AF28(L_4, L_3, (intptr_t)((void*)U3CU3Ec_U3CSendVoicesInfoU3Eb__21_0_m691D0C67E7DBFBF7D9B8C8A58353368BAB74EC0D_RuntimeMethod_var), NULL);
 		Func_2_tE01B6183CE0B03B0A2762C9F39AFA7ABAC9BFA08* L_5 = L_4;
 		((U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D_il2cpp_TypeInfo_var))->___U3CU3E9__21_0_1 = L_5;
@@ -26638,6 +27340,7 @@ IL_0020:
 	{
 		RuntimeObject* L_6;
 		L_6 = Enumerable_GroupBy_TisLocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5_TisCodec_t7B215C0B276BF5BE13C5803ADC8928B5E31EF525_m87FDF42074A67CF2C9F1A85A8ED3D5A36547788B(G_B2_1, G_B2_0, Enumerable_GroupBy_TisLocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5_TisCodec_t7B215C0B276BF5BE13C5803ADC8928B5E31EF525_m87FDF42074A67CF2C9F1A85A8ED3D5A36547788B_RuntimeMethod_var);
+		NullCheck(L_6);
 		RuntimeObject* L_7;
 		L_7 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.Linq.IGrouping`2<Photon.Voice.Codec,Photon.Voice.LocalVoice>>::GetEnumerator() */, IEnumerable_1_tCEEB129D16B8A9CC89CC2F194C1DC9B054FBE741_il2cpp_TypeInfo_var, L_6);
 		V_0 = L_7;
@@ -26657,6 +27360,7 @@ FINALLY_00c4:
 				}
 				{
 					RuntimeObject* L_9 = V_0;
+					NullCheck(L_9);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_9);
 				}
 
@@ -26676,12 +27380,14 @@ IL_0030_1:
 			{
 				// foreach (var codecVoices in voices.GroupBy(v => v.Info.Codec))
 				RuntimeObject* L_10 = V_0;
+				NullCheck(L_10);
 				RuntimeObject* L_11;
 				L_11 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<System.Linq.IGrouping`2<Photon.Voice.Codec,Photon.Voice.LocalVoice>>::get_Current() */, IEnumerator_1_tFE4761E37A45E12536AF7E520777D0441555361F_il2cpp_TypeInfo_var, L_10);
 				V_1 = L_11;
 				// object content = protocol.buildVoicesInfo(codecVoices, true);
 				PhotonTransportProtocol_tDBD08C0E3F1F28676B0573F86D9BC19564FCA700* L_12 = __this->___protocol_54;
 				RuntimeObject* L_13 = V_1;
+				NullCheck(L_12);
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14;
 				L_14 = PhotonTransportProtocol_buildVoicesInfo_mCFEA94FB65AFDB2EB97883DE0CD4C0A82636DCDD(L_12, L_13, (bool)1, NULL);
 				V_2 = (RuntimeObject*)L_14;
@@ -26693,6 +27399,7 @@ IL_0030_1:
 				il2cpp_codegen_initobj((&V_5), sizeof(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8));
 				SendOptions_set_Reliability_mE183CC0D1E7EC44C9ADF1F0E17D20A3A05BD5C6A((&V_5), (bool)1, NULL);
 				RuntimeObject* L_15 = V_1;
+				NullCheck(L_15);
 				int32_t L_16;
 				L_16 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* TKey System.Linq.IGrouping`2<Photon.Voice.Codec,Photon.Voice.LocalVoice>::get_Key() */, IGrouping_2_t63302D07690199654E10442B3C779538DABC20F9_il2cpp_TypeInfo_var, L_15);
 				uint8_t L_17;
@@ -26702,6 +27409,7 @@ IL_0030_1:
 				V_3 = L_18;
 				// var opt = new RaiseEventOptions();
 				RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* L_19 = (RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E*)il2cpp_codegen_object_new(RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E_il2cpp_TypeInfo_var);
+				NullCheck(L_19);
 				RaiseEventOptions__ctor_m5AD5093C00DD3EE18EB5033E49C61934E978A94F(L_19, NULL);
 				V_4 = L_19;
 				// if (targetPlayerId == -1)
@@ -26718,9 +27426,12 @@ IL_0030_1:
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_23 = L_22;
 				Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_24;
 				L_24 = LoadBalancingClient_get_LocalPlayer_mCD50C311294952811F343BFA4F7FCD055821A4A4_inline(__this, NULL);
+				NullCheck(L_24);
 				int32_t L_25;
 				L_25 = Player_get_ActorNumber_mE177B60195A5329B1E5D3012295DB0098B7A0F3A_inline(L_24, NULL);
-				(L_23)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (int32_t)L_25);
+				NullCheck(L_23);
+				(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_25);
+				NullCheck(L_21);
 				L_21->___TargetActors_3 = L_23;
 				Il2CppCodeGenWriteBarrier((void**)(&L_21->___TargetActors_3), (void*)L_23);
 				goto IL_00a7_1;
@@ -26741,7 +27452,9 @@ IL_0093_1:
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_28 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)1);
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_29 = L_28;
 				int32_t L_30 = ___targetPlayerId2;
-				(L_29)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (int32_t)L_30);
+				NullCheck(L_29);
+				(L_29)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_30);
+				NullCheck(L_27);
 				L_27->___TargetActors_3 = L_29;
 				Il2CppCodeGenWriteBarrier((void**)(&L_27->___TargetActors_3), (void*)L_29);
 			}
@@ -26760,6 +27473,7 @@ IL_00b7_1:
 			{
 				// foreach (var codecVoices in voices.GroupBy(v => v.Info.Codec))
 				RuntimeObject* L_35 = V_0;
+				NullCheck(L_35);
 				bool L_36;
 				L_36 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_35);
 				if (L_36)
@@ -26805,6 +27519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_SendVoiceRemove_m
 		// object content = protocol.buildVoiceRemoveMessage(voice);
 		PhotonTransportProtocol_tDBD08C0E3F1F28676B0573F86D9BC19564FCA700* L_0 = __this->___protocol_54;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_1 = ___voice0;
+		NullCheck(L_0);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2;
 		L_2 = PhotonTransportProtocol_buildVoiceRemoveMessage_mADB3F5214D62067FC14D18E45DC05B90EB9FFAC5(L_0, L_1, NULL);
 		V_0 = (RuntimeObject*)L_2;
@@ -26816,6 +27531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_SendVoiceRemove_m
 		il2cpp_codegen_initobj((&V_3), sizeof(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8));
 		SendOptions_set_Reliability_mE183CC0D1E7EC44C9ADF1F0E17D20A3A05BD5C6A((&V_3), (bool)1, NULL);
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_3 = ___voice0;
+		NullCheck(L_3);
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_4;
 		L_4 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_3, NULL);
 		V_4 = L_4;
@@ -26828,6 +27544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_SendVoiceRemove_m
 		V_1 = L_7;
 		// var opt = new RaiseEventOptions();
 		RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* L_8 = (RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E*)il2cpp_codegen_object_new(RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
 		RaiseEventOptions__ctor_m5AD5093C00DD3EE18EB5033E49C61934E978A94F(L_8, NULL);
 		V_2 = L_8;
 		// if (targetPlayerId == -1)
@@ -26844,9 +27561,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_SendVoiceRemove_m
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = L_11;
 		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_13;
 		L_13 = LoadBalancingClient_get_LocalPlayer_mCD50C311294952811F343BFA4F7FCD055821A4A4_inline(__this, NULL);
+		NullCheck(L_13);
 		int32_t L_14;
 		L_14 = Player_get_ActorNumber_mE177B60195A5329B1E5D3012295DB0098B7A0F3A_inline(L_13, NULL);
-		(L_12)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (int32_t)L_14);
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_14);
+		NullCheck(L_10);
 		L_10->___TargetActors_3 = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&L_10->___TargetActors_3), (void*)L_12);
 		goto IL_0074;
@@ -26867,7 +27587,9 @@ IL_0061:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_17 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)1);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_18 = L_17;
 		int32_t L_19 = ___targetPlayerId2;
-		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (int32_t)L_19);
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_19);
+		NullCheck(L_16);
 		L_16->___TargetActors_3 = L_18;
 		Il2CppCodeGenWriteBarrier((void**)(&L_16->___TargetActors_3), (void*)L_18);
 	}
@@ -26876,6 +27598,7 @@ IL_0074:
 	{
 		// if (voice.DebugEchoMode)
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_20 = ___voice0;
+		NullCheck(L_20);
 		bool L_21;
 		L_21 = LocalVoice_get_DebugEchoMode_mBB5814D60DDFE293CAE3D2FAEFF871B1A6A08381_inline(L_20, NULL);
 		if (!L_21)
@@ -26886,6 +27609,7 @@ IL_0074:
 	{
 		// opt.Receivers = ReceiverGroup.All;
 		RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* L_22 = V_2;
+		NullCheck(L_22);
 		L_22->___Receivers_4 = 1;
 	}
 
@@ -26926,6 +27650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_SendFrame_mE14DE8
 		uint8_t L_2 = ___evNumber2;
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_3 = ___data0;
 		uint8_t L_4 = ___flags1;
+		NullCheck(L_0);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5;
 		L_5 = PhotonTransportProtocol_buildFrameMessage_m111F1393965EB5012FBC750520294789B31F73AA(L_0, L_1, L_2, L_3, L_4, NULL);
 		V_0 = L_5;
@@ -26939,6 +27664,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_SendFrame_mE14DE8
 		bool L_6 = ___reliable6;
 		SendOptions_set_Reliability_mE183CC0D1E7EC44C9ADF1F0E17D20A3A05BD5C6A((&V_3), L_6, NULL);
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_7 = ___localVoice7;
+		NullCheck(L_7);
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_8;
 		L_8 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_7, NULL);
 		V_4 = L_8;
@@ -26948,6 +27674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_SendFrame_mE14DE8
 		L_10 = LoadBalancingTransport_photonChannelForCodec_m5B9878780257FBEB7A41A80E02710CE71F97E3F9(__this, L_9, NULL);
 		(&V_3)->___Channel_4 = L_10;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_11 = ___localVoice7;
+		NullCheck(L_11);
 		bool L_12;
 		L_12 = LocalVoice_get_Encrypt_mDB962FE410E2CBF91B0DC7B819FBF054A59E41A4_inline(L_11, NULL);
 		(&V_3)->___Encrypt_3 = L_12;
@@ -26955,6 +27682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_SendFrame_mE14DE8
 		V_1 = L_13;
 		// var opt = new RaiseEventOptions();
 		RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* L_14 = (RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E*)il2cpp_codegen_object_new(RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
 		RaiseEventOptions__ctor_m5AD5093C00DD3EE18EB5033E49C61934E978A94F(L_14, NULL);
 		V_2 = L_14;
 		// if (targetPlayerId == -1)
@@ -26971,9 +27699,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_SendFrame_mE14DE8
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_18 = L_17;
 		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_19;
 		L_19 = LoadBalancingClient_get_LocalPlayer_mCD50C311294952811F343BFA4F7FCD055821A4A4_inline(__this, NULL);
+		NullCheck(L_19);
 		int32_t L_20;
 		L_20 = Player_get_ActorNumber_mE177B60195A5329B1E5D3012295DB0098B7A0F3A_inline(L_19, NULL);
-		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (int32_t)L_20);
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_20);
+		NullCheck(L_16);
 		L_16->___TargetActors_3 = L_18;
 		Il2CppCodeGenWriteBarrier((void**)(&L_16->___TargetActors_3), (void*)L_18);
 		goto IL_008b;
@@ -26994,7 +27725,9 @@ IL_0076:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_23 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)1);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_24 = L_23;
 		int32_t L_25 = ___targetPlayerId5;
-		(L_24)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (int32_t)L_25);
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_25);
+		NullCheck(L_22);
 		L_22->___TargetActors_3 = L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&L_22->___TargetActors_3), (void*)L_24);
 	}
@@ -27003,6 +27736,7 @@ IL_008b:
 	{
 		// if (localVoice.DebugEchoMode)
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_26 = ___localVoice7;
+		NullCheck(L_26);
 		bool L_27;
 		L_27 = LocalVoice_get_DebugEchoMode_mBB5814D60DDFE293CAE3D2FAEFF871B1A6A08381_inline(L_26, NULL);
 		if (!L_27)
@@ -27013,6 +27747,7 @@ IL_008b:
 	{
 		// opt.Receivers = ReceiverGroup.All;
 		RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* L_28 = V_2;
+		NullCheck(L_28);
 		L_28->___Receivers_4 = 1;
 	}
 
@@ -27021,8 +27756,10 @@ IL_009b:
 		// opt.InterestGroup = localVoice.InterestGroup;
 		RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* L_29 = V_2;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_30 = ___localVoice7;
+		NullCheck(L_30);
 		uint8_t L_31;
 		L_31 = LocalVoice_get_InterestGroup_mC3B34BA32A7D2D3CB175EE97509D26C34B19A59C_inline(L_30, NULL);
+		NullCheck(L_29);
 		L_29->___InterestGroup_2 = L_31;
 		// this.OpRaiseEvent(VoiceEvent.Code, content, opt, sendOpt);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_32 = V_0;
@@ -27037,6 +27774,7 @@ IL_00b7:
 		// while (this.LoadBalancingPeer.SendOutgoingCommands()) ;
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_36;
 		L_36 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
+		NullCheck(L_36);
 		bool L_37;
 		L_37 = VirtualFuncInvoker0< bool >::Invoke(12 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOutgoingCommands() */, L_36);
 		if (L_37)
@@ -27073,6 +27811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_onEventActionVoic
 	{
 		// if (ev.Code == VoiceEvent.Code)
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_0 = ___ev0;
+		NullCheck(L_0);
 		uint8_t L_1 = L_0->___Code_0;
 		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)202)))))
 		{
@@ -27083,18 +27822,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_onEventActionVoic
 		// protocol.onVoiceEvent(ev[(byte)ParameterCode.CustomEventContent], VOICE_CHANNEL, ev.Sender, ev.Sender == this.LocalPlayer.ActorNumber);
 		PhotonTransportProtocol_tDBD08C0E3F1F28676B0573F86D9BC19564FCA700* L_2 = __this->___protocol_54;
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_3 = ___ev0;
+		NullCheck(L_3);
 		RuntimeObject* L_4;
 		L_4 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_3, (uint8_t)((int32_t)245), NULL);
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_5 = ___ev0;
+		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = EventData_get_Sender_mD42C430CADD5B3CB7B79411FD46B16A4A257A2FB(L_5, NULL);
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_7 = ___ev0;
+		NullCheck(L_7);
 		int32_t L_8;
 		L_8 = EventData_get_Sender_mD42C430CADD5B3CB7B79411FD46B16A4A257A2FB(L_7, NULL);
 		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_9;
 		L_9 = LoadBalancingClient_get_LocalPlayer_mCD50C311294952811F343BFA4F7FCD055821A4A4_inline(__this, NULL);
+		NullCheck(L_9);
 		int32_t L_10;
 		L_10 = Player_get_ActorNumber_mE177B60195A5329B1E5D3012295DB0098B7A0F3A_inline(L_9, NULL);
+		NullCheck(L_2);
 		PhotonTransportProtocol_onVoiceEvent_m0048064D918FADDDB749C7671499B2B2C35598BE(L_2, L_4, 0, L_6, (bool)((((int32_t)L_8) == ((int32_t)L_10))? 1 : 0), NULL);
 		return;
 	}
@@ -27103,6 +27847,7 @@ IL_003e:
 	{
 		// switch (ev.Code)
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_11 = ___ev0;
+		NullCheck(L_11);
 		uint8_t L_12 = L_11->___Code_0;
 		V_1 = L_12;
 		uint8_t L_13 = V_1;
@@ -27121,6 +27866,7 @@ IL_003e:
 	{
 		// playerId = ev.Sender;
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_15 = ___ev0;
+		NullCheck(L_15);
 		int32_t L_16;
 		L_16 = EventData_get_Sender_mD42C430CADD5B3CB7B79411FD46B16A4A257A2FB(L_15, NULL);
 		V_0 = L_16;
@@ -27128,6 +27874,7 @@ IL_003e:
 		int32_t L_17 = V_0;
 		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_18;
 		L_18 = LoadBalancingClient_get_LocalPlayer_mCD50C311294952811F343BFA4F7FCD055821A4A4_inline(__this, NULL);
+		NullCheck(L_18);
 		int32_t L_19;
 		L_19 = Player_get_ActorNumber_mE177B60195A5329B1E5D3012295DB0098B7A0F3A_inline(L_18, NULL);
 		if ((((int32_t)L_17) == ((int32_t)L_19)))
@@ -27139,6 +27886,7 @@ IL_003e:
 		// this.voiceClient.onPlayerJoin(VOICE_CHANNEL, playerId);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_20 = __this->___voiceClient_53;
 		int32_t L_21 = V_0;
+		NullCheck(L_20);
 		VoiceClient_onPlayerJoin_mAE58710EAC9933C477322096E35DF674BB6823EF(L_20, 0, L_21, NULL);
 		// break;
 		return;
@@ -27148,6 +27896,7 @@ IL_0078:
 	{
 		// playerId = ev.Sender;
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_22 = ___ev0;
+		NullCheck(L_22);
 		int32_t L_23;
 		L_23 = EventData_get_Sender_mD42C430CADD5B3CB7B79411FD46B16A4A257A2FB(L_22, NULL);
 		V_0 = L_23;
@@ -27155,6 +27904,7 @@ IL_0078:
 		int32_t L_24 = V_0;
 		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_25;
 		L_25 = LoadBalancingClient_get_LocalPlayer_mCD50C311294952811F343BFA4F7FCD055821A4A4_inline(__this, NULL);
+		NullCheck(L_25);
 		int32_t L_26;
 		L_26 = Player_get_ActorNumber_mE177B60195A5329B1E5D3012295DB0098B7A0F3A_inline(L_25, NULL);
 		if ((!(((uint32_t)L_24) == ((uint32_t)L_26))))
@@ -27165,6 +27915,7 @@ IL_0078:
 	{
 		// this.voiceClient.onLeaveAllChannels();
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_27 = __this->___voiceClient_53;
+		NullCheck(L_27);
 		VoiceClient_onLeaveAllChannels_m4B136F1BF9DB137683A67C4DAF0809743523C45F(L_27, NULL);
 		return;
 	}
@@ -27174,6 +27925,7 @@ IL_0099:
 		// this.voiceClient.onPlayerLeave(VOICE_CHANNEL, playerId);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_28 = __this->___voiceClient_53;
 		int32_t L_29 = V_0;
+		NullCheck(L_28);
 		VoiceClient_onPlayerLeave_mFC467D082FCD8F4A9C037DDE3FAE0AC788EBE280(L_28, 0, L_29, NULL);
 	}
 
@@ -27202,6 +27954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_onStateChangeVoic
 	{
 		// this.voiceClient.onLeaveChannel(VOICE_CHANNEL);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_1 = __this->___voiceClient_53;
+		NullCheck(L_1);
 		VoiceClient_onLeaveChannel_mA8F170D50711852E7CE159AB5B7092858AE9F367(L_1, 0, NULL);
 	}
 
@@ -27216,9 +27969,11 @@ IL_0011:
 	{
 		// this.voiceClient.onJoinChannel(VOICE_CHANNEL);
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_3 = __this->___voiceClient_53;
+		NullCheck(L_3);
 		VoiceClient_onJoinChannel_mCF9FBB7551977F0EFB521CF84728189AB42F3B56(L_3, 0, NULL);
 		// if (this.voiceClient.GlobalInterestGroup != 0)
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_4 = __this->___voiceClient_53;
+		NullCheck(L_4);
 		uint8_t L_5;
 		L_5 = VoiceClient_get_GlobalInterestGroup_m735EBFECB6DC4B5875BA98A52B0E9E419368F006_inline(L_4, NULL);
 		if (!L_5)
@@ -27234,9 +27989,12 @@ IL_0011:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = L_8;
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_10 = __this->___voiceClient_53;
+		NullCheck(L_10);
 		uint8_t L_11;
 		L_11 = VoiceClient_get_GlobalInterestGroup_m735EBFECB6DC4B5875BA98A52B0E9E419368F006_inline(L_10, NULL);
-		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (uint8_t)L_11);
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (uint8_t)L_11);
+		NullCheck(L_6);
 		bool L_12;
 		L_12 = VirtualFuncInvoker2< bool, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(29 /* System.Boolean Photon.Realtime.LoadBalancingPeer::OpChangeGroups(System.Byte[],System.Byte[]) */, L_6, L_7, L_9);
 	}
@@ -27253,6 +28011,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport_Dispose_mB12CA369
 	{
 		// this.voiceClient.Dispose();
 		VoiceClient_t8038478A87E8F714C44193FC74D2A22BC7FDFB4E* L_0 = __this->___voiceClient_53;
+		NullCheck(L_0);
 		VoiceClient_Dispose_m8653A119E3612FE0256C7E31F2E9842AB4C0E253(L_0, NULL);
 		// }
 		return;
@@ -27277,6 +28036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mEBC199A77D3C16FCC34D44D0
 	}
 	{
 		U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D* L_0 = (U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D*)il2cpp_codegen_object_new(U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		U3CU3Ec__ctor_m232668399806E7F8B2C4D793E86EA0ADC19EB6AD(L_0, NULL);
 		((U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D_il2cpp_TypeInfo_var))->___U3CU3E9_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t19BD150F9642CECE7EAFA24AEE2351910A477D6D_il2cpp_TypeInfo_var))->___U3CU3E9_0), (void*)L_0);
@@ -27299,6 +28059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CSendVoicesInfoU3Eb__21_0_m
 	{
 		// foreach (var codecVoices in voices.GroupBy(v => v.Info.Codec))
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_0 = ___v0;
+		NullCheck(L_0);
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_1;
 		L_1 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_0, NULL);
 		V_0 = L_1;
@@ -27326,10 +28087,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport2__ctor_mA790DBB1B
 		// this.LoadBalancingPeer.UseByteArraySlicePoolForEvents = true; // incoming byte[] events can be deserialized to a pooled ByteArraySlice
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_2;
 		L_2 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
+		NullCheck(L_2);
 		PhotonPeer_set_UseByteArraySlicePoolForEvents_m6D93C981248FE8FA4518C0D18227FC9359677DAB(L_2, (bool)1, NULL);
 		// this.LoadBalancingPeer.ReuseEventInstance = true;             // this won't store references to the event anyways
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_3;
 		L_3 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
+		NullCheck(L_3);
 		PhotonPeer_set_ReuseEventInstance_m6CE011E80900698BFF7354335A4734849F136657(L_3, (bool)1, NULL);
 		// }
 		return;
@@ -27360,38 +28123,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport2_SendFrame_m04157
 		// ByteArraySlice frameData = this.LoadBalancingPeer.ByteArraySlicePool.Acquire(data.Count + DATA_OFFSET);
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_0;
 		L_0 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
+		NullCheck(L_0);
 		ByteArraySlicePool_t0C931CEF6AE81634ED6034D55404F61E8ADEF387* L_1;
 		L_1 = PhotonPeer_get_ByteArraySlicePool_mEB6F7DCCD263EF95BEF6347E61BA05B35A48C368(L_0, NULL);
 		int32_t L_2;
 		L_2 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&___data0), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
+		NullCheck(L_1);
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_3;
 		L_3 = ByteArraySlicePool_Acquire_m20F2620DFD7D03AFD52449DC9C0E535F17B9E85B(L_1, ((int32_t)il2cpp_codegen_add(L_2, 4)), NULL);
 		V_0 = L_3;
 		// frameData.Buffer[0] = DATA_OFFSET;
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_4 = V_0;
+		NullCheck(L_4);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = L_4->___Buffer_0;
-		(L_5)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (uint8_t)4);
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (uint8_t)4);
 		// frameData.Buffer[1] = voiceId;
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_6 = V_0;
+		NullCheck(L_6);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = L_6->___Buffer_0;
 		uint8_t L_8 = ___voiceId3;
-		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (uint8_t)L_8);
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (uint8_t)L_8);
 		// frameData.Buffer[2] = evNumber;
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_9 = V_0;
+		NullCheck(L_9);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = L_9->___Buffer_0;
 		uint8_t L_11 = ___evNumber2;
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (uint8_t)L_11);
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (uint8_t)L_11);
 		// frameData.Buffer[3] = (byte)flags;
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_12 = V_0;
+		NullCheck(L_12);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13 = L_12->___Buffer_0;
 		uint8_t L_14 = ___flags1;
-		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (uint8_t)L_14);
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(3), (uint8_t)L_14);
 		// Buffer.BlockCopy(data.Array, data.Offset, frameData.Buffer, DATA_OFFSET, data.Count);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15;
 		L_15 = ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_inline((&___data0), ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_RuntimeMethod_var);
 		int32_t L_16;
 		L_16 = ArraySegment_1_get_Offset_m28FEFF65E8FA9A92DF84966071346BFD426CC3AA_inline((&___data0), ArraySegment_1_get_Offset_m28FEFF65E8FA9A92DF84966071346BFD426CC3AA_RuntimeMethod_var);
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_17 = V_0;
+		NullCheck(L_17);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = L_17->___Buffer_0;
 		int32_t L_19;
 		L_19 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&___data0), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
@@ -27400,12 +28174,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport2_SendFrame_m04157
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_20 = V_0;
 		int32_t L_21;
 		L_21 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&___data0), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
+		NullCheck(L_20);
 		L_20->___Count_2 = ((int32_t)il2cpp_codegen_add(L_21, 4));
 		// SendOptions sendOpt = new SendOptions() { Reliability = reliable, Channel = this.photonChannelForCodec(localVoice.Info.Codec), Encrypt = localVoice.Encrypt };
 		il2cpp_codegen_initobj((&V_3), sizeof(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8));
 		bool L_22 = ___reliable6;
 		SendOptions_set_Reliability_mE183CC0D1E7EC44C9ADF1F0E17D20A3A05BD5C6A((&V_3), L_22, NULL);
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_23 = ___localVoice7;
+		NullCheck(L_23);
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_24;
 		L_24 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_23, NULL);
 		V_4 = L_24;
@@ -27415,6 +28191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport2_SendFrame_m04157
 		L_26 = LoadBalancingTransport_photonChannelForCodec_m5B9878780257FBEB7A41A80E02710CE71F97E3F9(__this, L_25, NULL);
 		(&V_3)->___Channel_4 = L_26;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_27 = ___localVoice7;
+		NullCheck(L_27);
 		bool L_28;
 		L_28 = LocalVoice_get_Encrypt_mDB962FE410E2CBF91B0DC7B819FBF054A59E41A4_inline(L_27, NULL);
 		(&V_3)->___Encrypt_3 = L_28;
@@ -27422,6 +28199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport2_SendFrame_m04157
 		V_1 = L_29;
 		// RaiseEventOptions opt = new RaiseEventOptions();
 		RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* L_30 = (RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E*)il2cpp_codegen_object_new(RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E_il2cpp_TypeInfo_var);
+		NullCheck(L_30);
 		RaiseEventOptions__ctor_m5AD5093C00DD3EE18EB5033E49C61934E978A94F(L_30, NULL);
 		V_2 = L_30;
 		// if (targetPlayerId == -1)
@@ -27438,9 +28216,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport2_SendFrame_m04157
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_34 = L_33;
 		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_35;
 		L_35 = LoadBalancingClient_get_LocalPlayer_mCD50C311294952811F343BFA4F7FCD055821A4A4_inline(__this, NULL);
+		NullCheck(L_35);
 		int32_t L_36;
 		L_36 = Player_get_ActorNumber_mE177B60195A5329B1E5D3012295DB0098B7A0F3A_inline(L_35, NULL);
-		(L_34)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (int32_t)L_36);
+		NullCheck(L_34);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_36);
+		NullCheck(L_32);
 		L_32->___TargetActors_3 = L_34;
 		Il2CppCodeGenWriteBarrier((void**)(&L_32->___TargetActors_3), (void*)L_34);
 		goto IL_00e9;
@@ -27461,7 +28242,9 @@ IL_00d4:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_39 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)1);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_40 = L_39;
 		int32_t L_41 = ___targetPlayerId5;
-		(L_40)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (int32_t)L_41);
+		NullCheck(L_40);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_41);
+		NullCheck(L_38);
 		L_38->___TargetActors_3 = L_40;
 		Il2CppCodeGenWriteBarrier((void**)(&L_38->___TargetActors_3), (void*)L_40);
 	}
@@ -27470,6 +28253,7 @@ IL_00e9:
 	{
 		// if (localVoice.DebugEchoMode)
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_42 = ___localVoice7;
+		NullCheck(L_42);
 		bool L_43;
 		L_43 = LocalVoice_get_DebugEchoMode_mBB5814D60DDFE293CAE3D2FAEFF871B1A6A08381_inline(L_42, NULL);
 		if (!L_43)
@@ -27480,6 +28264,7 @@ IL_00e9:
 	{
 		// opt.Receivers = ReceiverGroup.All;
 		RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* L_44 = V_2;
+		NullCheck(L_44);
 		L_44->___Receivers_4 = 1;
 	}
 
@@ -27488,8 +28273,10 @@ IL_00f9:
 		// opt.InterestGroup = localVoice.InterestGroup;
 		RaiseEventOptions_tAEB3A9A0993C52981809954BC2DB304E887D852E* L_45 = V_2;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_46 = ___localVoice7;
+		NullCheck(L_46);
 		uint8_t L_47;
 		L_47 = LocalVoice_get_InterestGroup_mC3B34BA32A7D2D3CB175EE97509D26C34B19A59C_inline(L_46, NULL);
+		NullCheck(L_45);
 		L_45->___InterestGroup_2 = L_47;
 		// this.OpRaiseEvent(VoiceEvent.FrameCode, frameData, opt, sendOpt);
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_48 = V_0;
@@ -27504,6 +28291,7 @@ IL_0115:
 		// while (this.LoadBalancingPeer.SendOutgoingCommands()) ;
 		LoadBalancingPeer_t8C350A611B061F0EA1DE76C03AFD0CE19070E81F* L_52;
 		L_52 = LoadBalancingClient_get_LoadBalancingPeer_mF3097AB6F64148B7BF7B1AEFA7FB37DE30AC30C5_inline(__this, NULL);
+		NullCheck(L_52);
 		bool L_53;
 		L_53 = VirtualFuncInvoker0< bool >::Invoke(12 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOutgoingCommands() */, L_52);
 		if (L_53)
@@ -27522,6 +28310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport2_onEventActionVoi
 	{
 		// if (ev.Code == VoiceEvent.FrameCode)
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_0 = ___ev0;
+		NullCheck(L_0);
 		uint8_t L_1 = L_0->___Code_0;
 		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)203)))))
 		{
@@ -27531,13 +28320,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport2_onEventActionVoi
 	{
 		// this.onVoiceFrameEvent(ev[(byte)ParameterCode.CustomEventContent], VOICE_CHANNEL, ev.Sender, this.LocalPlayer.ActorNumber);
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_2 = ___ev0;
+		NullCheck(L_2);
 		RuntimeObject* L_3;
 		L_3 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_2, (uint8_t)((int32_t)245), NULL);
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_4 = ___ev0;
+		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = EventData_get_Sender_mD42C430CADD5B3CB7B79411FD46B16A4A257A2FB(L_4, NULL);
 		Player_tC864A64FC55FA6E30EFD6B6FF314C9725DDA363C* L_6;
 		L_6 = LoadBalancingClient_get_LocalPlayer_mCD50C311294952811F343BFA4F7FCD055821A4A4_inline(__this, NULL);
+		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Player_get_ActorNumber_mE177B60195A5329B1E5D3012295DB0098B7A0F3A_inline(L_6, NULL);
 		LoadBalancingTransport2_onVoiceFrameEvent_m6CFFC6ABF35EF0129D75723C593174372386A639(__this, L_3, 0, L_5, L_7, NULL);
@@ -27598,14 +28390,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadBalancingTransport2_onVoiceFrameEven
 	{
 		// content = slice.Buffer;
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_2 = V_3;
+		NullCheck(L_2);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = L_2->___Buffer_0;
 		V_0 = L_3;
 		// contentLength = slice.Count;
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_4 = V_3;
+		NullCheck(L_4);
 		int32_t L_5 = L_4->___Count_2;
 		V_1 = L_5;
 		// sliceOffset = slice.Offset;
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_6 = V_3;
+		NullCheck(L_6);
 		int32_t L_7 = L_6->___Offset_1;
 		V_2 = L_7;
 		goto IL_002e;
@@ -27618,6 +28413,7 @@ IL_0023:
 		V_0 = ((ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)IsInst((RuntimeObject*)L_8, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var));
 		// contentLength = content.Length;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = V_0;
+		NullCheck(L_9);
 		V_1 = ((int32_t)(((RuntimeArray*)L_9)->max_length));
 	}
 
@@ -27661,6 +28457,7 @@ IL_0035:
 IL_0041:
 	{
 		RuntimeObject* L_13 = ___content00;
+		NullCheck(L_13);
 		String_t* L_14;
 		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_13);
 		G_B8_0 = L_14;
@@ -27674,6 +28471,7 @@ IL_0047:
 		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B8_1, G_B8_0, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16;
 		L_16 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(G_B8_2);
 		LoadBalancingTransport_LogError_m22FDD5CA6FB88340B915A20FEC33BA4852F17C72(G_B8_2, L_15, L_16, NULL);
 		return;
 	}
@@ -27683,20 +28481,23 @@ IL_0057:
 		// byte dataOffset = (byte)content[sliceOffset];
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_17 = V_0;
 		int32_t L_18 = V_2;
+		NullCheck(L_17);
 		int32_t L_19 = L_18;
-		uint8_t L_20 = (L_17)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_19));
+		uint8_t L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
 		V_4 = L_20;
 		// byte voiceId = (byte)content[sliceOffset + 1];
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_21 = V_0;
 		int32_t L_22 = V_2;
+		NullCheck(L_21);
 		int32_t L_23 = ((int32_t)il2cpp_codegen_add(L_22, 1));
-		uint8_t L_24 = (L_21)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_23));
+		uint8_t L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
 		V_5 = L_24;
 		// byte evNumber = (byte)content[sliceOffset + 2];
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_25 = V_0;
 		int32_t L_26 = V_2;
+		NullCheck(L_25);
 		int32_t L_27 = ((int32_t)il2cpp_codegen_add(L_26, 2));
-		uint8_t L_28 = (L_25)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_27));
+		uint8_t L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
 		V_6 = L_28;
 		// FrameFlags flags = 0;
 		V_7 = 0;
@@ -27710,8 +28511,9 @@ IL_0057:
 	{
 		// flags = (FrameFlags)content[3];
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_30 = V_0;
+		NullCheck(L_30);
 		int32_t L_31 = 3;
-		uint8_t L_32 = (L_30)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_31));
+		uint8_t L_32 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
 		V_7 = L_32;
 	}
 
@@ -27727,8 +28529,10 @@ IL_0077:
 	{
 		// buffer = new FrameBuffer(slice.Buffer, slice.Offset + dataOffset, contentLength - dataOffset, flags, slice);
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_34 = V_3;
+		NullCheck(L_34);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_35 = L_34->___Buffer_0;
 		ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9* L_36 = V_3;
+		NullCheck(L_36);
 		int32_t L_37 = L_36->___Offset_1;
 		uint8_t L_38 = V_4;
 		int32_t L_39 = V_1;
@@ -27760,6 +28564,7 @@ IL_00aa:
 		uint8_t L_52 = V_6;
 		int32_t L_53 = ___playerId2;
 		int32_t L_54 = ___localPlayerId3;
+		NullCheck(L_48);
 		VoiceClient_onFrame_m9D4A3B236F96891AEAA7BA07B31684C01614F63B(L_48, L_49, L_50, L_51, L_52, (&V_8), (bool)((((int32_t)L_53) == ((int32_t)L_54))? 1 : 0), NULL);
 		// buffer.Release();
 		FrameBuffer_Release_m8EEF2FAF12E3ACFAE456CC3CA5C04C3B968BBFD2((&V_8), NULL);
@@ -27839,22 +28644,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922F
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
 		uint8_t L_5 = ((uint8_t)0);
 		RuntimeObject* L_6 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_5);
+		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_6);
-		(L_4)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_4;
 		uint8_t L_8 = 1;
 		RuntimeObject* L_9 = Box(EventSubcode_tF29A38A4881102547F45AB48C9FAD95748525E43_il2cpp_TypeInfo_var, &L_8);
+		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_9);
-		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_9);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_9);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10 = L_7;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = V_0;
+		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, L_11);
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_11);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_11);
 		V_1 = L_10;
 		// int i = 0;
 		V_2 = 0;
 		// foreach (var v in voicesToSend)
 		RuntimeObject* L_12 = ___voicesToSend0;
+		NullCheck(L_12);
 		RuntimeObject* L_13;
 		L_13 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<Photon.Voice.LocalVoice>::GetEnumerator() */, IEnumerable_1_t9551D261C0B4FDA29EF3A2D807BF9000DC5B2BEB_il2cpp_TypeInfo_var, L_12);
 		V_3 = L_13;
@@ -27874,6 +28683,7 @@ FINALLY_01f9:
 				}
 				{
 					RuntimeObject* L_15 = V_3;
+					NullCheck(L_15);
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_15);
 				}
 
@@ -27893,6 +28703,7 @@ IL_0037_1:
 			{
 				// foreach (var v in voicesToSend)
 				RuntimeObject* L_16 = V_3;
+				NullCheck(L_16);
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_17;
 				L_17 = InterfaceFuncInvoker0< LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<Photon.Voice.LocalVoice>::get_Current() */, IEnumerator_1_t24B797D62C792DE231A7FB62B30DDE5F76F0297E_il2cpp_TypeInfo_var, L_16);
 				V_4 = L_17;
@@ -27913,16 +28724,20 @@ IL_0037_1:
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18 = V_0;
 				int32_t L_19 = V_2;
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_20 = (Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)il2cpp_codegen_object_new(Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var);
+				NullCheck(L_20);
 				Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048(L_20, Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_21 = L_20;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_22 = V_4;
+				NullCheck(L_22);
 				uint8_t L_23;
 				L_23 = LocalVoice_get_ID_mDD6B1180E849ED20A46A04832BE1E956C888539D_inline(L_22, NULL);
 				uint8_t L_24 = L_23;
 				RuntimeObject* L_25 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_24);
+				NullCheck(L_21);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_21, (uint8_t)1, L_25, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_26 = L_21;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_27 = V_4;
+				NullCheck(L_27);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_28;
 				L_28 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_27, NULL);
 				V_5 = L_28;
@@ -27930,9 +28745,11 @@ IL_0037_1:
 				L_29 = VoiceInfo_get_Codec_m163BADA5CCA44EF0C9E48346ED20E7CC33B24BE2_inline((&V_5), NULL);
 				int32_t L_30 = L_29;
 				RuntimeObject* L_31 = Box(Codec_t7B215C0B276BF5BE13C5803ADC8928B5E31EF525_il2cpp_TypeInfo_var, &L_30);
+				NullCheck(L_26);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_26, (uint8_t)((int32_t)12), L_31, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_32 = L_26;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_33 = V_4;
+				NullCheck(L_33);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_34;
 				L_34 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_33, NULL);
 				V_5 = L_34;
@@ -27940,9 +28757,11 @@ IL_0037_1:
 				L_35 = VoiceInfo_get_SamplingRate_mB35BF119B634916F78FF136465AD6E3FDFE834C8_inline((&V_5), NULL);
 				int32_t L_36 = L_35;
 				RuntimeObject* L_37 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_36);
+				NullCheck(L_32);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_32, (uint8_t)2, L_37, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_38 = L_32;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_39 = V_4;
+				NullCheck(L_39);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_40;
 				L_40 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_39, NULL);
 				V_5 = L_40;
@@ -27950,9 +28769,11 @@ IL_0037_1:
 				L_41 = VoiceInfo_get_Channels_m9834209C53A08D0EF5F2F6AD8967DD364EFDB5F0_inline((&V_5), NULL);
 				int32_t L_42 = L_41;
 				RuntimeObject* L_43 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_42);
+				NullCheck(L_38);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_38, (uint8_t)3, L_43, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_44 = L_38;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_45 = V_4;
+				NullCheck(L_45);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_46;
 				L_46 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_45, NULL);
 				V_5 = L_46;
@@ -27960,9 +28781,11 @@ IL_0037_1:
 				L_47 = VoiceInfo_get_FrameDurationUs_m848EC5AF872DBB64AACA968CF1718C04759A12BB_inline((&V_5), NULL);
 				int32_t L_48 = L_47;
 				RuntimeObject* L_49 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_48);
+				NullCheck(L_44);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_44, (uint8_t)4, L_49, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_50 = L_44;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_51 = V_4;
+				NullCheck(L_51);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_52;
 				L_52 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_51, NULL);
 				V_5 = L_52;
@@ -27970,9 +28793,11 @@ IL_0037_1:
 				L_53 = VoiceInfo_get_Bitrate_mE0CECCEA88721AD631108C61993A45383423B064_inline((&V_5), NULL);
 				int32_t L_54 = L_53;
 				RuntimeObject* L_55 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_54);
+				NullCheck(L_50);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_50, (uint8_t)5, L_55, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_56 = L_50;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_57 = V_4;
+				NullCheck(L_57);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_58;
 				L_58 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_57, NULL);
 				V_5 = L_58;
@@ -27980,9 +28805,11 @@ IL_0037_1:
 				L_59 = VoiceInfo_get_Width_mD5716DBF45F4DAEA9F721D24FABDB1AE179858BD_inline((&V_5), NULL);
 				int32_t L_60 = L_59;
 				RuntimeObject* L_61 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_60);
+				NullCheck(L_56);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_56, (uint8_t)6, L_61, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_62 = L_56;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_63 = V_4;
+				NullCheck(L_63);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_64;
 				L_64 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_63, NULL);
 				V_5 = L_64;
@@ -27990,9 +28817,11 @@ IL_0037_1:
 				L_65 = VoiceInfo_get_Height_m656FAE7A882329D0DF0138D9D47C5EAE07168D5A_inline((&V_5), NULL);
 				int32_t L_66 = L_65;
 				RuntimeObject* L_67 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_66);
+				NullCheck(L_62);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_62, (uint8_t)7, L_67, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_68 = L_62;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_69 = V_4;
+				NullCheck(L_69);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_70;
 				L_70 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_69, NULL);
 				V_5 = L_70;
@@ -28000,9 +28829,11 @@ IL_0037_1:
 				L_71 = VoiceInfo_get_FPS_m4BB8CC7FAD24454C1DC27828F98B4D0880B94471_inline((&V_5), NULL);
 				int32_t L_72 = L_71;
 				RuntimeObject* L_73 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_72);
+				NullCheck(L_68);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_68, (uint8_t)8, L_73, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_74 = L_68;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_75 = V_4;
+				NullCheck(L_75);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_76;
 				L_76 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_75, NULL);
 				V_5 = L_76;
@@ -28010,24 +28841,30 @@ IL_0037_1:
 				L_77 = VoiceInfo_get_KeyFrameInt_mCEAD182130EDDA06B30110ACCC0ABC23D5281961_inline((&V_5), NULL);
 				int32_t L_78 = L_77;
 				RuntimeObject* L_79 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_78);
+				NullCheck(L_74);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_74, (uint8_t)((int32_t)9), L_79, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_80 = L_74;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_81 = V_4;
+				NullCheck(L_81);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_82;
 				L_82 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_81, NULL);
 				V_5 = L_82;
 				RuntimeObject* L_83;
 				L_83 = VoiceInfo_get_UserData_mE49DA945FA1476FF3AD239DB23B02E84F8533B1A_inline((&V_5), NULL);
+				NullCheck(L_80);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_80, (uint8_t)((int32_t)10), L_83, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 				Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_84 = L_80;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_85 = V_4;
+				NullCheck(L_85);
 				uint8_t L_86;
 				L_86 = LocalVoice_get_EvNumber_m7E2787DBE5F03722D1E8E446B3F1BD6C8B89E1C1_inline(L_85, NULL);
 				uint8_t L_87 = L_86;
 				RuntimeObject* L_88 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_87);
+				NullCheck(L_84);
 				Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_84, (uint8_t)((int32_t)11), L_88, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
+				NullCheck(L_18);
 				ArrayElementTypeCheck (L_18, L_84);
-				(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_19), (RuntimeObject*)L_84);
+				(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (RuntimeObject*)L_84);
 				// i++;
 				int32_t L_89 = V_2;
 				V_2 = ((int32_t)il2cpp_codegen_add(L_89, 1));
@@ -28044,38 +28881,47 @@ IL_0037_1:
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_92 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_93 = L_92;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_94 = V_4;
+				NullCheck(L_94);
 				String_t* L_95;
 				L_95 = LocalVoice_get_LogPrefix_mBD379944D1F0172B0B6A29C02D115E0B07F8F0C8(L_94, NULL);
+				NullCheck(L_93);
 				ArrayElementTypeCheck (L_93, L_95);
-				(L_93)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)L_95);
+				(L_93)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_95);
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_96 = L_93;
+				NullCheck(L_96);
 				ArrayElementTypeCheck (L_96, _stringLiteral7366A8459885D2C6B31E6E8884BAABB65007C404);
-				(L_96)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral7366A8459885D2C6B31E6E8884BAABB65007C404);
+				(L_96)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral7366A8459885D2C6B31E6E8884BAABB65007C404);
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_97 = L_96;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_98 = V_4;
+				NullCheck(L_98);
 				VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_99;
 				L_99 = LocalVoice_get_Info_mFCD2D5AC24454B0E5B0538EE171756EF90F2E938_inline(L_98, NULL);
 				V_5 = L_99;
 				String_t* L_100;
 				L_100 = VoiceInfo_ToString_m31F4E929FD426EC3DFDB94C4FE45D3ECEB904FFF((&V_5), NULL);
+				NullCheck(L_97);
 				ArrayElementTypeCheck (L_97, L_100);
-				(L_97)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (String_t*)L_100);
+				(L_97)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)L_100);
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_101 = L_97;
+				NullCheck(L_101);
 				ArrayElementTypeCheck (L_101, _stringLiteralDD910EF1441AFF10313A0CE391F06D8B2646A3CD);
-				(L_101)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteralDD910EF1441AFF10313A0CE391F06D8B2646A3CD);
+				(L_101)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteralDD910EF1441AFF10313A0CE391F06D8B2646A3CD);
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_102 = L_101;
 				LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_103 = V_4;
+				NullCheck(L_103);
 				uint8_t L_104;
 				L_104 = LocalVoice_get_EvNumber_m7E2787DBE5F03722D1E8E446B3F1BD6C8B89E1C1_inline(L_103, NULL);
 				V_6 = L_104;
 				String_t* L_105;
 				L_105 = Byte_ToString_mB80CE094B94215119578E4D796566E71D7277EE4((&V_6), NULL);
+				NullCheck(L_102);
 				ArrayElementTypeCheck (L_102, L_105);
-				(L_102)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (String_t*)L_105);
+				(L_102)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)L_105);
 				String_t* L_106;
 				L_106 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_102, NULL);
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_107;
 				L_107 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+				NullCheck(L_91);
 				InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_91, L_106, L_107);
 			}
 
@@ -28083,6 +28929,7 @@ IL_01ec_1:
 			{
 				// foreach (var v in voicesToSend)
 				RuntimeObject* L_108 = V_3;
+				NullCheck(L_108);
 				bool L_109;
 				L_109 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_108);
 				if (L_109)
@@ -28128,35 +28975,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922F
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_2 = ___v0;
+		NullCheck(L_2);
 		uint8_t L_3;
 		L_3 = LocalVoice_get_ID_mDD6B1180E849ED20A46A04832BE1E956C888539D_inline(L_2, NULL);
-		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (uint8_t)L_3);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (uint8_t)L_3);
 		V_0 = L_1;
 		// object[] content = new object[] { (byte)0, EventSubcode.VoiceRemove, ids };
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		uint8_t L_6 = ((uint8_t)0);
 		RuntimeObject* L_7 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_6);
+		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_7);
-		(L_5)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_5;
 		uint8_t L_9 = 2;
 		RuntimeObject* L_10 = Box(EventSubcode_tF29A38A4881102547F45AB48C9FAD95748525E43_il2cpp_TypeInfo_var, &L_9);
+		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, L_10);
-		(L_8)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_10);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_10);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = L_8;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = V_0;
+		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_12);
-		(L_11)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_12);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_12);
 		// logger.LogInfo(v.LogPrefix + " remove sent");
 		RuntimeObject* L_13 = __this->___logger_1;
 		LocalVoice_t4FB5D04C1B69E04C83BD6A67C9B63F6A84BA14F5* L_14 = ___v0;
+		NullCheck(L_14);
 		String_t* L_15;
 		L_15 = LocalVoice_get_LogPrefix_mBD379944D1F0172B0B6A29C02D115E0B07F8F0C8(L_14, NULL);
 		String_t* L_16;
 		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_15, _stringLiteral28360F8CACC9FC7A49CC4C8C64342FAD026A892B, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_17;
 		L_17 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_13);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_13, L_16, L_17);
 		// return content;
 		return L_11;
@@ -28180,26 +29034,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922F
 		uint8_t L_2 = ___voiceId0;
 		uint8_t L_3 = L_2;
 		RuntimeObject* L_4 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_3);
+		NullCheck(L_1);
 		ArrayElementTypeCheck (L_1, L_4);
-		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_1;
 		uint8_t L_6 = ___evNumber1;
 		uint8_t L_7 = L_6;
 		RuntimeObject* L_8 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_7);
+		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_8);
-		(L_5)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_5;
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_10 = ___data2;
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_11 = L_10;
 		RuntimeObject* L_12 = Box(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var, &L_11);
+		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_12);
-		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_12);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_12);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = L_9;
 		uint8_t L_14 = ___flags3;
 		uint8_t L_15 = ((uint8_t)L_14);
 		RuntimeObject* L_16 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_15);
+		NullCheck(L_13);
 		ArrayElementTypeCheck (L_13, L_16);
-		(L_13)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_16);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_16);
 		return L_13;
 	}
 }
@@ -28241,8 +29099,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonTransportProtocol_onVoiceEvent_m00
 		V_0 = ((ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)Castclass((RuntimeObject*)L_0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var));
 		// if ((byte)content[0] == (byte)0)
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = V_0;
+		NullCheck(L_1);
 		int32_t L_2 = 0;
-		RuntimeObject* L_3 = (L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_2));
+		RuntimeObject* L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
 		if (((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_3, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))
 		{
 			goto IL_0066;
@@ -28251,8 +29110,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonTransportProtocol_onVoiceEvent_m00
 	{
 		// switch ((byte)content[1])
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
 		int32_t L_5 = 1;
-		RuntimeObject* L_6 = (L_4)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		RuntimeObject* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		V_1 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_6, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		uint8_t L_7 = V_1;
 		if ((((int32_t)L_7) == ((int32_t)1)))
@@ -28277,8 +29137,9 @@ IL_0024:
 		int32_t L_9 = ___channelId1;
 		int32_t L_10 = ___playerId2;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = V_0;
+		NullCheck(L_11);
 		int32_t L_12 = 2;
-		RuntimeObject* L_13 = (L_11)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_12));
+		RuntimeObject* L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
 		PhotonTransportProtocol_onVoiceInfo_m4A01952ACD0CEEECE737948E3A533EDC8F2750F1(__this, L_9, L_10, L_13, NULL);
 		// break;
 		return;
@@ -28290,8 +29151,9 @@ IL_0030:
 		int32_t L_14 = ___channelId1;
 		int32_t L_15 = ___playerId2;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16 = V_0;
+		NullCheck(L_16);
 		int32_t L_17 = 2;
-		RuntimeObject* L_18 = (L_16)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_17));
+		RuntimeObject* L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
 		PhotonTransportProtocol_onVoiceRemove_mA4C0C202E8B63DFACFAF91DFA35A56DE0EFEA0EB(__this, L_14, L_15, L_18, NULL);
 		// break;
 		return;
@@ -28302,8 +29164,9 @@ IL_003c:
 		// logger.LogError("[PV] Unknown sevent subcode " + content[1]);
 		RuntimeObject* L_19 = __this->___logger_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = V_0;
+		NullCheck(L_20);
 		int32_t L_21 = 1;
-		RuntimeObject* L_22 = (L_20)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_21));
+		RuntimeObject* L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
 		RuntimeObject* L_23 = L_22;
 		G_B7_0 = L_23;
 		G_B7_1 = _stringLiteralD182FC438BDFCD89D8F1821890F2A540740D4C99;
@@ -28325,6 +29188,7 @@ IL_003c:
 
 IL_0051:
 	{
+		NullCheck(G_B8_0);
 		String_t* L_24;
 		L_24 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B8_0);
 		G_B9_0 = L_24;
@@ -28338,6 +29202,7 @@ IL_0056:
 		L_25 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B9_1, G_B9_0, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26;
 		L_26 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(G_B9_2);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, G_B9_2, L_25, L_26);
 		// break;
 		return;
@@ -28347,23 +29212,27 @@ IL_0066:
 	{
 		// byte voiceId = (byte)content[0];
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_27 = V_0;
+		NullCheck(L_27);
 		int32_t L_28 = 0;
-		RuntimeObject* L_29 = (L_27)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_28));
+		RuntimeObject* L_29 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
 		V_2 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_29, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		// byte evNumber = (byte)content[1];
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_30 = V_0;
+		NullCheck(L_30);
 		int32_t L_31 = 1;
-		RuntimeObject* L_32 = (L_30)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_31));
+		RuntimeObject* L_32 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
 		V_3 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_32, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		// byte[] receivedBytes = (byte[])content[2];
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_33 = V_0;
+		NullCheck(L_33);
 		int32_t L_34 = 2;
-		RuntimeObject* L_35 = (L_33)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_34));
+		RuntimeObject* L_35 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
 		V_4 = ((ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)Castclass((RuntimeObject*)L_35, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var));
 		// FrameFlags flags = 0;
 		V_5 = 0;
 		// if (content.Length > 3)
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_36 = V_0;
+		NullCheck(L_36);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_36)->max_length))) <= ((int32_t)3)))
 		{
 			goto IL_0095;
@@ -28372,8 +29241,9 @@ IL_0066:
 	{
 		// flags = (FrameFlags)content[3];
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_37 = V_0;
+		NullCheck(L_37);
 		int32_t L_38 = 3;
-		RuntimeObject* L_39 = (L_37)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_38));
+		RuntimeObject* L_39 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
 		V_5 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_39, FrameFlags_tADBABDBA00BC8F8362AFC186E8EB25A1F5D898C4_il2cpp_TypeInfo_var))));
 	}
 
@@ -28390,6 +29260,7 @@ IL_0095:
 		uint8_t L_45 = V_2;
 		uint8_t L_46 = V_3;
 		bool L_47 = ___isLocalPlayer3;
+		NullCheck(L_42);
 		VoiceClient_onFrame_m9D4A3B236F96891AEAA7BA07B31684C01614F63B(L_42, L_43, L_44, L_45, L_46, (&V_6), L_47, NULL);
 		// buffer.Release();
 		FrameBuffer_Release_m8EEF2FAF12E3ACFAE456CC3CA5C04C3B968BBFD2((&V_6), NULL);
@@ -28429,17 +29300,20 @@ IL_000b:
 		// foreach (var el in (object[])payload)
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = V_0;
 		int32_t L_2 = V_1;
+		NullCheck(L_1);
 		int32_t L_3 = L_2;
-		RuntimeObject* L_4 = (L_1)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_3));
+		RuntimeObject* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		// var h = (Dictionary<byte, Object>)el;
 		V_2 = ((Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)CastclassClass((RuntimeObject*)L_4, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var));
 		// var voiceId = (byte)h[(byte)EventParam.VoiceId];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_5 = V_2;
+		NullCheck(L_5);
 		RuntimeObject* L_6;
 		L_6 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_5, (uint8_t)1, Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		V_3 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_6, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		// var eventNumber = (byte)h[(byte)EventParam.EventNumber];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_7 = V_2;
+		NullCheck(L_7);
 		RuntimeObject* L_8;
 		L_8 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_7, (uint8_t)((int32_t)11), Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		V_4 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_8, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
@@ -28455,6 +29329,7 @@ IL_000b:
 		uint8_t L_14 = V_3;
 		uint8_t L_15 = V_4;
 		VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404 L_16 = V_5;
+		NullCheck(L_11);
 		VoiceClient_onVoiceInfo_m3C5AD959AFB2E7C3552E40640105E6FAF2FE0BC1(L_11, L_12, L_13, L_14, L_15, L_16, NULL);
 		int32_t L_17 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_17, 1));
@@ -28465,6 +29340,7 @@ IL_004f:
 		// foreach (var el in (object[])payload)
 		int32_t L_18 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_19 = V_0;
+		NullCheck(L_19);
 		if ((((int32_t)L_18) < ((int32_t)((int32_t)(((RuntimeArray*)L_19)->max_length)))))
 		{
 			goto IL_000b;
@@ -28494,6 +29370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhotonTransportProtocol_onVoiceRemove_mA
 		int32_t L_2 = ___channelId0;
 		int32_t L_3 = ___playerId1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
+		NullCheck(L_1);
 		VoiceClient_onVoiceRemove_mD2C7AD7A9A3777AE5A94E0245A700E4F2B76BEC0(L_1, L_2, L_3, L_4, NULL);
 		// }
 		return;
@@ -28518,31 +29395,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE6
 		il2cpp_codegen_initobj((&V_0), sizeof(VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE60BB404));
 		// i.Codec = (Codec)h[(byte)EventParam.Codec];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_0 = ___h0;
+		NullCheck(L_0);
 		RuntimeObject* L_1;
 		L_1 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_0, (uint8_t)((int32_t)12), Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		VoiceInfo_set_Codec_m83DB6A6E8D8632752E6B4956622E44D27126109E_inline((&V_0), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_1, Codec_t7B215C0B276BF5BE13C5803ADC8928B5E31EF525_il2cpp_TypeInfo_var)))), NULL);
 		// i.SamplingRate = (int)h[(byte)EventParam.SamplingRate];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_2 = ___h0;
+		NullCheck(L_2);
 		RuntimeObject* L_3;
 		L_3 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_2, (uint8_t)2, Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		VoiceInfo_set_SamplingRate_m7BD3E61C766F470FB265DCC93B84096870DBAA01_inline((&V_0), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_3, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
 		// i.Channels = (int)h[(byte)EventParam.Channels];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_4 = ___h0;
+		NullCheck(L_4);
 		RuntimeObject* L_5;
 		L_5 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_4, (uint8_t)3, Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		VoiceInfo_set_Channels_mF29381F2ABA273B1F9851169CE03122B1EB706C9_inline((&V_0), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_5, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
 		// i.FrameDurationUs = (int)h[(byte)EventParam.FrameDurationUs];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_6 = ___h0;
+		NullCheck(L_6);
 		RuntimeObject* L_7;
 		L_7 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_6, (uint8_t)4, Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		VoiceInfo_set_FrameDurationUs_m7A7B07BC964C797FD1AA6643D4376401735FEC40_inline((&V_0), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_7, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
 		// i.Bitrate = (int)h[(byte)EventParam.Bitrate];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_8 = ___h0;
+		NullCheck(L_8);
 		RuntimeObject* L_9;
 		L_9 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_8, (uint8_t)5, Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		VoiceInfo_set_Bitrate_mB3268CB62B4A817C413E59D2609EDA9B4F1347B4_inline((&V_0), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_9, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
 		// if (h.ContainsKey((byte)EventParam.Width)) i.Width = (int)h[(byte)EventParam.Width];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_10 = ___h0;
+		NullCheck(L_10);
 		bool L_11;
 		L_11 = Dictionary_2_ContainsKey_m6E0C00BA51CEB9257B11032504ACC9D63D784742(L_10, (uint8_t)6, Dictionary_2_ContainsKey_m6E0C00BA51CEB9257B11032504ACC9D63D784742_RuntimeMethod_var);
 		if (!L_11)
@@ -28553,6 +29436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceInfo_t24C5680EF3DC3C51FBB108E737403E2BE6
 	{
 		// if (h.ContainsKey((byte)EventParam.Width)) i.Width = (int)h[(byte)EventParam.Width];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_12 = ___h0;
+		NullCheck(L_12);
 		RuntimeObject* L_13;
 		L_13 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_12, (uint8_t)6, Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		VoiceInfo_set_Width_m7B176130CA1D12B7B88E1AB0E76F023C321264CC_inline((&V_0), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_13, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
@@ -28562,6 +29446,7 @@ IL_0084:
 	{
 		// if (h.ContainsKey((byte)EventParam.Height)) i.Height = (int)h[(byte)EventParam.Height];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_14 = ___h0;
+		NullCheck(L_14);
 		bool L_15;
 		L_15 = Dictionary_2_ContainsKey_m6E0C00BA51CEB9257B11032504ACC9D63D784742(L_14, (uint8_t)7, Dictionary_2_ContainsKey_m6E0C00BA51CEB9257B11032504ACC9D63D784742_RuntimeMethod_var);
 		if (!L_15)
@@ -28572,6 +29457,7 @@ IL_0084:
 	{
 		// if (h.ContainsKey((byte)EventParam.Height)) i.Height = (int)h[(byte)EventParam.Height];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_16 = ___h0;
+		NullCheck(L_16);
 		RuntimeObject* L_17;
 		L_17 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_16, (uint8_t)7, Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		VoiceInfo_set_Height_mB7D71C3A5E6305595E88676F1C7AB1EBCE7A3962_inline((&V_0), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_17, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
@@ -28581,6 +29467,7 @@ IL_00a0:
 	{
 		// if (h.ContainsKey((byte)EventParam.FPS)) i.FPS = (int)h[(byte)EventParam.FPS];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_18 = ___h0;
+		NullCheck(L_18);
 		bool L_19;
 		L_19 = Dictionary_2_ContainsKey_m6E0C00BA51CEB9257B11032504ACC9D63D784742(L_18, (uint8_t)8, Dictionary_2_ContainsKey_m6E0C00BA51CEB9257B11032504ACC9D63D784742_RuntimeMethod_var);
 		if (!L_19)
@@ -28591,6 +29478,7 @@ IL_00a0:
 	{
 		// if (h.ContainsKey((byte)EventParam.FPS)) i.FPS = (int)h[(byte)EventParam.FPS];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_20 = ___h0;
+		NullCheck(L_20);
 		RuntimeObject* L_21;
 		L_21 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_20, (uint8_t)8, Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		VoiceInfo_set_FPS_mEAE50B70BB104142A33AA05E0434F33E22077F51_inline((&V_0), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_21, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
@@ -28600,6 +29488,7 @@ IL_00bc:
 	{
 		// if (h.ContainsKey((byte)EventParam.KeyFrameInt)) i.KeyFrameInt = (int)h[(byte)EventParam.KeyFrameInt];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_22 = ___h0;
+		NullCheck(L_22);
 		bool L_23;
 		L_23 = Dictionary_2_ContainsKey_m6E0C00BA51CEB9257B11032504ACC9D63D784742(L_22, (uint8_t)((int32_t)9), Dictionary_2_ContainsKey_m6E0C00BA51CEB9257B11032504ACC9D63D784742_RuntimeMethod_var);
 		if (!L_23)
@@ -28610,6 +29499,7 @@ IL_00bc:
 	{
 		// if (h.ContainsKey((byte)EventParam.KeyFrameInt)) i.KeyFrameInt = (int)h[(byte)EventParam.KeyFrameInt];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_24 = ___h0;
+		NullCheck(L_24);
 		RuntimeObject* L_25;
 		L_25 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_24, (uint8_t)((int32_t)9), Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		VoiceInfo_set_KeyFrameInt_m743975A4690224F0C777D2D69BF4ADE72A34B8BF_inline((&V_0), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_25, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), NULL);
@@ -28619,6 +29509,7 @@ IL_00da:
 	{
 		// i.UserData = h[(byte)EventParam.UserData];
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_26 = ___h0;
+		NullCheck(L_26);
 		RuntimeObject* L_27;
 		L_27 = Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB(L_26, (uint8_t)((int32_t)10), Dictionary_2_get_Item_m8F3D010A0875A7B6F33873C8BD16D7F4A483CEFB_RuntimeMethod_var);
 		VoiceInfo_set_UserData_mA73845AE55BD8DD1B706C209B74D7A8485E4123C_inline((&V_0), L_27, NULL);
@@ -28701,6 +29592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC__ctor_mFBD66FAD0CBE64E
 		{
 			// this.callback = new DataCallback();
 			DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF* L_1 = (DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF*)il2cpp_codegen_object_new(DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF_il2cpp_TypeInfo_var);
+			NullCheck(L_1);
 			DataCallback__ctor_m69A883EB0EC3F9E4B08EA4B0952CDAB1A95FEE14(L_1, NULL);
 			__this->___callback_4 = L_1;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___callback_4), (void*)L_1);
@@ -28708,6 +29600,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC__ctor_mFBD66FAD0CBE64E
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2;
 			L_2 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3 = (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*)il2cpp_codegen_object_new(AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var);
+			NullCheck(L_3);
 			AndroidJavaObject__ctor_m5A65B5D325C2CEFAC4097A0D3813F8E158178DD7(L_3, _stringLiteral8F111C2354BF114B682B53470DBBA11F4F2C3020, L_2, NULL);
 			__this->___audioIn_0 = L_3;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___audioIn_0), (void*)L_3);
@@ -28717,15 +29610,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC__ctor_mFBD66FAD0CBE64E
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = L_5;
 			int32_t L_7 = ((int32_t)44100);
 			RuntimeObject* L_8 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_7);
+			NullCheck(L_6);
 			ArrayElementTypeCheck (L_6, L_8);
-			(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_8);
+			(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_8);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_6;
 			int32_t L_10;
 			L_10 = AndroidAudioInAEC_get_Channels_mDF6B03321CFD52DB584EE619A36A9E33C36C22A7(__this, NULL);
 			int32_t L_11 = L_10;
 			RuntimeObject* L_12 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_11);
+			NullCheck(L_9);
 			ArrayElementTypeCheck (L_9, L_12);
-			(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_12);
+			(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_12);
+			NullCheck(L_4);
 			int32_t L_13;
 			L_13 = AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC(L_4, _stringLiteral73DF4190C2AA55F9FDF61826A6D31E307EB74FDC, L_9, AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
 			V_0 = L_13;
@@ -28740,61 +29636,74 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC__ctor_mFBD66FAD0CBE64E
 			bool L_17 = ___enableAEC1;
 			bool L_18 = L_17;
 			RuntimeObject* L_19 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_18);
+			NullCheck(L_16);
 			ArrayElementTypeCheck (L_16, L_19);
-			(L_16)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_19);
+			(L_16)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_19);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = L_16;
 			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_21 = __this->___audioIn_0;
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_22;
 			L_22 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_21);
 			bool L_23;
 			L_23 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_21, _stringLiteral8D403BCCE22CC75D60C52DE38DF4629A1BCB7241, L_22, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
 			bool L_24 = L_23;
 			RuntimeObject* L_25 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_24);
+			NullCheck(L_20);
 			ArrayElementTypeCheck (L_20, L_25);
-			(L_20)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_25);
+			(L_20)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_25);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26 = L_20;
 			bool L_27 = ___enableAGC2;
 			bool L_28 = L_27;
 			RuntimeObject* L_29 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_28);
+			NullCheck(L_26);
 			ArrayElementTypeCheck (L_26, L_29);
-			(L_26)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_29);
+			(L_26)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_29);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_30 = L_26;
 			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_31 = __this->___audioIn_0;
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_32;
 			L_32 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_31);
 			bool L_33;
 			L_33 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_31, _stringLiteral0D48B26096982E0F62B51B3B88BC4EEF664BC5AE, L_32, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
 			bool L_34 = L_33;
 			RuntimeObject* L_35 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_34);
+			NullCheck(L_30);
 			ArrayElementTypeCheck (L_30, L_35);
-			(L_30)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_35);
+			(L_30)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_35);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_36 = L_30;
 			bool L_37 = ___enableNS3;
 			bool L_38 = L_37;
 			RuntimeObject* L_39 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_38);
+			NullCheck(L_36);
 			ArrayElementTypeCheck (L_36, L_39);
-			(L_36)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_39);
+			(L_36)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_39);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_40 = L_36;
 			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_41 = __this->___audioIn_0;
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_42;
 			L_42 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_41);
 			bool L_43;
 			L_43 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_41, _stringLiteral3887E80F11517474458DD0044E4C8C71283E061D, L_42, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
 			bool L_44 = L_43;
 			RuntimeObject* L_45 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_44);
+			NullCheck(L_40);
 			ArrayElementTypeCheck (L_40, L_45);
-			(L_40)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (RuntimeObject*)L_45);
+			(L_40)->SetAt(static_cast<il2cpp_array_size_t>(5), (RuntimeObject*)L_45);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_46 = L_40;
 			int32_t L_47 = V_0;
 			int32_t L_48 = L_47;
 			RuntimeObject* L_49 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_48);
+			NullCheck(L_46);
 			ArrayElementTypeCheck (L_46, L_49);
-			(L_46)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(6), (RuntimeObject*)L_49);
+			(L_46)->SetAt(static_cast<il2cpp_array_size_t>(6), (RuntimeObject*)L_49);
+			NullCheck(L_14);
 			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_14, _stringLiteral3FFA7EC73933D62D2D642F9AD18ED9069BADC649, L_46);
 			// AndroidJavaClass app = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
 			AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_50 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
+			NullCheck(L_50);
 			AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_50, _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078, NULL);
 			// AndroidJavaObject activity = app.GetStatic<AndroidJavaObject>("currentActivity");
+			NullCheck(L_50);
 			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_51;
 			L_51 = AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD(L_50, _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9, AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
 			V_1 = L_51;
@@ -28803,48 +29712,57 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC__ctor_mFBD66FAD0CBE64E
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_53 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)8);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_54 = L_53;
 			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_55 = V_1;
+			NullCheck(L_54);
 			ArrayElementTypeCheck (L_54, L_55);
-			(L_54)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_55);
+			(L_54)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_55);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_56 = L_54;
 			DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF* L_57 = __this->___callback_4;
+			NullCheck(L_56);
 			ArrayElementTypeCheck (L_56, L_57);
-			(L_56)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_57);
+			(L_56)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_57);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_58 = L_56;
 			int32_t L_59 = ((int32_t)44100);
 			RuntimeObject* L_60 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_59);
+			NullCheck(L_58);
 			ArrayElementTypeCheck (L_58, L_60);
-			(L_58)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_60);
+			(L_58)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_60);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_61 = L_58;
 			int32_t L_62;
 			L_62 = AndroidAudioInAEC_get_Channels_mDF6B03321CFD52DB584EE619A36A9E33C36C22A7(__this, NULL);
 			int32_t L_63 = L_62;
 			RuntimeObject* L_64 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_63);
+			NullCheck(L_61);
 			ArrayElementTypeCheck (L_61, L_64);
-			(L_61)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_64);
+			(L_61)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_64);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_65 = L_61;
 			int32_t L_66 = V_0;
 			int32_t L_67 = ((int32_t)il2cpp_codegen_multiply(L_66, 4));
 			RuntimeObject* L_68 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_67);
+			NullCheck(L_65);
 			ArrayElementTypeCheck (L_65, L_68);
-			(L_65)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_68);
+			(L_65)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_68);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_69 = L_65;
 			bool L_70 = ___enableAEC1;
 			bool L_71 = L_70;
 			RuntimeObject* L_72 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_71);
+			NullCheck(L_69);
 			ArrayElementTypeCheck (L_69, L_72);
-			(L_69)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (RuntimeObject*)L_72);
+			(L_69)->SetAt(static_cast<il2cpp_array_size_t>(5), (RuntimeObject*)L_72);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_73 = L_69;
 			bool L_74 = ___enableAGC2;
 			bool L_75 = L_74;
 			RuntimeObject* L_76 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_75);
+			NullCheck(L_73);
 			ArrayElementTypeCheck (L_73, L_76);
-			(L_73)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(6), (RuntimeObject*)L_76);
+			(L_73)->SetAt(static_cast<il2cpp_array_size_t>(6), (RuntimeObject*)L_76);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_77 = L_73;
 			bool L_78 = ___enableNS3;
 			bool L_79 = L_78;
 			RuntimeObject* L_80 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_79);
+			NullCheck(L_77);
 			ArrayElementTypeCheck (L_77, L_80);
-			(L_77)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(7), (RuntimeObject*)L_80);
+			(L_77)->SetAt(static_cast<il2cpp_array_size_t>(7), (RuntimeObject*)L_80);
+			NullCheck(L_52);
 			bool L_81;
 			L_81 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_52, _stringLiteral8243A16D425F93AF62CAAB2BFAE01A2D6246A5FE, L_77, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
 			V_2 = L_81;
@@ -28860,6 +29778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC__ctor_mFBD66FAD0CBE64E
 			AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_83 = __this->___audioIn_0;
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_84;
 			L_84 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_83);
 			int32_t L_85;
 			L_85 = AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC(L_83, _stringLiteralA3615893572D5538C1C4888735BDE5208EE3B4EC, L_84, AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
 			__this->___audioInSampleRate_3 = L_85;
@@ -28870,28 +29789,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC__ctor_mFBD66FAD0CBE64E
 			bool L_89 = V_2;
 			bool L_90 = L_89;
 			RuntimeObject* L_91 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_90);
+			NullCheck(L_88);
 			ArrayElementTypeCheck (L_88, L_91);
-			(L_88)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_91);
+			(L_88)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_91);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_92 = L_88;
 			int32_t L_93;
 			L_93 = AndroidAudioInAEC_get_SamplingRate_m0E1A7AFAC3536CE5B6A9DBDF51F31B02A3053441_inline(__this, NULL);
 			int32_t L_94 = L_93;
 			RuntimeObject* L_95 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_94);
+			NullCheck(L_92);
 			ArrayElementTypeCheck (L_92, L_95);
-			(L_92)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_95);
+			(L_92)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_95);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_96 = L_92;
 			int32_t L_97;
 			L_97 = AndroidAudioInAEC_get_Channels_mDF6B03321CFD52DB584EE619A36A9E33C36C22A7(__this, NULL);
 			int32_t L_98 = L_97;
 			RuntimeObject* L_99 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_98);
+			NullCheck(L_96);
 			ArrayElementTypeCheck (L_96, L_99);
-			(L_96)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_99);
+			(L_96)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_99);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_100 = L_96;
 			int32_t L_101 = V_0;
 			int32_t L_102 = ((int32_t)il2cpp_codegen_multiply(L_101, 4));
 			RuntimeObject* L_103 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_102);
+			NullCheck(L_100);
 			ArrayElementTypeCheck (L_100, L_103);
-			(L_100)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_103);
+			(L_100)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_103);
+			NullCheck(L_86);
 			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_86, _stringLiteral11DD1BE7A82C9B30BA819E6E7381C73F842B88A5, L_100);
 			goto IL_01ed_1;
 		}
@@ -28906,8 +29830,10 @@ IL_01c8_1:
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_106 = L_105;
 			String_t* L_107;
 			L_107 = AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E_inline(__this, NULL);
+			NullCheck(L_106);
 			ArrayElementTypeCheck (L_106, L_107);
-			(L_106)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_107);
+			(L_106)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_107);
+			NullCheck(L_104);
 			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_104, _stringLiteralAA98E47793C6AEE7A0C5AA0E30BF0100F8E660FC, L_106);
 		}
 
@@ -28934,6 +29860,7 @@ CATCH_01ef:
 			V_3 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 			// Error = e.ToString();
 			Exception_t* L_108 = V_3;
+			NullCheck(L_108);
 			String_t* L_109;
 			L_109 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_108);
 			AndroidAudioInAEC_set_Error_m40A288E504A1638FCC0FCB07E00181AAEF5B0831_inline(__this, L_109, NULL);
@@ -28958,8 +29885,10 @@ IL_020f:
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_113 = L_112;
 			String_t* L_114;
 			L_114 = AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E_inline(__this, NULL);
+			NullCheck(L_113);
 			ArrayElementTypeCheck (L_113, L_114);
-			(L_113)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_114);
+			(L_113)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_114);
+			NullCheck(L_111);
 			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), L_111, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAA98E47793C6AEE7A0C5AA0E30BF0100F8E660FC)), L_113);
 			// }
 			IL2CPP_POP_ACTIVE_EXCEPTION();
@@ -29006,6 +29935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC_SetCallback_mF7DBCEC92
 	{
 		// var voiceFrameSize = bufferFactory.Info;
 		RuntimeObject* L_1 = ___bufferFactory1;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* TInfo Photon.Voice.ObjectFactory`2<System.Int16[],System.Int32>::get_Info() */, ObjectFactory_2_tDFFE8338D98145A7884353008CA75786B6FCC84D_il2cpp_TypeInfo_var, L_1);
 		V_0 = L_2;
@@ -29020,9 +29950,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC_SetCallback_mF7DBCEC92
 		DataCallback_t0CC480ABF91AF168334B55860E2AA7A61272DCCF* L_6 = __this->___callback_4;
 		Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85* L_7 = ___callback0;
 		intptr_t L_8 = __this->___javaBuf_1;
+		NullCheck(L_6);
 		DataCallback_SetCallback_mE2D0FF360E4F160402CC58F4112CDE4900AFDDAC(L_6, L_7, L_8, NULL);
 		// var meth = AndroidJNI.GetMethodID(audioIn.GetRawClass(), "SetBuffer", "([S)Z");
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_9 = __this->___audioIn_0;
+		NullCheck(L_9);
 		intptr_t L_10;
 		L_10 = AndroidJavaObject_GetRawClass_mE4FB4DC4F856A52E10C6AAD0B65BEBF47B5071F5(L_9, NULL);
 		intptr_t L_11;
@@ -29030,6 +29962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC_SetCallback_mF7DBCEC92
 		V_1 = L_11;
 		// bool ok = AndroidJNI.CallBooleanMethod(audioIn.GetRawObject(), meth, new jvalue[] { new jvalue() { l = javaBuf } });
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_12 = __this->___audioIn_0;
+		NullCheck(L_12);
 		intptr_t L_13;
 		L_13 = AndroidJavaObject_GetRawObject_m536F043B5CE2C21369FF6173C9D2A9A62136BC48(L_12, NULL);
 		intptr_t L_14 = V_1;
@@ -29039,7 +29972,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC_SetCallback_mF7DBCEC92
 		intptr_t L_17 = __this->___javaBuf_1;
 		(&V_2)->___l_8 = L_17;
 		jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225 L_18 = V_2;
-		(L_16)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225)L_18);
+		NullCheck(L_16);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(0), (jvalue_t1756CE401EE222450C9AD0B98CB30E213D4A3225)L_18);
 		bool L_19;
 		L_19 = AndroidJNI_CallBooleanMethod_m78FC31B29854285F1164C75974AB463FE5716F84(L_13, L_14, L_16, NULL);
 		// if (!ok)
@@ -29070,8 +30004,10 @@ IL_0091:
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = L_22;
 		String_t* L_24;
 		L_24 = AndroidAudioInAEC_get_Error_m9D2E4CB43470DC011A568279390C5814EABD8C3E_inline(__this, NULL);
+		NullCheck(L_23);
 		ArrayElementTypeCheck (L_23, L_24);
-		(L_23)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_24);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_24);
+		NullCheck(L_21);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_21, _stringLiteralAA98E47793C6AEE7A0C5AA0E30BF0100F8E660FC, L_23);
 	}
 
@@ -29141,6 +30077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC_Reset_m417D52520850DD6
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = __this->___audioIn_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2;
 		L_2 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_1);
 		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_1, _stringLiteralA74ACAA1F61DE0EB348EC03946685B0B6270CB36, L_2, NULL);
 	}
 
@@ -29174,6 +30111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAudioInAEC_Dispose_m26843B90A3CA9
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = __this->___audioIn_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2;
 		L_2 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_1);
 		bool L_3;
 		L_3 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_1, _stringLiteral800C762D9EF92B399EC87C776239043ACEEC0717, L_2, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
 	}
@@ -29249,10 +30187,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataCallback_OnData_mC17AFFA4F2A6A685F85
 		// cntShort += buf.Length;
 		int32_t L_4 = __this->___cntShort_7;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_5 = V_0;
+		NullCheck(L_5);
 		__this->___cntShort_7 = ((int32_t)il2cpp_codegen_add(L_4, ((int32_t)(((RuntimeArray*)L_5)->max_length))));
 		// this.callback(buf);
 		Action_1_tC4532A6B52E5449E481006DE9BC9991A602DDE85* L_6 = __this->___callback_4;
 		Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB* L_7 = V_0;
+		NullCheck(L_6);
 		Action_1_Invoke_m2F2471A2A9E63C68E4B7E920DAE908770C930247_inline(L_6, L_7, NULL);
 	}
 
@@ -29344,11 +30284,14 @@ IL_000a:
 		L_1 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_2 = __this->___startTime_2;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_3 = __this->___audioClip_0;
+		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = AudioClip_get_frequency_m6647E10F4B2B1335187B0066E82468CCCF19647B(L_3, NULL);
 		// var bufferSamplesCount = buffer.Length / audioClip.channels;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = ___buffer0;
+		NullCheck(L_5);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = __this->___audioClip_0;
+		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84(L_6, NULL);
 		V_0 = ((int32_t)(((int32_t)(((RuntimeArray*)L_5)->max_length))/L_7));
@@ -29365,6 +30308,7 @@ IL_000a:
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_10 = __this->___audioClip_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_11 = ___buffer0;
 		int32_t L_12 = __this->___readPos_1;
+		NullCheck(L_10);
 		bool L_13;
 		L_13 = AudioClip_GetData_m1F6480FFDA2E354A7D8C8DE40F61AAB5AF6B4A1D(L_10, L_11, L_12, NULL);
 		// readPos += bufferSamplesCount;
@@ -29374,6 +30318,7 @@ IL_000a:
 		// if (readPos >= audioClip.samples)
 		int32_t L_16 = __this->___readPos_1;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_17 = __this->___audioClip_0;
+		NullCheck(L_17);
 		int32_t L_18;
 		L_18 = AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E(L_17, NULL);
 		if ((((int32_t)L_16) < ((int32_t)L_18)))
@@ -29424,6 +30369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClipWrapper_get_SamplingRate_m2C
 	{
 		// public int SamplingRate { get { return this.audioClip.frequency; } }
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___audioClip_0;
+		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = AudioClip_get_frequency_m6647E10F4B2B1335187B0066E82468CCCF19647B(L_0, NULL);
 		return L_1;
@@ -29435,6 +30381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClipWrapper_get_Channels_m3E9A70
 	{
 		// public int Channels { get { return this.audioClip.channels; } }
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___audioClip_0;
+		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84(L_0, NULL);
 		return L_1;
@@ -29578,6 +30525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioOutCapture_OnAudioFilterRead_m2CD58
 		Action_2_tC78B65C70619C5DA82BEEF8B33BCC3F4FAADB7DC* L_1 = __this->___OnAudioFrame_4;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = ___frame0;
 		int32_t L_3 = ___channels1;
+		NullCheck(L_1);
 		Action_2_Invoke_mFAACDA993F2EF466032FC1E7C75CCC9E5B1785AE_inline(L_1, L_2, L_3, NULL);
 	}
 
@@ -29695,6 +30643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInEnumerator_Refresh_mB786428BE117E
 		V_0 = L_0;
 		// devices = new List<DeviceInfo>();
 		List_1_t77900A23BF65F1E318159DF69366A9281EA47E72* L_1 = (List_1_t77900A23BF65F1E318159DF69366A9281EA47E72*)il2cpp_codegen_object_new(List_1_t77900A23BF65F1E318159DF69366A9281EA47E72_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
 		List_1__ctor_mD0ADD3C9B4444CE1A68731119715485F47C95CD1(L_1, List_1__ctor_mD0ADD3C9B4444CE1A68731119715485F47C95CD1_RuntimeMethod_var);
 		((DeviceEnumeratorBase_t866AFFCD3150DE40F9B463B9A40DB2EDBE4B1302*)__this)->___devices_0 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((DeviceEnumeratorBase_t866AFFCD3150DE40F9B463B9A40DB2EDBE4B1302*)__this)->___devices_0), (void*)L_1);
@@ -29708,8 +30657,9 @@ IL_0015:
 		// var d = unityDevs[i];
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = V_0;
 		int32_t L_3 = V_1;
+		NullCheck(L_2);
 		int32_t L_4 = L_3;
-		String_t* L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
+		String_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_2 = L_5;
 		// devices.Add(new DeviceInfo(d));
 		List_1_t77900A23BF65F1E318159DF69366A9281EA47E72* L_6 = ((DeviceEnumeratorBase_t866AFFCD3150DE40F9B463B9A40DB2EDBE4B1302*)__this)->___devices_0;
@@ -29717,6 +30667,7 @@ IL_0015:
 		DeviceInfo_tC91EF4D866BBBA8B68A503B620A00F15C60C2335 L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		DeviceInfo__ctor_mB1811B0A5A7C2A6AC2E267F3A60F22D1F745E859((&L_8), L_7, (DeviceFeatures_t05B3C3BD6FF064A0B655BA147B59195A5DBC3D03*)NULL, /*hidden argument*/NULL);
+		NullCheck(L_6);
 		List_1_Add_m962A69382443F2CC6EE44F78E43F721AA6641BD6_inline(L_6, L_8, List_1_Add_m962A69382443F2CC6EE44F78E43F721AA6641BD6_RuntimeMethod_var);
 		// for (int i = 0; i < unityDevs.Length; i++)
 		int32_t L_9 = V_1;
@@ -29728,6 +30679,7 @@ IL_002f:
 		// for (int i = 0; i < unityDevs.Length; i++)
 		int32_t L_10 = V_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = V_0;
+		NullCheck(L_11);
 		if ((((int32_t)L_10) < ((int32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)))))
 		{
 			goto IL_0015;
@@ -29947,24 +30899,30 @@ IL_0036_1:
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_11;
 			String_t* L_13 = ___device0;
+			NullCheck(L_12);
 			ArrayElementTypeCheck (L_12, L_13);
-			(L_12)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_13);
+			(L_12)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_13);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_12;
 			AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_15 = __this->___mic_0;
+			NullCheck(L_15);
 			int32_t L_16;
 			L_16 = AudioClip_get_frequency_m6647E10F4B2B1335187B0066E82468CCCF19647B(L_15, NULL);
 			int32_t L_17 = L_16;
 			RuntimeObject* L_18 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_17);
+			NullCheck(L_14);
 			ArrayElementTypeCheck (L_14, L_18);
-			(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_18);
+			(L_14)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_18);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_19 = L_14;
 			AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_20 = __this->___mic_0;
+			NullCheck(L_20);
 			int32_t L_21;
 			L_21 = AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84(L_20, NULL);
 			int32_t L_22 = L_21;
 			RuntimeObject* L_23 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_22);
+			NullCheck(L_19);
 			ArrayElementTypeCheck (L_19, L_23);
-			(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_23);
+			(L_19)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_23);
+			NullCheck(L_10);
 			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_10, _stringLiteral33D1772B9847C9508608BC755A82F5F59C9281F0, L_19);
 			// }
 			goto IL_00bf;
@@ -29987,6 +30945,7 @@ CATCH_0082:
 			V_1 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 			// Error = e.ToString();
 			Exception_t* L_24 = V_1;
+			NullCheck(L_24);
 			String_t* L_25;
 			L_25 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_24);
 			MicWrapper_set_Error_m51F227BF125CBDB4E19BF5253116FCDA2F83D744_inline(__this, L_25, NULL);
@@ -30013,6 +30972,7 @@ IL_00a2:
 			L_29 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4A3779FBC0B24D21010D5B514CD477AA4F1D0E04)), L_28, NULL);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_30;
 			L_30 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var)));
+			NullCheck(L_27);
 			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), L_27, L_29, L_30);
 			// }
 			IL2CPP_POP_ACTIVE_EXCEPTION();
@@ -30045,6 +31005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MicWrapper_get_SamplingRate_m8590D79C
 IL_000a:
 	{
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = __this->___mic_0;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = AudioClip_get_frequency_m6647E10F4B2B1335187B0066E82468CCCF19647B(L_1, NULL);
 		return L_2;
@@ -30069,6 +31030,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MicWrapper_get_Channels_m9EF4422CE2DF
 IL_000a:
 	{
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = __this->___mic_0;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84(L_1, NULL);
 		return L_2;
@@ -30173,12 +31135,14 @@ IL_002d:
 		// var micAbsPos = micLoopCnt * this.mic.samples + micPos;
 		int32_t L_7 = __this->___micLoopCnt_5;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_8 = __this->___mic_0;
+		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E(L_8, NULL);
 		int32_t L_10 = V_0;
 		V_1 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_7, L_9)), L_10));
 		// if (mic.channels == 0)
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_11 = __this->___mic_0;
+		NullCheck(L_11);
 		int32_t L_12;
 		L_12 = AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84(L_11, NULL);
 		if (L_12)
@@ -30197,6 +31161,7 @@ IL_002d:
 		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4A3779FBC0B24D21010D5B514CD477AA4F1D0E04, L_14, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16;
 		L_16 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_13);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_13, L_15, L_16);
 		// return false;
 		return (bool)0;
@@ -30206,7 +31171,9 @@ IL_0083:
 	{
 		// var bufferSamplesCount = buffer.Length / mic.channels;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = ___buffer0;
+		NullCheck(L_17);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_18 = __this->___mic_0;
+		NullCheck(L_18);
 		int32_t L_19;
 		L_19 = AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84(L_18, NULL);
 		V_2 = ((int32_t)(((int32_t)(((RuntimeArray*)L_17)->max_length))/L_19));
@@ -30228,8 +31195,10 @@ IL_0083:
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_25 = ___buffer0;
 		int32_t L_26 = __this->___readAbsPos_6;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_27 = __this->___mic_0;
+		NullCheck(L_27);
 		int32_t L_28;
 		L_28 = AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E(L_27, NULL);
+		NullCheck(L_24);
 		bool L_29;
 		L_29 = AudioClip_GetData_m1F6480FFDA2E354A7D8C8DE40F61AAB5AF6B4A1D(L_24, L_25, ((int32_t)(L_26%L_28)), NULL);
 		// this.readAbsPos = nextReadPos;
@@ -30359,6 +31328,7 @@ IL_0042_1:
 			L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral1CDB2BD802BFF2548A9061A0B20B8141CABAA378, L_11, NULL);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13;
 			L_13 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_10);
 			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_10, L_12, L_13);
 			// return;
 			goto IL_01e1;
@@ -30391,18 +31361,23 @@ IL_00a9_1:
 		{
 			// GameObject go = new GameObject("[PV] MicWrapperPusher: AudioSource + AudioOutCapture");
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+			NullCheck(L_19);
 			GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_19, _stringLiteral4BDCBDE4D1A8B159C5907D29215769FD82D38828, NULL);
 			V_1 = L_19;
 			// go.transform.SetParent(parent.transform, false);
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = V_1;
+			NullCheck(L_20);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
 			L_21 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_20, NULL);
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = ___parent0;
+			NullCheck(L_22);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
 			L_23 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_22, NULL);
+			NullCheck(L_21);
 			Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_21, L_23, (bool)0, NULL);
 			// this.audioSource = go.AddComponent<AudioSource>();
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = V_1;
+			NullCheck(L_24);
 			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_25;
 			L_25 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_24, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
 			__this->___audioSource_0 = L_25;
@@ -30411,9 +31386,11 @@ IL_00a9_1:
 			RuntimeObject* L_26 = ___logger3;
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_27;
 			L_27 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_26);
 			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_26, _stringLiteral70A56338E98C34BF727898C08E587D08A6C2481F, L_27);
 			// this.onRead = go.AddComponent<MicWrapperPusherOnAudioFilterRead>();
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = V_1;
+			NullCheck(L_28);
 			MicWrapperPusherOnAudioFilterRead_t588E538E586E66F547A44135F40BB49D27996141* L_29;
 			L_29 = GameObject_AddComponent_TisMicWrapperPusherOnAudioFilterRead_t588E538E586E66F547A44135F40BB49D27996141_m289DFFAC9A3FFEB5AAA16D32AC51606C869D0613(L_28, GameObject_AddComponent_TisMicWrapperPusherOnAudioFilterRead_t588E538E586E66F547A44135F40BB49D27996141_m289DFFAC9A3FFEB5AAA16D32AC51606C869D0613_RuntimeMethod_var);
 			__this->___onRead_4 = L_29;
@@ -30429,9 +31406,11 @@ IL_00a9_1:
 			// audioSource.clip = mic;
 			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_33 = __this->___audioSource_0;
 			AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_34 = __this->___mic_1;
+			NullCheck(L_33);
 			AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_33, L_34, NULL);
 			// audioSource.loop = true;
 			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_35 = __this->___audioSource_0;
+			NullCheck(L_35);
 			AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_35, (bool)1, NULL);
 			// for (var i = 0; i < 1000; i++)
 			V_4 = 0;
@@ -30485,6 +31464,7 @@ IL_013e_1:
 			RuntimeObject* L_42 = ___logger3;
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_43;
 			L_43 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+			NullCheck(L_42);
 			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(1 /* System.Void Photon.Voice.ILogger::LogWarning(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_42, _stringLiteralEF0C51E13C7F33B49DBEACBCC6479D039582C287, L_43);
 		}
 
@@ -30492,30 +31472,37 @@ IL_0158_1:
 		{
 			// this.audioSource.Play();
 			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_44 = __this->___audioSource_0;
+			NullCheck(L_44);
 			AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_44, NULL);
 			// logger.LogInfo("[PV] MicWrapperPusher: microphone '{0}' initialized, frequency = {1}, channels = {2}.", device, this.mic.frequency, this.mic.channels);
 			RuntimeObject* L_45 = ___logger3;
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_46 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_47 = L_46;
 			String_t* L_48 = ___device1;
+			NullCheck(L_47);
 			ArrayElementTypeCheck (L_47, L_48);
-			(L_47)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_48);
+			(L_47)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_48);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_49 = L_47;
 			AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_50 = __this->___mic_1;
+			NullCheck(L_50);
 			int32_t L_51;
 			L_51 = AudioClip_get_frequency_m6647E10F4B2B1335187B0066E82468CCCF19647B(L_50, NULL);
 			int32_t L_52 = L_51;
 			RuntimeObject* L_53 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_52);
+			NullCheck(L_49);
 			ArrayElementTypeCheck (L_49, L_53);
-			(L_49)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_53);
+			(L_49)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_53);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_54 = L_49;
 			AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_55 = __this->___mic_1;
+			NullCheck(L_55);
 			int32_t L_56;
 			L_56 = AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84(L_55, NULL);
 			int32_t L_57 = L_56;
 			RuntimeObject* L_58 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_57);
+			NullCheck(L_54);
 			ArrayElementTypeCheck (L_54, L_58);
-			(L_54)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_58);
+			(L_54)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_58);
+			NullCheck(L_45);
 			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_45, _stringLiteral81A15F84E86AC6DDCC6E8947479799DF53E1105C, L_54);
 			// }
 			goto IL_01e1;
@@ -30538,6 +31525,7 @@ CATCH_01a1:
 			V_5 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 			// Error = e.ToString();
 			Exception_t* L_59 = V_5;
+			NullCheck(L_59);
 			String_t* L_60;
 			L_60 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_59);
 			MicWrapperPusher_set_Error_mCC2253562EA96DE5BAA4A2494BF5B5952B701810_inline(__this, L_60, NULL);
@@ -30564,6 +31552,7 @@ IL_01c3:
 			L_64 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1CDB2BD802BFF2548A9061A0B20B8141CABAA378)), L_63, NULL);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_65;
 			L_65 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var)));
+			NullCheck(L_62);
 			InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var)), L_62, L_64, L_65);
 			// }
 			IL2CPP_POP_ACTIVE_EXCEPTION();
@@ -30591,17 +31580,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicWrapperPusher_SetCallback_mA10474D206
 	U3CU3Ec__DisplayClass8_0_tE6FFC8F9391667E36B8D9130FBAD402640FDBFB2* V_0 = NULL;
 	{
 		U3CU3Ec__DisplayClass8_0_tE6FFC8F9391667E36B8D9130FBAD402640FDBFB2* L_0 = (U3CU3Ec__DisplayClass8_0_tE6FFC8F9391667E36B8D9130FBAD402640FDBFB2*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass8_0_tE6FFC8F9391667E36B8D9130FBAD402640FDBFB2_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		U3CU3Ec__DisplayClass8_0__ctor_m542F89DBF323B59D468FDD9BB16D0E8B8F62551E(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass8_0_tE6FFC8F9391667E36B8D9130FBAD402640FDBFB2* L_1 = V_0;
 		Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3* L_2 = ___callback0;
+		NullCheck(L_1);
 		L_1->___callback_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___callback_0), (void*)L_2);
 		// onRead.OnAudioFrame += (buf, ch) => callback(buf);
 		MicWrapperPusherOnAudioFilterRead_t588E538E586E66F547A44135F40BB49D27996141* L_3 = __this->___onRead_4;
 		U3CU3Ec__DisplayClass8_0_tE6FFC8F9391667E36B8D9130FBAD402640FDBFB2* L_4 = V_0;
 		Action_2_tC78B65C70619C5DA82BEEF8B33BCC3F4FAADB7DC* L_5 = (Action_2_tC78B65C70619C5DA82BEEF8B33BCC3F4FAADB7DC*)il2cpp_codegen_object_new(Action_2_tC78B65C70619C5DA82BEEF8B33BCC3F4FAADB7DC_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
 		Action_2__ctor_m9FC593FA3F86A95622E1049877FEA95C8E14E918(L_5, L_4, (intptr_t)((void*)U3CU3Ec__DisplayClass8_0_U3CSetCallbackU3Eb__0_m2F1F774F74434D62E2B5AC8A5F467CCAB68AE3DB_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
 		MicWrapperPusherOnAudioFilterRead_add_OnAudioFrame_mE77476C88E0F58C40BE1027359DC9718C69109DB(L_3, L_5, NULL);
 		// }
 		return;
@@ -30638,6 +31631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicWrapperPusher_Dispose_m53AF8B398E2DB3
 	{
 		// GameObject.Destroy(audioSource.gameObject); // remove dynamically created object
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = __this->___audioSource_0;
+		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -30646,6 +31640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicWrapperPusher_Dispose_m53AF8B398E2DB3
 		RuntimeObject* L_5 = __this->___logger_3;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_5);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_5, _stringLiteral175F7FD2E0BD13E3AF68E27BD6EEBE1EEFA075E7, L_6);
 	}
 
@@ -30742,6 +31737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CSetCallbackU
 		// onRead.OnAudioFrame += (buf, ch) => callback(buf);
 		Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3* L_0 = __this->___callback_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ___buf0;
+		NullCheck(L_0);
 		Action_1_Invoke_mBE0A0BDCAD5FEDE1C45EA97B02BFEB89E5AA3728_inline(L_0, L_1, NULL);
 		return;
 	}
@@ -30860,7 +31856,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicWrapperPusherOnAudioFilterRead_OnAudi
 	{
 		// if (frame2.Length != frame.Length)
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = __this->___frame2_4;
+		NullCheck(L_1);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = ___frame0;
+		NullCheck(L_2);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_1)->max_length))) == ((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)))))
 		{
 			goto IL_0023;
@@ -30869,6 +31867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicWrapperPusherOnAudioFilterRead_OnAudi
 	{
 		// frame2 = new float[frame.Length];
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = ___frame0;
+		NullCheck(L_3);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_3)->max_length)));
 		__this->___frame2_4 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___frame2_4), (void*)L_4);
@@ -30880,11 +31879,13 @@ IL_0023:
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = ___frame0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = __this->___frame2_4;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = ___frame0;
+		NullCheck(L_7);
 		Array_Copy_m4233828B4E6288B6D815F539AAA38575DE627900((RuntimeArray*)L_5, (RuntimeArray*)L_6, ((int32_t)(((RuntimeArray*)L_7)->max_length)), NULL);
 		// OnAudioFrame(frame2, channels);
 		Action_2_tC78B65C70619C5DA82BEEF8B33BCC3F4FAADB7DC* L_8 = __this->___OnAudioFrame_5;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = __this->___frame2_4;
 		int32_t L_10 = ___channels1;
+		NullCheck(L_8);
 		Action_2_Invoke_mFAACDA993F2EF466032FC1E7C75CCC9E5B1785AE_inline(L_8, L_9, L_10, NULL);
 	}
 
@@ -30893,6 +31894,7 @@ IL_0044:
 		// Array.Clear(frame, 0, frame.Length);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_11 = ___frame0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_12 = ___frame0;
+		NullCheck(L_12);
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_11, 0, ((int32_t)(((RuntimeArray*)L_12)->max_length)), NULL);
 		// }
 		return;
@@ -31020,6 +32022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t UnityAudioOut_get_OutPos_mCDDEB377623
 	{
 		// override public long OutPos { get { return source.timeSamples; } }
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___source_32;
+		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = AudioSource_get_timeSamples_mF230FF8ABBD5A5250CBC487D0E0FCE286BA95B82(L_0, NULL);
 		return ((int64_t)L_1);
@@ -31037,6 +32040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAudioOut_OutCreate_mE7D65162FE8E004
 	{
 		// this.source.loop = true;
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___source_32;
+		NullCheck(L_0);
 		AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_0, (bool)1, NULL);
 		// this.clip = AudioClip.Create("UnityAudioOut", bufferSamples, channels, frequency, false);
 		int32_t L_1 = ___bufferSamples2;
@@ -31049,6 +32053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAudioOut_OutCreate_mE7D65162FE8E004
 		// this.source.clip = clip;
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = __this->___source_32;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = __this->___clip_33;
+		NullCheck(L_5);
 		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_5, L_6, NULL);
 		// }
 		return;
@@ -31060,6 +32065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAudioOut_OutStart_mA8FB5BDD2D8AB018
 	{
 		// this.source.Play();
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___source_32;
+		NullCheck(L_0);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_0, NULL);
 		// }
 		return;
@@ -31073,6 +32079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAudioOut_OutWrite_m319FBD3D41CF3A6E
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___clip_33;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ___data0;
 		int32_t L_2 = ___offsetSamples1;
+		NullCheck(L_0);
 		bool L_3;
 		L_3 = AudioClip_SetData_m7B473C614C11953D746770F4F89B44600B5A6AF3(L_0, L_1, L_2, NULL);
 		// }
@@ -31094,6 +32101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAudioOut_Stop_mA0F4F1DDAED998832458
 		AudioOutDelayControl_1_Stop_mAC8756D3B2993D7155924C9E9DD692160D111229(__this, AudioOutDelayControl_1_Stop_mAC8756D3B2993D7155924C9E9DD692160D111229_RuntimeMethod_var);
 		// this.source.Stop();
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___source_32;
+		NullCheck(L_0);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_0, NULL);
 		// if (this.source != null)
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_1 = __this->___source_32;
@@ -31108,6 +32116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAudioOut_Stop_mA0F4F1DDAED998832458
 	{
 		// this.source.clip = null;
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = __this->___source_32;
+		NullCheck(L_3);
 		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_3, (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)NULL, NULL);
 		// clip = null;
 		__this->___clip_33 = (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)NULL;
@@ -31150,6 +32159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityMicrophone_End_m7ECA62ED3E3E43BA268
 	{
 		// throw new NotImplementedException(webglIsnotSupported);
 		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_0 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
 		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA40E063A10163B34DB9F0D7280B1EF92109AEC1D)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UnityMicrophone_End_m7ECA62ED3E3E43BA268CFEA21C862EF8532A36EB_RuntimeMethod_var)));
 	}
@@ -31160,6 +32170,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityMicrophone_GetDeviceCaps_m3F18339A6
 	{
 		// throw new NotImplementedException(webglIsnotSupported);
 		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_0 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
 		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA40E063A10163B34DB9F0D7280B1EF92109AEC1D)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UnityMicrophone_GetDeviceCaps_m3F18339A6F63023F4CB82BE7834C223B65FDC7EE_RuntimeMethod_var)));
 	}
@@ -31170,6 +32181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityMicrophone_GetPosition_m8878AC07
 	{
 		// throw new NotImplementedException(webglIsnotSupported);
 		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_0 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
 		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA40E063A10163B34DB9F0D7280B1EF92109AEC1D)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UnityMicrophone_GetPosition_m8878AC0720F6428C7C9F40EE5E785D05E20F7419_RuntimeMethod_var)));
 	}
@@ -31188,6 +32200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D
 	{
 		// throw new NotImplementedException(webglIsnotSupported);
 		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_0 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
 		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA40E063A10163B34DB9F0D7280B1EF92109AEC1D)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UnityMicrophone_Start_m090FA09D48B01AD499E41C8DAAA0C291F27D2BE8_RuntimeMethod_var)));
 	}
@@ -31211,6 +32224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityMicrophone_CheckDevice_m7DE12D
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_1, _stringLiteralA40E063A10163B34DB9F0D7280B1EF92109AEC1D, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
 		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_0, L_2, L_3);
 		// frequency = 0;
 		int32_t* L_4 = ___frequency4;
@@ -31397,9 +32411,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut__ctor_mD893A60C464D6BEB
 		// private double[] listOrient = new double[] { 0, 0, -1, 0, 1, 0 }; // defaults from AudioListener API
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_1 = (DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE*)(DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE*)SZArrayNew(DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE_il2cpp_TypeInfo_var, (uint32_t)6);
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_2 = L_1;
-		(L_2)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (double)(-1.0));
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(2), (double)(-1.0));
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_3 = L_2;
-		(L_3)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (double)(1.0));
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(4), (double)(1.0));
 		__this->___listOrient_40 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___listOrient_40), (void*)L_3);
 		// private double[] pos = new double[] { 0, 0, 0 };
@@ -31483,6 +32499,7 @@ IL_00a3:
 
 IL_00a4:
 	{
+		NullCheck(G_B6_1);
 		G_B6_1->___spatialBlendDynamic_36 = (bool)G_B6_0;
 		// }
 		return;
@@ -31597,6 +32614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_OutStart_mB61B37A396304
 		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4E3A1D2DB8D20A47EBE1853A05849DD54A6DA3F0, L_14, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_16;
 		L_16 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_13);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_13, L_15, L_16);
 		return;
 	}
@@ -31610,26 +32628,31 @@ IL_0086:
 		int32_t L_20 = __this->___handle_33;
 		int32_t L_21 = L_20;
 		RuntimeObject* L_22 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_21);
+		NullCheck(L_19);
 		ArrayElementTypeCheck (L_19, L_22);
-		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_22);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_22);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = L_19;
 		int32_t L_24 = ((AudioOutDelayControl_1_t58CC345DDDB952B3337C7221D25489E0DF8AE0DE*)__this)->___frequency_5;
 		int32_t L_25 = L_24;
 		RuntimeObject* L_26 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_25);
+		NullCheck(L_23);
 		ArrayElementTypeCheck (L_23, L_26);
-		(L_23)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_26);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_26);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_27 = L_23;
 		int32_t L_28 = ((AudioOutDelayControl_1_t58CC345DDDB952B3337C7221D25489E0DF8AE0DE*)__this)->___channels_12;
 		int32_t L_29 = L_28;
 		RuntimeObject* L_30 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_29);
+		NullCheck(L_27);
 		ArrayElementTypeCheck (L_27, L_30);
-		(L_27)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_30);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_30);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_31 = L_27;
 		int32_t L_32 = ((AudioOutDelayControl_1_t58CC345DDDB952B3337C7221D25489E0DF8AE0DE*)__this)->___bufferSamples_4;
 		int32_t L_33 = L_32;
 		RuntimeObject* L_34 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_33);
+		NullCheck(L_31);
 		ArrayElementTypeCheck (L_31, L_34);
-		(L_31)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_34);
+		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_34);
+		NullCheck(L_17);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_17, _stringLiteralD2457E11FC12D0D65DF3B8FE61A40EC5059C3314, L_31);
 		// }
 		return;
@@ -31658,6 +32681,7 @@ IL_0009:
 		int32_t L_1 = __this->___handle_33;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = ___data0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = ___data0;
+		NullCheck(L_3);
 		int32_t L_4 = ___offsetSamples1;
 		WebAudioAudioOut_PhotonVoice_WebAudioAudioOut_Write_m2AC87491C1A135840EAB21EB1BE21F93F9D5816E(L_1, L_2, ((int32_t)(((RuntimeArray*)L_3)->max_length)), L_4, NULL);
 		// }
@@ -31769,8 +32793,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetListenerPosition_m3C
 		//     listPos[1] == y &&
 		//     listPos[2] == z) return;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_0 = __this->___listPos_39;
+		NullCheck(L_0);
 		int32_t L_1 = 0;
-		double L_2 = (L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1));
+		double L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
 		double L_3 = ___x0;
 		if ((!(((double)L_2) == ((double)L_3))))
 		{
@@ -31779,8 +32804,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetListenerPosition_m3C
 	}
 	{
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_4 = __this->___listPos_39;
+		NullCheck(L_4);
 		int32_t L_5 = 1;
-		double L_6 = (L_4)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		double L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		double L_7 = ___y1;
 		if ((!(((double)L_6) == ((double)L_7))))
 		{
@@ -31789,8 +32815,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetListenerPosition_m3C
 	}
 	{
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_8 = __this->___listPos_39;
+		NullCheck(L_8);
 		int32_t L_9 = 2;
-		double L_10 = (L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		double L_10 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		double L_11 = ___z2;
 		if ((!(((double)L_10) == ((double)L_11))))
 		{
@@ -31820,15 +32847,18 @@ IL_0022:
 		// listPos[0] = x;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_17 = __this->___listPos_39;
 		double L_18 = ___x0;
-		(L_17)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (double)L_18);
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(0), (double)L_18);
 		// listPos[1] = y;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_19 = __this->___listPos_39;
 		double L_20 = ___y1;
-		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (double)L_20);
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(1), (double)L_20);
 		// listPos[2] = z;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_21 = __this->___listPos_39;
 		double L_22 = ___z2;
-		(L_21)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (double)L_22);
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(2), (double)L_22);
 	}
 
 IL_004d:
@@ -31848,8 +32878,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetListenerOrientation_
 		//     listOrient[4] == uy &&
 		//     listOrient[5] == uz) return;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_0 = __this->___listOrient_40;
+		NullCheck(L_0);
 		int32_t L_1 = 0;
-		double L_2 = (L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1));
+		double L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
 		double L_3 = ___fx0;
 		if ((!(((double)L_2) == ((double)L_3))))
 		{
@@ -31858,8 +32889,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetListenerOrientation_
 	}
 	{
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_4 = __this->___listOrient_40;
+		NullCheck(L_4);
 		int32_t L_5 = 1;
-		double L_6 = (L_4)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		double L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		double L_7 = ___fy1;
 		if ((!(((double)L_6) == ((double)L_7))))
 		{
@@ -31868,8 +32900,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetListenerOrientation_
 	}
 	{
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_8 = __this->___listOrient_40;
+		NullCheck(L_8);
 		int32_t L_9 = 2;
-		double L_10 = (L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		double L_10 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		double L_11 = ___fz2;
 		if ((!(((double)L_10) == ((double)L_11))))
 		{
@@ -31878,8 +32911,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetListenerOrientation_
 	}
 	{
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_12 = __this->___listOrient_40;
+		NullCheck(L_12);
 		int32_t L_13 = 3;
-		double L_14 = (L_12)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_13));
+		double L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
 		double L_15 = ___ux3;
 		if ((!(((double)L_14) == ((double)L_15))))
 		{
@@ -31888,8 +32922,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetListenerOrientation_
 	}
 	{
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_16 = __this->___listOrient_40;
+		NullCheck(L_16);
 		int32_t L_17 = 4;
-		double L_18 = (L_16)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_17));
+		double L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
 		double L_19 = ___uy4;
 		if ((!(((double)L_18) == ((double)L_19))))
 		{
@@ -31898,8 +32933,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetListenerOrientation_
 	}
 	{
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_20 = __this->___listOrient_40;
+		NullCheck(L_20);
 		int32_t L_21 = 5;
-		double L_22 = (L_20)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_21));
+		double L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
 		double L_23 = ___uz5;
 		if ((!(((double)L_22) == ((double)L_23))))
 		{
@@ -31932,27 +32968,33 @@ IL_0046:
 		// listOrient[0] = fx;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_32 = __this->___listOrient_40;
 		double L_33 = ___fx0;
-		(L_32)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (double)L_33);
+		NullCheck(L_32);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(0), (double)L_33);
 		// listOrient[1] = fy;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_34 = __this->___listOrient_40;
 		double L_35 = ___fy1;
-		(L_34)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (double)L_35);
+		NullCheck(L_34);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(1), (double)L_35);
 		// listOrient[2] = fz;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_36 = __this->___listOrient_40;
 		double L_37 = ___fz2;
-		(L_36)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (double)L_37);
+		NullCheck(L_36);
+		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(2), (double)L_37);
 		// listOrient[3] = ux;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_38 = __this->___listOrient_40;
 		double L_39 = ___ux3;
-		(L_38)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (double)L_39);
+		NullCheck(L_38);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(3), (double)L_39);
 		// listOrient[4] = uy;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_40 = __this->___listOrient_40;
 		double L_41 = ___uy4;
-		(L_40)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(4), (double)L_41);
+		NullCheck(L_40);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(4), (double)L_41);
 		// listOrient[5] = uz;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_42 = __this->___listOrient_40;
 		double L_43 = ___uz5;
-		(L_42)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(5), (double)L_43);
+		NullCheck(L_42);
+		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(5), (double)L_43);
 	}
 
 IL_0095:
@@ -31969,8 +33011,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetPosition_m167561C33A
 		//     pos[1] == y &&
 		//     pos[2] == z) return;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_0 = __this->___pos_41;
+		NullCheck(L_0);
 		int32_t L_1 = 0;
-		double L_2 = (L_0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_1));
+		double L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
 		double L_3 = ___x0;
 		if ((!(((double)L_2) == ((double)L_3))))
 		{
@@ -31979,8 +33022,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetPosition_m167561C33A
 	}
 	{
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_4 = __this->___pos_41;
+		NullCheck(L_4);
 		int32_t L_5 = 1;
-		double L_6 = (L_4)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_5));
+		double L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		double L_7 = ___y1;
 		if ((!(((double)L_6) == ((double)L_7))))
 		{
@@ -31989,8 +33033,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioAudioOut_SetPosition_m167561C33A
 	}
 	{
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_8 = __this->___pos_41;
+		NullCheck(L_8);
 		int32_t L_9 = 2;
-		double L_10 = (L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		double L_10 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		double L_11 = ___z2;
 		if ((!(((double)L_10) == ((double)L_11))))
 		{
@@ -32020,15 +33065,18 @@ IL_0022:
 		// pos[0] = x;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_17 = __this->___pos_41;
 		double L_18 = ___x0;
-		(L_17)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (double)L_18);
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(0), (double)L_18);
 		// pos[1] = y;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_19 = __this->___pos_41;
 		double L_20 = ___y1;
-		(L_19)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (double)L_20);
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(1), (double)L_20);
 		// pos[2] = z;
 		DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* L_21 = __this->___pos_41;
 		double L_22 = ___z2;
-		(L_21)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (double)L_22);
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(2), (double)L_22);
 	}
 
 IL_004d:
@@ -33126,6 +34174,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 		V_1 = L_2;
 		int32_t L_3 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
 		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
 		{
 			goto IL_0034;
@@ -33137,7 +34186,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
 		int32_t L_7 = V_1;
 		RuntimeObject* L_8 = ___item0;
-		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
 		return;
 	}
 
@@ -33260,6 +34310,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mCF9C36A7DE08AFB2
 		V_1 = L_2;
 		int32_t L_3 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
+		NullCheck(L_4);
 		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
 		{
 			goto IL_0034;
@@ -33271,7 +34322,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mCF9C36A7DE08AFB2
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = V_0;
 		int32_t L_7 = V_1;
 		uint8_t L_8 = ___item0;
-		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7), (uint8_t)L_8);
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (uint8_t)L_8);
 		return;
 	}
 
@@ -33321,6 +34373,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m962A69382443F2CC
 		V_1 = L_2;
 		int32_t L_3 = V_1;
 		DeviceInfoU5BU5D_t9EA4E8A11991CB7926B8467200A0CFB1D9689E78* L_4 = V_0;
+		NullCheck(L_4);
 		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
 		{
 			goto IL_0034;
@@ -33332,7 +34385,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m962A69382443F2CC
 		DeviceInfoU5BU5D_t9EA4E8A11991CB7926B8467200A0CFB1D9689E78* L_6 = V_0;
 		int32_t L_7 = V_1;
 		DeviceInfo_tC91EF4D866BBBA8B68A503B620A00F15C60C2335 L_8 = ___item0;
-		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7), (DeviceInfo_tC91EF4D866BBBA8B68A503B620A00F15C60C2335)L_8);
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (DeviceInfo_tC91EF4D866BBBA8B68A503B620A00F15C60C2335)L_8);
 		return;
 	}
 

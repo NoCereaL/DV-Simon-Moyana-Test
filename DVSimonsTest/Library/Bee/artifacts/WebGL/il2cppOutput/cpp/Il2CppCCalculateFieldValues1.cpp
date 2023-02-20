@@ -36704,10 +36704,8 @@ struct MaxCharLimit_t8FDE64D9BC96107F2AF1F819930AE56C66C5292F  : public MonoBeha
 {
 	// TMPro.TMP_InputField MaxCharLimit::roomNameInputField
 	TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* ___roomNameInputField_4;
-	// UnityEngine.UI.InputField MaxCharLimit::roomNameInputFieldText
-	InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* ___roomNameInputFieldText_5;
 	// System.Int32 MaxCharLimit::charLimit
-	int32_t ___charLimit_6;
+	int32_t ___charLimit_5;
 };
 
 // Menu
@@ -47305,9 +47303,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5612[5] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5613[9] = 
 {
 	static_cast<int32_t>(offsetof(MouseLookHelper_t2B5B60FD0EFF6E9E01B4E43CDBEE487683206663, ___XSensitivity_0)),static_cast<int32_t>(offsetof(MouseLookHelper_t2B5B60FD0EFF6E9E01B4E43CDBEE487683206663, ___YSensitivity_1)),static_cast<int32_t>(offsetof(MouseLookHelper_t2B5B60FD0EFF6E9E01B4E43CDBEE487683206663, ___clampVerticalRotation_2)),static_cast<int32_t>(offsetof(MouseLookHelper_t2B5B60FD0EFF6E9E01B4E43CDBEE487683206663, ___MinimumX_3)),static_cast<int32_t>(offsetof(MouseLookHelper_t2B5B60FD0EFF6E9E01B4E43CDBEE487683206663, ___MaximumX_4)),static_cast<int32_t>(offsetof(MouseLookHelper_t2B5B60FD0EFF6E9E01B4E43CDBEE487683206663, ___smooth_5)),static_cast<int32_t>(offsetof(MouseLookHelper_t2B5B60FD0EFF6E9E01B4E43CDBEE487683206663, ___smoothTime_6)),static_cast<int32_t>(offsetof(MouseLookHelper_t2B5B60FD0EFF6E9E01B4E43CDBEE487683206663, ___m_CharacterTargetRot_7)),static_cast<int32_t>(offsetof(MouseLookHelper_t2B5B60FD0EFF6E9E01B4E43CDBEE487683206663, ___m_CameraTargetRot_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5614[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5614[2] = 
 {
-	static_cast<int32_t>(offsetof(MaxCharLimit_t8FDE64D9BC96107F2AF1F819930AE56C66C5292F, ___roomNameInputField_4)),static_cast<int32_t>(offsetof(MaxCharLimit_t8FDE64D9BC96107F2AF1F819930AE56C66C5292F, ___roomNameInputFieldText_5)),static_cast<int32_t>(offsetof(MaxCharLimit_t8FDE64D9BC96107F2AF1F819930AE56C66C5292F, ___charLimit_6)),};
+	static_cast<int32_t>(offsetof(MaxCharLimit_t8FDE64D9BC96107F2AF1F819930AE56C66C5292F, ___roomNameInputField_4)),static_cast<int32_t>(offsetof(MaxCharLimit_t8FDE64D9BC96107F2AF1F819930AE56C66C5292F, ___charLimit_5)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5615[2] = 
 {
 	static_cast<int32_t>(offsetof(Menu_t818E8DA587A0E558DE9BC83947BABC9A6FDD0C05, ___menuName_4)),static_cast<int32_t>(offsetof(Menu_t818E8DA587A0E558DE9BC83947BABC9A6FDD0C05, ___open_5)),};

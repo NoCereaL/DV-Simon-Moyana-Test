@@ -26,7 +26,10 @@ public class PlayerServerName : MonoBehaviourPun
 
     public void LookToCam()
     {
-        this.gameObject.transform.LookAt(MSKGameManager.Instance.clientPhotonView.gameObject.GetComponent<PlayerMovement>().lookPosition);
+        if (MSKGameManager.Instance.clientPhotonView != null)
+        {
+            this.gameObject.transform.LookAt(MSKGameManager.Instance.clientPhotonView.gameObject.GetComponent<PlayerMovement>().lookPosition);
+        }
     }
 
 }

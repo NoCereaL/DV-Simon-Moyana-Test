@@ -2312,6 +2312,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChannelCreationOptions__cctor_m416383118
 	{
 		// public static ChannelCreationOptions Default = new ChannelCreationOptions();
 		ChannelCreationOptions_t1E18095B0781273EBFDE7DA6DCA16B7912E9E270* L_0 = (ChannelCreationOptions_t1E18095B0781273EBFDE7DA6DCA16B7912E9E270*)il2cpp_codegen_object_new(ChannelCreationOptions_t1E18095B0781273EBFDE7DA6DCA16B7912E9E270_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		ChannelCreationOptions__ctor_m1F62AA7111622F40FE14CCEB29A87991754DD694(L_0, NULL);
 		((ChannelCreationOptions_t1E18095B0781273EBFDE7DA6DCA16B7912E9E270_StaticFields*)il2cpp_codegen_static_fields_for(ChannelCreationOptions_t1E18095B0781273EBFDE7DA6DCA16B7912E9E270_il2cpp_TypeInfo_var))->___Default_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((ChannelCreationOptions_t1E18095B0781273EBFDE7DA6DCA16B7912E9E270_StaticFields*)il2cpp_codegen_static_fields_for(ChannelCreationOptions_t1E18095B0781273EBFDE7DA6DCA16B7912E9E270_il2cpp_TypeInfo_var))->___Default_0), (void*)L_0);
@@ -2404,6 +2405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ChatChannel_get_MessageCount_m397FEA0
 	{
 		// public int MessageCount { get { return this.Messages.Count; } }
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->___Messages_2;
+		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_0, List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_RuntimeMethod_var);
 		return L_1;
@@ -2483,16 +2485,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatChannel__ctor_m0C6E9FBE4AC69157786CA
 	{
 		// public readonly List<string> Senders = new List<string>();
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		__this->___Senders_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Senders_1), (void*)L_0);
 		// public readonly List<object> Messages = new List<object>();
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
 		List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690(L_1, List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_RuntimeMethod_var);
 		__this->___Messages_2 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Messages_2), (void*)L_1);
 		// public readonly HashSet<string> Subscribers = new HashSet<string>();
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_2 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_2, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
 		__this->___Subscribers_10 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Subscribers_10), (void*)L_2);
@@ -2520,10 +2525,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatChannel_Add_m22E0343342399B1C9130CCD
 		// this.Senders.Add(sender);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___Senders_1;
 		String_t* L_1 = ___sender0;
+		NullCheck(L_0);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_0, L_1, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		// this.Messages.Add(message);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_2 = __this->___Messages_2;
 		RuntimeObject* L_3 = ___message1;
+		NullCheck(L_2);
 		List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_inline(L_2, L_3, List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_RuntimeMethod_var);
 		// this.LastMsgId = msgId;
 		int32_t L_4 = ___msgId2;
@@ -2548,10 +2555,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatChannel_Add_m3906378A35460170D741856
 		// this.Senders.AddRange(senders);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___Senders_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___senders0;
+		NullCheck(L_0);
 		List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E(L_0, (RuntimeObject*)L_1, List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E_RuntimeMethod_var);
 		// this.Messages.AddRange(messages);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_2 = __this->___Messages_2;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = ___messages1;
+		NullCheck(L_2);
 		List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17(L_2, (RuntimeObject*)L_3, List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_RuntimeMethod_var);
 		// this.LastMsgId = lastMsgId;
 		int32_t L_4 = ___lastMsgId2;
@@ -2584,6 +2593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatChannel_TruncateMessages_mFB6B287B95
 	}
 	{
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = __this->___Messages_2;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_1, List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_RuntimeMethod_var);
 		int32_t L_3 = __this->___MessageLimit_3;
@@ -2603,6 +2613,7 @@ IL_001d:
 	{
 		// int excessCount = this.Messages.Count - this.MessageLimit;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_4 = __this->___Messages_2;
+		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_4, List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_RuntimeMethod_var);
 		int32_t L_6 = __this->___MessageLimit_3;
@@ -2610,10 +2621,12 @@ IL_001d:
 		// this.Senders.RemoveRange(0, excessCount);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_7 = __this->___Senders_1;
 		int32_t L_8 = V_0;
+		NullCheck(L_7);
 		List_1_RemoveRange_m33A351ADA40CDA64143F349FACB5993E95C41C7A(L_7, 0, L_8, List_1_RemoveRange_m33A351ADA40CDA64143F349FACB5993E95C41C7A_RuntimeMethod_var);
 		// this.Messages.RemoveRange(0, excessCount);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_9 = __this->___Messages_2;
 		int32_t L_10 = V_0;
+		NullCheck(L_9);
 		List_1_RemoveRange_m0D2A25C95EFDC6E9CD22B663D9633426B51E3699(L_9, 0, L_10, List_1_RemoveRange_m0D2A25C95EFDC6E9CD22B663D9633426B51E3699_RuntimeMethod_var);
 		// }
 		return;
@@ -2632,9 +2645,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatChannel_ClearMessages_m046EA236CDD96
 	{
 		// this.Senders.Clear();
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___Senders_1;
+		NullCheck(L_0);
 		List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_inline(L_0, List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_RuntimeMethod_var);
 		// this.Messages.Clear();
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = __this->___Messages_2;
+		NullCheck(L_1);
 		List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_inline(L_1, List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_RuntimeMethod_var);
 		// }
 		return;
@@ -2658,6 +2673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChatChannel_ToStringMessages_mB286B
 	{
 		// StringBuilder txt = new StringBuilder();
 		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_0, NULL);
 		V_0 = L_0;
 		// for (int i = 0; i < this.Messages.Count; i++)
@@ -2671,14 +2687,17 @@ IL_000a:
 		StringBuilder_t* L_1 = V_0;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = __this->___Senders_1;
 		int32_t L_3 = V_1;
+		NullCheck(L_2);
 		String_t* L_4;
 		L_4 = List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8(L_2, L_3, List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_5 = __this->___Messages_2;
 		int32_t L_6 = V_1;
+		NullCheck(L_5);
 		RuntimeObject* L_7;
 		L_7 = List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38(L_5, L_6, List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_RuntimeMethod_var);
 		String_t* L_8;
 		L_8 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralA3C48F920CA03FE8BCEF33375645725C40BA7ADD, L_4, L_7, NULL);
+		NullCheck(L_1);
 		StringBuilder_t* L_9;
 		L_9 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_1, L_8, NULL);
 		// for (int i = 0; i < this.Messages.Count; i++)
@@ -2691,6 +2710,7 @@ IL_0037:
 		// for (int i = 0; i < this.Messages.Count; i++)
 		int32_t L_11 = V_1;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_12 = __this->___Messages_2;
+		NullCheck(L_12);
 		int32_t L_13;
 		L_13 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_12, List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_RuntimeMethod_var);
 		if ((((int32_t)L_11) < ((int32_t)L_13)))
@@ -2701,6 +2721,7 @@ IL_0037:
 	{
 		// return txt.ToString();
 		StringBuilder_t* L_14 = V_0;
+		NullCheck(L_14);
 		String_t* L_15;
 		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_14);
 		return L_15;
@@ -2744,6 +2765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatChannel_ReadChannelProperties_m8A24F
 	}
 	{
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_1 = ___newProperties0;
+		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549(L_1, Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549_RuntimeMethod_var);
 		if ((((int32_t)L_2) <= ((int32_t)0)))
@@ -2762,9 +2784,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatChannel_ReadChannelProperties_m8A24F
 	{
 		// this.properties = new Dictionary<object, object>(newProperties.Count);
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_4 = ___newProperties0;
+		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549(L_4, Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549_RuntimeMethod_var);
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_6 = (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA*)il2cpp_codegen_object_new(Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
 		Dictionary_2__ctor_mF225F49F6BE54C39563CECD7C693F0AE4F0530E8(L_6, L_5, Dictionary_2__ctor_mF225F49F6BE54C39563CECD7C693F0AE4F0530E8_RuntimeMethod_var);
 		__this->___properties_7 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___properties_7), (void*)L_6);
@@ -2774,6 +2798,7 @@ IL_002b:
 	{
 		// foreach (var pair in newProperties)
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_7 = ___newProperties0;
+		NullCheck(L_7);
 		Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 L_8;
 		L_8 = Dictionary_2_GetEnumerator_m52AB12790B0B9B46B1DFB1F861C9DBEAB07C1FDA(L_7, Dictionary_2_GetEnumerator_m52AB12790B0B9B46B1DFB1F861C9DBEAB07C1FDA_RuntimeMethod_var);
 		V_1 = L_8;
@@ -2813,6 +2838,7 @@ IL_0034_1:
 				Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_11 = __this->___properties_7;
 				RuntimeObject* L_12;
 				L_12 = KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_inline((&V_2), KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_RuntimeMethod_var);
+				NullCheck(L_11);
 				bool L_13;
 				L_13 = Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86(L_11, L_12, Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_RuntimeMethod_var);
 				goto IL_0073_1;
@@ -2826,6 +2852,7 @@ IL_005a_1:
 				L_15 = KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_inline((&V_2), KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_RuntimeMethod_var);
 				RuntimeObject* L_16;
 				L_16 = KeyValuePair_2_get_Value_mC6BD8075F9C9DDEF7B4D731E5C38EC19103988E7_inline((&V_2), KeyValuePair_2_get_Value_mC6BD8075F9C9DDEF7B4D731E5C38EC19103988E7_RuntimeMethod_var);
+				NullCheck(L_14);
 				Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD(L_14, L_15, L_16, Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_RuntimeMethod_var);
 			}
 
@@ -2855,6 +2882,7 @@ IL_008c:
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_18 = __this->___properties_7;
 		uint8_t L_19 = ((uint8_t)((int32_t)254));
 		RuntimeObject* L_20 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_19);
+		NullCheck(L_18);
 		bool L_21;
 		L_21 = Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849(L_18, L_20, (&V_0), Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_RuntimeMethod_var);
 		if (!L_21)
@@ -2874,6 +2902,7 @@ IL_00b1:
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_23 = __this->___properties_7;
 		uint8_t L_24 = ((uint8_t)((int32_t)255));
 		RuntimeObject* L_25 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_24);
+		NullCheck(L_23);
 		bool L_26;
 		L_26 = Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849(L_23, L_25, (&V_0), Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_RuntimeMethod_var);
 		if (!L_26)
@@ -2932,8 +2961,10 @@ IL_000b:
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_1 = __this->___Subscribers_10;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___users0;
 		int32_t L_3 = V_1;
+		NullCheck(L_2);
 		int32_t L_4 = L_3;
-		String_t* L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
+		String_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		NullCheck(L_1);
 		bool L_6;
 		L_6 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_1, L_5, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
 		if (L_6)
@@ -2958,6 +2989,7 @@ IL_0021:
 		// for (int i = 0; i < users.Length; i++)
 		int32_t L_8 = V_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = ___users0;
+		NullCheck(L_9);
 		if ((((int32_t)L_8) < ((int32_t)((int32_t)(((RuntimeArray*)L_9)->max_length)))))
 		{
 			goto IL_000b;
@@ -2982,6 +3014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatChannel_AddSubscriber_m99C1D8A453B5D
 		// return this.Subscribers.Add(userId);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = __this->___Subscribers_10;
 		String_t* L_1 = ___userId0;
+		NullCheck(L_0);
 		bool L_2;
 		L_2 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_0, L_1, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
 		return L_2;
@@ -3009,6 +3042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatChannel_RemoveSubscriber_m77F6089D6E
 		// this.usersProperties.Remove(userId);
 		Dictionary_2_t491A326E784F135D7D3DEEA1DBB454F3B03579EF* L_1 = __this->___usersProperties_11;
 		String_t* L_2 = ___userId0;
+		NullCheck(L_1);
 		bool L_3;
 		L_3 = Dictionary_2_Remove_mC30F8F7F52EA919AF68674E1E568E853EA47A078(L_1, L_2, Dictionary_2_Remove_mC30F8F7F52EA919AF68674E1E568E853EA47A078_RuntimeMethod_var);
 	}
@@ -3018,6 +3052,7 @@ IL_0015:
 		// return this.Subscribers.Remove(userId);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_4 = __this->___Subscribers_10;
 		String_t* L_5 = ___userId0;
+		NullCheck(L_4);
 		bool L_6;
 		L_6 = HashSet_1_Remove_m97303C08928AB7A9364E7908F34670D92348D9DA(L_4, L_5, HashSet_1_Remove_m97303C08928AB7A9364E7908F34670D92348D9DA_RuntimeMethod_var);
 		return L_6;
@@ -3194,6 +3229,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_CanChatInChannel_mB8F68786A04
 	{
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_1 = __this->___PublicChannels_15;
 		String_t* L_2 = ___channelName0;
+		NullCheck(L_1);
 		bool L_3;
 		L_3 = Dictionary_2_ContainsKey_m43998BB50D68FD0B18E4445DED51EE80D6EF1643(L_1, L_2, Dictionary_2_ContainsKey_m43998BB50D68FD0B18E4445DED51EE80D6EF1643_RuntimeMethod_var);
 		if (!L_3)
@@ -3204,6 +3240,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_CanChatInChannel_mB8F68786A04
 	{
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_4 = __this->___PublicChannelsUnsubscribing_17;
 		String_t* L_5 = ___channelName0;
+		NullCheck(L_4);
 		bool L_6;
 		L_6 = HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853(L_4, L_5, HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853_RuntimeMethod_var);
 		return (bool)((((int32_t)L_6) == ((int32_t)0))? 1 : 0);
@@ -3303,6 +3340,7 @@ IL_000a:
 	{
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_1;
 		L_1 = ChatClient_get_AuthValues_mC9F4405E66924D1BA21DEDE10848199C24915476_inline(__this, NULL);
+		NullCheck(L_1);
 		String_t* L_2;
 		L_2 = AuthenticationValues_get_UserId_m61CDE1031F42330B0EDC0EC489A75E46E1DB6B79_inline(L_1, NULL);
 		return L_2;
@@ -3329,6 +3367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_set_UserId_m5B177DA1889900F53
 	{
 		// this.AuthValues = new AuthenticationValues();
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_1 = (AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C*)il2cpp_codegen_object_new(AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
 		AuthenticationValues__ctor_m0EC34240479292C7E3D292072C7AE92D1CEA7C60(L_1, NULL);
 		ChatClient_set_AuthValues_mAAD43D4212103C80D1377FA04B33815397E28937_inline(__this, L_1, NULL);
 	}
@@ -3339,6 +3378,7 @@ IL_0013:
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_2;
 		L_2 = ChatClient_get_AuthValues_mC9F4405E66924D1BA21DEDE10848199C24915476_inline(__this, NULL);
 		String_t* L_3 = ___value0;
+		NullCheck(L_2);
 		AuthenticationValues_set_UserId_mEA1F6C71D108FD9915143893DDFDDDECE936B0D0_inline(L_2, L_3, NULL);
 		// }
 		return;
@@ -3369,6 +3409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ChatClient_get_TransportProtocol_mA8A
 	{
 		// get { return this.chatPeer.TransportProtocol; }
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_0 = __this->___chatPeer_19;
+		NullCheck(L_0);
 		uint8_t L_1;
 		L_1 = PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline(L_0, NULL);
 		return L_1;
@@ -3408,6 +3449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_set_TransportProtocol_m21D6C2
 	}
 	{
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_1 = __this->___chatPeer_19;
+		NullCheck(L_1);
 		uint8_t L_2;
 		L_2 = PhotonPeer_get_PeerState_mFE3E3AA3BB9531F98BD274F0AAC83BDF44FCBEEC(L_1, NULL);
 		if (!L_2)
@@ -3443,6 +3485,7 @@ IL_0015:
 IL_0030:
 	{
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_5 = __this->___chatPeer_19;
+		NullCheck(L_5);
 		uint8_t L_6;
 		L_6 = PhotonPeer_get_PeerState_mFE3E3AA3BB9531F98BD274F0AAC83BDF44FCBEEC(L_5, NULL);
 		V_0 = L_6;
@@ -3461,6 +3504,7 @@ IL_0053:
 	{
 		String_t* L_10;
 		L_10 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B5_1, G_B5_0, NULL);
+		NullCheck(G_B5_3);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, G_B5_3, G_B5_2, L_10);
 		// return;
 		return;
@@ -3471,6 +3515,7 @@ IL_005e:
 		// this.chatPeer.TransportProtocol = value;
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_11 = __this->___chatPeer_19;
 		uint8_t L_12 = ___value0;
+		NullCheck(L_11);
 		PhotonPeer_set_TransportProtocol_mAF4EE9345BAC9F2E8540CE79F8A791BD3E13014C_inline(L_11, L_12, NULL);
 		// }
 		return;
@@ -3482,6 +3527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_tAD182111317FFA6F3D46F2A5D89115A
 	{
 		// get { return this.chatPeer.SocketImplementationConfig; }
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_0 = __this->___chatPeer_19;
+		NullCheck(L_0);
 		Dictionary_2_tAD182111317FFA6F3D46F2A5D89115A1E112F989* L_1 = ((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)L_0)->___SocketImplementationConfig_18;
 		return L_1;
 	}
@@ -3519,24 +3565,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient__ctor_m5C32CB0A0CAC33E980D4C6
 		// this.chatPeer = new ChatPeer(this, protocol);
 		uint8_t L_1 = ___protocol1;
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_2 = (ChatPeer_t216E56C8D1791380415477470013A3787DF76D43*)il2cpp_codegen_object_new(ChatPeer_t216E56C8D1791380415477470013A3787DF76D43_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		ChatPeer__ctor_mA7BE40BE95B917104BCECEA560E5A314855FC3B0(L_2, __this, L_1, NULL);
 		__this->___chatPeer_19 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___chatPeer_19), (void*)L_2);
 		// this.chatPeer.SerializationProtocolType = SerializationProtocol.GpBinaryV18;
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_3 = __this->___chatPeer_19;
+		NullCheck(L_3);
 		PhotonPeer_set_SerializationProtocolType_m3A949C39212B0109744721F7CEFC122C6C4C573B_inline(L_3, 1, NULL);
 		// this.PublicChannels = new Dictionary<string, ChatChannel>();
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_4 = (Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E*)il2cpp_codegen_object_new(Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
 		Dictionary_2__ctor_m591E5A5F5686795BB4C305786E306F2600964177(L_4, Dictionary_2__ctor_m591E5A5F5686795BB4C305786E306F2600964177_RuntimeMethod_var);
 		__this->___PublicChannels_15 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___PublicChannels_15), (void*)L_4);
 		// this.PrivateChannels = new Dictionary<string, ChatChannel>();
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_5 = (Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E*)il2cpp_codegen_object_new(Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
 		Dictionary_2__ctor_m591E5A5F5686795BB4C305786E306F2600964177(L_5, Dictionary_2__ctor_m591E5A5F5686795BB4C305786E306F2600964177_RuntimeMethod_var);
 		__this->___PrivateChannels_16 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___PrivateChannels_16), (void*)L_5);
 		// this.PublicChannelsUnsubscribing = new HashSet<string>();
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_6 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
 		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_6, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
 		__this->___PublicChannelsUnsubscribing_17 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___PublicChannelsUnsubscribing_17), (void*)L_6);
@@ -3565,6 +3616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_ConnectUsingSettings_m3DCD03E
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "ConnectUsingSettings failed. The appSettings can't be null.'");
 		RuntimeObject* L_1 = __this->___listener_18;
+		NullCheck(L_1);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_1, 1, _stringLiteral3BAD168215B6409DFD378F9C0FBE1D56E09E7BB9);
 		// return false;
 		return (bool)0;
@@ -3574,6 +3626,7 @@ IL_0016:
 	{
 		// if (!string.IsNullOrEmpty(appSettings.FixedRegion))
 		ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689* L_2 = ___appSettings0;
+		NullCheck(L_2);
 		String_t* L_3 = L_2->___FixedRegion_2;
 		bool L_4;
 		L_4 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_3, NULL);
@@ -3585,6 +3638,7 @@ IL_0016:
 	{
 		// this.ChatRegion = appSettings.FixedRegion;
 		ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689* L_5 = ___appSettings0;
+		NullCheck(L_5);
 		String_t* L_6 = L_5->___FixedRegion_2;
 		ChatClient_set_ChatRegion_m9B16E563441406C92D0E6C323C05E32BAD465F06_inline(__this, L_6, NULL);
 	}
@@ -3593,18 +3647,22 @@ IL_002f:
 	{
 		// this.DebugOut = appSettings.NetworkLogging;
 		ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689* L_7 = ___appSettings0;
+		NullCheck(L_7);
 		uint8_t L_8 = L_7->___NetworkLogging_8;
 		ChatClient_set_DebugOut_m742DBBA5A5D1910991A3932A362A584D43E6402A(__this, L_8, NULL);
 		// this.TransportProtocol = appSettings.Protocol;
 		ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689* L_9 = ___appSettings0;
+		NullCheck(L_9);
 		uint8_t L_10 = L_9->___Protocol_6;
 		ChatClient_set_TransportProtocol_m21D6C23D1B7EE7C8C4C71C5D5FBCB4FDBB58DD23(__this, L_10, NULL);
 		// this.EnableProtocolFallback = appSettings.EnableProtocolFallback;
 		ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689* L_11 = ___appSettings0;
+		NullCheck(L_11);
 		bool L_12 = L_11->___EnableProtocolFallback_7;
 		ChatClient_set_EnableProtocolFallback_m2E863E03B55E3C1EB600C58EB56EDCF86EE89D14_inline(__this, L_12, NULL);
 		// if (!appSettings.IsDefaultNameServer)
 		ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689* L_13 = ___appSettings0;
+		NullCheck(L_13);
 		bool L_14;
 		L_14 = ChatAppSettings_get_IsDefaultNameServer_m7847F68B2E3DCF7D3DC72481DDCBB048D0EFC050(L_13, NULL);
 		if (L_14)
@@ -3616,13 +3674,17 @@ IL_002f:
 		// this.chatPeer.NameServerHost = appSettings.Server;
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_15 = __this->___chatPeer_19;
 		ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689* L_16 = ___appSettings0;
+		NullCheck(L_16);
 		String_t* L_17 = L_16->___Server_3;
+		NullCheck(L_15);
 		L_15->___NameServerHost_62 = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&L_15->___NameServerHost_62), (void*)L_17);
 		// this.chatPeer.NameServerPortOverride = appSettings.Port;
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_18 = __this->___chatPeer_19;
 		ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689* L_19 = ___appSettings0;
+		NullCheck(L_19);
 		uint16_t L_20 = L_19->___Port_4;
+		NullCheck(L_18);
 		L_18->___NameServerPortOverride_64 = L_20;
 	}
 
@@ -3630,13 +3692,16 @@ IL_007d:
 	{
 		// this.ProxyServerAddress = appSettings.ProxyServer;
 		ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689* L_21 = ___appSettings0;
+		NullCheck(L_21);
 		String_t* L_22 = L_21->___ProxyServer_5;
 		__this->___ProxyServerAddress_7 = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ProxyServerAddress_7), (void*)L_22);
 		// return this.Connect(appSettings.AppIdChat, appSettings.AppVersion, this.AuthValues);
 		ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689* L_23 = ___appSettings0;
+		NullCheck(L_23);
 		String_t* L_24 = L_23->___AppIdChat_0;
 		ChatAppSettings_tF76C214B6AA76ACABCEFC447A2CEC798F2B8C689* L_25 = ___appSettings0;
+		NullCheck(L_25);
 		String_t* L_26 = L_25->___AppVersion_1;
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_27;
 		L_27 = ChatClient_get_AuthValues_mC9F4405E66924D1BA21DEDE10848199C24915476_inline(__this, NULL);
@@ -3669,6 +3734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_Connect_m1733B76CCE95AFB18699
 	{
 		// this.chatPeer.TimePingInterval = 3000;
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_0 = __this->___chatPeer_19;
+		NullCheck(L_0);
 		((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)L_0)->___TimePingInterval_37 = ((int32_t)3000);
 		// this.DisconnectedCause = ChatDisconnectCause.None;
 		ChatClient_set_DisconnectedCause_m59B65942F46DE9360B0718B48DCC1AF2A5175E90_inline(__this, 0, NULL);
@@ -3697,18 +3763,23 @@ IL_0021:
 		__this->___didAuthenticate_21 = (bool)0;
 		// this.chatPeer.QuickResendAttempts = 2;
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_5 = __this->___chatPeer_19;
+		NullCheck(L_5);
 		PhotonPeer_set_QuickResendAttempts_m51EB0627F94F2B9320D0845DF8A602DF08BFB2FB(L_5, (uint8_t)2, NULL);
 		// this.chatPeer.SentCountAllowance = 7;
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_6 = __this->___chatPeer_19;
+		NullCheck(L_6);
 		((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)L_6)->___SentCountAllowance_35 = 7;
 		// this.PublicChannels.Clear();
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_7 = __this->___PublicChannels_15;
+		NullCheck(L_7);
 		Dictionary_2_Clear_m67FCF37A9346FA007FF9A80658C31E309E6BFB74(L_7, Dictionary_2_Clear_m67FCF37A9346FA007FF9A80658C31E309E6BFB74_RuntimeMethod_var);
 		// this.PrivateChannels.Clear();
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_8 = __this->___PrivateChannels_16;
+		NullCheck(L_8);
 		Dictionary_2_Clear_m67FCF37A9346FA007FF9A80658C31E309E6BFB74(L_8, Dictionary_2_Clear_m67FCF37A9346FA007FF9A80658C31E309E6BFB74_RuntimeMethod_var);
 		// this.PublicChannelsUnsubscribing.Clear();
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_9 = __this->___PublicChannelsUnsubscribing_17;
+		NullCheck(L_9);
 		HashSet_1_Clear_m0181AAD373CCA0B6C26FE43A802121B3C0DE5F90(L_9, HashSet_1_Clear_m0181AAD373CCA0B6C26FE43A802121B3C0DE5F90_RuntimeMethod_var);
 		// if (this.TransportProtocol == ConnectionProtocol.Tcp || this.TransportProtocol == ConnectionProtocol.Udp)
 		uint8_t L_10;
@@ -3731,6 +3802,7 @@ IL_0080:
 	{
 		// this.listener.DebugReturn(DebugLevel.WARNING, "WebGL requires WebSockets. Switching TransportProtocol to WebSocketSecure.");
 		RuntimeObject* L_12 = __this->___listener_18;
+		NullCheck(L_12);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_12, 2, _stringLiteralCA95F4BEB64A322209E2124DA276E04A8779F727);
 		// this.TransportProtocol = ConnectionProtocol.WebSocketSecure;
 		ChatClient_set_TransportProtocol_m21D6C23D1B7EE7C8C4C71C5D5FBCB4FDBB58DD23(__this, 5, NULL);
@@ -3740,6 +3812,7 @@ IL_0098:
 	{
 		// this.NameServerAddress = this.chatPeer.NameServerAddress;
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_13 = __this->___chatPeer_19;
+		NullCheck(L_13);
 		String_t* L_14;
 		L_14 = ChatPeer_get_NameServerAddress_m34FD6CEB0A89DF565D492EB7ED3E12CDC17A9797(L_13, NULL);
 		ChatClient_set_NameServerAddress_m151DD2A6FF91AAA0F9651E73E2B10BAC5AAC398E_inline(__this, L_14, NULL);
@@ -3748,6 +3821,7 @@ IL_0098:
 		String_t* L_16;
 		L_16 = ChatClient_get_NameServerAddress_mCAE58820E4D0221517E68E9C7B97FE9CACAE8744_inline(__this, NULL);
 		String_t* L_17 = __this->___ProxyServerAddress_7;
+		NullCheck(L_15);
 		bool L_18;
 		L_18 = VirtualFuncInvoker5< bool, String_t*, String_t*, String_t*, RuntimeObject*, RuntimeObject* >::Invoke(7 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::Connect(System.String,System.String,System.String,System.Object,System.Object) */, L_15, L_16, L_17, _stringLiteral84F3409D006A485853CE590C6F1C4AA00ABCA26F, NULL, NULL);
 		// if (isConnecting)
@@ -3780,6 +3854,7 @@ IL_00d1:
 	{
 		// SupportClass.StartBackgroundCalls(this.SendOutgoingInBackground, this.msDeltaForServiceCalls, "ChatClient Service Thread");
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_21 = (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*)il2cpp_codegen_object_new(Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457_il2cpp_TypeInfo_var);
+		NullCheck(L_21);
 		Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22(L_21, __this, (intptr_t)((void*)ChatClient_SendOutgoingInBackground_m5639D30394C3AEAAF72AA718874BF90ABB1D35B2_RuntimeMethod_var), NULL);
 		int32_t L_22 = __this->___msDeltaForServiceCalls_24;
 		il2cpp_codegen_runtime_class_init_inline(SupportClass_t32D0DFFDDE8571589E7CEE5BEA6955AD56E8D4A7_il2cpp_TypeInfo_var);
@@ -3839,6 +3914,7 @@ IL_0000:
 	}
 	{
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_1 = __this->___chatPeer_19;
+		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(14 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::DispatchIncomingCommands() */, L_1);
 		if (L_2)
@@ -3896,6 +3972,7 @@ IL_0044:
 	}
 	{
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_10 = __this->___chatPeer_19;
+		NullCheck(L_10);
 		bool L_11;
 		L_11 = VirtualFuncInvoker0< bool >::Invoke(12 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOutgoingCommands() */, L_10);
 		if (L_11)
@@ -3926,6 +4003,7 @@ IL_0000:
 	}
 	{
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_1 = __this->___chatPeer_19;
+		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(12 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOutgoingCommands() */, L_1);
 		if (L_2)
@@ -3957,6 +4035,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_SendAcksOnly_m28C6305565EFD80
 	{
 		// if (this.HasPeer) this.chatPeer.SendAcksOnly();
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_1 = __this->___chatPeer_19;
+		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(13 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendAcksOnly() */, L_1);
 	}
@@ -3981,6 +4060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_Disconnect_m678FDF44265FD926B
 	}
 	{
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_1 = __this->___chatPeer_19;
+		NullCheck(L_1);
 		uint8_t L_2;
 		L_2 = PhotonPeer_get_PeerState_mFE3E3AA3BB9531F98BD274F0AAC83BDF44FCBEEC(L_1, NULL);
 		if (!L_2)
@@ -3996,6 +4076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_Disconnect_m678FDF44265FD926B
 		ChatClient_set_DisconnectedCause_m59B65942F46DE9360B0718B48DCC1AF2A5175E90_inline(__this, L_3, NULL);
 		// this.chatPeer.Disconnect();
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_4 = __this->___chatPeer_19;
+		NullCheck(L_4);
 		VirtualActionInvoker0::Invoke(8 /* System.Void ExitGames.Client.Photon.PhotonPeer::Disconnect() */, L_4);
 	}
 
@@ -4020,6 +4101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_StopThread_mDE8EC6DC08826F84C
 	{
 		// this.chatPeer.StopThread();
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_1 = __this->___chatPeer_19;
+		NullCheck(L_1);
 		VirtualActionInvoker0::Invoke(9 /* System.Void ExitGames.Client.Photon.PhotonPeer::StopThread() */, L_1);
 	}
 
@@ -4081,6 +4163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_Subscribe_mB3CCAE652E721F860D
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "Subscribe called while not connected to front end server.");
 		RuntimeObject* L_2 = __this->___listener_18;
+		NullCheck(L_2);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_2, 1, _stringLiteral32ED8AFB67F5C8CAB439735AE376C0A3A92B5785);
 	}
 
@@ -4101,6 +4184,7 @@ IL_0024:
 	}
 	{
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___channels0;
+		NullCheck(L_4);
 		if ((((RuntimeArray*)L_4)->max_length))
 		{
 			goto IL_0047;
@@ -4120,6 +4204,7 @@ IL_002b:
 	{
 		// this.listener.DebugReturn(DebugLevel.WARNING, "Subscribe can't be called for empty or null channels-list.");
 		RuntimeObject* L_6 = __this->___listener_18;
+		NullCheck(L_6);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_6, 2, _stringLiteral2443176A6E60D62ADAED633DBC0B0319623F9628);
 	}
 
@@ -4141,8 +4226,9 @@ IL_004b:
 		// if (string.IsNullOrEmpty(channels[i]))
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = ___channels0;
 		int32_t L_8 = V_1;
+		NullCheck(L_7);
 		int32_t L_9 = L_8;
-		String_t* L_10 = (L_7)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_9));
+		String_t* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		bool L_11;
 		L_11 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_10, NULL);
 		if (!L_11)
@@ -4167,6 +4253,7 @@ IL_004b:
 		RuntimeObject* L_16 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_15);
 		String_t* L_17;
 		L_17 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralE699C4CC364949CA52ACF808CE9CD98DA290FDF5, L_16, NULL);
+		NullCheck(L_13);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_13, 1, L_17);
 	}
 
@@ -4188,6 +4275,7 @@ IL_0080:
 		// for (int i = 0; i < channels.Length; i++)
 		int32_t L_19 = V_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = ___channels0;
+		NullCheck(L_20);
 		if ((((int32_t)L_19) < ((int32_t)((int32_t)(((RuntimeArray*)L_20)->max_length)))))
 		{
 			goto IL_004b;
@@ -4203,7 +4291,9 @@ IL_0080:
 	}
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_22 = ___lastMsgIds1;
+		NullCheck(L_22);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = ___channels0;
+		NullCheck(L_23);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_22)->max_length))) == ((int32_t)((int32_t)(((RuntimeArray*)L_23)->max_length)))))
 		{
 			goto IL_00ad;
@@ -4223,6 +4313,7 @@ IL_0091:
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "Subscribe can't be called when \"lastMsgIds\" array is null or does not have the same length as \"channels\" array.");
 		RuntimeObject* L_25 = __this->___listener_18;
+		NullCheck(L_25);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_25, 1, _stringLiteralF7943DAD13F6480BF6073BD0C327DF2B8C0B5F24);
 	}
 
@@ -4241,16 +4332,20 @@ IL_00ad:
 		//     { ChatParameterCode.HistoryLength, -1 } // server will decide how many messages to send to client
 		// };
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_26 = (Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)il2cpp_codegen_object_new(Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var);
+		NullCheck(L_26);
 		Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048(L_26, Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_27 = L_26;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = ___channels0;
+		NullCheck(L_27);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_27, (uint8_t)0, (RuntimeObject*)L_28, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_29 = L_27;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_30 = ___lastMsgIds1;
+		NullCheck(L_29);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_29, (uint8_t)((int32_t)9), (RuntimeObject*)L_30, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_31 = L_29;
 		int32_t L_32 = (-1);
 		RuntimeObject* L_33 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_32);
+		NullCheck(L_31);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_31, (uint8_t)((int32_t)14), L_33, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		V_0 = L_31;
 		// return this.chatPeer.SendOperation(ChatOperationCode.Subscribe, opParameters, SendOptions.SendReliable);
@@ -4258,6 +4353,7 @@ IL_00ad:
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_35 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var);
 		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_36 = ((SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields*)il2cpp_codegen_static_fields_for(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var))->___SendReliable_0;
+		NullCheck(L_34);
 		bool L_37;
 		L_37 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, L_34, (uint8_t)0, L_35, L_36);
 		return L_37;
@@ -4295,6 +4391,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_Subscribe_m4A3A6D2D5703A1D8CF
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "Subscribe called while not connected to front end server.");
 		RuntimeObject* L_2 = __this->___listener_18;
+		NullCheck(L_2);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_2, 1, _stringLiteral32ED8AFB67F5C8CAB439735AE376C0A3A92B5785);
 	}
 
@@ -4315,6 +4412,7 @@ IL_0024:
 	}
 	{
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___channels0;
+		NullCheck(L_4);
 		if ((((RuntimeArray*)L_4)->max_length))
 		{
 			goto IL_0047;
@@ -4334,6 +4432,7 @@ IL_002b:
 	{
 		// this.listener.DebugReturn(DebugLevel.WARNING, "Subscribe can't be called for empty or null channels-list.");
 		RuntimeObject* L_6 = __this->___listener_18;
+		NullCheck(L_6);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_6, 2, _stringLiteral2443176A6E60D62ADAED633DBC0B0319623F9628);
 	}
 
@@ -4389,6 +4488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_Unsubscribe_m384652194B1073ED
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "Unsubscribe called while not connected to front end server.");
 		RuntimeObject* L_2 = __this->___listener_18;
+		NullCheck(L_2);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_2, 1, _stringLiteral906FAEAAB91B0A987113A33F7759502D4DB5D57B);
 	}
 
@@ -4409,6 +4509,7 @@ IL_0024:
 	}
 	{
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___channels0;
+		NullCheck(L_4);
 		if ((((RuntimeArray*)L_4)->max_length))
 		{
 			goto IL_0047;
@@ -4428,6 +4529,7 @@ IL_002b:
 	{
 		// this.listener.DebugReturn(DebugLevel.WARNING, "Unsubscribe can't be called for empty or null channels-list.");
 		RuntimeObject* L_6 = __this->___listener_18;
+		NullCheck(L_6);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_6, 2, _stringLiteral64F9D94F66B496B12E4135DCB8897AC320C6639C);
 	}
 
@@ -4451,12 +4553,14 @@ IL_004d:
 		// foreach (string ch in channels)
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = V_0;
 		int32_t L_9 = V_1;
+		NullCheck(L_8);
 		int32_t L_10 = L_9;
-		String_t* L_11 = (L_8)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_10));
+		String_t* L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_2 = L_11;
 		// this.PublicChannelsUnsubscribing.Add(ch);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_12 = __this->___PublicChannelsUnsubscribing_17;
 		String_t* L_13 = V_2;
+		NullCheck(L_12);
 		bool L_14;
 		L_14 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_12, L_13, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
 		int32_t L_15 = V_1;
@@ -4468,6 +4572,7 @@ IL_0062:
 		// foreach (string ch in channels)
 		int32_t L_16 = V_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = V_0;
+		NullCheck(L_17);
 		if ((((int32_t)L_16) < ((int32_t)((int32_t)(((RuntimeArray*)L_17)->max_length)))))
 		{
 			goto IL_004d;
@@ -4546,6 +4651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_publishMessage_m1D582A9BD53AE
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "PublishMessage called while not connected to front end server.");
 		RuntimeObject* L_2 = __this->___listener_18;
+		NullCheck(L_2);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_2, 1, _stringLiteral54E8D47E4F8EF60373D0CB9FE4B271BF0F317D5C);
 	}
 
@@ -4587,6 +4693,7 @@ IL_002f:
 	{
 		// this.listener.DebugReturn(DebugLevel.WARNING, "PublishMessage parameters must be non-null and not empty.");
 		RuntimeObject* L_7 = __this->___listener_18;
+		NullCheck(L_7);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_7, 2, _stringLiteralB521CAB8B7F8FEE2FF3D6340BCAF8DE9F95F9A66);
 	}
 
@@ -4604,12 +4711,15 @@ IL_004b:
 		//         { (byte)ChatParameterCode.Message, message }
 		//     };
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_8 = (Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)il2cpp_codegen_object_new(Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
 		Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048(L_8, Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_9 = L_8;
 		String_t* L_10 = ___channelName0;
+		NullCheck(L_9);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_9, (uint8_t)1, L_10, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_11 = L_9;
 		RuntimeObject* L_12 = ___message1;
+		NullCheck(L_11);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_11, (uint8_t)3, L_12, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		V_0 = L_11;
 		// if (forwardAsWebhook)
@@ -4624,6 +4734,7 @@ IL_004b:
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_14 = V_0;
 		uint8_t L_15 = ((uint8_t)1);
 		RuntimeObject* L_16 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_15);
+		NullCheck(L_14);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_14, (uint8_t)((int32_t)21), L_16, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 	}
 
@@ -4636,6 +4747,7 @@ IL_0073:
 		bool L_19 = ___reliable2;
 		SendOptions_set_Reliability_mE183CC0D1E7EC44C9ADF1F0E17D20A3A05BD5C6A((&V_1), L_19, NULL);
 		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_20 = V_1;
+		NullCheck(L_17);
 		bool L_21;
 		L_21 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, L_17, (uint8_t)2, L_18, L_20);
 		return L_21;
@@ -4721,6 +4833,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_sendPrivateMessage_m1451A1E63
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "SendPrivateMessage called while not connected to front end server.");
 		RuntimeObject* L_2 = __this->___listener_18;
+		NullCheck(L_2);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_2, 1, _stringLiteral3A92BECAEC51D53182904975AED07C4B2D68B774);
 	}
 
@@ -4762,6 +4875,7 @@ IL_002f:
 	{
 		// this.listener.DebugReturn(DebugLevel.WARNING, "SendPrivateMessage parameters must be non-null and not empty.");
 		RuntimeObject* L_7 = __this->___listener_18;
+		NullCheck(L_7);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_7, 2, _stringLiteral14903F1665F1519144501C7CD4831F50EA3BD6F7);
 	}
 
@@ -4779,12 +4893,15 @@ IL_004b:
 		//         { ChatParameterCode.Message, message }
 		//     };
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_8 = (Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)il2cpp_codegen_object_new(Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
 		Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048(L_8, Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_9 = L_8;
 		String_t* L_10 = ___target0;
+		NullCheck(L_9);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_9, (uint8_t)((int32_t)225), L_10, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_11 = L_9;
 		RuntimeObject* L_12 = ___message1;
+		NullCheck(L_11);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_11, (uint8_t)3, L_12, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		V_0 = L_11;
 		// if (forwardAsWebhook)
@@ -4799,6 +4916,7 @@ IL_004b:
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_14 = V_0;
 		uint8_t L_15 = ((uint8_t)1);
 		RuntimeObject* L_16 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_15);
+		NullCheck(L_14);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_14, (uint8_t)((int32_t)21), L_16, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 	}
 
@@ -4813,6 +4931,7 @@ IL_0077:
 		bool L_20 = ___encrypt2;
 		(&V_1)->___Encrypt_3 = L_20;
 		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_21 = V_1;
+		NullCheck(L_17);
 		bool L_22;
 		L_22 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, L_17, (uint8_t)3, L_18, L_21);
 		return L_22;
@@ -4857,6 +4976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_SetOnlineStatus_m4966D3F9DC69
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "SetOnlineStatus called while not connected to front end server.");
 		RuntimeObject* L_2 = __this->___listener_18;
+		NullCheck(L_2);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_2, 1, _stringLiteral695E1FE878B0520A6C9E2F883C405378F3C8ED3F);
 	}
 
@@ -4873,11 +4993,13 @@ IL_0024:
 		//         { ChatParameterCode.Status, status },
 		//     };
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_3 = (Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)il2cpp_codegen_object_new(Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
 		Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048(L_3, Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_4 = L_3;
 		int32_t L_5 = ___status0;
 		int32_t L_6 = L_5;
 		RuntimeObject* L_7 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_6);
+		NullCheck(L_4);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_4, (uint8_t)((int32_t)10), L_7, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		V_0 = L_4;
 		// if (skipMessage)
@@ -4892,6 +5014,7 @@ IL_0024:
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_9 = V_0;
 		bool L_10 = ((bool)1);
 		RuntimeObject* L_11 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_10);
+		NullCheck(L_9);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_9, (uint8_t)((int32_t)12), L_11, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 		goto IL_0053;
 	}
@@ -4901,6 +5024,7 @@ IL_004b:
 		// parameters[ChatParameterCode.Message] = message;
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_12 = V_0;
 		RuntimeObject* L_13 = ___message1;
+		NullCheck(L_12);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_12, (uint8_t)3, L_13, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 	}
 
@@ -4911,6 +5035,7 @@ IL_0053:
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_15 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var);
 		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_16 = ((SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields*)il2cpp_codegen_static_fields_for(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var))->___SendReliable_0;
+		NullCheck(L_14);
 		bool L_17;
 		L_17 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, L_14, (uint8_t)5, L_15, L_16);
 		return L_17;
@@ -4979,6 +5104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_AddFriends_mC7A8A45F98205A685
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "AddFriends called while not connected to front end server.");
 		RuntimeObject* L_2 = __this->___listener_18;
+		NullCheck(L_2);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_2, 1, _stringLiteral62A96FA0BD40BECCCDE57B87BAAD7344D196B1AA);
 	}
 
@@ -4999,6 +5125,7 @@ IL_0024:
 	}
 	{
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___friends0;
+		NullCheck(L_4);
 		if ((((RuntimeArray*)L_4)->max_length))
 		{
 			goto IL_0047;
@@ -5018,6 +5145,7 @@ IL_002b:
 	{
 		// this.listener.DebugReturn(DebugLevel.WARNING, "AddFriends can't be called for empty or null list.");
 		RuntimeObject* L_6 = __this->___listener_18;
+		NullCheck(L_6);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_6, 2, _stringLiteralC542CF71ADE21664A8CC512222D2769749604E30);
 	}
 
@@ -5031,6 +5159,7 @@ IL_0047:
 	{
 		// if (friends.Length > FriendRequestListMax)
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = ___friends0;
+		NullCheck(L_7);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_7)->max_length))) <= ((int32_t)((int32_t)1024))))
 		{
 			goto IL_008f;
@@ -5049,6 +5178,7 @@ IL_0047:
 		// this.listener.DebugReturn(DebugLevel.WARNING, "AddFriends max list size exceeded: " + friends.Length + " > " + FriendRequestListMax);
 		RuntimeObject* L_9 = __this->___listener_18;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = ___friends0;
+		NullCheck(L_10);
 		V_1 = ((int32_t)(((RuntimeArray*)L_10)->max_length));
 		String_t* L_11;
 		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
@@ -5057,6 +5187,7 @@ IL_0047:
 		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
 		String_t* L_13;
 		L_13 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral46EDC735A64857CCBB54DA3A191D860CD77E4BC6, L_11, _stringLiteral717DA9E2386BEADCFFB33AE09B063FCD2EE1A657, L_12, NULL);
+		NullCheck(L_9);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_9, 2, L_13);
 	}
 
@@ -5073,9 +5204,11 @@ IL_008f:
 		//         { ChatParameterCode.Friends, friends },
 		//     };
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_14 = (Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)il2cpp_codegen_object_new(Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
 		Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048(L_14, Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_15 = L_14;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = ___friends0;
+		NullCheck(L_15);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_15, (uint8_t)((int32_t)11), (RuntimeObject*)L_16, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		V_0 = L_15;
 		// return this.chatPeer.SendOperation(ChatOperationCode.AddFriends, parameters, SendOptions.SendReliable);
@@ -5083,6 +5216,7 @@ IL_008f:
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_18 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var);
 		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_19 = ((SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields*)il2cpp_codegen_static_fields_for(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var))->___SendReliable_0;
+		NullCheck(L_17);
 		bool L_20;
 		L_20 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, L_17, (uint8_t)6, L_18, L_19);
 		return L_20;
@@ -5128,6 +5262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_RemoveFriends_m2134FFBAC12E8F
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "RemoveFriends called while not connected to front end server.");
 		RuntimeObject* L_2 = __this->___listener_18;
+		NullCheck(L_2);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_2, 1, _stringLiteralA4A3F6514E2CF8783CDAB372E72E9BCD8E42ADA3);
 	}
 
@@ -5148,6 +5283,7 @@ IL_0024:
 	}
 	{
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___friends0;
+		NullCheck(L_4);
 		if ((((RuntimeArray*)L_4)->max_length))
 		{
 			goto IL_0047;
@@ -5167,6 +5303,7 @@ IL_002b:
 	{
 		// this.listener.DebugReturn(DebugLevel.WARNING, "RemoveFriends can't be called for empty or null list.");
 		RuntimeObject* L_6 = __this->___listener_18;
+		NullCheck(L_6);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_6, 2, _stringLiteral05735D340DC6F0A0F9208712869EFC8065DB1040);
 	}
 
@@ -5180,6 +5317,7 @@ IL_0047:
 	{
 		// if (friends.Length > FriendRequestListMax)
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = ___friends0;
+		NullCheck(L_7);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_7)->max_length))) <= ((int32_t)((int32_t)1024))))
 		{
 			goto IL_008f;
@@ -5198,6 +5336,7 @@ IL_0047:
 		// this.listener.DebugReturn(DebugLevel.WARNING, "RemoveFriends max list size exceeded: " + friends.Length + " > " + FriendRequestListMax);
 		RuntimeObject* L_9 = __this->___listener_18;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = ___friends0;
+		NullCheck(L_10);
 		V_1 = ((int32_t)(((RuntimeArray*)L_10)->max_length));
 		String_t* L_11;
 		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
@@ -5206,6 +5345,7 @@ IL_0047:
 		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
 		String_t* L_13;
 		L_13 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral6E14C99C5905C97FAA1BAD3AA2BB4F3DA6FA045B, L_11, _stringLiteral717DA9E2386BEADCFFB33AE09B063FCD2EE1A657, L_12, NULL);
+		NullCheck(L_9);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_9, 2, L_13);
 	}
 
@@ -5222,9 +5362,11 @@ IL_008f:
 		//         { ChatParameterCode.Friends, friends },
 		//     };
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_14 = (Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)il2cpp_codegen_object_new(Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
 		Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048(L_14, Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_15 = L_14;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = ___friends0;
+		NullCheck(L_15);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_15, (uint8_t)((int32_t)11), (RuntimeObject*)L_16, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		V_0 = L_15;
 		// return this.chatPeer.SendOperation(ChatOperationCode.RemoveFriends, parameters, SendOptions.SendReliable);
@@ -5232,6 +5374,7 @@ IL_008f:
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_18 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var);
 		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_19 = ((SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields*)il2cpp_codegen_static_fields_for(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var))->___SendReliable_0;
+		NullCheck(L_17);
 		bool L_20;
 		L_20 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, L_17, (uint8_t)7, L_18, L_19);
 		return L_20;
@@ -5278,6 +5421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_TryGetChannel_m5C5176103E0A61
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_1 = __this->___PublicChannels_15;
 		String_t* L_2 = ___channelName0;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1** L_3 = ___channel2;
+		NullCheck(L_1);
 		bool L_4;
 		L_4 = Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574(L_1, L_2, L_3, Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574_RuntimeMethod_var);
 		return L_4;
@@ -5289,6 +5433,7 @@ IL_0011:
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_5 = __this->___PrivateChannels_16;
 		String_t* L_6 = ___channelName0;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1** L_7 = ___channel2;
+		NullCheck(L_5);
 		bool L_8;
 		L_8 = Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574(L_5, L_6, L_7, Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574_RuntimeMethod_var);
 		return L_8;
@@ -5308,6 +5453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_TryGetChannel_m596F2DCA70B7C8
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_0 = __this->___PublicChannels_15;
 		String_t* L_1 = ___channelName0;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1** L_2 = ___channel1;
+		NullCheck(L_0);
 		bool L_3;
 		L_3 = Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574(L_0, L_1, L_2, Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574_RuntimeMethod_var);
 		// if (found) return true;
@@ -5327,6 +5473,7 @@ IL_0011:
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_4 = __this->___PrivateChannels_16;
 		String_t* L_5 = ___channelName0;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1** L_6 = ___channel1;
+		NullCheck(L_4);
 		bool L_7;
 		L_7 = Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574(L_4, L_5, L_6, Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574_RuntimeMethod_var);
 		// return found;
@@ -5378,6 +5525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_set_DebugOut_m742DBBA5A5D1910
 		// set { this.chatPeer.DebugOut = value; }
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_0 = __this->___chatPeer_19;
 		uint8_t L_1 = ___value0;
+		NullCheck(L_0);
 		((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)L_0)->___DebugOut_20 = L_1;
 		// set { this.chatPeer.DebugOut = value; }
 		return;
@@ -5389,6 +5537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ChatClient_get_DebugOut_mD9D127987951
 	{
 		// get { return this.chatPeer.DebugOut; }
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_0 = __this->___chatPeer_19;
+		NullCheck(L_0);
 		uint8_t L_1 = ((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)L_0)->___DebugOut_20;
 		return L_1;
 	}
@@ -5407,6 +5556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_ExitGames_Client_Photon_IPhot
 		RuntimeObject* L_0 = __this->___listener_18;
 		uint8_t L_1 = ___level0;
 		String_t* L_2 = ___message1;
+		NullCheck(L_0);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		// }
 		return;
@@ -5419,6 +5569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_ExitGames_Client_Photon_IPhot
 	{
 		// switch (eventData.Code)
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_0 = ___eventData0;
+		NullCheck(L_0);
 		uint8_t L_1 = L_0->___Code_0;
 		V_0 = L_1;
 		uint8_t L_2 = V_0;
@@ -5554,6 +5705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_ExitGames_Client_Photon_IPhot
 	{
 		// switch (operationResponse.OperationCode)
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_0 = ___operationResponse0;
+		NullCheck(L_0);
 		uint8_t L_1 = L_0->___OperationCode_0;
 		V_0 = L_1;
 		uint8_t L_2 = V_0;
@@ -5581,6 +5733,7 @@ IL_001b:
 	{
 		// if ((operationResponse.ReturnCode != 0) && (this.DebugOut >= DebugLevel.ERROR))
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_5 = ___operationResponse0;
+		NullCheck(L_5);
 		int16_t L_6 = L_5->___ReturnCode_1;
 		if (!L_6)
 		{
@@ -5598,6 +5751,7 @@ IL_001b:
 	{
 		// if (operationResponse.ReturnCode == -2)
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_8 = ___operationResponse0;
+		NullCheck(L_8);
 		int16_t L_9 = L_8->___ReturnCode_1;
 		if ((!(((uint32_t)L_9) == ((uint32_t)((int32_t)-2)))))
 		{
@@ -5608,11 +5762,13 @@ IL_001b:
 		// this.listener.DebugReturn(DebugLevel.ERROR, string.Format("Chat Operation {0} unknown on server. Check your AppId and make sure it's for a Chat application.", operationResponse.OperationCode));
 		RuntimeObject* L_10 = __this->___listener_18;
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_11 = ___operationResponse0;
+		NullCheck(L_11);
 		uint8_t L_12 = L_11->___OperationCode_0;
 		uint8_t L_13 = L_12;
 		RuntimeObject* L_14 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_13);
 		String_t* L_15;
 		L_15 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral9A1A0DEF864EC040A24126B7A194105027A0D5D4, L_14, NULL);
+		NullCheck(L_10);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_10, 1, L_15);
 		return;
 	}
@@ -5622,17 +5778,21 @@ IL_0058:
 		// this.listener.DebugReturn(DebugLevel.ERROR, string.Format("Chat Operation {0} failed (Code: {1}). Debug Message: {2}", operationResponse.OperationCode, operationResponse.ReturnCode, operationResponse.DebugMessage));
 		RuntimeObject* L_16 = __this->___listener_18;
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_17 = ___operationResponse0;
+		NullCheck(L_17);
 		uint8_t L_18 = L_17->___OperationCode_0;
 		uint8_t L_19 = L_18;
 		RuntimeObject* L_20 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_19);
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_21 = ___operationResponse0;
+		NullCheck(L_21);
 		int16_t L_22 = L_21->___ReturnCode_1;
 		int16_t L_23 = L_22;
 		RuntimeObject* L_24 = Box(Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var, &L_23);
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_25 = ___operationResponse0;
+		NullCheck(L_25);
 		String_t* L_26 = L_25->___DebugMessage_2;
 		String_t* L_27;
 		L_27 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral56F4CE3D38299DE86F612B0D25AABE7291C45297, L_20, L_24, L_26, NULL);
+		NullCheck(L_16);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_16, 1, L_27);
 	}
 
@@ -5747,6 +5907,7 @@ IL_0059:
 	{
 		// if (!this.chatPeer.IsProtocolSecure)
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_2 = __this->___chatPeer_19;
+		NullCheck(L_2);
 		bool L_3;
 		L_3 = VirtualFuncInvoker0< bool >::Invoke(17 /* System.Boolean Photon.Chat.ChatPeer::get_IsProtocolSecure() */, L_2);
 		if (L_3)
@@ -5757,6 +5918,7 @@ IL_0059:
 	{
 		// if (!this.chatPeer.EstablishEncryption())
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_4 = __this->___chatPeer_19;
+		NullCheck(L_4);
 		bool L_5;
 		L_5 = PhotonPeer_EstablishEncryption_m85A9EC5CE626B9EB6115B61F71C7AA0E5E2514E5(L_4, NULL);
 		if (L_5)
@@ -5776,6 +5938,7 @@ IL_0059:
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "Error establishing encryption");
 		RuntimeObject* L_7 = __this->___listener_18;
+		NullCheck(L_7);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_7, 1, _stringLiteral74935E070666FF5C1140D9B3C70DF02FD27A7B52);
 		goto IL_0095;
 	}
@@ -5803,6 +5966,7 @@ IL_0095:
 		RuntimeObject* L_9 = __this->___listener_18;
 		int32_t L_10;
 		L_10 = ChatClient_get_State_mFB6A41D2E892E71A9FEFA42846D99D651F4E8A5E_inline(__this, NULL);
+		NullCheck(L_9);
 		InterfaceActionInvoker1< int32_t >::Invoke(3 /* System.Void Photon.Chat.IChatClientListener::OnChatStateChange(Photon.Chat.ChatState) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_9, L_10);
 		return;
 	}
@@ -5844,6 +6008,7 @@ IL_00b7:
 		RuntimeObject* L_17 = Box(ChatState_t051505084374FEB7E666EAF9C3D7A8DFBA5119D6_il2cpp_TypeInfo_var, &L_16);
 		String_t* L_18;
 		L_18 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral1605C9390111B876A1B670691E1A90A58C218D34, L_17, NULL);
+		NullCheck(L_14);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_14, 1, L_18);
 		// break;
 		return;
@@ -5888,10 +6053,12 @@ IL_0103:
 		ChatClient_set_EnableProtocolFallback_m2E863E03B55E3C1EB600C58EB56EDCF86EE89D14_inline(__this, (bool)0, NULL);
 		// this.chatPeer.NameServerPortOverride = 0;   // resets a value in the peer only (as we change the protocol, the port has to change, too)
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_23 = __this->___chatPeer_19;
+		NullCheck(L_23);
 		L_23->___NameServerPortOverride_64 = (uint16_t)0;
 		// this.chatPeer.TransportProtocol = (this.chatPeer.TransportProtocol == ConnectionProtocol.Tcp) ? ConnectionProtocol.Udp : ConnectionProtocol.Tcp;
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_24 = __this->___chatPeer_19;
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_25 = __this->___chatPeer_19;
+		NullCheck(L_25);
 		uint8_t L_26;
 		L_26 = PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline(L_25, NULL);
 		G_B19_0 = L_24;
@@ -5915,6 +6082,7 @@ IL_0145:
 
 IL_0146:
 	{
+		NullCheck(G_B21_1);
 		PhotonPeer_set_TransportProtocol_mAF4EE9345BAC9F2E8540CE79F8A791BD3E13014C_inline(G_B21_1, G_B21_0, NULL);
 		// this.Connect(this.AppId, this.AppVersion, null);
 		String_t* L_27;
@@ -5948,11 +6116,13 @@ IL_0168:
 		int32_t L_34 = L_33;
 		RuntimeObject* L_35 = Box(ChatState_t051505084374FEB7E666EAF9C3D7A8DFBA5119D6_il2cpp_TypeInfo_var, &L_34);
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_36 = __this->___chatPeer_19;
+		NullCheck(L_36);
 		String_t* L_37;
 		L_37 = PhotonPeer_get_ServerAddress_m457DB66B44D79E66E4328D51C40EA5E2DB481108(L_36, NULL);
 		String_t* L_38 = V_0;
 		String_t* L_39;
 		L_39 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral0EC6B861684EFBC6F7D7FAB8ED28E170565B09C6, L_35, L_37, L_38, NULL);
+		NullCheck(L_32);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_32, 2, L_39);
 	}
 
@@ -5970,6 +6140,7 @@ IL_019b:
 		// this.AuthValues.Token = null; // when leaving the server, invalidate the secret (but not the auth values)
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_41;
 		L_41 = ChatClient_get_AuthValues_mC9F4405E66924D1BA21DEDE10848199C24915476_inline(__this, NULL);
+		NullCheck(L_41);
 		AuthenticationValues_set_Token_m51CDC767848D2FBF8614B97064CCC492AADB2D6A_inline(L_41, NULL, NULL);
 	}
 
@@ -5979,9 +6150,11 @@ IL_01af:
 		ChatClient_set_State_m252A256FA608F60F638EE5B108C7AE0ABD633011_inline(__this, ((int32_t)11), NULL);
 		// this.listener.OnChatStateChange(ChatState.Disconnected);
 		RuntimeObject* L_42 = __this->___listener_18;
+		NullCheck(L_42);
 		InterfaceActionInvoker1< int32_t >::Invoke(3 /* System.Void Photon.Chat.IChatClientListener::OnChatStateChange(Photon.Chat.ChatState) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_42, ((int32_t)11));
 		// this.listener.OnDisconnected();
 		RuntimeObject* L_43 = __this->___listener_18;
+		NullCheck(L_43);
 		InterfaceActionInvoker0::Invoke(1 /* System.Void Photon.Chat.IChatClientListener::OnDisconnected() */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_43);
 		// break;
 		return;
@@ -5991,6 +6164,7 @@ IL_01d0:
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "This connection was rejected due to the apps CCU limit.");
 		RuntimeObject* L_44 = __this->___listener_18;
+		NullCheck(L_44);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_44, 1, _stringLiteral68D7F8920CC9A5C9EB6CEA86D4BDEC243463A827);
 		// this.Disconnect(ChatDisconnectCause.MaxCcuReached);
 		ChatClient_Disconnect_m678FDF44265FD926B8DB5555B439F5F70D82BA52(__this, 8, NULL);
@@ -6132,6 +6306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_TryAuthenticateOnNameServer_m
 		L_4 = ChatClient_get_ChatRegion_m16D06C18E5EA82A340719664D3A83768514E73D5_inline(__this, NULL);
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_5;
 		L_5 = ChatClient_get_AuthValues_mC9F4405E66924D1BA21DEDE10848199C24915476_inline(__this, NULL);
+		NullCheck(L_1);
 		bool L_6;
 		L_6 = ChatPeer_AuthenticateOnNameServer_m31221AA4DF632CB3DB9BBDA4614AB1241F538BA3(L_1, L_2, L_3, L_4, L_5, NULL);
 		__this->___didAuthenticate_21 = L_6;
@@ -6160,6 +6335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_TryAuthenticateOnNameServer_m
 		RuntimeObject* L_12 = Box(ChatState_t051505084374FEB7E666EAF9C3D7A8DFBA5119D6_il2cpp_TypeInfo_var, &L_11);
 		String_t* L_13;
 		L_13 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral1778C9BC36C93CBA913DFA368A05534210106FD0, L_12, NULL);
+		NullCheck(L_9);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_9, 1, L_13);
 	}
 
@@ -6186,9 +6362,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_SendChannelOperation_mDB9A461
 	{
 		// Dictionary<byte, object> opParameters = new Dictionary<byte, object> { { (byte)ChatParameterCode.Channels, channels } };
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_0 = (Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)il2cpp_codegen_object_new(Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048(L_0, Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_1 = L_0;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___channels0;
+		NullCheck(L_1);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_1, (uint8_t)0, (RuntimeObject*)L_2, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		V_0 = L_1;
 		// if (historyLength != 0)
@@ -6204,6 +6382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_SendChannelOperation_mDB9A461
 		int32_t L_5 = ___historyLength2;
 		int32_t L_6 = L_5;
 		RuntimeObject* L_7 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_6);
+		NullCheck(L_4);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_4, (uint8_t)((int32_t)14), L_7, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 	}
 
@@ -6215,6 +6394,7 @@ IL_001f:
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_10 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var);
 		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_11 = ((SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields*)il2cpp_codegen_static_fields_for(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var))->___SendReliable_0;
+		NullCheck(L_8);
 		bool L_12;
 		L_12 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, L_8, L_9, L_10, L_11);
 		return L_12;
@@ -6243,19 +6423,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandlePrivateMessageEvent_m38
 	{
 		// object message = (object)eventData.Parameters[(byte)ChatParameterCode.Message];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_0 = ___eventData0;
+		NullCheck(L_0);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_1 = L_0->___Parameters_1;
+		NullCheck(L_1);
 		RuntimeObject* L_2;
 		L_2 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_1, (uint8_t)3, NULL);
 		V_0 = L_2;
 		// string sender = (string)eventData.Parameters[(byte)ChatParameterCode.Sender];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_3 = ___eventData0;
+		NullCheck(L_3);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_4 = L_3->___Parameters_1;
+		NullCheck(L_4);
 		RuntimeObject* L_5;
 		L_5 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_4, (uint8_t)5, NULL);
 		V_1 = ((String_t*)CastclassSealed((RuntimeObject*)L_5, String_t_il2cpp_TypeInfo_var));
 		// int msgId = (int)eventData.Parameters[ChatParameterCode.MsgId];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_6 = ___eventData0;
+		NullCheck(L_6);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_7 = L_6->___Parameters_1;
+		NullCheck(L_7);
 		RuntimeObject* L_8;
 		L_8 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_7, (uint8_t)8, NULL);
 		V_2 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_8, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
@@ -6271,6 +6457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandlePrivateMessageEvent_m38
 		String_t* L_10;
 		L_10 = ChatClient_get_UserId_mBA19EB231D8FE9ED61E348542F6C2A42F00EEB0E(__this, NULL);
 		String_t* L_11 = V_1;
+		NullCheck(L_10);
 		bool L_12;
 		L_12 = String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D(L_10, L_11, NULL);
 		if (!L_12)
@@ -6281,7 +6468,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandlePrivateMessageEvent_m38
 	{
 		// string target = (string)eventData.Parameters[(byte)ChatParameterCode.UserId];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_13 = ___eventData0;
+		NullCheck(L_13);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_14 = L_13->___Parameters_1;
+		NullCheck(L_14);
 		RuntimeObject* L_15;
 		L_15 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_14, (uint8_t)((int32_t)225), NULL);
 		V_5 = ((String_t*)CastclassSealed((RuntimeObject*)L_15, String_t_il2cpp_TypeInfo_var));
@@ -6307,6 +6496,7 @@ IL_0071:
 		// if (!this.PrivateChannels.TryGetValue(channelName, out channel))
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_20 = __this->___PrivateChannels_16;
 		String_t* L_21 = V_3;
+		NullCheck(L_20);
 		bool L_22;
 		L_22 = Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574(L_20, L_21, (&V_4), Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574_RuntimeMethod_var);
 		if (L_22)
@@ -6318,20 +6508,25 @@ IL_0071:
 		// channel = new ChatChannel(channelName);
 		String_t* L_23 = V_3;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_24 = (ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1*)il2cpp_codegen_object_new(ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1_il2cpp_TypeInfo_var);
+		NullCheck(L_24);
 		ChatChannel__ctor_m0C6E9FBE4AC69157786CA8E3CA9036064E9D99EC(L_24, L_23, NULL);
 		V_4 = L_24;
 		// channel.IsPrivate = true;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_25 = V_4;
+		NullCheck(L_25);
 		ChatChannel_set_IsPrivate_mC15D3E62B0A6EB24F6C1D0C6EC7F7857886D8068_inline(L_25, (bool)1, NULL);
 		// channel.MessageLimit = this.MessageLimit;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_26 = V_4;
 		int32_t L_27 = __this->___MessageLimit_13;
+		NullCheck(L_26);
 		L_26->___MessageLimit_3 = L_27;
 		// this.PrivateChannels.Add(channel.Name, channel);
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_28 = __this->___PrivateChannels_16;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_29 = V_4;
+		NullCheck(L_29);
 		String_t* L_30 = L_29->___Name_0;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_31 = V_4;
+		NullCheck(L_28);
 		Dictionary_2_Add_mCA366AA506232AC4A0775B449E5490FAAE29B026(L_28, L_30, L_31, Dictionary_2_Add_mCA366AA506232AC4A0775B449E5490FAAE29B026_RuntimeMethod_var);
 	}
 
@@ -6342,12 +6537,14 @@ IL_00b2:
 		String_t* L_33 = V_1;
 		RuntimeObject* L_34 = V_0;
 		int32_t L_35 = V_2;
+		NullCheck(L_32);
 		ChatChannel_Add_m22E0343342399B1C9130CCDD12325EAA80DA9440(L_32, L_33, L_34, L_35, NULL);
 		// this.listener.OnPrivateMessage(sender, message, channelName);
 		RuntimeObject* L_36 = __this->___listener_18;
 		String_t* L_37 = V_1;
 		RuntimeObject* L_38 = V_0;
 		String_t* L_39 = V_3;
+		NullCheck(L_36);
 		InterfaceActionInvoker3< String_t*, RuntimeObject*, String_t* >::Invoke(5 /* System.Void Photon.Chat.IChatClientListener::OnPrivateMessage(System.String,System.Object,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_36, L_37, L_38, L_39);
 		// }
 		return;
@@ -6377,31 +6574,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleChatMessagesEvent_m02DB
 	{
 		// object[] messages = (object[])eventData.Parameters[(byte)ChatParameterCode.Messages];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_0 = ___eventData0;
+		NullCheck(L_0);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_1 = L_0->___Parameters_1;
+		NullCheck(L_1);
 		RuntimeObject* L_2;
 		L_2 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_1, (uint8_t)2, NULL);
 		V_0 = ((ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)Castclass((RuntimeObject*)L_2, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var));
 		// string[] senders = (string[])eventData.Parameters[(byte)ChatParameterCode.Senders];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_3 = ___eventData0;
+		NullCheck(L_3);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_4 = L_3->___Parameters_1;
+		NullCheck(L_4);
 		RuntimeObject* L_5;
 		L_5 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_4, (uint8_t)4, NULL);
 		V_1 = ((StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)Castclass((RuntimeObject*)L_5, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var));
 		// string channelName = (string)eventData.Parameters[(byte)ChatParameterCode.Channel];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_6 = ___eventData0;
+		NullCheck(L_6);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_7 = L_6->___Parameters_1;
+		NullCheck(L_7);
 		RuntimeObject* L_8;
 		L_8 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_7, (uint8_t)1, NULL);
 		V_2 = ((String_t*)CastclassSealed((RuntimeObject*)L_8, String_t_il2cpp_TypeInfo_var));
 		// int lastMsgId = (int)eventData.Parameters[ChatParameterCode.MsgId];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_9 = ___eventData0;
+		NullCheck(L_9);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_10 = L_9->___Parameters_1;
+		NullCheck(L_10);
 		RuntimeObject* L_11;
 		L_11 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_10, (uint8_t)8, NULL);
 		V_3 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_11, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		// if (!this.PublicChannels.TryGetValue(channelName, out channel))
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_12 = __this->___PublicChannels_15;
 		String_t* L_13 = V_2;
+		NullCheck(L_12);
 		bool L_14;
 		L_14 = Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574(L_12, L_13, (&V_4), Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574_RuntimeMethod_var);
 		if (L_14)
@@ -6424,6 +6630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleChatMessagesEvent_m02DB
 		String_t* L_17 = V_2;
 		String_t* L_18;
 		L_18 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralD0A9AA74760549C6A732B0EC13F9519F26FC67E4, L_17, _stringLiteralA79561E1B5A82C6D02201984FF815A7AA4012C74, NULL);
+		NullCheck(L_16);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_16, 2, L_18);
 	}
 
@@ -6440,12 +6647,14 @@ IL_007e:
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_21 = V_0;
 		int32_t L_22 = V_3;
+		NullCheck(L_19);
 		ChatChannel_Add_m3906378A35460170D74185680E5D50946D59FEE9(L_19, L_20, L_21, L_22, NULL);
 		// this.listener.OnGetMessages(channelName, senders, messages);
 		RuntimeObject* L_23 = __this->___listener_18;
 		String_t* L_24 = V_2;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26 = V_0;
+		NullCheck(L_23);
 		InterfaceActionInvoker3< String_t*, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(4 /* System.Void Photon.Chat.IChatClientListener::OnGetMessages(System.String,System.String[],System.Object[]) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_23, L_24, L_25, L_26);
 		// }
 		return;
@@ -6477,13 +6686,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleSubscribeEvent_m2EDD743
 	{
 		// string[] channelsInResponse = (string[])eventData.Parameters[ChatParameterCode.Channels];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_0 = ___eventData0;
+		NullCheck(L_0);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_1 = L_0->___Parameters_1;
+		NullCheck(L_1);
 		RuntimeObject* L_2;
 		L_2 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_1, (uint8_t)0, NULL);
 		V_0 = ((StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)Castclass((RuntimeObject*)L_2, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var));
 		// bool[] results = (bool[])eventData.Parameters[ChatParameterCode.SubscribeResults];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_3 = ___eventData0;
+		NullCheck(L_3);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_4 = L_3->___Parameters_1;
+		NullCheck(L_4);
 		RuntimeObject* L_5;
 		L_5 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_4, (uint8_t)((int32_t)15), NULL);
 		V_1 = ((BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)Castclass((RuntimeObject*)L_5, BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var));
@@ -6497,8 +6710,9 @@ IL_002c:
 		// if (results[i])
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_6 = V_1;
 		int32_t L_7 = V_2;
+		NullCheck(L_6);
 		int32_t L_8 = L_7;
-		uint8_t L_9 = (uint8_t)(L_6)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_8));
+		uint8_t L_9 = (uint8_t)(L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
 		if (!L_9)
 		{
 			goto IL_00cf;
@@ -6508,12 +6722,14 @@ IL_002c:
 		// string channelName = channelsInResponse[i];
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = V_0;
 		int32_t L_11 = V_2;
+		NullCheck(L_10);
 		int32_t L_12 = L_11;
-		String_t* L_13 = (L_10)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_12));
+		String_t* L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
 		V_3 = L_13;
 		// if (!this.PublicChannels.TryGetValue(channelName, out channel))
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_14 = __this->___PublicChannels_15;
 		String_t* L_15 = V_3;
+		NullCheck(L_14);
 		bool L_16;
 		L_16 = Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574(L_14, L_15, (&V_4), Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574_RuntimeMethod_var);
 		if (L_16)
@@ -6525,17 +6741,21 @@ IL_002c:
 		// channel = new ChatChannel(channelName);
 		String_t* L_17 = V_3;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_18 = (ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1*)il2cpp_codegen_object_new(ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1_il2cpp_TypeInfo_var);
+		NullCheck(L_18);
 		ChatChannel__ctor_m0C6E9FBE4AC69157786CA8E3CA9036064E9D99EC(L_18, L_17, NULL);
 		V_4 = L_18;
 		// channel.MessageLimit = this.MessageLimit;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_19 = V_4;
 		int32_t L_20 = __this->___MessageLimit_13;
+		NullCheck(L_19);
 		L_19->___MessageLimit_3 = L_20;
 		// this.PublicChannels.Add(channel.Name, channel);
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_21 = __this->___PublicChannels_15;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_22 = V_4;
+		NullCheck(L_22);
 		String_t* L_23 = L_22->___Name_0;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_24 = V_4;
+		NullCheck(L_21);
 		Dictionary_2_Add_mCA366AA506232AC4A0775B449E5490FAAE29B026(L_21, L_23, L_24, Dictionary_2_Add_mCA366AA506232AC4A0775B449E5490FAAE29B026_RuntimeMethod_var);
 	}
 
@@ -6543,7 +6763,9 @@ IL_0071:
 	{
 		// if (eventData.Parameters.TryGetValue(ChatParameterCode.Properties, out temp))
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_25 = ___eventData0;
+		NullCheck(L_25);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_26 = L_25->___Parameters_1;
+		NullCheck(L_26);
 		bool L_27;
 		L_27 = ParameterDictionary_TryGetValue_mBA556F2681C5F8AAE5058D98EDECAD8AEE154EA5(L_26, (uint8_t)((int32_t)22), (&V_5), NULL);
 		if (!L_27)
@@ -6558,6 +6780,7 @@ IL_0071:
 		// channel.ReadChannelProperties(channelProperties);
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_29 = V_4;
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_30 = V_6;
+		NullCheck(L_29);
 		ChatChannel_ReadChannelProperties_m8A24F53556005A092A43DD57FD9BF99E3BAB3D35(L_29, L_30, NULL);
 	}
 
@@ -6565,6 +6788,7 @@ IL_0094:
 	{
 		// if (channel.PublishSubscribers) // or maybe remove check & always add anyway?
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_31 = V_4;
+		NullCheck(L_31);
 		bool L_32;
 		L_32 = ChatChannel_get_PublishSubscribers_m30398EBDCF6E7F5D9492086707802FCB77193A74_inline(L_31, NULL);
 		if (!L_32)
@@ -6577,6 +6801,7 @@ IL_0094:
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_33 = V_4;
 		String_t* L_34;
 		L_34 = ChatClient_get_UserId_mBA19EB231D8FE9ED61E348542F6C2A42F00EEB0E(__this, NULL);
+		NullCheck(L_33);
 		bool L_35;
 		L_35 = ChatChannel_AddSubscriber_m99C1D8A453B5D493031845BD8642B2E21CC52198(L_33, L_34, NULL);
 	}
@@ -6585,7 +6810,9 @@ IL_00ab:
 	{
 		// if (eventData.Parameters.TryGetValue(ChatParameterCode.ChannelSubscribers, out temp))
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_36 = ___eventData0;
+		NullCheck(L_36);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_37 = L_36->___Parameters_1;
+		NullCheck(L_37);
 		bool L_38;
 		L_38 = ParameterDictionary_TryGetValue_mBA556F2681C5F8AAE5058D98EDECAD8AEE154EA5(L_37, (uint8_t)((int32_t)23), (&V_5), NULL);
 		if (!L_38)
@@ -6600,6 +6827,7 @@ IL_00ab:
 		// channel.AddSubscribers(subscribers);
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_40 = V_4;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_41 = V_7;
+		NullCheck(L_40);
 		bool L_42;
 		L_42 = ChatChannel_AddSubscribers_mF79231AA897C23C7901F4767C7AD8C917C1DA8B0(L_40, L_41, NULL);
 	}
@@ -6616,6 +6844,7 @@ IL_00d3:
 		// for (int i = 0; i < channelsInResponse.Length; i++)
 		int32_t L_44 = V_2;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_45 = V_0;
+		NullCheck(L_45);
 		if ((((int32_t)L_44) < ((int32_t)((int32_t)(((RuntimeArray*)L_45)->max_length)))))
 		{
 			goto IL_002c;
@@ -6626,6 +6855,7 @@ IL_00d3:
 		RuntimeObject* L_46 = __this->___listener_18;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_47 = V_0;
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_48 = V_1;
+		NullCheck(L_46);
 		InterfaceActionInvoker2< StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*, BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* >::Invoke(6 /* System.Void Photon.Chat.IChatClientListener::OnSubscribed(System.String[],System.Boolean[]) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_46, L_47, L_48);
 		// }
 		return;
@@ -6649,6 +6879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleUnsubscribeEvent_m905C0
 	{
 		// string[] channelsInRequest = (string[])eventData[ChatParameterCode.Channels];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_0 = ___eventData0;
+		NullCheck(L_0);
 		RuntimeObject* L_1;
 		L_1 = EventData_get_Item_mACA137D18353A551D1A1B2B18F055E4E0B7A7D02(L_0, (uint8_t)0, NULL);
 		V_0 = ((StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)Castclass((RuntimeObject*)L_1, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var));
@@ -6662,17 +6893,20 @@ IL_0011:
 		// string channelName = channelsInRequest[i];
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = V_0;
 		int32_t L_3 = V_1;
+		NullCheck(L_2);
 		int32_t L_4 = L_3;
-		String_t* L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
+		String_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_2 = L_5;
 		// this.PublicChannels.Remove(channelName);
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_6 = __this->___PublicChannels_15;
 		String_t* L_7 = V_2;
+		NullCheck(L_6);
 		bool L_8;
 		L_8 = Dictionary_2_Remove_m952BC71E0A6D29F848B1C6D854B9183CE0A5E83A(L_6, L_7, Dictionary_2_Remove_m952BC71E0A6D29F848B1C6D854B9183CE0A5E83A_RuntimeMethod_var);
 		// this.PublicChannelsUnsubscribing.Remove(channelName);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_9 = __this->___PublicChannelsUnsubscribing_17;
 		String_t* L_10 = V_2;
+		NullCheck(L_9);
 		bool L_11;
 		L_11 = HashSet_1_Remove_m97303C08928AB7A9364E7908F34670D92348D9DA(L_9, L_10, HashSet_1_Remove_m97303C08928AB7A9364E7908F34670D92348D9DA_RuntimeMethod_var);
 		// for (int i = 0; i < channelsInRequest.Length; i++)
@@ -6685,6 +6919,7 @@ IL_0033:
 		// for (int i = 0; i < channelsInRequest.Length; i++)
 		int32_t L_13 = V_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = V_0;
+		NullCheck(L_14);
 		if ((((int32_t)L_13) < ((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length)))))
 		{
 			goto IL_0011;
@@ -6694,6 +6929,7 @@ IL_0033:
 		// this.listener.OnUnsubscribed(channelsInRequest);
 		RuntimeObject* L_15 = __this->___listener_18;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = V_0;
+		NullCheck(L_15);
 		InterfaceActionInvoker1< StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* >::Invoke(7 /* System.Void Photon.Chat.IChatClientListener::OnUnsubscribed(System.String[]) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_15, L_16);
 		// }
 		return;
@@ -6732,13 +6968,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleAuthResponse_m17B43A51E
 		// this.listener.DebugReturn(DebugLevel.INFO, operationResponse.ToStringFull() + " on: " + this.chatPeer.NameServerAddress);
 		RuntimeObject* L_1 = __this->___listener_18;
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_2 = ___operationResponse0;
+		NullCheck(L_2);
 		String_t* L_3;
 		L_3 = OperationResponse_ToStringFull_mB3ECC86F024A425BD00664B6CDFAB67A250D7A23(L_2, NULL);
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_4 = __this->___chatPeer_19;
+		NullCheck(L_4);
 		String_t* L_5;
 		L_5 = ChatPeer_get_NameServerAddress_m34FD6CEB0A89DF565D492EB7ED3E12CDC17A9797(L_4, NULL);
 		String_t* L_6;
 		L_6 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_3, _stringLiteral42AFA618414215017E02F8F7EC202AD435873C33, L_5, NULL);
+		NullCheck(L_1);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_1, 3, L_6);
 	}
 
@@ -6746,6 +6985,7 @@ IL_0030:
 	{
 		// if (operationResponse.ReturnCode == 0)
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_7 = ___operationResponse0;
+		NullCheck(L_7);
 		int16_t L_8 = L_7->___ReturnCode_1;
 		if (L_8)
 		{
@@ -6768,10 +7008,13 @@ IL_0030:
 		RuntimeObject* L_10 = __this->___listener_18;
 		int32_t L_11;
 		L_11 = ChatClient_get_State_mFB6A41D2E892E71A9FEFA42846D99D651F4E8A5E_inline(__this, NULL);
+		NullCheck(L_10);
 		InterfaceActionInvoker1< int32_t >::Invoke(3 /* System.Void Photon.Chat.IChatClientListener::OnChatStateChange(Photon.Chat.ChatState) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_10, L_11);
 		// if (operationResponse.Parameters.ContainsKey(ParameterCode.Secret))
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_12 = ___operationResponse0;
+		NullCheck(L_12);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_13 = L_12->___Parameters_3;
+		NullCheck(L_13);
 		bool L_14;
 		L_14 = ParameterDictionary_ContainsKey_m77BEFACAD281084DC233697EF94B7D8B55589AD2(L_13, (uint8_t)((int32_t)221), NULL);
 		if (!L_14)
@@ -6791,6 +7034,7 @@ IL_0030:
 	{
 		// this.AuthValues = new AuthenticationValues();
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_16 = (AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C*)il2cpp_codegen_object_new(AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C_il2cpp_TypeInfo_var);
+		NullCheck(L_16);
 		AuthenticationValues__ctor_m0EC34240479292C7E3D292072C7AE92D1CEA7C60(L_16, NULL);
 		ChatClient_set_AuthValues_mAAD43D4212103C80D1377FA04B33815397E28937_inline(__this, L_16, NULL);
 	}
@@ -6801,16 +7045,20 @@ IL_0084:
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_17;
 		L_17 = ChatClient_get_AuthValues_mC9F4405E66924D1BA21DEDE10848199C24915476_inline(__this, NULL);
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_18 = ___operationResponse0;
+		NullCheck(L_18);
 		RuntimeObject* L_19;
 		L_19 = OperationResponse_get_Item_mEB2FFC5B967D14E344238A457F480DCD9E976422(L_18, (uint8_t)((int32_t)221), NULL);
+		NullCheck(L_17);
 		AuthenticationValues_set_Token_m51CDC767848D2FBF8614B97064CCC492AADB2D6A_inline(L_17, ((String_t*)IsInstSealed((RuntimeObject*)L_19, String_t_il2cpp_TypeInfo_var)), NULL);
 		// this.FrontendAddress = (string)operationResponse[ParameterCode.Address];
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_20 = ___operationResponse0;
+		NullCheck(L_20);
 		RuntimeObject* L_21;
 		L_21 = OperationResponse_get_Item_mEB2FFC5B967D14E344238A457F480DCD9E976422(L_20, (uint8_t)((int32_t)230), NULL);
 		ChatClient_set_FrontendAddress_m11BEEFC4E38A657099753638560CF27FD8BEA8C6_inline(__this, ((String_t*)CastclassSealed((RuntimeObject*)L_21, String_t_il2cpp_TypeInfo_var)), NULL);
 		// this.chatPeer.Disconnect();
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_22 = __this->___chatPeer_19;
+		NullCheck(L_22);
 		VirtualActionInvoker0::Invoke(8 /* System.Void ExitGames.Client.Photon.PhotonPeer::Disconnect() */, L_22);
 		goto IL_00dc;
 	}
@@ -6828,6 +7076,7 @@ IL_00c2:
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "No secret in authentication response.");
 		RuntimeObject* L_24 = __this->___listener_18;
+		NullCheck(L_24);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_24, 1, _stringLiteralE1838DC1CF507F5E0B8451D36D23E70F3222CC7F);
 	}
 
@@ -6835,7 +7084,9 @@ IL_00dc:
 	{
 		// if (operationResponse.Parameters.ContainsKey(ParameterCode.UserId))
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_25 = ___operationResponse0;
+		NullCheck(L_25);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_26 = L_25->___Parameters_3;
+		NullCheck(L_26);
 		bool L_27;
 		L_27 = ParameterDictionary_ContainsKey_m77BEFACAD281084DC233697EF94B7D8B55589AD2(L_26, (uint8_t)((int32_t)225), NULL);
 		if (!L_27)
@@ -6846,7 +7097,9 @@ IL_00dc:
 	{
 		// string incomingId = operationResponse.Parameters[ParameterCode.UserId] as string;
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_28 = ___operationResponse0;
+		NullCheck(L_28);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_29 = L_28->___Parameters_3;
+		NullCheck(L_29);
 		RuntimeObject* L_30;
 		L_30 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_29, (uint8_t)((int32_t)225), NULL);
 		V_0 = ((String_t*)IsInstSealed((RuntimeObject*)L_30, String_t_il2cpp_TypeInfo_var));
@@ -6869,6 +7122,7 @@ IL_00dc:
 		L_35 = ChatClient_get_UserId_mBA19EB231D8FE9ED61E348542F6C2A42F00EEB0E(__this, NULL);
 		String_t* L_36;
 		L_36 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralDD40E444A09210A07CFBB05D9F7F4710084F5B77, L_35, NULL);
+		NullCheck(L_34);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_34, 3, L_36);
 		return;
 	}
@@ -6890,9 +7144,11 @@ IL_0136:
 		RuntimeObject* L_38 = __this->___listener_18;
 		int32_t L_39;
 		L_39 = ChatClient_get_State_mFB6A41D2E892E71A9FEFA42846D99D651F4E8A5E_inline(__this, NULL);
+		NullCheck(L_38);
 		InterfaceActionInvoker1< int32_t >::Invoke(3 /* System.Void Photon.Chat.IChatClientListener::OnChatStateChange(Photon.Chat.ChatState) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_38, L_39);
 		// this.listener.OnConnected();
 		RuntimeObject* L_40 = __this->___listener_18;
+		NullCheck(L_40);
 		InterfaceActionInvoker0::Invoke(2 /* System.Void Photon.Chat.IChatClientListener::OnConnected() */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_40);
 		// if (statusToSetWhenConnected.HasValue)
 		Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28* L_41 = (&__this->___statusToSetWhenConnected_22);
@@ -6921,6 +7177,7 @@ IL_019a:
 	{
 		// switch (operationResponse.ReturnCode)
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_48 = ___operationResponse0;
+		NullCheck(L_48);
 		int16_t L_49 = L_48->___ReturnCode_1;
 		V_1 = L_49;
 		int16_t L_50 = V_1;
@@ -7021,6 +7278,7 @@ IL_0206:
 		// this.listener.DebugReturn(DebugLevel.ERROR, string.Format("{0} ClientState: {1} ServerAddress: {2}", operationResponse.ToStringFull(), this.State, this.chatPeer.ServerAddress));
 		RuntimeObject* L_54 = __this->___listener_18;
 		OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED* L_55 = ___operationResponse0;
+		NullCheck(L_55);
 		String_t* L_56;
 		L_56 = OperationResponse_ToStringFull_mB3ECC86F024A425BD00664B6CDFAB67A250D7A23(L_55, NULL);
 		int32_t L_57;
@@ -7028,10 +7286,12 @@ IL_0206:
 		int32_t L_58 = L_57;
 		RuntimeObject* L_59 = Box(ChatState_t051505084374FEB7E666EAF9C3D7A8DFBA5119D6_il2cpp_TypeInfo_var, &L_58);
 		ChatPeer_t216E56C8D1791380415477470013A3787DF76D43* L_60 = __this->___chatPeer_19;
+		NullCheck(L_60);
 		String_t* L_61;
 		L_61 = PhotonPeer_get_ServerAddress_m457DB66B44D79E66E4328D51C40EA5E2DB481108(L_60, NULL);
 		String_t* L_62;
 		L_62 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral7526A376267BC0A823CE3D35016583D70B156712, L_56, L_59, L_61, NULL);
+		NullCheck(L_54);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_54, 1, L_62);
 	}
 
@@ -7067,13 +7327,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleStatusUpdate_m10E9C9324
 	{
 		// string user = (string)eventData.Parameters[ChatParameterCode.Sender];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_0 = ___eventData0;
+		NullCheck(L_0);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_1 = L_0->___Parameters_1;
+		NullCheck(L_1);
 		RuntimeObject* L_2;
 		L_2 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_1, (uint8_t)5, NULL);
 		V_0 = ((String_t*)CastclassSealed((RuntimeObject*)L_2, String_t_il2cpp_TypeInfo_var));
 		// int status = (int)eventData.Parameters[ChatParameterCode.Status];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_3 = ___eventData0;
+		NullCheck(L_3);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_4 = L_3->___Parameters_1;
+		NullCheck(L_4);
 		RuntimeObject* L_5;
 		L_5 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_4, (uint8_t)((int32_t)10), NULL);
 		V_1 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_5, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
@@ -7081,7 +7345,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleStatusUpdate_m10E9C9324
 		V_2 = NULL;
 		// bool gotMessage = eventData.Parameters.ContainsKey(ChatParameterCode.Message);
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_6 = ___eventData0;
+		NullCheck(L_6);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_7 = L_6->___Parameters_1;
+		NullCheck(L_7);
 		bool L_8;
 		L_8 = ParameterDictionary_ContainsKey_m77BEFACAD281084DC233697EF94B7D8B55589AD2(L_7, (uint8_t)3, NULL);
 		V_3 = L_8;
@@ -7095,7 +7361,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleStatusUpdate_m10E9C9324
 	{
 		// message = eventData.Parameters[ChatParameterCode.Message];
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_10 = ___eventData0;
+		NullCheck(L_10);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_11 = L_10->___Parameters_1;
+		NullCheck(L_11);
 		RuntimeObject* L_12;
 		L_12 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_11, (uint8_t)3, NULL);
 		V_2 = L_12;
@@ -7109,6 +7377,7 @@ IL_0044:
 		int32_t L_15 = V_1;
 		bool L_16 = V_3;
 		RuntimeObject* L_17 = V_2;
+		NullCheck(L_13);
 		InterfaceActionInvoker4< String_t*, int32_t, bool, RuntimeObject* >::Invoke(8 /* System.Void Photon.Chat.IChatClientListener::OnStatusUpdate(System.String,System.Int32,System.Boolean,System.Object) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_13, L_14, L_15, L_16, L_17);
 		// }
 		return;
@@ -7145,6 +7414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_ConnectToFrontEnd_m879F8C0ABF
 		L_2 = ChatClient_get_FrontendAddress_m30BBAAAA9AD37DA13479A1744D18C17423491A05_inline(__this, NULL);
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral7C82A48E16CE752BFB1F18655003416C01CCB606, L_2, NULL);
+		NullCheck(L_1);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_1, 3, L_3);
 	}
 
@@ -7171,6 +7441,7 @@ IL_003d:
 	{
 		// this.listener.DebugReturn(DebugLevel.WARNING, "WebGL requires WebSockets. Switching TransportProtocol to WebSocketSecure.");
 		RuntimeObject* L_6 = __this->___listener_18;
+		NullCheck(L_6);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_6, 2, _stringLiteralCA95F4BEB64A322209E2124DA276E04A8779F727);
 		// this.TransportProtocol = ConnectionProtocol.WebSocketSecure;
 		ChatClient_set_TransportProtocol_m21D6C23D1B7EE7C8C4C71C5D5FBCB4FDBB58DD23(__this, 5, NULL);
@@ -7183,6 +7454,7 @@ IL_0055:
 		String_t* L_8;
 		L_8 = ChatClient_get_FrontendAddress_m30BBAAAA9AD37DA13479A1744D18C17423491A05_inline(__this, NULL);
 		String_t* L_9 = __this->___ProxyServerAddress_7;
+		NullCheck(L_7);
 		bool L_10;
 		L_10 = VirtualFuncInvoker5< bool, String_t*, String_t*, String_t*, RuntimeObject*, RuntimeObject* >::Invoke(7 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::Connect(System.String,System.String,System.String,System.Object,System.Object) */, L_7, L_8, L_9, _stringLiteral73442709295E0907BAB5FF689567842B1B7D4C01, NULL, NULL);
 		if (L_10)
@@ -7206,6 +7478,7 @@ IL_0055:
 		L_13 = ChatClient_get_FrontendAddress_m30BBAAAA9AD37DA13479A1744D18C17423491A05_inline(__this, NULL);
 		String_t* L_14;
 		L_14 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA86D8D1F03036F57943C7BD6C7E29797408CE238, L_13, NULL);
+		NullCheck(L_12);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_12, 1, L_14);
 	}
 
@@ -7252,6 +7525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_AuthenticateOnFrontEnd_mA7969
 		// if (this.AuthValues.Token == null)
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_1;
 		L_1 = ChatClient_get_AuthValues_mC9F4405E66924D1BA21DEDE10848199C24915476_inline(__this, NULL);
+		NullCheck(L_1);
 		RuntimeObject* L_2;
 		L_2 = AuthenticationValues_get_Token_m5A51A48A263944BAAA27F558EC8618B121CC2765_inline(L_1, NULL);
 		if (L_2)
@@ -7271,6 +7545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatClient_AuthenticateOnFrontEnd_mA7969
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "Can't authenticate on front end server. Secret (AuthValues.Token) is not set");
 		RuntimeObject* L_4 = __this->___listener_18;
+		NullCheck(L_4);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_4, 1, _stringLiteral42A6CA5262FE7F016760CB20C16434E6FB8F41F9);
 	}
 
@@ -7284,12 +7559,15 @@ IL_0031:
 	{
 		// Dictionary<byte, object> opParameters = new Dictionary<byte, object> { { (byte)ChatParameterCode.Secret, this.AuthValues.Token } };
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_5 = (Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)il2cpp_codegen_object_new(Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
 		Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048(L_5, Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_6 = L_5;
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_7;
 		L_7 = ChatClient_get_AuthValues_mC9F4405E66924D1BA21DEDE10848199C24915476_inline(__this, NULL);
+		NullCheck(L_7);
 		RuntimeObject* L_8;
 		L_8 = AuthenticationValues_get_Token_m5A51A48A263944BAAA27F558EC8618B121CC2765_inline(L_7, NULL);
+		NullCheck(L_6);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_6, (uint8_t)((int32_t)221), L_8, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		V_0 = L_6;
 		// if (this.PrivateChatHistoryLength > -1)
@@ -7305,6 +7583,7 @@ IL_0031:
 		int32_t L_11 = __this->___PrivateChatHistoryLength_14;
 		int32_t L_12 = L_11;
 		RuntimeObject* L_13 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_12);
+		NullCheck(L_10);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_10, (uint8_t)((int32_t)14), L_13, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 	}
 
@@ -7315,6 +7594,7 @@ IL_0069:
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_15 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var);
 		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_16 = ((SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields*)il2cpp_codegen_static_fields_for(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var))->___SendReliable_0;
+		NullCheck(L_14);
 		bool L_17;
 		L_17 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, L_14, (uint8_t)((int32_t)230), L_15, L_16);
 		return L_17;
@@ -7333,6 +7613,7 @@ IL_0080:
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "Can't authenticate on front end server. Authentication Values are not set");
 		RuntimeObject* L_19 = __this->___listener_18;
+		NullCheck(L_19);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_19, 1, _stringLiteral68981F620708F9798BD0661A61FE7446FBE99BB1);
 	}
 
@@ -7362,19 +7643,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleUserUnsubscribedEvent_m
 	{
 		// string channelName = eventData.Parameters[ChatParameterCode.Channel] as string;
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_0 = ___eventData0;
+		NullCheck(L_0);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_1 = L_0->___Parameters_1;
+		NullCheck(L_1);
 		RuntimeObject* L_2;
 		L_2 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_1, (uint8_t)1, NULL);
 		V_0 = ((String_t*)IsInstSealed((RuntimeObject*)L_2, String_t_il2cpp_TypeInfo_var));
 		// string userId = eventData.Parameters[ChatParameterCode.UserId] as string;
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_3 = ___eventData0;
+		NullCheck(L_3);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_4 = L_3->___Parameters_1;
+		NullCheck(L_4);
 		RuntimeObject* L_5;
 		L_5 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_4, (uint8_t)((int32_t)225), NULL);
 		V_1 = ((String_t*)IsInstSealed((RuntimeObject*)L_5, String_t_il2cpp_TypeInfo_var));
 		// if (this.PublicChannels.TryGetValue(channelName, out channel))
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_6 = __this->___PublicChannels_15;
 		String_t* L_7 = V_0;
+		NullCheck(L_6);
 		bool L_8;
 		L_8 = Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574(L_6, L_7, (&V_2), Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574_RuntimeMethod_var);
 		if (!L_8)
@@ -7385,6 +7671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleUserUnsubscribedEvent_m
 	{
 		// if (!channel.PublishSubscribers)
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_9 = V_2;
+		NullCheck(L_9);
 		bool L_10;
 		L_10 = ChatChannel_get_PublishSubscribers_m30398EBDCF6E7F5D9492086707802FCB77193A74_inline(L_9, NULL);
 		if (L_10)
@@ -7408,6 +7695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleUserUnsubscribedEvent_m
 		String_t* L_14 = V_1;
 		String_t* L_15;
 		L_15 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralA82892C79BF7C320FA3BFB55413015A1377BBF81, L_13, L_14, NULL);
+		NullCheck(L_12);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_12, 2, L_15);
 	}
 
@@ -7416,6 +7704,7 @@ IL_0061:
 		// if (!channel.RemoveSubscriber(userId)) // user not found!
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_16 = V_2;
 		String_t* L_17 = V_1;
+		NullCheck(L_16);
 		bool L_18;
 		L_18 = ChatChannel_RemoveSubscriber_m77F6089D6E0D3158EB99FD8696CF4314F5D4E73D(L_16, L_17, NULL);
 		if (L_18)
@@ -7439,6 +7728,7 @@ IL_0061:
 		String_t* L_22 = V_1;
 		String_t* L_23;
 		L_23 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF6F2030C05AC7B710C8B0CB6D94308D4BD9FB5DF, L_21, L_22, NULL);
+		NullCheck(L_20);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_20, 2, L_23);
 		goto IL_00ae;
 	}
@@ -7460,6 +7750,7 @@ IL_008d:
 		String_t* L_27 = V_1;
 		String_t* L_28;
 		L_28 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralD54B5B3649F0373103D67B6B7A8A9F07DB0123C4, L_26, L_27, NULL);
+		NullCheck(L_25);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_25, 2, L_28);
 	}
 
@@ -7469,6 +7760,7 @@ IL_00ae:
 		RuntimeObject* L_29 = __this->___listener_18;
 		String_t* L_30 = V_0;
 		String_t* L_31 = V_1;
+		NullCheck(L_29);
 		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(10 /* System.Void Photon.Chat.IChatClientListener::OnUserUnsubscribed(System.String,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_29, L_30, L_31);
 		// }
 		return;
@@ -7497,19 +7789,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleUserSubscribedEvent_m8F
 	{
 		// string channelName = eventData.Parameters[ChatParameterCode.Channel] as string;
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_0 = ___eventData0;
+		NullCheck(L_0);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_1 = L_0->___Parameters_1;
+		NullCheck(L_1);
 		RuntimeObject* L_2;
 		L_2 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_1, (uint8_t)1, NULL);
 		V_0 = ((String_t*)IsInstSealed((RuntimeObject*)L_2, String_t_il2cpp_TypeInfo_var));
 		// string userId = eventData.Parameters[ChatParameterCode.UserId] as string;
 		EventData_t1D834FCA8C994FD4AA4D12372B5532170DFD3681* L_3 = ___eventData0;
+		NullCheck(L_3);
 		ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3* L_4 = L_3->___Parameters_1;
+		NullCheck(L_4);
 		RuntimeObject* L_5;
 		L_5 = ParameterDictionary_get_Item_m8B3EF326A2553ED8DD48D04B1378B38B341544A3(L_4, (uint8_t)((int32_t)225), NULL);
 		V_1 = ((String_t*)IsInstSealed((RuntimeObject*)L_5, String_t_il2cpp_TypeInfo_var));
 		// if (this.PublicChannels.TryGetValue(channelName, out channel))
 		Dictionary_2_tF780F25E987C96A8AEDC6E8A3F4AB29019427B9E* L_6 = __this->___PublicChannels_15;
 		String_t* L_7 = V_0;
+		NullCheck(L_6);
 		bool L_8;
 		L_8 = Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574(L_6, L_7, (&V_2), Dictionary_2_TryGetValue_m3719415B76D0DF0B0491A2A81DFF2713B7F96574_RuntimeMethod_var);
 		if (!L_8)
@@ -7520,6 +7817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleUserSubscribedEvent_m8F
 	{
 		// if (!channel.PublishSubscribers)
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_9 = V_2;
+		NullCheck(L_9);
 		bool L_10;
 		L_10 = ChatChannel_get_PublishSubscribers_m30398EBDCF6E7F5D9492086707802FCB77193A74_inline(L_9, NULL);
 		if (L_10)
@@ -7543,6 +7841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatClient_HandleUserSubscribedEvent_m8F
 		String_t* L_14 = V_1;
 		String_t* L_15;
 		L_15 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral85018838CBFFFF831100BA4A581064C1BA9AC7EE, L_13, L_14, NULL);
+		NullCheck(L_12);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_12, 2, L_15);
 	}
 
@@ -7551,6 +7850,7 @@ IL_0064:
 		// if (!channel.AddSubscriber(userId)) // user came back from the dead ?
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_16 = V_2;
 		String_t* L_17 = V_1;
+		NullCheck(L_16);
 		bool L_18;
 		L_18 = ChatChannel_AddSubscriber_m99C1D8A453B5D493031845BD8642B2E21CC52198(L_16, L_17, NULL);
 		if (L_18)
@@ -7574,6 +7874,7 @@ IL_0064:
 		String_t* L_22 = V_1;
 		String_t* L_23;
 		L_23 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral28109F85CA80D67F72ADABF892ADE86ECA967B8C, L_21, L_22, NULL);
+		NullCheck(L_20);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_20, 2, L_23);
 		goto IL_010d;
 	}
@@ -7582,6 +7883,7 @@ IL_0093:
 	{
 		// else if (channel.MaxSubscribers > 0 && channel.Subscribers.Count > channel.MaxSubscribers)
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_24 = V_2;
+		NullCheck(L_24);
 		int32_t L_25;
 		L_25 = ChatChannel_get_MaxSubscribers_mB8947349369A4CFCD31E8A25DD9C7E6FB325D81A_inline(L_24, NULL);
 		if ((((int32_t)L_25) <= ((int32_t)0)))
@@ -7591,10 +7893,13 @@ IL_0093:
 	}
 	{
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_26 = V_2;
+		NullCheck(L_26);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_27 = L_26->___Subscribers_10;
+		NullCheck(L_27);
 		int32_t L_28;
 		L_28 = HashSet_1_get_Count_mAF52C76F83E02DA4DDF4B21CD4D2910BA7CF157F_inline(L_27, HashSet_1_get_Count_mAF52C76F83E02DA4DDF4B21CD4D2910BA7CF157F_RuntimeMethod_var);
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_29 = V_2;
+		NullCheck(L_29);
 		int32_t L_30;
 		L_30 = ChatChannel_get_MaxSubscribers_mB8947349369A4CFCD31E8A25DD9C7E6FB325D81A_inline(L_29, NULL);
 		if ((((int32_t)L_28) <= ((int32_t)L_30)))
@@ -7616,18 +7921,22 @@ IL_0093:
 		RuntimeObject* L_32 = __this->___listener_18;
 		String_t* L_33 = V_0;
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_34 = V_2;
+		NullCheck(L_34);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_35 = L_34->___Subscribers_10;
+		NullCheck(L_35);
 		int32_t L_36;
 		L_36 = HashSet_1_get_Count_mAF52C76F83E02DA4DDF4B21CD4D2910BA7CF157F_inline(L_35, HashSet_1_get_Count_mAF52C76F83E02DA4DDF4B21CD4D2910BA7CF157F_RuntimeMethod_var);
 		int32_t L_37 = L_36;
 		RuntimeObject* L_38 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_37);
 		ChatChannel_t8D4CB0B315BC5C6DCCE4C6BD547D9E2EAEB66CC1* L_39 = V_2;
+		NullCheck(L_39);
 		int32_t L_40;
 		L_40 = ChatChannel_get_MaxSubscribers_mB8947349369A4CFCD31E8A25DD9C7E6FB325D81A_inline(L_39, NULL);
 		int32_t L_41 = L_40;
 		RuntimeObject* L_42 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_41);
 		String_t* L_43;
 		L_43 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral4957F3CE2FF4C82ED66B5502CC44FA8717A4B529, L_33, L_38, L_42, NULL);
+		NullCheck(L_32);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_32, 2, L_43);
 		goto IL_010d;
 	}
@@ -7649,6 +7958,7 @@ IL_00ec:
 		String_t* L_47 = V_1;
 		String_t* L_48;
 		L_48 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralFADBBFF7D5071017209F0FAF588398FCC772AD53, L_46, L_47, NULL);
+		NullCheck(L_45);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_45, 2, L_48);
 	}
 
@@ -7658,6 +7968,7 @@ IL_010d:
 		RuntimeObject* L_49 = __this->___listener_18;
 		String_t* L_50 = V_0;
 		String_t* L_51 = V_1;
+		NullCheck(L_49);
 		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(9 /* System.Void Photon.Chat.IChatClientListener::OnUserSubscribed(System.String,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_49, L_50, L_51);
 		// }
 		return;
@@ -7715,11 +8026,13 @@ IL_000b:
 	{
 		// int maxSubscribers = creationOptions.MaxSubscribers;
 		ChannelCreationOptions_t1E18095B0781273EBFDE7DA6DCA16B7912E9E270* L_2 = ___creationOptions3;
+		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = ChannelCreationOptions_get_MaxSubscribers_m1F147E5851EF027099B954B5D4CADB288112ECA9_inline(L_2, NULL);
 		V_0 = L_3;
 		// bool publishSubscribers = creationOptions.PublishSubscribers;
 		ChannelCreationOptions_t1E18095B0781273EBFDE7DA6DCA16B7912E9E270* L_4 = ___creationOptions3;
+		NullCheck(L_4);
 		bool L_5;
 		L_5 = ChannelCreationOptions_get_PublishSubscribers_m1DE43FC2FA2BC1B223AD3006D33726E429EC1CD4_inline(L_4, NULL);
 		V_1 = L_5;
@@ -7742,6 +8055,7 @@ IL_000b:
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "Cannot set MaxSubscribers < 0.");
 		RuntimeObject* L_8 = __this->___listener_18;
+		NullCheck(L_8);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_8, 1, _stringLiteralDCD847B3D35C89810672FAB55F56E8C4AA9705AC);
 	}
 
@@ -7772,6 +8086,7 @@ IL_003b:
 	{
 		// this.listener.DebugReturn(DebugLevel.ERROR, "lastMsgId cannot be < 0.");
 		RuntimeObject* L_11 = __this->___listener_18;
+		NullCheck(L_11);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_11, 1, _stringLiteral0B5A4CDE2DD8CEA11EF5E3451DD217D6A15AD17D);
 	}
 
@@ -7802,6 +8117,7 @@ IL_005b:
 	{
 		// this.listener.DebugReturn(DebugLevel.WARNING, "messagesFromHistory < -1, setting it to -1");
 		RuntimeObject* L_14 = __this->___listener_18;
+		NullCheck(L_14);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_14, 2, _stringLiteral07445570109C992757EB9C92D1E61BACF9E55F91);
 	}
 
@@ -7839,6 +8155,7 @@ IL_007c:
 	{
 		// this.listener.DebugReturn(DebugLevel.WARNING, "lastMsgId will be ignored because messagesFromHistory == 0");
 		RuntimeObject* L_18 = __this->___listener_18;
+		NullCheck(L_18);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_18, 2, _stringLiteralEA2EDCE0F75D698215106063C4484FB4DE0395E9);
 	}
 
@@ -7884,6 +8201,7 @@ IL_00a0:
 		RuntimeObject* L_24 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_23);
 		String_t* L_25;
 		L_25 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralE9E2E3F5DF3ABF46A5982E73A60F7A768AE2BD7D, L_24, NULL);
+		NullCheck(L_22);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void Photon.Chat.IChatClientListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IChatClientListener_t7809F4EE0368FF3496A7123CCAFF8BA0B1A02B2F_il2cpp_TypeInfo_var, L_22, 1, L_25);
 	}
 
@@ -7897,6 +8215,7 @@ IL_00d2:
 	{
 		// properties = new Dictionary<object, object>();
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_26 = (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA*)il2cpp_codegen_object_new(Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA_il2cpp_TypeInfo_var);
+		NullCheck(L_26);
 		Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329(L_26, Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_RuntimeMethod_var);
 		V_2 = L_26;
 		// properties[ChannelWellKnownProperties.PublishSubscribers] = true;
@@ -7905,6 +8224,7 @@ IL_00d2:
 		RuntimeObject* L_29 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_28);
 		bool L_30 = ((bool)1);
 		RuntimeObject* L_31 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_30);
+		NullCheck(L_27);
 		Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD(L_27, L_29, L_31, Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_RuntimeMethod_var);
 	}
 
@@ -7928,6 +8248,7 @@ IL_00ee:
 	{
 		// properties = new Dictionary<object, object>();
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_34 = (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA*)il2cpp_codegen_object_new(Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA_il2cpp_TypeInfo_var);
+		NullCheck(L_34);
 		Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329(L_34, Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_RuntimeMethod_var);
 		V_2 = L_34;
 	}
@@ -7941,6 +8262,7 @@ IL_00fb:
 		int32_t L_38 = V_0;
 		int32_t L_39 = L_38;
 		RuntimeObject* L_40 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_39);
+		NullCheck(L_35);
 		Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD(L_35, L_37, L_40, Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_RuntimeMethod_var);
 	}
 
@@ -7948,14 +8270,17 @@ IL_0111:
 	{
 		// Dictionary<byte, object> opParameters = new Dictionary<byte, object> { { ChatParameterCode.Channels, new[] { channel } } };
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_41 = (Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)il2cpp_codegen_object_new(Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var);
+		NullCheck(L_41);
 		Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048(L_41, Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048_RuntimeMethod_var);
 		V_4 = L_41;
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_42 = V_4;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_43 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_44 = L_43;
 		String_t* L_45 = ___channel0;
+		NullCheck(L_44);
 		ArrayElementTypeCheck (L_44, L_45);
-		(L_44)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (String_t*)L_45);
+		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_45);
+		NullCheck(L_42);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_42, (uint8_t)0, (RuntimeObject*)L_44, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_46 = V_4;
 		V_3 = L_46;
@@ -7972,6 +8297,7 @@ IL_0111:
 		int32_t L_49 = ___messagesFromHistory2;
 		int32_t L_50 = L_49;
 		RuntimeObject* L_51 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_50);
+		NullCheck(L_48);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_48, (uint8_t)((int32_t)14), L_51, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 	}
 
@@ -7990,7 +8316,9 @@ IL_013e:
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_54 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)1);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_55 = L_54;
 		int32_t L_56 = ___lastMsgId1;
-		(L_55)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (int32_t)L_56);
+		NullCheck(L_55);
+		(L_55)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_56);
+		NullCheck(L_53);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_53, (uint8_t)((int32_t)9), (RuntimeObject*)L_55, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 	}
 
@@ -8005,6 +8333,7 @@ IL_0154:
 	}
 	{
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_58 = V_2;
+		NullCheck(L_58);
 		int32_t L_59;
 		L_59 = Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549(L_58, Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549_RuntimeMethod_var);
 		if ((((int32_t)L_59) <= ((int32_t)0)))
@@ -8016,6 +8345,7 @@ IL_0154:
 		// opParameters.Add(ChatParameterCode.Properties, properties);
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_60 = V_3;
 		Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* L_61 = V_2;
+		NullCheck(L_60);
 		Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20(L_60, (uint8_t)((int32_t)22), L_61, Dictionary_2_Add_m172B6DC23E861887432196C468285C1492E0CC20_RuntimeMethod_var);
 	}
 
@@ -8026,6 +8356,7 @@ IL_0169:
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_63 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var);
 		SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 L_64 = ((SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields*)il2cpp_codegen_static_fields_for(SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_il2cpp_TypeInfo_var))->___SendReliable_0;
+		NullCheck(L_62);
 		bool L_65;
 		L_65 = VirtualFuncInvoker3< bool, uint8_t, Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*, SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 >::Invoke(15 /* System.Boolean ExitGames.Client.Photon.PhotonPeer::SendOperation(System.Byte,System.Collections.Generic.Dictionary`2<System.Byte,System.Object>,ExitGames.Client.Photon.SendOptions) */, L_62, (uint8_t)0, L_63, L_64);
 		return L_65;
@@ -8209,10 +8540,12 @@ IL_0038:
 		// this.SocketImplementationConfig[ConnectionProtocol.WebSocket] = websocketType;
 		Dictionary_2_tAD182111317FFA6F3D46F2A5D89115A1E112F989* L_9 = ((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)__this)->___SocketImplementationConfig_18;
 		Type_t* L_10 = V_0;
+		NullCheck(L_9);
 		Dictionary_2_set_Item_mAE765E357E41A8F8E5B4BB7432F18D8C7CC3BDC1(L_9, 4, L_10, Dictionary_2_set_Item_mAE765E357E41A8F8E5B4BB7432F18D8C7CC3BDC1_RuntimeMethod_var);
 		// this.SocketImplementationConfig[ConnectionProtocol.WebSocketSecure] = websocketType;
 		Dictionary_2_tAD182111317FFA6F3D46F2A5D89115A1E112F989* L_11 = ((PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C*)__this)->___SocketImplementationConfig_18;
 		Type_t* L_12 = V_0;
+		NullCheck(L_11);
 		Dictionary_2_set_Item_mAE765E357E41A8F8E5B4BB7432F18D8C7CC3BDC1(L_11, 5, L_12, Dictionary_2_set_Item_mAE765E357E41A8F8E5B4BB7432F18D8C7CC3BDC1_RuntimeMethod_var);
 	}
 
@@ -8249,6 +8582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChatPeer_GetNameServerAddress_m6582
 		Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* L_0 = ((ChatPeer_t216E56C8D1791380415477470013A3787DF76D43_StaticFields*)il2cpp_codegen_static_fields_for(ChatPeer_t216E56C8D1791380415477470013A3787DF76D43_il2cpp_TypeInfo_var))->___ProtocolToNameServerPort_63;
 		uint8_t L_1;
 		L_1 = PhotonPeer_get_TransportProtocol_mC3688A65F01A1BDB8B5CAFFAFAF5BA6980885AF8_inline(__this, NULL);
+		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_TryGetValue_m7A41D6DDBFFD29C4429FA26A1BA2BF864009A3BE(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_m7A41D6DDBFFD29C4429FA26A1BA2BF864009A3BE_RuntimeMethod_var);
 		// if (this.NameServerPortOverride != 0)
@@ -8267,6 +8601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ChatPeer_GetNameServerAddress_m6582
 		RuntimeObject* L_7 = Box(UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var, &L_6);
 		String_t* L_8;
 		L_8 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral1AE9B3CF5AE017754E39259FE1ECEDCE06CA1CBF, L_7, NULL);
+		NullCheck(L_4);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_tCF670245092F1C9F0BB8F83AE0742E9473417E6D_il2cpp_TypeInfo_var, L_4, 3, L_8);
 		// protocolPort = this.NameServerPortOverride;
 		uint16_t L_9 = __this->___NameServerPortOverride_64;
@@ -8352,6 +8687,7 @@ IL_00b1:
 	{
 		// throw new ArgumentOutOfRangeException();
 		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_27 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_27);
 		ArgumentOutOfRangeException__ctor_mB596C51BFA864B65C2CED275458FAE90F7CD29C9(L_27, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_27, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ChatPeer_GetNameServerAddress_m658289FA23C7386FB38A03CF3B51C973302BB217_RuntimeMethod_var)));
 	}
@@ -8385,6 +8721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChatPeer_AuthenticateOnNameServer_m31221
 		// this.Listener.DebugReturn(DebugLevel.INFO, "OpAuthenticate()");
 		RuntimeObject* L_1;
 		L_1 = PhotonPeer_get_Listener_mB769F69826EC32376B6FB257FEF8B7AC7881B971_inline(__this, NULL);
+		NullCheck(L_1);
 		InterfaceActionInvoker2< uint8_t, String_t* >::Invoke(0 /* System.Void ExitGames.Client.Photon.IPhotonPeerListener::DebugReturn(ExitGames.Client.Photon.DebugLevel,System.String) */, IPhotonPeerListener_tCF670245092F1C9F0BB8F83AE0742E9473417E6D_il2cpp_TypeInfo_var, L_1, 3, _stringLiteralB7A0517E53F97847DA11954EC5BB6A0ABEB18E1F);
 	}
 
@@ -8392,19 +8729,23 @@ IL_001a:
 	{
 		// var opParameters = new Dictionary<byte, object>();
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_2 = (Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1*)il2cpp_codegen_object_new(Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
 		Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048(L_2, Dictionary_2__ctor_m88EEEFF844FE740CF9A14946245A4BA58C7FC048_RuntimeMethod_var);
 		V_0 = L_2;
 		// opParameters[ParameterCode.AppVersion] = appVersion;
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_3 = V_0;
 		String_t* L_4 = ___appVersion1;
+		NullCheck(L_3);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_3, (uint8_t)((int32_t)220), L_4, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 		// opParameters[ParameterCode.ApplicationId] = appId;
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_5 = V_0;
 		String_t* L_6 = ___appId0;
+		NullCheck(L_5);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_5, (uint8_t)((int32_t)224), L_6, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 		// opParameters[ParameterCode.Region] = region;
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_7 = V_0;
 		String_t* L_8 = ___region2;
+		NullCheck(L_7);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_7, (uint8_t)((int32_t)210), L_8, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 		// if (authValues != null)
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_9 = ___authValues3;
@@ -8416,6 +8757,7 @@ IL_001a:
 	{
 		// if (!string.IsNullOrEmpty(authValues.UserId))
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_10 = ___authValues3;
+		NullCheck(L_10);
 		String_t* L_11;
 		L_11 = AuthenticationValues_get_UserId_m61CDE1031F42330B0EDC0EC489A75E46E1DB6B79_inline(L_10, NULL);
 		bool L_12;
@@ -8429,8 +8771,10 @@ IL_001a:
 		// opParameters[ParameterCode.UserId] = authValues.UserId;
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_13 = V_0;
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_14 = ___authValues3;
+		NullCheck(L_14);
 		String_t* L_15;
 		L_15 = AuthenticationValues_get_UserId_m61CDE1031F42330B0EDC0EC489A75E46E1DB6B79_inline(L_14, NULL);
+		NullCheck(L_13);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_13, (uint8_t)((int32_t)225), L_15, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 	}
 
@@ -8438,6 +8782,7 @@ IL_006b:
 	{
 		// if (authValues.AuthType != CustomAuthenticationType.None)
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_16 = ___authValues3;
+		NullCheck(L_16);
 		uint8_t L_17;
 		L_17 = AuthenticationValues_get_AuthType_m0F71CF47439FF7CF99AC9CEBA528B85D29EC393C_inline(L_16, NULL);
 		if ((((int32_t)L_17) == ((int32_t)((int32_t)255))))
@@ -8449,13 +8794,16 @@ IL_006b:
 		// opParameters[ParameterCode.ClientAuthenticationType] = (byte) authValues.AuthType;
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_18 = V_0;
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_19 = ___authValues3;
+		NullCheck(L_19);
 		uint8_t L_20;
 		L_20 = AuthenticationValues_get_AuthType_m0F71CF47439FF7CF99AC9CEBA528B85D29EC393C_inline(L_19, NULL);
 		uint8_t L_21 = ((uint8_t)L_20);
 		RuntimeObject* L_22 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_21);
+		NullCheck(L_18);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_18, (uint8_t)((int32_t)217), L_22, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 		// if (authValues.Token != null)
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_23 = ___authValues3;
+		NullCheck(L_23);
 		RuntimeObject* L_24;
 		L_24 = AuthenticationValues_get_Token_m5A51A48A263944BAAA27F558EC8618B121CC2765_inline(L_23, NULL);
 		if (!L_24)
@@ -8467,8 +8815,10 @@ IL_006b:
 		// opParameters[ParameterCode.Secret] = authValues.Token;
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_25 = V_0;
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_26 = ___authValues3;
+		NullCheck(L_26);
 		RuntimeObject* L_27;
 		L_27 = AuthenticationValues_get_Token_m5A51A48A263944BAAA27F558EC8618B121CC2765_inline(L_26, NULL);
+		NullCheck(L_25);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_25, (uint8_t)((int32_t)221), L_27, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 		goto IL_00e8;
 	}
@@ -8477,6 +8827,7 @@ IL_00ad:
 	{
 		// if (!string.IsNullOrEmpty(authValues.AuthGetParameters))
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_28 = ___authValues3;
+		NullCheck(L_28);
 		String_t* L_29;
 		L_29 = AuthenticationValues_get_AuthGetParameters_mBD8FD611CDC2F19026B0FD77807D664084B8C721_inline(L_28, NULL);
 		bool L_30;
@@ -8490,8 +8841,10 @@ IL_00ad:
 		// opParameters[ParameterCode.ClientAuthenticationParams] = authValues.AuthGetParameters;
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_31 = V_0;
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_32 = ___authValues3;
+		NullCheck(L_32);
 		String_t* L_33;
 		L_33 = AuthenticationValues_get_AuthGetParameters_mBD8FD611CDC2F19026B0FD77807D664084B8C721_inline(L_32, NULL);
+		NullCheck(L_31);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_31, (uint8_t)((int32_t)216), L_33, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 	}
 
@@ -8499,6 +8852,7 @@ IL_00cd:
 	{
 		// if (authValues.AuthPostData != null)
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_34 = ___authValues3;
+		NullCheck(L_34);
 		RuntimeObject* L_35;
 		L_35 = AuthenticationValues_get_AuthPostData_mCAA0ECC6166A47228B7C18DF24166EF48D3AF646_inline(L_34, NULL);
 		if (!L_35)
@@ -8510,8 +8864,10 @@ IL_00cd:
 		// opParameters[ParameterCode.ClientAuthenticationData] = authValues.AuthPostData;
 		Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* L_36 = V_0;
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_37 = ___authValues3;
+		NullCheck(L_37);
 		RuntimeObject* L_38;
 		L_38 = AuthenticationValues_get_AuthPostData_mCAA0ECC6166A47228B7C18DF24166EF48D3AF646_inline(L_37, NULL);
+		NullCheck(L_36);
 		Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4(L_36, (uint8_t)((int32_t)214), L_38, Dictionary_2_set_Item_m8BEB94760CA6F27CF244C9860AD50B9339089AF4_RuntimeMethod_var);
 	}
 
@@ -8545,14 +8901,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChatPeer__cctor_mB92DD7F353D38D803679D15
 	{
 		// private static readonly Dictionary<ConnectionProtocol, int> ProtocolToNameServerPort = new Dictionary<ConnectionProtocol, int>() { { ConnectionProtocol.Udp, 5058 }, { ConnectionProtocol.Tcp, 4533 }, { ConnectionProtocol.WebSocket, 9093 }, { ConnectionProtocol.WebSocketSecure, 19093 } }; //, { ConnectionProtocol.RHttp, 6063 } };
 		Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* L_0 = (Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80*)il2cpp_codegen_object_new(Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		Dictionary_2__ctor_m3624D5290223E183D570E4CC5E15C7CC257D5F79(L_0, Dictionary_2__ctor_m3624D5290223E183D570E4CC5E15C7CC257D5F79_RuntimeMethod_var);
 		Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* L_1 = L_0;
+		NullCheck(L_1);
 		Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF(L_1, 0, ((int32_t)5058), Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF_RuntimeMethod_var);
 		Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* L_2 = L_1;
+		NullCheck(L_2);
 		Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF(L_2, 1, ((int32_t)4533), Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF_RuntimeMethod_var);
 		Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* L_3 = L_2;
+		NullCheck(L_3);
 		Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF(L_3, 4, ((int32_t)9093), Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF_RuntimeMethod_var);
 		Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* L_4 = L_3;
+		NullCheck(L_4);
 		Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF(L_4, 5, ((int32_t)19093), Dictionary_2_Add_m291E5851FAB0231C97915E3EC3E9DC09CD6123CF_RuntimeMethod_var);
 		((ChatPeer_t216E56C8D1791380415477470013A3787DF76D43_StaticFields*)il2cpp_codegen_static_fields_for(ChatPeer_t216E56C8D1791380415477470013A3787DF76D43_il2cpp_TypeInfo_var))->___ProtocolToNameServerPort_63 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&((ChatPeer_t216E56C8D1791380415477470013A3787DF76D43_StaticFields*)il2cpp_codegen_static_fields_for(ChatPeer_t216E56C8D1791380415477470013A3787DF76D43_il2cpp_TypeInfo_var))->___ProtocolToNameServerPort_63), (void*)L_4);
@@ -8728,6 +9089,7 @@ IL_000c:
 
 IL_000d:
 	{
+		NullCheck(G_B3_1);
 		AuthenticationValues_set_AuthPostData_m35BBCD7D16E9A774104702DDE7AAD2B9890DB0C9_inline(G_B3_1, G_B3_0, NULL);
 		// }
 		return;
@@ -8799,25 +9161,29 @@ IL_0019:
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_2;
 		String_t* L_4;
 		L_4 = AuthenticationValues_get_AuthGetParameters_mBD8FD611CDC2F19026B0FD77807D664084B8C721_inline(__this, NULL);
+		NullCheck(L_3);
 		ArrayElementTypeCheck (L_3, L_4);
-		(L_3)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_3;
 		String_t* L_6 = V_0;
+		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
-		(L_5)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_6);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
 		String_t* L_8 = ___key0;
 		il2cpp_codegen_runtime_class_init_inline(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
 		String_t* L_9;
 		L_9 = Uri_EscapeDataString_m844D0FB6899488BDEBAF160B23397CD7ED8CA2DF(L_8, NULL);
+		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_9);
-		(L_7)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_9);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_9);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10 = L_7;
 		String_t* L_11 = ___value1;
 		String_t* L_12;
 		L_12 = Uri_EscapeDataString_m844D0FB6899488BDEBAF160B23397CD7ED8CA2DF(L_11, NULL);
+		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, L_12);
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_12);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_12);
 		String_t* L_13;
 		L_13 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral4481DFAA44A224ED937CFB9CFFB4AEA2435C0B68, L_10, NULL);
 		AuthenticationValues_set_AuthGetParameters_m0A7179AD6ED8D4E8BA046DF9D04DC6A203B0B029_inline(__this, L_13, NULL);
@@ -8843,27 +9209,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AuthenticationValues_ToString_mA8AF
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		String_t* L_2;
 		L_2 = AuthenticationValues_get_UserId_m61CDE1031F42330B0EDC0EC489A75E46E1DB6B79_inline(__this, NULL);
+		NullCheck(L_1);
 		ArrayElementTypeCheck (L_1, L_2);
-		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_2);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_1;
 		String_t* L_4;
 		L_4 = AuthenticationValues_get_AuthGetParameters_mBD8FD611CDC2F19026B0FD77807D664084B8C721_inline(__this, NULL);
+		NullCheck(L_3);
 		ArrayElementTypeCheck (L_3, L_4);
-		(L_3)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_3;
 		RuntimeObject* L_6;
 		L_6 = AuthenticationValues_get_Token_m5A51A48A263944BAAA27F558EC8618B121CC2765_inline(__this, NULL);
 		bool L_7 = ((bool)((!(((RuntimeObject*)(RuntimeObject*)L_6) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0));
 		RuntimeObject* L_8 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_7);
+		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_8);
-		(L_5)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_8);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_5;
 		uint8_t L_10;
 		L_10 = AuthenticationValues_get_AuthType_m0F71CF47439FF7CF99AC9CEBA528B85D29EC393C_inline(__this, NULL);
 		uint8_t L_11 = L_10;
 		RuntimeObject* L_12 = Box(CustomAuthenticationType_tC787510EF30CF4A491196ABF605F289F38143A15_il2cpp_TypeInfo_var, &L_11);
+		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_12);
-		(L_9)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_12);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_12);
 		String_t* L_13;
 		L_13 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral610AC17320941C760FFD5A2AAB296394668E096E, L_9, NULL);
 		return L_13;
@@ -8877,21 +9247,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AuthenticationValues_t280C50CB2B86FA149EE99B6
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_0 = ___copy0;
 		uint8_t L_1;
 		L_1 = AuthenticationValues_get_AuthType_m0F71CF47439FF7CF99AC9CEBA528B85D29EC393C_inline(__this, NULL);
+		NullCheck(L_0);
 		AuthenticationValues_set_AuthType_m519421DCCFF7B04D46E42006D878CC54DB989404_inline(L_0, L_1, NULL);
 		// copy.AuthGetParameters = this.AuthGetParameters;
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_2 = ___copy0;
 		String_t* L_3;
 		L_3 = AuthenticationValues_get_AuthGetParameters_mBD8FD611CDC2F19026B0FD77807D664084B8C721_inline(__this, NULL);
+		NullCheck(L_2);
 		AuthenticationValues_set_AuthGetParameters_m0A7179AD6ED8D4E8BA046DF9D04DC6A203B0B029_inline(L_2, L_3, NULL);
 		// copy.AuthPostData = this.AuthPostData;
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_4 = ___copy0;
 		RuntimeObject* L_5;
 		L_5 = AuthenticationValues_get_AuthPostData_mCAA0ECC6166A47228B7C18DF24166EF48D3AF646_inline(__this, NULL);
+		NullCheck(L_4);
 		AuthenticationValues_set_AuthPostData_m35BBCD7D16E9A774104702DDE7AAD2B9890DB0C9_inline(L_4, L_5, NULL);
 		// copy.UserId = this.UserId;
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_6 = ___copy0;
 		String_t* L_7;
 		L_7 = AuthenticationValues_get_UserId_m61CDE1031F42330B0EDC0EC489A75E46E1DB6B79_inline(__this, NULL);
+		NullCheck(L_6);
 		AuthenticationValues_set_UserId_mEA1F6C71D108FD9915143893DDFDDDECE936B0D0_inline(L_6, L_7, NULL);
 		// return copy;
 		AuthenticationValues_t280C50CB2B86FA149EE99B6405C5636B2AEFFD1C* L_8 = ___copy0;
@@ -9317,6 +9691,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 		V_1 = L_2;
 		int32_t L_3 = V_1;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
 		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
 		{
 			goto IL_0034;
@@ -9328,7 +9703,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
 		int32_t L_7 = V_1;
 		RuntimeObject* L_8 = ___item0;
-		(L_6)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
 		return;
 	}
 

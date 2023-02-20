@@ -725,11 +725,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioMicIn_createCallbackStatic_mCD76
 		il2cpp_codegen_runtime_class_init_inline(WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_il2cpp_TypeInfo_var);
 		Dictionary_2_t9179218B38726012A63BC45CE48B4E488836BDE5* L_0 = ((WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_StaticFields*)il2cpp_codegen_static_fields_for(WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_il2cpp_TypeInfo_var))->___handles_3;
 		int32_t L_1 = ___handle0;
+		NullCheck(L_0);
 		WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11* L_2;
 		L_2 = Dictionary_2_get_Item_m728F3D419708F55CC085C93C63BE7F0492A66A74(L_0, L_1, Dictionary_2_get_Item_m728F3D419708F55CC085C93C63BE7F0492A66A74_RuntimeMethod_var);
 		int32_t L_3 = ___err1;
 		int32_t L_4 = ___samplingRate2;
 		int32_t L_5 = ___channels3;
+		NullCheck(L_2);
 		WebAudioMicIn_createCallback_m9E2EDD5E495E84EBF96F85B921AE3BDD64BE5CB4(L_2, L_3, L_4, L_5, NULL);
 		// }
 		return;
@@ -773,6 +775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioMicIn_createCallback_m9E2EDD5E49
 		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFBAD21C33A03900F77396C80A13F18FC25D4EB2F, L_4, NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_3);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0 /* System.Void Photon.Voice.ILogger::LogError(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_3, L_5, L_6);
 		return;
 	}
@@ -789,20 +792,24 @@ IL_003b:
 		int32_t L_11 = __this->___handle_2;
 		int32_t L_12 = L_11;
 		RuntimeObject* L_13 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_12);
+		NullCheck(L_10);
 		ArrayElementTypeCheck (L_10, L_13);
-		(L_10)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_13);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_13);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_10;
 		int32_t L_15 = ___samplingRate1;
 		int32_t L_16 = L_15;
 		RuntimeObject* L_17 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_16);
+		NullCheck(L_14);
 		ArrayElementTypeCheck (L_14, L_17);
-		(L_14)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_17);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_17);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18 = L_14;
 		int32_t L_19 = ___channels2;
 		int32_t L_20 = L_19;
 		RuntimeObject* L_21 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_20);
+		NullCheck(L_18);
 		ArrayElementTypeCheck (L_18, L_21);
-		(L_18)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_21);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_21);
+		NullCheck(L_8);
 		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(2 /* System.Void Photon.Voice.ILogger::LogInfo(System.String,System.Object[]) */, ILogger_tE41EB161CB1205DD786A7A636AB6AC37A186E075_il2cpp_TypeInfo_var, L_8, _stringLiteralA20CCD2F538CE2EFE7F631F26456DDDBDC6BFFBC, L_18);
 		// }
 		return;
@@ -823,10 +830,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioMicIn_dataCallbackStatic_m5496AD
 		il2cpp_codegen_runtime_class_init_inline(WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_il2cpp_TypeInfo_var);
 		Dictionary_2_t9179218B38726012A63BC45CE48B4E488836BDE5* L_0 = ((WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_StaticFields*)il2cpp_codegen_static_fields_for(WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_il2cpp_TypeInfo_var))->___handles_3;
 		int32_t L_1 = ___handle0;
+		NullCheck(L_0);
 		WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11* L_2;
 		L_2 = Dictionary_2_get_Item_m728F3D419708F55CC085C93C63BE7F0492A66A74(L_0, L_1, Dictionary_2_get_Item_m728F3D419708F55CC085C93C63BE7F0492A66A74_RuntimeMethod_var);
 		intptr_t L_3 = ___p1;
 		int32_t L_4 = ___countFloat2;
+		NullCheck(L_2);
 		WebAudioMicIn_dataCallback_m564E6014EC3196E7DF7CF0911EF82D9B44CC8774(L_2, L_3, L_4, NULL);
 		// }
 		return;
@@ -862,6 +871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioMicIn_dataCallback_m564E6014EC31
 	}
 	{
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = __this->___bufSource_5;
+		NullCheck(L_2);
 		int32_t L_3 = ___countFloat1;
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))) >= ((int32_t)L_3)))
 		{
@@ -909,6 +919,7 @@ IL_0041:
 		// pushCallback(bufTarget);
 		Action_1_t178AACF05C0F15030E739209018FAB278C66C6F3* L_20 = __this->___pushCallback_8;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_21 = __this->___bufTarget_6;
+		NullCheck(L_20);
 		Action_1_Invoke_mBE0A0BDCAD5FEDE1C45EA97B02BFEB89E5AA3728_inline(L_20, L_21, NULL);
 	}
 
@@ -954,12 +965,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioMicIn__ctor_m39CD25144071BC91CA4
 		// handles[handle] = this;
 		Dictionary_2_t9179218B38726012A63BC45CE48B4E488836BDE5* L_4 = ((WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_StaticFields*)il2cpp_codegen_static_fields_for(WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_il2cpp_TypeInfo_var))->___handles_3;
 		int32_t L_5 = __this->___handle_2;
+		NullCheck(L_4);
 		Dictionary_2_set_Item_m029B1D207F02E819DD5FB935DBF8E3E8F9DA8F74(L_4, L_5, __this, Dictionary_2_set_Item_m029B1D207F02E819DD5FB935DBF8E3E8F9DA8F74_RuntimeMethod_var);
 		// PhotonVoice_WebAudioMicIn_Start(handle, createCallbackStatic, dataCallbackStatic, 30);
 		int32_t L_6 = __this->___handle_2;
 		Action_4_t226D79A062EB6BFF3E2C7E7853FC37BB00B95A80* L_7 = (Action_4_t226D79A062EB6BFF3E2C7E7853FC37BB00B95A80*)il2cpp_codegen_object_new(Action_4_t226D79A062EB6BFF3E2C7E7853FC37BB00B95A80_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
 		Action_4__ctor_mC889E292AD98982C9EEADC3A692E75758BE9C28D(L_7, NULL, (intptr_t)((void*)WebAudioMicIn_createCallbackStatic_mCD76DF7A12966E7C3357250EA7D9D4142B5C820A_RuntimeMethod_var), NULL);
 		Action_3_tCA1CD1F31D2010AED19E3F3F3027533188D0D312* L_8 = (Action_3_tCA1CD1F31D2010AED19E3F3F3027533188D0D312*)il2cpp_codegen_object_new(Action_3_tCA1CD1F31D2010AED19E3F3F3027533188D0D312_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
 		Action_3__ctor_mBFCA39814E57ACF92B00660146991BFB608B87C8(L_8, NULL, (intptr_t)((void*)WebAudioMicIn_dataCallbackStatic_m5496AD53D4297D77D4016D15C4A4FC91DF4B9CE3_RuntimeMethod_var), NULL);
 		int32_t L_9;
 		L_9 = WebAudioMicIn_PhotonVoice_WebAudioMicIn_Start_mE27DCE5340F68D82E3D895E162853C62A9DE5503(L_6, L_7, L_8, ((int32_t)30), NULL);
@@ -1110,6 +1124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebAudioMicIn__cctor_m54144275F513648145
 	{
 		// static Dictionary<int, WebAudioMicIn> handles = new Dictionary<int, WebAudioMicIn>();
 		Dictionary_2_t9179218B38726012A63BC45CE48B4E488836BDE5* L_0 = (Dictionary_2_t9179218B38726012A63BC45CE48B4E488836BDE5*)il2cpp_codegen_object_new(Dictionary_2_t9179218B38726012A63BC45CE48B4E488836BDE5_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		Dictionary_2__ctor_mD0C50AB1F0E1B17CCE4AE774F3AC3BBF59D06EC7(L_0, Dictionary_2__ctor_mD0C50AB1F0E1B17CCE4AE774F3AC3BBF59D06EC7_RuntimeMethod_var);
 		((WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_StaticFields*)il2cpp_codegen_static_fields_for(WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_il2cpp_TypeInfo_var))->___handles_3 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_StaticFields*)il2cpp_codegen_static_fields_for(WebAudioMicIn_t4E3DD3E7DD7DB0B3DC162993CB6B484F51958D11_il2cpp_TypeInfo_var))->___handles_3), (void*)L_0);
@@ -1263,8 +1278,9 @@ IL_000e:
 		int32_t L_1 = V_0;
 		AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867* L_2 = __this->___CategoryOptions_2;
 		int32_t L_3 = V_1;
+		NullCheck(L_2);
 		int32_t L_4 = L_3;
-		int32_t L_5 = (int32_t)(L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
+		int32_t L_5 = (int32_t)(L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_0 = ((int32_t)(L_1|L_5));
 		// for (int i = 0; i < CategoryOptions.Length; i++)
 		int32_t L_6 = V_1;
@@ -1276,6 +1292,7 @@ IL_001d:
 		// for (int i = 0; i < CategoryOptions.Length; i++)
 		int32_t L_7 = V_1;
 		AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867* L_8 = __this->___CategoryOptions_2;
+		NullCheck(L_8);
 		if ((((int32_t)L_7) < ((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length)))))
 		{
 			goto IL_000e;
@@ -1337,7 +1354,8 @@ IL_0012:
 		String_t* L_1 = V_0;
 		AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867* L_2 = __this->___CategoryOptions_2;
 		int32_t L_3 = V_1;
-		Il2CppFakeBox<int32_t> L_4(AudioSessionCategoryOption_tB65209ED5D05B821BF3DF03109C70597F97AAAF3_il2cpp_TypeInfo_var, ((L_2)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_3))));
+		NullCheck(L_2);
+		Il2CppFakeBox<int32_t> L_4(AudioSessionCategoryOption_tB65209ED5D05B821BF3DF03109C70597F97AAAF3_il2cpp_TypeInfo_var, ((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3))));
 		String_t* L_5;
 		L_5 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_4), NULL);
 		String_t* L_6;
@@ -1346,6 +1364,7 @@ IL_0012:
 		// if (i != CategoryOptions.Length - 1)
 		int32_t L_7 = V_1;
 		AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867* L_8 = __this->___CategoryOptions_2;
+		NullCheck(L_8);
 		if ((((int32_t)L_7) == ((int32_t)((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_8)->max_length)), 1)))))
 		{
 			goto IL_0049;
@@ -1371,6 +1390,7 @@ IL_004d:
 		// for (int i = 0; i < CategoryOptions.Length; i++)
 		int32_t L_12 = V_1;
 		AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867* L_13 = __this->___CategoryOptions_2;
+		NullCheck(L_13);
 		if ((((int32_t)L_12) < ((int32_t)((int32_t)(((RuntimeArray*)L_13)->max_length)))))
 		{
 			goto IL_0012;
@@ -1438,9 +1458,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSessionParametersPresets__cctor_mBB
 		(&V_0)->___Mode_1 = 0;
 		AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867* L_0 = (AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867*)(AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867*)SZArrayNew(AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867_il2cpp_TypeInfo_var, (uint32_t)2);
 		AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867* L_1 = L_0;
-		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (int32_t)8);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)8);
 		AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867* L_2 = L_1;
-		(L_2)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), (int32_t)4);
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)4);
 		(&V_0)->___CategoryOptions_2 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___CategoryOptions_2), (void*)L_2);
 		AudioSessionParameters_t1AF1732698B36F46E4914C11DE013498CD279C37 L_3 = V_0;
@@ -1459,7 +1481,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSessionParametersPresets__cctor_mBB
 		(&V_0)->___Mode_1 = 1;
 		AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867* L_4 = (AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867*)(AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867*)SZArrayNew(AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867_il2cpp_TypeInfo_var, (uint32_t)1);
 		AudioSessionCategoryOptionU5BU5D_tDE452C63A96D619A3AE7D328A5E074AA02BC9867* L_5 = L_4;
-		(L_5)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (int32_t)4);
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)4);
 		(&V_0)->___CategoryOptions_2 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___CategoryOptions_2), (void*)L_5);
 		AudioSessionParameters_t1AF1732698B36F46E4914C11DE013498CD279C37 L_6 = V_0;

@@ -940,8 +940,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PhysicsScene2D_ToString_mACA22EF575
 		int32_t L_2 = __this->___m_Handle_0;
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_3);
+		NullCheck(L_1);
 		ArrayElementTypeCheck (L_1, L_4);
-		(L_1)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
 		String_t* L_5;
 		L_5 = UnityString_Format_m98A0629641086A1BE20BBF7F4EADDE3FE3877D85(_stringLiteral21ACE806CE655297BC379B3AD17E97F0A68B6AEC, L_1, NULL);
 		V_0 = L_5;
@@ -1868,6 +1869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics2D__cctor_m7B7A8EEEE744CE27534A7A
 	}
 	{
 		List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76* L_0 = (List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76*)il2cpp_codegen_object_new(List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
 		List_1__ctor_m18046D64FD3FA546A46227B43826992EE5D5F434(L_0, List_1__ctor_m18046D64FD3FA546A46227B43826992EE5D5F434_RuntimeMethod_var);
 		((Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_StaticFields*)il2cpp_codegen_static_fields_for(Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_il2cpp_TypeInfo_var))->___m_LastDisabledRigidbody2D_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_StaticFields*)il2cpp_codegen_static_fields_for(Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_il2cpp_TypeInfo_var))->___m_LastDisabledRigidbody2D_0), (void*)L_0);
@@ -2403,6 +2405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	{
 		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_2;
 		L_2 = Collision2D_get_collider_m90FA98F6619E9F1E2EFAE8132EDB6ECA1A2C4F37(__this, NULL);
+		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		G_B3_0 = L_3;
@@ -2413,6 +2416,7 @@ IL_001c:
 	{
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_4;
 		L_4 = Collision2D_get_rigidbody_mD763F2D56BF538A94AD62379D22E42335A67B60D(__this, NULL);
+		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
 		G_B3_0 = L_5;
@@ -2869,6 +2873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3
 		String_t* L_6;
 		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBFF6A9DB70EB3726160C5F9B16FE8D37DE8E39A1)), L_5, NULL);
 		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_7 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_7);
 		ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A(L_7, L_6, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&PolygonCollider2D_GetPath_mE9D53D83FBB110EAC748BA535A1659C262B50F50_RuntimeMethod_var)));
 	}
@@ -2890,6 +2895,7 @@ IL_0027:
 		String_t* L_13;
 		L_13 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5306D9C152CE45A8F1FFE53961686257FCCBB1F6)), L_12, NULL);
 		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_14 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_14);
 		ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A(L_14, L_13, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_14, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&PolygonCollider2D_GetPath_mE9D53D83FBB110EAC748BA535A1659C262B50F50_RuntimeMethod_var)));
 	}
@@ -2994,6 +3000,7 @@ IL_0014:
 		String_t* L_10;
 		L_10 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8547D33217F41FE267DAC75D29996D1143E37999)), L_6, L_9, NULL);
 		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_11 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
+		NullCheck(L_11);
 		ArgumentOutOfRangeException__ctor_mE5B2755F0BEA043CACF915D5CE140859EE58FA66(L_11, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2B6D6F48C27C60C3B55391AB377D9DC8F5639AA1)), L_10, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CompositeCollider2D_GetPath_m048E471625A3AC46864D74EA7D17077F8348FC09_RuntimeMethod_var)));
 	}
@@ -3010,6 +3017,7 @@ IL_0040:
 	}
 	{
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_14 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		NullCheck(L_14);
 		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_14, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral17A7BA088490CA1D9307C4F7F07BDC92703EDF51)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_14, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CompositeCollider2D_GetPath_m048E471625A3AC46864D74EA7D17077F8348FC09_RuntimeMethod_var)));
 	}

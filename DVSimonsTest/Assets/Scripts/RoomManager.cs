@@ -61,14 +61,17 @@ public class RoomManager : MonoBehaviourPunCallbacks
 	public void SpawnPlayer()
 	{
 		myPlayer = (GameObject)PhotonNetwork.Instantiate("Player", spawnpoints[Random.Range(0, spawnpoints.Capacity)].position, Quaternion.identity);
-		myPlayer.GetComponent<PlayerMovement>().enabled = true;
-		myPlayer.GetComponent<PlayerMovement>().cam.GetComponent<Camera>().enabled = true;
-		myPlayer.GetComponent<PlayerMovement>().cam.GetComponent<CinemachineFreeLook>().enabled = true;
-		myPlayer.GetComponent<PlayerMovement>().serverName.enabled = true;
-		myPlayer.GetComponent<PlayerMovement>().playerName = PhotonNetwork.LocalPlayer.NickName;
-		myPlayer.GetComponent<PlayerMovement>().playerID = PhotonNetwork.LocalPlayer.ActorNumber;
-		MSKGameManager.Instance.roomManager = this.gameObject.GetComponent<RoomManager>();
-		//MSKGameManager.Instance.players.Add(myPlayer);
+		if (myPlayer != null)
+		{
+			myPlayer.GetComponent<PlayerMovement>().enabled = true;
+			myPlayer.GetComponent<PlayerMovement>().cam.GetComponent<Camera>().enabled = true;
+			myPlayer.GetComponent<PlayerMovement>().cam.GetComponent<CinemachineFreeLook>().enabled = true;
+			myPlayer.GetComponent<PlayerMovement>().serverName.enabled = true;
+			myPlayer.GetComponent<PlayerMovement>().playerName = PhotonNetwork.LocalPlayer.NickName;
+			myPlayer.GetComponent<PlayerMovement>().playerID = PhotonNetwork.LocalPlayer.ActorNumber;
+			MSKGameManager.Instance.roomManager = this.gameObject.GetComponent<RoomManager>();
+			//MSKGameManager.Instance.players.Add(myPlayer);
+		}
 	}
 
 	public override void OnPlayerEnteredRoom(Player newPlayer)

@@ -3670,6 +3670,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Object_FindObjectFromInstanceID();
 		Register_UnityEngine_Object_FindObjectFromInstanceID();
 
+		//UnityEngine.Object UnityEngine.Object::ForceLoadFromInstanceID(System.Int32)
+		void Register_UnityEngine_Object_ForceLoadFromInstanceID();
+		Register_UnityEngine_Object_ForceLoadFromInstanceID();
+
 		//UnityEngine.Object UnityEngine.Object::Internal_CloneSingle(UnityEngine.Object)
 		void Register_UnityEngine_Object_Internal_CloneSingle();
 		Register_UnityEngine_Object_Internal_CloneSingle();
@@ -5716,6 +5720,54 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.SystemInfo
 
+	//Start Registrations for type : UnityEngine.Terrain
+
+		//System.Boolean UnityEngine.Terrain::get_allowAutoConnect()
+		void Register_UnityEngine_Terrain_get_allowAutoConnect();
+		Register_UnityEngine_Terrain_get_allowAutoConnect();
+
+		//System.Int32 UnityEngine.Terrain::get_groupingID()
+		void Register_UnityEngine_Terrain_get_groupingID();
+		Register_UnityEngine_Terrain_get_groupingID();
+
+		//System.Void UnityEngine.Terrain::SetNeighbors(UnityEngine.Terrain,UnityEngine.Terrain,UnityEngine.Terrain,UnityEngine.Terrain)
+		void Register_UnityEngine_Terrain_SetNeighbors();
+		Register_UnityEngine_Terrain_SetNeighbors();
+
+		//UnityEngine.TerrainData UnityEngine.Terrain::get_terrainData()
+		void Register_UnityEngine_Terrain_get_terrainData();
+		Register_UnityEngine_Terrain_get_terrainData();
+
+		//UnityEngine.Terrain[] UnityEngine.Terrain::get_activeTerrains()
+		void Register_UnityEngine_Terrain_get_activeTerrains();
+		Register_UnityEngine_Terrain_get_activeTerrains();
+
+	//End Registrations for type : UnityEngine.Terrain
+
+	//Start Registrations for type : UnityEngine.TerrainData
+
+		//System.Int32 UnityEngine.TerrainData::GetBoundaryValue(UnityEngine.TerrainData/BoundaryValueType)
+		void Register_UnityEngine_TerrainData_GetBoundaryValue();
+		Register_UnityEngine_TerrainData_GetBoundaryValue();
+
+		//System.Single UnityEngine.TerrainData::GetAlphamapResolutionInternal()
+		void Register_UnityEngine_TerrainData_GetAlphamapResolutionInternal();
+		Register_UnityEngine_TerrainData_GetAlphamapResolutionInternal();
+
+		//System.Void UnityEngine.TerrainData::Internal_Create(UnityEngine.TerrainData)
+		void Register_UnityEngine_TerrainData_Internal_Create();
+		Register_UnityEngine_TerrainData_Internal_Create();
+
+		//System.Void UnityEngine.TerrainData::get_size_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_TerrainData_get_size_Injected();
+		Register_UnityEngine_TerrainData_get_size_Injected();
+
+		//UnityEngine.Terrain[] UnityEngine.TerrainData::get_users()
+		void Register_UnityEngine_TerrainData_get_users();
+		Register_UnityEngine_TerrainData_get_users();
+
+	//End Registrations for type : UnityEngine.TerrainData
+
 	//Start Registrations for type : UnityEngine.TextAsset
 
 		//System.Byte[] UnityEngine.TextAsset::get_bytes()
@@ -5995,6 +6047,26 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Texture3D_SetPixels();
 
 	//End Registrations for type : UnityEngine.Texture3D
+
+	//Start Registrations for type : UnityEngine.Tilemaps.Tilemap
+
+		//System.Void UnityEngine.Tilemaps.Tilemap::RefreshTile_Injected(UnityEngine.Vector3Int&)
+		void Register_UnityEngine_Tilemaps_Tilemap_RefreshTile_Injected();
+		Register_UnityEngine_Tilemaps_Tilemap_RefreshTile_Injected();
+
+		//System.Void UnityEngine.Tilemaps.Tilemap::RefreshTilesNative(System.Void*,System.Int32)
+		void Register_UnityEngine_Tilemaps_Tilemap_RefreshTilesNative();
+		Register_UnityEngine_Tilemaps_Tilemap_RefreshTilesNative();
+
+	//End Registrations for type : UnityEngine.Tilemaps.Tilemap
+
+	//Start Registrations for type : UnityEngine.Tilemaps.TilemapRenderer
+
+		//System.Void UnityEngine.Tilemaps.TilemapRenderer::OnSpriteAtlasRegistered(UnityEngine.U2D.SpriteAtlas)
+		void Register_UnityEngine_Tilemaps_TilemapRenderer_OnSpriteAtlasRegistered();
+		Register_UnityEngine_Tilemaps_TilemapRenderer_OnSpriteAtlasRegistered();
+
+	//End Registrations for type : UnityEngine.Tilemaps.TilemapRenderer
 
 	//Start Registrations for type : UnityEngine.Time
 
@@ -6427,6 +6499,38 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Vector3_Slerp_Injected();
 
 	//End Registrations for type : UnityEngine.Vector3
+
+	//Start Registrations for type : UnityEngine.VFX.VFXEventAttribute
+
+		//System.IntPtr UnityEngine.VFX.VFXEventAttribute::Internal_Create()
+		void Register_UnityEngine_VFX_VFXEventAttribute_Internal_Create();
+		Register_UnityEngine_VFX_VFXEventAttribute_Internal_Create();
+
+		//System.Void UnityEngine.VFX.VFXEventAttribute::Internal_Destroy(System.IntPtr)
+		void Register_UnityEngine_VFX_VFXEventAttribute_Internal_Destroy();
+		Register_UnityEngine_VFX_VFXEventAttribute_Internal_Destroy();
+
+		//System.Void UnityEngine.VFX.VFXEventAttribute::Internal_InitFromAsset(UnityEngine.VFX.VisualEffectAsset)
+		void Register_UnityEngine_VFX_VFXEventAttribute_Internal_InitFromAsset();
+		Register_UnityEngine_VFX_VFXEventAttribute_Internal_InitFromAsset();
+
+	//End Registrations for type : UnityEngine.VFX.VFXEventAttribute
+
+	//Start Registrations for type : UnityEngine.VFX.VFXSpawnerState
+
+		//System.Void UnityEngine.VFX.VFXSpawnerState::Internal_Destroy(System.IntPtr)
+		void Register_UnityEngine_VFX_VFXSpawnerState_Internal_Destroy();
+		Register_UnityEngine_VFX_VFXSpawnerState_Internal_Destroy();
+
+	//End Registrations for type : UnityEngine.VFX.VFXSpawnerState
+
+	//Start Registrations for type : UnityEngine.VFX.VisualEffect
+
+		//UnityEngine.VFX.VisualEffectAsset UnityEngine.VFX.VisualEffect::get_visualEffectAsset()
+		void Register_UnityEngine_VFX_VisualEffect_get_visualEffectAsset();
+		Register_UnityEngine_VFX_VisualEffect_get_visualEffectAsset();
+
+	//End Registrations for type : UnityEngine.VFX.VisualEffect
 
 	//Start Registrations for type : UnityEngine.WheelCollider
 
