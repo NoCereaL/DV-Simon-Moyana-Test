@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     - MenuManager
     - OnlineLauncher
     - PlayerListItem
+    - PlayerLobbyMenu
     - PlayerMovement
     - PlayerNameManager
     - PlayerServerName
@@ -216,54 +217,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: RoomListItem
     methodName: OnClick
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuManager
-    methodName: OpenMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuManager
-    methodName: OpenMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: OnlineLauncher
-    methodName: ErrorReconnectToMaster
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuManager
-    methodName: OpenMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuManager
-    methodName: OpenMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: OnlineLauncher
-    methodName: StartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: OnlineLauncher
-    methodName: LeaveRoom
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuManager
-    methodName: OpenMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: OnlineLauncher
-    methodName: CreateRoom
-  - assembly: Assembly-CSharp
-    fullTypeName: PlayerNameManager
-    methodName: OnUsernameInputValueChanged
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuManager
-    methodName: OpenMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: MenuManager
-    methodName: OpenMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: OnlineLauncher
-    methodName: Cancel
   - assembly: UnityEngine.AnimationModule
     fullTypeName: UnityEngine.Animator
     methodName: Play
   - assembly: UnityEngine.AnimationModule
     fullTypeName: UnityEngine.Animator
     methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: RoomListItem
-    methodName: OnClick
   sceneClasses:
     Assets/Scenes/DevScene.unity:
     - Class: 1
@@ -556,8 +515,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1742}
     - Class: 114
-      Script: {instanceID: 1876}
-    - Class: 114
       Script: {instanceID: 1922}
     - Class: 114
       Script: {instanceID: 2386}
@@ -586,17 +543,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4554}
     - Class: 114
-      Script: {instanceID: 4844}
-    - Class: 114
       Script: {instanceID: 5268}
-    - Class: 114
-      Script: {instanceID: 5432}
     - Class: 114
       Script: {instanceID: 5610}
     - Class: 114
       Script: {instanceID: 5748}
-    - Class: 114
-      Script: {instanceID: 5840}
     - Class: 114
       Script: {instanceID: 5868}
     - Class: 114
@@ -606,11 +557,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6300}
     - Class: 114
-      Script: {instanceID: 6564}
-    - Class: 114
       Script: {instanceID: 6648}
-    - Class: 114
-      Script: {instanceID: 6672}
     - Class: 114
       Script: {instanceID: 6780}
     - Class: 114
@@ -626,21 +573,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7906}
     - Class: 114
-      Script: {instanceID: 8054}
-    - Class: 114
       Script: {instanceID: 8508}
     - Class: 114
       Script: {instanceID: 8704}
     - Class: 114
       Script: {instanceID: 8738}
     - Class: 114
-      Script: {instanceID: 8880}
-    - Class: 114
       Script: {instanceID: 9138}
     - Class: 114
       Script: {instanceID: 9204}
     - Class: 114
       Script: {instanceID: 9298}
+    - Class: 114
+      Script: {instanceID: 4623854}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1818,7 +1763,7 @@ ScriptsOnlyBuild:
     className: CinemachineCollisionImpulseSource
   - hash:
       serializedVersion: 2
-      Hash: 20b5c23b4574720f38781e2d7cc6e29a
+      Hash: 7174bba796b3965f01bf1157d75a426b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -2898,7 +2843,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: aac40701399fb56fbdfc0ecb9e103d75
+      Hash: 7e0f08147ff918143a142c83538a88af
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MSKGameManager
@@ -3208,6 +3153,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 67c970d46893e7fc7a396d65bfef4af5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerLobbyMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/DevScene.unity

@@ -429,6 +429,7 @@
 "Assets/Scripts/MSKGameManager.cs"
 "Assets/Scripts/OnlineLauncher.cs"
 "Assets/Scripts/PlayerListItem.cs"
+"Assets/Scripts/PlayerLobbyMenu.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/PlayerNameManager.cs"
 "Assets/Scripts/PlayerServerName.cs"

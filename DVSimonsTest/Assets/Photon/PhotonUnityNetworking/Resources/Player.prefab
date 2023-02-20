@@ -2974,6 +2974,7 @@ MonoBehaviour:
   player: {fileID: 0}
   rb: {fileID: 0}
   playerName: 
+  playerID: 0
   cam: {fileID: 4968599788624477057}
   lookPosition: {fileID: 4968599789016244267}
   speed: 10

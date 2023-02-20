@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviourPun
     [HideInInspector] public GameObject player;
     [HideInInspector] public Rigidbody rb;
     public string playerName;
+    public int playerID;
     public Transform cam;
     public Transform lookPosition;
     public int speed;
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviourPun
         MSKGameManager.Instance.clientPhotonView = this.gameObject.GetComponent<PhotonView>();
         this.photonView.RPC("SetPlayerName", RpcTarget.AllBufferedViaServer, PhotonNetwork.LocalPlayer.NickName);
         this.photonView.RPC("SetName", RpcTarget.AllBufferedViaServer, playerName);
+        this.photonView.RPC("AddPlayerToAllManagers", RpcTarget.AllBufferedViaServer);
     }
 
     // Update is called once per frame
@@ -93,5 +95,9 @@ public class PlayerMovement : MonoBehaviourPun
         playerName = name;
     }
 
-    
+    [PunRPC]
+    void AddPlayerToAllManagers()
+    {
+        MSKGameManager.Instance.players.Add(this.gameObject);
+    }
 }

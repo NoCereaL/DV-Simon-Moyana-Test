@@ -65,7 +65,9 @@ public class RoomManager : MonoBehaviourPunCallbacks
 		myPlayer.GetComponent<PlayerMovement>().cam.GetComponent<CinemachineFreeLook>().enabled = true;
 		myPlayer.GetComponent<PlayerMovement>().serverName.enabled = true;
 		myPlayer.GetComponent<PlayerMovement>().playerName = PhotonNetwork.LocalPlayer.NickName;
+		myPlayer.GetComponent<PlayerMovement>().playerID = PhotonNetwork.LocalPlayer.ActorNumber;
 		MSKGameManager.Instance.roomManager = this.gameObject.GetComponent<RoomManager>();
+		//MSKGameManager.Instance.players.Add(myPlayer);
 	}
 
 	public override void OnPlayerEnteredRoom(Player newPlayer)
@@ -103,4 +105,6 @@ public class RoomManager : MonoBehaviourPunCallbacks
 		yield return new WaitForSeconds(6);
 		notifyText.gameObject.SetActive(false);
 	}
+
+	
 }
