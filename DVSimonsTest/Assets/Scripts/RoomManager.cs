@@ -81,14 +81,26 @@ public class RoomManager : MonoBehaviourPunCallbacks
 	[PunRPC]
 	void NotifyPlayer(string playerName)
 	{
+		StopCoroutine("DisableNotifyAnim");
+		notifyText.gameObject.SetActive(false);
 		notifyText.text = playerName + " Joined the Lobby";
-		notifyText.gameObject.GetComponent<Animator>().Play("NotificationFade");
+		notifyText.gameObject.SetActive(true);
+		StartCoroutine(DisableNotifyAnim());
 	}
 
 	[PunRPC]
 	void NotifyPlayerLeft(string playerName)
 	{
+		StopCoroutine("DisableNotifyAnim");
+		notifyText.gameObject.SetActive(false);
 		notifyText.text = playerName + " Left the Lobby";
-		notifyText.gameObject.GetComponent<Animator>().Play("NotificationFade");
+		notifyText.gameObject.SetActive(true);
+		StartCoroutine(DisableNotifyAnim());
+	}
+
+	IEnumerator DisableNotifyAnim()
+    {
+		yield return new WaitForSeconds(6);
+		notifyText.gameObject.SetActive(false);
 	}
 }
