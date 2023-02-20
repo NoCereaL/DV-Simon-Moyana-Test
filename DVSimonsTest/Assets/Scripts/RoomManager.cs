@@ -18,6 +18,8 @@ public class RoomManager : MonoBehaviourPunCallbacks
 	public static GameObject myPlayer2;
 	public static GameObject myPlayer3;
 
+	[SerializeField] List<Transform> spawnpoints;
+
 	void Awake()
 	{
 		if(Instance)
@@ -55,7 +57,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
 	
 	public void SpawnPlayer()
 	{
-		myPlayer = (GameObject)PhotonNetwork.Instantiate("Player", new Vector2(Random.Range(-35f, -10f), transform.position.y), Quaternion.identity);
+		myPlayer = (GameObject)PhotonNetwork.Instantiate("Player", spawnpoints[Random.Range(0, spawnpoints.Capacity)].position, Quaternion.identity);
 		myPlayer.GetComponent<PlayerMovement>().enabled = true;
 		myPlayer.GetComponent<PlayerMovement>().cam.GetComponent<CinemachineFreeLook>().enabled = true;
 

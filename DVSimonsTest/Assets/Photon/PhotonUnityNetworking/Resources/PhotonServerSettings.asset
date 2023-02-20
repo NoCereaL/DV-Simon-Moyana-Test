@@ -15,8 +15,8 @@ MonoBehaviour:
   AppSettings:
     AppIdRealtime: 21288d79-812e-4a68-a116-7b5ad1779dcb
     AppIdFusion: 
-    AppIdChat: 9fb12278-efde-402b-a78e-55585fcfdfac
-    AppIdVoice: 
+    AppIdChat: aae022ba-c20f-4615-ac06-aca049a2159f
+    AppIdVoice: 01a75e49-7021-4f3e-bd6e-8eed6f571112
     AppVersion: 
     UseNameServer: 1
     FixedRegion: 
@@ -34,12 +34,15 @@ MonoBehaviour:
   RunInBackground: 1
   StartInOfflineMode: 0
   RpcList:
+  - CantHearYou
+  - ChangeColour
   - ClickRpc
   - DestroyRpc
   - DestroySpaceship
   - Fire
-  - RespawnSpaceship
+  - HeresWhy
   - RefreshListRPC
+  - RespawnSpaceship
   DisableAutoOpenWizard: 1
-  ShowSettings: 0
+  ShowSettings: 1
   DevRegionSetOnce: 1
