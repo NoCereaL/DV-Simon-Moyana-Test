@@ -14,6 +14,7 @@ public class MSKGameManager : MonoBehaviour
     public GameObject cam;
     public PhotonView clientPhotonView;
     public RoomManager roomManager;
+    public PlayerLobbyMenu playerLobbyMenu;
     public List<GameObject> players;
     // Start is called before the first frame update
 

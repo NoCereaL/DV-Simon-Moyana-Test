@@ -49,6 +49,7 @@ MonoBehaviour:
   - NotifyPlayer
   - NotifyPlayerLeft
   - AddPlayerToAllManagers
+  - UpdatePlayerList
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

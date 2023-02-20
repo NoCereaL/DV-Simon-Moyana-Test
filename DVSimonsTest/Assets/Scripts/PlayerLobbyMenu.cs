@@ -9,20 +9,28 @@ using TMPro;
 public class PlayerLobbyMenu : MonoBehaviourPunCallbacks
 {
 	[SerializeField] TMP_Text roomNameText;
-	[SerializeField] TextMeshProUGUI playerCount;
-	[SerializeField] Transform playerListContent;
-	[SerializeField] GameObject PlayerListItemPrefab;
-	Player[] players;
+	[SerializeField] public TextMeshProUGUI playerCount;
+	[SerializeField] public Transform playerListContent;
+	[SerializeField] public GameObject PlayerListItemPrefab;
+	[HideInInspector] public Player[] players;
+	public List<GameObject> playerInGameList;
 	// Start is called before the first frame update
 	void Start()
     {
-        
-    }
+		//UpdatePlayerList();
+		//this.photonView.RPC("UpdatePlayerList", RpcTarget.AllBufferedViaServer);
+	}
 
-    // Update is called once per frame
-    void Update()
+	// Update is called once per frame
+	void Update()
     {
 		players = PhotonNetwork.PlayerList;
+		List<PlayerButtonListing> buttonListings;
+		buttonListings = playerListContent.GetComponentsInChildren<PlayerButtonListing>().ToList<PlayerButtonListing>();
+		if(buttonListings.Capacity != MSKGameManager.Instance.players.Capacity && buttonListings.Capacity <= MSKGameManager.Instance.players.Capacity)
+        {
+			UpdatePlayerList();
+        }
 	}
 
 	public override void OnJoinedRoom()
@@ -31,7 +39,7 @@ public class PlayerLobbyMenu : MonoBehaviourPunCallbacks
 		roomNameText.text = PhotonNetwork.CurrentRoom.Name;
 		playerCount.text = PhotonNetwork.CurrentRoom.PlayerCount + "/8 - " + "Players";
 
-		//Player[] players = PhotonNetwork.PlayerList;
+		Player[] players = PhotonNetwork.PlayerList;
 
 		foreach (Transform child in playerListContent)
 		{
@@ -40,8 +48,36 @@ public class PlayerLobbyMenu : MonoBehaviourPunCallbacks
 
 		for (int i = 0; i < players.Count(); i++)
 		{
-			Instantiate(PlayerListItemPrefab, playerListContent).GetComponent<PlayerListItem>().SetUp(players[i]);
+			Instantiate(PlayerListItemPrefab, playerListContent).GetComponent<PlayerButtonListing>().SetUp(players[i]);
 		}
+		//UpdatePlayerList();
+		this.photonView.RPC("UpdatePlayerList", RpcTarget.AllBufferedViaServer);
 
+	}
+
+	public override void OnPlayerEnteredRoom(Player newPlayer)
+	{
+		playerCount.text = PhotonNetwork.CurrentRoom.PlayerCount + "/8 - " + "Players";
+		//Instantiate(PlayerListItemPrefab, playerListContent).GetComponent<PlayerButtonListing>().SetUp(newPlayer);
+		//this.photonView.RPC("UpdatePlayerList", RpcTarget.AllBufferedViaServer);
+		//UpdatePlayerList();
+	}
+
+	public void FillPlayerList()
+    {
+		for (int i = 0; i < MSKGameManager.Instance.players.Capacity; i++)
+		{
+			Instantiate(PlayerListItemPrefab, playerListContent).GetComponent<PlayerButtonListing>().SetUp(players[i]);
+			playerInGameList.Add(playerListContent.GetComponentsInChildren<PlayerButtonListing>()[i].gameObject);
+		}
+	}
+
+	[PunRPC]
+	public void UpdatePlayerList()
+    {
+		for (int i = 0; i < MSKGameManager.Instance.players.Capacity; i++)
+		{
+			Instantiate(PlayerListItemPrefab, playerListContent).GetComponent<PlayerButtonListing>().SetUp(players[i]);
+		}
 	}
 }

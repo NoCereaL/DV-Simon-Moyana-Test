@@ -73,6 +73,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
 	public override void OnPlayerEnteredRoom(Player newPlayer)
 	{
 		this.photonView.RPC("NotifyPlayer", RpcTarget.AllBufferedViaServer, newPlayer.NickName);
+		//this.photonView.RPC("UpdatePlayerList", RpcTarget.AllBufferedViaServer);
 	}
 
 	public override void OnPlayerLeftRoom(Player newPlayer)
@@ -98,6 +99,15 @@ public class RoomManager : MonoBehaviourPunCallbacks
 		notifyText.text = playerName + " Left the Lobby";
 		notifyText.gameObject.SetActive(true);
 		StartCoroutine(DisableNotifyAnim());
+	}
+
+	[PunRPC]
+	public void UpdatePlayerList()
+	{
+		for (int i = 0; i < MSKGameManager.Instance.players.Capacity; i++)
+		{
+			Instantiate(MSKGameManager.Instance.playerLobbyMenu.PlayerListItemPrefab, MSKGameManager.Instance.playerLobbyMenu.playerListContent).GetComponent<PlayerButtonListing>().SetUp(MSKGameManager.Instance.playerLobbyMenu.players[i]);
+		}
 	}
 
 	IEnumerator DisableNotifyAnim()
