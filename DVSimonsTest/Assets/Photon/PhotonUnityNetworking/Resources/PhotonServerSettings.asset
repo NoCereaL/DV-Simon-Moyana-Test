@@ -46,6 +46,8 @@ MonoBehaviour:
   - AssignName
   - SetName
   - SetPlayerName
+  - NotifyPlayer
+  - NotifyPlayerLeft
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1
