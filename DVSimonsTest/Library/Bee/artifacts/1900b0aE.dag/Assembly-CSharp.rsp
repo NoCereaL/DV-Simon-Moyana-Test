@@ -484,6 +484,7 @@
 "Assets/Scripts/RemoveOnStart.cs"
 "Assets/Scripts/RoomListItem.cs"
 "Assets/Scripts/RoomManager.cs"
+"Assets/Scripts/SpeakerIconScript.cs"
 -langversion:9.0
 
 /deterministic

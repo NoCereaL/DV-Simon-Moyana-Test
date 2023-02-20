@@ -1,3 +1,7 @@
+/*
+ * Author: Simon K Moyana
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

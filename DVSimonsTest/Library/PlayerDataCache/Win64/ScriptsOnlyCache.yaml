@@ -27,6 +27,7 @@ ScriptsOnlyBuild:
     - RemoveOnStart
     - RoomListItem
     - RoomManager
+    - SpeakerIconScript
     Cinemachine.dll:
     - Cinemachine.Cinemachine3rdPersonFollow
     - Cinemachine.CinemachineBrain
@@ -444,23 +445,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8702}
     - Class: 114
-      Script: {instanceID: 8870}
+      Script: {instanceID: 8736}
     - Class: 114
-      Script: {instanceID: 8876}
+      Script: {instanceID: 8872}
     - Class: 114
-      Script: {instanceID: 9134}
+      Script: {instanceID: 8878}
     - Class: 114
-      Script: {instanceID: 9142}
+      Script: {instanceID: 9136}
     - Class: 114
-      Script: {instanceID: 9200}
+      Script: {instanceID: 9144}
     - Class: 114
-      Script: {instanceID: 9278}
+      Script: {instanceID: 9202}
     - Class: 114
-      Script: {instanceID: 9652}
+      Script: {instanceID: 9280}
     - Class: 114
-      Script: {instanceID: 122766}
+      Script: {instanceID: 9296}
     - Class: 114
-      Script: {instanceID: 685672}
+      Script: {instanceID: 9656}
+    - Class: 114
+      Script: {instanceID: 219962}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -486,6 +489,8 @@ ScriptsOnlyBuild:
     - Class: 199
       Script: {instanceID: 0}
     - Class: 205
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -625,15 +630,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8702}
     - Class: 114
-      Script: {instanceID: 8876}
+      Script: {instanceID: 8736}
     - Class: 114
-      Script: {instanceID: 9134}
+      Script: {instanceID: 8878}
     - Class: 114
-      Script: {instanceID: 9200}
+      Script: {instanceID: 9136}
     - Class: 114
-      Script: {instanceID: 122766}
+      Script: {instanceID: 9202}
     - Class: 114
-      Script: {instanceID: 685672}
+      Script: {instanceID: 9296}
+    - Class: 114
+      Script: {instanceID: 219962}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -649,6 +656,8 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 205
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -2883,6 +2892,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 9c37e647264e18334a319a0a12cfd8ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MSKGameManager
+  - hash:
+      serializedVersion: 2
       Hash: 790442c015a4dbcdf9903595fc3f131e
     assemblyName: Assembly-CSharp.dll
     namespaceName: QuantumTek.QuantumUI
@@ -3063,6 +3078,12 @@ ScriptsOnlyBuild:
     className: ServerSettings
   - hash:
       serializedVersion: 2
+      Hash: 0831e1496737d04c879ee1104cb20e57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerServerName
+  - hash:
+      serializedVersion: 2
       Hash: b5c3dbcb94925c8b595ad16a62b44788
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -3183,16 +3204,10 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 0831e1496737d04c879ee1104cb20e57
+      Hash: 49e6a0e4d972594af9d18ce6411b9106
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlayerServerName
-  - hash:
-      serializedVersion: 2
-      Hash: 9c37e647264e18334a319a0a12cfd8ba
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MSKGameManager
+    className: SpeakerIconScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/DevScene.unity
