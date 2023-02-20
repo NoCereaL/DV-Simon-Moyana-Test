@@ -44,10 +44,7 @@ public class OnlineLauncher : MonoBehaviourPunCallbacks
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-			RefreshList();
-        }
+ 
     }
 
     public override void OnConnectedToMaster()

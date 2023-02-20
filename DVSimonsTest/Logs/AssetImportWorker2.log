@@ -1,0 +1,982 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52799
+Successfully changed project path to: C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest
+C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 191.86 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.2698
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008617 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 246.50 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (247ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014694 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 179.16 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.589 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1590ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1340ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (770ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (179ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 4.18 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5802 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (0.5 MB). Loaded Objects now: 6215.
+Memory consumption went from 236.4 MB to 235.8 MB.
+Total: 5.558800 ms (FindLiveObjects: 0.702700 ms CreateObjectMapping: 0.272000 ms MarkObjects: 4.242800 ms  DeleteObjects: 0.340100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 491588.869907 seconds.
+  path: Assets/Fantastic City Generator/Traffic System
+  artifactKey: Guid(5dc22fd8e908ebe468aee922fdd5fe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic City Generator/Traffic System using Guid(5dc22fd8e908ebe468aee922fdd5fe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae435e8947d0105422284a221806dce0') in 0.018801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.584799 seconds.
+  path: Assets/Fantastic City Generator/Traffic System/Traffic System.prefab
+  artifactKey: Guid(a8566725e98545841a4f4fa06a6f20f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic City Generator/Traffic System/Traffic System.prefab using Guid(a8566725e98545841a4f4fa06a6f20f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4668ed7a39b69926cbc6cf02edbe0798') in 0.113345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.015881 seconds.
+  path: Assets/Fantastic City Generator/Traffic System/Materials
+  artifactKey: Guid(08e5ff01d05218a479a4a2fc062d9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic City Generator/Traffic System/Materials using Guid(08e5ff01d05218a479a4a2fc062d9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccca2defc4e2a0f2b5ac8ccc6e09a40f') in 0.002564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028457 seconds.
+  path: Assets/Fantastic City Generator/Traffic System/Materials/Tires.mat
+  artifactKey: Guid(2fcd0fa98d0dc6443abee49e79b73037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic City Generator/Traffic System/Materials/Tires.mat using Guid(2fcd0fa98d0dc6443abee49e79b73037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f434d53eef273b7cbc75bb630745f9f') in 0.278982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 180.536255 seconds.
+  path: Assets/Fantastic City Generator/Traffic_Light
+  artifactKey: Guid(ea6aa781f29a2eb4aad072049f195086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic City Generator/Traffic_Light using Guid(ea6aa781f29a2eb4aad072049f195086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b976b6bc5a4c1b16c5b1da6ac378f391') in 0.024517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.868403 seconds.
+  path: Assets/Fantastic City Generator/Traffic_Light/FBX
+  artifactKey: Guid(9ee3f46d574513b439122d864ba3444e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic City Generator/Traffic_Light/FBX using Guid(9ee3f46d574513b439122d864ba3444e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43ed9fa84206b6e158de71f592fa9da') in 0.006948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026671 seconds.
+  path: Assets/Fantastic City Generator/Traffic_Light/FBX/Traffic_Light-Rev-Japan.fbx
+  artifactKey: Guid(6df73838ccf25df4ebc85e9aa313b5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic City Generator/Traffic_Light/FBX/Traffic_Light-Rev-Japan.fbx using Guid(6df73838ccf25df4ebc85e9aa313b5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa62227152e543de5ed699849a4a84f') in 1.268452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.716425 seconds.
+  path: Assets/Fantastic City Generator/Traffic_Light/New Prefabs
+  artifactKey: Guid(e231d6c75dd06a94aa659eaee47cd6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic City Generator/Traffic_Light/New Prefabs using Guid(e231d6c75dd06a94aa659eaee47cd6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e830a458891f6bda68a81db7c3a765e3') in 0.008861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023495 seconds.
+  path: Assets/Fantastic City Generator/Traffic_Light/New Prefabs/TLight T - S1.prefab
+  artifactKey: Guid(913921dfc21e6a145b49b6a77d6d39ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic City Generator/Traffic_Light/New Prefabs/TLight T - S1.prefab using Guid(913921dfc21e6a145b49b6a77d6d39ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754d97b5091f013d75cf54293e7af01c') in 0.033847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantastic City Generator/Traffic_Light/New Prefabs/TrafficLight T.prefab
+  artifactKey: Guid(6de0e0f9a2eea2c4eaf0e1da4b9eeb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic City Generator/Traffic_Light/New Prefabs/TrafficLight T.prefab using Guid(6de0e0f9a2eea2c4eaf0e1da4b9eeb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbc6fb7033205d6c59aed660df0d5f5') in 0.041141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.527165 seconds.
+  path: Assets/Fantastic City Generator/Traffic_Light/Scripts
+  artifactKey: Guid(c43bc4beb1bb0ac4095c73970ce72f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic City Generator/Traffic_Light/Scripts using Guid(c43bc4beb1bb0ac4095c73970ce72f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa570ce6d7b2276ea32f007cabd9ff53') in 0.018590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.806566 seconds.
+  path: Assets/Citizens PRO/Materials
+  artifactKey: Guid(29c6f9a764f824949a1574a7c05d639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Materials using Guid(29c6f9a764f824949a1574a7c05d639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be9477ffeac866609e9d2cd94b67a3d') in 0.013784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Materials/default_plane.mat
+  artifactKey: Guid(bd1a65d25b3e44f4aa0d9b80df93db7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Materials/default_plane.mat using Guid(bd1a65d25b3e44f4aa0d9b80df93db7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28513875d2db4e2d0e0906eb4e709fa8') in 0.030512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Materials/Stairs.mat
+  artifactKey: Guid(c4bcdf7480cff8540a290e868a5fa9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Materials/Stairs.mat using Guid(c4bcdf7480cff8540a290e868a5fa9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053143674a5fdb01e33cb530a9f60c89') in 0.067654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.661072 seconds.
+  path: Assets/Citizens PRO/Textures
+  artifactKey: Guid(d99f0468a5a30a64b8e39d32d7c898ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Textures using Guid(d99f0468a5a30a64b8e39d32d7c898ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c5aea9dde0100384a06924541fe224') in 0.002491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022227 seconds.
+  path: Assets/Citizens PRO/Textures/default_plane.png
+  artifactKey: Guid(ebbab024f9eb3b14b88bde4c757e25de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Textures/default_plane.png using Guid(ebbab024f9eb3b14b88bde4c757e25de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e236602a019c5e43189f1972140f72') in 0.021935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Textures/road_Asphalt3.png
+  artifactKey: Guid(f7a11eed4c9d2e047af8297ed9751e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Textures/road_Asphalt3.png using Guid(f7a11eed4c9d2e047af8297ed9751e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010eee883d18acaac3a1d1d35eeaf7e4') in 0.029257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.672030 seconds.
+  path: Assets/Citizens PRO/Prefabs
+  artifactKey: Guid(4b9d28307f811504cba8bcd7035996ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Prefabs using Guid(4b9d28307f811504cba8bcd7035996ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7418a480224f119603e1e67d40af2266') in 0.011047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026728 seconds.
+  path: Assets/Citizens PRO/Prefabs/Point prefab.prefab
+  artifactKey: Guid(d5469c7092a5f1845979abba83332838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Prefabs/Point prefab.prefab using Guid(d5469c7092a5f1845979abba83332838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765f61c3cf7614c160d17b61912decdb') in 0.013964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.227241 seconds.
+  path: Assets/Citizens PRO/Models
+  artifactKey: Guid(a89ef5033a844274386135b7bf901b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models using Guid(a89ef5033a844274386135b7bf901b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd65e28c6a1f1433aaa4a8d7b1b7dc2') in 0.011531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023367 seconds.
+  path: Assets/Citizens PRO/Models/Circle.FBX
+  artifactKey: Guid(4de735157843af147ba716edbac99fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/Circle.FBX using Guid(4de735157843af147ba716edbac99fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439fb2b0d55d53642ff6957429546c01') in 0.028999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/Plane.FBX
+  artifactKey: Guid(e1b372b18cbbf5b4883376c59bacb63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/Plane.FBX using Guid(e1b372b18cbbf5b4883376c59bacb63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd907ed8c030604f0db7cc8014db1356d') in 0.029740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Citizens PRO/Models/Stair.FBX
+  artifactKey: Guid(9d4033796e1fb1748b05f8a55f83f46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/Stair.FBX using Guid(9d4033796e1fb1748b05f8a55f83f46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e864712053752f69d237e6bd4cc2d1ef') in 0.044467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.860360 seconds.
+  path: Assets/Citizens PRO/Models/Materials
+  artifactKey: Guid(522b4b214272ae546b7a7b92ce8aa4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/Materials using Guid(522b4b214272ae546b7a7b92ce8aa4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfef82a696951227ff64e47c2c53e5f5') in 0.014853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Citizens PRO/Models/Materials/No Name.mat
+  artifactKey: Guid(756045c3ad3c59a49af0d3e4995c5a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/Materials/No Name.mat using Guid(756045c3ad3c59a49af0d3e4995c5a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d77f3c8b6c543d42d33fe23428a8f66') in 0.017760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.035756 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0
+  artifactKey: Guid(b6fe0a5345d372f4180caa47b3679e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0 using Guid(b6fe0a5345d372f4180caa47b3679e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d8174c1c163ff2d60a871caf2e701a') in 0.007366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.132433 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male
+  artifactKey: Guid(d37ee51b6486b1145b67527ef8ca0735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male using Guid(d37ee51b6486b1145b67527ef8ca0735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b5789cb6d6b78497e1a85c8632c291') in 0.019556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034268 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male/Man_11.FBX
+  artifactKey: Guid(16dda1a5640c34a4891e82e1f9853c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male/Man_11.FBX using Guid(16dda1a5640c34a4891e82e1f9853c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fe6f2da169dc6b1d7aac74a2a1ec5f') in 0.113070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male/Man_99.FBX
+  artifactKey: Guid(1b8be1694ff3425458edc2c0a923adb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male/Man_99.FBX using Guid(1b8be1694ff3425458edc2c0a923adb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41a3bea7763a619161b822a24e444e7') in 0.039699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male/Man_66.FBX
+  artifactKey: Guid(d8240ecb2b0ab4f4da01e3ebb0dd1238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male/Man_66.FBX using Guid(d8240ecb2b0ab4f4da01e3ebb0dd1238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02af753180dc2e45d3efb9a4572b6ed9') in 0.048129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male/Man_44.FBX
+  artifactKey: Guid(e5a1c59f6fdcce64a8d163a5500ba9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male/Man_44.FBX using Guid(e5a1c59f6fdcce64a8d163a5500ba9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89647e8143367d55a35f36ee202eea4c') in 0.042883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male/Man_77.FBX
+  artifactKey: Guid(b902957b93e6efa44ad3e9797987fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male/Man_77.FBX using Guid(b902957b93e6efa44ad3e9797987fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a705b5c992ac4b90ee8c09a08f61f3') in 0.048164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.319244 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male/Materials
+  artifactKey: Guid(54b423aae5591244c88a2e1e0d9532aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male/Materials using Guid(54b423aae5591244c88a2e1e0d9532aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcde15fc62f6531052a2d44dec4b84c0') in 0.003250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026289 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male/Materials/Man_11.mat
+  artifactKey: Guid(2f3a7532d887d3545b20511cb8eeb579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male/Materials/Man_11.mat using Guid(2f3a7532d887d3545b20511cb8eeb579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1becc9a83520a99754d6539db1c4fd') in 0.013341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male/Materials/Man_44.mat
+  artifactKey: Guid(28dc40fb6c567d24d8bd3975e636da67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male/Materials/Man_44.mat using Guid(28dc40fb6c567d24d8bd3975e636da67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ea04d8c39bffa10bbab525fa69cf98') in 0.014141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male/Materials/Man_33.mat
+  artifactKey: Guid(71772c0a4cf94964b8ca1310963a6418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male/Materials/Man_33.mat using Guid(71772c0a4cf94964b8ca1310963a6418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317df7b35071563cb9b149d22a9f45fe') in 0.016498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male/Materials/Man_88.mat
+  artifactKey: Guid(37b68cebdc6636045ad69f1c2267fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male/Materials/Man_88.mat using Guid(37b68cebdc6636045ad69f1c2267fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb74b1c46a76daf5d30360c3bff9fa7') in 0.018993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Male/Materials/Man_111.mat
+  artifactKey: Guid(23f1caabc8c91bb4e85ff77a95808f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Male/Materials/Man_111.mat using Guid(23f1caabc8c91bb4e85ff77a95808f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b9b6ef00e966c0765dd11590d5856d') in 0.024041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.810817 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female
+  artifactKey: Guid(cf54558ad2cdbea4ebb153c1388500ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female using Guid(cf54558ad2cdbea4ebb153c1388500ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622d510cd089618f80c6f755a31b6cd6') in 0.008014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025183 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Girl_11.FBX
+  artifactKey: Guid(f15205c505f96aa4aadc36594ac6304a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Girl_11.FBX using Guid(f15205c505f96aa4aadc36594ac6304a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7e171579945c574cb79b91337e5d3c') in 0.072515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Girl_66.FBX
+  artifactKey: Guid(ba259f851caece741bc0aed69ebac8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Girl_66.FBX using Guid(ba259f851caece741bc0aed69ebac8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555b2388bbf84577504cc7d8235c6a1f') in 0.051877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Girl_55.FBX
+  artifactKey: Guid(2fe0fa57fdfb7b1428355249cc102e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Girl_55.FBX using Guid(2fe0fa57fdfb7b1428355249cc102e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dde799d7db4a311c45c6df3e6a1aca') in 0.050258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.269090 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Materials
+  artifactKey: Guid(60e0d18e35d5bb64f936c0751f6676c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Materials using Guid(60e0d18e35d5bb64f936c0751f6676c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd606442243b5e8da0ffb589a41ae9f7') in 0.003010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028504 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_11.mat
+  artifactKey: Guid(5a8220dffd585da4dab4a57e4ae8bda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_11.mat using Guid(5a8220dffd585da4dab4a57e4ae8bda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d56993a8f91cf057be6f24e0843289b') in 0.012277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_33.mat
+  artifactKey: Guid(0a8541855d5d3474d9b06b114fc8140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_33.mat using Guid(0a8541855d5d3474d9b06b114fc8140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1008d7d1a120710015f12505caf434b') in 0.015299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_66_hair.mat
+  artifactKey: Guid(416205b26f427814dae75be2b0ef6574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_66_hair.mat using Guid(416205b26f427814dae75be2b0ef6574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1991ba8acc82e2b5feb38ca12ee69e9') in 0.029651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_44_hair.mat
+  artifactKey: Guid(3ee4ea6fb723c574aa23d1eedb471b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_44_hair.mat using Guid(3ee4ea6fb723c574aa23d1eedb471b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4877aeccc53a42c545dbbd210b317abb') in 0.019060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_77.mat
+  artifactKey: Guid(36f27b014abfa0b40820f2203288ad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_77.mat using Guid(36f27b014abfa0b40820f2203288ad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95075df4d5631b18854a0684606fb2fe') in 0.014545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.397299 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0
+  artifactKey: Guid(09444274bd5938f4c8293f7227cac754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0 using Guid(09444274bd5938f4c8293f7227cac754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db109ff30f5f7ff816e6b492d9a588ad') in 0.008577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.069803 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male
+  artifactKey: Guid(6018b3f2a483c864b80dbc88faa89740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male using Guid(6018b3f2a483c864b80dbc88faa89740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0014b98a455f211ad657f28ec85980') in 0.003152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.217283 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive11_m
+  artifactKey: Guid(e8c821791896b384899166a119e26504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive11_m using Guid(e8c821791896b384899166a119e26504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57b4484ef54acf2aeccc23d3f302f9e') in 0.007105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.508177 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business01_m
+  artifactKey: Guid(f9d2e9a58120fd943992b9b83344c2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business01_m using Guid(f9d2e9a58120fd943992b9b83344c2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3339b131c980790ed6e553eef75fff') in 0.008540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.384646 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business01_m/business01_m.FBX
+  artifactKey: Guid(e39a7ffff7a78734998ff12b0ef398c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business01_m/business01_m.FBX using Guid(e39a7ffff7a78734998ff12b0ef398c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b058d2bf0e52b5d06dce3dd709a894a7') in 0.057589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.522327 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business01_m/Materials
+  artifactKey: Guid(cf3c5f66d50b84d4f9b2aadd7427bf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business01_m/Materials using Guid(cf3c5f66d50b84d4f9b2aadd7427bf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f81379eaa7deb6eea4066590c7579b') in 0.002973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031175 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business01_m/Materials/business01_m_60.mat
+  artifactKey: Guid(63e29e4ac44a578459150743c0dcd8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business01_m/Materials/business01_m_60.mat using Guid(63e29e4ac44a578459150743c0dcd8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d155adfc7725ceb188d30ce94f5304') in 0.011140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.827161 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business02_m/business02_m.FBX
+  artifactKey: Guid(79d89498282542d418ad52d75c34a7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business02_m/business02_m.FBX using Guid(79d89498282542d418ad52d75c34a7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70c2dafae7f74d43e92d24994f13ec5') in 0.047632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business05_m/business05_m_25_normal.png
+  artifactKey: Guid(c5dec39805155dc42ba6093bfda815be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business05_m/business05_m_25_normal.png using Guid(c5dec39805155dc42ba6093bfda815be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc63073e68e4244f251e9c6944d8a916') in 0.022831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual01_m/casual01_m_35.png
+  artifactKey: Guid(9c813ab806d19534aa7237bf2a4778c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual01_m/casual01_m_35.png using Guid(9c813ab806d19534aa7237bf2a4778c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7952b0d6c7a8610186defdae3690d4') in 0.018415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business06_m/business06_m_highpoly.FBX
+  artifactKey: Guid(36d3719f39ea539438dc6b74458cd796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business06_m/business06_m_highpoly.FBX using Guid(36d3719f39ea539438dc6b74458cd796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca5d895c5517facc0600d6e4068a1d9') in 0.048365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business04_m/business04_m_35_normal.png
+  artifactKey: Guid(3dcf7eb632e036448ab2679d9635bfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business04_m/business04_m_35_normal.png using Guid(3dcf7eb632e036448ab2679d9635bfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59613c50912e9706de59c42d64b994ba') in 0.019945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business05_m/business05_m.FBX
+  artifactKey: Guid(258c3abe9e1b27a44bdd1240683979b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business05_m/business05_m.FBX using Guid(258c3abe9e1b27a44bdd1240683979b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb3c0a44137d054bd3c6bacaa22da87') in 0.044030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business07_m/business07_m_25.png
+  artifactKey: Guid(267918ec3f5eea940b7b974808be7e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business07_m/business07_m_25.png using Guid(267918ec3f5eea940b7b974808be7e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b098662253c390985e95ed961224e0') in 0.020314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.162320 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual02_m/casual02_m.FBX
+  artifactKey: Guid(936643eae08359c4db72bc5b72773a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual02_m/casual02_m.FBX using Guid(936643eae08359c4db72bc5b72773a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abe1aea72094f2160867d47fdecae7c') in 0.048052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual05_m/casual05_m_35_normal.png
+  artifactKey: Guid(f8b5a9cb63bd2df48a46b657652fe944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual05_m/casual05_m_35_normal.png using Guid(f8b5a9cb63bd2df48a46b657652fe944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5b42e8b33caf34d2a869e75df50588') in 0.027494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual04_m/casual04_m_25_normal.png
+  artifactKey: Guid(75527d4b12a9ec34295750e6d846ea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual04_m/casual04_m_25_normal.png using Guid(75527d4b12a9ec34295750e6d846ea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0441cfd10bc6e2f896abaee9d59be1b6') in 0.030828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual06_m/casual06_m.FBX
+  artifactKey: Guid(cbc4adfb32bc40847a66f6df987721ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual06_m/casual06_m.FBX using Guid(cbc4adfb32bc40847a66f6df987721ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54aedf1a10b7bd83e95c717e408be191') in 0.057360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.232745 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive11_m/sportive11_m.FBX
+  artifactKey: Guid(2bb3bc51205cf1543861dd8c1ad99766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive11_m/sportive11_m.FBX using Guid(2bb3bc51205cf1543861dd8c1ad99766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9a631f8a435ff69eaca20d6283853f') in 0.067739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.788460 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business02_m/Materials/business02_m_35.mat
+  artifactKey: Guid(11b7894ca4b4da7429821cfa4f29bdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business02_m/Materials/business02_m_35.mat using Guid(11b7894ca4b4da7429821cfa4f29bdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59867898fb4b0899714e0ab0926fb70') in 0.014382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.209701 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business06_m/Materials/business06_m_25.mat
+  artifactKey: Guid(81387ad543187874b9274790f54c8152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business06_m/Materials/business06_m_25.mat using Guid(81387ad543187874b9274790f54c8152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30353adb0b9a34a894a5909be298d72') in 0.018944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual03_m/Materials/casual03_m_25.mat
+  artifactKey: Guid(a790ef544a348fd40a7552bb5fd415dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual03_m/Materials/casual03_m_25.mat using Guid(a790ef544a348fd40a7552bb5fd415dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432298e1e612d0b098ce9041043c8ebd') in 0.017868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual09_m/casual09_m.png
+  artifactKey: Guid(0da1398161b1d1440b77832956962d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual09_m/casual09_m.png using Guid(0da1398161b1d1440b77832956962d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164f3e7b97ac6dc5a4439e48a3817ee5') in 0.019764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual12_m/casual12_m_30.png
+  artifactKey: Guid(0269bb207bfbe8b488a991173184e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual12_m/casual12_m_30.png using Guid(0269bb207bfbe8b488a991173184e775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9480216b313bdf53238c56849e33e50d') in 0.022867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual14_m/casual14_m.FBX
+  artifactKey: Guid(408716d2f5cb17648838a9c8c44bf2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual14_m/casual14_m.FBX using Guid(408716d2f5cb17648838a9c8c44bf2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e627e05e231faec66c41782b79953c') in 0.055062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual12_m/Materials/casual12_m_30.mat
+  artifactKey: Guid(b5971d85331793343afffdb4c4121234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual12_m/Materials/casual12_m_30.mat using Guid(b5971d85331793343afffdb4c4121234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38cf2c53bb2f4a6c940d5bed0f9605c') in 0.017061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual09_m/Materials/casual09_m_30.mat
+  artifactKey: Guid(c50cf934df7cc104ab4f6c6d5b46e0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual09_m/Materials/casual09_m_30.mat using Guid(c50cf934df7cc104ab4f6c6d5b46e0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01fa817801d1e66b69f9bfabe62f080') in 0.023242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual17_m/Materials/casual17_m_35.mat
+  artifactKey: Guid(9c3e1f9e8948c90429fd6fce88aa633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual17_m/Materials/casual17_m_35.mat using Guid(9c3e1f9e8948c90429fd6fce88aa633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83afd7bda7938bc7ed5baef545b1a33') in 0.022630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual16_m/casual16_m_35_normal.png
+  artifactKey: Guid(3d2c707ee9d64fb42ae1e2a12f5a0a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual16_m/casual16_m_35_normal.png using Guid(3d2c707ee9d64fb42ae1e2a12f5a0a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0588be1316cfb8e5c7bd13da6729ef3a') in 0.022759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual21_m/casual21_m_35.png
+  artifactKey: Guid(57c554c7402586e4884e0eee54057289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual21_m/casual21_m_35.png using Guid(57c554c7402586e4884e0eee54057289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2775b79be916820a40c5d8b64dbaeac3') in 0.029589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual19_m/casual19_m_35_normal.png
+  artifactKey: Guid(7c1da3f0b732f7841af71e173168cc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual19_m/casual19_m_35_normal.png using Guid(7c1da3f0b732f7841af71e173168cc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eaa182a4368c7a48b9707873c8a2236') in 0.023141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual16_m/casual16_m_35.png
+  artifactKey: Guid(7a65124fb9488da439e8da5a31730d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual16_m/casual16_m_35.png using Guid(7a65124fb9488da439e8da5a31730d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b7a3086b6b7299473c5d78b72fadaf') in 0.023601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual06_m/Materials/casual06_m_25.mat
+  artifactKey: Guid(04e2626a5272ca947aabff8d98eb3af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual06_m/Materials/casual06_m_25.mat using Guid(04e2626a5272ca947aabff8d98eb3af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364e0472860eedb3c06429c642e4e9ef') in 0.022841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual17_m/casual17_m_35_normal.png
+  artifactKey: Guid(a3ff11e783af5014798338e9079074de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual17_m/casual17_m_35_normal.png using Guid(a3ff11e783af5014798338e9079074de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46d447c11195df9d585b06d1310575d') in 0.021993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual08_m/Materials/casual08_m_30.mat
+  artifactKey: Guid(fc5e214d342659947b0ef67241f58214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual08_m/Materials/casual08_m_30.mat using Guid(fc5e214d342659947b0ef67241f58214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578ef56c6e8f80ae085f9948f099130a') in 0.023304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual15_m/Materials/casual15_m_30.mat
+  artifactKey: Guid(429b721b4ace420489291c8d2c0544f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual15_m/Materials/casual15_m_30.mat using Guid(429b721b4ace420489291c8d2c0544f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a10ad770d8b52e5c6e56537ea3139e3') in 0.036426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/Materials/casual11_m_30.mat
+  artifactKey: Guid(d6732923ce206ec4fb2b5116b9acca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/Materials/casual11_m_30.mat using Guid(d6732923ce206ec4fb2b5116b9acca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ba8819d4ac96d9d3554ca469c922d6') in 0.021721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual16_m/casual16_m.FBX
+  artifactKey: Guid(f3b3b1797c5345747a1677d08a60b7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual16_m/casual16_m.FBX using Guid(f3b3b1797c5345747a1677d08a60b7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb6a84dd281630c5a4fefbc59829c94') in 0.057290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual20_m/casual20_m_20.png
+  artifactKey: Guid(fa546dcdb7322c141b24be22e1502231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual20_m/casual20_m_20.png using Guid(fa546dcdb7322c141b24be22e1502231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ddce18bc60f697e266c5a732a92292') in 0.017420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual15_m/casual15_m_30.png
+  artifactKey: Guid(000c64aa0333bb443b5c75ac32b78416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual15_m/casual15_m_30.png using Guid(000c64aa0333bb443b5c75ac32b78416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35fbe48c5367f613bddca4749b8e2d1') in 0.015906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual15_m/casual15_m.FBX
+  artifactKey: Guid(3d3b6e3d738fe9d4cb24911231c01bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual15_m/casual15_m.FBX using Guid(3d3b6e3d738fe9d4cb24911231c01bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4e38ec282756fff5cb4ee6c376cf55') in 0.053830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual21_m/Materials/casual21_m_35.mat
+  artifactKey: Guid(df9624e15c78d6d48870fc8e77dad00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual21_m/Materials/casual21_m_35.mat using Guid(df9624e15c78d6d48870fc8e77dad00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e956f956b5ea07ce37a758447405126') in 0.019731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual19_m/Materials/casual19_m_35.mat
+  artifactKey: Guid(042c242972e702e4ca068d0ff61776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual19_m/Materials/casual19_m_35.mat using Guid(042c242972e702e4ca068d0ff61776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5a0245333f72cba45707e64503845d') in 0.015199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual07_m/casual07_m_25_normal.png
+  artifactKey: Guid(932ee4df3cea945468a4722be4bcb8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual07_m/casual07_m_25_normal.png using Guid(932ee4df3cea945468a4722be4bcb8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4477b84372a8151d2a86ea3c160aa1') in 0.020031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual19_m/Materials/casual21_m_35.mat
+  artifactKey: Guid(4cf1ec8dd3dca384a8178cf8391209bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual19_m/Materials/casual21_m_35.mat using Guid(4cf1ec8dd3dca384a8178cf8391209bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497986a82927d6a1f1653681ae243947') in 0.016409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/casual11_m.FBX
+  artifactKey: Guid(35a034e4f2c6eed4981fcaa01eccc667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/casual11_m.FBX using Guid(35a034e4f2c6eed4981fcaa01eccc667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64d40b4dcbe3cbfa8a53e9816e269a8') in 0.045906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050960 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual22_m/casual22_m_35.png
+  artifactKey: Guid(49c6a9f9cd7d13445b9a4aa68c694dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual22_m/casual22_m_35.png using Guid(49c6a9f9cd7d13445b9a4aa68c694dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f11a699262ada59bb9a70f1b0405a84') in 0.042528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual23_m/casual23_m.FBX
+  artifactKey: Guid(01bf2b96dd228e846800c0c52553820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual23_m/casual23_m.FBX using Guid(01bf2b96dd228e846800c0c52553820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49374a971ec601df22d573239cd33928') in 0.063664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual32_m/casual32_m_25_normal.png
+  artifactKey: Guid(70847ecee0e88ea41afbfef0807d0971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual32_m/casual32_m_25_normal.png using Guid(70847ecee0e88ea41afbfef0807d0971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d8b38f3dad780916b644d83146fad5') in 0.026869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual25_m/Materials/1.mat
+  artifactKey: Guid(be4002a89a949a14aa17a4bc0d830f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual25_m/Materials/1.mat using Guid(be4002a89a949a14aa17a4bc0d830f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151891137fb21be30d364664d9b66f34') in 0.027298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual28_m/Materials/casual28_m_70.mat
+  artifactKey: Guid(faad162399416624f912b8e3ba64fc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual28_m/Materials/casual28_m_70.mat using Guid(faad162399416624f912b8e3ba64fc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4448dd6ebc626ff5d428979fe99969f') in 0.015900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/child01_m/Materials/child01_m.mat
+  artifactKey: Guid(bf723dd884fdbfb4c86da8ee1ef970f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/child01_m/Materials/child01_m.mat using Guid(bf723dd884fdbfb4c86da8ee1ef970f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c816c2d09eb65b1b570bafbec3c001') in 0.022328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual32_m/Materials/casual32_m_25.mat
+  artifactKey: Guid(d8c1c76facf25c14b9c715e24ebe3ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual32_m/Materials/casual32_m_25.mat using Guid(d8c1c76facf25c14b9c715e24ebe3ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed968178aab0eb1132f65964ecc931cc') in 0.022391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual26_m/Materials/casual26_m_40.mat
+  artifactKey: Guid(9f00049b04c2981499265f115276f232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual26_m/Materials/casual26_m_40.mat using Guid(9f00049b04c2981499265f115276f232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626da4369e486911f2c36a1d0148aa60') in 0.031690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual26_m/casual26_m_40_normal.png
+  artifactKey: Guid(21c6700a890890b4c9a660fb42b089d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual26_m/casual26_m_40_normal.png using Guid(21c6700a890890b4c9a660fb42b089d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fcb34f783be7b778d7537794d348d7') in 0.037719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual30_m/Materials/casual30_m_30.mat
+  artifactKey: Guid(35c1332e4c1d1f14b85601fb5b9e1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual30_m/Materials/casual30_m_30.mat using Guid(35c1332e4c1d1f14b85601fb5b9e1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f497c32d3e6a409b70cbbb5ad6a0ea74') in 0.037707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/Materials/nude01_m_25_hair.mat
+  artifactKey: Guid(79917299144b72845823cfc486a5b023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/Materials/nude01_m_25_hair.mat using Guid(79917299144b72845823cfc486a5b023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c67e66e15b97d36864461ee777924f2') in 0.045622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude09_m/nude09_m_30_normal.png
+  artifactKey: Guid(e8979be67687e7445850e91125547218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude09_m/nude09_m_30_normal.png using Guid(e8979be67687e7445850e91125547218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c190465b744647759940459cdb4ec7bb') in 0.035915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive07_m/Materials/sportive07_m_25.mat
+  artifactKey: Guid(e6f14663d0ac69f419eaba56f9aede0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive07_m/Materials/sportive07_m_25.mat using Guid(e6f14663d0ac69f419eaba56f9aede0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b1d8cb48d52ab13b81df946002a7e8') in 0.030141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/child02_m/child02_m.FBX
+  artifactKey: Guid(adae0d90488b98a4b9db8c90b7434060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/child02_m/child02_m.FBX using Guid(adae0d90488b98a4b9db8c90b7434060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec2fb33d6e463d46702f29c5859ec3f') in 0.110147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude10_m/nude10_m.FBX
+  artifactKey: Guid(8a0b4692cc834f845939f05d9df97ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude10_m/nude10_m.FBX using Guid(8a0b4692cc834f845939f05d9df97ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e82b61bb78c153ec1f3a00ad5ca45c') in 0.051499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive04_m/Materials/sportive04_m_25.mat
+  artifactKey: Guid(4f5573dcd54c94b4cbdf0020462b189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive04_m/Materials/sportive04_m_25.mat using Guid(4f5573dcd54c94b4cbdf0020462b189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d5fe3e68a73df4ea70ecdd79b6e4c3') in 0.017944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive10_m/Materials/sportive10_m_20.mat
+  artifactKey: Guid(9cf810805d6be564db927784d252ac52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive10_m/Materials/sportive10_m_20.mat using Guid(9cf810805d6be564db927784d252ac52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d530cc2a832ae0440a1958cc46b9430') in 0.025315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive09_m/sportive09_m_25_normal.png
+  artifactKey: Guid(913ce3ba6a888f142ba2b3ae73f7ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive09_m/sportive09_m_25_normal.png using Guid(913ce3ba6a888f142ba2b3ae73f7ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7c850956baf08075d192bf16d6cb32') in 0.020555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive08_m/sportive08_m_25_normal.png
+  artifactKey: Guid(a09a5c12c1004954cba949f093bfab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive08_m/sportive08_m_25_normal.png using Guid(a09a5c12c1004954cba949f093bfab1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc08e5a0389e032b3e61ad8c118a61aa') in 0.023308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/nude01_m_25.png
+  artifactKey: Guid(87ef4d632a11bbe4b8a2d4db2759b41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/nude01_m_25.png using Guid(87ef4d632a11bbe4b8a2d4db2759b41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e93514118b9ae547a9ee61b2a4846e4') in 0.018594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual30_m/casual30_m_30.png
+  artifactKey: Guid(60dfcea10a51a774d8c308d8d46b2a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual30_m/casual30_m_30.png using Guid(60dfcea10a51a774d8c308d8d46b2a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93cf4a44c5fd9589c7769605310a275d') in 0.022813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/player_m/soccerplayer01_m_normal.png
+  artifactKey: Guid(699e2c548ef6f2d42a38592005265263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/player_m/soccerplayer01_m_normal.png using Guid(699e2c548ef6f2d42a38592005265263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dc7e52aa46c7209119aed6dade5db1') in 0.021727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive03_m/sportive03_m.FBX
+  artifactKey: Guid(d5ef2ef5c93df6d469d496e1570f099b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive03_m/sportive03_m.FBX using Guid(d5ef2ef5c93df6d469d496e1570f099b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4512ce53b01461292603160f8663b7') in 0.059752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive08_m/sportive08_m_25.png
+  artifactKey: Guid(2d21261ead2528a40b4f6e3d4b5d775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive08_m/sportive08_m_25.png using Guid(2d21261ead2528a40b4f6e3d4b5d775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef4f46ac7985265ff990bddebf96b74') in 0.020167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual25_m/casual25_m.FBX
+  artifactKey: Guid(0ab4df9619b9e2348bf7c1b0c76731d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual25_m/casual25_m.FBX using Guid(0ab4df9619b9e2348bf7c1b0c76731d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d915c1dd5b4db98926f7cd6ca5dbab') in 0.052796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/child01_m/child01_m.png
+  artifactKey: Guid(17dab1c17d802c641b5b99838d283f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/child01_m/child01_m.png using Guid(17dab1c17d802c641b5b99838d283f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3afc3261c8b2a72fd2369d78ffde123') in 0.018986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/nude01_m_25_normal.png
+  artifactKey: Guid(405b584d9b5081744a80b82c84dda211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/nude01_m_25_normal.png using Guid(405b584d9b5081744a80b82c84dda211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1007fbdd1a6f82fa470aa53b3a53d4') in 0.017614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/nude01_m_25_hair.tga
+  artifactKey: Guid(f1a1939df04ab5844b0b00594a308f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/nude01_m_25_hair.tga using Guid(f1a1939df04ab5844b0b00594a308f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594a3190d612ed905c85f8974e50b989') in 0.019283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude03_m/Materials/nude_03_m_25.mat
+  artifactKey: Guid(22a663aaff7d9564792496e8ab837d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude03_m/Materials/nude_03_m_25.mat using Guid(22a663aaff7d9564792496e8ab837d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed7fedaf1a08ad9957b2f01ab3c075b') in 0.023921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive01_m/sportive01_m_20.png
+  artifactKey: Guid(ce0875c5787189a45954f1a3c614aa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive01_m/sportive01_m_20.png using Guid(ce0875c5787189a45954f1a3c614aa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642d541f283bf339b19a58c2d84912e9') in 0.025413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude04_m/nude04_m.FBX
+  artifactKey: Guid(cc6a33132db91bf4da5cab160d74393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude04_m/nude04_m.FBX using Guid(cc6a33132db91bf4da5cab160d74393b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f85ed9f0b6dd9940e049a0ac18c888') in 0.067667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual23_m/casual23_m_40_normal.png
+  artifactKey: Guid(b5b1504dd57615d468527cf6d1794e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual23_m/casual23_m_40_normal.png using Guid(b5b1504dd57615d468527cf6d1794e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f5f1ffb90b5f3509930466cd83fadd') in 0.033172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude09_m/Materials/nude09_m_30.mat
+  artifactKey: Guid(1fd7650f9f729b545be4128cff66b11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude09_m/Materials/nude09_m_30.mat using Guid(1fd7650f9f729b545be4128cff66b11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42b7ef54f97e678c1c0a40ecfcee1f5') in 0.021695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual24_m/casual24_m_40.png
+  artifactKey: Guid(ceebe7dd8ad23dc47a24683da657fcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual24_m/casual24_m_40.png using Guid(ceebe7dd8ad23dc47a24683da657fcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951f157a1c5e94348578a6a68515f57b') in 0.033056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude03_m/nude_03_m_25_normal.png
+  artifactKey: Guid(7aaef93c420f48f41abaa3d98ea04baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude03_m/nude_03_m_25_normal.png using Guid(7aaef93c420f48f41abaa3d98ea04baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c01e183b9e62b2ac07a1b46c663cf97') in 0.026184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude02_m/nude_02_m_25.png
+  artifactKey: Guid(c3ecb01aa0119e848859e8dd79b21f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude02_m/nude_02_m_25.png using Guid(c3ecb01aa0119e848859e8dd79b21f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22641f23cc7cf6c6905a561c76eea01') in 0.024744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude04_m/nude04_m_25_normal.png
+  artifactKey: Guid(a79acc23a5dec3a4194c106edfdd691c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude04_m/nude04_m_25_normal.png using Guid(a79acc23a5dec3a4194c106edfdd691c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c497d1d0d61f069321b03dc5a14f6d') in 0.022763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/child02_m/Materials/child02_m.mat
+  artifactKey: Guid(68787112dc914404fb140ad28cf95efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/child02_m/Materials/child02_m.mat using Guid(68787112dc914404fb140ad28cf95efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801d0f27bcfd285bc76b3b6a26b3f1c0') in 0.018589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual27_m/casual27_m_70_normal.png
+  artifactKey: Guid(75f309f8cdf4aad40abc6b177730c9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual27_m/casual27_m_70_normal.png using Guid(75f309f8cdf4aad40abc6b177730c9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd653916637be6479576b6c51accc6ab') in 0.026218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive03_m/sportive03_m_25_normal.png
+  artifactKey: Guid(4642b24bec7929740b0f6253034883fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive03_m/sportive03_m_25_normal.png using Guid(4642b24bec7929740b0f6253034883fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a262b7d3255a76f94c128e5ef4906d7') in 0.021095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual24_m/casual24_m_40_normal.png
+  artifactKey: Guid(830bd23d9f34ce443969a9de80a63134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual24_m/casual24_m_40_normal.png using Guid(830bd23d9f34ce443969a9de80a63134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22aafc6dcd7b8ea7a7882d55ef1b0f77') in 0.020039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive03_m/sportive03_m_25.png
+  artifactKey: Guid(807afa787c26b95468b582f804102f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive03_m/sportive03_m_25.png using Guid(807afa787c26b95468b582f804102f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5541e4d742f3bbb7fbba9950c8d4907') in 0.023188 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

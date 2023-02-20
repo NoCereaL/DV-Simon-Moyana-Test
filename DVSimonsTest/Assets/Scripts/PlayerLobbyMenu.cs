@@ -5,6 +5,7 @@ using Photon.Pun;
 using Photon.Realtime;
 using System.Linq;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerLobbyMenu : MonoBehaviourPunCallbacks
 {
@@ -79,5 +80,12 @@ public class PlayerLobbyMenu : MonoBehaviourPunCallbacks
 		{
 			Instantiate(PlayerListItemPrefab, playerListContent).GetComponent<PlayerButtonListing>().SetUp(players[i]);
 		}
+	}
+
+	public void LeaveRoom()
+    {
+		PhotonNetwork.LeaveRoom();
+		Destroy(MSKGameManager.Instance.roomManager.gameObject);
+		SceneManager.LoadScene(0);
 	}
 }

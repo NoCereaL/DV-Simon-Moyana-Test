@@ -1,0 +1,2121 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52799
+Successfully changed project path to: C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest
+C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 191.57 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/smoya/Documents/Git/DV-Simon-Moyana-Test/DVSimonsTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.2698
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004979 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 150.55 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Domain Reload Profiling:
+	ReloadAssembly (693ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (512ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (151ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010491 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 144.60 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.767 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1768ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (2ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1465ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (770ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (145ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5802 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (193.7 KB). Loaded Objects now: 6218.
+Memory consumption went from 236.6 MB to 236.4 MB.
+Total: 4.451200 ms (FindLiveObjects: 0.620400 ms CreateObjectMapping: 0.287700 ms MarkObjects: 3.326000 ms  DeleteObjects: 0.216100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 491982.048120 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Girl_33.FBX
+  artifactKey: Guid(6a52cc67b299903448247340bfb0fa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Girl_33.FBX using Guid(6a52cc67b299903448247340bfb0fa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef75c4c595d456e5d6728d2bfc30fb3') in 0.387869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.126937 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_22.mat
+  artifactKey: Guid(5d15f10a02620a149bbc56089068ef72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_22.mat using Guid(5d15f10a02620a149bbc56089068ef72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2692a6cabb9537e7015050df90377afb') in 0.032233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_55_hair.mat
+  artifactKey: Guid(1b8f75604fdb29547a402369550cfa8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_55_hair.mat using Guid(1b8f75604fdb29547a402369550cfa8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765d3cf048cc70c60446f9157a02bc01') in 0.030851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_44.mat
+  artifactKey: Guid(ec8036650715efa44bde740f68bdd001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_44.mat using Guid(ec8036650715efa44bde740f68bdd001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a193c289b5dd052ac2b301e67f0a48') in 0.015754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_33_hair.mat
+  artifactKey: Guid(e3b05ce07f09cff4bb9f882d99585ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 1.0/Female/Materials/Girl_33_hair.mat using Guid(e3b05ce07f09cff4bb9f882d99585ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ef82c79d4c02700f338489e25c7873') in 0.019858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.669648 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business01_m/business01_m_60_normal.png
+  artifactKey: Guid(a7a8faa45c9b08a4a92297cc76f75817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business01_m/business01_m_60_normal.png using Guid(a7a8faa45c9b08a4a92297cc76f75817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3646447ed92ee0c2ca2f8c21f3c8000e') in 0.033428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.438829 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business02_m/business02_m_35_normal.png
+  artifactKey: Guid(72ea03eab695f9043b281376a4e6453c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business02_m/business02_m_35_normal.png using Guid(72ea03eab695f9043b281376a4e6453c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53efe6e8edc2febbc531b8b4d251585') in 0.030606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business03_m/business03_m_35.png
+  artifactKey: Guid(48e51884eec30364c87bd38bcda1882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business03_m/business03_m_35.png using Guid(48e51884eec30364c87bd38bcda1882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af6c60b9854e39bfd1defaf303b5642') in 0.021944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business05_m/business05_m_25.png
+  artifactKey: Guid(1244ac1da4439e845a93bd88e8db0532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business05_m/business05_m_25.png using Guid(1244ac1da4439e845a93bd88e8db0532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ae3820576eb8147d6c15912c38adeb') in 0.017978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business06_m/business06_m_25_normal.png
+  artifactKey: Guid(92833c856bafa464fb387ac62c8afb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business06_m/business06_m_25_normal.png using Guid(92833c856bafa464fb387ac62c8afb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19756fdb5ca430a4aa2f49a3db510efe') in 0.018482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business04_m/business04_m.FBX
+  artifactKey: Guid(7a33b7e20706a7b459382d63d4e62420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business04_m/business04_m.FBX using Guid(7a33b7e20706a7b459382d63d4e62420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b428903aca1b582e4557817580cf192f') in 0.049971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business07_m/business07_m_25_normal.png
+  artifactKey: Guid(623135c42ec71d74e9c496442144d7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business07_m/business07_m_25_normal.png using Guid(623135c42ec71d74e9c496442144d7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bd55da983d19cdde907e3ecbfe383c') in 0.019880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business04_m/business04_m_35.png
+  artifactKey: Guid(b44a29dc8aa0f8d43aa134e68b767d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business04_m/business04_m_35.png using Guid(b44a29dc8aa0f8d43aa134e68b767d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb77897914c9ba8840f66811186adcf') in 0.019480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business06_m/business06_m_25.png
+  artifactKey: Guid(7db1eb734062fae4aa48c09b8c08d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business06_m/business06_m_25.png using Guid(7db1eb734062fae4aa48c09b8c08d2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d918a6c32ca444406dafcfa7a1a1a3') in 0.016527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.177339 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual02_m/casual02_m_25_normal.png
+  artifactKey: Guid(e974d268529e1c34c92472eea8eec235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual02_m/casual02_m_25_normal.png using Guid(e974d268529e1c34c92472eea8eec235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0702e76e19ea1b324fa86037197edd5') in 0.024802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual05_m/casual05_m_35.png
+  artifactKey: Guid(9f2c769043047764c839c3845aba8fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual05_m/casual05_m_35.png using Guid(9f2c769043047764c839c3845aba8fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5312f076b6bc5613a11b855b473404a8') in 0.021494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual05_m/casual05_m.FBX
+  artifactKey: Guid(f7c5bf5b152fc1847b8bbf292d35ae91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual05_m/casual05_m.FBX using Guid(f7c5bf5b152fc1847b8bbf292d35ae91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21c93f18f2d07eb08a25aa399d7e2d8') in 0.060246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual04_m/casual04_m_25.png
+  artifactKey: Guid(fb522246ddc7ceb4f98f40efc6efef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual04_m/casual04_m_25.png using Guid(fb522246ddc7ceb4f98f40efc6efef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc01293595a17e3593c9d9ccb2913a1') in 0.019430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual03_m/casual03_m_25.png
+  artifactKey: Guid(7765c6ac2c75fa44581340bf7b996f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual03_m/casual03_m_25.png using Guid(7765c6ac2c75fa44581340bf7b996f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73313bf34b2ac7f7c7dd3e10305bdeb8') in 0.026838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual06_m/casual06_m_25.png
+  artifactKey: Guid(24cc32c1f44ee874aa5a0463aad70395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual06_m/casual06_m_25.png using Guid(24cc32c1f44ee874aa5a0463aad70395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40af0d085e7c94e46e9d61c5246a0ee9') in 0.022712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.200941 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive11_m/sportive11_m_30_normal.png
+  artifactKey: Guid(aa1a95fde11d4434aa9c284eeec8210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive11_m/sportive11_m_30_normal.png using Guid(aa1a95fde11d4434aa9c284eeec8210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990f21a8b2859df9ba8b90eac0163ad6') in 0.035374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive11_m/Materials
+  artifactKey: Guid(76fe62a3ab0631949a701ec3669f4d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive11_m/Materials using Guid(76fe62a3ab0631949a701ec3669f4d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481064197b552ae07261d8bb54f45f08') in 0.004692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.796473 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/business04_m/Materials/business04_m_35.mat
+  artifactKey: Guid(b009ae4ccfcaff5438f2a5676f8b8b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/business04_m/Materials/business04_m_35.mat using Guid(b009ae4ccfcaff5438f2a5676f8b8b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d6db30bc6d6ffdc31762ac5791f262') in 0.013487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.210585 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual01_m/Materials/casual01_m_35.mat
+  artifactKey: Guid(4cc913a5e31307540b1b450f588cf4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual01_m/Materials/casual01_m_35.mat using Guid(4cc913a5e31307540b1b450f588cf4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53d92a651887a122cf3d7be07d22f25') in 0.019561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual06_m/casual06_m_25_hair_normal.png
+  artifactKey: Guid(b52327eda03dad9488f10a3b598a41ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual06_m/casual06_m_25_hair_normal.png using Guid(b52327eda03dad9488f10a3b598a41ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6471a84af4b5bfc61bcb1463c27267') in 0.020884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual10_m/casual10_m_30_normal.png
+  artifactKey: Guid(6d20f81021e98d648a9ca7016320552f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual10_m/casual10_m_30_normal.png using Guid(6d20f81021e98d648a9ca7016320552f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfac44cb9a97ce433a6806480db1c7a') in 0.020404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual12_m/casual12_m.FBX
+  artifactKey: Guid(aa7bddc2051ec944bbb96e6eb130d603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual12_m/casual12_m.FBX using Guid(aa7bddc2051ec944bbb96e6eb130d603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe9a2a33f09a9f846b090c237210676') in 0.048153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual20_m/casual20_m.FBX
+  artifactKey: Guid(e667c16f23354004d9f99951c4e53915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual20_m/casual20_m.FBX using Guid(e667c16f23354004d9f99951c4e53915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501d56550a44e167c26eadc311afdca6') in 0.055903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual06_m/Materials/casual06_m_25_hair.mat
+  artifactKey: Guid(db2bbc6ca9a5aea418a2fdb7799c4718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual06_m/Materials/casual06_m_25_hair.mat using Guid(db2bbc6ca9a5aea418a2fdb7799c4718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2fa6566d007592da1c2f4b2669b5c3') in 0.021716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual02_m/Materials/casual02_m_25.mat
+  artifactKey: Guid(3f81c299d9da4074a9186aea8e1e3b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual02_m/Materials/casual02_m_25.mat using Guid(3f81c299d9da4074a9186aea8e1e3b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34496e07983d856c2b4c8de088aab4b') in 0.016923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/Materials/5s.mat
+  artifactKey: Guid(a763668d316e8db45aeaa3f55ef92c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/Materials/5s.mat using Guid(a763668d316e8db45aeaa3f55ef92c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af3c3cbaacc1e91c0d7f0141c951ac1') in 0.024774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual17_m/casual17_m_35.png
+  artifactKey: Guid(444304dd047f43f458d9fc9893f3a645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual17_m/casual17_m_35.png using Guid(444304dd047f43f458d9fc9893f3a645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd628717e78f35f653fc255deac228d83') in 0.023356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual21_m/casual21_m.FBX
+  artifactKey: Guid(eb12d6f439ca0344c826c0bfdcb37a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual21_m/casual21_m.FBX using Guid(eb12d6f439ca0344c826c0bfdcb37a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a42213a9727b447e6828056bfe2a26') in 0.067046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual16_m/Materials/casual15_m_30.mat
+  artifactKey: Guid(98ec970ed7656294b83001bffea9f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual16_m/Materials/casual15_m_30.mat using Guid(98ec970ed7656294b83001bffea9f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1724102e6f71653c306b039df5ec663c') in 0.025124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual09_m/casual09_m_30_normal.png
+  artifactKey: Guid(fb988bb50b5914e4fa944f16f169a807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual09_m/casual09_m_30_normal.png using Guid(fb988bb50b5914e4fa944f16f169a807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0d419a5e783163ec45a621f23d1a16') in 0.030387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual13_m/casual13_m_30.png
+  artifactKey: Guid(c4265287908abaa4e947c7f1dbd64874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual13_m/casual13_m_30.png using Guid(c4265287908abaa4e947c7f1dbd64874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10429e4e23eaa69d2d40ff04bc4e413') in 0.034496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/casual11_m_30_hair.tga
+  artifactKey: Guid(25614f5444b1f0c49bb8dc52a5f35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/casual11_m_30_hair.tga using Guid(25614f5444b1f0c49bb8dc52a5f35d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05c38ff4ae05ba4ddd90d5b6eb2a5bd') in 0.030724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual18_m/casual18_m_35_normal.png
+  artifactKey: Guid(241109093ba4b9e4fa41883fe3b93579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual18_m/casual18_m_35_normal.png using Guid(241109093ba4b9e4fa41883fe3b93579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af482f18c94bc55d4396da529e3efb98') in 0.032131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual13_m/casual13_m.FBX
+  artifactKey: Guid(68087e74582a2fa46bb3335a0ff095e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual13_m/casual13_m.FBX using Guid(68087e74582a2fa46bb3335a0ff095e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faaeb3ceb27d9d7c0a56667ddb321e46') in 0.047193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual21_m/casual21_m_35_normal.png
+  artifactKey: Guid(48458b2a07ce1d647934267a805cf472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual21_m/casual21_m_35_normal.png using Guid(48458b2a07ce1d647934267a805cf472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3587395c33d6cda25c1eebaee339fc3') in 0.026866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual05_m/Materials/casual05_m_35.mat
+  artifactKey: Guid(a9711443755a9f640a76c85e81b3f04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual05_m/Materials/casual05_m_35.mat using Guid(a9711443755a9f640a76c85e81b3f04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fe4da8b23013f004f44a73936a0282') in 0.019849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/casual11_m_30.png
+  artifactKey: Guid(78bfb16596ec0ad4db3f1c80eeeeea82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/casual11_m_30.png using Guid(78bfb16596ec0ad4db3f1c80eeeeea82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de38ce5b77d0f95a3d647babc443971a') in 0.015885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual14_m/Materials/casual14_m_30.mat
+  artifactKey: Guid(24840f6396d0bed4faa6085e6d972a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual14_m/Materials/casual14_m_30.mat using Guid(24840f6396d0bed4faa6085e6d972a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b6878edc0c675a990a2f8119143de8') in 0.020500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual19_m/casual19_m_35.png
+  artifactKey: Guid(7f895901f68cd1d49994be08c10a1601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual19_m/casual19_m_35.png using Guid(7f895901f68cd1d49994be08c10a1601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa2f1e1881067fc7a7fe63856448a10') in 0.034934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual17_m/casual17_m.FBX
+  artifactKey: Guid(3074fc66ec856a845b33dbba0ef72660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual17_m/casual17_m.FBX using Guid(3074fc66ec856a845b33dbba0ef72660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e998153607cd61014ef9665fa787538c') in 0.065342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/casual11_m_30_normal.png
+  artifactKey: Guid(3201679af67e84749afbabe367ea18ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual11_m/casual11_m_30_normal.png using Guid(3201679af67e84749afbabe367ea18ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c3184e6ae48d7d6b4bc2d4a8f94a7b') in 0.016876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual10_m/casual10_m_highpoly.FBX
+  artifactKey: Guid(110f4e2421a37d24eb569dabbf538869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual10_m/casual10_m_highpoly.FBX using Guid(110f4e2421a37d24eb569dabbf538869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ed72eede893192c2c9278b2f62289c') in 0.043776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual08_m/casual08_m_30_normal.png
+  artifactKey: Guid(5a37dfc63529c884a9a9ca975858eb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual08_m/casual08_m_30_normal.png using Guid(5a37dfc63529c884a9a9ca975858eb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fdb57d5feb935e9d63601e616983b4') in 0.023529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031100 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual22_m/Materials/casual22_m_35.mat
+  artifactKey: Guid(36826d1aaed367743ab8df3e8f57cdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual22_m/Materials/casual22_m_35.mat using Guid(36826d1aaed367743ab8df3e8f57cdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b292bd8719f0f4bdfc3de9f91a249fd') in 0.021640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual25_m/Materials/casual25_m_40.mat
+  artifactKey: Guid(575e2376712afb34a824841d62a2c191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual25_m/Materials/casual25_m_40.mat using Guid(575e2376712afb34a824841d62a2c191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcebeb01a23cfcd953ef91c964dd7f0a') in 0.028996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual28_m/casual28_m_70_normal.png
+  artifactKey: Guid(39496d75bac0f064ebb67c2456fff19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual28_m/casual28_m_70_normal.png using Guid(39496d75bac0f064ebb67c2456fff19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faf14f1bebfe5cb028dd0b8384661a5') in 0.023941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual31_m/Materials/casual31_m_30.mat
+  artifactKey: Guid(1ebe0b97ed8cbc044886bc0a49584eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual31_m/Materials/casual31_m_30.mat using Guid(1ebe0b97ed8cbc044886bc0a49584eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43af4de7f6132b7cfaf05814848b5d63') in 0.026901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual28_m/casual28_m_70.png
+  artifactKey: Guid(e9f8a61a8b43e8c4f9e964d17cee789d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual28_m/casual28_m_70.png using Guid(e9f8a61a8b43e8c4f9e964d17cee789d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef1628786e9ec3a1a719c39819bb96e') in 0.023788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual28_m/casual28_m.FBX
+  artifactKey: Guid(c7da1446dbf4b5349943490a38e0c1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual28_m/casual28_m.FBX using Guid(c7da1446dbf4b5349943490a38e0c1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70d169e9268c6ce715982f244cc2f5b') in 0.055512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/child01_m/child01_m_highpoly.FBX
+  artifactKey: Guid(8aea90695117fc94d8cd235071b82d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/child01_m/child01_m_highpoly.FBX using Guid(8aea90695117fc94d8cd235071b82d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726a1679713206bbf88e996f8146bb62') in 0.064603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual25_m/casual25_m_40.png
+  artifactKey: Guid(f28ae0501f94f3044b9c4eea1695041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual25_m/casual25_m_40.png using Guid(f28ae0501f94f3044b9c4eea1695041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc716aaed91fa52d467af300a1b480a') in 0.022013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual30_m/casual30_m_30_normal.png
+  artifactKey: Guid(f777f8d448f67f647b86a82dacfca8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual30_m/casual30_m_30_normal.png using Guid(f777f8d448f67f647b86a82dacfca8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d2acceae4116aa8785049241af8261') in 0.024359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude02_m/nude_02_m_25_normal.png
+  artifactKey: Guid(f354010981d5aec47976145478018eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude02_m/nude_02_m_25_normal.png using Guid(f354010981d5aec47976145478018eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0db20d6193bd8ea5cb86a8bba18ffb5') in 0.035357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude09_m/nude09_m_30.png
+  artifactKey: Guid(ea4c7eaa39435624b8e6aabf52c0198c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude09_m/nude09_m_30.png using Guid(ea4c7eaa39435624b8e6aabf52c0198c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d8c0145019f6f7ab651c1e153ab07a') in 0.030901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive05_m/sportive05_m_30_normal.png
+  artifactKey: Guid(d6c838c3a5d132a4686cb9d262303686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive05_m/sportive05_m_30_normal.png using Guid(d6c838c3a5d132a4686cb9d262303686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd79528ba192ca843cf78c3fbfcbf35') in 0.027943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive04_m/sportive04_m.FBX
+  artifactKey: Guid(6b5b90990ff37e3498112d28383295c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive04_m/sportive04_m.FBX using Guid(6b5b90990ff37e3498112d28383295c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845bbd2ebe4b71eb353c73c6b52ae59a') in 0.102499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive04_m/sportive04_m_25_normal.png
+  artifactKey: Guid(7e97d7a9f4322fe439b7a1bf27f8b725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive04_m/sportive04_m_25_normal.png using Guid(7e97d7a9f4322fe439b7a1bf27f8b725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4168560a4234f45682b7fa78974ed0d6') in 0.031840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/player_m/Materials/soccerplayer01_m.mat
+  artifactKey: Guid(bb580efc5ebfda44ab0adfe6d1497e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/player_m/Materials/soccerplayer01_m.mat using Guid(bb580efc5ebfda44ab0adfe6d1497e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd642bb0346c110669b0c168dd233a4a9') in 0.025365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude09_m/nude09_m.FBX
+  artifactKey: Guid(c6c83cd085c81ab45a10aa685cac754a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude09_m/nude09_m.FBX using Guid(c6c83cd085c81ab45a10aa685cac754a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed77a9b4b011e0eaece61b0371048a6') in 0.048841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude08_m/nude08_m_30.png
+  artifactKey: Guid(b76622e92caa17443b5947bf386d8f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude08_m/nude08_m_30.png using Guid(b76622e92caa17443b5947bf386d8f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb949c8f8cd0cddf9ba4df5cecea822') in 0.017275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual24_m/Materials/casual24_m_40.mat
+  artifactKey: Guid(b1156d657ae9cf7418b633c233e09fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual24_m/Materials/casual24_m_40.mat using Guid(b1156d657ae9cf7418b633c233e09fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910cbcc63f882a99a67e1c0d76937135') in 0.018201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual26_m/casual26_m_40.png
+  artifactKey: Guid(b9f20bc2c17e3474aaddf977242d0235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual26_m/casual26_m_40.png using Guid(b9f20bc2c17e3474aaddf977242d0235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f360df4849c389d0a1c8529086f057') in 0.018060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/child02_m/child02_m_normal.png
+  artifactKey: Guid(5b5a9690d94202840b32ab0bc44f06cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/child02_m/child02_m_normal.png using Guid(5b5a9690d94202840b32ab0bc44f06cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e86f01a89f173f9f93fbeed7055146') in 0.021079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive01_m/sportive01_m_20_normal.png
+  artifactKey: Guid(f0669556aa0153a4eadcaf17276d396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive01_m/sportive01_m_20_normal.png using Guid(f0669556aa0153a4eadcaf17276d396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c216c75f8b5aaee9f6e8a971e96eb474') in 0.016957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/nude01_m.FBX
+  artifactKey: Guid(7b7ece2a0eafbfe4e8e45920cd4b2e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/nude01_m.FBX using Guid(7b7ece2a0eafbfe4e8e45920cd4b2e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98912b6d759ab41e7d4cba13bc39ef60') in 0.055104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/player_m/soccerplayer01_m.FBX
+  artifactKey: Guid(64433feaacd99a54aac55a57bd8a7ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/player_m/soccerplayer01_m.FBX using Guid(64433feaacd99a54aac55a57bd8a7ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5b73d7bdf322832b09f4930ffa33fe') in 0.053249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/Materials/nude01_m_25.mat
+  artifactKey: Guid(3eae8f7cd0dacb748a9183a2dd6eac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude01_m/Materials/nude01_m_25.mat using Guid(3eae8f7cd0dacb748a9183a2dd6eac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f3f6a0e5d43696f9e737a230cd953d') in 0.017315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual23_m/casual23_m_40.png
+  artifactKey: Guid(46dcfd2f1eb08a64da847fa4b4af4434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual23_m/casual23_m_40.png using Guid(46dcfd2f1eb08a64da847fa4b4af4434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85d2043860ad2b47c843ae844eabdc7') in 0.017462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive05_m/Materials/sportive05_m_30.mat
+  artifactKey: Guid(71f8fabb133fefa43a66b0a7fbcc0f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive05_m/Materials/sportive05_m_30.mat using Guid(71f8fabb133fefa43a66b0a7fbcc0f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193cf898215915b36013cc44f3d7c7b5') in 0.020132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude03_m/nude03_m.FBX
+  artifactKey: Guid(df775075ea1cf8e418681f9a0bee51ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude03_m/nude03_m.FBX using Guid(df775075ea1cf8e418681f9a0bee51ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3621c06afe9e724ebe57b11947432a56') in 0.051041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude08_m/nude08_m_30_normal.png
+  artifactKey: Guid(aeeae57eb9c4baf4b998bbe58b74b0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude08_m/nude08_m_30_normal.png using Guid(aeeae57eb9c4baf4b998bbe58b74b0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6e67267dd72914d8667fffc4576f43') in 0.016213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude08_m/nude08_m.FBX
+  artifactKey: Guid(02020a02fd521914e8afd6cc573480d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude08_m/nude08_m.FBX using Guid(02020a02fd521914e8afd6cc573480d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdd63ed9d09a810a3f04c88e92aac64') in 0.063386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual24_m/casual24_m.FBX
+  artifactKey: Guid(2e87973e3ba458843bb58edcf0ba499b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual24_m/casual24_m.FBX using Guid(2e87973e3ba458843bb58edcf0ba499b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0042e3483b0fd18fdf5a11007a4837da') in 0.067564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual29_m/casual29_m_70.png
+  artifactKey: Guid(3c83fc9793b4fb64c9a4391848e2e292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual29_m/casual29_m_70.png using Guid(3c83fc9793b4fb64c9a4391848e2e292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2821d015176e05d95eaa767d0e5f1f') in 0.025805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual27_m/casual27_m_highpoly.FBX
+  artifactKey: Guid(cc0aaf43cf6ba61429c7eacf13c12863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual27_m/casual27_m_highpoly.FBX using Guid(cc0aaf43cf6ba61429c7eacf13c12863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6c69c8c95190f7bc3c97cfc0f36f91') in 0.072504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive08_m/sportive08_m.FBX
+  artifactKey: Guid(9642bc8c52ebb6c4e9a355b2ccb44fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive08_m/sportive08_m.FBX using Guid(9642bc8c52ebb6c4e9a355b2ccb44fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fb218fba8141287e6c393bd9c62d88') in 0.075463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/child01_m/child01_m_normal.png
+  artifactKey: Guid(7f01886e48ec9a34892beb7064634161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/child01_m/child01_m_normal.png using Guid(7f01886e48ec9a34892beb7064634161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ee4243861bd8d5989cd91f10e298cb') in 0.028825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/child02_m/child02_m.png
+  artifactKey: Guid(b58762f53924b2e489ae2d4bf0d833b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/child02_m/child02_m.png using Guid(b58762f53924b2e489ae2d4bf0d833b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459614db83323725d20dc23b86d17c41') in 0.022219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/sportive09_m/Materials/sportive09_m_25.mat
+  artifactKey: Guid(fdb6bf5145a786048bcd69eca5f45fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/sportive09_m/Materials/sportive09_m_25.mat using Guid(fdb6bf5145a786048bcd69eca5f45fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8ef5503e699cc42da46a8276570808') in 0.018594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual27_m/Materials/casual27_m_70.mat
+  artifactKey: Guid(49e8388fee523dd47b6eed9093b08ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual27_m/Materials/casual27_m_70.mat using Guid(49e8388fee523dd47b6eed9093b08ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac65b537c9f721ef5419cc31a5bbadac') in 0.017467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/casual32_m/casual32_m_25.png
+  artifactKey: Guid(8c7cec9d6e115b74c9e2c8c1f446f77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/casual32_m/casual32_m_25.png using Guid(8c7cec9d6e115b74c9e2c8c1f446f77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e55988df07ed08d85246e62074c399') in 0.017643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Male/nude03_m/nude_03_m_25.png
+  artifactKey: Guid(da7a3483afad10b4d966ee0ae082c0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Male/nude03_m/nude_03_m_25.png using Guid(da7a3483afad10b4d966ee0ae082c0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc112def3aba2c0123f0465b4a6dea4') in 0.016748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.856839 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business01_f/business01_f_30.png
+  artifactKey: Guid(3dbee5829fa26004a8bc52a0b4b5808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business01_f/business01_f_30.png using Guid(3dbee5829fa26004a8bc52a0b4b5808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41ddddf276df51d4a5fde479daba6b0') in 0.031051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business01_f/business01_f_30_hair.tga
+  artifactKey: Guid(ff4e5baa45a87814f85421d239c6ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business01_f/business01_f_30_hair.tga using Guid(ff4e5baa45a87814f85421d239c6ecbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ced1ddcb9312f807fd667ca0b0a65e6') in 0.026019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business01_f/business01_f_30_hair_normal.png
+  artifactKey: Guid(1483969ef1d047840a89f17f87b6a18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business01_f/business01_f_30_hair_normal.png using Guid(1483969ef1d047840a89f17f87b6a18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4651eb7aa2cf89a319245ae86a37eaa3') in 0.014297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.410071 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business02_f/business02_f_50.png
+  artifactKey: Guid(11358f31d69e69d4f8e234c1e910acb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business02_f/business02_f_50.png using Guid(11358f31d69e69d4f8e234c1e910acb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5cf33a77ac64ccc3c2746f6d168589') in 0.022341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business03_f/business03_f_25_normal.png
+  artifactKey: Guid(9ad675e94949d9844921bc0690bb59a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business03_f/business03_f_25_normal.png using Guid(9ad675e94949d9844921bc0690bb59a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7b351b6e6daa0cad88047bd4390d90') in 0.026904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business05_f/business05_f.FBX
+  artifactKey: Guid(a1a55a598b3c4c44ba391a4e5a6d64bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business05_f/business05_f.FBX using Guid(a1a55a598b3c4c44ba391a4e5a6d64bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeebdb756d3f20be8825924e2f64456b') in 0.053563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual03_f/casual03_f_25_hair_alpha.tga
+  artifactKey: Guid(d53b11117f326884bbfefb45c586115a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual03_f/casual03_f_25_hair_alpha.tga using Guid(d53b11117f326884bbfefb45c586115a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2c3841a507bbbabd7a8535ea2c8db3') in 0.022977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business03_f/business03_f.FBX
+  artifactKey: Guid(8b47faa3328dd0a45bddd659e95235a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business03_f/business03_f.FBX using Guid(8b47faa3328dd0a45bddd659e95235a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbae3411298a8f9ee54fcd4979d23e3') in 0.052687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business04_f/business04_f.FBX
+  artifactKey: Guid(67c5435b8332cb6479964424131f2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business04_f/business04_f.FBX using Guid(67c5435b8332cb6479964424131f2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8994c3a5780e09140321d9fe1b49e5b7') in 0.058973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business04_f/business04_f_25.png
+  artifactKey: Guid(cc7cf076d229cf04c891d78e44a5dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business04_f/business04_f_25.png using Guid(cc7cf076d229cf04c891d78e44a5dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fc66791549089bfbc53f66db92b218') in 0.017383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business04_f/business04_f_25_normal.png
+  artifactKey: Guid(846dd2d750cf08c41800edb66b2479ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business04_f/business04_f_25_normal.png using Guid(846dd2d750cf08c41800edb66b2479ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdb3f5053b2a032408b4a62a0d0629a') in 0.022946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business02_f/business02_f_50_normal.png
+  artifactKey: Guid(6d54b8305ca7db647b4f3bdca017c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business02_f/business02_f_50_normal.png using Guid(6d54b8305ca7db647b4f3bdca017c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3843d61af26166cb12c7823303b3e30b') in 0.018986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business05_f/business05_f_20_hair_normal.png
+  artifactKey: Guid(a21ee63da921a8e4ba414d1c120c72a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business05_f/business05_f_20_hair_normal.png using Guid(a21ee63da921a8e4ba414d1c120c72a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288614381be33e67b5f6b401ae6ae38d') in 0.017813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual02_f/casual02_f_25.png
+  artifactKey: Guid(6c5cb7049cf856944b568fc835ed1344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual02_f/casual02_f_25.png using Guid(6c5cb7049cf856944b568fc835ed1344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f4059901d9dcb9958aa75b171a28f3') in 0.015944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual01_f/casual01_f_20_hair_normal.png
+  artifactKey: Guid(e6166604307ff57469db6398db5fb176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual01_f/casual01_f_20_hair_normal.png using Guid(e6166604307ff57469db6398db5fb176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e6dd58e8bf4d70541fb05952297bca') in 0.019069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual04_f/casual04_f.FBX
+  artifactKey: Guid(de5f30c7eef4efa46b2c368cb150f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual04_f/casual04_f.FBX using Guid(de5f30c7eef4efa46b2c368cb150f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956bfdbb7231045255464f0114a794b3') in 0.042741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual03_f/casual03_f_25_normal.png
+  artifactKey: Guid(92aaf464bd0e09946938d2269264aae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual03_f/casual03_f_25_normal.png using Guid(92aaf464bd0e09946938d2269264aae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ceb2138f6d04291f84c6525e08ab58') in 0.022740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual01_f/casual01_f_20_normal.png
+  artifactKey: Guid(0d1ef5eb79e29b94180c55fb3217229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual01_f/casual01_f_20_normal.png using Guid(0d1ef5eb79e29b94180c55fb3217229e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc2e8824130e52c726ebcdf702c623e') in 0.017704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual07_f/casual07_f.FBX
+  artifactKey: Guid(5bb7fe5417aa21b41a6783d5c109d7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual07_f/casual07_f.FBX using Guid(5bb7fe5417aa21b41a6783d5c109d7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a632dd1fa4388d4e714c46bb4409bb0c') in 0.043514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual05_f/casual05_f_25_normal.png
+  artifactKey: Guid(58b01e6aebb06fd489678f7135e9c1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual05_f/casual05_f_25_normal.png using Guid(58b01e6aebb06fd489678f7135e9c1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f542ef85d5f3e01a04bea553f98a81') in 0.023971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/casual11_f_30.png
+  artifactKey: Guid(181efb517952005459adbbdb5d6075fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/casual11_f_30.png using Guid(181efb517952005459adbbdb5d6075fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c18ed39d1c89f8dc78a5b1ee1c4d2a') in 0.020051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual08_f/casual08_f_25_normal.png
+  artifactKey: Guid(181389a76446bff4eb22cea733e2c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual08_f/casual08_f_25_normal.png using Guid(181389a76446bff4eb22cea733e2c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2787312214fff6d10af7ecc2ef136903') in 0.023470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual12_f/casual12_f.FBX
+  artifactKey: Guid(1514bee28575cfe489fe27606c6b86bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual12_f/casual12_f.FBX using Guid(1514bee28575cfe489fe27606c6b86bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4398c8caab88322966f742571310bada') in 0.061717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/casual11_f.FBX
+  artifactKey: Guid(95a9ba644f2d59d4a847dfc49addb011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/casual11_f.FBX using Guid(95a9ba644f2d59d4a847dfc49addb011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6d0309b0a77582a3d7a4857171ad5e') in 0.059695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual05_f/casual05_f_25.png
+  artifactKey: Guid(4ad60bec43a8fd7408d76d7de788fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual05_f/casual05_f_25.png using Guid(4ad60bec43a8fd7408d76d7de788fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de134a891ff67161ccca29bb450ca8ba') in 0.018333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual14_f+/casual14_f_25_normal.png
+  artifactKey: Guid(a4397251f23bd8244a9e4df7ebd13c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual14_f+/casual14_f_25_normal.png using Guid(a4397251f23bd8244a9e4df7ebd13c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acae79c6843e02c95f63f872be74c097') in 0.019408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/casual11_f_30_hair_normal.png
+  artifactKey: Guid(55ba5f4ffdb4eab48853c90780c56be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/casual11_f_30_hair_normal.png using Guid(55ba5f4ffdb4eab48853c90780c56be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622346a5453945b0a9c2d07d76656e7c') in 0.027570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual06_f/casual06_f_hairalpha_normal.png
+  artifactKey: Guid(6d750d082d7f2cb44bf61d0fd32c930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual06_f/casual06_f_hairalpha_normal.png using Guid(6d750d082d7f2cb44bf61d0fd32c930f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590db8db3a048fa002e2d7241e195ece') in 0.023014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual06_f/casual06_f_hairalpha.tga
+  artifactKey: Guid(e8a54708ba70f7d43ac810fd6bc58c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual06_f/casual06_f_hairalpha.tga using Guid(e8a54708ba70f7d43ac810fd6bc58c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22fab5a2d97748f67ccefc8f3371af7') in 0.020645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual05_f/casual05_f_25_hair.tga
+  artifactKey: Guid(66d06160d40b319468e7c984a6f94f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual05_f/casual05_f_25_hair.tga using Guid(66d06160d40b319468e7c984a6f94f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da07418d154b8616059106536fa3df1') in 0.022467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual13_f+/casual13_f_30_normal.png
+  artifactKey: Guid(cb18e96abe8dd2b4bb88c0fa3e22698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual13_f+/casual13_f_30_normal.png using Guid(cb18e96abe8dd2b4bb88c0fa3e22698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a49115c17e7c3529d5bad96568bdd33') in 0.020882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual10_f/casual10_f_30.png
+  artifactKey: Guid(c54d8265020bdec4e825f9f0fbfac1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual10_f/casual10_f_30.png using Guid(c54d8265020bdec4e825f9f0fbfac1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec87959970045491a5a63d2547fe1e0b') in 0.030312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual07_f/casual07_f_20.png
+  artifactKey: Guid(6ae15b88b389b5c4b8e48b7ba8814f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual07_f/casual07_f_20.png using Guid(6ae15b88b389b5c4b8e48b7ba8814f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14efe335b9048671b4aa7a38231a448f') in 0.028038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual04_f/casual04_f_30_normal.png
+  artifactKey: Guid(42f6cbeb84189a447aa8d68ca0e0edeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual04_f/casual04_f_30_normal.png using Guid(42f6cbeb84189a447aa8d68ca0e0edeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7351241fe8f1a2799575ff89a82d95df') in 0.022241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/casual11_f_30_normal.png
+  artifactKey: Guid(087554c3cf494eb488d8de3130e1d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/casual11_f_30_normal.png using Guid(087554c3cf494eb488d8de3130e1d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3848a1e735bd8dbbf0a96a1eb4cfd46a') in 0.023442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual08_f/casual08_f_25_hair.tga
+  artifactKey: Guid(99407fa4dd1c5f742a783202fddf17a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual08_f/casual08_f_25_hair.tga using Guid(99407fa4dd1c5f742a783202fddf17a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89ddbfd4972f4337306d1ddf6f03fa2') in 0.029798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual07_f/casual07_f_20_hair.tga
+  artifactKey: Guid(e4bb9d92de264a74abe12eb6e8ca410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual07_f/casual07_f_20_hair.tga using Guid(e4bb9d92de264a74abe12eb6e8ca410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98a4e04f76178d7c3d23c9cb974f51a') in 0.017459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual10_f/casual10_f.FBX
+  artifactKey: Guid(c4c8482ee604cde4285c9ebbecca62aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual10_f/casual10_f.FBX using Guid(c4c8482ee604cde4285c9ebbecca62aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef8750cc76efdbb627512e7080fbbb8') in 0.048611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual12_f/casual12_f_30_hair.tga
+  artifactKey: Guid(2d78aa9f534192c44b844bb1250ffd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual12_f/casual12_f_30_hair.tga using Guid(2d78aa9f534192c44b844bb1250ffd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cd20ecc886bdb663749254f284cadb') in 0.017497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual06_f/casual06_f.FBX
+  artifactKey: Guid(c0c394984c3acab4c904aab87aa57a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual06_f/casual06_f.FBX using Guid(c0c394984c3acab4c904aab87aa57a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cb16fd287140ea9a60e01dc93184bc') in 0.050775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual14_f+/casual14_f_25_hair.tga
+  artifactKey: Guid(789741143d597ca45940726db0524f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual14_f+/casual14_f_25_hair.tga using Guid(789741143d597ca45940726db0524f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4980d714dd44c9fc1e3d179f67ae435') in 0.016799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual10_f/casual10_f_30_normal.png
+  artifactKey: Guid(f235d2d0cc54a934b8cfba1d943a48be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual10_f/casual10_f_30_normal.png using Guid(f235d2d0cc54a934b8cfba1d943a48be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a1d5311fe03827f8963f12e39abc7c') in 0.018606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.379453 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual15_f+/casual15_f_20.png
+  artifactKey: Guid(5bdab1300731aa249a14ff8b5dc08c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual15_f+/casual15_f_20.png using Guid(5bdab1300731aa249a14ff8b5dc08c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1aa45e62697dc3582c17308b661026') in 0.019142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual17_f/casual17_f_35_normal.png
+  artifactKey: Guid(757cf9c1c91b02243a46da6be482cf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual17_f/casual17_f_35_normal.png using Guid(757cf9c1c91b02243a46da6be482cf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c149b91454c09bbe34dae61d89d315') in 0.024785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual16_f/casual16_f_30.png
+  artifactKey: Guid(1e88000fd916b664ea1f9e35b83b35fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual16_f/casual16_f_30.png using Guid(1e88000fd916b664ea1f9e35b83b35fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3ed59d3992e0147f3ea9d8cbf8264f') in 0.018693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual15_f+/casual15_f_20_hair_alpha_normal.png
+  artifactKey: Guid(3e5016af6115d9646a35bbc715b1ab3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual15_f+/casual15_f_20_hair_alpha_normal.png using Guid(3e5016af6115d9646a35bbc715b1ab3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b21e8718344792f0f3eb1c3a8d6d9f') in 0.018290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual17_f/casual17_f_35.png
+  artifactKey: Guid(00c85402bdae41a41b7bf55aa44b1e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual17_f/casual17_f_35.png using Guid(00c85402bdae41a41b7bf55aa44b1e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aac916cc0e5f92ef6c62cafab809d61') in 0.028389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual19_f/casual19_f.FBX
+  artifactKey: Guid(e0f8de028580394418b7bae5be361bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual19_f/casual19_f.FBX using Guid(e0f8de028580394418b7bae5be361bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d82be19f93f1af363c711f27e8326e9') in 0.052710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual22_f+/casual22_f_25_hair.tga
+  artifactKey: Guid(499d47d52f5ca8b48a97e3fdfcbd7817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual22_f+/casual22_f_25_hair.tga using Guid(499d47d52f5ca8b48a97e3fdfcbd7817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2090ef852540a2e71dfc4f4ce9c5e549') in 0.022915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual19_f/casual19_f_20_hair_normal.png
+  artifactKey: Guid(714bbf4e44ed1dd4c8b2193414220e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual19_f/casual19_f_20_hair_normal.png using Guid(714bbf4e44ed1dd4c8b2193414220e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628ee6059548f0db3a6f2af13ae7f58a') in 0.019818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual19_f/casual19_f_20.png
+  artifactKey: Guid(be6859f6850900f4d8d5eaa03feb89c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual19_f/casual19_f_20.png using Guid(be6859f6850900f4d8d5eaa03feb89c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab23bf9a19fa90c161e882e8b62c2fc') in 0.019982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual22_f+/casual22_f.FBX
+  artifactKey: Guid(4e12054e24ad5f247860ffa23735aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual22_f+/casual22_f.FBX using Guid(4e12054e24ad5f247860ffa23735aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c12069f0cf9d6b4d7da8acb0310f2ac') in 0.059105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual20_f+/casual20_f_25_normal.png
+  artifactKey: Guid(890a42d5c5f0864409326b27309b021b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual20_f+/casual20_f_25_normal.png using Guid(890a42d5c5f0864409326b27309b021b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009ab9b0838953a842604ba74629f77d') in 0.022468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual15_f+/casual15_f_20_hair_alpha.tga
+  artifactKey: Guid(d68092e4eb509dd488f96c279506c0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual15_f+/casual15_f_20_hair_alpha.tga using Guid(d68092e4eb509dd488f96c279506c0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c12ac9fddcc658f822cd5ca7046b44') in 0.020775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual15_f+/casual15_f_20_normal.png
+  artifactKey: Guid(42f89ad745648d6489c96256b25ec8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual15_f+/casual15_f_20_normal.png using Guid(42f89ad745648d6489c96256b25ec8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845f738e18e8db0fb65fbf86cac95e0f') in 0.021022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual16_f/casual16_f.FBX
+  artifactKey: Guid(9b7805e4e76874f48a825cd9918574ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual16_f/casual16_f.FBX using Guid(9b7805e4e76874f48a825cd9918574ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6731d73796757ea18e8ec6a67139d94a') in 0.050454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual17_f/casual17_f_35_hair.tga
+  artifactKey: Guid(1ba8acf1aefced842804e6cd3b486bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual17_f/casual17_f_35_hair.tga using Guid(1ba8acf1aefced842804e6cd3b486bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6114dabaa18688935c0f1fb436c353cd') in 0.021614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual22_f+/casual22_f_25.png
+  artifactKey: Guid(a9e5947d31f89c84faa27679972a1b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual22_f+/casual22_f_25.png using Guid(a9e5947d31f89c84faa27679972a1b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0548aebb3109fd0dd4fede45314958dc') in 0.016676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual18_f/casual18_f.FBX
+  artifactKey: Guid(75d1228a5acf65a408798a587b8f8629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual18_f/casual18_f.FBX using Guid(75d1228a5acf65a408798a587b8f8629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75818472788de5c460f4b0cb8b21936d') in 0.044206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.713367 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive07_f/sportive07_f_20_normal.png
+  artifactKey: Guid(3b79d8771daa34545b1ecf81e1de5e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive07_f/sportive07_f_20_normal.png using Guid(3b79d8771daa34545b1ecf81e1de5e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ed5e35995a2d661eed252e799a8264') in 0.029114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.427232 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business02_f/Materials/business02_f_50.mat
+  artifactKey: Guid(7849af7fedb68574a82e3c4c72010683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business02_f/Materials/business02_f_50.mat using Guid(7849af7fedb68574a82e3c4c72010683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6868879b1c7ea271bf48dc2275970045') in 0.029670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business04_f/Materials/business03_f_25.mat
+  artifactKey: Guid(93bcc2ff439934c47954e9009eec0902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business04_f/Materials/business03_f_25.mat using Guid(93bcc2ff439934c47954e9009eec0902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b24a6688fa9b6696704531ce9ba180') in 0.019630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/business05_f/Materials/business05_f_20_hair.mat
+  artifactKey: Guid(8102f3e7a8cca8446b76f4b1b1e69942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/business05_f/Materials/business05_f_20_hair.mat using Guid(8102f3e7a8cca8446b76f4b1b1e69942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c9846fcc9c97c2c58712ca0ae08e57') in 0.018985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.575087 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual02_f/Materials/casual02_f_25.mat
+  artifactKey: Guid(3277b27a0b9a28f4f94f65643e057c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual02_f/Materials/casual02_f_25.mat using Guid(3277b27a0b9a28f4f94f65643e057c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da056dfd74fa479023ed477d080eed4f') in 0.015591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.145911 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual05_f/Materials/casual05_f_25_hair.mat
+  artifactKey: Guid(21305519f6a46564a8197922bc6099d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual05_f/Materials/casual05_f_25_hair.mat using Guid(21305519f6a46564a8197922bc6099d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b1b4bbf96ea94a067fc39be1ca411b') in 0.012459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.412139 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual08_f/Materials/casual08_f_25.mat
+  artifactKey: Guid(d73e7c36ab6c55f42949803c681547de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual08_f/Materials/casual08_f_25.mat using Guid(d73e7c36ab6c55f42949803c681547de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dce95154776f1fccb2ec7c40bd7893a') in 0.012915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual09_f/Materials/casual09_f_25.mat
+  artifactKey: Guid(2cb362a5c5ebfad4286dcb7ff1f9245d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual09_f/Materials/casual09_f_25.mat using Guid(2cb362a5c5ebfad4286dcb7ff1f9245d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f74227c4c9a8fac8ec7bffbd10f614') in 0.019632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/Materials/casual10_f_30.mat
+  artifactKey: Guid(8470d26f5f05b72449f5d0f38a762ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/Materials/casual10_f_30.mat using Guid(8470d26f5f05b72449f5d0f38a762ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5f229f7f3652e4e278f00fb90b283e') in 0.013472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/Materials/casual10_f_30_hair.mat
+  artifactKey: Guid(b538d231ecd775c43a7cdb286d41ec1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual11_f/Materials/casual10_f_30_hair.mat using Guid(b538d231ecd775c43a7cdb286d41ec1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7fe55a97a8c87ca9b5b7111bda95b8') in 0.017133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual13_f+/Materials/casual13_f_30.mat
+  artifactKey: Guid(fc2a980502ea95340b6099097f7b08ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual13_f+/Materials/casual13_f_30.mat using Guid(fc2a980502ea95340b6099097f7b08ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfda8f8f206172cb0c1654c63ef8665') in 0.015483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023180 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual15_f+/Materials/casual15_f_20.mat
+  artifactKey: Guid(bb09854ac93d50447902d6222062888e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual15_f+/Materials/casual15_f_20.mat using Guid(bb09854ac93d50447902d6222062888e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c0dd0579abc8a7c0e09562982c98eb') in 0.017913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual19_f/Materials/casual19_f_20_hair.mat
+  artifactKey: Guid(3200b40c297b1b943b6e189988d1d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual19_f/Materials/casual19_f_20_hair.mat using Guid(3200b40c297b1b943b6e189988d1d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18d00687ead25bf228445f4046f668d') in 0.031155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual18_f/Materials/casual18_f_30.mat
+  artifactKey: Guid(29717ac76b9c82547980e8fbb970a041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual18_f/Materials/casual18_f_30.mat using Guid(29717ac76b9c82547980e8fbb970a041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae4146efd128c53d4a26411a819b631') in 0.023547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual16_f/Materials/casual16_f_30.mat
+  artifactKey: Guid(10eb7109e9af9a040a35d93d8dd8c0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual16_f/Materials/casual16_f_30.mat using Guid(10eb7109e9af9a040a35d93d8dd8c0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4992feade95b14302c1d898f8cc9dbe8') in 0.016320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.325544 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual21_f+/Materials/casual21_f_30.mat
+  artifactKey: Guid(b6d6b644925d75d409872cd56c8c4894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual21_f+/Materials/casual21_f_30.mat using Guid(b6d6b644925d75d409872cd56c8c4894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e8aac841a066274d599352a72c61c0') in 0.016630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.548884 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual22_f+/Materials/casual22_f_25.mat
+  artifactKey: Guid(47c28289bbc176b49a16baaf3383de01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual22_f+/Materials/casual22_f_25.mat using Guid(47c28289bbc176b49a16baaf3383de01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c415fa25463b4bb3c1076df5bd6ca7ab') in 0.016919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual24_f/casual24_f_20_hair_normal.png
+  artifactKey: Guid(de1814cdf7644254e95aa7fb13fe610f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual24_f/casual24_f_20_hair_normal.png using Guid(de1814cdf7644254e95aa7fb13fe610f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3122e2b1370eaa3bca9b0dccdacaf9ec') in 0.026716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual24_f/casual24_f_20_hair.tga
+  artifactKey: Guid(462d6f243e4531b4690e10eb0a64c008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual24_f/casual24_f_20_hair.tga using Guid(462d6f243e4531b4690e10eb0a64c008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edfe1c7d5237f29151480f7d07afdb5') in 0.030534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual24_f/Materials/casual24_f_20_hair.mat
+  artifactKey: Guid(46a781827eb48c7469fc02b9914c7534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual24_f/Materials/casual24_f_20_hair.mat using Guid(46a781827eb48c7469fc02b9914c7534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3db31e16fb47237976599878770c44') in 0.018193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual24_f/casual24_f_20.png
+  artifactKey: Guid(6a9945af8ead1d944bc111475e76eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual24_f/casual24_f_20.png using Guid(6a9945af8ead1d944bc111475e76eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e9ef36f954daead3156f9773a1c38f') in 0.017245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/child01_f/child01_f_hairnormal.png
+  artifactKey: Guid(fd5d69fcef5de7b41948e7439c971f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/child01_f/child01_f_hairnormal.png using Guid(fd5d69fcef5de7b41948e7439c971f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9164d7ba576b5359f6cd116be043aca') in 0.017642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/child01_f/child01_f.png
+  artifactKey: Guid(3459a56134f2c124c82b58a83b4eaf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/child01_f/child01_f.png using Guid(3459a56134f2c124c82b58a83b4eaf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fe3ba218a11e46deddc031ace6926d') in 0.019755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/child01_f/Materials/child01_f_hair.mat
+  artifactKey: Guid(4c0c6f61b78767a47ad1f35ef87918bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/child01_f/Materials/child01_f_hair.mat using Guid(4c0c6f61b78767a47ad1f35ef87918bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3362fab16e6d2b70e88b33f858a20e3b') in 0.018281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/child02_f/child girl 02.FBX
+  artifactKey: Guid(35e2992fd8e3d4d47b65df6bfa1f1f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/child02_f/child girl 02.FBX using Guid(35e2992fd8e3d4d47b65df6bfa1f1f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ab36e587c34434676fdf70c6583cfc') in 0.055259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual23_f/Materials/casual23_f_35.mat
+  artifactKey: Guid(e146c79789323e14eae5ebaa3d1d3be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual23_f/Materials/casual23_f_35.mat using Guid(e146c79789323e14eae5ebaa3d1d3be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9804c4120a8f8b279c2ed87d7f8770d4') in 0.014670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual23_f/casual23_f_35_normal.png
+  artifactKey: Guid(b1ba105baf17e4d4ea8a2dc92189d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual23_f/casual23_f_35_normal.png using Guid(b1ba105baf17e4d4ea8a2dc92189d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7478a2511ed544ca521fca185f83d7') in 0.022937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/casual25_f/Materials/casual25_f_20.mat
+  artifactKey: Guid(e5004cca4c0354e4abe7917555c6f607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/casual25_f/Materials/casual25_f_20.mat using Guid(e5004cca4c0354e4abe7917555c6f607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef47277b87cede96bc27f6f0f674d29') in 0.011626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.637318 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/child02_f/child02_f_normal.png
+  artifactKey: Guid(a35e523d643be5d4c8c45fd5b917d48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/child02_f/child02_f_normal.png using Guid(a35e523d643be5d4c8c45fd5b917d48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2363f35525f1ad5d9e93bbee004d64') in 0.032914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/granny01/granny01_normal.png
+  artifactKey: Guid(541bfc8f3853dd14ebf555b0233fb33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/granny01/granny01_normal.png using Guid(541bfc8f3853dd14ebf555b0233fb33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4141d871d79eab3c01cc42fcc245d1') in 0.030057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/granny02/granny02_normal.png
+  artifactKey: Guid(fff4a170560a6a04cbd5141cb6f3f1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/granny02/granny02_normal.png using Guid(fff4a170560a6a04cbd5141cb6f3f1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfca4d29024a97b295b0bb4c2da5211a') in 0.019848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/nude01_f/nude01_f_20_normal.png
+  artifactKey: Guid(bd219345ae611f545a9bcee3f9e2f0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/nude01_f/nude01_f_20_normal.png using Guid(bd219345ae611f545a9bcee3f9e2f0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f60b77c07f21c72588a78279224199') in 0.036276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/child02_f/Materials/child02_f_hair.mat
+  artifactKey: Guid(0a9d0165b7e605f4bb43414c0be07bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/child02_f/Materials/child02_f_hair.mat using Guid(0a9d0165b7e605f4bb43414c0be07bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263de4a891b10ca0814ebcc258b63856') in 0.020086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/granny02/granny02.png
+  artifactKey: Guid(a796fda9182323642a5cefeb87b1a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/granny02/granny02.png using Guid(a796fda9182323642a5cefeb87b1a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e68942e6039f92154498bc05267784e') in 0.031092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.749921 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/nude02_f/nude02_f_25.png
+  artifactKey: Guid(e72d20d848c40c541b1877b68b36283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/nude02_f/nude02_f_25.png using Guid(e72d20d848c40c541b1877b68b36283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a4aae0cd1784c0cf4157397eaab2e4') in 0.020105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/nude03_f/nude03_f_25_normal.png
+  artifactKey: Guid(e3f993b8049c7ff4396d53039aaac61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/nude03_f/nude03_f_25_normal.png using Guid(e3f993b8049c7ff4396d53039aaac61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba27af79d31c05fa6a40b7b9c3f8163') in 0.020304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/nude03_f/nude03_f.FBX
+  artifactKey: Guid(5e82954f2eebe504fb707bfac900ada6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/nude03_f/nude03_f.FBX using Guid(5e82954f2eebe504fb707bfac900ada6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1e798f0d20700214104aef3a5505dc') in 0.049211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/nude03_f/Materials/nude03_f_25.mat
+  artifactKey: Guid(7039237a442836245b5f3a9012d04ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/nude03_f/Materials/nude03_f_25.mat using Guid(7039237a442836245b5f3a9012d04ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69c1cc6307e28fac37feb95ca140df4') in 0.024640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/nude04_f/nude04_f.FBX
+  artifactKey: Guid(d284dd4d7454a384ab615a7fca24b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/nude04_f/nude04_f.FBX using Guid(d284dd4d7454a384ab615a7fca24b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f16f40f328311f59cb61903d875ad33') in 0.052386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022288 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/nude04_f/nude04_f_25_hair_normal.png
+  artifactKey: Guid(4b3a974e4a7cee4428d29e60517d33e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/nude04_f/nude04_f_25_hair_normal.png using Guid(4b3a974e4a7cee4428d29e60517d33e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdc9a7271b9d4f45b2ccca9da99d42f') in 0.017135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive01_f/sportive01_f_20_hair.tga
+  artifactKey: Guid(cfca2f504f4e83b46a7f7efea183f48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive01_f/sportive01_f_20_hair.tga using Guid(cfca2f504f4e83b46a7f7efea183f48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa88b6e3ca8f3a4c1b8fe8cfcfbb77e9') in 0.016736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive02_f/sportive02_f_35_hair.tga
+  artifactKey: Guid(52712208700ec8641ae852377a3582ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive02_f/sportive02_f_35_hair.tga using Guid(52712208700ec8641ae852377a3582ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a42c708682d102705069c6e2ce5d7f') in 0.026628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive01_f/Materials/sportive01_f_20.mat
+  artifactKey: Guid(28984290d64f2ec4da139dfd08501204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive01_f/Materials/sportive01_f_20.mat using Guid(28984290d64f2ec4da139dfd08501204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d19e3966ed8eb4628bea27f94cf3c25') in 0.017026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive01_f/Materials/sportive01_f_20_hair.mat
+  artifactKey: Guid(fe71a146e7ba8fd48b557d406c929078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive01_f/Materials/sportive01_f_20_hair.mat using Guid(fe71a146e7ba8fd48b557d406c929078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81be73ea40199ea0655fcff9654d994a') in 0.014233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/nude04_f/Materials/nude04_f_25.mat
+  artifactKey: Guid(e1e67b9442174df49aadd8570a9eb490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/nude04_f/Materials/nude04_f_25.mat using Guid(e1e67b9442174df49aadd8570a9eb490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37849dd44573f7771f08d3a85dff826a') in 0.021229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.870538 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive02_f/Materials/sportive02_f_35.mat
+  artifactKey: Guid(bbe6602f683f5a74ba051a3deb073f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive02_f/Materials/sportive02_f_35.mat using Guid(bbe6602f683f5a74ba051a3deb073f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e8c1db7f0b0c514475ea33cf751ea9') in 0.018520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive04_f/sportive04_f_25_hair.tga
+  artifactKey: Guid(98bc0362b565454498bf84ac014791ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive04_f/sportive04_f_25_hair.tga using Guid(98bc0362b565454498bf84ac014791ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077fc52355d32b4e1a19ddb94a5004ec') in 0.025765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive03_f/Materials/natasha.mat
+  artifactKey: Guid(f61b9d47ecf27ec40b14859dcd788a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive03_f/Materials/natasha.mat using Guid(f61b9d47ecf27ec40b14859dcd788a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203b3a0dca64e5d363b878cb934c65d8') in 0.017823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive03_f/sportive03_f_30_normal.png
+  artifactKey: Guid(9d4dc69d5b651414aa5755371285f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive03_f/sportive03_f_30_normal.png using Guid(9d4dc69d5b651414aa5755371285f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbd572ea7acaaab156640f704adbe54') in 0.019832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive04_f/sportive04_f.FBX
+  artifactKey: Guid(6ece5651118560545bd6cc45efa9adc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive04_f/sportive04_f.FBX using Guid(6ece5651118560545bd6cc45efa9adc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065ed5cffce3f07a13102e864e9ab92c') in 0.063041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057196 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive04_f/Materials/sportive04_f_25_hair.mat
+  artifactKey: Guid(b12a5f3838374a743b83fe134d467700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive04_f/Materials/sportive04_f_25_hair.mat using Guid(b12a5f3838374a743b83fe134d467700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fe182c7c15ccc781d002656cf81fa9') in 0.016943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive05_f/sportive05_f_25_normal.png
+  artifactKey: Guid(3b2e7e76a42a261489f137b45f987ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive05_f/sportive05_f_25_normal.png using Guid(3b2e7e76a42a261489f137b45f987ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259f0ee27bfab180cf98b47aa627b4cd') in 0.017892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive06_f/Materials/sportive06_f_20.mat
+  artifactKey: Guid(864f33f954d7e5848a2d9c4dc60a6a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive06_f/Materials/sportive06_f_20.mat using Guid(864f33f954d7e5848a2d9c4dc60a6a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4e613d563d0db69bafff8317cb7f33') in 0.024379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive05_f/sportive05_f_25_hair.tga
+  artifactKey: Guid(8207396ca8823b14d80d73be7e10b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive05_f/sportive05_f_25_hair.tga using Guid(8207396ca8823b14d80d73be7e10b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73e857dfc50af3e83be880c5873a90b') in 0.019377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Citizens PRO/Models/People 2.0/Female/sportive05_f/Materials/sportive05_f_25_hair.mat
+  artifactKey: Guid(184e316e095991a4d9006d2cbeae716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Citizens PRO/Models/People 2.0/Female/sportive05_f/Materials/sportive05_f_25_hair.mat using Guid(184e316e095991a4d9006d2cbeae716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcee5398a59e27c7a1c1e7e338b7b33') in 0.018637 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 23.53 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (160.6 KB). Loaded Objects now: 6347.
+Memory consumption went from 134.8 MB to 134.7 MB.
+Total: 8.882800 ms (FindLiveObjects: 1.280200 ms CreateObjectMapping: 0.480500 ms MarkObjects: 6.825000 ms  DeleteObjects: 0.295600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017397 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.20 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2774ms)
+		BeginReloadAssembly (293ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (111ms)
+		EndReloadAssembly (2305ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (613ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (246ms)
+			SetupLoadedEditorAssemblies (1024ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (215ms)
+				ProcessInitializeOnLoadAttributes (622ms)
+				ProcessInitializeOnLoadMethodAttributes (144ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 13.11 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (163.2 KB). Loaded Objects now: 6327.
+Memory consumption went from 248.1 MB to 248.0 MB.
+Total: 112.181800 ms (FindLiveObjects: 1.437700 ms CreateObjectMapping: 0.770200 ms MarkObjects: 109.507100 ms  DeleteObjects: 0.464800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 57.38 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (160.7 KB). Loaded Objects now: 6327.
+Memory consumption went from 134.1 MB to 133.9 MB.
+Total: 7.782000 ms (FindLiveObjects: 2.901200 ms CreateObjectMapping: 0.477400 ms MarkObjects: 4.131600 ms  DeleteObjects: 0.270800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013511 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.01 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.079 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2080ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (1706ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (541ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (744ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.76 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (163.3 KB). Loaded Objects now: 6343.
+Memory consumption went from 248.1 MB to 247.9 MB.
+Total: 11.516300 ms (FindLiveObjects: 1.088400 ms CreateObjectMapping: 0.650800 ms MarkObjects: 9.479100 ms  DeleteObjects: 0.296200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012361 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1341ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1112ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (293ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (573ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.24 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (163.2 KB). Loaded Objects now: 6359.
+Memory consumption went from 248.1 MB to 247.9 MB.
+Total: 11.493600 ms (FindLiveObjects: 5.848000 ms CreateObjectMapping: 0.601700 ms MarkObjects: 4.614700 ms  DeleteObjects: 0.427800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022654 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.437 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1438ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1135ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (518ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.02 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (163.3 KB). Loaded Objects now: 6375.
+Memory consumption went from 248.1 MB to 247.9 MB.
+Total: 4.462700 ms (FindLiveObjects: 0.836300 ms CreateObjectMapping: 0.216700 ms MarkObjects: 3.199900 ms  DeleteObjects: 0.209100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017747 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2008ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (1700ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1000ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (558ms)
+				ProcessInitializeOnLoadMethodAttributes (312ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 20.24 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (163.3 KB). Loaded Objects now: 6391.
+Memory consumption went from 248.1 MB to 248.0 MB.
+Total: 8.719600 ms (FindLiveObjects: 2.007700 ms CreateObjectMapping: 0.472800 ms MarkObjects: 5.855000 ms  DeleteObjects: 0.382400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009463 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1342ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.93 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (163.4 KB). Loaded Objects now: 6407.
+Memory consumption went from 248.1 MB to 248.0 MB.
+Total: 5.861500 ms (FindLiveObjects: 0.608900 ms CreateObjectMapping: 0.193600 ms MarkObjects: 4.824400 ms  DeleteObjects: 0.232900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2545.483643 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cc9e2e794e22a7c9e92ae12831a04a') in 0.288621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Fonts/stormfaze/stormfaze SDF.asset
+  artifactKey: Guid(3adc73c1a4af77a46868217ad15e5176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/stormfaze/stormfaze SDF.asset using Guid(3adc73c1a4af77a46868217ad15e5176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc5e9d50f1bd60cf0c7d879655f44a9') in 0.062404 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.82 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (160.6 KB). Loaded Objects now: 6486.
+Memory consumption went from 134.9 MB to 134.8 MB.
+Total: 5.625800 ms (FindLiveObjects: 0.483500 ms CreateObjectMapping: 0.459100 ms MarkObjects: 4.424900 ms  DeleteObjects: 0.257600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016540 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 8.11 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.242 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2242ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1908ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (615ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (877ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (202ms)
+				ProcessInitializeOnLoadAttributes (456ms)
+				ProcessInitializeOnLoadMethodAttributes (155ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.20 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (163.2 KB). Loaded Objects now: 6466.
+Memory consumption went from 248.5 MB to 248.4 MB.
+Total: 7.513300 ms (FindLiveObjects: 1.105800 ms CreateObjectMapping: 0.354000 ms MarkObjects: 5.634400 ms  DeleteObjects: 0.416700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012718 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.365 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1366ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1101ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.29 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (163.4 KB). Loaded Objects now: 6482.
+Memory consumption went from 248.5 MB to 248.3 MB.
+Total: 6.650100 ms (FindLiveObjects: 1.231700 ms CreateObjectMapping: 0.537100 ms MarkObjects: 4.539100 ms  DeleteObjects: 0.341100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 52.00 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (160.7 KB). Loaded Objects now: 6482.
+Memory consumption went from 134.5 MB to 134.4 MB.
+Total: 8.087100 ms (FindLiveObjects: 0.780900 ms CreateObjectMapping: 0.207300 ms MarkObjects: 6.699900 ms  DeleteObjects: 0.397700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014025 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.15 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.934 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1934ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (1553ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (746ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (179ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (163.3 KB). Loaded Objects now: 6498.
+Memory consumption went from 248.5 MB to 248.3 MB.
+Total: 11.602000 ms (FindLiveObjects: 1.000700 ms CreateObjectMapping: 0.653100 ms MarkObjects: 9.468800 ms  DeleteObjects: 0.477400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 24.14 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (160.6 KB). Loaded Objects now: 6498.
+Memory consumption went from 134.5 MB to 134.4 MB.
+Total: 4.325700 ms (FindLiveObjects: 0.506500 ms CreateObjectMapping: 0.145100 ms MarkObjects: 3.386500 ms  DeleteObjects: 0.286900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016011 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2011ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1601ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (799ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (476ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 13.21 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (163.4 KB). Loaded Objects now: 6514.
+Memory consumption went from 248.5 MB to 248.3 MB.
+Total: 7.417500 ms (FindLiveObjects: 0.683900 ms CreateObjectMapping: 0.263100 ms MarkObjects: 5.870000 ms  DeleteObjects: 0.598800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 35.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (160.8 KB). Loaded Objects now: 6514.
+Memory consumption went from 134.5 MB to 134.4 MB.
+Total: 6.145700 ms (FindLiveObjects: 0.875000 ms CreateObjectMapping: 0.535900 ms MarkObjects: 4.394700 ms  DeleteObjects: 0.339200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011074 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\smoya\Documents\Git\DV-Simon-Moyana-Test\DVSimonsTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.86 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1851ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (1499ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (480ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (661ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (374ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 17.74 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5664 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (163.3 KB). Loaded Objects now: 6530.
+Memory consumption went from 248.5 MB to 248.4 MB.
+Total: 9.465800 ms (FindLiveObjects: 0.966800 ms CreateObjectMapping: 0.400400 ms MarkObjects: 7.651900 ms  DeleteObjects: 0.444800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
